@@ -1,0 +1,26 @@
+# ╭──────────────────────────────────────ImplementationGuide───────────────────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see: https://fshschool.org/docs/sushi/configuration/                    │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+id: mit.fhir.mimic
+canonical: http://fhir.mimic.mit.edu
+name: Mimic
+status: draft
+version: 0.1.0
+fhirVersion: 4.0.1
+copyrightYear: 2022+
+releaseLabel: ci-build
+publisher:
+  name: SickKids
+  url: http://fhir.sickkids.ca
+dependencies:
+  hl7.fhir.us.core:
+    id: uscore
+    version: 4.0.0    
+
+# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
+# │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+menu:
+  Home: index.html
+  Artifacts: artifacts.html
