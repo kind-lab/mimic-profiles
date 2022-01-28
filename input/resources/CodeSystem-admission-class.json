@@ -2,7 +2,7 @@
     "resourceType": "CodeSystem",
     "id": "admission-class",
     "language": "en",
-    "url": "http://mimic.fhir.mit.edu/CodeSystem/admission-class",
+    "url": "http://fhir.mimic.mit.edu/CodeSystem/admission-class",
     "version": "0.1.0",
     "name": "AdmissionClass",
     "title": "AdmissionClass",

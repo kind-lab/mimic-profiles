@@ -1,19 +1,57 @@
 {
     "resourceType": "ValueSet",
-    "id": "admission-type",
     "language": "en",
-    "url": "http://mimic.fhir.mit.edu/ValueSet/admission-type",
+    "status": "active",
+    "id": "admission-type",
+    "url": "http://fhir.mimic.mit.edu/ValueSet/admission-type",
     "version": "0.1.0",
     "name": "Admission Type",
     "title": "Admission Type",
     "date": "2022-01-17T00:00:00-04:00",
-    "status": "active",
     "publisher": "SickKids",
     "description": "The admission type codes used in MIMIC",
     "compose": {
         "include": [
             {
-                "system": "http://mimic.fhir.mit.edu/CodeSystem/admission-type"
+                "system": "http://fhir.mimic.mit.edu/CodeSystem/admission-type",
+                "concept": [
+                    {
+                        "code": "EU OBSERVATION",
+                        "display": "EU OBSERVATION"
+                    },
+                    {
+                        "code": "URGENT",
+                        "display": "URGENT"
+                    },
+                    {
+                        "code": "ELECTIVE",
+                        "display": "ELECTIVE"
+                    },
+                    {
+                        "code": "AMBULATORY OBSERVATION",
+                        "display": "AMBULATORY OBSERVATION"
+                    },
+                    {
+                        "code": "SURGICAL SAME DAY ADMISSION",
+                        "display": "SURGICAL SAME DAY ADMISSION"
+                    },
+                    {
+                        "code": "DIRECT OBSERVATION",
+                        "display": "DIRECT OBSERVATION"
+                    },
+                    {
+                        "code": "OBSERVATION ADMIT",
+                        "display": "OBSERVATION ADMIT"
+                    },
+                    {
+                        "code": "DIRECT EMER.",
+                        "display": "DIRECT EMER."
+                    },
+                    {
+                        "code": "EW EMER.",
+                        "display": "EW EMER."
+                    }
+                ]
             }
         ]
     }

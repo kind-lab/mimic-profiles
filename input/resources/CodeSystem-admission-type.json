@@ -2,7 +2,7 @@
     "resourceType": "CodeSystem",
     "id": "admission-type",
     "language": "en",
-    "url": "http://mimic.fhir.mit.edu/CodeSystem/admission-type",
+    "url": "http://fhir.mimic.mit.edu/CodeSystem/admission-type",
     "version": "0.1.0",
     "name": "AdmissionType",
     "title": "AdmissionType",
