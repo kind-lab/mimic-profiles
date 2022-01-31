@@ -1,0 +1,20 @@
+{
+    "resourceType": "ValueSet",
+    "language": "en",
+    "status": "active",
+    "id": "admission-type-icu",
+    "url": "http://fhir.mimic.mit.edu/ValueSet/admission-type-icu",
+    "version": "0.1.0",
+    "name": "Admission Type ICU",
+    "title": "Admission Type ICU",
+    "date": "2022-01-31T00:00:00-04:00",
+    "publisher": "SickKids",
+    "description": "The admission type codes used in ICU for MIMIC",
+    "compose": {
+        "include": [
+            {
+                "system": "http://fhir.mimic.mit.edu/CodeSystem/admission-type-icu"
+            }
+        ]
+    }
+}

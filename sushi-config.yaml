@@ -6,7 +6,7 @@ id: mit.fhir.mimic
 canonical: http://fhir.mimic.mit.edu
 name: Mimic
 status: draft
-version: 0.1.4
+version: 0.1.5
 fhirVersion: 4.0.1
 copyrightYear: 2022+
 releaseLabel: ci-build

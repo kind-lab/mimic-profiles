@@ -1,0 +1,20 @@
+{
+    "resourceType": "ValueSet",
+    "language": "en",
+    "status": "active",
+    "id": "admit-source",
+    "url": "http://fhir.mimic.mit.edu/ValueSet/admit-source",
+    "version": "0.1.0",
+    "name": "Admit Source",
+    "title": "Admit Source",
+    "date": "2022-01-17T00:00:00-04:00",
+    "publisher": "SickKids",
+    "description": "The admit source used in MIMIC",
+    "compose": {
+        "include": [
+            {
+                "system": "http://fhir.mimic.mit.edu/CodeSystem/admit-source"
+            }
+        ]
+    }
+}

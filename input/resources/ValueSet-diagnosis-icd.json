@@ -1,0 +1,23 @@
+{
+    "resourceType": "ValueSet",
+    "language": "en",
+    "status": "active",
+    "id": "diagnosis-icd",
+    "url": "http://fhir.mimic.mit.edu/ValueSet/diagnosis-icd",
+    "version": "0.1.0",
+    "name": "Diagnosis ICD",
+    "title": "Diagnosis ICD",
+    "date": "2022-01-31T00:00:00-04:00",
+    "publisher": "SickKids",
+    "description": "The diagnosis icd codes used in MIMIC",
+    "compose": {
+        "include": [
+            {
+                "system": "http://fhir.mimic.mit.edu/CodeSystem/diagnosis-icd9"
+            },
+            {
+                "system": "http://fhir.mimic.mit.edu/CodeSystem/diagnosis-icd10"
+            }
+        ]
+    }
+}

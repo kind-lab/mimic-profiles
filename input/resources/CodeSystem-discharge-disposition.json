@@ -1,0 +1,68 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "discharge-disposition",
+    "language": "en",
+    "url": "http://fhir.mimic.mit.edu/CodeSystem/discharge-disposition",
+    "version": "0.1.0",
+    "name": "DischargeDisposition",
+    "title": "DischargeDisposition",
+    "date": "2021-12-21T00:00:00-04:00",
+    "status": "active",
+    "publisher": "SickKids",
+    "description": "The discharge disposition for MIMIC",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "ASSISTED LIVING",
+            "display": "ASSISTED LIVING"
+        },
+        {
+            "code": "DIED",
+            "display": "DIED"
+        },
+        {
+            "code": "ACUTE HOSPITAL",
+            "display": "ACUTE HOSPITAL"
+        },
+        {
+            "code": "REHAB",
+            "display": "REHAB"
+        },
+        {
+            "code": "PSYCH FACILITY",
+            "display": "PSYCH FACILITY"
+        },
+        {
+            "code": "HOME",
+            "display": "HOME"
+        },
+        {
+            "code": "AGAINST ADVICE",
+            "display": "AGAINST ADVICE"
+        },
+        {
+            "code": "HOSPICE",
+            "display": "HOSPICE"
+        },
+        {
+            "code": "OTHER FACILITY",
+            "display": "OTHER FACILITY"
+        },
+        {
+            "code": "SKILLED NURSING FACILITY",
+            "display": "SKILLED NURSING FACILITY"
+        },
+        {
+            "code": "CHRONIC/LONG TERM ACUTE CARE",
+            "display": "CHRONIC/LONG TERM ACUTE CARE"
+        },
+        {
+            "code": "HEALTHCARE FACILITY",
+            "display": "HEALTHCARE FACILITY"
+        },
+        {
+            "code": "HOME HEALTH CARE",
+            "display": "HOME HEALTH CARE"
+        }
+    ]
+}

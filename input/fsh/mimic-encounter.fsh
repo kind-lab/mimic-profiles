@@ -4,6 +4,7 @@ Id:             mimic-encounter
 Title:          "MIMIC Encounter"
 Description:    "A MIMIC encounter profile based on US Core Encounter."
 
-class from admission-class
-type from admission-type
-
+* class from admission-class
+* type from admission-type
+* hospitalization.admitSource from admit-source
+* hospitalization.dischargeDisposition from discharge-disposition
