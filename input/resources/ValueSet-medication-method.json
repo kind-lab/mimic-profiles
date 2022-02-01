@@ -1,0 +1,20 @@
+{
+    "resourceType": "ValueSet",
+    "language": "en",
+    "status": "active",
+    "id": "medication-method",
+    "url": "http://fhir.mimic.mit.edu/ValueSet/medication-method",
+    "version": "0.1.0",
+    "name": "Medication Method",
+    "title": "Medication Method",
+    "date": "2022-02-01T00:00:00-04:00",
+    "publisher": "SickKids",
+    "description": "The medication method codes used in MIMIC",
+    "compose": {
+        "include": [
+            {
+                "system": "http://fhir.mimic.mit.edu/CodeSystem/medication-method"
+            }
+        ]
+    }
+}

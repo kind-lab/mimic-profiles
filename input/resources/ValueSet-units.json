@@ -1,0 +1,20 @@
+{
+    "resourceType": "ValueSet",
+    "language": "en",
+    "status": "active",
+    "id": "units",
+    "url": "http://fhir.mimic.mit.edu/ValueSet/units",
+    "version": "0.1.0",
+    "name": "Units",
+    "title": "Units",
+    "date": "2022-02-01T00:00:00-04:00",
+    "publisher": "SickKids",
+    "description": "The units used throughout MIMIC",
+    "compose": {
+        "include": [
+            {
+                "system": "http://fhir.mimic.mit.edu/CodeSystem/units"
+            }
+        ]
+    }
+}

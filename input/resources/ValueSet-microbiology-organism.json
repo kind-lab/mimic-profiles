@@ -1,0 +1,20 @@
+{
+    "resourceType": "ValueSet",
+    "language": "en",
+    "status": "active",
+    "id": "microbiology-organism",
+    "url": "http://fhir.mimic.mit.edu/ValueSet/microbiology-organism",
+    "version": "0.1.0",
+    "name": "Microbiology Organism",
+    "title": "Microbiology Organism",
+    "date": "2022-02-01T00:00:00-04:00",
+    "publisher": "SickKids",
+    "description": "The microbiology organism codes used in MIMIC",
+    "compose": {
+        "include": [
+            {
+                "system": "http://fhir.mimic.mit.edu/CodeSystem/microbiology-organism"
+            }
+        ]
+    }
+}

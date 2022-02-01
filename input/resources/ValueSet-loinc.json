@@ -1,0 +1,20 @@
+{
+    "resourceType": "ValueSet",
+    "language": "en",
+    "status": "active",
+    "id": "loinc",
+    "url": "http://fhir.mimic.mit.edu/ValueSet/loinc",
+    "version": "0.1.0",
+    "name": "Loinc",
+    "title": "Loinc",
+    "date": "2022-02-01T00:00:00-04:00",
+    "publisher": "SickKids",
+    "description": "The Loinc codes used in MIMIC",
+    "compose": {
+        "include": [
+            {
+                "system": "http://fhir.mimic.mit.edu/CodeSystem/loinc"
+            }
+        ]
+    }
+}

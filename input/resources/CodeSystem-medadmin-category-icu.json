@@ -1,0 +1,64 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "medadmin-category-icu",
+    "language": "en",
+    "url": "http://fhir.mimic.mit.edu/CodeSystem/medadmin-category-icu",
+    "version": "0.1.0",
+    "name": "MedAdmin Category ICU",
+    "title": "MedAdmin Category ICU",
+    "date": "2022-02-01T00:00:00-04:00",
+    "status": "active",
+    "publisher": "SickKids",
+    "description": "The medication administration category for the ICU for MIMIC",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "12-Parenteral Nutrition"
+        },
+        {
+            "code": "10-Prophylaxis (IV)"
+        },
+        {
+            "code": "15-Supplements"
+        },
+        {
+            "code": "16-Pre Admission/Non-ICU"
+        },
+        {
+            "code": "04-Fluids (Colloids)"
+        },
+        {
+            "code": "13-Enteral Nutrition"
+        },
+        {
+            "code": "14-Oral/Gastric Intake"
+        },
+        {
+            "code": "08-Antibiotics (IV)"
+        },
+        {
+            "code": "07-Blood Products"
+        },
+        {
+            "code": "09-Antibiotics (Non IV)"
+        },
+        {
+            "code": "06-Insulin (Non IV)"
+        },
+        {
+            "code": "03-IV Fluid Bolus"
+        },
+        {
+            "code": "02-Fluids (Crystalloids)"
+        },
+        {
+            "code": "11-Prophylaxis (Non IV)"
+        },
+        {
+            "code": "05-Med Bolus"
+        },
+        {
+            "code": "01-Drips"
+        }
+    ]
+}

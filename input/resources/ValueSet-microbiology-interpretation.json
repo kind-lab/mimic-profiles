@@ -1,0 +1,20 @@
+{
+    "resourceType": "ValueSet",
+    "language": "en",
+    "status": "active",
+    "id": "microbiology-interpretation",
+    "url": "http://fhir.mimic.mit.edu/ValueSet/microbiology-interpretation",
+    "version": "0.1.0",
+    "name": "Microbiology Interpretation",
+    "title": "Microbiology Interpretation",
+    "date": "2022-02-01T00:00:00-04:00",
+    "publisher": "SickKids",
+    "description": "The microbiology interpretation codes used in MIMIC",
+    "compose": {
+        "include": [
+            {
+                "system": "http://fhir.mimic.mit.edu/CodeSystem/microbiology-interpretation"
+            }
+        ]
+    }
+}

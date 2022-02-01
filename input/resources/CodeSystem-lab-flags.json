@@ -1,0 +1,20 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "lab-flags",
+    "language": "en",
+    "url": "http://fhir.mimic.mit.edu/CodeSystem/lab-flags",
+    "version": "0.1.0",
+    "name": "Lab Flags",
+    "title": "Lab Flags",
+    "date": "2022-02-01T00:00:00-04:00",
+    "status": "active",
+    "publisher": "SickKids",
+    "description": "The lab alarm flags for abnormal lab events in MIMIC",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "abnormal",
+            "display": "abnormal"
+        }
+    ]
+}

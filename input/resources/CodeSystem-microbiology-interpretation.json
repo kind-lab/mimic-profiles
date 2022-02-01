@@ -1,0 +1,32 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "microbiology-interpretation",
+    "language": "en",
+    "url": "http://fhir.mimic.mit.edu/CodeSystem/microbiology-interpretation",
+    "version": "0.1.0",
+    "name": "Microbiology Interpretation",
+    "title": "Microbiology Interpretation",
+    "date": "2022-02-01T00:00:00-04:00",
+    "status": "active",
+    "publisher": "SickKids",
+    "description": "The microbiology result interpretation codes in  MIMIC",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "P",
+            "display": "Pending"
+        },
+        {
+            "code": "S",
+            "display": "Sensitive"
+        },
+        {
+            "code": "R",
+            "display": "Resistant"
+        },
+        {
+            "code": "I",
+            "display": "Intermediate"
+        }
+    ]
+}
