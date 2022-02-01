@@ -1,0 +1,20 @@
+{
+    "resourceType": "ValueSet",
+    "language": "en",
+    "status": "active",
+    "id": "datetime-d-items",
+    "url": "http://fhir.mimic.mit.edu/ValueSet/datetime-d-items",
+    "version": "0.1.0",
+    "name": "Datetime D Items",
+    "title": "Datetime D Items",
+    "date": "2022-02-01T00:00:00-04:00",
+    "publisher": "SickKids",
+    "description": "The datetime item codes used in MIMIC",
+    "compose": {
+        "include": [
+            {
+                "system": "http://fhir.mimic.mit.edu/CodeSystem/datetime-d-items"
+            }
+        ]
+    }
+}
