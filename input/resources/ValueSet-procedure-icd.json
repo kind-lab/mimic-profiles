@@ -1,0 +1,23 @@
+{
+    "resourceType": "ValueSet",
+    "language": "en",
+    "status": "active",
+    "id": "procedure-icd",
+    "url": "http://fhir.mimic.mit.edu/ValueSet/procedure-icd",
+    "version": "0.1.0",
+    "name": "Procedure ICD",
+    "title": "Procedure ICD",
+    "date": "2022-01-31T00:00:00-04:00",
+    "publisher": "SickKids",
+    "description": "The procedure icd codes used in MIMIC",
+    "compose": {
+        "include": [
+            {
+                "system": "http://fhir.mimic.mit.edu/CodeSystem/procedure-icd9"
+            },
+            {
+                "system": "http://fhir.mimic.mit.edu/CodeSystem/procedure-icd10"
+            }
+        ]
+    }
+}

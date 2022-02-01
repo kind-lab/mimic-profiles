@@ -1,0 +1,20 @@
+{
+    "resourceType": "ValueSet",
+    "language": "en",
+    "status": "active",
+    "id": "procedure-category",
+    "url": "http://fhir.mimic.mit.edu/ValueSet/procedure-category",
+    "version": "0.1.0",
+    "name": "Procedure Category",
+    "title": "Procedure Category",
+    "date": "2022-01-31T00:00:00-04:00",
+    "publisher": "SickKids",
+    "description": "The procedure category codes used in MIMIC",
+    "compose": {
+        "include": [
+            {
+                "system": "http://fhir.mimic.mit.edu/CodeSystem/procedure-category"
+            }
+        ]
+    }
+}
