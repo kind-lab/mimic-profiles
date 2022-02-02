@@ -4,5 +4,5 @@ Id:             mimic-observation-lab
 Title:          "MIMIC Observation Lab"
 Description:    "A MIMIC observation lab profile based on US Core observation lab profile"
 
-* code from loinc
+* code from d-labitems
 * interpretation from lab-flags
