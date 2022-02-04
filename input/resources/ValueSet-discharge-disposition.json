@@ -8,7 +8,7 @@
     "name": "Discharge Disposition",
     "title": "Discharge Disposition",
     "date": "2022-01-31T00:00:00-04:00",
-    "publisher": "SickKids",
+    "publisher": "KinD Lab",
     "description": "The discharge disposition used in MIMIC",
     "compose": {
         "include": [

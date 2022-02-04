@@ -8,7 +8,7 @@
     "title": "Medication Route",
     "date": "2022-02-01T00:00:00-04:00",
     "status": "active",
-    "publisher": "SickKids",
+    "publisher": "KinD Lab",
     "description": "The medication route during administration for MIMIC",
     "content": "complete",
     "concept": [

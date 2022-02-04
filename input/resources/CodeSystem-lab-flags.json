@@ -8,7 +8,7 @@
     "title": "Lab Flags",
     "date": "2022-02-01T00:00:00-04:00",
     "status": "active",
-    "publisher": "SickKids",
+    "publisher": "KinD Lab",
     "description": "The lab alarm flags for abnormal lab events in MIMIC",
     "content": "complete",
     "concept": [

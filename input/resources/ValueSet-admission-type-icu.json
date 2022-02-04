@@ -8,7 +8,7 @@
     "name": "Admission Type ICU",
     "title": "Admission Type ICU",
     "date": "2022-01-31T00:00:00-04:00",
-    "publisher": "SickKids",
+    "publisher": "KinD Lab",
     "description": "The admission type codes used in ICU for MIMIC",
     "compose": {
         "include": [

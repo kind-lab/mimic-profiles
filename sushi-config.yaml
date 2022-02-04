@@ -2,17 +2,17 @@
 # │  The properties below are used to create the ImplementationGuide resource. For a list of       │
 # │  supported properties, see: https://fshschool.org/docs/sushi/configuration/                    │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: mit.fhir.mimic
+id: kindlab.fhir.mimic
 canonical: http://fhir.mimic.mit.edu
-name: Mimic
+name: MIMIC
 status: draft
-version: 0.1.5
+version: 0.1.6
 fhirVersion: 4.0.1
 copyrightYear: 2022+
 releaseLabel: ci-build
 publisher:
-  name: SickKids
-  url: http://fhir.sickkids.ca
+  name: KinD Lab
+  url: http://fhir.kindlab.sickkids.ca
 dependencies:
   hl7.fhir.us.core:
     id: uscore

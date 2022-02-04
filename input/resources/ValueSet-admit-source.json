@@ -8,7 +8,7 @@
     "name": "Admit Source",
     "title": "Admit Source",
     "date": "2022-01-17T00:00:00-04:00",
-    "publisher": "SickKids",
+    "publisher": "KinD Lab",
     "description": "The admit source used in MIMIC",
     "compose": {
         "include": [

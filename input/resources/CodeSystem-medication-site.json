@@ -8,7 +8,7 @@
     "title": "Medication Site",
     "date": "2022-02-01T00:00:00-04:00",
     "status": "active",
-    "publisher": "SickKids",
+    "publisher": "KinD Lab",
     "description": "The medication site for administration in MIMIC",
     "content": "complete",
     "concept": [

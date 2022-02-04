@@ -8,7 +8,7 @@
     "name": "Medication Method",
     "title": "Medication Method",
     "date": "2022-02-01T00:00:00-04:00",
-    "publisher": "SickKids",
+    "publisher": "KinD Lab",
     "description": "The medication method codes used in MIMIC",
     "compose": {
         "include": [

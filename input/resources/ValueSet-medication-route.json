@@ -8,7 +8,7 @@
     "name": "Medication Route",
     "title": "Medication Route",
     "date": "2022-02-01T00:00:00-04:00",
-    "publisher": "SickKids",
+    "publisher": "KinD Lab",
     "description": "The medication route codes used in MIMIC",
     "compose": {
         "include": [

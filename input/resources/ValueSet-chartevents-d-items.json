@@ -8,7 +8,7 @@
     "name": "Chartevents D Items",
     "title": "Chartevents D Items",
     "date": "2022-02-02T00:00:00-04:00",
-    "publisher": "SickKids",
+    "publisher": "KinD Lab",
     "description": "The item codes for chartevents used in MIMIC",
     "compose": {
         "include": [

@@ -8,7 +8,7 @@
     "name": "Procedure ICD",
     "title": "Procedure ICD",
     "date": "2022-01-31T00:00:00-04:00",
-    "publisher": "SickKids",
+    "publisher": "KinD Lab",
     "description": "The procedure icd codes used in MIMIC",
     "compose": {
         "include": [

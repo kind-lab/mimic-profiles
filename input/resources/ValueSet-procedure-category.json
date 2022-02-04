@@ -8,7 +8,7 @@
     "name": "Procedure Category",
     "title": "Procedure Category",
     "date": "2022-01-31T00:00:00-04:00",
-    "publisher": "SickKids",
+    "publisher": "KinD Lab",
     "description": "The procedure category codes used in MIMIC",
     "compose": {
         "include": [

@@ -8,7 +8,7 @@
     "name": "Lab Flags",
     "title": "Lab Flags",
     "date": "2022-02-01T00:00:00-04:00",
-    "publisher": "SickKids",
+    "publisher": "KinD Lab",
     "description": "The lab flag codes used in MIMIC",
     "compose": {
         "include": [
