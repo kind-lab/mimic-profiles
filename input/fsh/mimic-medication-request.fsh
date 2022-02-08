@@ -3,3 +3,5 @@ Parent:         MedicationRequest
 Id:             mimic-medication-request
 Title:          "MIMIC Medication Request"
 Description:    "A MIMIC medication request profile based on the base FHIR medication request resource."
+
+* dosageInstruction.timing.code from medication-frequency
