@@ -4,4 +4,4 @@ Id:             mimic-medication
 Title:          "MIMIC Medication"
 Description:    "A MIMIC medication profile based on the base FHIR medication resource."
 
-* code from medication-code
+* code from http://fhir.mimic.mit.edu/ValueSet/medication-code

@@ -4,6 +4,6 @@ Id:             mimic-medication-administration
 Title:          "MIMIC Medication Administration"
 Description:    "A MIMIC medication administration profile based on the base FHIR medication administration resource."
 
-* dosage.method from medication-method
-* dosage.route from medication-route
-* dosage.site from medication-site
+* dosage.method from http://fhir.mimic.mit.edu/ValueSet/medication-method
+* dosage.route from http://fhir.mimic.mit.edu/ValueSet/medication-route
+* dosage.site from http://fhir.mimic.mit.edu/ValueSet/medication-site

@@ -6,7 +6,7 @@ Description:    "A MIMIC encounter profile based on US Core Encounter."
 
 * identifier.system = "http://fhir.mimic.mit.edu/identifier/encounter"  (exactly)
 
-* class from admission-class
-* type from admission-type
-* hospitalization.admitSource from admit-source
-* hospitalization.dischargeDisposition from discharge-disposition
+* class from http://fhir.mimic.mit.edu/ValueSet/admission-class
+* type from http://fhir.mimic.mit.edu/ValueSet/admission-type
+* hospitalization.admitSource from http://fhir.mimic.mit.edu/ValueSet/admit-source
+* hospitalization.dischargeDisposition from http://fhir.mimic.mit.edu/ValueSet/discharge-disposition

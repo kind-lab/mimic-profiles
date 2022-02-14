@@ -14,4 +14,4 @@ Description:    "A MIMIC condition profile based on US Core Condition."
 * category.coding.system = "http://terminology.hl7.org/CodeSystem/condition-category" (exactly)
 * category ^short = "All encounters are assumed to be encounters diagnosis in MIMIC"
 
-* code from diagnosis-icd
+* code from http://fhir.mimic.mit.edu/ValueSet/diagnosis-icd

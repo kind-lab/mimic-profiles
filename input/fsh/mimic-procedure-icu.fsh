@@ -4,6 +4,6 @@ Id:             mimic-procedure-icu
 Title:          "MIMIC Procedure ICU"
 Description:    "A MIMIC procedure ICU profile based on US Core Procedure."
 
-* code from procedure-d-items
-* bodySite from bodysite
-* category from procedure-category
+* code from http://fhir.mimic.mit.edu/ValueSet/procedure-d-items
+* bodySite from http://fhir.mimic.mit.edu/ValueSet/bodysite
+* category from http://fhir.mimic.mit.edu/ValueSet/procedure-category
