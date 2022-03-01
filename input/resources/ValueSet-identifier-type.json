@@ -1,0 +1,20 @@
+{
+    "resourceType": "ValueSet",
+    "language": "en",
+    "status": "active",
+    "id": "identifier-type",
+    "url": "http://fhir.mimic.mit.edu/ValueSet/identifier-type",
+    "version": "0.1.0",
+    "name": "Identifier Type",
+    "title": "Identifier Type",
+    "date": "2022-02-23T00:00:00-04:00",
+    "publisher": "KinD Lab",
+    "description": "The identifier types found in MIMIC",
+    "compose": {
+        "include": [
+            {
+                "system": "http://fhir.mimic.mit.edu/CodeSystem/identifier-type"
+            }
+        ]
+    }
+}
