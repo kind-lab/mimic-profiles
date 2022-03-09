@@ -6,3 +6,10 @@ Description:    "A MIMIC observation microbiology susceptiblity profile based on
 
 * code from http://fhir.mimic.mit.edu/ValueSet/microbiology-antibiotic
 * interpretation from http://fhir.mimic.mit.edu/ValueSet/microbiology-interpretation
+* extension contains DilutionDetails named dilutionDetails 0..1
+
+Extension: DilutionDetails
+Id: dilution-details
+Title: "Dilution Details"
+Description: "The dilution details for microbiology susceptiblity tests"
+* value[x] only Quantity
