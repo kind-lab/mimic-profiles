@@ -4,10 +4,10 @@
     "language": "en",
     "url": "http://fhir.mimic.mit.edu/ValueSet/microbiology-organism",
     "version": "0.4",
-    "name": "Microbiologyorganism",
-    "title": "Microbiologyorganism",
+    "name": "MicrobiologyOrganism",
+    "title": "MicrobiologyOrganism",
     "status": "active",
-    "date": "2022-03-14T12:54:31-04:00",
+    "date": "2022-03-14T14:29:07-04:00",
     "publisher": "KinD Lab",
     "description": "The microbiology organism being tested in MIMIC",
     "compose": {

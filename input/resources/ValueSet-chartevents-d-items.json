@@ -4,10 +4,10 @@
     "language": "en",
     "url": "http://fhir.mimic.mit.edu/ValueSet/chartevents-d-items",
     "version": "0.4",
-    "name": "Charteventsditems",
-    "title": "Charteventsditems",
+    "name": "CharteventsDItems",
+    "title": "CharteventsDItems",
     "status": "active",
-    "date": "2022-03-14T12:54:31-04:00",
+    "date": "2022-03-14T14:29:07-04:00",
     "publisher": "KinD Lab",
     "description": "The item codes for chartevents used in MIMIC",
     "compose": {
