@@ -3,11 +3,11 @@
     "id": "procedure-icd9",
     "language": "en",
     "url": "http://fhir.mimic.mit.edu/CodeSystem/procedure-icd9",
-    "version": "0.1.0",
-    "name": "Procedure ICD9",
-    "title": "Procedure ICD9",
-    "date": "2022-01-31T00:00:00-04:00",
+    "version": "0.4",
+    "name": "Procedureicd9",
+    "title": "Procedureicd9",
     "status": "active",
+    "date": "2022-03-14T12:54:31-04:00",
     "publisher": "KinD Lab",
     "description": "The procedure ICD9 codes for MIMIC",
     "content": "complete",
@@ -5973,6 +5973,10 @@
             "display": "Other and unspecified total abdominal hysterectomy"
         },
         {
+            "code": "8077",
+            "display": "Synovectomy, ankle"
+        },
+        {
             "code": "6851",
             "display": "Laparoscopically assisted vaginal hysterectomy (LAVH)"
         },
@@ -7169,6 +7173,10 @@
             "display": "Open reduction of fracture without internal fixation, carpals and metacarpals"
         },
         {
+            "code": "8078",
+            "display": "Synovectomy, foot and toe"
+        },
+        {
             "code": "7924",
             "display": "Open reduction of fracture without internal fixation, phalanges of hand"
         },
@@ -7559,14 +7567,6 @@
         {
             "code": "8076",
             "display": "Synovectomy, knee"
-        },
-        {
-            "code": "8077",
-            "display": "Synovectomy, ankle"
-        },
-        {
-            "code": "8078",
-            "display": "Synovectomy, foot and toe"
         },
         {
             "code": "8079",

@@ -3,51 +3,41 @@
     "id": "admission-type-icu",
     "language": "en",
     "url": "http://fhir.mimic.mit.edu/CodeSystem/admission-type-icu",
-    "version": "0.1.0",
-    "name": "Admission Type ICU",
-    "title": "Admission Type ICU",
-    "date": "2022-01-31T00:00:00-04:00",
+    "version": "0.4",
+    "name": "Admissiontypeicu",
+    "title": "Admissiontypeicu",
     "status": "active",
+    "date": "2022-03-14T12:54:31-04:00",
     "publisher": "KinD Lab",
     "description": "The admission type for ICU encounters in MIMIC",
     "content": "complete",
-    "caseSensitive": true,
     "concept": [
         {
-            "code": "Coronary Care Unit (CCU)",
-            "display": "Coronary Care Unit (CCU)"
+            "code": "Coronary Care Unit (CCU)"
         },
         {
-            "code": "Surgical Intensive Care Unit (SICU)",
-            "display": "Surgical Intensive Care Unit (SICU)"
+            "code": "Surgical Intensive Care Unit (SICU)"
         },
         {
-            "code": "Neuro Intermediate",
-            "display": "Neuro Intermediate"
+            "code": "Neuro Intermediate"
         },
         {
-            "code": "Neuro Stepdown",
-            "display": "Neuro Stepdown"
+            "code": "Neuro Stepdown"
         },
         {
-            "code": "Neuro Surgical Intensive Care Unit (Neuro SICU)",
-            "display": "Neuro Surgical Intensive Care Unit (Neuro SICU)"
+            "code": "Neuro Surgical Intensive Care Unit (Neuro SICU)"
         },
         {
-            "code": "Cardiac Vascular Intensive Care Unit (CVICU)",
-            "display": "Cardiac Vascular Intensive Care Unit (CVICU)"
+            "code": "Cardiac Vascular Intensive Care Unit (CVICU)"
         },
         {
-            "code": "Trauma SICU (TSICU)",
-            "display": "Trauma SICU (TSICU)"
+            "code": "Trauma SICU (TSICU)"
         },
         {
-            "code": "Medical Intensive Care Unit (MICU)",
-            "display": "Medical Intensive Care Unit (MICU)"
+            "code": "Medical Intensive Care Unit (MICU)"
         },
         {
-            "code": "Medical/Surgical Intensive Care Unit (MICU/SICU)",
-            "display": "Medical/Surgical Intensive Care Unit (MICU/SICU)"
+            "code": "Medical/Surgical Intensive Care Unit (MICU/SICU)"
         }
     ]
 }

@@ -3,51 +3,41 @@
     "id": "admission-class",
     "language": "en",
     "url": "http://fhir.mimic.mit.edu/CodeSystem/admission-class",
-    "version": "0.1.0",
-    "name": "AdmissionClass",
-    "title": "AdmissionClass",
-    "date": "2021-12-21T00:00:00-04:00",
+    "version": "0.4",
+    "name": "Admissionclass",
+    "title": "Admissionclass",
     "status": "active",
+    "date": "2022-03-14T12:54:31-04:00",
     "publisher": "KinD Lab",
     "description": "The admission class for MIMIC",
     "content": "complete",
-    "caseSensitive": true,
     "concept": [
         {
-            "code": "EU OBSERVATION",
-            "display": "EU OBSERVATION"
+            "code": "EU OBSERVATION"
         },
         {
-            "code": "URGENT",
-            "display": "URGENT"
+            "code": "URGENT"
         },
         {
-            "code": "ELECTIVE",
-            "display": "ELECTIVE"
+            "code": "ELECTIVE"
         },
         {
-            "code": "AMBULATORY OBSERVATION",
-            "display": "AMBULATORY OBSERVATION"
+            "code": "AMBULATORY OBSERVATION"
         },
         {
-            "code": "SURGICAL SAME DAY ADMISSION",
-            "display": "SURGICAL SAME DAY ADMISSION"
+            "code": "SURGICAL SAME DAY ADMISSION"
         },
         {
-            "code": "DIRECT OBSERVATION",
-            "display": "DIRECT OBSERVATION"
+            "code": "DIRECT OBSERVATION"
         },
         {
-            "code": "OBSERVATION ADMIT",
-            "display": "OBSERVATION ADMIT"
+            "code": "OBSERVATION ADMIT"
         },
         {
-            "code": "DIRECT EMER.",
-            "display": "DIRECT EMER."
+            "code": "DIRECT EMER."
         },
         {
-            "code": "EW EMER.",
-            "display": "EW EMER."
+            "code": "EW EMER."
         }
     ]
 }

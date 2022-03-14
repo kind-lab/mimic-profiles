@@ -1,15 +1,15 @@
 {
     "resourceType": "ValueSet",
-    "language": "en",
-    "status": "active",
     "id": "medication-method",
+    "language": "en",
     "url": "http://fhir.mimic.mit.edu/ValueSet/medication-method",
-    "version": "0.1.0",
-    "name": "Medication Method",
-    "title": "Medication Method",
-    "date": "2022-02-01T00:00:00-04:00",
+    "version": "0.4",
+    "name": "Medicationmethod",
+    "title": "Medicationmethod",
+    "status": "active",
+    "date": "2022-03-14T12:54:31-04:00",
     "publisher": "KinD Lab",
-    "description": "The medication method codes used in MIMIC",
+    "description": "The medication delivery method for MIMIC",
     "compose": {
         "include": [
             {

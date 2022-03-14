@@ -1,15 +1,15 @@
 {
     "resourceType": "ValueSet",
-    "language": "en",
-    "status": "active",
     "id": "discharge-disposition",
+    "language": "en",
     "url": "http://fhir.mimic.mit.edu/ValueSet/discharge-disposition",
-    "version": "0.1.0",
-    "name": "Discharge Disposition",
-    "title": "Discharge Disposition",
-    "date": "2022-01-31T00:00:00-04:00",
+    "version": "0.4",
+    "name": "Dischargedisposition",
+    "title": "Dischargedisposition",
+    "status": "active",
+    "date": "2022-03-14T12:54:31-04:00",
     "publisher": "KinD Lab",
-    "description": "The discharge disposition used in MIMIC",
+    "description": "The discharge disposition for MIMIC",
     "compose": {
         "include": [
             {

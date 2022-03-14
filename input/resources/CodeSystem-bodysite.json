@@ -3,18 +3,15 @@
     "id": "bodysite",
     "language": "en",
     "url": "http://fhir.mimic.mit.edu/CodeSystem/bodysite",
-    "version": "0.1.0",
+    "version": "0.4",
     "name": "Bodysite",
     "title": "Bodysite",
-    "date": "2022-01-31T00:00:00-04:00",
     "status": "active",
+    "date": "2022-03-14T12:54:31-04:00",
     "publisher": "KinD Lab",
     "description": "The bodysite codes for MIMIC",
     "content": "complete",
     "concept": [
-        {
-            "code": "Left IJ"
-        },
         {
             "code": "Right Ulnar"
         },
@@ -338,6 +335,9 @@
         },
         {
             "code": "LL Post Forearm"
+        },
+        {
+            "code": "Left IJ"
         }
     ]
 }

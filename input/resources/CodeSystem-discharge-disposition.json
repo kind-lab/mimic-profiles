@@ -3,66 +3,53 @@
     "id": "discharge-disposition",
     "language": "en",
     "url": "http://fhir.mimic.mit.edu/CodeSystem/discharge-disposition",
-    "version": "0.1.0",
-    "name": "DischargeDisposition",
-    "title": "DischargeDisposition",
-    "date": "2021-12-21T00:00:00-04:00",
+    "version": "0.4",
+    "name": "Dischargedisposition",
+    "title": "Dischargedisposition",
     "status": "active",
+    "date": "2022-03-14T12:54:31-04:00",
     "publisher": "KinD Lab",
     "description": "The discharge disposition for MIMIC",
     "content": "complete",
     "concept": [
         {
-            "code": "ASSISTED LIVING",
-            "display": "ASSISTED LIVING"
+            "code": "ASSISTED LIVING"
         },
         {
-            "code": "DIED",
-            "display": "DIED"
+            "code": "AGAINST ADVICE"
         },
         {
-            "code": "ACUTE HOSPITAL",
-            "display": "ACUTE HOSPITAL"
+            "code": "DIED"
         },
         {
-            "code": "REHAB",
-            "display": "REHAB"
+            "code": "HOSPICE"
         },
         {
-            "code": "PSYCH FACILITY",
-            "display": "PSYCH FACILITY"
+            "code": "ACUTE HOSPITAL"
         },
         {
-            "code": "HOME",
-            "display": "HOME"
+            "code": "REHAB"
         },
         {
-            "code": "AGAINST ADVICE",
-            "display": "AGAINST ADVICE"
+            "code": "OTHER FACILITY"
         },
         {
-            "code": "HOSPICE",
-            "display": "HOSPICE"
+            "code": "SKILLED NURSING FACILITY"
         },
         {
-            "code": "OTHER FACILITY",
-            "display": "OTHER FACILITY"
+            "code": "PSYCH FACILITY"
         },
         {
-            "code": "SKILLED NURSING FACILITY",
-            "display": "SKILLED NURSING FACILITY"
+            "code": "CHRONIC/LONG TERM ACUTE CARE"
         },
         {
-            "code": "CHRONIC/LONG TERM ACUTE CARE",
-            "display": "CHRONIC/LONG TERM ACUTE CARE"
+            "code": "HEALTHCARE FACILITY"
         },
         {
-            "code": "HEALTHCARE FACILITY",
-            "display": "HEALTHCARE FACILITY"
+            "code": "HOME HEALTH CARE"
         },
         {
-            "code": "HOME HEALTH CARE",
-            "display": "HOME HEALTH CARE"
+            "code": "HOME"
         }
     ]
 }

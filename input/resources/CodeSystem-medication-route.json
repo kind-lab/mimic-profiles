@@ -3,11 +3,11 @@
     "id": "medication-route",
     "language": "en",
     "url": "http://fhir.mimic.mit.edu/CodeSystem/medication-route",
-    "version": "0.1.0",
-    "name": "Medication Route",
-    "title": "Medication Route",
-    "date": "2022-02-01T00:00:00-04:00",
+    "version": "0.4",
+    "name": "Medicationroute",
+    "title": "Medicationroute",
     "status": "active",
+    "date": "2022-03-14T12:54:31-04:00",
     "publisher": "KinD Lab",
     "description": "The medication route during administration for MIMIC",
     "content": "complete",
@@ -37,10 +37,10 @@
             "code": "BOTH EARS"
         },
         {
-            "code": "AU"
+            "code": "NS"
         },
         {
-            "code": "NS"
+            "code": "AU"
         },
         {
             "code": "OU"
@@ -73,10 +73,10 @@
             "code": "ITPCA"
         },
         {
-            "code": "PICC"
+            "code": "IJ"
         },
         {
-            "code": "IJ"
+            "code": "PICC"
         },
         {
             "code": "TRANSDERMAL"
@@ -211,16 +211,16 @@
             "code": "NEB"
         },
         {
-            "code": "DLUVC"
-        },
-        {
-            "code": "UVC"
-        },
-        {
             "code": "LOCK"
         },
         {
             "code": "IO"
+        },
+        {
+            "code": "DLUVC"
+        },
+        {
+            "code": "UVC"
         },
         {
             "code": "OG"
@@ -316,13 +316,13 @@
             "code": "PO"
         },
         {
-            "code": "PAL"
-        },
-        {
             "code": "RIGHT EAR"
         },
         {
             "code": "IU"
+        },
+        {
+            "code": "PAL"
         },
         {
             "code": "PO/NG"
@@ -331,13 +331,13 @@
             "code": "CVL"
         },
         {
+            "code": "PO OR ENTERAL TUBE"
+        },
+        {
             "code": "INTRAVITREAL"
         },
         {
             "code": "SIDE PORT"
-        },
-        {
-            "code": "PO OR ENTERAL TUBE"
         },
         {
             "code": "FEMORAL VEIN"
@@ -346,10 +346,10 @@
             "code": "IV"
         },
         {
-            "code": "REPLACE"
+            "code": "IA"
         },
         {
-            "code": "IA"
+            "code": "REPLACE"
         },
         {
             "code": "LEFT EYE"

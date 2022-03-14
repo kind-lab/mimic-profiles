@@ -1,15 +1,15 @@
 {
     "resourceType": "ValueSet",
-    "language": "en",
-    "status": "active",
     "id": "medication-site",
+    "language": "en",
     "url": "http://fhir.mimic.mit.edu/ValueSet/medication-site",
-    "version": "0.1.0",
-    "name": "Medication Site",
-    "title": "Medication Site",
-    "date": "2022-02-01T00:00:00-04:00",
+    "version": "0.4",
+    "name": "Medicationsite",
+    "title": "Medicationsite",
+    "status": "active",
+    "date": "2022-03-14T12:54:31-04:00",
     "publisher": "KinD Lab",
-    "description": "The medication site codes used in MIMIC",
+    "description": "The medication site for administration in MIMIC",
     "compose": {
         "include": [
             {

@@ -1,15 +1,15 @@
 {
     "resourceType": "ValueSet",
-    "id": "outputevents-d-items",
+    "id": "datetimeevents-d-items",
     "language": "en",
-    "url": "http://fhir.mimic.mit.edu/ValueSet/outputevents-d-items",
+    "url": "http://fhir.mimic.mit.edu/ValueSet/datetimeevents-d-items",
     "version": "0.4",
-    "name": "Outputeventsditems",
-    "title": "Outputeventsditems",
+    "name": "Datetimeeventsditems",
+    "title": "Datetimeeventsditems",
     "status": "active",
     "date": "2022-03-14T12:54:31-04:00",
     "publisher": "KinD Lab",
-    "description": "The item codes for outputevents used in MIMIC",
+    "description": "The datetime item codes used in MIMIC",
     "compose": {
         "include": [
             {

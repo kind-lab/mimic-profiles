@@ -3,11 +3,11 @@
     "id": "medication-method",
     "language": "en",
     "url": "http://fhir.mimic.mit.edu/CodeSystem/medication-method",
-    "version": "0.1.0",
-    "name": "Medication Method",
-    "title": "Medication Method",
-    "date": "2022-01-31T00:00:00-04:00",
+    "version": "0.4",
+    "name": "Medicationmethod",
+    "title": "Medicationmethod",
     "status": "active",
+    "date": "2022-03-14T12:54:31-04:00",
     "publisher": "KinD Lab",
     "description": "The medication delivery method for MIMIC",
     "content": "complete",
@@ -28,10 +28,10 @@
             "code": "in Other Location"
         },
         {
-            "code": "Not Assessed"
+            "code": "Delayed Assessed"
         },
         {
-            "code": "Delayed Assessed"
+            "code": "Not Assessed"
         },
         {
             "code": "Administered in Other Location"
@@ -43,31 +43,28 @@
             "code": "Started"
         },
         {
-            "code": "Delayed Started"
-        },
-        {
             "code": "Removed - Unscheduled"
         },
         {
-            "code": "Not Given per Sliding Scale"
-        },
-        {
-            "code": "Not Started"
+            "code": "Delayed Started"
         },
         {
             "code": "Not Given per Sliding Scale in Other Location"
         },
         {
-            "code": "Stopped - Unscheduled in Other Location"
+            "code": "Not Started"
+        },
+        {
+            "code": "Not Given per Sliding Scale"
         },
         {
             "code": "Partial"
         },
         {
-            "code": "Restarted"
+            "code": "Stopped - Unscheduled in Other Location"
         },
         {
-            "code": "Continuous Med"
+            "code": "Restarted"
         },
         {
             "code": "Started in Other Location"
@@ -76,34 +73,34 @@
             "code": "Delayed Not Assessed"
         },
         {
-            "code": "Infusion Reconciliation"
-        },
-        {
             "code": "Removed in Other Location"
         },
         {
-            "code": "Not Confirmed"
+            "code": "Infusion Reconciliation"
         },
         {
             "code": "Read in Other Location"
         },
         {
-            "code": "Confirmed in Other Location"
-        },
-        {
-            "code": "TPN Rate Not Changed"
+            "code": "Not Confirmed"
         },
         {
             "code": "Delayed Not Stopped"
         },
         {
+            "code": "TPN Rate Not Changed"
+        },
+        {
+            "code": "Confirmed in Other Location"
+        },
+        {
             "code": "Delayed Not Started"
         },
         {
-            "code": "Confirmed"
+            "code": "Stopped - Unscheduled"
         },
         {
-            "code": "Stopped - Unscheduled"
+            "code": "Confirmed"
         },
         {
             "code": "Stopped"
@@ -112,67 +109,61 @@
             "code": "Not Flushed"
         },
         {
-            "code": "Drug Push"
-        },
-        {
             "code": "Rate Change in Other Location"
-        },
-        {
-            "code": "Administered"
-        },
-        {
-            "code": "Applied in Other Location"
         },
         {
             "code": "Delayed Rate Change"
         },
         {
-            "code": "Not Given"
+            "code": "Applied in Other Location"
+        },
+        {
+            "code": "Administered"
         },
         {
             "code": "Delayed Not Flushed"
         },
         {
-            "code": "Administered Bolus from IV Drip"
-        },
-        {
-            "code": "Rate Change"
+            "code": "Not Given"
         },
         {
             "code": "Not Started per Sliding Scale"
         },
         {
-            "code": "Assessed in Other Location"
+            "code": "Rate Change"
         },
         {
-            "code": "Delayed Not Removed"
+            "code": "Administered Bolus from IV Drip"
         },
         {
             "code": "Not Stopped per Sliding Scale"
         },
         {
+            "code": "Delayed Not Removed"
+        },
+        {
+            "code": "Assessed in Other Location"
+        },
+        {
             "code": "Restarted in Other Location"
-        },
-        {
-            "code": "Delayed Administered"
-        },
-        {
-            "code": "Delayed Flushed"
         },
         {
             "code": "Delayed Stopped"
         },
         {
-            "code": "Bolus"
+            "code": "Delayed Flushed"
+        },
+        {
+            "code": "Delayed Administered"
         },
         {
             "code": "Removed"
         },
         {
-            "code": "Stopped in Other Location"
+            "code": "Delayed Stopped As Directed"
         },
         {
-            "code": "Delayed Stopped As Directed"
+            "code": "Stopped in Other Location"
         },
         {
             "code": "Flushed in Other Location"
@@ -181,22 +172,16 @@
             "code": "Not Stopped"
         },
         {
-            "code": "Delayed Confirmed"
+            "code": "Delayed Not Applied"
         },
         {
-            "code": "Delayed Not Applied"
+            "code": "Delayed Confirmed"
         },
         {
             "code": "Not Removed"
         },
         {
-            "code": "Non Iv Meds"
-        },
-        {
             "code": "Delayed Not Confirmed"
-        },
-        {
-            "code": "Continuous IV"
         },
         {
             "code": "Not Applied"
@@ -205,13 +190,13 @@
             "code": "Flushed"
         },
         {
-            "code": "Removed Existing / Applied New"
+            "code": "Not Read"
         },
         {
             "code": "Removed Existing / Applied New in Other Location"
         },
         {
-            "code": "Not Read"
+            "code": "Removed Existing / Applied New"
         },
         {
             "code": "Infusion Reconciliation Not Done"
@@ -236,6 +221,21 @@
         },
         {
             "code": "Documented in O.R. Holding"
+        },
+        {
+            "code": "Non Iv Meds"
+        },
+        {
+            "code": "Drug Push"
+        },
+        {
+            "code": "Continuous Med"
+        },
+        {
+            "code": "Bolus"
+        },
+        {
+            "code": "Continuous IV"
         }
     ]
 }

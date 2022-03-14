@@ -3,58 +3,47 @@
     "id": "admit-source",
     "language": "en",
     "url": "http://fhir.mimic.mit.edu/CodeSystem/admit-source",
-    "version": "0.1.0",
-    "name": "AdmitSource",
-    "title": "AdmitSource",
-    "date": "2021-12-21T00:00:00-04:00",
+    "version": "0.4",
+    "name": "Admitsource",
+    "title": "Admitsource",
     "status": "active",
+    "date": "2022-03-14T12:54:31-04:00",
     "publisher": "KinD Lab",
     "description": "The admission source for MIMIC",
     "content": "complete",
     "concept": [
         {
-            "code": "AMBULATORY SURGERY TRANSFER",
-            "display": "AMBULATORY SURGERY TRANSFER"
+            "code": "AMBULATORY SURGERY TRANSFER"
         },
         {
-            "code": "TRANSFER FROM SKILLED NURSING FACILITY",
-            "display": "TRANSFER FROM SKILLED NURSING FACILITY"
+            "code": "TRANSFER FROM SKILLED NURSING FACILITY"
         },
         {
-            "code": "PROCEDURE SITE",
-            "display": "PROCEDURE SITE"
+            "code": "PROCEDURE SITE"
         },
         {
-            "code": "WALK-IN/SELF REFERRAL",
-            "display": "WALK-IN/SELF REFERRAL"
+            "code": "WALK-IN/SELF REFERRAL"
         },
         {
-            "code": "INTERNAL TRANSFER TO OR FROM PSYCH",
-            "display": "INTERNAL TRANSFER TO OR FROM PSYCH"
+            "code": "INTERNAL TRANSFER TO OR FROM PSYCH"
         },
         {
-            "code": "PHYSICIAN REFERRAL",
-            "display": "PHYSICIAN REFERRAL"
+            "code": "PHYSICIAN REFERRAL"
         },
         {
-            "code": "INFORMATION NOT AVAILABLE",
-            "display": "INFORMATION NOT AVAILABLE"
+            "code": "INFORMATION NOT AVAILABLE"
         },
         {
-            "code": "PACU",
-            "display": "PACU"
+            "code": "PACU"
         },
         {
-            "code": "EMERGENCY ROOM",
-            "display": "EMERGENCY ROOM"
+            "code": "EMERGENCY ROOM"
         },
         {
-            "code": "CLINIC REFERRAL",
-            "display": "CLINIC REFERRAL"
+            "code": "CLINIC REFERRAL"
         },
         {
-            "code": "TRANSFER FROM HOSPITAL",
-            "display": "TRANSFER FROM HOSPITAL"
+            "code": "TRANSFER FROM HOSPITAL"
         }
     ]
 }

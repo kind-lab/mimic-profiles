@@ -3,11 +3,11 @@
     "id": "microbiology-organism",
     "language": "en",
     "url": "http://fhir.mimic.mit.edu/CodeSystem/microbiology-organism",
-    "version": "0.1.0",
-    "name": "Microbiology Organism",
-    "title": "Microbiology Organism",
-    "date": "2022-02-01T00:00:00-04:00",
+    "version": "0.4",
+    "name": "Microbiologyorganism",
+    "title": "Microbiologyorganism",
     "status": "active",
+    "date": "2022-03-14T12:54:31-04:00",
     "publisher": "KinD Lab",
     "description": "The microbiology organism being tested in MIMIC",
     "content": "complete",
@@ -377,12 +377,12 @@
             "display": "SALMONELLA OSLO"
         },
         {
-            "code": "90461",
-            "display": "KINGELLA SPECIES"
-        },
-        {
             "code": "80052",
             "display": "ALPHA STREPTOCOCCI"
+        },
+        {
+            "code": "90461",
+            "display": "KINGELLA SPECIES"
         },
         {
             "code": "80008",
@@ -466,7 +466,7 @@
         },
         {
             "code": "80220",
-            "display": "AFB GROWN IN CULTURE"
+            "display": "AFB GROWN IN CULTURE; ADDITIONAL INFORMATION TO FOLLOW"
         },
         {
             "code": "90392",
@@ -1498,7 +1498,7 @@
         },
         {
             "code": "90840",
-            "display": "S. AUREUS POSITIVE"
+            "display": "S. AUREUS POSITIVE; MRSA POSITIVE"
         },
         {
             "code": "90814",
@@ -2190,7 +2190,7 @@
         },
         {
             "code": "80281",
-            "display": "BACILLUS SPECIES"
+            "display": "BACILLUS SPECIES; NOT ANTHRACIS"
         },
         {
             "code": "80126",
@@ -2510,7 +2510,7 @@
         },
         {
             "code": "90849",
-            "display": "S. AUREUS POSITIVE"
+            "display": "S. AUREUS POSITIVE; MRSA NEGATIVE"
         },
         {
             "code": "80242",

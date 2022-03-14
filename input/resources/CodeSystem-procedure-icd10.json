@@ -3,11 +3,11 @@
     "id": "procedure-icd10",
     "language": "en",
     "url": "http://fhir.mimic.mit.edu/CodeSystem/procedure-icd10",
-    "version": "0.1.0",
-    "name": "Procedure ICD10",
-    "title": "Procedure ICD10",
-    "date": "2022-01-31T00:00:00-04:00",
+    "version": "0.4",
+    "name": "Procedureicd10",
+    "title": "Procedureicd10",
     "status": "active",
+    "date": "2022-03-14T12:54:31-04:00",
     "publisher": "KinD Lab",
     "description": "The procedure ICD10 codes for MIMIC",
     "content": "complete",
@@ -339,6 +339,10 @@
         {
             "code": "00B60ZX",
             "display": "Excision of Cerebral Ventricle, Open Approach, Diagnostic"
+        },
+        {
+            "code": "B412ZZZ",
+            "display": "Fluoroscopy of Hepatic Artery"
         },
         {
             "code": "00B60ZZ",
@@ -1609,6 +1613,10 @@
             "display": "Dilation of Coronary Artery, One Artery with Two Drug-eluting Intraluminal Devices, Open Approach"
         },
         {
+            "code": "02BD0ZZ",
+            "display": "Excision of Papillary Muscle, Open Approach"
+        },
+        {
             "code": "0270346",
             "display": "Dilation of Coronary Artery, One Artery, Bifurcation, with Drug-eluting Intraluminal Device, Percutaneous Approach"
         },
@@ -1863,10 +1871,6 @@
         {
             "code": "02BD0ZX",
             "display": "Excision of Papillary Muscle, Open Approach, Diagnostic"
-        },
-        {
-            "code": "02BD0ZZ",
-            "display": "Excision of Papillary Muscle, Open Approach"
         },
         {
             "code": "02BD3ZX",
@@ -3057,6 +3061,10 @@
             "display": "Bypass Right Brachial Artery to Lower Arm Vein with Autologous Venous Tissue, Open Approach"
         },
         {
+            "code": "04BP0ZZ",
+            "display": "Excision of Right Anterior Tibial Artery, Open Approach"
+        },
+        {
             "code": "03170AD",
             "display": "Bypass Right Brachial Artery to Upper Arm Vein with Autologous Arterial Tissue, Open Approach"
         },
@@ -3627,6 +3635,10 @@
         {
             "code": "03CG0ZZ",
             "display": "Extirpation of Matter from Intracranial Artery, Open Approach"
+        },
+        {
+            "code": "04BQ0ZZ",
+            "display": "Excision of Left Anterior Tibial Artery, Open Approach"
         },
         {
             "code": "03CG3Z6",
@@ -4713,6 +4725,10 @@
             "display": "Bypass Left Femoral Artery to Lower Extremity Artery with Autologous Venous Tissue, Open Approach"
         },
         {
+            "code": "04BU0ZZ",
+            "display": "Excision of Left Peroneal Artery, Open Approach"
+        },
+        {
             "code": "041L0AH",
             "display": "Bypass Left Femoral Artery to Right Femoral Artery with Autologous Arterial Tissue, Open Approach"
         },
@@ -5477,6 +5493,10 @@
             "display": "Dilation of Left Popliteal Artery with Intraluminal Device, Open Approach"
         },
         {
+            "code": "04BY0ZZ",
+            "display": "Excision of Lower Artery, Open Approach"
+        },
+        {
             "code": "047N341",
             "display": "Dilation of Left Popliteal Artery with Drug-eluting Intraluminal Device, using Drug-Coated Balloon, Percutaneous Approach"
         },
@@ -5759,22 +5779,6 @@
         {
             "code": "04BN0ZZ",
             "display": "Excision of Left Popliteal Artery, Open Approach"
-        },
-        {
-            "code": "04BP0ZZ",
-            "display": "Excision of Right Anterior Tibial Artery, Open Approach"
-        },
-        {
-            "code": "04BQ0ZZ",
-            "display": "Excision of Left Anterior Tibial Artery, Open Approach"
-        },
-        {
-            "code": "04BU0ZZ",
-            "display": "Excision of Left Peroneal Artery, Open Approach"
-        },
-        {
-            "code": "04BY0ZZ",
-            "display": "Excision of Lower Artery, Open Approach"
         },
         {
             "code": "04BY4ZZ",
@@ -6063,6 +6067,10 @@
         {
             "code": "04HH0DZ",
             "display": "Insertion of Intraluminal Device into Right External Iliac Artery, Open Approach"
+        },
+        {
+            "code": "04LY0ZZ",
+            "display": "Occlusion of Lower Artery, Open Approach"
         },
         {
             "code": "04HH33Z",
@@ -6355,10 +6363,6 @@
         {
             "code": "04LU0ZZ",
             "display": "Occlusion of Left Peroneal Artery, Open Approach"
-        },
-        {
-            "code": "04LY0ZZ",
-            "display": "Occlusion of Lower Artery, Open Approach"
         },
         {
             "code": "04LY3DZ",
@@ -16617,6 +16621,10 @@
             "display": "Dilation of Right Hepatic Duct with Intraluminal Device, Via Natural or Artificial Opening"
         },
         {
+            "code": "0FBC0ZX",
+            "display": "Excision of Ampulla of Vater, Open Approach, Diagnostic"
+        },
+        {
             "code": "0F758DZ",
             "display": "Dilation of Right Hepatic Duct with Intraluminal Device, Via Natural or Artificial Opening Endoscopic"
         },
@@ -17219,10 +17227,6 @@
         {
             "code": "0FB98ZX",
             "display": "Excision of Common Bile Duct, Via Natural or Artificial Opening Endoscopic, Diagnostic"
-        },
-        {
-            "code": "0FBC0ZX",
-            "display": "Excision of Ampulla of Vater, Open Approach, Diagnostic"
         },
         {
             "code": "0FBC0ZZ",
@@ -19197,6 +19201,10 @@
             "display": "Replacement of Right Lower Arm Skin with Nonautologous Tissue Substitute, Full Thickness, External Approach"
         },
         {
+            "code": "0HUU0JZ",
+            "display": "Supplement Left Breast with Synthetic Substitute, Open Approach"
+        },
+        {
             "code": "0HREX73",
             "display": "Replacement of Left Lower Arm Skin with Autologous Tissue Substitute, Full Thickness, External Approach"
         },
@@ -19451,10 +19459,6 @@
         {
             "code": "0HUT37Z",
             "display": "Supplement Right Breast with Autologous Tissue Substitute, Percutaneous Approach"
-        },
-        {
-            "code": "0HUU0JZ",
-            "display": "Supplement Left Breast with Synthetic Substitute, Open Approach"
         },
         {
             "code": "0HUU37Z",
@@ -19755,6 +19759,10 @@
         {
             "code": "0J943ZZ",
             "display": "Drainage of Right Neck Subcutaneous Tissue and Fascia, Percutaneous Approach"
+        },
+        {
+            "code": "0K9G0ZX",
+            "display": "Drainage of Left Trunk Muscle, Open Approach, Diagnostic"
         },
         {
             "code": "0J9500Z",
@@ -20555,6 +20563,10 @@
         {
             "code": "0JD50ZZ",
             "display": "Extraction of Left Neck Subcutaneous Tissue and Fascia, Open Approach"
+        },
+        {
+            "code": "0K9G0ZZ",
+            "display": "Drainage of Left Trunk Muscle, Open Approach"
         },
         {
             "code": "0JD60ZZ",
@@ -21823,14 +21835,6 @@
         {
             "code": "0K9F3ZZ",
             "display": "Drainage of Right Trunk Muscle, Percutaneous Approach"
-        },
-        {
-            "code": "0K9G0ZX",
-            "display": "Drainage of Left Trunk Muscle, Open Approach, Diagnostic"
-        },
-        {
-            "code": "0K9G0ZZ",
-            "display": "Drainage of Left Trunk Muscle, Open Approach"
         },
         {
             "code": "0K9G30Z",
@@ -26717,6 +26721,10 @@
             "display": "Removal of External Fixation Device from Left Femoral Shaft, External Approach"
         },
         {
+            "code": "0R9P0ZZ",
+            "display": "Drainage of Left Wrist Joint, Open Approach"
+        },
+        {
             "code": "0QPB04Z",
             "display": "Removal of Internal Fixation Device from Right Lower Femur, Open Approach"
         },
@@ -27915,10 +27923,6 @@
         {
             "code": "0R9N3ZZ",
             "display": "Drainage of Right Wrist Joint, Percutaneous Approach"
-        },
-        {
-            "code": "0R9P0ZZ",
-            "display": "Drainage of Left Wrist Joint, Open Approach"
         },
         {
             "code": "0R9P3ZX",
@@ -31553,6 +31557,10 @@
             "display": "Drainage of Left Ureter with Drainage Device, Percutaneous Approach"
         },
         {
+            "code": "0TQB7ZZ",
+            "display": "Repair Bladder, Via Natural or Artificial Opening"
+        },
+        {
             "code": "0T9770Z",
             "display": "Drainage of Left Ureter with Drainage Device, Via Natural or Artificial Opening"
         },
@@ -32181,8 +32189,8 @@
             "display": "Repair Bladder, Percutaneous Endoscopic Approach"
         },
         {
-            "code": "0TQB7ZZ",
-            "display": "Repair Bladder, Via Natural or Artificial Opening"
+            "code": "6A550Z3",
+            "display": "Pheresis of Plasma, Single"
         },
         {
             "code": "0TQC4ZZ",
@@ -37841,6 +37849,10 @@
             "display": "Transfusion of Allogeneic Related Hematopoietic Stem Cells into Central Vein, Percutaneous Approach"
         },
         {
+            "code": "6A550ZT",
+            "display": "Pheresis of Cord Blood Stem Cells, Single"
+        },
+        {
             "code": "30243Y3",
             "display": "Transfusion of Allogeneic Unrelated Hematopoietic Stem Cells into Central Vein, Percutaneous Approach"
         },
@@ -38107,6 +38119,10 @@
         {
             "code": "3E043WK",
             "display": "Introduction of Immunostimulator into Central Vein, Percutaneous"
+        },
+        {
+            "code": "6A550ZV",
+            "display": "Pheresis of Hematopoietic Stem Cells, Single"
         },
         {
             "code": "3E043WL",
@@ -38627,6 +38643,10 @@
         {
             "code": "3E0X3CZ",
             "display": "Introduction of Regional Anesthetic into Cranial Nerves, Percutaneous Approach"
+        },
+        {
+            "code": "6A551Z0",
+            "display": "Pheresis of Erythrocytes, Multiple"
         },
         {
             "code": "3E1038Z",
@@ -39207,22 +39227,6 @@
         {
             "code": "6A550Z2",
             "display": "Pheresis of Platelets, Single"
-        },
-        {
-            "code": "6A550Z3",
-            "display": "Pheresis of Plasma, Single"
-        },
-        {
-            "code": "6A550ZT",
-            "display": "Pheresis of Cord Blood Stem Cells, Single"
-        },
-        {
-            "code": "6A550ZV",
-            "display": "Pheresis of Hematopoietic Stem Cells, Single"
-        },
-        {
-            "code": "6A551Z0",
-            "display": "Pheresis of Erythrocytes, Multiple"
         },
         {
             "code": "6A551Z1",
@@ -40191,10 +40195,6 @@
         {
             "code": "B412YZZ",
             "display": "Fluoroscopy of Hepatic Artery using Other Contrast"
-        },
-        {
-            "code": "B412ZZZ",
-            "display": "Fluoroscopy of Hepatic Artery"
         },
         {
             "code": "B4131ZZ",

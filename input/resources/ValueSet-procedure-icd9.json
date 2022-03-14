@@ -1,0 +1,20 @@
+{
+    "resourceType": "ValueSet",
+    "id": "procedure-icd9",
+    "language": "en",
+    "url": "http://fhir.mimic.mit.edu/ValueSet/procedure-icd9",
+    "version": "0.4",
+    "name": "Procedureicd9",
+    "title": "Procedureicd9",
+    "status": "active",
+    "date": "2022-03-14T12:54:31-04:00",
+    "publisher": "KinD Lab",
+    "description": "The procedure ICD9 codes for MIMIC",
+    "compose": {
+        "include": [
+            {
+                "system": "http://fhir.mimic.mit.edu/CodeSystem/procedure-icd9"
+            }
+        ]
+    }
+}

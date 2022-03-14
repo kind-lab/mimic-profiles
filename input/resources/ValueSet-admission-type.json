@@ -1,15 +1,15 @@
 {
     "resourceType": "ValueSet",
-    "language": "en",
-    "status": "active",
     "id": "admission-type",
+    "language": "en",
     "url": "http://fhir.mimic.mit.edu/ValueSet/admission-type",
-    "version": "0.1.0",
-    "name": "Admission Type",
-    "title": "Admission Type",
-    "date": "2022-01-17T00:00:00-04:00",
+    "version": "0.4",
+    "name": "Admissiontype",
+    "title": "Admissiontype",
+    "status": "active",
+    "date": "2022-03-14T12:54:31-04:00",
     "publisher": "KinD Lab",
-    "description": "The admission type codes used in MIMIC",
+    "description": "The admission type for MIMIC",
     "compose": {
         "include": [
             {
