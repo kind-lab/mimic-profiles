@@ -1,0 +1,20 @@
+{
+    "resourceType": "ValueSet",
+    "id": "medadmin-category-icu",
+    "language": "en",
+    "url": "http://fhir.mimic.mit.edu/ValueSet/medadmin-category-icu",
+    "version": "0.4",
+    "name": "MedadminCategoryIcu",
+    "title": "MedadminCategoryIcu",
+    "status": "active",
+    "date": "2022-03-14T14:29:07-04:00",
+    "publisher": "KinD Lab",
+    "description": "The medication administration category for the ICU for MIMIC",
+    "compose": {
+        "include": [
+            {
+                "system": "http://fhir.mimic.mit.edu/CodeSystem/medadmin-category-icu"
+            }
+        ]
+    }
+}

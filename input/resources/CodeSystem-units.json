@@ -1,0 +1,1921 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "units",
+    "language": "en",
+    "url": "http://fhir.mimic.mit.edu/CodeSystem/units",
+    "version": "0.4",
+    "name": "Units",
+    "title": "Units",
+    "status": "active",
+    "date": "2022-03-14T14:29:07-04:00",
+    "publisher": "KinD Lab",
+    "description": "The units used throughout MIMIC",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "mL/kg/hour"
+        },
+        {
+            "code": "75"
+        },
+        {
+            "code": "log10 IU/mL"
+        },
+        {
+            "code": "MILLI UNITS/MIN"
+        },
+        {
+            "code": "drop ou"
+        },
+        {
+            "code": "mg tablet"
+        },
+        {
+            "code": "PTCH"
+        },
+        {
+            "code": "tablets"
+        },
+        {
+            "code": "Units/Liter"
+        },
+        {
+            "code": "milligrams"
+        },
+        {
+            "code": "mEq / hr"
+        },
+        {
+            "code": "sec"
+        },
+        {
+            "code": "ug/dL"
+        },
+        {
+            "code": "mg/actuation"
+        },
+        {
+            "code": "tiwst"
+        },
+        {
+            "code": "OINT"
+        },
+        {
+            "code": "(10 mL)"
+        },
+        {
+            "code": "mcg/ml"
+        },
+        {
+            "code": "UNIT/HR"
+        },
+        {
+            "code": "(0.5 %)"
+        },
+        {
+            "code": "mEq/100 mL SW"
+        },
+        {
+            "code": "MG"
+        },
+        {
+            "code": "capsule"
+        },
+        {
+            "code": "mg/0.8 mL"
+        },
+        {
+            "code": "mg or 92mg"
+        },
+        {
+            "code": "Degree"
+        },
+        {
+            "code": "mg/0.67 mL"
+        },
+        {
+            "code": "(21)/75 mg (7)"
+        },
+        {
+            "code": "mcg/0.5 mL"
+        },
+        {
+            "code": "/min"
+        },
+        {
+            "code": "mcg/actuation"
+        },
+        {
+            "code": "BAG"
+        },
+        {
+            "code": "% (40 mg/mL)"
+        },
+        {
+            "code": "AMP"
+        },
+        {
+            "code": "mg/0mg"
+        },
+        {
+            "code": "GUM"
+        },
+        {
+            "code": "600"
+        },
+        {
+            "code": "1 BTL"
+        },
+        {
+            "code": "mg TID"
+        },
+        {
+            "code": "drops each eye"
+        },
+        {
+            "code": "Iu/0 iu"
+        },
+        {
+            "code": "unit/actuation"
+        },
+        {
+            "code": "18 mg iron"
+        },
+        {
+            "code": "mcg/mL) 2.4 mL"
+        },
+        {
+            "code": "(24)/75 mg (4)"
+        },
+        {
+            "code": "EA"
+        },
+        {
+            "code": "log10 cop/mL"
+        },
+        {
+            "code": "INH"
+        },
+        {
+            "code": "nMol/ml/min"
+        },
+        {
+            "code": "g"
+        },
+        {
+            "code": "sprays"
+        },
+        {
+            "code": "mg / 0 mg"
+        },
+        {
+            "code": "unit/mL"
+        },
+        {
+            "code": "mL/m2"
+        },
+        {
+            "code": "micrograms"
+        },
+        {
+            "code": "(50,000 unit)"
+        },
+        {
+            "code": "mg/61mg"
+        },
+        {
+            "code": "units/hr"
+        },
+        {
+            "code": "unit (10 mL)"
+        },
+        {
+            "code": "cell"
+        },
+        {
+            "code": "350"
+        },
+        {
+            "code": "DEV"
+        },
+        {
+            "code": "mEq / 400 mL"
+        },
+        {
+            "code": "Pos/Neg"
+        },
+        {
+            "code": "(100 mcg/mL)"
+        },
+        {
+            "code": "mg/24 hour"
+        },
+        {
+            "code": "600 mcg/2.4 mL"
+        },
+        {
+            "code": "CAPs"
+        },
+        {
+            "code": "500"
+        },
+        {
+            "code": "mg/24 mL"
+        },
+        {
+            "code": "(25 mg/mL)"
+        },
+        {
+            "code": "SCOOP"
+        },
+        {
+            "code": "(1250 mg)"
+        },
+        {
+            "code": "mcg/kg/hr"
+        },
+        {
+            "code": "soak"
+        },
+        {
+            "code": "ml"
+        },
+        {
+            "code": "mEq/1000 mL NS"
+        },
+        {
+            "code": "mL/h"
+        },
+        {
+            "code": "(300 mcg)"
+        },
+        {
+            "code": "fL"
+        },
+        {
+            "code": "units/hour"
+        },
+        {
+            "code": "L"
+        },
+        {
+            "code": "iu"
+        },
+        {
+            "code": "mcg/0.8 mL"
+        },
+        {
+            "code": "Gram"
+        },
+        {
+            "code": "218000 unit"
+        },
+        {
+            "code": "mg/ 0 mg"
+        },
+        {
+            "code": "Iu/ 0 IU"
+        },
+        {
+            "code": "mg/dL"
+        },
+        {
+            "code": "/0mg"
+        },
+        {
+            "code": "1 cap"
+        },
+        {
+            "code": "spray"
+        },
+        {
+            "code": "million units"
+        },
+        {
+            "code": "240 mg (46)"
+        },
+        {
+            "code": "BTL"
+        },
+        {
+            "code": "FILM"
+        },
+        {
+            "code": "PKG"
+        },
+        {
+            "code": "mEq./hour"
+        },
+        {
+            "code": "mg/ 0mg"
+        },
+        {
+            "code": "0"
+        },
+        {
+            "code": "PUFFS"
+        },
+        {
+            "code": "U/L"
+        },
+        {
+            "code": "+/-"
+        },
+        {
+            "code": "50 units/ml"
+        },
+        {
+            "code": "mg /40 mg"
+        },
+        {
+            "code": "300"
+        },
+        {
+            "code": "mcg (30 doses)"
+        },
+        {
+            "code": "mcg/mL"
+        },
+        {
+            "code": "-109,000 unit"
+        },
+        {
+            "code": "Units"
+        },
+        {
+            "code": "mg/0.6mL"
+        },
+        {
+            "code": "\u00b0F"
+        },
+        {
+            "code": "PEN"
+        },
+        {
+            "code": "mEq (1,080 mg)"
+        },
+        {
+            "code": "unit/mL (75-25)"
+        },
+        {
+            "code": "uL"
+        },
+        {
+            "code": "mL/beat"
+        },
+        {
+            "code": "mg/mL"
+        },
+        {
+            "code": "UNIT/kg/HR"
+        },
+        {
+            "code": "ENEMA"
+        },
+        {
+            "code": "/hr"
+        },
+        {
+            "code": "mg/mL (25 %)"
+        },
+        {
+            "code": "mg/88mg"
+        },
+        {
+            "code": "Inch"
+        },
+        {
+            "code": "mcg/ACT"
+        },
+        {
+            "code": "/3 mL (0.083 %)"
+        },
+        {
+            "code": "mg or 88mg"
+        },
+        {
+            "code": "Grams"
+        },
+        {
+            "code": "/hour"
+        },
+        {
+            "code": "K/uL"
+        },
+        {
+            "code": "ML"
+        },
+        {
+            "code": "dynes*sec/cm5/m2"
+        },
+        {
+            "code": "DRP"
+        },
+        {
+            "code": "STCK"
+        },
+        {
+            "code": "40mg"
+        },
+        {
+            "code": "grams"
+        },
+        {
+            "code": "IU/ 0 iu"
+        },
+        {
+            "code": "Mg/hr"
+        },
+        {
+            "code": "SPG"
+        },
+        {
+            "code": "kcal/day"
+        },
+        {
+            "code": "mcg/kg/min"
+        },
+        {
+            "code": "mEq / mL SW"
+        },
+        {
+            "code": "iu/0u"
+        },
+        {
+            "code": "Neb"
+        },
+        {
+            "code": "ea"
+        },
+        {
+            "code": "mcg/2 mL"
+        },
+        {
+            "code": "UNIT/1000ML"
+        },
+        {
+            "code": "MG/0MG"
+        },
+        {
+            "code": "83900 unit"
+        },
+        {
+            "code": "700"
+        },
+        {
+            "code": "(1000 mg)"
+        },
+        {
+            "code": "G"
+        },
+        {
+            "code": "g/hr"
+        },
+        {
+            "code": "in"
+        },
+        {
+            "code": "mg//min"
+        },
+        {
+            "code": "GR"
+        },
+        {
+            "code": "PTCHs"
+        },
+        {
+            "code": "dose"
+        },
+        {
+            "code": "vial"
+        },
+        {
+            "code": "% (0.1 mg/gram)"
+        },
+        {
+            "code": "mg\\40 mg"
+        },
+        {
+            "code": "mg/24h"
+        },
+        {
+            "code": "8"
+        },
+        {
+            "code": "mEq/1,000 mL"
+        },
+        {
+            "code": "KIT"
+        },
+        {
+            "code": "(18 mg/3 mL)"
+        },
+        {
+            "code": "mcg/min"
+        },
+        {
+            "code": "mg/5 gram (1 %)"
+        },
+        {
+            "code": "15U SQ"
+        },
+        {
+            "code": "mEq/L"
+        },
+        {
+            "code": "topical"
+        },
+        {
+            "code": "sheet"
+        },
+        {
+            "code": "#/hpf"
+        },
+        {
+            "code": "hrs"
+        },
+        {
+            "code": "800 mcg"
+        },
+        {
+            "code": "mEq/1000NS"
+        },
+        {
+            "code": "N/A"
+        },
+        {
+            "code": "application"
+        },
+        {
+            "code": "nanograms/kg/minute"
+        },
+        {
+            "code": "mg/0.3 mL"
+        },
+        {
+            "code": "gram/12 gram"
+        },
+        {
+            "code": "iu/0iu"
+        },
+        {
+            "code": "(50 mg/5 gram)"
+        },
+        {
+            "code": "-400 unit"
+        },
+        {
+            "code": "-60000 unit"
+        },
+        {
+            "code": "mg-unit-mg-mg"
+        },
+        {
+            "code": "INJ"
+        },
+        {
+            "code": "g/h"
+        },
+        {
+            "code": "million"
+        },
+        {
+            "code": "mg base)/3 mL"
+        },
+        {
+            "code": "% of current infusion rate"
+        },
+        {
+            "code": "(84)/10 mcg (7)"
+        },
+        {
+            "code": "mg/2mL"
+        },
+        {
+            "code": "mg\\ 0 mg"
+        },
+        {
+            "code": "mEq/500ml"
+        },
+        {
+            "code": "40"
+        },
+        {
+            "code": "cmH2O"
+        },
+        {
+            "code": "g/kg"
+        },
+        {
+            "code": "mg/day"
+        },
+        {
+            "code": "mg/960mg"
+        },
+        {
+            "code": "cps"
+        },
+        {
+            "code": "Enema"
+        },
+        {
+            "code": "mg/250 mL"
+        },
+        {
+            "code": "uU/ML"
+        },
+        {
+            "code": "mg/5 mL"
+        },
+        {
+            "code": "mL/min"
+        },
+        {
+            "code": "pg"
+        },
+        {
+            "code": "MIU"
+        },
+        {
+            "code": "mcg\\ 0 mcg"
+        },
+        {
+            "code": "cc/hr"
+        },
+        {
+            "code": "U/g/Hb"
+        },
+        {
+            "code": "%(700 mg/patch)"
+        },
+        {
+            "code": "MPL"
+        },
+        {
+            "code": "mg/mL (1 %)"
+        },
+        {
+            "code": "lbs"
+        },
+        {
+            "code": "gummies"
+        },
+        {
+            "code": "mcgr"
+        },
+        {
+            "code": "5 mL"
+        },
+        {
+            "code": "oz"
+        },
+        {
+            "code": "iu/0IU"
+        },
+        {
+            "code": "drops"
+        },
+        {
+            "code": "(1.5 mL)"
+        },
+        {
+            "code": "GTT"
+        },
+        {
+            "code": "grams/hour"
+        },
+        {
+            "code": "400"
+        },
+        {
+            "code": "mg/6 mL (6 mL)"
+        },
+        {
+            "code": "Ratio"
+        },
+        {
+            "code": "puff"
+        },
+        {
+            "code": "pump"
+        },
+        {
+            "code": "iu/0 iu"
+        },
+        {
+            "code": "Units VWF:RCo"
+        },
+        {
+            "code": "DROPS"
+        },
+        {
+            "code": "mOsm/kg"
+        },
+        {
+            "code": "g/dl"
+        },
+        {
+            "code": "SUPP"
+        },
+        {
+            "code": "mEq/500ml D5W"
+        },
+        {
+            "code": "mch/kg/min"
+        },
+        {
+            "code": "EU/dL"
+        },
+        {
+            "code": "-109000 unit"
+        },
+        {
+            "code": "mA"
+        },
+        {
+            "code": "Score"
+        },
+        {
+            "code": "packet"
+        },
+        {
+            "code": "ampule"
+        },
+        {
+            "code": "mcg/hour"
+        },
+        {
+            "code": "mcg/ kg/ hr"
+        },
+        {
+            "code": "log10 copies/mL"
+        },
+        {
+            "code": "QHS"
+        },
+        {
+            "code": "mg-mcg"
+        },
+        {
+            "code": "Mg"
+        },
+        {
+            "code": "PKT"
+        },
+        {
+            "code": "years"
+        },
+        {
+            "code": "(3 mL)"
+        },
+        {
+            "code": "mg/8 mL"
+        },
+        {
+            "code": "mEq/500D5W"
+        },
+        {
+            "code": "mg-mg-mcg-mg"
+        },
+        {
+            "code": "%-1:200,000"
+        },
+        {
+            "code": "mg PE"
+        },
+        {
+            "code": "mg-mg"
+        },
+        {
+            "code": "U/mL"
+        },
+        {
+            "code": "BID"
+        },
+        {
+            "code": "100"
+        },
+        {
+            "code": "psi"
+        },
+        {
+            "code": "tablet"
+        },
+        {
+            "code": "TC"
+        },
+        {
+            "code": "(0.06 %)"
+        },
+        {
+            "code": "PTCHS"
+        },
+        {
+            "code": "VIAL"
+        },
+        {
+            "code": "TABS"
+        },
+        {
+            "code": "(40 mg/mL)"
+        },
+        {
+            "code": "mEq/15 mL"
+        },
+        {
+            "code": "g/1L NS"
+        },
+        {
+            "code": "SPRY"
+        },
+        {
+            "code": "Iu/ 0 iu"
+        },
+        {
+            "code": "dynes.sec.cm-5/m2"
+        },
+        {
+            "code": "lozenge"
+        },
+        {
+            "code": "kg"
+        },
+        {
+            "code": "mEQ"
+        },
+        {
+            "code": "bottle"
+        },
+        {
+            "code": "#/uL"
+        },
+        {
+            "code": "UNIT"
+        },
+        {
+            "code": "mcg/dose"
+        },
+        {
+            "code": "IU/0 IU"
+        },
+        {
+            "code": "DROPs"
+        },
+        {
+            "code": "tabs"
+        },
+        {
+            "code": "pg/mL"
+        },
+        {
+            "code": "80"
+        },
+        {
+            "code": "950"
+        },
+        {
+            "code": "D5W"
+        },
+        {
+            "code": "mg/5 mL (5 mL)"
+        },
+        {
+            "code": "L/hr"
+        },
+        {
+            "code": "IU/mL"
+        },
+        {
+            "code": "150"
+        },
+        {
+            "code": "Tabs"
+        },
+        {
+            "code": "Liters"
+        },
+        {
+            "code": "-120000 unit"
+        },
+        {
+            "code": "L/min"
+        },
+        {
+            "code": "mg/2.625 mL"
+        },
+        {
+            "code": "drop"
+        },
+        {
+            "code": "200"
+        },
+        {
+            "code": "(205.5 mcg)"
+        },
+        {
+            "code": "mg/0.1mL"
+        },
+        {
+            "code": "Spray"
+        },
+        {
+            "code": "U"
+        },
+        {
+            "code": "650"
+        },
+        {
+            "code": "L/min/m2"
+        },
+        {
+            "code": "CAN"
+        },
+        {
+            "code": "gm/kg"
+        },
+        {
+            "code": "mcg"
+        },
+        {
+            "code": "Mg/0mg"
+        },
+        {
+            "code": "mg/min"
+        },
+        {
+            "code": "Mg/ 0 mg"
+        },
+        {
+            "code": "Appl"
+        },
+        {
+            "code": "mcg/hr"
+        },
+        {
+            "code": "chamber"
+        },
+        {
+            "code": "mg/m2"
+        },
+        {
+            "code": "mg iron/5 mL"
+        },
+        {
+            "code": "U/hr"
+        },
+        {
+            "code": "ng/dL"
+        },
+        {
+            "code": "12 ml"
+        },
+        {
+            "code": "ml/kg"
+        },
+        {
+            "code": "IU"
+        },
+        {
+            "code": "unit"
+        },
+        {
+            "code": "units\\ 0 units"
+        },
+        {
+            "code": "-82,000 unit"
+        },
+        {
+            "code": "mg/1.25 gram)"
+        },
+        {
+            "code": "mf"
+        },
+        {
+            "code": "mEq / 1L NS"
+        },
+        {
+            "code": "LOZ"
+        },
+        {
+            "code": "mg/kg/hour"
+        },
+        {
+            "code": "mEq in 500ml D5W"
+        },
+        {
+            "code": "180000 unit"
+        },
+        {
+            "code": "mg-mg-mcg"
+        },
+        {
+            "code": "tsp"
+        },
+        {
+            "code": "mg/20 mL"
+        },
+        {
+            "code": "mg/0.5mL (0.51)"
+        },
+        {
+            "code": "Tab"
+        },
+        {
+            "code": "(0.1 %)"
+        },
+        {
+            "code": "min"
+        },
+        {
+            "code": "CAP"
+        },
+        {
+            "code": "mL"
+        },
+        {
+            "code": "PUFF"
+        },
+        {
+            "code": "mg/40mg"
+        },
+        {
+            "code": "mm Hg"
+        },
+        {
+            "code": "UNITS"
+        },
+        {
+            "code": "IU/L"
+        },
+        {
+            "code": "cc"
+        },
+        {
+            "code": "mg\\ 40mg"
+        },
+        {
+            "code": "mgs/min"
+        },
+        {
+            "code": "IO/0 IU"
+        },
+        {
+            "code": "4ML"
+        },
+        {
+            "code": "caps"
+        },
+        {
+            "code": "gm"
+        },
+        {
+            "code": "teaspoon"
+        },
+        {
+            "code": "AERA"
+        },
+        {
+            "code": "doses"
+        },
+        {
+            "code": "mg/h"
+        },
+        {
+            "code": "mEq/hr"
+        },
+        {
+            "code": "IU/ 0 IU"
+        },
+        {
+            "code": "mEq in 1L"
+        },
+        {
+            "code": "mg/2 mL"
+        },
+        {
+            "code": "(65 mg iron)"
+        },
+        {
+            "code": "tbsp"
+        },
+        {
+            "code": "unit/hour"
+        },
+        {
+            "code": "MCG/KG"
+        },
+        {
+            "code": "mg (1 mL)"
+        },
+        {
+            "code": "units/min"
+        },
+        {
+            "code": "(100 mg/mL)"
+        },
+        {
+            "code": "gram/100 mL"
+        },
+        {
+            "code": "100mL SW"
+        },
+        {
+            "code": "300 mL SW"
+        },
+        {
+            "code": "1000ML NS"
+        },
+        {
+            "code": "grains"
+        },
+        {
+            "code": "ng/kg/min"
+        },
+        {
+            "code": "(1:1,000)"
+        },
+        {
+            "code": "pray"
+        },
+        {
+            "code": "meq"
+        },
+        {
+            "code": "mg/kg"
+        },
+        {
+            "code": "Ml"
+        },
+        {
+            "code": "Umits"
+        },
+        {
+            "code": "1 mg/mL"
+        },
+        {
+            "code": "AERO"
+        },
+        {
+            "code": "/hpf"
+        },
+        {
+            "code": "mg/30 mL"
+        },
+        {
+            "code": "can"
+        },
+        {
+            "code": "gram/60 mL"
+        },
+        {
+            "code": "mg\\"
+        },
+        {
+            "code": "2.5 ml 1 drop"
+        },
+        {
+            "code": "mg/L"
+        },
+        {
+            "code": "mg-unit"
+        },
+        {
+            "code": "ml/hr"
+        },
+        {
+            "code": "(30 mg/mL)"
+        },
+        {
+            "code": "puffs"
+        },
+        {
+            "code": "Mcg"
+        },
+        {
+            "code": "amp"
+        },
+        {
+            "code": "3mg"
+        },
+        {
+            "code": "CAPS"
+        },
+        {
+            "code": "mg/g"
+        },
+        {
+            "code": "Unit"
+        },
+        {
+            "code": "gram/59 mL"
+        },
+        {
+            "code": "lozenges"
+        },
+        {
+            "code": "ml/day"
+        },
+        {
+            "code": "grams/min"
+        },
+        {
+            "code": "(0.6 mg/mL)"
+        },
+        {
+            "code": "nmol/L"
+        },
+        {
+            "code": "mgPE"
+        },
+        {
+            "code": "mgs"
+        },
+        {
+            "code": "GEL"
+        },
+        {
+            "code": "-250 unit"
+        },
+        {
+            "code": "mcg/h"
+        },
+        {
+            "code": "tab"
+        },
+        {
+            "code": "spacer"
+        },
+        {
+            "code": "gram-kcal/mL"
+        },
+        {
+            "code": "-61000 unit"
+        },
+        {
+            "code": "550"
+        },
+        {
+            "code": "GPL"
+        },
+        {
+            "code": "mg/24hr"
+        },
+        {
+            "code": "mcg (120 doses)"
+        },
+        {
+            "code": "-0.0194 mg"
+        },
+        {
+            "code": "mEq/100mL"
+        },
+        {
+            "code": "-30000 unit"
+        },
+        {
+            "code": "mg/0.4 mL"
+        },
+        {
+            "code": "mg/omg"
+        },
+        {
+            "code": "RPM"
+        },
+        {
+            "code": "mg ER"
+        },
+        {
+            "code": "40 units"
+        },
+        {
+            "code": "(4 mg/mL)"
+        },
+        {
+            "code": "gram/ml"
+        },
+        {
+            "code": "TAB"
+        },
+        {
+            "code": "mg/mL (10%)"
+        },
+        {
+            "code": "msec"
+        },
+        {
+            "code": "%"
+        },
+        {
+            "code": "mg/ml"
+        },
+        {
+            "code": "kcal/mL"
+        },
+        {
+            "code": "inches"
+        },
+        {
+            "code": "SPRAY"
+        },
+        {
+            "code": "mg/67mg"
+        },
+        {
+            "code": "BU"
+        },
+        {
+            "code": "136000 unit"
+        },
+        {
+            "code": "(60 mg/mL)"
+        },
+        {
+            "code": "WAF"
+        },
+        {
+            "code": "Bottle"
+        },
+        {
+            "code": "mg/80mg"
+        },
+        {
+            "code": "pills"
+        },
+        {
+            "code": "24"
+        },
+        {
+            "code": "0/mg"
+        },
+        {
+            "code": "CC"
+        },
+        {
+            "code": "mg/0 mg"
+        },
+        {
+            "code": "540,000IU / 0 IU"
+        },
+        {
+            "code": "(36 mg iron)"
+        },
+        {
+            "code": "gr"
+        },
+        {
+            "code": "50"
+        },
+        {
+            "code": "mg/mL (4 %)"
+        },
+        {
+            "code": "MCG"
+        },
+        {
+            "code": "unit/mL (5 mL)"
+        },
+        {
+            "code": "mg/15 mL"
+        },
+        {
+            "code": "PAD"
+        },
+        {
+            "code": "mmHg"
+        },
+        {
+            "code": "gm/hr"
+        },
+        {
+            "code": "mcg/kg"
+        },
+        {
+            "code": "(2 mg/mL)"
+        },
+        {
+            "code": "-120,000 unit"
+        },
+        {
+            "code": "unit/gram"
+        },
+        {
+            "code": "-200 mg"
+        },
+        {
+            "code": "ounces"
+        },
+        {
+            "code": "mcg/24 hr"
+        },
+        {
+            "code": "mEq"
+        },
+        {
+            "code": "mg/0mgs"
+        },
+        {
+            "code": "0 mg"
+        },
+        {
+            "code": "250"
+        },
+        {
+            "code": "droperette"
+        },
+        {
+            "code": "mg"
+        },
+        {
+            "code": "mcg/kg/hour"
+        },
+        {
+            "code": "mls"
+        },
+        {
+            "code": "Million Units"
+        },
+        {
+            "code": "mg/2.5 mL"
+        },
+        {
+            "code": "cm3"
+        },
+        {
+            "code": "NS"
+        },
+        {
+            "code": "m/uL"
+        },
+        {
+            "code": "mcg'ml-mg/ml"
+        },
+        {
+            "code": "15000 unit"
+        },
+        {
+            "code": "mEq/200 mL NS"
+        },
+        {
+            "code": "mmol/L"
+        },
+        {
+            "code": "mm/hr"
+        },
+        {
+            "code": "mcg/day"
+        },
+        {
+            "code": "ppm"
+        },
+        {
+            "code": "Units/Hr"
+        },
+        {
+            "code": "UDCUP"
+        },
+        {
+            "code": "PUMP"
+        },
+        {
+            "code": "mEq/200mL"
+        },
+        {
+            "code": "-200 unit"
+        },
+        {
+            "code": "Enemas"
+        },
+        {
+            "code": "mcg-mg/mL"
+        },
+        {
+            "code": "/mm3"
+        },
+        {
+            "code": "bpm"
+        },
+        {
+            "code": "film"
+        },
+        {
+            "code": "#/lpf"
+        },
+        {
+            "code": "/ 500mL D5W"
+        },
+        {
+            "code": "mg/0.5 mL"
+        },
+        {
+            "code": "tab'"
+        },
+        {
+            "code": "mL/hr"
+        },
+        {
+            "code": "DROP"
+        },
+        {
+            "code": "MCG/KG/MIN"
+        },
+        {
+            "code": "iu/ 0 iu"
+        },
+        {
+            "code": "Drop"
+        },
+        {
+            "code": "unit per ISS"
+        },
+        {
+            "code": "thin strip on lower lid"
+        },
+        {
+            "code": "\u00b0C"
+        },
+        {
+            "code": "tABS"
+        },
+        {
+            "code": "mEq/200SW"
+        },
+        {
+            "code": "pL"
+        },
+        {
+            "code": "-5.86 gram"
+        },
+        {
+            "code": "units/kg/hr"
+        },
+        {
+            "code": "60"
+        },
+        {
+            "code": "mL/hour"
+        },
+        {
+            "code": "units/kg/hour"
+        },
+        {
+            "code": "gtt"
+        },
+        {
+            "code": "NG/"
+        },
+        {
+            "code": "gram/mL iron"
+        },
+        {
+            "code": "mg/74mg"
+        },
+        {
+            "code": "mg/kg/hr"
+        },
+        {
+            "code": "bo"
+        },
+        {
+            "code": "mg/kg/min"
+        },
+        {
+            "code": "Film"
+        },
+        {
+            "code": "TROC"
+        },
+        {
+            "code": "ug/mL"
+        },
+        {
+            "code": "61500 unit"
+        },
+        {
+            "code": "(25 mg/2.5gram)"
+        },
+        {
+            "code": "gram/15 mL"
+        },
+        {
+            "code": "pumps"
+        },
+        {
+            "code": "SOLN"
+        },
+        {
+            "code": "unit/0.72 mL"
+        },
+        {
+            "code": "mg/3ml"
+        },
+        {
+            "code": "If/0iu"
+        },
+        {
+            "code": "Cap"
+        },
+        {
+            "code": "200 unit"
+        },
+        {
+            "code": "Milligrams"
+        },
+        {
+            "code": "leaf"
+        },
+        {
+            "code": "IU/0IU"
+        },
+        {
+            "code": "% (5 mg/mL)"
+        },
+        {
+            "code": "mg/100 mL"
+        },
+        {
+            "code": "enema"
+        },
+        {
+            "code": "flinstones"
+        },
+        {
+            "code": "mg-mcg-mcg"
+        },
+        {
+            "code": "mmHg."
+        },
+        {
+            "code": "hour"
+        },
+        {
+            "code": "mg/ 82mg"
+        },
+        {
+            "code": "mcq"
+        },
+        {
+            "code": "Tablets"
+        },
+        {
+            "code": "(10 mg/mL)"
+        },
+        {
+            "code": "ng/mL"
+        },
+        {
+            "code": "pad"
+        },
+        {
+            "code": "neb"
+        },
+        {
+            "code": "mcg/2.7 mL"
+        },
+        {
+            "code": "cmH2O/L/seconds"
+        },
+        {
+            "code": "IU/0U"
+        },
+        {
+            "code": "mg-35 mcg (28)"
+        },
+        {
+            "code": "ng/mL DDU"
+        },
+        {
+            "code": "MD to order daily dose"
+        },
+        {
+            "code": "10 ml"
+        },
+        {
+            "code": "Million Cells"
+        },
+        {
+            "code": "(morphine)"
+        },
+        {
+            "code": "u"
+        },
+        {
+            "code": "mg/mg"
+        },
+        {
+            "code": "GM"
+        },
+        {
+            "code": "gram/118 mL"
+        },
+        {
+            "code": "NEB"
+        },
+        {
+            "code": "(500 mg)"
+        },
+        {
+            "code": "mIU/mL"
+        },
+        {
+            "code": "mEq/kg"
+        },
+        {
+            "code": "mEq/5 mL"
+        },
+        {
+            "code": "kcal/kg"
+        },
+        {
+            "code": "mg/hour"
+        },
+        {
+            "code": "mg/3 mL"
+        },
+        {
+            "code": "per L"
+        },
+        {
+            "code": "dynes*sec/cm5"
+        },
+        {
+            "code": "30"
+        },
+        {
+            "code": "powder"
+        },
+        {
+            "code": "UNIT/L"
+        },
+        {
+            "code": "uIU/mL"
+        },
+        {
+            "code": "mg/24 hr"
+        },
+        {
+            "code": "(24 ml)"
+        },
+        {
+            "code": "mEq/1000 ml NS"
+        },
+        {
+            "code": "cap"
+        },
+        {
+            "code": "60mg"
+        },
+        {
+            "code": "Dose"
+        },
+        {
+            "code": "450"
+        },
+        {
+            "code": "SC"
+        },
+        {
+            "code": "iron)/5 mL"
+        },
+        {
+            "code": "mg BID"
+        },
+        {
+            "code": "insp/min"
+        },
+        {
+            "code": "Iu/0IU"
+        },
+        {
+            "code": "-125 unit"
+        },
+        {
+            "code": "mg/hr"
+        },
+        {
+            "code": "cm"
+        },
+        {
+            "code": "INCH"
+        },
+        {
+            "code": "mEq/mL"
+        },
+        {
+            "code": "mg/ 2ml"
+        },
+        {
+            "code": "cp"
+        },
+        {
+            "code": "International Units"
+        },
+        {
+            "code": "%(50 mg/5 gram)"
+        },
+        {
+            "code": "mg/gm"
+        },
+        {
+            "code": "unit/mL (70-30)"
+        },
+        {
+            "code": "mEq (1080 mg)"
+        },
+        {
+            "code": "ml/min"
+        },
+        {
+            "code": "mg iron"
+        },
+        {
+            "code": "0mg"
+        },
+        {
+            "code": "gram"
+        },
+        {
+            "code": "thin layer"
+        },
+        {
+            "code": "0mg/mg"
+        },
+        {
+            "code": "units"
+        },
+        {
+            "code": "mg/mL (2 %)"
+        },
+        {
+            "code": "PATCHES"
+        },
+        {
+            "code": "1"
+        },
+        {
+            "code": "g/dL"
+        },
+        {
+            "code": "mm^3"
+        },
+        {
+            "code": "nL"
+        },
+        {
+            "code": "mV"
+        },
+        {
+            "code": "Mcg/kg/hr"
+        },
+        {
+            "code": "tube"
+        },
+        {
+            "code": "ng/mL FEU"
+        },
+        {
+            "code": "mmol"
+        },
+        {
+            "code": "DOSE"
+        },
+        {
+            "code": "mg/89mg"
+        },
+        {
+            "code": "mg/68mg"
+        },
+        {
+            "code": "PO"
+        },
+        {
+            "code": "(5)/125-30(10)"
+        },
+        {
+            "code": "Mmg"
+        },
+        {
+            "code": "mg/6mL"
+        },
+        {
+            "code": "gummy"
+        },
+        {
+            "code": "mEq."
+        },
+        {
+            "code": "mg/100mg"
+        },
+        {
+            "code": "umol/L"
+        },
+        {
+            "code": "mg (950 mg)"
+        },
+        {
+            "code": "PACK"
+        },
+        {
+            "code": "billion cell"
+        }
+    ]
+}

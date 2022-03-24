@@ -1,0 +1,43 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "admission-class",
+    "language": "en",
+    "url": "http://fhir.mimic.mit.edu/CodeSystem/admission-class",
+    "version": "0.4",
+    "name": "AdmissionClass",
+    "title": "AdmissionClass",
+    "status": "active",
+    "date": "2022-03-14T14:29:07-04:00",
+    "publisher": "KinD Lab",
+    "description": "The admission class for MIMIC",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "EU OBSERVATION"
+        },
+        {
+            "code": "URGENT"
+        },
+        {
+            "code": "ELECTIVE"
+        },
+        {
+            "code": "AMBULATORY OBSERVATION"
+        },
+        {
+            "code": "SURGICAL SAME DAY ADMISSION"
+        },
+        {
+            "code": "DIRECT OBSERVATION"
+        },
+        {
+            "code": "OBSERVATION ADMIT"
+        },
+        {
+            "code": "DIRECT EMER."
+        },
+        {
+            "code": "EW EMER."
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "resourceType": "ValueSet",
+    "id": "bodysite",
+    "language": "en",
+    "url": "http://fhir.mimic.mit.edu/ValueSet/bodysite",
+    "version": "0.4",
+    "name": "Bodysite",
+    "title": "Bodysite",
+    "status": "active",
+    "date": "2022-03-14T14:29:07-04:00",
+    "publisher": "KinD Lab",
+    "description": "The bodysite codes for MIMIC",
+    "compose": {
+        "include": [
+            {
+                "system": "http://fhir.mimic.mit.edu/CodeSystem/bodysite"
+            }
+        ]
+    }
+}

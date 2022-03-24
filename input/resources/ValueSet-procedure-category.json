@@ -1,0 +1,20 @@
+{
+    "resourceType": "ValueSet",
+    "id": "procedure-category",
+    "language": "en",
+    "url": "http://fhir.mimic.mit.edu/ValueSet/procedure-category",
+    "version": "0.4",
+    "name": "ProcedureCategory",
+    "title": "ProcedureCategory",
+    "status": "active",
+    "date": "2022-03-14T14:29:07-04:00",
+    "publisher": "KinD Lab",
+    "description": "The procedure category codes for MIMIC",
+    "compose": {
+        "include": [
+            {
+                "system": "http://fhir.mimic.mit.edu/CodeSystem/procedure-category"
+            }
+        ]
+    }
+}

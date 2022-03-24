@@ -1,0 +1,364 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "medication-route",
+    "language": "en",
+    "url": "http://fhir.mimic.mit.edu/CodeSystem/medication-route",
+    "version": "0.4",
+    "name": "MedicationRoute",
+    "title": "MedicationRoute",
+    "status": "active",
+    "date": "2022-03-14T14:29:07-04:00",
+    "publisher": "KinD Lab",
+    "description": "The medication route during administration for MIMIC",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "BOTH EYES"
+        },
+        {
+            "code": "DIALYS"
+        },
+        {
+            "code": "INFUSION VIA ON-Q PUMP"
+        },
+        {
+            "code": "INHALATION"
+        },
+        {
+            "code": "OD"
+        },
+        {
+            "code": "PO/OG"
+        },
+        {
+            "code": "EDPCA"
+        },
+        {
+            "code": "BOTH EARS"
+        },
+        {
+            "code": "NS"
+        },
+        {
+            "code": "AU"
+        },
+        {
+            "code": "OU"
+        },
+        {
+            "code": "TD"
+        },
+        {
+            "code": "INTRACORPOREAL"
+        },
+        {
+            "code": "Po"
+        },
+        {
+            "code": "IMPELLA"
+        },
+        {
+            "code": "EX-VIVO"
+        },
+        {
+            "code": "IRR"
+        },
+        {
+            "code": "SC INFUSION"
+        },
+        {
+            "code": "PL"
+        },
+        {
+            "code": "ITPCA"
+        },
+        {
+            "code": "IJ"
+        },
+        {
+            "code": "PICC"
+        },
+        {
+            "code": "TRANSDERMAL"
+        },
+        {
+            "code": "OGT"
+        },
+        {
+            "code": "IVCI"
+        },
+        {
+            "code": "IV FLUSH*"
+        },
+        {
+            "code": "PIV"
+        },
+        {
+            "code": "DLPICC"
+        },
+        {
+            "code": "po"
+        },
+        {
+            "code": "SCPUMP"
+        },
+        {
+            "code": "TT"
+        },
+        {
+            "code": "UAC"
+        },
+        {
+            "code": "IVT"
+        },
+        {
+            "code": "RIGHT EYE"
+        },
+        {
+            "code": "SUBCUT"
+        },
+        {
+            "code": "BUCCAL"
+        },
+        {
+            "code": "AC"
+        },
+        {
+            "code": "TP"
+        },
+        {
+            "code": "AXILLARY"
+        },
+        {
+            "code": "IVIC"
+        },
+        {
+            "code": "NU"
+        },
+        {
+            "code": "LUMBAR PLEXUS"
+        },
+        {
+            "code": "NG/OG"
+        },
+        {
+            "code": "AERO"
+        },
+        {
+            "code": "DWELL"
+        },
+        {
+            "code": "LEFT EAR"
+        },
+        {
+            "code": "IV FLUSH"
+        },
+        {
+            "code": "IP"
+        },
+        {
+            "code": "AS"
+        },
+        {
+            "code": "ORAL"
+        },
+        {
+            "code": "FLUSH"
+        },
+        {
+            "code": "PO/IV"
+        },
+        {
+            "code": "IVPCA"
+        },
+        {
+            "code": "IV INFUSION"
+        },
+        {
+            "code": "ND"
+        },
+        {
+            "code": "PEG"
+        },
+        {
+            "code": "SL"
+        },
+        {
+            "code": "IVS"
+        },
+        {
+            "code": "IR"
+        },
+        {
+            "code": "IN"
+        },
+        {
+            "code": "INTRALESIONAL"
+        },
+        {
+            "code": "P.O."
+        },
+        {
+            "code": "NGT"
+        },
+        {
+            "code": "NAS"
+        },
+        {
+            "code": "ET"
+        },
+        {
+            "code": "NEB"
+        },
+        {
+            "code": "LOCK"
+        },
+        {
+            "code": "IO"
+        },
+        {
+            "code": "DLUVC"
+        },
+        {
+            "code": "UVC"
+        },
+        {
+            "code": "OG"
+        },
+        {
+            "code": "SUBCUT INFUSION"
+        },
+        {
+            "code": "VG"
+        },
+        {
+            "code": "SCPCA"
+        },
+        {
+            "code": "INTRAPLEURAL"
+        },
+        {
+            "code": "OS"
+        },
+        {
+            "code": "IV BOLUS"
+        },
+        {
+            "code": "SC"
+        },
+        {
+            "code": "INTERSPACE"
+        },
+        {
+            "code": "IV DRIP"
+        },
+        {
+            "code": "PB"
+        },
+        {
+            "code": "PERHEP"
+        },
+        {
+            "code": "PR"
+        },
+        {
+            "code": "INTRAPERICARDIAL"
+        },
+        {
+            "code": "ng"
+        },
+        {
+            "code": "PERIPHNERVE"
+        },
+        {
+            "code": "IC"
+        },
+        {
+            "code": "BU"
+        },
+        {
+            "code": "PV"
+        },
+        {
+            "code": "ENTERAL TUBE ONLY \u2013 NOT ORAL"
+        },
+        {
+            "code": "J TUBE"
+        },
+        {
+            "code": "ID"
+        },
+        {
+            "code": "IM"
+        },
+        {
+            "code": "PER"
+        },
+        {
+            "code": "AD"
+        },
+        {
+            "code": "IH"
+        },
+        {
+            "code": "G TUBE"
+        },
+        {
+            "code": "NG"
+        },
+        {
+            "code": "IL"
+        },
+        {
+            "code": "IT"
+        },
+        {
+            "code": "PO"
+        },
+        {
+            "code": "RIGHT EAR"
+        },
+        {
+            "code": "IU"
+        },
+        {
+            "code": "PAL"
+        },
+        {
+            "code": "PO/NG"
+        },
+        {
+            "code": "CVL"
+        },
+        {
+            "code": "PO OR ENTERAL TUBE"
+        },
+        {
+            "code": "INTRAVITREAL"
+        },
+        {
+            "code": "SIDE PORT"
+        },
+        {
+            "code": "FEMORAL VEIN"
+        },
+        {
+            "code": "IV"
+        },
+        {
+            "code": "IA"
+        },
+        {
+            "code": "REPLACE"
+        },
+        {
+            "code": "LEFT EYE"
+        },
+        {
+            "code": "ED"
+        },
+        {
+            "code": "INTRA-ARTERIALLY"
+        }
+    ]
+}

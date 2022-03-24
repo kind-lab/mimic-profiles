@@ -1,0 +1,32 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "identifier-type",
+    "language": "en",
+    "url": "http://fhir.mimic.mit.edu/CodeSystem/identifier-type",
+    "version": "0.4",
+    "name": "IdentifierType",
+    "title": "IdentifierType",
+    "status": "active",
+    "date": "2022-03-14T14:29:07-04:00",
+    "publisher": "KinD Lab",
+    "description": "The identifier type for MIMIC",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "MEDHOSP",
+            "display": "Medication Admin in the general hospital"
+        },
+        {
+            "code": "MEDICU",
+            "display": "Medication Admin in the ICU"
+        },
+        {
+            "code": "PHID",
+            "display": "Pharmacy identifier"
+        },
+        {
+            "code": "POE",
+            "display": "Provider Order Entry"
+        }
+    ]
+}

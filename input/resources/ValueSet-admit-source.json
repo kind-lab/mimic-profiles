@@ -1,0 +1,20 @@
+{
+    "resourceType": "ValueSet",
+    "id": "admit-source",
+    "language": "en",
+    "url": "http://fhir.mimic.mit.edu/ValueSet/admit-source",
+    "version": "0.4",
+    "name": "AdmitSource",
+    "title": "AdmitSource",
+    "status": "active",
+    "date": "2022-03-14T14:29:07-04:00",
+    "publisher": "KinD Lab",
+    "description": "The admission source for MIMIC",
+    "compose": {
+        "include": [
+            {
+                "system": "http://fhir.mimic.mit.edu/CodeSystem/admit-source"
+            }
+        ]
+    }
+}

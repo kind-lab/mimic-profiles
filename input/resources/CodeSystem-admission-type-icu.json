@@ -1,0 +1,43 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "admission-type-icu",
+    "language": "en",
+    "url": "http://fhir.mimic.mit.edu/CodeSystem/admission-type-icu",
+    "version": "0.4",
+    "name": "AdmissionTypeIcu",
+    "title": "AdmissionTypeIcu",
+    "status": "active",
+    "date": "2022-03-14T14:29:07-04:00",
+    "publisher": "KinD Lab",
+    "description": "The admission type for ICU encounters in MIMIC",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "Coronary Care Unit (CCU)"
+        },
+        {
+            "code": "Surgical Intensive Care Unit (SICU)"
+        },
+        {
+            "code": "Neuro Intermediate"
+        },
+        {
+            "code": "Neuro Stepdown"
+        },
+        {
+            "code": "Neuro Surgical Intensive Care Unit (Neuro SICU)"
+        },
+        {
+            "code": "Cardiac Vascular Intensive Care Unit (CVICU)"
+        },
+        {
+            "code": "Trauma SICU (TSICU)"
+        },
+        {
+            "code": "Medical Intensive Care Unit (MICU)"
+        },
+        {
+            "code": "Medical/Surgical Intensive Care Unit (MICU/SICU)"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "resourceType": "ValueSet",
+    "id": "medication-route",
+    "language": "en",
+    "url": "http://fhir.mimic.mit.edu/ValueSet/medication-route",
+    "version": "0.4",
+    "name": "MedicationRoute",
+    "title": "MedicationRoute",
+    "status": "active",
+    "date": "2022-03-14T14:29:07-04:00",
+    "publisher": "KinD Lab",
+    "description": "The medication route during administration for MIMIC",
+    "compose": {
+        "include": [
+            {
+                "system": "http://fhir.mimic.mit.edu/CodeSystem/medication-route"
+            }
+        ]
+    }
+}
