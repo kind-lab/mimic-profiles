@@ -6,3 +6,12 @@ Description:    "A MIMIC observation lab profile based on US Core observation la
 
 * code from http://fhir.mimic.mit.edu/ValueSet/d-labitems
 * interpretation from http://fhir.mimic.mit.edu/ValueSet/lab-flags
+
+* extension contains LabPriority named labPriority 0..1
+
+Extension: LabPriority
+Id: lab-priority
+Title: "Lab Priority"
+Description: "The priority of a lab item in MIMIC"
+* value[x] from http://fhir.mimic.mit.edu/ValueSet/lab-priority
+* value[x] only string
