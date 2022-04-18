@@ -1,0 +1,20 @@
+{
+    "resourceType": "ValueSet",
+    "id": "lab-priority",
+    "language": "en",
+    "url": "http://fhir.mimic.mit.edu/ValueSet/lab-priority",
+    "version": "0.4",
+    "name": "LabPriority",
+    "title": "LabPriority",
+    "status": "draft",
+    "date": "2022-04-18T12:06:36-04:00",
+    "publisher": "KinD Lab",
+    "description": "The priority of the lab item in MIMIC",
+    "compose": {
+        "include": [
+            {
+                "system": "http://fhir.mimic.mit.edu/CodeSystem/lab-priority"
+            }
+        ]
+    }
+}

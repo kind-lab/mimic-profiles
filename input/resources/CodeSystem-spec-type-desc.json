@@ -1,0 +1,301 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "spec-type-desc",
+    "language": "en",
+    "url": "http://fhir.mimic.mit.edu/CodeSystem/spec-type-desc",
+    "version": "0.4",
+    "name": "SpecTypeDesc",
+    "title": "SpecTypeDesc",
+    "status": "draft",
+    "date": "2022-04-18T12:06:36-04:00",
+    "publisher": "KinD Lab",
+    "description": "The specimen type codes for microbiologyevents",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "Direct Antigen Test for Herpes Simplex Virus Types 1 & 2"
+        },
+        {
+            "code": "ARTHROPOD"
+        },
+        {
+            "code": "ABSCESS"
+        },
+        {
+            "code": "PROSTHETIC JOINT FLUID"
+        },
+        {
+            "code": "BLOOD CULTURE ( MYCO/F LYTIC BOTTLE)"
+        },
+        {
+            "code": "AMNIOTIC FLUID"
+        },
+        {
+            "code": "HAIR"
+        },
+        {
+            "code": "PERITONEAL FLUID"
+        },
+        {
+            "code": "BRONCHIAL BRUSH"
+        },
+        {
+            "code": "BILE"
+        },
+        {
+            "code": "BLOOD CULTURE"
+        },
+        {
+            "code": "THROAT CULTURE"
+        },
+        {
+            "code": "BLOOD"
+        },
+        {
+            "code": "BRONCHIAL BRUSH - PROTECTED"
+        },
+        {
+            "code": "ASPIRATE"
+        },
+        {
+            "code": "SWAB, R/O GC"
+        },
+        {
+            "code": "BRONCHOALVEOLAR LAVAGE"
+        },
+        {
+            "code": "Blood (CMV AB)"
+        },
+        {
+            "code": "URINE,PROSTATIC MASSAGE"
+        },
+        {
+            "code": "FOREIGN BODY"
+        },
+        {
+            "code": "Blood (Malaria)"
+        },
+        {
+            "code": "BRONCHIAL WASHINGS"
+        },
+        {
+            "code": "SPUTUM"
+        },
+        {
+            "code": "Swab R/O Yeast Screen"
+        },
+        {
+            "code": "ANORECTAL/VAGINAL"
+        },
+        {
+            "code": "PERIPHERAL BLOOD LYMPHOCYTES"
+        },
+        {
+            "code": "JOINT FLUID"
+        },
+        {
+            "code": "URINE,KIDNEY"
+        },
+        {
+            "code": "CHORIONIC VILLUS SAMPLE"
+        },
+        {
+            "code": "FLUID WOUND"
+        },
+        {
+            "code": "SWAB"
+        },
+        {
+            "code": "Blood (Toxo)"
+        },
+        {
+            "code": "DIALYSIS FLUID"
+        },
+        {
+            "code": "Isolate"
+        },
+        {
+            "code": "DIRECT ANTIGEN TEST FOR VARICELLA-ZOSTER VIRUS"
+        },
+        {
+            "code": "C, E, & A Screening"
+        },
+        {
+            "code": "Rapid Respiratory Viral Screen & Culture"
+        },
+        {
+            "code": "CRE Screen"
+        },
+        {
+            "code": "BLOOD CULTURE (POST-MORTEM)"
+        },
+        {
+            "code": "Staph aureus swab"
+        },
+        {
+            "code": "Infection Control Yeast"
+        },
+        {
+            "code": "CSF;SPINAL FLUID"
+        },
+        {
+            "code": "CHLAMYDIA CULTURE"
+        },
+        {
+            "code": "SKIN SCRAPINGS"
+        },
+        {
+            "code": "Blood (LYME)"
+        },
+        {
+            "code": "THROAT"
+        },
+        {
+            "code": "IMMUNOLOGY"
+        },
+        {
+            "code": "RAPID RESPIRATORY VIRAL ANTIGEN TEST"
+        },
+        {
+            "code": "XXX"
+        },
+        {
+            "code": "EYE"
+        },
+        {
+            "code": "BIOPSY"
+        },
+        {
+            "code": "NEOPLASTIC BLOOD"
+        },
+        {
+            "code": "FOOT CULTURE"
+        },
+        {
+            "code": "VIRAL CULTURE"
+        },
+        {
+            "code": "VIRAL CULTURE:R/O HERPES SIMPLEX VIRUS"
+        },
+        {
+            "code": "BLOOD CULTURE - NEONATE"
+        },
+        {
+            "code": "BONE MARROW"
+        },
+        {
+            "code": "FLUID,OTHER"
+        },
+        {
+            "code": "TISSUE"
+        },
+        {
+            "code": "WORM"
+        },
+        {
+            "code": "Blood (EBV)"
+        },
+        {
+            "code": "RECTAL - R/O GC"
+        },
+        {
+            "code": "STOOL (RECEIVED IN TRANSPORT SYSTEM)"
+        },
+        {
+            "code": "VARICELLA-ZOSTER CULTURE"
+        },
+        {
+            "code": "Stem Cell - Blood Culture"
+        },
+        {
+            "code": "Swab"
+        },
+        {
+            "code": "Mini-BAL"
+        },
+        {
+            "code": "EAR"
+        },
+        {
+            "code": "URINE"
+        },
+        {
+            "code": "MRSA SCREEN"
+        },
+        {
+            "code": "VIRAL CULTURE: R/O CYTOMEGALOVIRUS"
+        },
+        {
+            "code": "Influenza A/B by DFA"
+        },
+        {
+            "code": "Touch Prep/Sections"
+        },
+        {
+            "code": "CATHETER TIP-IV"
+        },
+        {
+            "code": "SEROLOGY/BLOOD"
+        },
+        {
+            "code": "BONE MARROW - CYTOGENETICS"
+        },
+        {
+            "code": "THROAT FOR STREP"
+        },
+        {
+            "code": "MICRO PROBLEM PATIENT"
+        },
+        {
+            "code": "SCOTCH TAPE PREP/PADDLE"
+        },
+        {
+            "code": "FECAL SWAB"
+        },
+        {
+            "code": "Cipro Resistant Screen"
+        },
+        {
+            "code": "Foreign Body - Sonication Culture"
+        },
+        {
+            "code": "PLEURAL FLUID"
+        },
+        {
+            "code": "Influenza A/B by DFA - Bronch Lavage"
+        },
+        {
+            "code": "FLUID RECEIVED IN BLOOD CULTURE BOTTLES"
+        },
+        {
+            "code": "BLOOD BAG FLUID"
+        },
+        {
+            "code": "POST-MORTEM VIRAL CULTURE"
+        },
+        {
+            "code": "SWAB - R/O YEAST"
+        },
+        {
+            "code": "POSTMORTEM CULTURE"
+        },
+        {
+            "code": "STOOL"
+        },
+        {
+            "code": "Immunology (CMV)"
+        },
+        {
+            "code": "URINE,SUPRAPUBIC ASPIRATE"
+        },
+        {
+            "code": "TRACHEAL ASPIRATE"
+        },
+        {
+            "code": "CORNEAL EYE SCRAPINGS"
+        },
+        {
+            "code": "NAIL SCRAPINGS"
+        }
+    ]
+}
