@@ -1,3 +1,4 @@
+[Extensions]: extensions.html
 [MIMIC to FHIR Mappings]: mimic-fhir-mappings.html
 [Microbiology Background]: microbiology-background.html
 [Medication Background]: medication-background.html
@@ -56,6 +57,9 @@
 [ProcedureIcd10]: CodeSystem-procedure-icd10.html
 [SpecTypeDesc]: CodeSystem-spec-type-desc.html
 [Units]: CodeSystem-units.html
+
+[DilutionDetails]: StructureDefinition-dilution-details.html
+[LabPriority]: StructureDefinition-lab-priority.html
 
 
 [CharteventsDItems]: ValueSet-chartevents-d-items.html

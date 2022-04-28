@@ -11,11 +11,15 @@ The Medical Information Mart for Intensive Care (MIMIC)-IV is a database of crit
 
 
 ### Walkthrough of Implementation Guide
-- [MIMIC to FHIR Mappings]
-- [Microbiology Background]
-- [Medication Background]
-- [Terminology] 
-- [Profiles]
+- [MIMIC to FHIR Mappings]\: These pages provide a detailed breakdown of the element mappings from MIMIC to FHIR
+- FHIR Artifacts
+  - [Profiles]\: This page lists the MIMIC Profiles that are used to capture MIMIC-IV into FHIR.
+  - [Terminology]\: This page lists out the CodeSystems and ValueSets created to capture MIMIC terminology.
+  - [Extensions]\: This page lists the extensions that were created to assit in MIMIC to FHIR mapping
+- Background
+  - [Microbiology Background]\:  These pages guide the user through the microbiology workflows found in mimic-fhir
+  - [Medication Background]\: These pages guide the user through the different medication workflows found in mimic-fhir
+
 
 ### MIMIC Profiles
 - [MIMIC Condition]
@@ -38,10 +42,6 @@ The Medical Information Mart for Intensive Care (MIMIC)-IV is a database of crit
 - [MIMIC Procedure]
 - [MIMIC Procedure ICU]
 - [MIMIC Specimen]
-
-
-
-{% include link-list.md %}
 
 
 {% include link-list.md %}
