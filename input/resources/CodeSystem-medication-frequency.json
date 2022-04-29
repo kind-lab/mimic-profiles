@@ -3,21 +3,15 @@
     "id": "medication-frequency",
     "language": "en",
     "url": "http://fhir.mimic.mit.edu/CodeSystem/medication-frequency",
-    "version": "0.1.0",
-    "name": "Medication Frequency",
-    "title": "Medication Frequency",
-    "date": "2022-02-08T00:00:00-04:00",
-    "status": "active",
+    "version": "2.0",
+    "name": "MedicationFrequency",
+    "title": "MedicationFrequency",
+    "status": "draft",
+    "date": "2022-04-29T12:04:51-04:00",
     "publisher": "KinD Lab",
-    "description": "The frequency of use prescribed for a medication in MIMIC",
+    "description": "The medication frequency reported for medication delivery in MIMIC",
     "content": "complete",
     "concept": [
-        {
-            "code": "DAILY18"
-        },
-        {
-            "code": "EVERY 8 WEEKS"
-        },
         {
             "code": "Q36H"
         },
@@ -151,13 +145,13 @@
             "code": "PRE-HYDRATION"
         },
         {
+            "code": "BREAKFAST"
+        },
+        {
             "code": "INFUSION"
         },
         {
             "code": "QID"
-        },
-        {
-            "code": "BREAKFAST"
         },
         {
             "code": "TID"
@@ -271,10 +265,10 @@
             "code": "Q 24H"
         },
         {
-            "code": "NOON"
+            "code": "HD PROTOCOL"
         },
         {
-            "code": "HD PROTOCOL"
+            "code": "NOON"
         },
         {
             "code": "QHS"
@@ -500,6 +494,12 @@
         },
         {
             "code": "QWED"
+        },
+        {
+            "code": "DAILY18"
+        },
+        {
+            "code": "EVERY 8 WEEKS"
         }
     ]
 }

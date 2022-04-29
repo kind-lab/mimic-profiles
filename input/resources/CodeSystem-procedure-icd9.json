@@ -3,11 +3,11 @@
     "id": "procedure-icd9",
     "language": "en",
     "url": "http://fhir.mimic.mit.edu/CodeSystem/procedure-icd9",
-    "version": "0.4",
+    "version": "2.0",
     "name": "ProcedureIcd9",
     "title": "ProcedureIcd9",
-    "status": "active",
-    "date": "2022-03-14T14:29:07-04:00",
+    "status": "draft",
+    "date": "2022-04-29T12:04:51-04:00",
     "publisher": "KinD Lab",
     "description": "The procedure ICD9 codes for MIMIC",
     "content": "complete",
@@ -271,10 +271,6 @@
         {
             "code": "0086",
             "display": "Resurfacing hip, partial, femoral head"
-        },
-        {
-            "code": "0087",
-            "display": "Resurfacing hip, partial, acetabulum"
         },
         {
             "code": "0091",
@@ -957,10 +953,6 @@
             "display": "Other adjustment of lid position"
         },
         {
-            "code": "0861",
-            "display": "Reconstruction of eyelid with skin flap or graft"
-        },
-        {
             "code": "0869",
             "display": "Other reconstruction of eyelid with flaps or grafts"
         },
@@ -971,10 +963,6 @@
         {
             "code": "0873",
             "display": "Reconstruction of eyelid involving lid margin, full-thickness"
-        },
-        {
-            "code": "0874",
-            "display": "Other reconstruction of eyelid, full-thickness"
         },
         {
             "code": "0881",
@@ -1241,10 +1229,6 @@
             "display": "Retrobulbar injection of therapeutic agent"
         },
         {
-            "code": "1692",
-            "display": "Excision of lesion of orbit"
-        },
-        {
             "code": "1699",
             "display": "Other operations on eyeball"
         },
@@ -1331,10 +1315,6 @@
         {
             "code": "1756",
             "display": "Atherectomy of other non-coronary vessel(s)"
-        },
-        {
-            "code": "1769",
-            "display": "Laser interstitial thermal therapy [LITT] of lesion or tissue of other and unspecified site under guidance"
         },
         {
             "code": "1770",
@@ -1865,10 +1845,6 @@
             "display": "Control of hemorrhage after tonsillectomy and adenoidectomy"
         },
         {
-            "code": "2892",
-            "display": "Excision of lesion of tonsil and adenoid"
-        },
-        {
             "code": "290",
             "display": "Pharyngotomy"
         },
@@ -2105,10 +2081,6 @@
             "display": "Radical dissection of thoracic structures"
         },
         {
-            "code": "331",
-            "display": "Incision of lung"
-        },
-        {
             "code": "3320",
             "display": "Thoracoscopic lung biopsy"
         },
@@ -2175,6 +2147,10 @@
         {
             "code": "3349",
             "display": "Other repair and plastic operations on lung"
+        },
+        {
+            "code": "3883",
+            "display": "Other surgical occlusion of vessels, upper limb vessels"
         },
         {
             "code": "3371",
@@ -2965,10 +2941,6 @@
             "display": "Other surgical occlusion of vessels, other vessels of head and neck"
         },
         {
-            "code": "3883",
-            "display": "Other surgical occlusion of vessels, upper limb vessels"
-        },
-        {
             "code": "3884",
             "display": "Other surgical occlusion of vessels, aorta, abdominal"
         },
@@ -3519,10 +3491,6 @@
         {
             "code": "4292",
             "display": "Dilation of esophagus"
-        },
-        {
-            "code": "4299",
-            "display": "Other operations on esophagus"
         },
         {
             "code": "430",
@@ -4713,6 +4681,10 @@
             "display": "Cannulation of pancreatic duct"
         },
         {
+            "code": "562",
+            "display": "Ureterotomy"
+        },
+        {
             "code": "5293",
             "display": "Endoscopic insertion of stent (tube) into pancreatic duct"
         },
@@ -5065,10 +5037,6 @@
             "display": "Nephroureterectomy"
         },
         {
-            "code": "5552",
-            "display": "Nephrectomy of remaining kidney"
-        },
-        {
             "code": "5553",
             "display": "Removal of transplanted or rejected kidney"
         },
@@ -5127,10 +5095,6 @@
         {
             "code": "561",
             "display": "Ureteral meatotomy"
-        },
-        {
-            "code": "562",
-            "display": "Ureterotomy"
         },
         {
             "code": "5631",
@@ -5973,10 +5937,6 @@
             "display": "Other and unspecified total abdominal hysterectomy"
         },
         {
-            "code": "8077",
-            "display": "Synovectomy, ankle"
-        },
-        {
             "code": "6851",
             "display": "Laparoscopically assisted vaginal hysterectomy (LAVH)"
         },
@@ -6251,6 +6211,10 @@
         {
             "code": "7179",
             "display": "Other repair of vulva and perineum"
+        },
+        {
+            "code": "719",
+            "display": "Other operations on female genital organs"
         },
         {
             "code": "720",
@@ -6559,10 +6523,6 @@
         {
             "code": "7705",
             "display": "Sequestrectomy, femur"
-        },
-        {
-            "code": "7706",
-            "display": "Sequestrectomy, patella"
         },
         {
             "code": "7711",
@@ -7077,10 +7037,6 @@
             "display": "Osteoclasis, tarsals and metatarsals"
         },
         {
-            "code": "7879",
-            "display": "Osteoclasis, other bones"
-        },
-        {
             "code": "7898",
             "display": "Insertion of bone growth stimulator, tarsals and metatarsals"
         },
@@ -7173,10 +7129,6 @@
             "display": "Open reduction of fracture without internal fixation, carpals and metacarpals"
         },
         {
-            "code": "8078",
-            "display": "Synovectomy, foot and toe"
-        },
-        {
             "code": "7924",
             "display": "Open reduction of fracture without internal fixation, phalanges of hand"
         },
@@ -7215,6 +7167,10 @@
         {
             "code": "7934",
             "display": "Open reduction of fracture with internal fixation, phalanges of hand"
+        },
+        {
+            "code": "8091",
+            "display": "Other excision of joint, shoulder"
         },
         {
             "code": "7935",
@@ -7375,10 +7331,6 @@
         {
             "code": "8002",
             "display": "Arthrotomy for removal of prosthesis without replacement, elbow"
-        },
-        {
-            "code": "8003",
-            "display": "Arthrotomy for removal of prosthesis without replacement, wrist"
         },
         {
             "code": "8005",
@@ -7569,6 +7521,14 @@
             "display": "Synovectomy, knee"
         },
         {
+            "code": "8077",
+            "display": "Synovectomy, ankle"
+        },
+        {
+            "code": "8078",
+            "display": "Synovectomy, foot and toe"
+        },
+        {
             "code": "8079",
             "display": "Synovectomy, other specified sites"
         },
@@ -7607,10 +7567,6 @@
         {
             "code": "8089",
             "display": "Other local excision or destruction of lesion of joint, other specified sites"
-        },
-        {
-            "code": "8091",
-            "display": "Other excision of joint, shoulder"
         },
         {
             "code": "8092",
@@ -7735,10 +7691,6 @@
         {
             "code": "8129",
             "display": "Arthrodesis of other specified joints"
-        },
-        {
-            "code": "8131",
-            "display": "Refusion of atlas-axis spine"
         },
         {
             "code": "8132",
@@ -8079,10 +8031,6 @@
         {
             "code": "8293",
             "display": "Aspiration of other soft tissue of hand"
-        },
-        {
-            "code": "8295",
-            "display": "Injection of therapeutic substance into tendon of hand"
         },
         {
             "code": "8296",
@@ -8521,16 +8469,8 @@
             "display": "Bilateral radical mastectomy"
         },
         {
-            "code": "8547",
-            "display": "Unilateral extended radical mastectomy"
-        },
-        {
             "code": "8550",
             "display": "Augmentation mammoplasty, not otherwise specified"
-        },
-        {
-            "code": "8551",
-            "display": "Unilateral injection into breast for augmentation"
         },
         {
             "code": "8553",
@@ -8571,10 +8511,6 @@
         {
             "code": "8574",
             "display": "Deep inferior epigastric artery perforator (DIEP) flap, free"
-        },
-        {
-            "code": "8575",
-            "display": "Superficial inferior epigastric artery (SIEA) flap, free"
         },
         {
             "code": "8576",
@@ -9671,10 +9607,6 @@
         {
             "code": "9543",
             "display": "Audiological evaluation"
-        },
-        {
-            "code": "9547",
-            "display": "Hearing examination, not otherwise specified"
         },
         {
             "code": "9601",

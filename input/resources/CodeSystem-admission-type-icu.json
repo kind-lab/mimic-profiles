@@ -3,41 +3,138 @@
     "id": "admission-type-icu",
     "language": "en",
     "url": "http://fhir.mimic.mit.edu/CodeSystem/admission-type-icu",
-    "version": "0.4",
+    "version": "2.0",
     "name": "AdmissionTypeIcu",
     "title": "AdmissionTypeIcu",
-    "status": "active",
-    "date": "2022-03-14T14:29:07-04:00",
+    "status": "draft",
+    "date": "2022-04-29T12:04:51-04:00",
     "publisher": "KinD Lab",
     "description": "The admission type for ICU encounters in MIMIC",
+    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/admission-type-icu",
     "content": "complete",
     "concept": [
         {
-            "code": "Coronary Care Unit (CCU)"
+            "code": "Cardiac Surgery"
+        },
+        {
+            "code": "Cardiology Surgery Intermediate"
+        },
+        {
+            "code": "Surgery/Pancreatic/Biliary/Bariatric"
+        },
+        {
+            "code": "Emergency Department"
         },
         {
             "code": "Surgical Intensive Care Unit (SICU)"
         },
         {
-            "code": "Neuro Intermediate"
+            "code": "Cardiology"
         },
         {
-            "code": "Neuro Stepdown"
+            "code": "Labor & Delivery"
         },
         {
-            "code": "Neuro Surgical Intensive Care Unit (Neuro SICU)"
+            "code": "Vascular"
+        },
+        {
+            "code": "Obstetrics Postpartum"
+        },
+        {
+            "code": "Medicine/Cardiology"
+        },
+        {
+            "code": "Medical/Surgical Intensive Care Unit (MICU/SICU)"
+        },
+        {
+            "code": "Med/Surg"
+        },
+        {
+            "code": "Unknown"
+        },
+        {
+            "code": "Special Care Nursery (SCN)"
+        },
+        {
+            "code": "Coronary Care Unit (CCU)"
+        },
+        {
+            "code": "Medicine/Cardiology Intermediate"
+        },
+        {
+            "code": "Neonatal Intensive Care Unit (NICU)"
         },
         {
             "code": "Cardiac Vascular Intensive Care Unit (CVICU)"
         },
         {
+            "code": "Obstetrics (Postpartum & Antepartum)"
+        },
+        {
+            "code": "Med/Surg/GYN"
+        },
+        {
             "code": "Trauma SICU (TSICU)"
+        },
+        {
+            "code": "Observation"
+        },
+        {
+            "code": "Neurology"
+        },
+        {
+            "code": "Emergency Department Observation"
+        },
+        {
+            "code": "Medicine"
+        },
+        {
+            "code": "Hematology/Oncology"
+        },
+        {
+            "code": "Neuro Stepdown"
+        },
+        {
+            "code": "Thoracic Surgery"
+        },
+        {
+            "code": "Obstetrics Antepartum"
+        },
+        {
+            "code": "Psychiatry"
+        },
+        {
+            "code": "PACU"
         },
         {
             "code": "Medical Intensive Care Unit (MICU)"
         },
         {
-            "code": "Medical/Surgical Intensive Care Unit (MICU/SICU)"
+            "code": "Nursery - Well Babies"
+        },
+        {
+            "code": "Hematology/Oncology Intermediate"
+        },
+        {
+            "code": "Surgery/Trauma"
+        },
+        {
+            "code": "Transplant"
+        },
+        {
+            "code": "Med/Surg/Trauma"
+        },
+        {
+            "code": "Medical/Surgical (Gynecology)"
+        },
+        {
+            "code": "Neuro Intermediate"
+        },
+        {
+            "code": "Surgery"
+        },
+        {
+            "code": "Neuro Surgical Intensive Care Unit (Neuro SICU)"
         }
     ]
 }

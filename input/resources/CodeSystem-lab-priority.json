@@ -3,13 +3,21 @@
     "id": "lab-priority",
     "language": "en",
     "url": "http://fhir.mimic.mit.edu/CodeSystem/lab-priority",
-    "version": "0.4",
+    "version": "2.0",
     "name": "LabPriority",
     "title": "LabPriority",
     "status": "draft",
-    "date": "2022-04-18T12:06:36-04:00",
+    "date": "2022-04-29T12:04:51-04:00",
     "publisher": "KinD Lab",
     "description": "The priority of the lab item in MIMIC",
     "valueSet": "http://fhir.mimic.mit.edu/ValueSet/lab-priority",
-    "content": "complete"
+    "content": "complete",
+    "concept": [
+        {
+            "code": "ROUTINE"
+        },
+        {
+            "code": "STAT"
+        }
+    ]
 }

@@ -3,13 +3,14 @@
     "id": "medication-route",
     "language": "en",
     "url": "http://fhir.mimic.mit.edu/CodeSystem/medication-route",
-    "version": "0.4",
+    "version": "2.0",
     "name": "MedicationRoute",
     "title": "MedicationRoute",
-    "status": "active",
-    "date": "2022-03-14T14:29:07-04:00",
+    "status": "draft",
+    "date": "2022-04-29T12:04:51-04:00",
     "publisher": "KinD Lab",
     "description": "The medication route during administration for MIMIC",
+    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/medication-route",
     "content": "complete",
     "concept": [
         {
@@ -22,10 +23,10 @@
             "code": "INFUSION VIA ON-Q PUMP"
         },
         {
-            "code": "INHALATION"
+            "code": "OD"
         },
         {
-            "code": "OD"
+            "code": "INHALATION"
         },
         {
             "code": "PO/OG"
@@ -211,16 +212,16 @@
             "code": "NEB"
         },
         {
-            "code": "LOCK"
-        },
-        {
-            "code": "IO"
-        },
-        {
             "code": "DLUVC"
         },
         {
             "code": "UVC"
+        },
+        {
+            "code": "LOCK"
+        },
+        {
+            "code": "IO"
         },
         {
             "code": "OG"
@@ -319,10 +320,10 @@
             "code": "RIGHT EAR"
         },
         {
-            "code": "IU"
+            "code": "PAL"
         },
         {
-            "code": "PAL"
+            "code": "IU"
         },
         {
             "code": "PO/NG"
@@ -346,10 +347,10 @@
             "code": "IV"
         },
         {
-            "code": "IA"
+            "code": "REPLACE"
         },
         {
-            "code": "REPLACE"
+            "code": "IA"
         },
         {
             "code": "LEFT EYE"

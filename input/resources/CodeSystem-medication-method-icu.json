@@ -1,0 +1,32 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "medication-method-icu",
+    "language": "en",
+    "url": "http://fhir.mimic.mit.edu/CodeSystem/medication-method-icu",
+    "version": "2.0",
+    "name": "MedicationMethodIcu",
+    "title": "MedicationMethodIcu",
+    "status": "draft",
+    "date": "2022-04-29T12:04:51-04:00",
+    "publisher": "KinD Lab",
+    "description": "The medication delivery method used in the ICU for MIMIC",
+    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/medication-method-icu",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "Non Iv Meds"
+        },
+        {
+            "code": "Drug Push"
+        },
+        {
+            "code": "Continuous Med"
+        },
+        {
+            "code": "Bolus"
+        },
+        {
+            "code": "Continuous IV"
+        }
+    ]
+}

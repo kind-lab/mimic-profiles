@@ -3,11 +3,11 @@
     "id": "diagnosis-icd9",
     "language": "en",
     "url": "http://fhir.mimic.mit.edu/CodeSystem/diagnosis-icd9",
-    "version": "0.4",
+    "version": "2.0",
     "name": "DiagnosisIcd9",
     "title": "DiagnosisIcd9",
-    "status": "active",
-    "date": "2022-03-14T14:29:07-04:00",
+    "status": "draft",
+    "date": "2022-04-29T12:04:51-04:00",
     "publisher": "KinD Lab",
     "description": "The diagnosis ICD9 codes for MIMIC",
     "content": "complete",
@@ -2297,6 +2297,10 @@
             "display": "Malignant neoplasm of scapula and long bones of upper limb"
         },
         {
+            "code": "1705",
+            "display": "Malignant neoplasm of short bones of upper limb"
+        },
+        {
             "code": "1706",
             "display": "Malignant neoplasm of pelvic bones, sacrum, and coccyx"
         },
@@ -2325,6 +2329,10 @@
             "display": "Malignant neoplasm of connective and other soft tissue of lower limb, including hip"
         },
         {
+            "code": "2779",
+            "display": "Unspecified disorder of metabolism"
+        },
+        {
             "code": "1714",
             "display": "Malignant neoplasm of connective and other soft tissue of thorax"
         },
@@ -2351,10 +2359,6 @@
         {
             "code": "1720",
             "display": "Malignant melanoma of skin of lip"
-        },
-        {
-            "code": "1721",
-            "display": "Malignant melanoma of skin of eyelid, including canthus"
         },
         {
             "code": "1722",
@@ -2685,8 +2689,8 @@
             "display": "Malignant neoplasm of labia majora"
         },
         {
-            "code": "27786",
-            "display": "Peroxisomal disorders"
+            "code": "27800",
+            "display": "Obesity, unspecified"
         },
         {
             "code": "1844",
@@ -3713,8 +3717,8 @@
             "display": "Megakaryocytic leukemia, in remission"
         },
         {
-            "code": "28801",
-            "display": "Congenital neutropenia"
+            "code": "27801",
+            "display": "Morbid obesity"
         },
         {
             "code": "20722",
@@ -4221,10 +4225,6 @@
             "display": "Benign neoplasm of bladder"
         },
         {
-            "code": "2241",
-            "display": "Benign neoplasm of orbit"
-        },
-        {
             "code": "2249",
             "display": "Benign neoplasm of eye, part unspecified"
         },
@@ -4307,10 +4307,6 @@
         {
             "code": "2300",
             "display": "Carcinoma in situ of lip, oral cavity, and pharynx"
-        },
-        {
-            "code": "2302",
-            "display": "Carcinoma in situ of stomach"
         },
         {
             "code": "2303",
@@ -4399,10 +4395,6 @@
         {
             "code": "2339",
             "display": "Carcinoma in situ of other and unspecified urinary organs"
-        },
-        {
-            "code": "2348",
-            "display": "Carcinoma in situ of other specified sites"
         },
         {
             "code": "2349",
@@ -5221,10 +5213,6 @@
             "display": "Polyglandular dysfunction, unspecified"
         },
         {
-            "code": "2591",
-            "display": "Precocious sexual development and puberty, not elsewhere classified"
-        },
-        {
             "code": "2592",
             "display": "Carcinoid syndrome"
         },
@@ -5685,6 +5673,10 @@
             "display": "Disorders of fatty acid oxidation"
         },
         {
+            "code": "27786",
+            "display": "Peroxisomal disorders"
+        },
+        {
             "code": "27787",
             "display": "Disorders of mitochondrial metabolism"
         },
@@ -5695,18 +5687,6 @@
         {
             "code": "27789",
             "display": "Other specified disorders of metabolism"
-        },
-        {
-            "code": "2779",
-            "display": "Unspecified disorder of metabolism"
-        },
-        {
-            "code": "27800",
-            "display": "Obesity, unspecified"
-        },
-        {
-            "code": "27801",
-            "display": "Morbid obesity"
         },
         {
             "code": "27802",
@@ -6143,6 +6123,10 @@
         {
             "code": "28800",
             "display": "Neutropenia, unspecified"
+        },
+        {
+            "code": "28801",
+            "display": "Congenital neutropenia"
         },
         {
             "code": "28802",
@@ -7769,6 +7753,10 @@
             "display": "Unspecified delay in development"
         },
         {
+            "code": "33521",
+            "display": "Progressive muscular atrophy"
+        },
+        {
             "code": "316",
             "display": "Psychic factors associated with diseases classified elsewhere"
         },
@@ -8205,10 +8193,6 @@
             "display": "Amyotrophic lateral sclerosis"
         },
         {
-            "code": "33521",
-            "display": "Progressive muscular atrophy"
-        },
-        {
             "code": "33522",
             "display": "Progressive bulbar palsy"
         },
@@ -8633,6 +8617,14 @@
             "display": "Grand mal status"
         },
         {
+            "code": "3525",
+            "display": "Disorders of hypoglossal [12th] nerve"
+        },
+        {
+            "code": "3526",
+            "display": "Multiple cranial nerve palsies"
+        },
+        {
             "code": "34540",
             "display": "Localization-related (focal) (partial) epilepsy and epileptic syndromes with complex partial seizures, without mention of intractable epilepsy"
         },
@@ -8947,14 +8939,6 @@
         {
             "code": "3524",
             "display": "Disorders of accessory [11th] nerve"
-        },
-        {
-            "code": "3525",
-            "display": "Disorders of hypoglossal [12th] nerve"
-        },
-        {
-            "code": "3526",
-            "display": "Multiple cranial nerve palsies"
         },
         {
             "code": "3529",
@@ -9391,10 +9375,6 @@
         {
             "code": "36214",
             "display": "Retinal microaneurysms NOS"
-        },
-        {
-            "code": "36215",
-            "display": "Retinal telangiectasia"
         },
         {
             "code": "36217",
@@ -10297,10 +10277,6 @@
             "display": "Ectropion, unspecified"
         },
         {
-            "code": "37414",
-            "display": "Cicatricial ectropion"
-        },
-        {
             "code": "37420",
             "display": "Lagophthalmos, unspecified"
         },
@@ -10373,6 +10349,10 @@
             "display": "Retained foreign body of eyelid"
         },
         {
+            "code": "37487",
+            "display": "Dermatochalasis"
+        },
+        {
             "code": "37489",
             "display": "Other disorders of eyelid"
         },
@@ -10391,10 +10371,6 @@
         {
             "code": "37503",
             "display": "Chronic enlargement of lacrimal gland"
-        },
-        {
-            "code": "37512",
-            "display": "Other lacrimal cysts and cystic degeneration"
         },
         {
             "code": "37515",
@@ -10851,10 +10827,6 @@
         {
             "code": "38032",
             "display": "Acquired deformities of auricle or pinna"
-        },
-        {
-            "code": "38039",
-            "display": "Other noninfectious disorders of pinna"
         },
         {
             "code": "3804",
@@ -12345,10 +12317,6 @@
             "display": "Other atherosclerosis of native arteries of the extremities"
         },
         {
-            "code": "4760",
-            "display": "Chronic laryngitis"
-        },
-        {
             "code": "44030",
             "display": "Atherosclerosis of unspecified bypass graft of the extremities"
         },
@@ -12781,6 +12749,10 @@
             "display": "Acute venous embolism and thrombosis of superficial veins of upper extremity"
         },
         {
+            "code": "47820",
+            "display": "Unspecified disease of pharynx"
+        },
+        {
             "code": "45382",
             "display": "Acute venous embolism and thrombosis of deep veins of upper extremity"
         },
@@ -13185,6 +13157,10 @@
             "display": "Peritonsillar abscess"
         },
         {
+            "code": "4760",
+            "display": "Chronic laryngitis"
+        },
+        {
             "code": "4770",
             "display": "Allergic rhinitis due to pollen"
         },
@@ -13211,10 +13187,6 @@
         {
             "code": "47819",
             "display": "Other disease of nasal cavity and sinuses"
-        },
-        {
-            "code": "47820",
-            "display": "Unspecified disease of pharynx"
         },
         {
             "code": "47821",
@@ -14057,6 +14029,10 @@
             "display": "Other specified temporomandibular joint disorders"
         },
         {
+            "code": "5966",
+            "display": "Rupture of bladder, nontraumatic"
+        },
+        {
             "code": "52489",
             "display": "Other specified dentofacial anomalies"
         },
@@ -14445,6 +14421,10 @@
             "display": "Chronic or unspecified duodenal ulcer with hemorrhage and perforation, without mention of obstruction"
         },
         {
+            "code": "5967",
+            "display": "Hemorrhage into bladder wall"
+        },
+        {
             "code": "53261",
             "display": "Chronic or unspecified duodenal ulcer with hemorrhage and perforation, with obstruction"
         },
@@ -14751,10 +14731,6 @@
         {
             "code": "55001",
             "display": "Inguinal hernia, with gangrene, unilateral or unspecified, recurrent"
-        },
-        {
-            "code": "56738",
-            "display": "Other retroperitoneal abscess"
         },
         {
             "code": "55010",
@@ -15143,6 +15119,10 @@
         {
             "code": "56731",
             "display": "Psoas muscle abscess"
+        },
+        {
+            "code": "56738",
+            "display": "Other retroperitoneal abscess"
         },
         {
             "code": "56739",
@@ -15981,14 +15961,6 @@
             "display": "Other functional disorder of bladder"
         },
         {
-            "code": "5966",
-            "display": "Rupture of bladder, nontraumatic"
-        },
-        {
-            "code": "5967",
-            "display": "Hemorrhage into bladder wall"
-        },
-        {
             "code": "5968",
             "display": "Other specified disorders of bladder"
         },
@@ -16227,10 +16199,6 @@
         {
             "code": "6060",
             "display": "Azoospermia"
-        },
-        {
-            "code": "6068",
-            "display": "Infertility due to extratesticular causes"
         },
         {
             "code": "6069",
@@ -16673,10 +16641,6 @@
             "display": "Endometrial hyperplasia, unspecified"
         },
         {
-            "code": "62131",
-            "display": "Simple endometrial hyperplasia without atypia"
-        },
-        {
             "code": "62132",
             "display": "Complex endometrial hyperplasia without atypia"
         },
@@ -16783,6 +16747,10 @@
         {
             "code": "6239",
             "display": "Unspecified noninflammatory disorder of vagina"
+        },
+        {
+            "code": "62401",
+            "display": "Vulvar intraepithelial neoplasia I [VIN I]"
         },
         {
             "code": "62402",
@@ -16971,6 +16939,10 @@
         {
             "code": "62989",
             "display": "Other specified disorders of female genital organs"
+        },
+        {
+            "code": "6299",
+            "display": "Unspecified disorder of female genital organs"
         },
         {
             "code": "630",
@@ -17185,10 +17157,6 @@
             "display": "Threatened abortion, delivered, with or without mention of antepartum condition"
         },
         {
-            "code": "75281",
-            "display": "Scrotal transposition"
-        },
-        {
             "code": "64003",
             "display": "Threatened abortion, antepartum condition or complication"
         },
@@ -17207,6 +17175,10 @@
         {
             "code": "64103",
             "display": "Placenta previa without hemorrhage, antepartum condition or complication"
+        },
+        {
+            "code": "6826",
+            "display": "Cellulitis and abscess of leg, except foot"
         },
         {
             "code": "64111",
@@ -17431,10 +17403,6 @@
         {
             "code": "64403",
             "display": "Threatened premature labor, antepartum condition or complication"
-        },
-        {
-            "code": "75732",
-            "display": "Vascular hamartomas"
         },
         {
             "code": "64413",
@@ -17909,6 +17877,10 @@
             "display": "Triplet pregnancy with fetal loss and retention of one or more fetus(es), delivered, with or without mention of antepartum condition"
         },
         {
+            "code": "65143",
+            "display": "Triplet pregnancy with fetal loss and retention of one or more fetus(es), antepartum condition or complication"
+        },
+        {
             "code": "65171",
             "display": "Multiple gestation following (elective) fetal reduction,delivered, with or without mention of antepartum condition"
         },
@@ -17919,10 +17891,6 @@
         {
             "code": "65201",
             "display": "Unstable lie, delivered, with or without mention of antepartum condition"
-        },
-        {
-            "code": "65613",
-            "display": "Rhesus isoimmunization, antepartum condition or complication"
         },
         {
             "code": "65211",
@@ -18089,6 +18057,10 @@
             "display": "Congenital or acquired abnormality of vagina, delivered, with or without mention of antepartum condition"
         },
         {
+            "code": "65473",
+            "display": "Congenital or acquired abnormality of vagina, antepartum condition or complication"
+        },
+        {
             "code": "65481",
             "display": "Congenital or acquired abnormality of vulva, delivered, with or without mention of antepartum condition"
         },
@@ -18119,6 +18091,10 @@
         {
             "code": "65513",
             "display": "Chromosomal abnormality in fetus, affecting management of mother, antepartum condition or complication"
+        },
+        {
+            "code": "65523",
+            "display": "Hereditary disease in family possibly affecting fetus, affecting management of mother, antepartum condition or complication"
         },
         {
             "code": "65531",
@@ -18161,8 +18137,16 @@
             "display": "Rhesus isoimmunization, delivered, with or without mention of antepartum condition"
         },
         {
+            "code": "65613",
+            "display": "Rhesus isoimmunization, antepartum condition or complication"
+        },
+        {
             "code": "65621",
             "display": "Isoimmunization from other and unspecified blood-group incompatibility, delivered, with or without mention of antepartum condition"
+        },
+        {
+            "code": "70704",
+            "display": "Pressure ulcer, hip"
         },
         {
             "code": "65623",
@@ -18407,6 +18391,10 @@
         {
             "code": "66123",
             "display": "Other and unspecified uterine inertia, antepartum condition or complication"
+        },
+        {
+            "code": "70705",
+            "display": "Pressure ulcer, buttock"
         },
         {
             "code": "66131",
@@ -18655,6 +18643,10 @@
         {
             "code": "66704",
             "display": "Retained placenta without hemorrhage, postpartum condition or complication"
+        },
+        {
+            "code": "6827",
+            "display": "Cellulitis and abscess of foot, except toes"
         },
         {
             "code": "66712",
@@ -19065,10 +19057,6 @@
             "display": "Other and unspecified disorder of breast associated with childbirth, antepartum condition or complication"
         },
         {
-            "code": "67634",
-            "display": "Other and unspecified disorder of breast associated with childbirth, postpartum condition or complication"
-        },
-        {
             "code": "67654",
             "display": "Suppressed lactation, postpartum condition or complication"
         },
@@ -19095,10 +19083,6 @@
         {
             "code": "67904",
             "display": "Maternal complications from in utero procedure, postpartum condition or complication"
-        },
-        {
-            "code": "67911",
-            "display": "Fetal complications from in utero procedure, delivered, with or without mention of antepartum condition"
         },
         {
             "code": "6800",
@@ -19187,14 +19171,6 @@
         {
             "code": "6825",
             "display": "Cellulitis and abscess of buttock"
-        },
-        {
-            "code": "6826",
-            "display": "Cellulitis and abscess of leg, except foot"
-        },
-        {
-            "code": "6827",
-            "display": "Cellulitis and abscess of foot, except toes"
         },
         {
             "code": "6828",
@@ -19549,10 +19525,6 @@
             "display": "Actinic keratosis"
         },
         {
-            "code": "70211",
-            "display": "Inflamed seborrheic keratosis"
-        },
-        {
             "code": "70219",
             "display": "Other seborrheic keratosis"
         },
@@ -19663,14 +19635,6 @@
         {
             "code": "70703",
             "display": "Pressure ulcer, lower back"
-        },
-        {
-            "code": "70704",
-            "display": "Pressure ulcer, hip"
-        },
-        {
-            "code": "70705",
-            "display": "Pressure ulcer, buttock"
         },
         {
             "code": "70706",
@@ -20197,10 +20161,6 @@
             "display": "Osteoarthrosis, localized, primary, upper arm"
         },
         {
-            "code": "71513",
-            "display": "Osteoarthrosis, localized, primary, forearm"
-        },
-        {
             "code": "71514",
             "display": "Osteoarthrosis, localized, primary, hand"
         },
@@ -20231,10 +20191,6 @@
         {
             "code": "71526",
             "display": "Osteoarthrosis, localized, secondary, lower leg"
-        },
-        {
-            "code": "71527",
-            "display": "Osteoarthrosis, localized, secondary, ankle and foot"
         },
         {
             "code": "71530",
@@ -20349,10 +20305,6 @@
             "display": "Allergic arthritis, site unspecified"
         },
         {
-            "code": "71635",
-            "display": "Climacteric arthritis, pelvic region and thigh"
-        },
-        {
             "code": "71636",
             "display": "Climacteric arthritis, lower leg"
         },
@@ -20383,10 +20335,6 @@
         {
             "code": "71657",
             "display": "Unspecified polyarthropathy or polyarthritis, ankle and foot"
-        },
-        {
-            "code": "72981",
-            "display": "Swelling of limb"
         },
         {
             "code": "71658",
@@ -20685,10 +20633,6 @@
             "display": "Ankylosis of joint, upper arm"
         },
         {
-            "code": "71854",
-            "display": "Ankylosis of joint, hand"
-        },
-        {
             "code": "71855",
             "display": "Ankylosis of joint, pelvic region and thigh"
         },
@@ -20711,10 +20655,6 @@
         {
             "code": "71865",
             "display": "Unspecified intrapelvic protrusion of acetabulum, pelvic region and thigh"
-        },
-        {
-            "code": "71875",
-            "display": "Developmental dislocation of joint, pelvic region and thigh"
         },
         {
             "code": "71880",
@@ -20747,10 +20687,6 @@
         {
             "code": "71888",
             "display": "Other joint derangement, not elsewhere classified, other specified sites"
-        },
-        {
-            "code": "71889",
-            "display": "Other joint derangement, not elsewhere classified, multiple sites"
         },
         {
             "code": "71891",
@@ -20863,10 +20799,6 @@
         {
             "code": "71926",
             "display": "Villonodular synovitis, lower leg"
-        },
-        {
-            "code": "71928",
-            "display": "Villonodular synovitis, other specified sites"
         },
         {
             "code": "71930",
@@ -20993,14 +20925,6 @@
             "display": "Difficulty in walking"
         },
         {
-            "code": "71981",
-            "display": "Other specified disorders of joint, shoulder region"
-        },
-        {
-            "code": "71983",
-            "display": "Other specified disorders of joint, forearm"
-        },
-        {
             "code": "71984",
             "display": "Other specified disorders of joint, hand"
         },
@@ -21023,10 +20947,6 @@
         {
             "code": "71990",
             "display": "Unspecified disorder of joint, site unspecified"
-        },
-        {
-            "code": "71994",
-            "display": "Unspecified disorder of joint, hand"
         },
         {
             "code": "71995",
@@ -21079,10 +20999,6 @@
         {
             "code": "72142",
             "display": "Spondylosis with myelopathy, lumbar region"
-        },
-        {
-            "code": "7215",
-            "display": "Kissing spine"
         },
         {
             "code": "7216",
@@ -21169,10 +21085,6 @@
             "display": "Postlaminectomy syndrome, unspecified region"
         },
         {
-            "code": "72281",
-            "display": "Postlaminectomy syndrome, cervical region"
-        },
-        {
             "code": "72282",
             "display": "Postlaminectomy syndrome, thoracic region"
         },
@@ -21183,10 +21095,6 @@
         {
             "code": "72290",
             "display": "Other and unspecified disc disorder, unspecified region"
-        },
-        {
-            "code": "72982",
-            "display": "Cramp of limb"
         },
         {
             "code": "72291",
@@ -21641,6 +21549,14 @@
             "display": "Nontraumatic compartment syndrome of other sites"
         },
         {
+            "code": "72981",
+            "display": "Swelling of limb"
+        },
+        {
+            "code": "72982",
+            "display": "Cramp of limb"
+        },
+        {
             "code": "72989",
             "display": "Other musculoskeletal symptoms referable to limbs"
         },
@@ -21835,10 +21751,6 @@
         {
             "code": "7321",
             "display": "Juvenile osteochondrosis of hip and pelvis"
-        },
-        {
-            "code": "7322",
-            "display": "Nontraumatic slipped upper femoral epiphysis"
         },
         {
             "code": "7323",
@@ -22373,10 +22285,6 @@
             "display": "Other specified congenital anomalies of iris and ciliary body"
         },
         {
-            "code": "74347",
-            "display": "Specified congenital anomalies of sclera"
-        },
-        {
             "code": "74349",
             "display": "Other congenital anomalies of anterior segment"
         },
@@ -22407,10 +22315,6 @@
         {
             "code": "74401",
             "display": "Absence of external ear"
-        },
-        {
-            "code": "74402",
-            "display": "Other anomalies of external ear with impairment of hearing"
         },
         {
             "code": "74405",
@@ -22941,16 +22845,8 @@
             "display": "Other anomalies of uterus"
         },
         {
-            "code": "75240",
-            "display": "Unspecified anomaly of cervix, vagina, and external female genitalia"
-        },
-        {
             "code": "75241",
             "display": "Embryonic cyst of cervix, vagina, and external female genitalia"
-        },
-        {
-            "code": "75242",
-            "display": "Imperforate hymen"
         },
         {
             "code": "75246",
@@ -22999,10 +22895,6 @@
         {
             "code": "75289",
             "display": "Other specified anomalies of genital organs"
-        },
-        {
-            "code": "7529",
-            "display": "Unspecified anomaly of genital organs"
         },
         {
             "code": "7530",
@@ -23117,10 +23009,6 @@
             "display": "Congenital subluxation of hip, unilateral"
         },
         {
-            "code": "75433",
-            "display": "Congenital subluxation of hip, bilateral"
-        },
-        {
             "code": "75435",
             "display": "Congenital dislocation of one hip with subluxation of other hip"
         },
@@ -23147,10 +23035,6 @@
         {
             "code": "75459",
             "display": "Other varus deformities of feet"
-        },
-        {
-            "code": "75460",
-            "display": "Talipes valgus"
         },
         {
             "code": "75461",
@@ -23213,10 +23097,6 @@
             "display": "Syndactyly of toes without fusion of bone"
         },
         {
-            "code": "75514",
-            "display": "Syndactyly of toes with fusion of bone"
-        },
-        {
             "code": "75520",
             "display": "Unspecified reduction deformity of upper limb"
         },
@@ -23253,10 +23133,6 @@
             "display": "Longitudinal deficiency, phalanges, complete or partial"
         },
         {
-            "code": "7554",
-            "display": "Reduction deformities, unspecified limb"
-        },
-        {
             "code": "75550",
             "display": "Unspecified anomaly of upper limb"
         },
@@ -23277,10 +23153,6 @@
             "display": "Macrodactylia (fingers)"
         },
         {
-            "code": "75558",
-            "display": "Cleft hand, congenital"
-        },
-        {
             "code": "75559",
             "display": "Other anomalies of upper limb, including shoulder girdle"
         },
@@ -23295,10 +23167,6 @@
         {
             "code": "75564",
             "display": "Congenital deformity of knee (joint)"
-        },
-        {
-            "code": "75565",
-            "display": "Macrodactylia of toes"
         },
         {
             "code": "75566",
@@ -23437,12 +23305,12 @@
             "display": "Ichthyosis congenita"
         },
         {
-            "code": "7572",
-            "display": "Dermatoglyphic anomalies"
-        },
-        {
             "code": "75731",
             "display": "Congenital ectodermal dysplasia"
+        },
+        {
+            "code": "75732",
+            "display": "Vascular hamartomas"
         },
         {
             "code": "75733",
@@ -23601,10 +23469,6 @@
             "display": "Narcotics affecting fetus or newborn via placenta or breast milk"
         },
         {
-            "code": "76073",
-            "display": "Hallucinogenic agents affecting fetus or newborn via placenta or breast milk"
-        },
-        {
             "code": "76075",
             "display": "Cocaine affecting fetus or newborn via placenta or breast milk"
         },
@@ -23627,10 +23491,6 @@
         {
             "code": "7608",
             "display": "Other specified maternal conditions affecting fetus or newborn"
-        },
-        {
-            "code": "7609",
-            "display": "Unspecified maternal condition affecting fetus or newborn"
         },
         {
             "code": "7610",
@@ -24001,10 +23861,6 @@
             "display": "Injury to brachial plexus due to birth trauma"
         },
         {
-            "code": "7677",
-            "display": "Other cranial and peripheral nerve injuries due to birth trauma"
-        },
-        {
             "code": "7678",
             "display": "Other specified birth trauma"
         },
@@ -24249,10 +24105,6 @@
             "display": "Neonatal jaundice due to delayed conjugation, cause unspecified"
         },
         {
-            "code": "77431",
-            "display": "Neonatal jaundice due to delayed conjugation in diseases classified elsewhere"
-        },
-        {
             "code": "77439",
             "display": "Other neonatal jaundice due to delayed conjugation from other causes"
         },
@@ -24275,10 +24127,6 @@
         {
             "code": "7750",
             "display": "Syndrome of \"infant of a diabetic mother\""
-        },
-        {
-            "code": "7751",
-            "display": "Neonatal diabetes mellitus"
         },
         {
             "code": "7753",
@@ -24397,10 +24245,6 @@
             "display": "Sclerema neonatorum"
         },
         {
-            "code": "7782",
-            "display": "Cold injury syndrome of newborn"
-        },
-        {
             "code": "7783",
             "display": "Other hypothermia of newborn"
         },
@@ -24423,10 +24267,6 @@
         {
             "code": "7788",
             "display": "Other specified conditions involving the integument of fetus and newborn"
-        },
-        {
-            "code": "7789",
-            "display": "Unspecified condition involving the integument and temperature regulation of fetus and newborn"
         },
         {
             "code": "7790",
@@ -24623,10 +24463,6 @@
         {
             "code": "7808",
             "display": "Generalized hyperhidrosis"
-        },
-        {
-            "code": "78092",
-            "display": "Excessive crying of infant (baby)"
         },
         {
             "code": "78093",
@@ -25601,14 +25437,6 @@
             "display": "Papanicolaou smear of cervix with atypical squamous cells of undetermined significance (ASC-US)"
         },
         {
-            "code": "8075",
-            "display": "Closed fracture of larynx and trachea"
-        },
-        {
-            "code": "8076",
-            "display": "Open fracture of larynx and trachea"
-        },
-        {
             "code": "79502",
             "display": "Papanicolaou smear of cervix with atypical squamous cells cannot exclude high grade squamous intraepithelial lesion (ASC-H)"
         },
@@ -25981,6 +25809,14 @@
             "display": "Closed fracture of base of skull without mention of intra cranial injury, with brief [less than one hour] loss of consciousness"
         },
         {
+            "code": "80221",
+            "display": "Closed fracture of mandible, condylar process"
+        },
+        {
+            "code": "80222",
+            "display": "Closed fracture of mandible, subcondylar"
+        },
+        {
             "code": "80105",
             "display": "Closed fracture of base of skull without mention of intra cranial injury, with prolonged [more than 24 hours] loss of consciousness, without return to pre-existing conscious level"
         },
@@ -26089,10 +25925,6 @@
             "display": "Closed fracture of base of skull with intracranial injury of other and unspecified nature, with no loss of consciousness"
         },
         {
-            "code": "80362",
-            "display": "Other open skull fracture with cerebral laceration and contusion, with brief [less than one hour] loss of consciousness"
-        },
-        {
             "code": "80142",
             "display": "Closed fracture of base of skull with intracranial injury of other and unspecified nature, with brief [less than one hour] loss of consciousness"
         },
@@ -26175,14 +26007,6 @@
         {
             "code": "80220",
             "display": "Closed fracture of mandible, unspecified site"
-        },
-        {
-            "code": "80221",
-            "display": "Closed fracture of mandible, condylar process"
-        },
-        {
-            "code": "80222",
-            "display": "Closed fracture of mandible, subcondylar"
         },
         {
             "code": "80223",
@@ -26339,6 +26163,10 @@
         {
             "code": "80336",
             "display": "Other closed skull fracture with other and unspecified intracranial hemorrhage, with loss of consciousness of unspecified duration"
+        },
+        {
+            "code": "80362",
+            "display": "Other open skull fracture with cerebral laceration and contusion, with brief [less than one hour] loss of consciousness"
         },
         {
             "code": "80366",
@@ -26627,6 +26455,14 @@
         {
             "code": "8074",
             "display": "Flail chest"
+        },
+        {
+            "code": "8075",
+            "display": "Closed fracture of larynx and trachea"
+        },
+        {
+            "code": "8076",
+            "display": "Open fracture of larynx and trachea"
         },
         {
             "code": "8080",
@@ -27561,6 +27397,10 @@
             "display": "Open dislocation of metacarpal (bone), proximal end"
         },
         {
+            "code": "8745",
+            "display": "Open wound of pharynx, complicated"
+        },
+        {
             "code": "83400",
             "display": "Closed dislocation of finger, unspecified part"
         },
@@ -27809,10 +27649,6 @@
             "display": "Ulnohumeral (joint) sprain"
         },
         {
-            "code": "9063",
-            "display": "Late effect of contusion"
-        },
-        {
             "code": "8418",
             "display": "Sprains and strains of other specified sites of elbow and forearm"
         },
@@ -27977,6 +27813,10 @@
             "display": "Concussion, with loss of consciousness of 30 minutes or less"
         },
         {
+            "code": "90003",
+            "display": "Injury to internal carotid artery"
+        },
+        {
             "code": "85012",
             "display": "Concussion, with loss of consciousness from 31 to 59 minutes"
         },
@@ -28099,10 +27939,6 @@
         {
             "code": "85191",
             "display": "Other and unspecified cerebral laceration and contusion, with open intracranial wound, with no loss of consciousness"
-        },
-        {
-            "code": "86412",
-            "display": "Injury to liver with open wound into cavity, laceration, minor"
         },
         {
             "code": "85194",
@@ -28393,6 +28229,10 @@
             "display": "Injury to other specified intrathoracic organs without mention of open wound into cavity"
         },
         {
+            "code": "9001",
+            "display": "Injury to internal jugular vein"
+        },
+        {
             "code": "86232",
             "display": "Injury to esophagus with open wound into cavity"
         },
@@ -28575,6 +28415,10 @@
         {
             "code": "86411",
             "display": "Injury to liver with open wound into cavity, hematoma and contusion"
+        },
+        {
+            "code": "86412",
+            "display": "Injury to liver with open wound into cavity, laceration, minor"
         },
         {
             "code": "86413",
@@ -29013,10 +28857,6 @@
             "display": "Open wound of pharynx, without mention of complication"
         },
         {
-            "code": "8745",
-            "display": "Open wound of pharynx, complicated"
-        },
-        {
             "code": "8748",
             "display": "Open wound of other and unspecified parts of neck, without mention of complication"
         },
@@ -29229,10 +29069,6 @@
             "display": "Traumatic amputation of thumb (complete)(partial), complicated"
         },
         {
-            "code": "9062",
-            "display": "Late effect of superficial injury"
-        },
-        {
             "code": "8860",
             "display": "Traumatic amputation of other finger(s) (complete) (partial), without mention of complication"
         },
@@ -29347,14 +29183,6 @@
         {
             "code": "90002",
             "display": "Injury to external carotid artery"
-        },
-        {
-            "code": "90003",
-            "display": "Injury to internal carotid artery"
-        },
-        {
-            "code": "9001",
-            "display": "Injury to internal jugular vein"
         },
         {
             "code": "90081",
@@ -29613,6 +29441,14 @@
             "display": "Late effect of open wound of extremities without mention of tendon injury"
         },
         {
+            "code": "9062",
+            "display": "Late effect of superficial injury"
+        },
+        {
+            "code": "9063",
+            "display": "Late effect of contusion"
+        },
+        {
             "code": "9064",
             "display": "Late effect of crushing"
         },
@@ -29743,6 +29579,10 @@
         {
             "code": "9106",
             "display": "Superficial foreign body (splinter) of face, neck, and scalp except eye, without major open wound and without mention of infection"
+        },
+        {
+            "code": "92232",
+            "display": "Contusion of buttock"
         },
         {
             "code": "9108",
@@ -29921,10 +29761,6 @@
             "display": "Insect bite, nonvenomous of hip, thigh, leg, and ankle, infected"
         },
         {
-            "code": "9642",
-            "display": "Poisoning by anticoagulants"
-        },
-        {
             "code": "9167",
             "display": "Superficial foreign body (splinter) of hip, thigh, leg, and ankle, without major open wound, infected"
         },
@@ -30051,10 +29887,6 @@
         {
             "code": "92231",
             "display": "Contusion of back"
-        },
-        {
-            "code": "92232",
-            "display": "Contusion of buttock"
         },
         {
             "code": "92233",
@@ -30665,10 +30497,6 @@
             "display": "Burn [any degree] involving 20-29 percent of body surface with third degree burn, less than 10 percent or unspecified"
         },
         {
-            "code": "9640",
-            "display": "Poisoning by iron and its compounds"
-        },
-        {
             "code": "94850",
             "display": "Burn [any degree] involving 50-59 percent of body surface with third degree burn, less than 10 percent or unspecified"
         },
@@ -30827,6 +30655,10 @@
         {
             "code": "9539",
             "display": "Injury to unspecified site of nerve roots and spinal plexus"
+        },
+        {
+            "code": "96970",
+            "display": "Poisoning by psychostimulant, unspecified"
         },
         {
             "code": "9540",
@@ -31093,6 +30925,14 @@
             "display": "Poisoning by vitamins, not elsewhere classified"
         },
         {
+            "code": "9640",
+            "display": "Poisoning by iron and its compounds"
+        },
+        {
+            "code": "9642",
+            "display": "Poisoning by anticoagulants"
+        },
+        {
             "code": "9648",
             "display": "Poisoning by other specified agents affecting blood constituents"
         },
@@ -31251,10 +31091,6 @@
         {
             "code": "9697",
             "display": "Poison-psychostimulants"
-        },
-        {
-            "code": "96970",
-            "display": "Poisoning by psychostimulant, unspecified"
         },
         {
             "code": "96971",
@@ -32629,10 +32465,6 @@
             "display": "Other motor vehicle traffic accident involving collision with motor vehicle injuring passenger on motorcycle"
         },
         {
-            "code": "E8506",
-            "display": "Accidental poisoning by antirheumatics (antiphlogistics)"
-        },
-        {
             "code": "E8126",
             "display": "Other motor vehicle traffic accident involving collision with motor vehicle injuring pedal cyclist"
         },
@@ -32667,10 +32499,6 @@
         {
             "code": "E8136",
             "display": "Motor vehicle traffic accident involving collision with other vehicle injuring pedal cyclist"
-        },
-        {
-            "code": "E8137",
-            "display": "Motor vehicle traffic accident involving collision with other vehicle injuring pedestrian"
         },
         {
             "code": "E8138",
@@ -32863,10 +32691,6 @@
         {
             "code": "E8217",
             "display": "Nontraffic accident involving other off-road motor vehicle injuring pedestrian"
-        },
-        {
-            "code": "E8981",
-            "display": "Accident caused by other burning materials"
         },
         {
             "code": "E8218",
@@ -33147,6 +32971,10 @@
         {
             "code": "E8504",
             "display": "Accidental poisoning by aromatic analgesics, not elsewhere classified"
+        },
+        {
+            "code": "E8506",
+            "display": "Accidental poisoning by antirheumatics (antiphlogistics)"
         },
         {
             "code": "E8508",
@@ -33497,10 +33325,6 @@
             "display": "Failure in suture and ligature during surgical operation"
         },
         {
-            "code": "E8763",
-            "display": "Endotracheal tube wrongly placed during anesthetic procedure"
-        },
-        {
             "code": "E8764",
             "display": "Failure to introduce or to remove other tube or instrument"
         },
@@ -33559,6 +33383,10 @@
         {
             "code": "E8790",
             "display": "Cardiac catheterization as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure"
+        },
+        {
+            "code": "E9132",
+            "display": "Accidental mechanical suffocation due to lack of air (in closed place)"
         },
         {
             "code": "E8791",
@@ -33749,6 +33577,10 @@
             "display": "Accident caused by controlled fire in other and unspecified building or structure"
         },
         {
+            "code": "E8981",
+            "display": "Accident caused by other burning materials"
+        },
+        {
             "code": "E899",
             "display": "Accident caused by unspecified fire"
         },
@@ -33889,8 +33721,8 @@
             "display": "Inhalation and ingestion of other object causing obstruction of respiratory tract or suffocation"
         },
         {
-            "code": "E9132",
-            "display": "Accidental mechanical suffocation due to lack of air (in closed place)"
+            "code": "V448",
+            "display": "Other artificial opening status"
         },
         {
             "code": "E9138",
@@ -34253,6 +34085,10 @@
             "display": "Other and unspecified anti-infectives causing adverse effects in therapeutic use"
         },
         {
+            "code": "V8381",
+            "display": "Cystic fibrosis gene carrier"
+        },
+        {
             "code": "E9320",
             "display": "Adrenal cortical steroids causing adverse effects in therapeutic use"
         },
@@ -34275,10 +34111,6 @@
         {
             "code": "E9325",
             "display": "Posterior pituitary hormones causing adverse effects in therapeutic use"
-        },
-        {
-            "code": "E9326",
-            "display": "Parathyroid and parathyroid derivatives causing adverse effects in therapeutic use"
         },
         {
             "code": "E9327",
@@ -34539,6 +34371,10 @@
         {
             "code": "E9427",
             "display": "Antivaricose drugs, including sclerosing agents, causing adverse effects in therapeutic use"
+        },
+        {
+            "code": "V8389",
+            "display": "Other genetic carrier status"
         },
         {
             "code": "E9429",
@@ -35013,10 +34849,6 @@
             "display": "Falling from other man-made structures, undetermined whether accidentally or purposely inflicted"
         },
         {
-            "code": "V4977",
-            "display": "Hip amputation status"
-        },
-        {
             "code": "E9872",
             "display": "Falling from natural sites, undetermined whether accidentally or purposely inflicted"
         },
@@ -35223,10 +35055,6 @@
         {
             "code": "V0489",
             "display": "Need for prophylactic vaccination and inoculation against other viral diseases"
-        },
-        {
-            "code": "V050",
-            "display": "Need for prophylactic vaccination and inoculation against arthropod-borne viral encephalitis"
         },
         {
             "code": "V051",
@@ -35905,10 +35733,6 @@
             "display": "Hx-major organ surg nec"
         },
         {
-            "code": "V1522",
-            "display": "Personal history of undergoing in utero procedure while a fetus"
-        },
-        {
             "code": "V1529",
             "display": "Personal history of surgery to other organs"
         },
@@ -36171,10 +35995,6 @@
         {
             "code": "V193",
             "display": "Family history of other ear disorders"
-        },
-        {
-            "code": "V194",
-            "display": "Family history of skin conditions"
         },
         {
             "code": "V195",
@@ -36629,10 +36449,6 @@
             "display": "Other artificial opening of urinary tract status"
         },
         {
-            "code": "V448",
-            "display": "Other artificial opening status"
-        },
-        {
             "code": "V449",
             "display": "Unspecified artificial opening status"
         },
@@ -36873,6 +36689,10 @@
             "display": "Above knee amputation status"
         },
         {
+            "code": "V4977",
+            "display": "Hip amputation status"
+        },
+        {
             "code": "V4981",
             "display": "Asymptomatic postmenopausal status (age-related) (natural)"
         },
@@ -36939,10 +36759,6 @@
         {
             "code": "V518",
             "display": "Other aftercare involving the use of plastic surgery"
-        },
-        {
-            "code": "V520",
-            "display": "Fitting and adjustment of artificial arm (complete) (partial)"
         },
         {
             "code": "V522",
@@ -37851,14 +37667,6 @@
         {
             "code": "V8301",
             "display": "Asymptomatic hemophilia A carrier"
-        },
-        {
-            "code": "V8381",
-            "display": "Cystic fibrosis gene carrier"
-        },
-        {
-            "code": "V8389",
-            "display": "Other genetic carrier status"
         },
         {
             "code": "V8401",

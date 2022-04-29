@@ -3,11 +3,11 @@
     "id": "d-items",
     "language": "en",
     "url": "http://fhir.mimic.mit.edu/CodeSystem/d-items",
-    "version": "0.4",
+    "version": "2.0",
     "name": "DItems",
     "title": "DItems",
-    "status": "active",
-    "date": "2022-03-14T14:29:07-04:00",
+    "status": "draft",
+    "date": "2022-04-29T12:04:51-04:00",
     "publisher": "KinD Lab",
     "description": "The item codes used throughout the ICU in MIMIC",
     "content": "complete",
@@ -55,6 +55,10 @@
         {
             "code": "224705",
             "display": "P High (APRV)"
+        },
+        {
+            "code": "220479",
+            "display": "Thryptophan"
         },
         {
             "code": "226066",
@@ -121,12 +125,12 @@
             "display": "CCO PAC Cap Change"
         },
         {
-            "code": "224940",
-            "display": "Impaired Skin Treatment #5"
-        },
-        {
             "code": "225301",
             "display": "RSI (Intubation)"
+        },
+        {
+            "code": "224940",
+            "display": "Impaired Skin Treatment #5"
         },
         {
             "code": "229322",
@@ -147,6 +151,14 @@
         {
             "code": "225094",
             "display": "History of slips / falls"
+        },
+        {
+            "code": "230062",
+            "display": "PNC-2 Motor Deficit"
+        },
+        {
+            "code": "220388",
+            "display": "Fibers"
         },
         {
             "code": "229140",
@@ -197,6 +209,10 @@
             "display": "Exam-GI/GU"
         },
         {
+            "code": "220459",
+            "display": "Riboflavin"
+        },
+        {
             "code": "228121",
             "display": "PA line ordered on POE"
         },
@@ -223,6 +239,10 @@
         {
             "code": "228818",
             "display": "Pressure ulcer #6- Stage"
+        },
+        {
+            "code": "220417",
+            "display": "Leucine"
         },
         {
             "code": "224563",
@@ -307,6 +327,10 @@
         {
             "code": "228242",
             "display": "Pt. Temperature (BG) (SOFT)"
+        },
+        {
+            "code": "220421",
+            "display": "Lysine"
         },
         {
             "code": "227461",
@@ -397,12 +421,12 @@
             "display": "Heliox"
         },
         {
-            "code": "226191",
-            "display": "Barrier precautions in place (Intubation)"
-        },
-        {
             "code": "229631",
             "display": "Phenylephrine (200/250)_OLD_1"
+        },
+        {
+            "code": "226191",
+            "display": "Barrier precautions in place (Intubation)"
         },
         {
             "code": "228085",
@@ -421,12 +445,12 @@
             "display": "Adenosine"
         },
         {
-            "code": "228355",
-            "display": "Enlive (Full)"
-        },
-        {
             "code": "229793",
             "display": "Estimated Blood Loss (LP)"
+        },
+        {
+            "code": "228355",
+            "display": "Enlive (Full)"
         },
         {
             "code": "225444",
@@ -465,16 +489,20 @@
             "display": "Respiratory Rate (Total)"
         },
         {
-            "code": "225707",
-            "display": "Central Line ordered on POE"
-        },
-        {
             "code": "229473",
             "display": "24 Gauge placed in the field"
         },
         {
+            "code": "225707",
+            "display": "Central Line ordered on POE"
+        },
+        {
             "code": "226613",
             "display": "Wound Vac #1"
+        },
+        {
+            "code": "220001",
+            "display": "Problem List"
         },
         {
             "code": "225986",
@@ -491,6 +519,10 @@
         {
             "code": "228687",
             "display": "Code Status."
+        },
+        {
+            "code": "220455",
+            "display": "Pyridoxine"
         },
         {
             "code": "225492",
@@ -531,6 +563,10 @@
         {
             "code": "221733",
             "display": "Factor VIII"
+        },
+        {
+            "code": "220475",
+            "display": "Terbium"
         },
         {
             "code": "223796",
@@ -585,12 +621,16 @@
             "display": "Labetalol"
         },
         {
+            "code": "225719",
+            "display": "Number of operators (A-Line)"
+        },
+        {
             "code": "224947",
             "display": "Impaired Skin Type #5"
         },
         {
-            "code": "225719",
-            "display": "Number of operators (A-Line)"
+            "code": "220399",
+            "display": "Glycine"
         },
         {
             "code": "226588",
@@ -661,6 +701,10 @@
             "display": "Peptamen 1.5 (Full)"
         },
         {
+            "code": "220396",
+            "display": "Glutamic acid"
+        },
+        {
             "code": "228015",
             "display": "22 G Phlebitis Scale"
         },
@@ -671,6 +715,10 @@
         {
             "code": "228947",
             "display": "Infection NCP - Interventions"
+        },
+        {
+            "code": "220462",
+            "display": "Scandium"
         },
         {
             "code": "228414",
@@ -705,12 +753,12 @@
             "display": "Unable to assess cognitive / perceptual"
         },
         {
-            "code": "224965",
-            "display": "Pressure Ulcer Stage #2"
-        },
-        {
             "code": "227951",
             "display": "Circulation/Skin Integrity"
+        },
+        {
+            "code": "224965",
+            "display": "Pressure Ulcer Stage #2"
         },
         {
             "code": "227352",
@@ -865,6 +913,10 @@
             "display": "Acuity Workload Question 1"
         },
         {
+            "code": "230070",
+            "display": "Documented in DC Summary (Aline)"
+        },
+        {
             "code": "228010",
             "display": "16 G Infiltration Scale"
         },
@@ -953,6 +1005,10 @@
             "display": "Stroke Volume Variation (SVV NICOM)"
         },
         {
+            "code": "221035",
+            "display": "Oleic acid"
+        },
+        {
             "code": "228415",
             "display": "Corneal Reflex Left"
         },
@@ -1013,16 +1069,16 @@
             "display": "Exam-Ext/MSK"
         },
         {
-            "code": "227590",
-            "display": "GI #3 Tube Place Method"
-        },
-        {
             "code": "229821",
             "display": "Device (VAD)"
         },
         {
             "code": "229692",
             "display": "CPOT-Muscle Tension (CPOTa)"
+        },
+        {
+            "code": "227590",
+            "display": "GI #3 Tube Place Method"
         },
         {
             "code": "223903",
@@ -1087,6 +1143,10 @@
         {
             "code": "228380",
             "display": "Thoracic Fluid Content (TFC) (NICOM)"
+        },
+        {
+            "code": "220497",
+            "display": "AThiamine"
         },
         {
             "code": "228540",
@@ -1157,6 +1217,10 @@
             "display": "Pressure ulcer #6- Dressing change"
         },
         {
+            "code": "220464",
+            "display": "Serine"
+        },
+        {
             "code": "224711",
             "display": "Recruitment Duration"
         },
@@ -1177,12 +1241,12 @@
             "display": "Cardiac Output (thermodilution)"
         },
         {
-            "code": "224672",
-            "display": "Yawning"
-        },
-        {
             "code": "228047",
             "display": "Follow-up X-RAY Ordered (PICC)"
+        },
+        {
+            "code": "224672",
+            "display": "Yawning"
         },
         {
             "code": "229332",
@@ -1231,6 +1295,10 @@
         {
             "code": "224985",
             "display": "Tunneling Present #8"
+        },
+        {
+            "code": "220974",
+            "display": "Gelatin succinylated"
         },
         {
             "code": "230044",
@@ -1353,12 +1421,12 @@
             "display": "Alkaline Phosphate"
         },
         {
-            "code": "223754",
-            "display": "Risk for Falls"
-        },
-        {
             "code": "225949",
             "display": "NIV Mask"
+        },
+        {
+            "code": "223754",
+            "display": "Risk for Falls"
         },
         {
             "code": "229070",
@@ -1393,6 +1461,10 @@
             "display": "Dialysis patient"
         },
         {
+            "code": "230051",
+            "display": "PNC-1 Infusion Rate (mL/hr)"
+        },
+        {
             "code": "229640",
             "display": "Calcium Gluconate (Bolus)"
         },
@@ -1403,6 +1475,10 @@
         {
             "code": "227676",
             "display": "Reason for Restraints (Non-Violent)"
+        },
+        {
+            "code": "220362",
+            "display": "Calciferol"
         },
         {
             "code": "225378",
@@ -1423,6 +1499,10 @@
         {
             "code": "227526",
             "display": "Citrate"
+        },
+        {
+            "code": "220457",
+            "display": "Rhenium"
         },
         {
             "code": "227602",
@@ -1459,6 +1539,10 @@
         {
             "code": "228049",
             "display": "Attending/Supervisor is the Clinical Operator (PICC)_New"
+        },
+        {
+            "code": "227080",
+            "display": "Supplement Ingredient"
         },
         {
             "code": "224109",
@@ -1499,6 +1583,10 @@
         {
             "code": "227538",
             "display": "ART Blood Pressure Alarm - Low"
+        },
+        {
+            "code": "220976",
+            "display": "Pentastarch"
         },
         {
             "code": "225965",
@@ -1637,6 +1725,10 @@
             "display": "Nutren 2.0 (Full)"
         },
         {
+            "code": "220429",
+            "display": "Myristic acid"
+        },
+        {
             "code": "224505",
             "display": "Lidocaine 1% (THCEN)"
         },
@@ -1661,12 +1753,12 @@
             "display": "Swallow Eval"
         },
         {
-            "code": "223990",
-            "display": "Respiratory Effort"
-        },
-        {
             "code": "229533",
             "display": "Camino"
+        },
+        {
+            "code": "223990",
+            "display": "Respiratory Effort"
         },
         {
             "code": "229371",
@@ -1777,6 +1869,10 @@
             "display": "Manual Blood Pressure Diastolic Left"
         },
         {
+            "code": "220390",
+            "display": "Folic Acid (ingr)"
+        },
+        {
             "code": "227117",
             "display": "PCA total dose units"
         },
@@ -1873,12 +1969,12 @@
             "display": "Esmolol"
         },
         {
-            "code": "225704",
-            "display": "Site cleaned with ChloraPrep(TM) (CVL)"
-        },
-        {
             "code": "228413",
             "display": "Seizure Activity"
+        },
+        {
+            "code": "225704",
+            "display": "Site cleaned with ChloraPrep(TM) (CVL)"
         },
         {
             "code": "228943",
@@ -1959,6 +2055,10 @@
         {
             "code": "228803",
             "display": "Pressure ulcer #1- Dressing status"
+        },
+        {
+            "code": "220341",
+            "display": "Alanine (ingr)"
         },
         {
             "code": "229744",
@@ -2065,6 +2165,10 @@
             "display": "Triple Introducer Waveform Appear"
         },
         {
+            "code": "220413",
+            "display": "Kilojoule"
+        },
+        {
             "code": "225680",
             "display": "ZProcan Napa"
         },
@@ -2117,12 +2221,12 @@
             "display": "Non-Operative Transplant (TRANSPLANT)"
         },
         {
-            "code": "225025",
-            "display": "Incision Dressing #4"
-        },
-        {
             "code": "228764",
             "display": "Pressure ulcer #2- Drainage amount"
+        },
+        {
+            "code": "225025",
+            "display": "Incision Dressing #4"
         },
         {
             "code": "220967",
@@ -2309,12 +2413,12 @@
             "display": "High risk (>51) interventions"
         },
         {
-            "code": "225292",
-            "display": "Unable to complete Airway Assessment (Intubation)"
-        },
-        {
             "code": "225524",
             "display": "Complications (Bronch)"
+        },
+        {
+            "code": "225292",
+            "display": "Unable to complete Airway Assessment (Intubation)"
         },
         {
             "code": "227288",
@@ -2421,6 +2525,10 @@
             "display": "Post-Operative Neurologic (NEUROLOGIC)"
         },
         {
+            "code": "220368",
+            "display": "Cholecalciferol"
+        },
+        {
             "code": "228102",
             "display": "Enema administration"
         },
@@ -2449,16 +2557,20 @@
             "display": "Impaired Skin #7- Location"
         },
         {
+            "code": "220494",
+            "display": "Linoleic acids"
+        },
+        {
             "code": "224285",
             "display": "Arterial line Change over Wire Date"
         },
         {
-            "code": "224043",
-            "display": "Incision Cleansing #1"
-        },
-        {
             "code": "226476",
             "display": "Esophogeal Balloon"
+        },
+        {
+            "code": "224043",
+            "display": "Incision Cleansing #1"
         },
         {
             "code": "229889",
@@ -2669,6 +2781,10 @@
             "display": "TCO2 (calc) Venous"
         },
         {
+            "code": "220485",
+            "display": "Tyrosine"
+        },
+        {
             "code": "228066",
             "display": "Unable to complete Airway Assessment (Intubation)"
         },
@@ -2695,6 +2811,10 @@
         {
             "code": "220961",
             "display": "Saline 0,65%"
+        },
+        {
+            "code": "220471",
+            "display": "Sulfur"
         },
         {
             "code": "226403",
@@ -2905,6 +3025,10 @@
             "display": "IV/Saline lock"
         },
         {
+            "code": "220473",
+            "display": "Taurine"
+        },
+        {
             "code": "229172",
             "display": "Specrectolabby (MBAL)"
         },
@@ -2973,6 +3097,10 @@
             "display": "LUE Sensation"
         },
         {
+            "code": "220981",
+            "display": "Glycerol"
+        },
+        {
             "code": "227243",
             "display": "Manual Blood Pressure Systolic Right"
         },
@@ -2983,6 +3111,10 @@
         {
             "code": "228774",
             "display": "Pressure ulcer #2- Odor"
+        },
+        {
+            "code": "227075",
+            "display": "Oral/Gastric Ingredient"
         },
         {
             "code": "223760",
@@ -3029,16 +3161,16 @@
             "display": "ROS-Endocrine"
         },
         {
-            "code": "227806",
-            "display": "ScvO2 (Presep) SQI"
-        },
-        {
             "code": "228785",
             "display": "Pressure ulcer #3- Cleanse"
         },
         {
             "code": "228060",
             "display": "Conscious sedation used (Bronch)"
+        },
+        {
+            "code": "227806",
+            "display": "ScvO2 (Presep) SQI"
         },
         {
             "code": "228341",
@@ -3055,6 +3187,10 @@
         {
             "code": "228267",
             "display": "FM Discord noted"
+        },
+        {
+            "code": "226221",
+            "display": "Enteral Nutrition Ingredient"
         },
         {
             "code": "228551",
@@ -3217,20 +3353,16 @@
             "display": "Temporary Pacemaker Mode"
         },
         {
-            "code": "225313",
-            "display": "Bed Bath"
-        },
-        {
             "code": "226865",
             "display": "SVR %O2 Saturation (PA Line)"
         },
         {
-            "code": "224186",
-            "display": "PICC Line Dressing Change"
+            "code": "225313",
+            "display": "Bed Bath"
         },
         {
-            "code": "226012",
-            "display": "Dressing applied and dated (PACEN)"
+            "code": "224186",
+            "display": "PICC Line Dressing Change"
         },
         {
             "code": "228420",
@@ -3239,6 +3371,10 @@
         {
             "code": "227524",
             "display": "Magnesium Sulfate (OB-GYN)"
+        },
+        {
+            "code": "226012",
+            "display": "Dressing applied and dated (PACEN)"
         },
         {
             "code": "227715",
@@ -3485,6 +3621,10 @@
             "display": "GU Catheter Size"
         },
         {
+            "code": "230056",
+            "display": "PNC-2 Appearance"
+        },
+        {
             "code": "220072",
             "display": "Central Venous Pressure Alarm - High"
         },
@@ -3593,12 +3733,12 @@
             "display": "Pulmocare (1/4)"
         },
         {
-            "code": "225731",
-            "display": "Pheresis Catheter Line Tip Cultured"
-        },
-        {
             "code": "227532",
             "display": "Plasma Pheresis"
+        },
+        {
+            "code": "225731",
+            "display": "Pheresis Catheter Line Tip Cultured"
         },
         {
             "code": "221749",
@@ -3681,6 +3821,10 @@
             "display": "Estimated Blood Loss (A-line)"
         },
         {
+            "code": "220367",
+            "display": "Chloride (ingr)"
+        },
+        {
             "code": "227119",
             "display": "Epidural Location"
         },
@@ -3729,20 +3873,20 @@
             "display": "Aquadestila"
         },
         {
-            "code": "224988",
-            "display": "Undermining Present #4"
-        },
-        {
             "code": "227566",
             "display": "Ventilator Tank #2"
         },
         {
-            "code": "225234",
-            "display": "18 Gauge Site Appear"
+            "code": "224988",
+            "display": "Undermining Present #4"
         },
         {
             "code": "228566",
             "display": "Incision #2- Cleanse"
+        },
+        {
+            "code": "225234",
+            "display": "18 Gauge Site Appear"
         },
         {
             "code": "224641",
@@ -3829,12 +3973,12 @@
             "display": "Intraosseous Device"
         },
         {
-            "code": "225648",
-            "display": "Follow-up X-RAYordered (PA Line)"
-        },
-        {
             "code": "225792",
             "display": "Invasive Ventilation"
+        },
+        {
+            "code": "225648",
+            "display": "Follow-up X-RAYordered (PA Line)"
         },
         {
             "code": "227214",
@@ -3871,6 +4015,10 @@
         {
             "code": "224596",
             "display": "Acuity (PICC)"
+        },
+        {
+            "code": "220483",
+            "display": "Tocopherol"
         },
         {
             "code": "227467",
@@ -3945,12 +4093,12 @@
             "display": "IO Placed in outside facility"
         },
         {
-            "code": "228577",
-            "display": "Impaired Skin #2- Type"
-        },
-        {
             "code": "229537",
             "display": "Pheresis Catheter Type"
+        },
+        {
+            "code": "228577",
+            "display": "Impaired Skin #2- Type"
         },
         {
             "code": "227031",
@@ -3967,6 +4115,10 @@
         {
             "code": "224925",
             "display": "Impaired Skin Odor #4"
+        },
+        {
+            "code": "221033",
+            "display": "Palmitic acid"
         },
         {
             "code": "223900",
@@ -4017,6 +4169,10 @@
             "display": "Incentive Spirometry"
         },
         {
+            "code": "230057",
+            "display": "PNC-2 Bolus (mL)"
+        },
+        {
             "code": "230045",
             "display": "Intellivent (Hamilton Vent Mode)"
         },
@@ -4049,6 +4205,10 @@
             "display": "ZGastric/TF Residual Intake"
         },
         {
+            "code": "230059",
+            "display": "PNC-2 Location"
+        },
+        {
             "code": "225019",
             "display": "Incision Drainage Amount #3"
         },
@@ -4057,12 +4217,16 @@
             "display": "GI #3 Tube Mark (CM)"
         },
         {
-            "code": "224889",
-            "display": "Impaired Skin Cleanse #3"
+            "code": "220375",
+            "display": "Copper (ingr)"
         },
         {
             "code": "228648",
             "display": "Home TF"
+        },
+        {
+            "code": "224889",
+            "display": "Impaired Skin Cleanse #3"
         },
         {
             "code": "228388",
@@ -4129,12 +4293,12 @@
             "display": "Any fear in relationships"
         },
         {
-            "code": "227472",
-            "display": "Incision Site #1"
-        },
-        {
             "code": "228888",
             "display": "Pain NCP - Expected outcomes"
+        },
+        {
+            "code": "227472",
+            "display": "Incision Site #1"
         },
         {
             "code": "225623",
@@ -4153,16 +4317,20 @@
             "display": "The Attending/Supervisor is the Clinician Operator (Bronch)"
         },
         {
+            "code": "220365",
+            "display": "Carnitine"
+        },
+        {
             "code": "225341",
             "display": "IABP Art. Waveform Appear"
         },
         {
-            "code": "226040",
-            "display": "ProBalance (1/4)"
-        },
-        {
             "code": "229637",
             "display": "Treatments (AM-PAC)"
+        },
+        {
+            "code": "226040",
+            "display": "ProBalance (1/4)"
         },
         {
             "code": "224026",
@@ -4179,6 +4347,10 @@
         {
             "code": "225478",
             "display": "Operation"
+        },
+        {
+            "code": "230077",
+            "display": "Documented on DC Summary (PICC)"
         },
         {
             "code": "226011",
@@ -4209,12 +4381,12 @@
             "display": "PACU Urine"
         },
         {
-            "code": "224112",
-            "display": "Traction/Immobile #1"
-        },
-        {
             "code": "228261",
             "display": "FM CM Consult"
+        },
+        {
+            "code": "224112",
+            "display": "Traction/Immobile #1"
         },
         {
             "code": "229106",
@@ -4225,12 +4397,12 @@
             "display": "AVA Change over Wire Date"
         },
         {
-            "code": "227091",
-            "display": "Ensure (1/4)"
-        },
-        {
             "code": "228386",
             "display": "Chloride (whole blood) (soft)"
+        },
+        {
+            "code": "227091",
+            "display": "Ensure (1/4)"
         },
         {
             "code": "228503",
@@ -4245,12 +4417,12 @@
             "display": "Glucose (whole blood)"
         },
         {
-            "code": "226048",
-            "display": "Replete with Fiber (1/4)"
-        },
-        {
             "code": "226724",
             "display": "Hospital Admit Date"
+        },
+        {
+            "code": "226048",
+            "display": "Replete with Fiber (1/4)"
         },
         {
             "code": "228163",
@@ -4265,12 +4437,12 @@
             "display": "Pressure Ulcer #5- Depth"
         },
         {
-            "code": "225529",
-            "display": "Transbronchial biopsy (Bronch)"
-        },
-        {
             "code": "228234",
             "display": "PAR-Respiration"
+        },
+        {
+            "code": "225529",
+            "display": "Transbronchial biopsy (Bronch)"
         },
         {
             "code": "220066",
@@ -4287,6 +4459,10 @@
         {
             "code": "227760",
             "display": "Presep Catheter Placement Confirmed by X-ray"
+        },
+        {
+            "code": "220354",
+            "display": "Beta Carotene"
         },
         {
             "code": "223925",
@@ -4383,6 +4559,10 @@
         {
             "code": "225701",
             "display": "Transparent dressing applied and dated (CVL)"
+        },
+        {
+            "code": "220470",
+            "display": "Strontium"
         },
         {
             "code": "224913",
@@ -4521,12 +4701,12 @@
             "display": "Vecuronium (Intubation)"
         },
         {
-            "code": "225530",
-            "display": "Transbronchial needle aspirate (Bronch)"
-        },
-        {
             "code": "227685",
             "display": "ZCentral Venous O2% Sat"
+        },
+        {
+            "code": "225530",
+            "display": "Transbronchial needle aspirate (Bronch)"
         },
         {
             "code": "229259",
@@ -4585,12 +4765,12 @@
             "display": "Coping/Knowledge Deficit  NCP - Goal"
         },
         {
-            "code": "227629",
-            "display": "Shivering"
-        },
-        {
             "code": "229720",
             "display": "Ultrasound (PACath)"
+        },
+        {
+            "code": "227629",
+            "display": "Shivering"
         },
         {
             "code": "226989",
@@ -4619,6 +4799,10 @@
         {
             "code": "225337",
             "display": "IABP Dressing Change"
+        },
+        {
+            "code": "220363",
+            "display": "Calcium (ingr)"
         },
         {
             "code": "228116",
@@ -4709,6 +4893,10 @@
             "display": "Altered Respiratory Status NCP - outcomes met"
         },
         {
+            "code": "220454",
+            "display": "Protein"
+        },
+        {
             "code": "227530",
             "display": "IV Immune Globulin (IVIG)"
         },
@@ -4797,12 +4985,12 @@
             "display": "Heart rate Alarm - High"
         },
         {
-            "code": "225601",
-            "display": "Hand cleansing prior to procedure (LP)"
-        },
-        {
             "code": "225905",
             "display": "Voriconazole"
+        },
+        {
+            "code": "225601",
+            "display": "Hand cleansing prior to procedure (LP)"
         },
         {
             "code": "224162",
@@ -4845,6 +5033,10 @@
             "display": "Triple Introducer Change over Wire Date"
         },
         {
+            "code": "221030",
+            "display": "Caprylic acid"
+        },
+        {
             "code": "227684",
             "display": "Safety Measures"
         },
@@ -4855,6 +5047,10 @@
         {
             "code": "228268",
             "display": "FM Dx reviewed"
+        },
+        {
+            "code": "220957",
+            "display": "Acetate (ingr)"
         },
         {
             "code": "229482",
@@ -4945,6 +5141,10 @@
             "display": "Incision #2- Treatment"
         },
         {
+            "code": "220487",
+            "display": "Vanadium"
+        },
+        {
             "code": "227458",
             "display": "Procan"
         },
@@ -4997,12 +5197,12 @@
             "display": "C Reactive Protein (CRP)"
         },
         {
-            "code": "226050",
-            "display": "Replete with Fiber (3/4)"
-        },
-        {
             "code": "228902",
             "display": "Altered Respiratory Status NCP - Expected outcomes"
+        },
+        {
+            "code": "226050",
+            "display": "Replete with Fiber (3/4)"
         },
         {
             "code": "225285",
@@ -5073,12 +5273,12 @@
             "display": "ETT Position Change"
         },
         {
-            "code": "225760",
-            "display": "RIC Site Appear"
-        },
-        {
             "code": "229387",
             "display": "Cerebellar - Heel -> Shin"
+        },
+        {
+            "code": "225760",
+            "display": "RIC Site Appear"
         },
         {
             "code": "229248",
@@ -5105,12 +5305,12 @@
             "display": "Pressure ulcer #10- Drainage"
         },
         {
-            "code": "227622",
-            "display": "Tunneling Present #9"
-        },
-        {
             "code": "229894",
             "display": "NPT 30 mattress pump in use"
+        },
+        {
+            "code": "227622",
+            "display": "Tunneling Present #9"
         },
         {
             "code": "229483",
@@ -5125,16 +5325,16 @@
             "display": "Gait/Transferring"
         },
         {
+            "code": "230036",
+            "display": "Grunting"
+        },
+        {
             "code": "228876",
             "display": "HM II- Power"
         },
         {
             "code": "228364",
             "display": "Two Cal HN (1/2)"
-        },
-        {
-            "code": "230036",
-            "display": "Grunting"
         },
         {
             "code": "225862",
@@ -5173,16 +5373,16 @@
             "display": "SvO2 SQI"
         },
         {
+            "code": "229247",
+            "display": "Trans Membrane Pressure"
+        },
+        {
             "code": "227966",
             "display": "Face to Face Eval (Violent)"
         },
         {
             "code": "224450",
             "display": "Traction/Immobile #3"
-        },
-        {
-            "code": "229247",
-            "display": "Trans Membrane Pressure"
         },
         {
             "code": "225877",
@@ -5245,6 +5445,10 @@
             "display": "CPOT-Pain Assessment Method"
         },
         {
+            "code": "226407",
+            "display": "GU Irrigant Intake Ingredient"
+        },
+        {
             "code": "223827",
             "display": "Ataxia"
         },
@@ -5267,6 +5471,14 @@
         {
             "code": "226377",
             "display": "PACU PO Intake"
+        },
+        {
+            "code": "230074",
+            "display": "Documented in DC Summary (LP)"
+        },
+        {
+            "code": "220476",
+            "display": "Thallium"
         },
         {
             "code": "228204",
@@ -5323,6 +5535,10 @@
         {
             "code": "224933",
             "display": "Impaired Skin Site #5"
+        },
+        {
+            "code": "230085",
+            "display": "Dialysate Fluid"
         },
         {
             "code": "224093",
@@ -5641,6 +5857,10 @@
             "display": "COVID NCP - Problem resolved"
         },
         {
+            "code": "230052",
+            "display": "PNC-1 Location"
+        },
+        {
             "code": "226365",
             "display": "OR Colloid Intake"
         },
@@ -5685,12 +5905,24 @@
             "display": "Specrecbyhand (LP)"
         },
         {
+            "code": "220478",
+            "display": "Threonine"
+        },
+        {
             "code": "225192",
             "display": "Collar Care"
         },
         {
             "code": "223877",
             "display": "ZCath Lab Intake"
+        },
+        {
+            "code": "220427",
+            "display": "Molybdenum"
+        },
+        {
+            "code": "220978",
+            "display": "Hetastarch (ingr)"
         },
         {
             "code": "227777",
@@ -5869,12 +6101,12 @@
             "display": "Avalon Line Site Appear"
         },
         {
-            "code": "227624",
-            "display": "Undermining Present #9"
-        },
-        {
             "code": "229118",
             "display": "Sensory disturbance NCP - Interventions"
+        },
+        {
+            "code": "227624",
+            "display": "Undermining Present #9"
         },
         {
             "code": "225087",
@@ -5885,12 +6117,12 @@
             "display": "Tandem Heart Inflow Line"
         },
         {
-            "code": "224966",
-            "display": "Pressure Ulcer Stage #3"
-        },
-        {
             "code": "226622",
             "display": "Red Rubber"
+        },
+        {
+            "code": "224966",
+            "display": "Pressure Ulcer Stage #3"
         },
         {
             "code": "224404",
@@ -5951,6 +6183,10 @@
         {
             "code": "223797",
             "display": "Sensory Level"
+        },
+        {
+            "code": "220491",
+            "display": "Ytterbium"
         },
         {
             "code": "225386",
@@ -6069,12 +6305,20 @@
             "display": "Stool Guaiac"
         },
         {
+            "code": "220397",
+            "display": "Glutamine"
+        },
+        {
             "code": "226016",
             "display": "Nutren 2.0 (1/4)"
         },
         {
             "code": "225354",
             "display": "PA Catheter Insertion Date"
+        },
+        {
+            "code": "226509",
+            "display": "Blood Ingredient"
         },
         {
             "code": "224801",
@@ -6125,6 +6369,10 @@
             "display": "Ensure Plus (Full)"
         },
         {
+            "code": "220467",
+            "display": "Sodium (ingr)"
+        },
+        {
             "code": "229875",
             "display": "Oxygenator visible (CH)"
         },
@@ -6143,6 +6391,10 @@
         {
             "code": "227717",
             "display": "Cerebral Perfusion Pressure Alarm - Low"
+        },
+        {
+            "code": "230060",
+            "display": "PNC-2 Medication"
         },
         {
             "code": "225000",
@@ -6199,6 +6451,10 @@
         {
             "code": "226372",
             "display": "OR Cell Saver Intake"
+        },
+        {
+            "code": "220994",
+            "display": "Bicarbonate (ingr)"
         },
         {
             "code": "225376",
@@ -6393,24 +6649,24 @@
             "display": "ZGU Irrigant Intake"
         },
         {
-            "code": "227665",
-            "display": "Immobilizer Evaluated"
-        },
-        {
             "code": "229582",
             "display": "Portable CT scan"
+        },
+        {
+            "code": "227665",
+            "display": "Immobilizer Evaluated"
         },
         {
             "code": "225148",
             "display": "Bivalirudin (Angiomax)"
         },
         {
-            "code": "225647",
-            "display": "PA line ordered on POE"
-        },
-        {
             "code": "228758",
             "display": "Pressure ulcer #6- Drainage"
+        },
+        {
+            "code": "225647",
+            "display": "PA line ordered on POE"
         },
         {
             "code": "224004",
@@ -6477,12 +6733,12 @@
             "display": "Sheath Line Tip Cultured"
         },
         {
-            "code": "225487",
-            "display": "Barrier precautions in place (THCEN)"
-        },
-        {
             "code": "229160",
             "display": "Timespent"
+        },
+        {
+            "code": "225487",
+            "display": "Barrier precautions in place (THCEN)"
         },
         {
             "code": "228766",
@@ -6533,12 +6789,12 @@
             "display": "Direct Bilirubin"
         },
         {
-            "code": "228306",
-            "display": "Assistance Device"
-        },
-        {
             "code": "228483",
             "display": "Follow Up Xray (Gen Proc)"
+        },
+        {
+            "code": "228306",
+            "display": "Assistance Device"
         },
         {
             "code": "228069",
@@ -6749,6 +7005,10 @@
             "display": "IABP Cap Change"
         },
         {
+            "code": "230053",
+            "display": "PNC-1 Medication"
+        },
+        {
             "code": "221255",
             "display": "Trans Esophageal Echo"
         },
@@ -6805,12 +7065,12 @@
             "display": "Purge Pressure (R)"
         },
         {
-            "code": "228302",
-            "display": "CAM-ICU RASS LOC"
-        },
-        {
             "code": "229790",
             "display": "Estimated Blood Loss (Bronch)"
+        },
+        {
+            "code": "228302",
+            "display": "CAM-ICU RASS LOC"
         },
         {
             "code": "225045",
@@ -6885,6 +7145,10 @@
             "display": "Temporary Ventricular Sens"
         },
         {
+            "code": "230083",
+            "display": "Replacement Fluid (Pre-Filter)"
+        },
+        {
             "code": "226026",
             "display": "Impact with Fiber (3/4)"
         },
@@ -6913,6 +7177,10 @@
             "display": "Pressure ulcer #9- Odor"
         },
         {
+            "code": "220463",
+            "display": "Selenium"
+        },
+        {
             "code": "229266",
             "display": "Cannula sites visually inspected (ECMO)"
         },
@@ -6931,6 +7199,10 @@
         {
             "code": "226018",
             "display": "Nutren 2.0 (3/4)"
+        },
+        {
+            "code": "221194",
+            "display": "Hexastarch"
         },
         {
             "code": "221468",
@@ -7033,6 +7305,14 @@
             "display": "LDL measured"
         },
         {
+            "code": "226222",
+            "display": "Insulin Ingredient"
+        },
+        {
+            "code": "220460",
+            "display": "Rubidium"
+        },
+        {
             "code": "225915",
             "display": "Profilnine"
         },
@@ -7093,6 +7373,10 @@
             "display": "Imipenem/Cilastatin"
         },
         {
+            "code": "230072",
+            "display": "Documented on DC Summary (GenProc)"
+        },
+        {
             "code": "221207",
             "display": "Impact (Full)"
         },
@@ -7119,6 +7403,10 @@
         {
             "code": "220293",
             "display": "Minute Volume Alarm - High"
+        },
+        {
+            "code": "220346",
+            "display": "Arachidic acid"
         },
         {
             "code": "220245",
@@ -7233,12 +7521,12 @@
             "display": "Guidewire exchange (PICC)"
         },
         {
-            "code": "226059",
-            "display": "Vivonex (1/2)"
-        },
-        {
             "code": "226567",
             "display": "Straight Cath"
+        },
+        {
+            "code": "226059",
+            "display": "Vivonex (1/2)"
         },
         {
             "code": "228178",
@@ -7253,24 +7541,24 @@
             "display": "Multi Lumen - Obturator in place"
         },
         {
-            "code": "225736",
-            "display": "Triple Introducer Line Tip Cultured"
-        },
-        {
             "code": "227534",
             "display": "Cyclosporine"
+        },
+        {
+            "code": "225736",
+            "display": "Triple Introducer Line Tip Cultured"
         },
         {
             "code": "225944",
             "display": "Sterile Water"
         },
         {
-            "code": "224669",
-            "display": "Restlessness"
-        },
-        {
             "code": "228607",
             "display": "Impaired Skin #8- Dressing Status"
+        },
+        {
+            "code": "224669",
+            "display": "Restlessness"
         },
         {
             "code": "229393",
@@ -7405,12 +7693,12 @@
             "display": "Cont. Neb Med Dose"
         },
         {
-            "code": "226037",
-            "display": "Peptamen 1.5 (2/3)"
-        },
-        {
             "code": "228534",
             "display": "Impaired Skin #6- Treatment"
+        },
+        {
+            "code": "226037",
+            "display": "Peptamen 1.5 (2/3)"
         },
         {
             "code": "228701",
@@ -7485,6 +7773,10 @@
             "display": "Insertion kit used (PA line)"
         },
         {
+            "code": "230068",
+            "display": "Documented in DC Summary (Bronch)_OLD_1"
+        },
+        {
             "code": "228339",
             "display": "Amiodarone 600/500"
         },
@@ -7493,12 +7785,12 @@
             "display": "Checklist"
         },
         {
-            "code": "224999",
-            "display": "Incision Cleansing #3"
-        },
-        {
             "code": "227361",
             "display": "Indwelling (PortaCath) Dressing Change"
+        },
+        {
+            "code": "224999",
+            "display": "Incision Cleansing #3"
         },
         {
             "code": "224424",
@@ -7599,6 +7891,10 @@
         {
             "code": "227636",
             "display": "Knee Location - CPM"
+        },
+        {
+            "code": "220356",
+            "display": "Biotine"
         },
         {
             "code": "224651",
@@ -7797,12 +8093,12 @@
             "display": "PICC Ordered on POE"
         },
         {
-            "code": "227949",
-            "display": "Face to Face Eval (Non-violent)"
-        },
-        {
             "code": "229868",
             "display": "Risk Factors for Pressure Injury"
+        },
+        {
+            "code": "227949",
+            "display": "Face to Face Eval (Non-violent)"
         },
         {
             "code": "226719",
@@ -7851,6 +8147,10 @@
         {
             "code": "225762",
             "display": "Sheath Cap Change"
+        },
+        {
+            "code": "220364",
+            "display": "Carbohydrates"
         },
         {
             "code": "225171",
@@ -7989,12 +8289,12 @@
             "display": "APS"
         },
         {
-            "code": "226021",
-            "display": "Impact (2/3)"
-        },
-        {
             "code": "227926",
             "display": "Activity O2 sat - Aerobic Activity Response"
+        },
+        {
+            "code": "226021",
+            "display": "Impact (2/3)"
         },
         {
             "code": "228370",
@@ -8045,12 +8345,12 @@
             "display": "Undermining Present #5"
         },
         {
-            "code": "224038",
-            "display": "Impaired Skin Treatment #1"
-        },
-        {
             "code": "225662",
             "display": "ZGentamicin (Peak)"
+        },
+        {
+            "code": "224038",
+            "display": "Impaired Skin Treatment #1"
         },
         {
             "code": "225860",
@@ -8059,6 +8359,10 @@
         {
             "code": "221794",
             "display": "Furosemide (Lasix)"
+        },
+        {
+            "code": "220377",
+            "display": "Cysteine"
         },
         {
             "code": "229730",
@@ -8177,6 +8481,10 @@
             "display": "Incision #6- Dressing Status"
         },
         {
+            "code": "230076",
+            "display": "Documented on DC Summary (Para)"
+        },
+        {
             "code": "225389",
             "display": "Presep Catheter Zero/Calibrate"
         },
@@ -8201,12 +8509,12 @@
             "display": "PCA 1 hour limit units"
         },
         {
-            "code": "226882",
-            "display": "Nutren Pulmonary (1/2)"
-        },
-        {
             "code": "228372",
             "display": "Leg Raise Result (NICOM)"
+        },
+        {
+            "code": "226882",
+            "display": "Nutren Pulmonary (1/2)"
         },
         {
             "code": "226629",
@@ -8429,6 +8737,10 @@
             "display": "Cerebral Temperature (C)"
         },
         {
+            "code": "220395",
+            "display": "Glucose (ingr)"
+        },
+        {
             "code": "229787",
             "display": "Rigid Stylette (Intubation)"
         },
@@ -8445,16 +8757,16 @@
             "display": "Carafate (Sucralfate)"
         },
         {
-            "code": "225580",
-            "display": "Is alternative vascular access present (CVL)"
-        },
-        {
             "code": "229673",
             "display": "Motor Current (mA) High (R)"
         },
         {
             "code": "228734",
             "display": "Pressure ulcer #2- Wound Base"
+        },
+        {
+            "code": "225580",
+            "display": "Is alternative vascular access present (CVL)"
         },
         {
             "code": "225474",
@@ -8473,12 +8785,12 @@
             "display": "Insulin pump"
         },
         {
-            "code": "225047",
-            "display": "Incision Packing #6"
-        },
-        {
             "code": "228233",
             "display": "PAR-Remain sedated"
+        },
+        {
+            "code": "225047",
+            "display": "Incision Packing #6"
         },
         {
             "code": "226036",
@@ -8499,6 +8811,10 @@
         {
             "code": "229882",
             "display": "CVL Biopatch"
+        },
+        {
+            "code": "230071",
+            "display": "Documented in DC Summary (CVL)"
         },
         {
             "code": "227847",
@@ -8629,12 +8945,20 @@
             "display": "ICU Consent"
         },
         {
+            "code": "226224",
+            "display": "Propofol Ingredient"
+        },
+        {
             "code": "228553",
             "display": "Pressure Ulcer #5- Type"
         },
         {
             "code": "226526",
             "display": "Patient identified correctly (A-Line)"
+        },
+        {
+            "code": "220453",
+            "display": "Proline"
         },
         {
             "code": "228594",
@@ -8693,12 +9017,12 @@
             "display": "Nitric Oxide"
         },
         {
-            "code": "227293",
-            "display": "Multi Lumen Dressing Occlusive"
-        },
-        {
             "code": "228699",
             "display": "Cardiovascular"
+        },
+        {
+            "code": "227293",
+            "display": "Multi Lumen Dressing Occlusive"
         },
         {
             "code": "224150",
@@ -8757,6 +9081,10 @@
             "display": "Drowsiness"
         },
         {
+            "code": "220477",
+            "display": "Thorium"
+        },
+        {
             "code": "227071",
             "display": "PACU Platelet Intake"
         },
@@ -8765,20 +9093,20 @@
             "display": "PEEP set"
         },
         {
-            "code": "225526",
-            "display": "Bronchoalveolar lavage (BAL) / washing (Bronch)"
-        },
-        {
             "code": "228595",
             "display": "Incision #2- Dressing Status"
         },
         {
-            "code": "226161",
-            "display": "Sterile field maintained throughout procedure (PICC)"
+            "code": "225526",
+            "display": "Bronchoalveolar lavage (BAL) / washing (Bronch)"
         },
         {
             "code": "228606",
             "display": "Impaired Skin #7- Dressing Status"
+        },
+        {
+            "code": "226161",
+            "display": "Sterile field maintained throughout procedure (PICC)"
         },
         {
             "code": "228081",
@@ -8893,12 +9221,12 @@
             "display": "ICU Consent Signed"
         },
         {
-            "code": "227353",
-            "display": "Trauma Line Dressing Occlusive"
-        },
-        {
             "code": "229347",
             "display": "Impaired Mobility  NCP - Interventions"
+        },
+        {
+            "code": "227353",
+            "display": "Trauma Line Dressing Occlusive"
         },
         {
             "code": "225323",
@@ -9149,12 +9477,16 @@
             "display": "Transthoracic Echo"
         },
         {
-            "code": "223923",
-            "display": "Seizure Activity"
+            "code": "220422",
+            "display": "Magnesium (ingr)"
         },
         {
             "code": "229990",
             "display": "Filters checked (Anes)"
+        },
+        {
+            "code": "223923",
+            "display": "Seizure Activity"
         },
         {
             "code": "228618",
@@ -9185,16 +9517,16 @@
             "display": "Time spent"
         },
         {
-            "code": "224890",
-            "display": "Impaired Skin Cleanse #4"
-        },
-        {
             "code": "229979",
             "display": "COVID NCP - Plan revised"
         },
         {
             "code": "228791",
             "display": "Pressure ulcer #9- Cleanse"
+        },
+        {
+            "code": "224890",
+            "display": "Impaired Skin Cleanse #4"
         },
         {
             "code": "226754",
@@ -9231,6 +9563,10 @@
         {
             "code": "223810",
             "display": "Paroxysmal Sweats"
+        },
+        {
+            "code": "220447",
+            "display": "Philoquinone"
         },
         {
             "code": "226815",
@@ -9285,6 +9621,10 @@
             "display": "Rate"
         },
         {
+            "code": "220423",
+            "display": "Manganese"
+        },
+        {
             "code": "228988",
             "display": "Safety Restraints NCP - Interventions"
         },
@@ -9315,6 +9655,10 @@
         {
             "code": "220235",
             "display": "Arterial CO2 Pressure"
+        },
+        {
+            "code": "220424",
+            "display": "Menaquinon"
         },
         {
             "code": "224283",
@@ -9393,12 +9737,12 @@
             "display": "16 G Phlebitis Scale"
         },
         {
-            "code": "227542",
-            "display": "ScvO2 (Presep) Calibrated"
-        },
-        {
             "code": "228878",
             "display": "PeCO2"
+        },
+        {
+            "code": "227542",
+            "display": "ScvO2 (Presep) Calibrated"
         },
         {
             "code": "229194",
@@ -9641,6 +9985,10 @@
             "display": "Non-Operative Cardiovascular (CARDIOVASC)"
         },
         {
+            "code": "220983",
+            "display": "Lecithin"
+        },
+        {
             "code": "226253",
             "display": "SpO2 Desat Limit"
         },
@@ -9709,6 +10057,10 @@
             "display": "Less Restrictive Measures"
         },
         {
+            "code": "220415",
+            "display": "L-carnitine"
+        },
+        {
             "code": "225734",
             "display": "Presep Catheter Line Tip Cultured"
         },
@@ -9769,24 +10121,24 @@
             "display": "Impaired Skin Odor #1"
         },
         {
-            "code": "225706",
-            "display": "Insertion kit used (CVL)"
-        },
-        {
             "code": "229612",
             "display": "Ultrasound Images interpreted (CVL)"
+        },
+        {
+            "code": "225706",
+            "display": "Insertion kit used (CVL)"
         },
         {
             "code": "229068",
             "display": "Protamine sulfate"
         },
         {
-            "code": "220120",
-            "display": "Intra Aortic Ballon Pump Setting"
-        },
-        {
             "code": "228640",
             "display": "EtCO2"
+        },
+        {
+            "code": "220120",
+            "display": "Intra Aortic Ballon Pump Setting"
         },
         {
             "code": "226632",
@@ -9865,6 +10217,10 @@
             "display": "Intra Cranial Pressure Alarm - Low"
         },
         {
+            "code": "220982",
+            "display": "Soya oil"
+        },
+        {
             "code": "228839",
             "display": "Pressure ulcer #7- Tunneling present"
         },
@@ -9887,6 +10243,10 @@
         {
             "code": "227945",
             "display": "Restraint (Non-violent)"
+        },
+        {
+            "code": "221031",
+            "display": "Capric acid"
         },
         {
             "code": "229066",
@@ -9977,12 +10337,12 @@
             "display": "Medication Added Units #1 (Peritoneal Dialysis)"
         },
         {
-            "code": "228359",
-            "display": "Glucerna (Full)"
-        },
-        {
             "code": "229413",
             "display": "Chest Tube #3"
+        },
+        {
+            "code": "228359",
+            "display": "Glucerna (Full)"
         },
         {
             "code": "224345",
@@ -9993,12 +10353,12 @@
             "display": "Tidal Volume (observed)"
         },
         {
-            "code": "225689",
-            "display": "Insertion kit used (PICC Line)"
-        },
-        {
             "code": "228285",
             "display": "FM Tx/goals"
+        },
+        {
+            "code": "225689",
+            "display": "Insertion kit used (PICC Line)"
         },
         {
             "code": "225277",
@@ -10045,12 +10405,12 @@
             "display": "RUE Color"
         },
         {
-            "code": "228349",
-            "display": "Nepro (1/4)"
-        },
-        {
             "code": "228792",
             "display": "Pressure ulcer #10- Cleanse"
+        },
+        {
+            "code": "228349",
+            "display": "Nepro (1/4)"
         },
         {
             "code": "229141",
@@ -10125,6 +10485,10 @@
             "display": "Mannitol 10%"
         },
         {
+            "code": "220481",
+            "display": "Tin"
+        },
+        {
             "code": "226627",
             "display": "OR Urine"
         },
@@ -10167,6 +10531,10 @@
         {
             "code": "227536",
             "display": "KCl (CRRT)"
+        },
+        {
+            "code": "220410",
+            "display": "Iron (ingr)"
         },
         {
             "code": "224665",
@@ -10229,12 +10597,12 @@
             "display": "Flow (CH)"
         },
         {
-            "code": "224816",
-            "display": "GI #2 Tube Place Method"
-        },
-        {
             "code": "226575",
             "display": "Nasogastric"
+        },
+        {
+            "code": "224816",
+            "display": "GI #2 Tube Place Method"
         },
         {
             "code": "224067",
@@ -10243,6 +10611,10 @@
         {
             "code": "229822",
             "display": "Driveline Lock Engaged (VAD)"
+        },
+        {
+            "code": "220402",
+            "display": "Histidine"
         },
         {
             "code": "227932",
@@ -10313,12 +10685,12 @@
             "display": "Immediate complications (PICC)"
         },
         {
-            "code": "228179",
-            "display": "ELWI (PiCCO)"
-        },
-        {
             "code": "229104",
             "display": "Nutrition  NCP - Plan revised"
+        },
+        {
+            "code": "228179",
+            "display": "ELWI (PiCCO)"
         },
         {
             "code": "227687",
@@ -10429,12 +10801,12 @@
             "display": "Dialysate Rate"
         },
         {
-            "code": "225702",
-            "display": "Follow-up chest X-RAY ordered (CVL)"
-        },
-        {
             "code": "226479",
             "display": "Ectopy Type 2"
+        },
+        {
+            "code": "225702",
+            "display": "Follow-up chest X-RAY ordered (CVL)"
         },
         {
             "code": "223791",
@@ -10445,16 +10817,16 @@
             "display": "Indwelling (PortaCath) Port #2"
         },
         {
-            "code": "224936",
-            "display": "Impaired Skin Site #8"
-        },
-        {
             "code": "229298",
             "display": "Speech and Swallow Evaluation"
         },
         {
             "code": "226582",
             "display": "Ostomy (output)"
+        },
+        {
+            "code": "224936",
+            "display": "Impaired Skin Site #8"
         },
         {
             "code": "224758",
@@ -10477,12 +10849,12 @@
             "display": "FiO2 (CH)"
         },
         {
-            "code": "224673",
-            "display": "Abdominal Changes: Observation"
-        },
-        {
             "code": "225873",
             "display": "Gancyclovir"
+        },
+        {
+            "code": "224673",
+            "display": "Abdominal Changes: Observation"
         },
         {
             "code": "229528",
@@ -10515,6 +10887,10 @@
         {
             "code": "226574",
             "display": "Jejunostomy"
+        },
+        {
+            "code": "220489",
+            "display": "Vitamin K"
         },
         {
             "code": "226768",
@@ -10625,6 +11001,10 @@
             "display": "Sweating"
         },
         {
+            "code": "220349",
+            "display": "Ascorbic acid"
+        },
+        {
             "code": "228861",
             "display": "Impaired Skin #9- Type"
         },
@@ -10649,6 +11029,10 @@
             "display": "Sputum Amount"
         },
         {
+            "code": "226374",
+            "display": "PACU Intake_ingr"
+        },
+        {
             "code": "228381",
             "display": "Total Peripheral Resistance (TPR) (NICOM)"
         },
@@ -10671,6 +11055,10 @@
         {
             "code": "229280",
             "display": "FiO2 (ECMO)"
+        },
+        {
+            "code": "220446",
+            "display": "Phenylalanine"
         },
         {
             "code": "223823",
@@ -10729,6 +11117,10 @@
             "display": "Surrounding Tissue #9"
         },
         {
+            "code": "230046",
+            "display": "Interpreter Used"
+        },
+        {
             "code": "226894",
             "display": "Coefficient ICU length of stay"
         },
@@ -10777,6 +11169,10 @@
             "display": "Vivonex Pediatric"
         },
         {
+            "code": "220451",
+            "display": "Potassium (ingr)"
+        },
+        {
             "code": "224110",
             "display": "Cervical Collar Status"
         },
@@ -10787,6 +11183,10 @@
         {
             "code": "223954",
             "display": "Pericardial Drain Site"
+        },
+        {
+            "code": "220458",
+            "display": "Rhodium"
         },
         {
             "code": "227546",
@@ -10885,6 +11285,10 @@
             "display": "Manual Blood Pressure Systolic Left"
         },
         {
+            "code": "220370",
+            "display": "Chromium (ingr)"
+        },
+        {
             "code": "228266",
             "display": "FM Date/Time"
         },
@@ -10917,12 +11321,16 @@
             "display": "Impaired Skin Length #2"
         },
         {
-            "code": "223917",
-            "display": "RU Strength/Movement"
+            "code": "230078",
+            "display": "Documented on DC Summary (Thora)"
         },
         {
             "code": "229434",
             "display": "Unable to obtain"
+        },
+        {
+            "code": "223917",
+            "display": "RU Strength/Movement"
         },
         {
             "code": "229840",
@@ -10963,6 +11371,10 @@
         {
             "code": "224687",
             "display": "Minute Volume"
+        },
+        {
+            "code": "230075",
+            "display": "Documented on DC Summary (PA)"
         },
         {
             "code": "229547",
@@ -11017,12 +11429,12 @@
             "display": "Compression device # 4"
         },
         {
-            "code": "228930",
-            "display": "Impaired Tissue Perfusion NCP - Outcomes met"
-        },
-        {
             "code": "229427",
             "display": "ROS-GU"
+        },
+        {
+            "code": "228930",
+            "display": "Impaired Tissue Perfusion NCP - Outcomes met"
         },
         {
             "code": "224746",
@@ -11085,6 +11497,10 @@
             "display": "Pressure Ulcer #3- Location"
         },
         {
+            "code": "227079",
+            "display": "Parenteral Nutrition Ingredient"
+        },
+        {
             "code": "224992",
             "display": "Undermining Present #8"
         },
@@ -11117,12 +11533,12 @@
             "display": "GCSEye_ApacheIV"
         },
         {
-            "code": "225240",
-            "display": "14 Gauge Site Appear"
-        },
-        {
             "code": "227568",
             "display": "Airway Size (mm)"
+        },
+        {
+            "code": "225240",
+            "display": "14 Gauge Site Appear"
         },
         {
             "code": "226760",
@@ -11141,12 +11557,12 @@
             "display": "LUE Temp"
         },
         {
-            "code": "224937",
-            "display": "Impaired Skin Treatment #2"
-        },
-        {
             "code": "230034",
             "display": "Amiodarone 150/100"
+        },
+        {
+            "code": "224937",
+            "display": "Impaired Skin Treatment #2"
         },
         {
             "code": "229342",
@@ -11245,12 +11661,12 @@
             "display": "OxygenApacheIIScore"
         },
         {
-            "code": "224982",
-            "display": "Tunneling Present #5"
-        },
-        {
             "code": "228399",
             "display": "Facial Droop"
+        },
+        {
+            "code": "224982",
+            "display": "Tunneling Present #5"
         },
         {
             "code": "225737",
@@ -11357,6 +11773,10 @@
             "display": "Indications (CVL)"
         },
         {
+            "code": "220432",
+            "display": "Niacin"
+        },
+        {
             "code": "228193",
             "display": "Oxygenator/ECMO"
         },
@@ -11433,12 +11853,12 @@
             "display": "Impaired Skin  - Dressing Status #3"
         },
         {
-            "code": "224970",
-            "display": "Pressure Ulcer Stage #7"
-        },
-        {
             "code": "227853",
             "display": "Other (Activity); Specify"
+        },
+        {
+            "code": "224970",
+            "display": "Pressure Ulcer Stage #7"
         },
         {
             "code": "228036",
@@ -11469,12 +11889,12 @@
             "display": "Lumbar"
         },
         {
-            "code": "227362",
-            "display": "Pheresis Catheter Dressing Occlusive"
-        },
-        {
             "code": "229138",
             "display": "Substance withdrawal NCP - Interventions"
+        },
+        {
+            "code": "227362",
+            "display": "Pheresis Catheter Dressing Occlusive"
         },
         {
             "code": "228016",
@@ -11573,6 +11993,10 @@
             "display": "GU Irrigant/Urine Volume Out"
         },
         {
+            "code": "230084",
+            "display": "Replacement Fluid (Post-Filter)"
+        },
+        {
             "code": "227043",
             "display": "Post-Operative Hematology (HEMATO)"
         },
@@ -11593,6 +12017,10 @@
             "display": "Incision Drainage Amount #2"
         },
         {
+            "code": "220480",
+            "display": "Thulium"
+        },
+        {
             "code": "225977",
             "display": "Dialysate Fluid"
         },
@@ -11605,20 +12033,20 @@
             "display": "Bactrim (SMX/TMP)"
         },
         {
-            "code": "225287",
-            "display": "Transparent dressing applied and dated (PICC)"
-        },
-        {
             "code": "229561",
             "display": "Plan-Cardiac"
         },
         {
-            "code": "224945",
-            "display": "Impaired Skin Type #3"
+            "code": "225287",
+            "display": "Transparent dressing applied and dated (PICC)"
         },
         {
             "code": "227199",
             "display": "Indwelling (PortaCath) Port #2 Date De-accessed"
+        },
+        {
+            "code": "224945",
+            "display": "Impaired Skin Type #3"
         },
         {
             "code": "223938",
@@ -11669,6 +12097,10 @@
             "display": "Verification (Gen Proc)"
         },
         {
+            "code": "220351",
+            "display": "Aspartic Acid"
+        },
+        {
             "code": "228169",
             "display": "Impella Line"
         },
@@ -11697,12 +12129,12 @@
             "display": "Altered Respiratory Status NCP - Interventions"
         },
         {
-            "code": "227696",
-            "display": "Fibersource HN (3/4)"
-        },
-        {
             "code": "228363",
             "display": "Pulmocare (Full)"
+        },
+        {
+            "code": "227696",
+            "display": "Fibersource HN (3/4)"
         },
         {
             "code": "228784",
@@ -11755,6 +12187,10 @@
         {
             "code": "224905",
             "display": "Impaired Skin Drainage #5"
+        },
+        {
+            "code": "220444",
+            "display": "Pantotanic acid"
         },
         {
             "code": "229108",
@@ -11869,6 +12305,10 @@
             "display": "VAD Beat Rate L"
         },
         {
+            "code": "220373",
+            "display": "Cobolamin"
+        },
+        {
             "code": "221028",
             "display": "Stresson"
         },
@@ -11877,12 +12317,12 @@
             "display": "Dialysis Catheter Type"
         },
         {
-            "code": "224986",
-            "display": "Undermining Present #2"
-        },
-        {
             "code": "227486",
             "display": "Printer"
+        },
+        {
+            "code": "224986",
+            "display": "Undermining Present #2"
         },
         {
             "code": "223998",
@@ -11895,6 +12335,10 @@
         {
             "code": "222315",
             "display": "Vasopressin"
+        },
+        {
+            "code": "220492",
+            "display": "Zinc (ingr)"
         },
         {
             "code": "227039",
@@ -11927,6 +12371,10 @@
         {
             "code": "227549",
             "display": "ScvO2 (Presep)"
+        },
+        {
+            "code": "226366",
+            "display": "OR Intake_ingr"
         },
         {
             "code": "224854",
@@ -11973,12 +12421,12 @@
             "display": "Ensure"
         },
         {
-            "code": "227589",
-            "display": "GI #2 Tube Place Method"
-        },
-        {
             "code": "229854",
             "display": "Pressures Off (CH)"
+        },
+        {
+            "code": "227589",
+            "display": "GI #2 Tube Place Method"
         },
         {
             "code": "225203",
@@ -12053,12 +12501,12 @@
             "display": "Pressure Ulcer Stage #1"
         },
         {
-            "code": "227978",
-            "display": "Boost Glucose Control (3/4)"
-        },
-        {
             "code": "229335",
             "display": "Activity Intolerance NCP - Goal"
+        },
+        {
+            "code": "227978",
+            "display": "Boost Glucose Control (3/4)"
         },
         {
             "code": "224057",
@@ -12217,6 +12665,10 @@
             "display": "CO (Arterial)"
         },
         {
+            "code": "220482",
+            "display": "Tintanium"
+        },
+        {
             "code": "228804",
             "display": "Pressure ulcer #2- Dressing status"
         },
@@ -12247,6 +12699,10 @@
         {
             "code": "228631",
             "display": "Date signed"
+        },
+        {
+            "code": "221343",
+            "display": "Theophylline_DI"
         },
         {
             "code": "229890",
@@ -12293,6 +12749,10 @@
             "display": "IABP Power Source"
         },
         {
+            "code": "220411",
+            "display": "Isoleucine"
+        },
+        {
             "code": "228406",
             "display": "Motor R Arm"
         },
@@ -12337,16 +12797,20 @@
             "display": "Novasource"
         },
         {
-            "code": "225501",
-            "display": "Insertion kit used (PACEN)"
-        },
-        {
             "code": "228990",
             "display": "Safety Restraints NCP - Outcomes met"
         },
         {
+            "code": "225501",
+            "display": "Insertion kit used (PACEN)"
+        },
+        {
             "code": "227695",
             "display": "Fibersource HN (Full)"
+        },
+        {
+            "code": "220456",
+            "display": "Retinol"
         },
         {
             "code": "225162",
@@ -12421,6 +12885,10 @@
             "display": "Unable to assess pain"
         },
         {
+            "code": "220466",
+            "display": "Silver"
+        },
+        {
             "code": "221219",
             "display": "Venogram"
         },
@@ -12441,12 +12909,12 @@
             "display": "Metabolic disturbance NCP - Interventions"
         },
         {
-            "code": "224392",
-            "display": "ETT Position Change"
-        },
-        {
             "code": "228738",
             "display": "Pressure ulcer #6- Wound Base"
+        },
+        {
+            "code": "224392",
+            "display": "ETT Position Change"
         },
         {
             "code": "225097",
@@ -12601,12 +13069,20 @@
             "display": "P1 Alarm - High"
         },
         {
-            "code": "226878",
-            "display": "Ensure Plus (3/4)"
+            "code": "220461",
+            "display": "Samarium"
+        },
+        {
+            "code": "230069",
+            "display": "Documented in DC Summary (Bronch)"
         },
         {
             "code": "229326",
             "display": "CAM-ICU MS Change"
+        },
+        {
+            "code": "226878",
+            "display": "Ensure Plus (3/4)"
         },
         {
             "code": "226028",
@@ -12709,12 +13185,12 @@
             "display": "Face to Face Eval (Non-Violent)"
         },
         {
-            "code": "228133",
-            "display": "Isosource 1.5 (2/3)"
-        },
-        {
             "code": "229014",
             "display": "Promote with Fiber (Full)"
+        },
+        {
+            "code": "228133",
+            "display": "Isosource 1.5 (2/3)"
         },
         {
             "code": "228208",
@@ -12787,6 +13263,10 @@
         {
             "code": "227583",
             "display": "Autoset/CPAP"
+        },
+        {
+            "code": "230055",
+            "display": "PNC-1 Motor Deficit"
         },
         {
             "code": "227982",
@@ -12973,6 +13453,10 @@
             "display": "Pediasure"
         },
         {
+            "code": "221019",
+            "display": "Carotenoids"
+        },
+        {
             "code": "228448",
             "display": "Angio Dressing # 4"
         },
@@ -12983,6 +13467,10 @@
         {
             "code": "224290",
             "display": "Arterial line Tubing Change"
+        },
+        {
+            "code": "220344",
+            "display": "Amino Acid"
         },
         {
             "code": "220228",
@@ -13073,16 +13561,16 @@
             "display": "OCAT - Saliva secretions, Voice quality"
         },
         {
+            "code": "227369",
+            "display": "22 Gauge Dressing Occlusive"
+        },
+        {
             "code": "224971",
             "display": "Pressure Ulcer Stage #8"
         },
         {
             "code": "224674",
             "display": "Changes in Temperature"
-        },
-        {
-            "code": "227369",
-            "display": "22 Gauge Dressing Occlusive"
         },
         {
             "code": "225835",
@@ -13105,12 +13593,12 @@
             "display": "IABP Zero/Calibrate"
         },
         {
-            "code": "224676",
-            "display": "Nausea and Vomiting (CINA)"
-        },
-        {
             "code": "229187",
             "display": "Specreclabeled (LP)"
+        },
+        {
+            "code": "224676",
+            "display": "Nausea and Vomiting (CINA)"
         },
         {
             "code": "228146",
@@ -13131,6 +13619,10 @@
         {
             "code": "220950",
             "display": "Dextrose 10%"
+        },
+        {
+            "code": "220490",
+            "display": "Water"
         },
         {
             "code": "229535",
@@ -13225,6 +13717,10 @@
             "display": "Number of Attempts (Gen Proc)"
         },
         {
+            "code": "220347",
+            "display": "Arginine"
+        },
+        {
             "code": "229481",
             "display": "Verification of  (SBNET)"
         },
@@ -13305,6 +13801,10 @@
             "display": "PA Catheter Dressing Occlusive"
         },
         {
+            "code": "220468",
+            "display": "Sorbitol"
+        },
+        {
             "code": "228148",
             "display": "ABI Ankle BP R (Impella)"
         },
@@ -13341,6 +13841,10 @@
             "display": "Tremor (COWS)"
         },
         {
+            "code": "220448",
+            "display": "Phosphorus"
+        },
+        {
             "code": "225331",
             "display": "Tunneled (Hickman) Site Appear"
         },
@@ -13355,6 +13859,10 @@
         {
             "code": "229552",
             "display": "Avalon Line Discontinued"
+        },
+        {
+            "code": "220412",
+            "display": "Kilogram calory"
         },
         {
             "code": "227471",
@@ -13421,6 +13929,10 @@
             "display": "ChpApacheIIScore"
         },
         {
+            "code": "224458",
+            "display": "Drain Output_ingr"
+        },
+        {
             "code": "220956",
             "display": "Ringers Acetate"
         },
@@ -13459,6 +13971,10 @@
         {
             "code": "224735",
             "display": "Flow Rate (variable/fixed)"
+        },
+        {
+            "code": "230058",
+            "display": "PNC-2 Infusion Rate (mL/hr)"
         },
         {
             "code": "225920",
@@ -13521,12 +14037,12 @@
             "display": "Fick (PA line)"
         },
         {
-            "code": "224042",
-            "display": "Incision Dressing #1"
-        },
-        {
             "code": "226402",
             "display": "GU Irrigant - Sterile Water"
+        },
+        {
+            "code": "224042",
+            "display": "Incision Dressing #1"
         },
         {
             "code": "228190",
@@ -13553,12 +14069,20 @@
             "display": "MDI #1 Drug"
         },
         {
+            "code": "220408",
+            "display": "Iodine"
+        },
+        {
             "code": "228787",
             "display": "Pressure ulcer #5- Cleanse"
         },
         {
             "code": "228859",
             "display": "Impaired Skin #7- Type"
+        },
+        {
+            "code": "220486",
+            "display": "Valine"
         },
         {
             "code": "229032",
@@ -13653,6 +14177,10 @@
             "display": "Ultrasound Images uploaded (PACath)"
         },
         {
+            "code": "230050",
+            "display": "PNC-1 Bolus (mL)"
+        },
+        {
             "code": "229515",
             "display": "Avalon/Protek Duo"
         },
@@ -13713,6 +14241,14 @@
             "display": "Pronator Drift"
         },
         {
+            "code": "220418",
+            "display": "Linolenic acids"
+        },
+        {
+            "code": "220472",
+            "display": "Tantalum"
+        },
+        {
             "code": "229133",
             "display": "Elimination NCP - Expected outcomes"
         },
@@ -13723,6 +14259,10 @@
         {
             "code": "226744",
             "display": "APACHE II PDR - Adjusted"
+        },
+        {
+            "code": "220369",
+            "display": "Choline"
         },
         {
             "code": "229985",
@@ -13761,6 +14301,10 @@
             "display": "Brain Tissue Oxygenation"
         },
         {
+            "code": "226060",
+            "display": "Calories"
+        },
+        {
             "code": "224846",
             "display": "Impaired Skin Width #1"
         },
@@ -13795,6 +14339,10 @@
         {
             "code": "225091",
             "display": "Unable to assess activity / mobility"
+        },
+        {
+            "code": "220387",
+            "display": "Fat"
         },
         {
             "code": "229167",
@@ -13897,6 +14445,10 @@
             "display": "Spont Vt"
         },
         {
+            "code": "220469",
+            "display": "Stearic Acid"
+        },
+        {
             "code": "229709",
             "display": "Angiotensin II (Giapreza)"
         },
@@ -13913,12 +14465,12 @@
             "display": "Chest Tube Site #4"
         },
         {
-            "code": "224066",
-            "display": "Position Change"
-        },
-        {
             "code": "225516",
             "display": "Location (Bronch)"
+        },
+        {
+            "code": "224066",
+            "display": "Position Change"
         },
         {
             "code": "229256",
@@ -14045,6 +14597,10 @@
             "display": "Temporary Venticular Stim Threshold mA"
         },
         {
+            "code": "220474",
+            "display": "Tellurium"
+        },
+        {
             "code": "228114",
             "display": "Hand cleansing prior to procedure (PA Line)"
         },
@@ -14057,12 +14613,16 @@
             "display": "Pressure Ulcer #9- Width"
         },
         {
-            "code": "228131",
-            "display": "Isosource 1.5 (1/2)"
+            "code": "226506",
+            "display": "PO Intake_Ingr"
         },
         {
             "code": "229690",
             "display": "CPOT-Pain Assessment Method-Post"
+        },
+        {
+            "code": "228131",
+            "display": "Isosource 1.5 (1/2)"
         },
         {
             "code": "225120",
@@ -14181,6 +14741,10 @@
             "display": "Tandem Heart Access Line Position"
         },
         {
+            "code": "220484",
+            "display": "Tungsten"
+        },
+        {
             "code": "225070",
             "display": "Unable to assess psychological"
         },
@@ -14245,12 +14809,12 @@
             "display": "Impaired Skin Wound Base #4"
         },
         {
-            "code": "227359",
-            "display": "Tunneled (Hickman) Dressing Occlusive"
-        },
-        {
             "code": "227960",
             "display": "Patient/Family Informed"
+        },
+        {
+            "code": "227359",
+            "display": "Tunneled (Hickman) Dressing Occlusive"
         },
         {
             "code": "226370",
@@ -14365,6 +14929,14 @@
             "display": "Insertion site prepped and draped (PACEN)"
         },
         {
+            "code": "220987",
+            "display": "D-Mannitol (C6H14O6)"
+        },
+        {
+            "code": "230049",
+            "display": "PNC-1 Appearance"
+        },
+        {
             "code": "229072",
             "display": "Ketorolac (Toradol)"
         },
@@ -14387,6 +14959,10 @@
         {
             "code": "227630",
             "display": "Arctic Sun Temp #1 Location"
+        },
+        {
+            "code": "220435",
+            "display": "Nitrogen"
         },
         {
             "code": "220602",
@@ -14477,6 +15053,10 @@
             "display": "Packed Red Blood Cells"
         },
         {
+            "code": "220407",
+            "display": "Inositol"
+        },
+        {
             "code": "226504",
             "display": "Phenytoin (Free)"
         },
@@ -14507,6 +15087,10 @@
         {
             "code": "229351",
             "display": "Foley Catheter"
+        },
+        {
+            "code": "230073",
+            "display": "Documented in DC Summary (Intub)"
         },
         {
             "code": "229120",
@@ -14541,12 +15125,16 @@
             "display": "HM II- Perc Lock fully engaged"
         },
         {
-            "code": "224950",
-            "display": "Impaired Skin Type #8"
+            "code": "220426",
+            "display": "Methionine"
         },
         {
             "code": "228322",
             "display": "PC Interpreter present"
+        },
+        {
+            "code": "224950",
+            "display": "Impaired Skin Type #8"
         },
         {
             "code": "223794",
@@ -14557,12 +15145,12 @@
             "display": "Tunneling Present #6"
         },
         {
-            "code": "225030",
-            "display": "Dressing Status #4"
-        },
-        {
             "code": "229188",
             "display": "SpecrecPOE (LP)"
+        },
+        {
+            "code": "225030",
+            "display": "Dressing Status #4"
         },
         {
             "code": "229265",
@@ -14627,6 +15215,10 @@
         {
             "code": "225769",
             "display": "Sheath Tubing Change"
+        },
+        {
+            "code": "220389",
+            "display": "Fluoride"
         },
         {
             "code": "227911",
@@ -14857,12 +15449,12 @@
             "display": "Incision #7- Cleanse"
         },
         {
-            "code": "225567",
-            "display": "Hand cleansing prior to procedure (A-Line)"
-        },
-        {
             "code": "228517",
             "display": "Skin Cleanse"
+        },
+        {
+            "code": "225567",
+            "display": "Hand cleansing prior to procedure (A-Line)"
         },
         {
             "code": "225384",
@@ -14997,12 +15589,12 @@
             "display": "Ultrasound Images uploaded (CVL)"
         },
         {
-            "code": "224091",
-            "display": "Continuous Pressure Machine Status"
-        },
-        {
             "code": "229698",
             "display": "CPOT-Facial Expression (CPOTb)"
+        },
+        {
+            "code": "224091",
+            "display": "Continuous Pressure Machine Status"
         },
         {
             "code": "227959",
@@ -15023,6 +15615,10 @@
         {
             "code": "228209",
             "display": "Tandem Heart Access Line Insertion Date"
+        },
+        {
+            "code": "220488",
+            "display": "Vitamin D12"
         },
         {
             "code": "225692",
@@ -15069,6 +15665,10 @@
             "display": "Incision Drainage Amount #5"
         },
         {
+            "code": "220948",
+            "display": "Lactate (ingr)"
+        },
+        {
             "code": "229292",
             "display": "GI Prophy"
         },
@@ -15081,16 +15681,16 @@
             "display": "Transpulmonary Pressure (Insp. Hold)"
         },
         {
-            "code": "223753",
-            "display": "Riker-SAS Scale"
-        },
-        {
             "code": "229291",
             "display": "Prophylaxis"
         },
         {
             "code": "224349",
             "display": "Verification of (CVL)"
+        },
+        {
+            "code": "223753",
+            "display": "Riker-SAS Scale"
         },
         {
             "code": "228332",
@@ -15209,6 +15809,10 @@
             "display": "Capillary Refill L"
         },
         {
+            "code": "221032",
+            "display": "Lauric acid"
+        },
+        {
             "code": "227918",
             "display": "Rest RR - Aerobic Activity Response"
         },
@@ -15225,16 +15829,24 @@
             "display": "Ammonia (SOFT)"
         },
         {
+            "code": "227074",
+            "display": "IVF ingredient"
+        },
+        {
+            "code": "220465",
+            "display": "Silicone"
+        },
+        {
             "code": "227000",
             "display": "BUN_ApacheIV"
         },
         {
-            "code": "227675",
-            "display": "Face to Face Eval (Violent)"
-        },
-        {
             "code": "228005",
             "display": "PBP (Prefilter) Replacement Rate"
+        },
+        {
+            "code": "227675",
+            "display": "Face to Face Eval (Violent)"
         },
         {
             "code": "225295",
@@ -15445,12 +16057,12 @@
             "display": "Pupil Response Right"
         },
         {
-            "code": "225046",
-            "display": "Incision Packing #5"
-        },
-        {
             "code": "229716",
             "display": "Ultrasound Images uploaded (Aline)"
+        },
+        {
+            "code": "225046",
+            "display": "Incision Packing #5"
         },
         {
             "code": "228079",

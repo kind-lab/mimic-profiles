@@ -3,11 +3,11 @@
     "id": "specimen-type",
     "language": "en",
     "url": "http://fhir.mimic.mit.edu/ValueSet/specimen-type",
-    "version": "0.4",
+    "version": "2.0",
     "name": "SpecimenType",
     "title": "SpecimenType",
     "status": "draft",
-    "date": "2022-04-18T12:06:36-04:00",
+    "date": "2022-04-29T12:04:51-04:00",
     "publisher": "KinD Lab",
     "description": "The specimen type codes for both lab and micro specimen for MIMIC",
     "compose": {

@@ -3,13 +3,14 @@
     "id": "microbiology-antibiotic",
     "language": "en",
     "url": "http://fhir.mimic.mit.edu/CodeSystem/microbiology-antibiotic",
-    "version": "0.4",
+    "version": "2.0",
     "name": "MicrobiologyAntibiotic",
     "title": "MicrobiologyAntibiotic",
-    "status": "active",
-    "date": "2022-03-14T14:29:07-04:00",
+    "status": "draft",
+    "date": "2022-04-29T12:04:51-04:00",
     "publisher": "KinD Lab",
     "description": "The microbiology antibiotic being tested on an organism in MIMIC",
+    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/microbiology-antibiotic",
     "content": "complete",
     "concept": [
         {

@@ -3,11 +3,11 @@
     "id": "outputevents-d-items",
     "language": "en",
     "url": "http://fhir.mimic.mit.edu/ValueSet/outputevents-d-items",
-    "version": "0.4",
+    "version": "2.0",
     "name": "OutputeventsDItems",
     "title": "OutputeventsDItems",
-    "status": "active",
-    "date": "2022-03-14T14:29:07-04:00",
+    "status": "draft",
+    "date": "2022-04-29T12:04:51-04:00",
     "publisher": "KinD Lab",
     "description": "The item codes for outputevents used in MIMIC",
     "compose": {
@@ -508,12 +508,12 @@
                         "display": "PICC Line Dressing Change"
                     },
                     {
-                        "code": "224878",
-                        "display": "GU Catheter Insertion Date"
-                    },
-                    {
                         "code": "227126",
                         "display": "Indwelling (PortaCath) Port #1 Date Accessed"
+                    },
+                    {
+                        "code": "224878",
+                        "display": "GU Catheter Insertion Date"
                     },
                     {
                         "code": "225318",
