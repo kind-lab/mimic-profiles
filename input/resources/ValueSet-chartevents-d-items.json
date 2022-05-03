@@ -7,13 +7,13 @@
     "name": "CharteventsDItems",
     "title": "CharteventsDItems",
     "status": "draft",
-    "date": "2022-04-29T12:04:51-04:00",
+    "date": "2022-05-03T17:21:18-04:00",
     "publisher": "KinD Lab",
     "description": "The item codes for chartevents used in MIMIC",
     "compose": {
         "include": [
             {
-                "system": "http://fhir.mimic.mit.eduCodeSystem/d-items",
+                "system": "http://fhir.mimic.mit.edu/CodeSystem/d-items",
                 "concept": [
                     {
                         "code": "227969",
