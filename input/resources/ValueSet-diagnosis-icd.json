@@ -7,7 +7,7 @@
     "name": "DiagnosisIcd",
     "title": "DiagnosisIcd",
     "status": "draft",
-    "date": "2022-05-03T17:21:18-04:00",
+    "date": "2022-05-06T16:38:29-04:00",
     "publisher": "KinD Lab",
     "description": "The diagnosis ICD9 and ICD10 codes for MIMIC",
     "compose": {
@@ -16,7 +16,7 @@
                 "system": "http://fhir.mimic.mit.edu/CodeSystem/diagnosis-icd9"
             },
             {
-                "system": "http://hl7.org/fhir/ValueSet/icd-10"
+                "system": "http://fhir.mimic.mit.edu/CodeSystem/diagnosis-icd10"
             }
         ]
     }

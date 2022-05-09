@@ -1,0 +1,20 @@
+{
+    "resourceType": "ValueSet",
+    "id": "careunit",
+    "language": "en",
+    "url": "http://fhir.mimic.mit.edu/ValueSet/careunit",
+    "version": "2.0",
+    "name": "Careunit",
+    "title": "Careunit",
+    "status": "draft",
+    "date": "2022-05-06T16:38:29-04:00",
+    "publisher": "KinD Lab",
+    "description": "The careunits present at BIDMC used in MIMIC",
+    "compose": {
+        "include": [
+            {
+                "system": "http://fhir.mimic.mit.edu/CodeSystem/careunit"
+            }
+        ]
+    }
+}
