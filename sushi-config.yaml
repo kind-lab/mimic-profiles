@@ -6,7 +6,7 @@ id: kindlab.fhir.mimic
 canonical: http://fhir.mimic.mit.edu
 name: MIMIC
 status: draft
-version: 0.2.2
+version: 0.2.3
 fhirVersion: 4.0.1
 copyrightYear: 2022+
 releaseLabel: ci-build

@@ -5,5 +5,4 @@ Title:          "MIMIC Encounter ICU"
 Description:    "A MIMIC encounter ICU profile based on US Core Encounter."
 
 * identifier.system = "http://fhir.mimic.mit.edu/identifier/encounter-icu"  (exactly)
-
-* type from http://fhir.mimic.mit.edu/ValueSet/admission-type-icu
+* class.code = "ACUTE" (exactly)

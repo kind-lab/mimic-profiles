@@ -7,7 +7,7 @@
     "name": "IdentifierType",
     "title": "IdentifierType",
     "status": "draft",
-    "date": "2022-05-06T16:38:29-04:00",
+    "date": "2022-05-13T15:40:44-04:00",
     "publisher": "KinD Lab",
     "description": "The identifier type for MIMIC",
     "valueSet": "http://fhir.mimic.mit.edu/ValueSet/identifier-type",
