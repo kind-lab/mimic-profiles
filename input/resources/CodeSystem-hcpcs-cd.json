@@ -7,7 +7,7 @@
     "name": "HcpcsCd",
     "title": "HcpcsCd",
     "status": "draft",
-    "date": "2022-05-13T15:40:44-04:00",
+    "date": "2022-05-24T14:39:04-04:00",
     "publisher": "KinD Lab",
     "description": "The HCPCS codes used for encounters in MIMIC",
     "valueSet": "http://fhir.mimic.mit.edu/ValueSet/hcpcs-cd",

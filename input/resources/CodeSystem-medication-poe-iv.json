@@ -7,9 +7,10 @@
     "name": "MedicationPoeIv",
     "title": "MedicationPoeIv",
     "status": "draft",
-    "date": "2022-05-13T15:40:44-04:00",
+    "date": "2022-05-24T14:39:04-04:00",
     "publisher": "KinD Lab",
     "description": "The IV medication that is ordered through POE",
+    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/medication-poe-iv",
     "content": "complete",
     "concept": [
         {

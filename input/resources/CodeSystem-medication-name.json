@@ -7,9 +7,10 @@
     "name": "MedicationName",
     "title": "MedicationName",
     "status": "draft",
-    "date": "2022-05-13T15:40:44-04:00",
+    "date": "2022-05-24T14:39:04-04:00",
     "publisher": "KinD Lab",
     "description": "The standard medication name used in MIMIC. Used in pharmacy, prescriptions, and emar",
+    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/medication-name",
     "content": "complete",
     "concept": [
         {
@@ -140,9 +141,6 @@
         },
         {
             "code": "BenGay"
-        },
-        {
-            "code": "Dextrose 5% Flush"
         },
         {
             "code": "Terazosin"
@@ -292,9 +290,6 @@
             "code": "doxycycline monohydrate"
         },
         {
-            "code": "Flovent Inh 110 mcg/actuation"
-        },
-        {
             "code": "Atorvastatin 40mg"
         },
         {
@@ -308,9 +303,6 @@
         },
         {
             "code": "bupivacaine .05% .5mg/ml HYDROmorphone 10mcg/ml"
-        },
-        {
-            "code": "Hydrocortisone PO"
         },
         {
             "code": "Glipi"
@@ -328,10 +320,10 @@
             "code": "DULoxetine DR"
         },
         {
-            "code": "PHENObarbital Oral Soln"
+            "code": "cephalexin"
         },
         {
-            "code": "cephalexin"
+            "code": "PHENObarbital Oral Soln"
         },
         {
             "code": "arginine (L-arginine) 1000mg"
@@ -394,13 +386,7 @@
             "code": "Creatine Monohydrate"
         },
         {
-            "code": "Gentian Violet 0.25 %"
-        },
-        {
             "code": "RABEprazole"
-        },
-        {
-            "code": "Phytonadione IV"
         },
         {
             "code": "Rocklatan"
@@ -433,16 +419,10 @@
             "code": "Felodipine"
         },
         {
-            "code": "NEO*PO*Flucytosine"
-        },
-        {
             "code": "levothyroxine (T-4)"
         },
         {
             "code": "Calciferol"
-        },
-        {
-            "code": "Neo*PO*Gentian Violet 0.25 %"
         },
         {
             "code": "Isosorbide Mon"
@@ -454,10 +434,10 @@
             "code": "Ibrance"
         },
         {
-            "code": "CoQ10 (300 mg)"
+            "code": "Zosyn"
         },
         {
-            "code": "Zosyn"
+            "code": "CoQ10 (300 mg)"
         },
         {
             "code": "carbid"
@@ -487,13 +467,10 @@
             "code": "ValGANCIcl"
         },
         {
-            "code": "Orabase"
-        },
-        {
-            "code": "Morphine *PO* Highly Concentrated"
-        },
-        {
             "code": "anakINRA"
+        },
+        {
+            "code": "Orabase"
         },
         {
             "code": "Soothe XP"
@@ -536,9 +513,6 @@
         },
         {
             "code": "Spectazole"
-        },
-        {
-            "code": "NEO*PO*Spironolactone"
         },
         {
             "code": "Naphcon-A"
@@ -611,9 +585,6 @@
         },
         {
             "code": "Creon"
-        },
-        {
-            "code": "Hepatitis B Virus Vaccine (PF)"
         },
         {
             "code": "Istalol"
@@ -706,9 +677,6 @@
             "code": "Axid"
         },
         {
-            "code": "Propranolol Oral Solution"
-        },
-        {
             "code": "Lidocaine jell"
         },
         {
@@ -719,9 +687,6 @@
         },
         {
             "code": "Stiolto Respimat (Tiotropium Br/Olodaterol)"
-        },
-        {
-            "code": "ampi"
         },
         {
             "code": "penicillin V potassium"
@@ -886,10 +851,10 @@
             "code": "YAZ 28"
         },
         {
-            "code": "Influenza"
+            "code": "predniSONE Intensol"
         },
         {
-            "code": "predniSONE Intensol"
+            "code": "Influenza"
         },
         {
             "code": "HYDROmorphone intrathecal"
@@ -974,9 +939,6 @@
         },
         {
             "code": "Bengay"
-        },
-        {
-            "code": "NEO*IV*Levothyroxine"
         },
         {
             "code": "Axicabtagene Ciloleucel"
@@ -1180,10 +1142,10 @@
             "code": "Sildenafil"
         },
         {
-            "code": "trile"
+            "code": "Azithro"
         },
         {
-            "code": "Azithro"
+            "code": "trile"
         },
         {
             "code": "L-carnitine study bolus study"
@@ -1195,10 +1157,10 @@
             "code": "vitamine d3/placebo"
         },
         {
-            "code": "bisop"
+            "code": "Albumin, Human 25 %"
         },
         {
-            "code": "Albumin, Human 25 %"
+            "code": "bisop"
         },
         {
             "code": "Progesterone in Oil"
@@ -1273,9 +1235,6 @@
             "code": "theophylline ER 100mg"
         },
         {
-            "code": "Betadine Ophthalmic Prep"
-        },
-        {
             "code": "iprat"
         },
         {
@@ -1307,9 +1266,6 @@
         },
         {
             "code": "Ondansetron"
-        },
-        {
-            "code": "NEO*NASAL*Phenylephrine 0.125%"
         },
         {
             "code": "zypre"
@@ -1385,9 +1341,6 @@
         },
         {
             "code": "xalatan"
-        },
-        {
-            "code": "NEO*PO*SODium Chloride"
         },
         {
             "code": "PHENObarbi"
@@ -1486,13 +1439,10 @@
             "code": "Clonidine Patch 0.1 mg/24 hr"
         },
         {
-            "code": "INV-Venetoclax"
-        },
-        {
-            "code": "fentaNYL (PF)"
-        },
-        {
             "code": "Dnatrolene"
+        },
+        {
+            "code": "INV-Venetoclax"
         },
         {
             "code": "Jentadueto"
@@ -1502,9 +1452,6 @@
         },
         {
             "code": "CeFAZolin Graded Challenge"
-        },
-        {
-            "code": "Bactrim"
         },
         {
             "code": "Haemophilus B Conj. Vaccine"
@@ -1552,13 +1499,13 @@
             "code": "Multivita"
         },
         {
-            "code": "Avastin"
-        },
-        {
             "code": "Eletone"
         },
         {
             "code": "Antithrombin 3 (human)"
+        },
+        {
+            "code": "Guai"
         },
         {
             "code": "Zaditor (Ketotifen fumarate)"
@@ -1609,13 +1556,13 @@
             "code": "proGESTerone"
         },
         {
+            "code": "Midazolam Intradermal"
+        },
+        {
             "code": "timop"
         },
         {
             "code": "Sarna Anti-Itch"
-        },
-        {
-            "code": "Midazolam Intradermal"
         },
         {
             "code": "Lenalidomide Capsules"
@@ -1816,9 +1763,6 @@
             "code": "fesoterodine"
         },
         {
-            "code": "varicella-zoster immune glob IM"
-        },
-        {
             "code": "CVS Spectravite"
         },
         {
@@ -1945,9 +1889,6 @@
             "code": "Alternagel"
         },
         {
-            "code": "Hydrocortisone ointment"
-        },
-        {
             "code": "Anagrelide"
         },
         {
@@ -1955,9 +1896,6 @@
         },
         {
             "code": "levonorgestrel-ethinyl estrad"
-        },
-        {
-            "code": "flumazenil IV"
         },
         {
             "code": "Prenatal Plus DHA"
@@ -2032,9 +1970,6 @@
             "code": "venetoclax (Venclexta)"
         },
         {
-            "code": "fentaNYL (PF) Intranasal"
-        },
-        {
             "code": "Agrylin"
         },
         {
@@ -2083,19 +2018,16 @@
             "code": "Pertuzumab"
         },
         {
-            "code": "Isradipine Oral Suspension"
-        },
-        {
             "code": "0.9% NACL 100mL Bag (esmolol study placebo)"
         },
         {
             "code": "Levemir U-100 Insulin"
         },
         {
-            "code": "Ipratropium Bromide MDI"
+            "code": "Sodium Polystyrene Sulfonate"
         },
         {
-            "code": "Sodium Polystyrene Sulfonate"
+            "code": "Ipratropium Bromide MDI"
         },
         {
             "code": "Hydrocortisone Oint 2.5%"
@@ -2128,10 +2060,10 @@
             "code": "TraM"
         },
         {
-            "code": "famcic"
+            "code": "cepacol"
         },
         {
-            "code": "cepacol"
+            "code": "famcic"
         },
         {
             "code": "Risperidone"
@@ -2171,9 +2103,6 @@
         },
         {
             "code": "divalpro"
-        },
-        {
-            "code": "metroNIDAZOLE Top Cr 0.75 %"
         },
         {
             "code": "Potassium 10mEq/100mL 100mL IVPB"
@@ -2249,9 +2178,6 @@
         },
         {
             "code": "Bume"
-        },
-        {
-            "code": "Timolol Ophth Gel 0.25 %"
         },
         {
             "code": "Votrient/Pazopanib"
@@ -2332,9 +2258,6 @@
             "code": "fil"
         },
         {
-            "code": "NEO*IV*PHENObarbital"
-        },
-        {
             "code": "levodopa (bulk)"
         },
         {
@@ -2387,9 +2310,6 @@
         },
         {
             "code": "*NF* Pramipexole"
-        },
-        {
-            "code": "Acetazolamide"
         },
         {
             "code": "Dexmethylphenidate"
@@ -2458,10 +2378,10 @@
             "code": "acalabrutinib"
         },
         {
-            "code": "Mes"
+            "code": "ARIP"
         },
         {
-            "code": "ARIP"
+            "code": "Mes"
         },
         {
             "code": "venetoclax"
@@ -2495,6 +2415,9 @@
         },
         {
             "code": "Flovent HFA"
+        },
+        {
+            "code": "Bactrim"
         },
         {
             "code": "memant"
@@ -2545,10 +2468,10 @@
             "code": "Uptravi"
         },
         {
-            "code": "ocean"
+            "code": "Belladonna Alkaloids-Opium"
         },
         {
-            "code": "Belladonna Alkaloids-Opium"
+            "code": "ocean"
         },
         {
             "code": "Pamprin Max"
@@ -2608,9 +2531,6 @@
             "code": "prednisone"
         },
         {
-            "code": "STP11"
-        },
-        {
             "code": "norgestimate"
         },
         {
@@ -2629,13 +2549,13 @@
             "code": "emtricita-rilpivirine-tenof DF"
         },
         {
+            "code": "Clopidogrel75mg"
+        },
+        {
             "code": "*NF* Polyethylene Glycol"
         },
         {
             "code": "Asacol HD 800mg"
-        },
-        {
-            "code": "Clopidogrel75mg"
         },
         {
             "code": "Ciclopirox"
@@ -2683,10 +2603,10 @@
             "code": "hydrocortisone/ placebo"
         },
         {
-            "code": "INV-Cabozantinib (Cabozantinib)"
+            "code": "INV-Ruxolitnib"
         },
         {
-            "code": "INV-Ruxolitnib"
+            "code": "INV-Cabozantinib (Cabozantinib)"
         },
         {
             "code": "Claritin"
@@ -2758,9 +2678,6 @@
             "code": "Voltaren gel 1% (diclofenac)"
         },
         {
-            "code": "Nevirapine Suspension"
-        },
-        {
             "code": "Valacyclovir"
         },
         {
@@ -2803,10 +2720,10 @@
             "code": "EVAMIST estradiol 1.53mg/ spray"
         },
         {
-            "code": "*NF* Cromolyn Sodium Oral Solution"
+            "code": "Daratumumab"
         },
         {
-            "code": "Daratumumab"
+            "code": "*NF* Cromolyn Sodium Oral Solution"
         },
         {
             "code": "LevoFLOXacin"
@@ -2986,10 +2903,10 @@
             "code": "Senna-S"
         },
         {
-            "code": "N-Acetylcystein (NAC)"
+            "code": "ondans"
         },
         {
-            "code": "ondans"
+            "code": "N-Acetylcystein (NAC)"
         },
         {
             "code": "Penicillin"
@@ -3148,9 +3065,6 @@
             "code": "modaf"
         },
         {
-            "code": "Phytonadion"
-        },
-        {
             "code": "Calcium citrate"
         },
         {
@@ -3184,13 +3098,10 @@
             "code": "Phenylephrine"
         },
         {
-            "code": "Vancomycin PO"
+            "code": "Tamsulosin HCl"
         },
         {
             "code": "cetirizin"
-        },
-        {
-            "code": "Tamsulosin HCl"
         },
         {
             "code": "PHENYLEPHrine (for 50mg/5mL VIAL"
@@ -3229,10 +3140,10 @@
             "code": "HydrOXYzine"
         },
         {
-            "code": "Tramadol"
+            "code": "lidoca"
         },
         {
-            "code": "lidoca"
+            "code": "Tramadol"
         },
         {
             "code": "domperidone"
@@ -3337,22 +3248,19 @@
             "code": "Amaryl"
         },
         {
-            "code": "INV-Caffeine (anhydrous)"
-        },
-        {
             "code": "Amiodarone (for dilution)"
         },
         {
             "code": "*NF* Ketorolac 0.5% Ophth Soln"
         },
         {
-            "code": "bisopr"
+            "code": "CeFAZolin Duple 2g/50mL 50mL BAG"
         },
         {
             "code": "riboflavin"
         },
         {
-            "code": "CeFAZolin Duple 2g/50mL 50mL BAG"
+            "code": "bisopr"
         },
         {
             "code": "Voltaren"
@@ -3415,9 +3323,6 @@
             "code": "Mephobarbital"
         },
         {
-            "code": "methylene blue"
-        },
-        {
             "code": "ZYRtec (Cetirizine)"
         },
         {
@@ -3440,9 +3345,6 @@
         },
         {
             "code": "Cyclafem 1/35 (28)"
-        },
-        {
-            "code": "methIMAzole PO"
         },
         {
             "code": "Sotalol 120 mg"
@@ -3493,9 +3395,6 @@
             "code": "Guaifenes"
         },
         {
-            "code": "astr"
-        },
-        {
             "code": "Perampanel *NF*"
         },
         {
@@ -3530,9 +3429,6 @@
         },
         {
             "code": "L-Carnitine Study Drug Infusion"
-        },
-        {
-            "code": "Neo*Desitin Creamy"
         },
         {
             "code": "Acetaminophin Drug"
@@ -3586,9 +3482,6 @@
             "code": "Trelipressin"
         },
         {
-            "code": "qvar"
-        },
-        {
             "code": "VALACYCLOVIR"
         },
         {
@@ -3626,9 +3519,6 @@
         },
         {
             "code": "Aggrenox"
-        },
-        {
-            "code": "Caffeine Citrate Oral Soln"
         },
         {
             "code": "ACetaminophen"
@@ -3700,9 +3590,6 @@
             "code": "Sitagliptin-Metformin"
         },
         {
-            "code": "Epoetin \u2013"
-        },
-        {
             "code": "QuiNIDine Gluconate"
         },
         {
@@ -3722,9 +3609,6 @@
         },
         {
             "code": "Daily Vitamin"
-        },
-        {
-            "code": "NEO*IM*Pneumococcal 7-Valent"
         },
         {
             "code": "Progesterone micronized 200mg Cap"
@@ -3769,10 +3653,10 @@
             "code": "Ceftaroline"
         },
         {
-            "code": "bact"
+            "code": "LaM"
         },
         {
-            "code": "LaM"
+            "code": "bact"
         },
         {
             "code": "bude"
@@ -3815,9 +3699,6 @@
         },
         {
             "code": "zolmitriptan"
-        },
-        {
-            "code": "Marcaine (PF)"
         },
         {
             "code": "Flucytos"
@@ -3949,9 +3830,6 @@
             "code": "Insulin-levimir"
         },
         {
-            "code": "NEO*PO*Calcium Carbonate Suspension"
-        },
-        {
             "code": "Hizentra"
         },
         {
@@ -3961,10 +3839,10 @@
             "code": "Verapamil"
         },
         {
-            "code": "Methadone (Dispersible Tablet)"
+            "code": "Brimonidin"
         },
         {
-            "code": "Brimonidin"
+            "code": "Methadone (Dispersible Tablet)"
         },
         {
             "code": "Lidocaine 1% P.F."
@@ -3988,10 +3866,10 @@
             "code": "Pentamidine Inhalation"
         },
         {
-            "code": "Sustiva"
+            "code": "Azithromy"
         },
         {
-            "code": "Azithromy"
+            "code": "Sustiva"
         },
         {
             "code": "octreotide acetate"
@@ -4052,9 +3930,6 @@
         },
         {
             "code": "guanFACINE"
-        },
-        {
-            "code": "Tri-Vi-Sol"
         },
         {
             "code": "Diflucan"
@@ -4138,6 +4013,9 @@
             "code": "OxyContin"
         },
         {
+            "code": "Evoxac"
+        },
+        {
             "code": "Zaditor (Ketotifen)"
         },
         {
@@ -4154,9 +4032,6 @@
         },
         {
             "code": "INV-ruxolitinib"
-        },
-        {
-            "code": "sotalol via feeding tube"
         },
         {
             "code": "Apri 0.15mg/0.03mg TAB"
@@ -4184,9 +4059,6 @@
         },
         {
             "code": "Nitroglycerin Ointment 2%"
-        },
-        {
-            "code": "Aveeno Bath Powder Top Pack"
         },
         {
             "code": "eletriptan HBr"
@@ -4222,10 +4094,10 @@
             "code": "Keppra *** Brand Name Only***"
         },
         {
-            "code": "PROzac"
+            "code": "HumuLIN 70/30"
         },
         {
-            "code": "HumuLIN 70/30"
+            "code": "PROzac"
         },
         {
             "code": "Calcium-Mag Oxide-Vitamin D3"
@@ -4294,10 +4166,10 @@
             "code": "Vitamin D3/ placebo"
         },
         {
-            "code": "clopidogrel"
+            "code": "tetracaine HCl"
         },
         {
-            "code": "tetracaine HCl"
+            "code": "clopidogrel"
         },
         {
             "code": "guaifenesin"
@@ -4321,10 +4193,10 @@
             "code": "fenofibric acid"
         },
         {
-            "code": "Cladribine"
+            "code": "Paroxetine HCl"
         },
         {
-            "code": "Paroxetine HCl"
+            "code": "Cladribine"
         },
         {
             "code": "axitinib 5mg"
@@ -4378,10 +4250,10 @@
             "code": "Mederma"
         },
         {
-            "code": "Captop"
+            "code": "Fluva"
         },
         {
-            "code": "Fluva"
+            "code": "Captop"
         },
         {
             "code": "Glyburide Prestab"
@@ -4429,10 +4301,10 @@
             "code": "Camrese"
         },
         {
-            "code": "Predniso"
+            "code": "(0.9% NACL 100ml)"
         },
         {
-            "code": "(0.9% NACL 100ml)"
+            "code": "Predniso"
         },
         {
             "code": "sofosbuvir-velpatasvir"
@@ -4472,9 +4344,6 @@
         },
         {
             "code": "Triamterene-Hydrochlorothiazide (37.5/25)"
-        },
-        {
-            "code": "*NF* Linezolid Suspension"
         },
         {
             "code": "Azimilide"
@@ -4627,9 +4496,6 @@
             "code": "Doxycycline Hyclate"
         },
         {
-            "code": "Ferrous Sulfate Solution"
-        },
-        {
             "code": "Ascorbic acid/Thiamine/Placebo Study Med"
         },
         {
@@ -4652,6 +4518,9 @@
         },
         {
             "code": "Symbicort (budesonide-formeterol)"
+        },
+        {
+            "code": "Haloper"
         },
         {
             "code": "dorzolamide-timolol 22.3/6.8mg/ml"
@@ -4750,9 +4619,6 @@
             "code": "elvitegr-cobicist-emtric-tenof"
         },
         {
-            "code": "Glycerin (Ped)"
-        },
-        {
             "code": "enalapril / placebo"
         },
         {
@@ -4774,9 +4640,6 @@
             "code": "Atovaquone"
         },
         {
-            "code": "Betadine 5% ophthalmic solution"
-        },
-        {
             "code": "glipiZIDE"
         },
         {
@@ -4787,9 +4650,6 @@
         },
         {
             "code": "Furosemide 100mg/10mL 10mL VIAL"
-        },
-        {
-            "code": "Curosurf"
         },
         {
             "code": "Gastrocrom"
@@ -4825,16 +4685,13 @@
             "code": "Benzoyl Peroxide Gel 10%"
         },
         {
-            "code": "sevel"
-        },
-        {
             "code": "Norepinephr 800mcg/25mL 25mL SYR"
         },
         {
-            "code": "Carbidopa-Levodopa CR (25-100)"
+            "code": "sevel"
         },
         {
-            "code": "Gentamicin Sulfate"
+            "code": "Carbidopa-Levodopa CR (25-100)"
         },
         {
             "code": "Lubricant Eye"
@@ -4853,9 +4710,6 @@
         },
         {
             "code": "Divalproex Sod. Sprinkles"
-        },
-        {
-            "code": "Hydrocor"
         },
         {
             "code": "Oxa"
@@ -4921,10 +4775,10 @@
             "code": "ZIPRASidone Mesylate"
         },
         {
-            "code": "Lidocaine 1.5%/Epinephrine P.F."
+            "code": "DOBUTamine 250mg BAG"
         },
         {
-            "code": "DOBUTamine 250mg BAG"
+            "code": "Lidocaine 1.5%/Epinephrine P.F."
         },
         {
             "code": "Daklinza"
@@ -5125,22 +4979,19 @@
             "code": "Extavia"
         },
         {
-            "code": "Clindamycin Solution"
-        },
-        {
             "code": "Clindamycin 1% Solution"
         },
         {
-            "code": "norm"
+            "code": "Clindamycin Solution"
         },
         {
             "code": "clobazam"
         },
         {
-            "code": "lesc"
+            "code": "naproxen sodium"
         },
         {
-            "code": "naproxen sodium"
+            "code": "lesc"
         },
         {
             "code": "bic"
@@ -5161,16 +5012,10 @@
             "code": "Lanacane Anti-Itch"
         },
         {
-            "code": "DTaP - IPV/Hib"
-        },
-        {
             "code": "Pramipexole"
         },
         {
             "code": "Imitrex"
-        },
-        {
-            "code": "Guai"
         },
         {
             "code": "metolazone"
@@ -5260,16 +5105,10 @@
             "code": "sacubitril/valsartan/Placebo"
         },
         {
-            "code": "Magnesium Sulfate Oral"
-        },
-        {
             "code": "Yuvafem vaginal tablet suppository"
         },
         {
             "code": "Flovent HFA 220mcg"
-        },
-        {
-            "code": "Antithrombin III IV"
         },
         {
             "code": "alprazolam"
@@ -5327,9 +5166,6 @@
         },
         {
             "code": "Heparin (Hemodialysis)"
-        },
-        {
-            "code": "Acetaminophen (Suspension)"
         },
         {
             "code": "Basaglar KwikPen"
@@ -5404,10 +5240,10 @@
             "code": "Calcium 500 + D (D3)"
         },
         {
-            "code": "Pyrimethamine Desensitization"
+            "code": "Betamethasone Dipro 0"
         },
         {
-            "code": "Betamethasone Dipro 0"
+            "code": "Pyrimethamine Desensitization"
         },
         {
             "code": "Evamist"
@@ -5500,9 +5336,6 @@
             "code": "Isosorbide Mononitrate"
         },
         {
-            "code": "Thrombin (Recombinant) Top Soln 5,000 unit"
-        },
-        {
             "code": "Docusate"
         },
         {
@@ -5560,10 +5393,10 @@
             "code": "enasidenib Mesylate (Idhifa)"
         },
         {
-            "code": "Scopolamine Base"
+            "code": "INV-REGN1979 Diluent Flush"
         },
         {
-            "code": "INV-REGN1979 Diluent Flush"
+            "code": "Scopolamine Base"
         },
         {
             "code": "Nasacort"
@@ -5614,16 +5447,13 @@
             "code": "Silodosin"
         },
         {
-            "code": "Iodine-Potassium Iodide Top Soln 5 %"
-        },
-        {
             "code": "Revatio"
         },
         {
-            "code": "Heparin (Lower extremity - clot directed administration)"
+            "code": "Activated Charcoal-Sorbitol"
         },
         {
-            "code": "Activated Charcoal-Sorbitol"
+            "code": "Heparin (Lower extremity - clot directed administration)"
         },
         {
             "code": "GenTeal PM"
@@ -5689,9 +5519,6 @@
             "code": "docusate"
         },
         {
-            "code": "Rabies Immune Globulin (PF) IM"
-        },
-        {
             "code": "SEROquel"
         },
         {
@@ -5707,10 +5534,10 @@
             "code": "Ivermectin"
         },
         {
-            "code": "*NF* Fluticasone Propionate"
+            "code": "Sofosbuvir/Ledipasvir"
         },
         {
-            "code": "Sofosbuvir/Ledipasvir"
+            "code": "*NF* Fluticasone Propionate"
         },
         {
             "code": "Anoro Ellipta (Umeclidinium-Vilanterol)"
@@ -5743,10 +5570,10 @@
             "code": "Seretide (25/250mcg)"
         },
         {
-            "code": "Aminoca"
+            "code": "synt"
         },
         {
-            "code": "synt"
+            "code": "Aminoca"
         },
         {
             "code": "Lutera (28) 0.1mg -20mcg"
@@ -5827,9 +5654,6 @@
             "code": "Asenapine"
         },
         {
-            "code": "Hyaluronidase (Ovine)"
-        },
-        {
             "code": "calcium carbonate-vitamin D3"
         },
         {
@@ -5837,9 +5661,6 @@
         },
         {
             "code": "Yasmin (28)"
-        },
-        {
-            "code": "Vitamin E Drops"
         },
         {
             "code": "fentaNYL citrate"
@@ -5998,9 +5819,6 @@
             "code": "Cobicistat"
         },
         {
-            "code": "SODium Chloride"
-        },
-        {
             "code": "*NF* Rufinamide"
         },
         {
@@ -6062,9 +5880,6 @@
         },
         {
             "code": "gleevec"
-        },
-        {
-            "code": "NEO*IV* Lorazepam"
         },
         {
             "code": "Dulera 200mcg/5 mcg"
@@ -6133,13 +5948,10 @@
             "code": "Triamcinolone Acetonide 0.025% Cream"
         },
         {
-            "code": "Insulin Regular Human (U-500)"
-        },
-        {
-            "code": "Gentian Violet"
-        },
-        {
             "code": "Morphine Sulf"
+        },
+        {
+            "code": "Insulin Regular Human (U-500)"
         },
         {
             "code": "Domperidone 10 mg tab"
@@ -6400,10 +6212,10 @@
             "code": "Testosterone 2 mg"
         },
         {
-            "code": "Aspiri"
+            "code": "ALEMtuzumab (Campath)"
         },
         {
-            "code": "ALEMtuzumab (Campath)"
+            "code": "Aspiri"
         },
         {
             "code": "filgrastim"
@@ -6472,9 +6284,6 @@
             "code": "etravirine"
         },
         {
-            "code": "NEO*PO*Fluconazole"
-        },
-        {
             "code": "fiori"
         },
         {
@@ -6491,9 +6300,6 @@
         },
         {
             "code": "Chloroprocaine 2%"
-        },
-        {
-            "code": "refresh"
         },
         {
             "code": "Humulin N NPH U-100 Insulin"
@@ -6578,9 +6384,6 @@
         },
         {
             "code": "dicyclomine"
-        },
-        {
-            "code": "cefTRIAXone IM"
         },
         {
             "code": "Ipratropium-Albuterol Ne 3mL INH"
@@ -6706,6 +6509,9 @@
             "code": "VORINOSTAT"
         },
         {
+            "code": "bica"
+        },
+        {
             "code": "Keppra XR 500mg TAB"
         },
         {
@@ -6733,10 +6539,10 @@
             "code": "Invirase"
         },
         {
-            "code": "Mouth Care Oral Rinse"
+            "code": "Tretinoin 0.025% Cream"
         },
         {
-            "code": "Tretinoin 0.025% Cream"
+            "code": "Mouth Care Oral Rinse"
         },
         {
             "code": "Neut"
@@ -6769,16 +6575,10 @@
             "code": "dibucaine"
         },
         {
-            "code": "NEO*PO*Sotalol Suspension"
-        },
-        {
             "code": "Ibuprofen"
         },
         {
             "code": "Omega Power"
-        },
-        {
-            "code": "Silver sulfADIAZINE Top Cr 1 %"
         },
         {
             "code": "Acet"
@@ -6973,9 +6773,6 @@
             "code": "Intelence"
         },
         {
-            "code": "Aveeno Colloidal"
-        },
-        {
             "code": "Temodar"
         },
         {
@@ -6985,25 +6782,19 @@
             "code": "Dasa"
         },
         {
-            "code": "NEO*PO*Opium Tincture (Dilute)"
-        },
-        {
             "code": "OCR002 Study Drug"
         },
         {
             "code": "nabumetone"
         },
         {
+            "code": "refresh"
+        },
+        {
             "code": "dicyclomine/lidocaine liquid"
         },
         {
             "code": "atorvastatin 40 mg or placebo"
-        },
-        {
-            "code": "NEO*PO*Zidovudine Syrup"
-        },
-        {
-            "code": "MethylPREDNISolone Sod Succ (1mg/mL)"
         },
         {
             "code": "XIBROM"
@@ -7123,10 +6914,10 @@
             "code": "Adcirca 20mg"
         },
         {
-            "code": "Tekturna"
+            "code": "Multivitami"
         },
         {
-            "code": "Multivitami"
+            "code": "Tekturna"
         },
         {
             "code": "Loratadine"
@@ -7171,10 +6962,10 @@
             "code": "MetFORMIN (Glucophage)"
         },
         {
-            "code": "GILTERITINIB"
+            "code": "Hepari"
         },
         {
-            "code": "Hepari"
+            "code": "GILTERITINIB"
         },
         {
             "code": "pram"
@@ -7213,13 +7004,13 @@
             "code": "methylphenidate"
         },
         {
+            "code": "neoral"
+        },
+        {
             "code": "Escitalopram Oxalate"
         },
         {
             "code": "FLUCONAZOLE"
-        },
-        {
-            "code": "Glucos"
         },
         {
             "code": "APAP/Placebo Study Med"
@@ -7249,9 +7040,6 @@
             "code": "Cystagon"
         },
         {
-            "code": "Caffeine Citrate"
-        },
-        {
             "code": "Levemir (Insulin Detemir)"
         },
         {
@@ -7261,10 +7049,10 @@
             "code": "ropivacaine (PF)"
         },
         {
-            "code": "mycophen"
+            "code": "DACTINomycin"
         },
         {
-            "code": "DACTINomycin"
+            "code": "mycophen"
         },
         {
             "code": "PHENYLEPHrin 50mg/250mL 250mL NS"
@@ -7274,9 +7062,6 @@
         },
         {
             "code": "Ampicillin Graded Challenge"
-        },
-        {
-            "code": "Timolol Ophth Drops 0.25 %"
         },
         {
             "code": "Teargen"
@@ -7295,9 +7080,6 @@
         },
         {
             "code": "betameth dip/LCD/SAL"
-        },
-        {
-            "code": "levOCARNitine PO Liq"
         },
         {
             "code": "Ni"
@@ -7441,9 +7223,6 @@
             "code": "brinzolamide-brimonidine"
         },
         {
-            "code": "Ciprofloxacin IV"
-        },
-        {
             "code": "Xopenex"
         },
         {
@@ -7462,16 +7241,13 @@
             "code": "fentaNYL IT 2000 mcg/ml pump"
         },
         {
-            "code": "Varicella Zoster Immune Globulin"
-        },
-        {
             "code": "Pyrimethamine"
         },
         {
-            "code": "Ipratropium-Albuterol"
+            "code": "Adenosine 6mg/2mL 2mL VIAL"
         },
         {
-            "code": "Adenosine 6mg/2mL 2mL VIAL"
+            "code": "Ipratropium-Albuterol"
         },
         {
             "code": "Esbriet (pirfenidone"
@@ -7502,9 +7278,6 @@
         },
         {
             "code": "IMatinib Mesylate (Gleevec)"
-        },
-        {
-            "code": "Hydralazine Soln"
         },
         {
             "code": "methylphenidate HCl"
@@ -7541,9 +7314,6 @@
         },
         {
             "code": "Insulin-Symlin"
-        },
-        {
-            "code": "NEO*PO*Vitamin E Drops"
         },
         {
             "code": "*NF* Exemestane"
@@ -7729,9 +7499,6 @@
             "code": "PreserVision AREDS"
         },
         {
-            "code": "Hydroxychloroquine Suspension"
-        },
-        {
             "code": "Captopril (Capoten)"
         },
         {
@@ -7769,9 +7536,6 @@
         },
         {
             "code": "pioglitazone"
-        },
-        {
-            "code": "Gentamicin Sulfate Ophth."
         },
         {
             "code": "Oxymorphone (Opana ER)"
@@ -7831,9 +7595,6 @@
             "code": "goly"
         },
         {
-            "code": "NEO*IV*Parenteral Nutrition"
-        },
-        {
             "code": "Throm"
         },
         {
@@ -7847,9 +7608,6 @@
         },
         {
             "code": "Lidocaine 1"
-        },
-        {
-            "code": "Vigamox Ophth Drops 0.5 %"
         },
         {
             "code": "Combigan (0.2-0.5%)"
@@ -7963,19 +7721,16 @@
             "code": "Betaseron"
         },
         {
-            "code": "PANItumumab"
+            "code": "benz"
         },
         {
-            "code": "benz"
+            "code": "PANItumumab"
         },
         {
             "code": "nifer"
         },
         {
             "code": "Trileptal (oxcarbazepine) 150mg tab"
-        },
-        {
-            "code": "pang"
         },
         {
             "code": "VSL#3 DS 900 Billion Probiotic PKT"
@@ -8035,10 +7790,10 @@
             "code": "Iressa"
         },
         {
-            "code": "Bumetan"
+            "code": "Capoten"
         },
         {
-            "code": "Capoten"
+            "code": "Bumetan"
         },
         {
             "code": "Cyanocobalamin (vitamin B-12)"
@@ -8138,9 +7893,6 @@
         },
         {
             "code": "Topamax"
-        },
-        {
-            "code": "nalOXone IM"
         },
         {
             "code": "Levetiracetam XR"
@@ -8296,9 +8048,6 @@
             "code": "methazolAMIDE"
         },
         {
-            "code": "Hydrolatum Ointment *NF*"
-        },
-        {
             "code": "fluticasone furoate-vilanterol"
         },
         {
@@ -8392,9 +8141,6 @@
             "code": "Slow-Mag 71.5mg"
         },
         {
-            "code": "Miconazole-3"
-        },
-        {
             "code": "toujeo"
         },
         {
@@ -8437,10 +8183,10 @@
             "code": "Metoprolol"
         },
         {
-            "code": "amphotericin B"
+            "code": "Lithium Carbon"
         },
         {
-            "code": "Lithium Carbon"
+            "code": "amphotericin B"
         },
         {
             "code": "methylPREDNISolone acetate"
@@ -8512,9 +8258,6 @@
             "code": "cet"
         },
         {
-            "code": "Beclomethasone Inh 40 mcg/actuation"
-        },
-        {
             "code": "Lememir Insulin"
         },
         {
@@ -8543,9 +8286,6 @@
         },
         {
             "code": "dextroamphetamine"
-        },
-        {
-            "code": "Phenylephrine 0.125% Nasal"
         },
         {
             "code": "Humalog Mix 75-25 KwikPen"
@@ -8603,9 +8343,6 @@
         },
         {
             "code": "Ropivicaine 0.2% 2mg/ml"
-        },
-        {
-            "code": "Cefotaxime"
         },
         {
             "code": "Acetaminophen Gel Cap"
@@ -8755,10 +8492,10 @@
             "code": "Phenytoin"
         },
         {
-            "code": "mupi"
+            "code": "INV-Fluzone High Dose Trival/Fluzone Quad vaccine"
         },
         {
-            "code": "INV-Fluzone High Dose Trival/Fluzone Quad vaccine"
+            "code": "mupi"
         },
         {
             "code": "Desonide 0.05%"
@@ -8839,9 +8576,6 @@
             "code": "nimodipine 60mg/ placebo"
         },
         {
-            "code": "Penicillin V Potassium Solution"
-        },
-        {
             "code": "Combi"
         },
         {
@@ -8857,10 +8591,10 @@
             "code": "Bleomycin"
         },
         {
-            "code": "Flucytosine Suspension"
+            "code": "HumIRA"
         },
         {
-            "code": "HumIRA"
+            "code": "Flucytosine Suspension"
         },
         {
             "code": "tamsulosin"
@@ -8884,10 +8618,10 @@
             "code": "Soliqua 100/33"
         },
         {
-            "code": "Xtandi (Enzalutamide)"
+            "code": "lidocaine (PF)"
         },
         {
-            "code": "lidocaine (PF)"
+            "code": "Xtandi (Enzalutamide)"
         },
         {
             "code": "Calcitriol"
@@ -8927,9 +8661,6 @@
         },
         {
             "code": "bortezomib"
-        },
-        {
-            "code": "Calcium Chloride IV"
         },
         {
             "code": "Casodex (Bicalutamide)"
@@ -9001,9 +8732,6 @@
             "code": "Apri-28"
         },
         {
-            "code": "Fluticasone Inh 44 mcg/actuation"
-        },
-        {
             "code": "CeFAZolin"
         },
         {
@@ -9028,16 +8756,10 @@
             "code": "Travatan 0.004% (*NF*)"
         },
         {
-            "code": "silver nitrate applicators"
-        },
-        {
             "code": "Nystatin-Triamcinolone Cream"
         },
         {
             "code": "Phenylephrine 0.5% Nasal Spray"
-        },
-        {
-            "code": "Tobramycin IV"
         },
         {
             "code": "diazoxide"
@@ -9067,9 +8789,6 @@
             "code": "OLANZapine Pamoate"
         },
         {
-            "code": "folic acid PO"
-        },
-        {
             "code": "Indomethacin XR"
         },
         {
@@ -9091,10 +8810,10 @@
             "code": "bromfenac 0.09%"
         },
         {
-            "code": "Telaprevir 375mg tablets"
+            "code": "Lorazepam 2mg Syringe"
         },
         {
-            "code": "Lorazepam 2mg Syringe"
+            "code": "Telaprevir 375mg tablets"
         },
         {
             "code": "Triumeq (abacavir,dolutegravir,lamivudine"
@@ -9178,10 +8897,10 @@
             "code": "Normal Saline Flush"
         },
         {
-            "code": "Insul"
+            "code": "Lidocaine 0.5%/Ep"
         },
         {
-            "code": "Lidocaine 0.5%/Ep"
+            "code": "Insul"
         },
         {
             "code": "fenofibric acid (choline)"
@@ -9233,9 +8952,6 @@
         },
         {
             "code": "LORAZEPAM"
-        },
-        {
-            "code": "Morphine (Oral Solution)"
         },
         {
             "code": "metoprolol succinate"
@@ -9298,9 +9014,6 @@
             "code": "lurasidone (Latuda)"
         },
         {
-            "code": "Chlorothiazide Oral Suspension"
-        },
-        {
             "code": "Methazolamide"
         },
         {
@@ -9355,9 +9068,6 @@
             "code": "Alprazolam ER"
         },
         {
-            "code": "Epogen Sub-Q"
-        },
-        {
             "code": "Pancreaze"
         },
         {
@@ -9379,10 +9089,10 @@
             "code": "PrimiDONE"
         },
         {
-            "code": "Alternagel-Benadryl-Lidocaine Visc."
+            "code": "CoQ10 200mg"
         },
         {
-            "code": "CoQ10 200mg"
+            "code": "Alternagel-Benadryl-Lidocaine Visc."
         },
         {
             "code": "REVLIMID (lenalidomide)"
@@ -9394,9 +9104,6 @@
             "code": "Tropicamide 0.5% Ophth Soln"
         },
         {
-            "code": "PHENObarbital Elixir"
-        },
-        {
             "code": "Morphine"
         },
         {
@@ -9406,19 +9113,16 @@
             "code": "Desmopressin Acetate"
         },
         {
-            "code": "Morphine Sul"
+            "code": "Epoetin"
         },
         {
-            "code": "Epoetin"
+            "code": "Morphine Sul"
         },
         {
             "code": "Mavyret"
         },
         {
             "code": "Vienva (levonorgestrel-ethinyl estradiol)"
-        },
-        {
-            "code": "valGANciclovir"
         },
         {
             "code": "MBL HCV1"
@@ -9541,10 +9245,10 @@
             "code": "Flumazenil"
         },
         {
-            "code": "Tobramycin Inhalation Soln"
+            "code": "aggre"
         },
         {
-            "code": "aggre"
+            "code": "Tobramycin Inhalation Soln"
         },
         {
             "code": "Dexamethasone Ophthalmic Susp 0.1%"
@@ -9667,10 +9371,10 @@
             "code": "tetrabenazine"
         },
         {
-            "code": "Sulfameth/Trimethoprim"
+            "code": "Daptomycin-Heparin Lock"
         },
         {
-            "code": "Daptomycin-Heparin Lock"
+            "code": "Sulfameth/Trimethoprim"
         },
         {
             "code": "duvelisib"
@@ -9698,9 +9402,6 @@
         },
         {
             "code": "Aminocap"
-        },
-        {
-            "code": "cloNIDine PO"
         },
         {
             "code": "probiotics"
@@ -9784,10 +9485,10 @@
             "code": "Phosphorus"
         },
         {
-            "code": "Maalox/"
+            "code": "ana"
         },
         {
-            "code": "ana"
+            "code": "Maalox/"
         },
         {
             "code": "Vitamin C"
@@ -9802,16 +9503,13 @@
             "code": "rotigotine (Neupro)"
         },
         {
-            "code": "valsar"
-        },
-        {
             "code": "Klor-Con 10"
         },
         {
-            "code": "Cryselle (28)"
+            "code": "valsar"
         },
         {
-            "code": "Loperamide Liq via feeding tube"
+            "code": "Cryselle (28)"
         },
         {
             "code": "chlorhexidine gluconate"
@@ -9830,9 +9528,6 @@
         },
         {
             "code": "acetaminophen/ Placebo Study Drug"
-        },
-        {
-            "code": "Keppra IV"
         },
         {
             "code": "Calcium Gluconate Replacement (Critical Care and Oncology)"
@@ -9922,9 +9617,6 @@
             "code": "Sarna Sensitive"
         },
         {
-            "code": "DTaP-Hep-IPV"
-        },
-        {
             "code": "Belsomra 20mg"
         },
         {
@@ -9944,9 +9636,6 @@
         },
         {
             "code": "Scopolamine 0.25% Ophth Soln"
-        },
-        {
-            "code": "STP6"
         },
         {
             "code": "Abreva"
@@ -10063,9 +9752,6 @@
             "code": "BIKTARVY"
         },
         {
-            "code": "EMLA Top Cr 2.5 %-2.5 %"
-        },
-        {
             "code": "*NF* Erlotinib 150mg tab"
         },
         {
@@ -10147,10 +9833,10 @@
             "code": "Acetylcysteine (IV)"
         },
         {
-            "code": "N-Acetycysteine (NAC)"
+            "code": "Piperacillin-Tazobactam-Heparin Lock"
         },
         {
-            "code": "Piperacillin-Tazobactam-Heparin Lock"
+            "code": "N-Acetycysteine (NAC)"
         },
         {
             "code": "Hydroxyprogesterone Capr(Bulk)"
@@ -10234,10 +9920,10 @@
             "code": "Betamethasone Valerate 0.1% Cream"
         },
         {
-            "code": "*NF* Entacapone"
+            "code": "thrombin (bovine)"
         },
         {
-            "code": "thrombin (bovine)"
+            "code": "*NF* Entacapone"
         },
         {
             "code": "Isosorbide Dinitrate SA"
@@ -10252,10 +9938,10 @@
             "code": "Fleet Glycerin (Adult)"
         },
         {
-            "code": "Tucks"
+            "code": "(0.9%NACL)"
         },
         {
-            "code": "(0.9%NACL)"
+            "code": "Tucks"
         },
         {
             "code": "Heparin (via Anti-Xa Monitoring)"
@@ -10280,9 +9966,6 @@
         },
         {
             "code": "Gris-PEG"
-        },
-        {
-            "code": "NEO*PO*AcetaZOLamide (20mg/1ml)"
         },
         {
             "code": "Dextromethorphan-Guaifenesin"
@@ -10343,9 +10026,6 @@
         },
         {
             "code": "ValACY"
-        },
-        {
-            "code": "Beractant"
         },
         {
             "code": "Rebif Titration Pack"
@@ -10420,12 +10100,6 @@
             "code": "INV-Anakinra"
         },
         {
-            "code": "lamivudine"
-        },
-        {
-            "code": "Chloral Hydrate (Syrup)"
-        },
-        {
             "code": "Riboflavin (Vitamin B-2)"
         },
         {
@@ -10483,9 +10157,6 @@
             "code": "letrozole"
         },
         {
-            "code": "racepinephrine"
-        },
-        {
             "code": "Mirtazapine"
         },
         {
@@ -10540,9 +10211,6 @@
             "code": "sacubitril/valsartan(LCZ696)/Placebo"
         },
         {
-            "code": "cefaz"
-        },
-        {
             "code": "Lidocaine Jell"
         },
         {
@@ -10588,9 +10256,6 @@
             "code": "Prazosin HCl"
         },
         {
-            "code": "sodi"
-        },
-        {
             "code": "Lipoic Acid"
         },
         {
@@ -10613,9 +10278,6 @@
         },
         {
             "code": "Ivermectin 1 % topical cream"
-        },
-        {
-            "code": "Simethicone Suspension"
         },
         {
             "code": "Ledipasvir/Sofosbuvir *NF*"
@@ -10687,10 +10349,10 @@
             "code": "sumatriptan"
         },
         {
-            "code": "Sulfa"
+            "code": "Sucr"
         },
         {
-            "code": "Sucr"
+            "code": "Sulfa"
         },
         {
             "code": "Glyset"
@@ -10744,9 +10406,6 @@
             "code": "Casodex"
         },
         {
-            "code": "Creon PO 3,000-9,500-15,000 unit"
-        },
-        {
             "code": "Tadalafil 40mg tablet"
         },
         {
@@ -10766,9 +10425,6 @@
         },
         {
             "code": "Lamictal XR"
-        },
-        {
-            "code": "Pancuronium"
         },
         {
             "code": "Sodium Bicarbo"
@@ -10906,9 +10562,6 @@
             "code": "memantine"
         },
         {
-            "code": "Aldactone PO"
-        },
-        {
             "code": "minocycline"
         },
         {
@@ -11020,19 +10673,16 @@
             "code": "moexipril"
         },
         {
-            "code": "Loperamide PO"
-        },
-        {
             "code": "fosamprenavir"
         },
         {
             "code": "bolus 4cc from epidural"
         },
         {
-            "code": "LamoTRIg"
+            "code": "Potassi"
         },
         {
-            "code": "Potassi"
+            "code": "LamoTRIg"
         },
         {
             "code": "Sodium Bica 50mEq/50mL 50mL VIAL"
@@ -11068,10 +10718,10 @@
             "code": "diphenhydramine"
         },
         {
-            "code": "Mycophenolate Mofetil (Brand) *NF*"
+            "code": "thaimine"
         },
         {
-            "code": "thaimine"
+            "code": "Mycophenolate Mofetil (Brand) *NF*"
         },
         {
             "code": "lidocaine-epinephrine"
@@ -11134,9 +10784,6 @@
             "code": "guaife"
         },
         {
-            "code": "Clotrimazole Top Cr 1 %"
-        },
-        {
             "code": "guaifen"
         },
         {
@@ -11147,12 +10794,6 @@
         },
         {
             "code": "Danazol"
-        },
-        {
-            "code": "Poly-Vi-Sol"
-        },
-        {
-            "code": "Loperamide Oral Suspension"
         },
         {
             "code": "brimonidine 0,2%"
@@ -11168,9 +10809,6 @@
         },
         {
             "code": "Colazal (Balsalazide)"
-        },
-        {
-            "code": "Pneumococcal 13-Valent"
         },
         {
             "code": "terlipressin"
@@ -11236,10 +10874,10 @@
             "code": "Alteplase"
         },
         {
-            "code": "ce"
+            "code": "Linezolid Suspension"
         },
         {
-            "code": "Linezolid Suspension"
+            "code": "ce"
         },
         {
             "code": "lutein"
@@ -11326,9 +10964,6 @@
             "code": "Bupivacaine 0.25% or placebo"
         },
         {
-            "code": "Amoxicillin-Clavulanate PO Susp 400 mg-57 mg/5 mL"
-        },
-        {
             "code": "Latanoprostene (Vyzulta)"
         },
         {
@@ -11411,9 +11046,6 @@
         },
         {
             "code": "Sodium Chloride 5 %"
-        },
-        {
-            "code": "Antihemophilic Factor 8 (Recomb)"
         },
         {
             "code": "Helixate FS"
@@ -11548,9 +11180,6 @@
             "code": "Morphine Sulfate IR"
         },
         {
-            "code": "Propylthiouracil Suspension"
-        },
-        {
             "code": "Avapro (Irbesartan)"
         },
         {
@@ -11609,9 +11238,6 @@
         },
         {
             "code": "Ny"
-        },
-        {
-            "code": "Heparin Flush (1 unit/mL)"
         },
         {
             "code": "seve"
@@ -11677,10 +11303,10 @@
             "code": "Baclofen 4000mcg/mL"
         },
         {
-            "code": "Nitro"
+            "code": "Hydrocortisone Lotion 1%"
         },
         {
-            "code": "Hydrocortisone Lotion 1%"
+            "code": "Nitro"
         },
         {
             "code": "Hydrocortisone Cream 2.5%"
@@ -11695,10 +11321,10 @@
             "code": "BUDESONIDE 0.5mg / PLACEBO"
         },
         {
-            "code": "levsin"
+            "code": "Estradiol-Norethindrone Acet"
         },
         {
-            "code": "Estradiol-Norethindrone Acet"
+            "code": "levsin"
         },
         {
             "code": "Apri (desogestrel-ethinyl estradiol)"
@@ -11738,9 +11364,6 @@
         },
         {
             "code": "oxyMORphone"
-        },
-        {
-            "code": "Lidocaine 1% (Buffered)"
         },
         {
             "code": "GlyBURI"
@@ -11875,9 +11498,6 @@
             "code": "B-12 Organic Spray"
         },
         {
-            "code": "Caffeine (anhydrous)"
-        },
-        {
             "code": "Simethicone 80mg TAB"
         },
         {
@@ -11903,9 +11523,6 @@
         },
         {
             "code": "BuPROPion Extended-Release"
-        },
-        {
-            "code": "Norepinephrine IV"
         },
         {
             "code": "thimaine"
@@ -11962,9 +11579,6 @@
             "code": "Aldactone"
         },
         {
-            "code": "Calcium"
-        },
-        {
             "code": "NPH Insulin Human Recomb"
         },
         {
@@ -12001,13 +11615,7 @@
             "code": "Dasabuvir"
         },
         {
-            "code": "Phytonadione (Vitamin K1) (for L&D to NBN order set use only)"
-        },
-        {
             "code": "atorvastatin 40 mg"
-        },
-        {
-            "code": "ADEKs Pediatric Drops"
         },
         {
             "code": "CoEnzyme Q10 (300 mg) or Placebo"
@@ -12091,9 +11699,6 @@
             "code": "Bupivacaine 0.05%"
         },
         {
-            "code": "Levalbuterol HFA Inhaler"
-        },
-        {
             "code": "Reopro"
         },
         {
@@ -12160,10 +11765,10 @@
             "code": "Vancomycin (0.5 mg/mL)-Heparin (100 units/mL) Lock"
         },
         {
-            "code": "depakote"
+            "code": "sodium ch"
         },
         {
-            "code": "sodium ch"
+            "code": "depakote"
         },
         {
             "code": "lorcaserin"
@@ -12194,12 +11799,6 @@
         },
         {
             "code": "Erythromycin 0.5% Ophth Oint"
-        },
-        {
-            "code": "Cephalexin Suspension"
-        },
-        {
-            "code": "Albumin 25 %"
         },
         {
             "code": "QuiNIDine Sulfate"
@@ -12364,10 +11963,10 @@
             "code": "Influenza Vaccine Quadrivalent"
         },
         {
-            "code": "thyroid, pork (bulk)"
+            "code": "oxycod"
         },
         {
-            "code": "oxycod"
+            "code": "thyroid, pork (bulk)"
         },
         {
             "code": "Lunesta"
@@ -12451,10 +12050,10 @@
             "code": "permet"
         },
         {
-            "code": "clopidigrel 75mg"
+            "code": "Niacin sr"
         },
         {
-            "code": "Niacin sr"
+            "code": "clopidigrel 75mg"
         },
         {
             "code": "Viibryd (Vilazodone)"
@@ -12476,9 +12075,6 @@
         },
         {
             "code": "NAC in"
-        },
-        {
-            "code": "DTaP - IPV/Hib (Pentacel)"
         },
         {
             "code": "Golytely"
@@ -12589,9 +12185,6 @@
             "code": "Percocet"
         },
         {
-            "code": "Cefixime"
-        },
-        {
             "code": "Exforge"
         },
         {
@@ -12599,9 +12192,6 @@
         },
         {
             "code": "Aprida SoluStar U-100 NF"
-        },
-        {
-            "code": "Digoxin Elixir"
         },
         {
             "code": "Calan SR"
@@ -12709,12 +12299,6 @@
             "code": "Glucose Tab"
         },
         {
-            "code": "Sodium Chloride 0.45% Flush"
-        },
-        {
-            "code": "Pediatric Vitamins ADC"
-        },
-        {
             "code": "Olanzapine (Disintegrating Tablet)"
         },
         {
@@ -12772,16 +12356,10 @@
             "code": "*NF* Esomeprazole"
         },
         {
-            "code": "SODium Chloride (Stock Bottle)"
-        },
-        {
             "code": "cosyntropin"
         },
         {
             "code": "Voltaren Gel 1%"
-        },
-        {
-            "code": "Qvar Inh 40 mcg/actuation"
         },
         {
             "code": "0.9% NaCl - 100mL bag (Esmolol Study Control) Study Med"
@@ -12851,9 +12429,6 @@
         },
         {
             "code": "Ipratropium bromide Nasal Sol"
-        },
-        {
-            "code": "Atropine Sulfate Ophth 0.5%"
         },
         {
             "code": "Hydroxypropyl Meth. 2.5% Ophth"
@@ -12946,13 +12521,10 @@
             "code": "levo"
         },
         {
-            "code": "Valtrex"
+            "code": "Isosorbide Dinitra"
         },
         {
             "code": "bisacody"
-        },
-        {
-            "code": "Isosorbide Dinitra"
         },
         {
             "code": "Milk Thistle Extract"
@@ -12974,9 +12546,6 @@
         },
         {
             "code": "Colestid"
-        },
-        {
-            "code": "sodium c"
         },
         {
             "code": "Vyvanse 60mg Capsule"
@@ -13009,10 +12578,10 @@
             "code": "timolol maleate gel - PMTO"
         },
         {
-            "code": "INV-Filgrastim-sndz"
+            "code": "Isosorb"
         },
         {
-            "code": "Isosorb"
+            "code": "INV-Filgrastim-sndz"
         },
         {
             "code": "hydroxocobalamin"
@@ -13057,9 +12626,6 @@
             "code": "Saccharomyces BOULARDII"
         },
         {
-            "code": "ADEK's Pediatric Drops"
-        },
-        {
             "code": "hydrochloric acid (bulk)"
         },
         {
@@ -13090,10 +12656,10 @@
             "code": "Stalevo 75"
         },
         {
-            "code": "Epineph"
+            "code": "Ropivacaine in NS (PF)"
         },
         {
-            "code": "Ropivacaine in NS (PF)"
+            "code": "Epineph"
         },
         {
             "code": "Continuous infusion: N-Acetylcysteine (NAC)"
@@ -13213,10 +12779,10 @@
             "code": "Florastor"
         },
         {
-            "code": "gatifloxacin 0.5%"
+            "code": "Insulin (Regular"
         },
         {
-            "code": "Insulin (Regular"
+            "code": "gatifloxacin 0.5%"
         },
         {
             "code": "Insulin Asp Prt-Insulin Aspart"
@@ -13300,19 +12866,13 @@
             "code": "Argatroban (for intraoperative use)"
         },
         {
-            "code": "cefTRIAXone"
+            "code": "sulfameth"
         },
         {
             "code": "Tretinoin Suspension"
         },
         {
             "code": "LCP tacrolimus"
-        },
-        {
-            "code": "sulfameth"
-        },
-        {
-            "code": "Erythromycin Ethylsuccinate"
         },
         {
             "code": "Thiamine/Placebo"
@@ -13372,9 +12932,6 @@
             "code": "refresh (cellulose)"
         },
         {
-            "code": "Glutose 15 Gel"
-        },
-        {
             "code": "Stribild"
         },
         {
@@ -13417,9 +12974,6 @@
             "code": "Ipratropium bromide"
         },
         {
-            "code": "Heparin Flush (10 units/mL)"
-        },
-        {
             "code": "Yasmin 28"
         },
         {
@@ -13457,6 +13011,9 @@
         },
         {
             "code": "BUDESONIDE 0.5mg"
+        },
+        {
+            "code": "pang"
         },
         {
             "code": "L norgest/e.estradiol-e.estrad"
@@ -13525,10 +13082,10 @@
             "code": "Travatan Z 0.004% Eye Drops"
         },
         {
-            "code": "EPINEPHrine 200mcg/25mL 25mL SYR"
+            "code": "Fuzeon"
         },
         {
-            "code": "Fuzeon"
+            "code": "EPINEPHrine 200mcg/25mL 25mL SYR"
         },
         {
             "code": "Durezol (difluprednate) 0.05% drops"
@@ -13550,9 +13107,6 @@
         },
         {
             "code": "Vyvanse 30 mg"
-        },
-        {
-            "code": "Morphine (Injection)"
         },
         {
             "code": "Iron (ferrous sulfate)"
@@ -13696,19 +13250,10 @@
             "code": "Talc (Sterile) + Lidocaine 1%"
         },
         {
-            "code": "Poractant alfa"
-        },
-        {
             "code": "ganciclovir"
         },
         {
             "code": "Morphine Sulfate"
-        },
-        {
-            "code": "Ampicillin-Sulbactam Sodium"
-        },
-        {
-            "code": "NEO*IV*Metoclopramide"
         },
         {
             "code": "Denosumab (Xgeva)"
@@ -13754,9 +13299,6 @@
         },
         {
             "code": "Demerol"
-        },
-        {
-            "code": "Ganciclovir IV"
         },
         {
             "code": "albumin"
@@ -13828,9 +13370,6 @@
             "code": "Calcium 500"
         },
         {
-            "code": "Triple Dye"
-        },
-        {
             "code": "Fetzima ER 120mg (levomilnacipran)"
         },
         {
@@ -13856,9 +13395,6 @@
         },
         {
             "code": "ASP2215"
-        },
-        {
-            "code": "Neo*PO*Omeprazole"
         },
         {
             "code": "Bisacodyl (Rectal)"
@@ -13898,9 +13434,6 @@
         },
         {
             "code": "Valproic Acid"
-        },
-        {
-            "code": "Atropine 0.5% Ophthalmic Solution"
         },
         {
             "code": "Geodon"
@@ -13949,9 +13482,6 @@
         },
         {
             "code": "dexmethylphenidate"
-        },
-        {
-            "code": "Enox"
         },
         {
             "code": "Cuprimine"
@@ -14041,9 +13571,6 @@
             "code": "Methocarbamol"
         },
         {
-            "code": "gent"
-        },
-        {
             "code": "zanamivir"
         },
         {
@@ -14053,10 +13580,10 @@
             "code": "Prednisone Intensol"
         },
         {
-            "code": "hydrocorTISone Sod Succinate"
+            "code": "Nitrofuran"
         },
         {
-            "code": "Nitrofuran"
+            "code": "hydrocorTISone Sod Succinate"
         },
         {
             "code": "Saline"
@@ -14149,13 +13676,13 @@
             "code": "Heparin Lock Flush"
         },
         {
-            "code": "Goserelin Acetate"
+            "code": "hepatitis B immune globulin"
         },
         {
             "code": "amphet"
         },
         {
-            "code": "hepatitis B immune globulin"
+            "code": "Goserelin Acetate"
         },
         {
             "code": "amLODIPine"
@@ -14180,9 +13707,6 @@
         },
         {
             "code": "sulfacetamide sodium-sulfur"
-        },
-        {
-            "code": "Hepatitis B Immune Globulin (Bayhep B)"
         },
         {
             "code": "INV-ASP2215"
@@ -14242,9 +13766,6 @@
             "code": "olanzapine-fluoxetine"
         },
         {
-            "code": "Ciprofloxacin Ophth Drops 0.3 %"
-        },
-        {
             "code": "revlimid"
         },
         {
@@ -14258,12 +13779,6 @@
         },
         {
             "code": "Robitussin Cough & Cold CF"
-        },
-        {
-            "code": "Bevacizumab Intravitreal"
-        },
-        {
-            "code": "Hydrocortisone Oral Suspension"
         },
         {
             "code": "aq"
@@ -14386,9 +13901,6 @@
             "code": "Revlimid (lenalidomide)"
         },
         {
-            "code": "Potassium Phosphate PO"
-        },
-        {
             "code": "Climara"
         },
         {
@@ -14431,9 +13943,6 @@
             "code": "Sulfamethoxazole-Trimethoprim"
         },
         {
-            "code": "sotaloL Liq via feeding tube"
-        },
-        {
             "code": "Gemtuzumab Ozogamicin"
         },
         {
@@ -14444,9 +13953,6 @@
         },
         {
             "code": "Culturelle Probiotics"
-        },
-        {
-            "code": "Tessal"
         },
         {
             "code": "lipase-protease-amylase"
@@ -14476,9 +13982,6 @@
             "code": "EMSAM"
         },
         {
-            "code": "NEO*IV*Fentanyl"
-        },
-        {
             "code": "Methadon"
         },
         {
@@ -14486,9 +13989,6 @@
         },
         {
             "code": "Opium Tincture"
-        },
-        {
-            "code": "antithrombin III (human)"
         },
         {
             "code": "Crixivan"
@@ -14749,9 +14249,6 @@
             "code": "Azopt 1% Ophth (*NF* )"
         },
         {
-            "code": "Moxifloxacin Ophth Drops 0.5 % (Vigamox)"
-        },
-        {
             "code": "Ondanset"
         },
         {
@@ -14800,10 +14297,10 @@
             "code": "Saquinavir (Invirase) Cap"
         },
         {
-            "code": "levalbuterol neb"
+            "code": "Epo"
         },
         {
-            "code": "Epo"
+            "code": "levalbuterol neb"
         },
         {
             "code": "Onglyza"
@@ -14878,9 +14375,6 @@
             "code": "rotigotine (Neupro) Transdermal"
         },
         {
-            "code": "HydroCHLOROthiazide Oral Susp"
-        },
-        {
             "code": "Aptiom"
         },
         {
@@ -14932,19 +14426,19 @@
             "code": "N-Acetylcysteine (NAC)"
         },
         {
-            "code": "Digoxin (Elixir)"
+            "code": "Lacosamide/fosphenytoin"
         },
         {
-            "code": "Lacosamide/fosphenytoin"
+            "code": "Digoxin (Elixir)"
         },
         {
             "code": "divalproex"
         },
         {
-            "code": "Neutr"
+            "code": "INV-Erlotinib"
         },
         {
-            "code": "INV-Erlotinib"
+            "code": "Neutr"
         },
         {
             "code": "Midodrine"
@@ -14969,9 +14463,6 @@
         },
         {
             "code": "Albuterol Inhaler"
-        },
-        {
-            "code": "NEO*IM*Haemophilus B Conj Vac"
         },
         {
             "code": "LaMIVudine-Zidovudine (Combivir)"
@@ -15010,9 +14501,6 @@
             "code": "multivitamin with minerals"
         },
         {
-            "code": "DT & Acellular Pertussis"
-        },
-        {
             "code": "lidocaine HCl"
         },
         {
@@ -15034,13 +14522,10 @@
             "code": "Sodium Chloride 0.9% (Mini Bag Plus)"
         },
         {
-            "code": "Mirapex ER(pramipexole)"
-        },
-        {
-            "code": "fluticasone inhaler"
-        },
-        {
             "code": "Albuterol-Ipratropium"
+        },
+        {
+            "code": "Mirapex ER(pramipexole)"
         },
         {
             "code": "NMB Study Control (0.9% NACL 100ml) Study med"
@@ -15056,9 +14541,6 @@
         },
         {
             "code": "umeclidinium-vilanterol *NF* 62.5-25 mcg/puff"
-        },
-        {
-            "code": "Dextro"
         },
         {
             "code": "Tudorza (aclidinium bromide)"
@@ -15077,9 +14559,6 @@
         },
         {
             "code": "Lidocaine Jelly 2% (Urojet)"
-        },
-        {
-            "code": "Calcitriol PO"
         },
         {
             "code": "fish oil"
@@ -15199,10 +14678,10 @@
             "code": "Test"
         },
         {
-            "code": "Heparin Flush Midline (100 units/ml)"
+            "code": "Tromethamine"
         },
         {
-            "code": "Tromethamine"
+            "code": "Heparin Flush Midline (100 units/ml)"
         },
         {
             "code": "Keppra 500 mg Tab"
@@ -15403,10 +14882,10 @@
             "code": "Amikacin Inhalation"
         },
         {
-            "code": "Epoprostenol Sodium"
+            "code": "Midostaurin"
         },
         {
-            "code": "Midostaurin"
+            "code": "Epoprostenol Sodium"
         },
         {
             "code": "Prempro (conj.estrogen/medroxyprogesterone)"
@@ -15583,9 +15062,6 @@
             "code": "Avodart 0.5MG"
         },
         {
-            "code": "Moxifloxacin Ophth Drops"
-        },
-        {
             "code": "*Nf* Pletal"
         },
         {
@@ -15679,9 +15155,6 @@
             "code": "COQ10 (300mg)"
         },
         {
-            "code": "NEO*IV*Vancomycin"
-        },
-        {
             "code": "Lansoprazole"
         },
         {
@@ -15713,9 +15186,6 @@
         },
         {
             "code": "Biofreeze (menthol)"
-        },
-        {
-            "code": "Cosyntropin IV"
         },
         {
             "code": "dalfampridine (bulk)"
@@ -15754,9 +15224,6 @@
             "code": "rufinamide"
         },
         {
-            "code": "Tobramycin Ophth Oint 0.3%"
-        },
-        {
             "code": "Posaco"
         },
         {
@@ -15773,9 +15240,6 @@
         },
         {
             "code": "Lidocaine-Prilocaine"
-        },
-        {
-            "code": "Sotalol PO Liq"
         },
         {
             "code": "LamoTRIgine Rectal Susp"
@@ -15856,10 +15320,10 @@
             "code": "INFLUENZA VACCINE HIGH-DOSE QUADRIVALENT"
         },
         {
-            "code": "Doxycycline Monohydrate"
+            "code": "Vitamin A Palmitate"
         },
         {
-            "code": "Vitamin A Palmitate"
+            "code": "Doxycycline Monohydrate"
         },
         {
             "code": "Ketorolac"
@@ -15872,9 +15336,6 @@
         },
         {
             "code": "Systane Ultra Eye Drops 0.4%/0.3%"
-        },
-        {
-            "code": "Timolol Ophth Gel 0.5 %"
         },
         {
             "code": "Pioglitazone HCl"
@@ -15925,9 +15386,6 @@
             "code": "Vitamin d3 / placebo"
         },
         {
-            "code": "Tasigna"
-        },
-        {
             "code": "Testosterone 2.5mg Patch"
         },
         {
@@ -15935,9 +15393,6 @@
         },
         {
             "code": "PENTobarbital Sodium"
-        },
-        {
-            "code": "NEO*IM*DT & Acellular Pertussis"
         },
         {
             "code": "carBAMazepine"
@@ -15968,9 +15423,6 @@
         },
         {
             "code": "Aranesp (in polysorbate)"
-        },
-        {
-            "code": "Beclomethasone Dipro. (Oral)"
         },
         {
             "code": "methoxsalen rapid"
@@ -16156,9 +15608,6 @@
             "code": "temozolomide 100mg"
         },
         {
-            "code": "Vitamin D Oral Liquid"
-        },
-        {
             "code": "Cortrosyn"
         },
         {
@@ -16192,13 +15641,7 @@
             "code": "Povidone Iodine 10%"
         },
         {
-            "code": "POTassium Chloride"
-        },
-        {
             "code": "chloral hydrate (bulk)"
-        },
-        {
-            "code": "Thrombin Top Soln 5,000 unit"
         },
         {
             "code": "topiramate"
@@ -16297,9 +15740,6 @@
             "code": "Migraine Formula"
         },
         {
-            "code": "Zidovudine Syrup"
-        },
-        {
             "code": "Ondansetro"
         },
         {
@@ -16339,9 +15779,6 @@
             "code": "potassiu"
         },
         {
-            "code": "cefTAZidime IM"
-        },
-        {
             "code": "Dantrolene / Placebo"
         },
         {
@@ -16363,10 +15800,10 @@
             "code": "Bupivacaine 0.25%./Placebo"
         },
         {
-            "code": "Calcium 600"
+            "code": "L carnitine"
         },
         {
-            "code": "L carnitine"
+            "code": "Calcium 600"
         },
         {
             "code": "fondaparinux"
@@ -16537,9 +15974,6 @@
             "code": "Oxazepam"
         },
         {
-            "code": "Lidocaine 0.9% (Buffered)"
-        },
-        {
             "code": "Symbicort 160mcg-4.5mcg Inhaler"
         },
         {
@@ -16553,9 +15987,6 @@
         },
         {
             "code": "Tobramycin 0.3% Ophth Soln"
-        },
-        {
-            "code": "Sildenafil Suspension"
         },
         {
             "code": "Patient Specific Narcotic"
@@ -16675,10 +16106,10 @@
             "code": "N-Acetylcystaine"
         },
         {
-            "code": "Nitroglycerin SR"
+            "code": "Propecia"
         },
         {
-            "code": "Propecia"
+            "code": "Nitroglycerin SR"
         },
         {
             "code": "Atenolol oral suspension"
@@ -16732,9 +16163,6 @@
             "code": "calcium ca"
         },
         {
-            "code": "Beclomethasone Inh 80 mcg/actuation"
-        },
-        {
             "code": "Enbrel"
         },
         {
@@ -16786,9 +16214,6 @@
             "code": "Pancrelipase 16,000"
         },
         {
-            "code": "AcetaZOLamide (10mg/1ml)"
-        },
-        {
             "code": "Cepacol (Sore Throat Lozenge)"
         },
         {
@@ -16805,9 +16230,6 @@
         },
         {
             "code": "Zomig ZMT"
-        },
-        {
-            "code": "Sucrose Solution 24%"
         },
         {
             "code": "sodium chloride 0.9%"
@@ -16861,9 +16283,6 @@
             "code": "roflumilast"
         },
         {
-            "code": "Critic-Aid Skin Paste"
-        },
-        {
             "code": "MOD-HYDROmorphone"
         },
         {
@@ -16894,10 +16313,10 @@
             "code": "Vytorin 10-10"
         },
         {
-            "code": "homatropine HBr"
+            "code": "Candida Skin Test"
         },
         {
-            "code": "Candida Skin Test"
+            "code": "homatropine HBr"
         },
         {
             "code": "GlyBU"
@@ -16934,9 +16353,6 @@
         },
         {
             "code": "Claritin-D 12 Hour"
-        },
-        {
-            "code": "Sodium Bicarbonate 4.2%"
         },
         {
             "code": "Tobramycin"
@@ -17143,10 +16559,10 @@
             "code": "Blisovi Fe 1/20 (28)"
         },
         {
-            "code": "Lidoc"
+            "code": "vitamin D3"
         },
         {
-            "code": "vitamin D3"
+            "code": "Lidoc"
         },
         {
             "code": "Ogestrel (28)"
@@ -17273,9 +16689,6 @@
         },
         {
             "code": "deferoxamine (DFO)"
-        },
-        {
-            "code": "pip"
         },
         {
             "code": "Xeljanz"
@@ -17497,9 +16910,6 @@
             "code": "heparin"
         },
         {
-            "code": "metroNIDAZOLE top 0.75% cream"
-        },
-        {
             "code": "Bisoprolol Fumarate"
         },
         {
@@ -17515,10 +16925,10 @@
             "code": "Calcium Carbonate Suspension"
         },
         {
-            "code": "anastrazole"
+            "code": "Warfar"
         },
         {
-            "code": "Warfar"
+            "code": "anastrazole"
         },
         {
             "code": "Lescol XL (fluvastatin XL)"
@@ -17590,9 +17000,6 @@
             "code": "ambrisentan 10mg"
         },
         {
-            "code": "Tobramycin Ophth Oint 0.3 %"
-        },
-        {
             "code": "CarafATE"
         },
         {
@@ -17603,9 +17010,6 @@
         },
         {
             "code": "Autologous Serum Eye Drops 20%"
-        },
-        {
-            "code": "astra"
         },
         {
             "code": "ribavirin"
@@ -17773,9 +17177,6 @@
             "code": "aspirin 325 mg"
         },
         {
-            "code": "fat emulsion"
-        },
-        {
             "code": "Zonegran (zonisamide) 25ng cap"
         },
         {
@@ -17816,9 +17217,6 @@
         },
         {
             "code": "Cromolyn Sodium (Nasal Inhalation)"
-        },
-        {
-            "code": "Polio Vaccine (Inactive)"
         },
         {
             "code": "gammagard"
@@ -17896,16 +17294,13 @@
             "code": "FLUoxetine 20mg Cap"
         },
         {
-            "code": "Lidocaine Top Oint 5 %"
-        },
-        {
             "code": "Pramlintide"
         },
         {
-            "code": "Baclofen Intrathecal"
+            "code": "Umbralisib"
         },
         {
-            "code": "Umbralisib"
+            "code": "Baclofen Intrathecal"
         },
         {
             "code": "Forteo 600mcg/2.4ml"
@@ -17917,10 +17312,10 @@
             "code": "Methotrexate Sodium P.F."
         },
         {
-            "code": "*NF* Levalbuterol Neb"
+            "code": "DiphenhydrAMIN 50mg/1mL 1mL VIAL"
         },
         {
-            "code": "DiphenhydrAMIN 50mg/1mL 1mL VIAL"
+            "code": "*NF* Levalbuterol Neb"
         },
         {
             "code": "Austedo"
@@ -17933,6 +17328,9 @@
         },
         {
             "code": "Hibiclens"
+        },
+        {
+            "code": "Calcium"
         },
         {
             "code": "LamiVUDine Oral Soln."
@@ -17960,9 +17358,6 @@
         },
         {
             "code": "HumaLOG Mix 75-25 KwikPen"
-        },
-        {
-            "code": "Linezolid IV"
         },
         {
             "code": "Viorelle"
@@ -17999,9 +17394,6 @@
         },
         {
             "code": "Ipratropium Bromide Neb 1Neb"
-        },
-        {
-            "code": "Fluconazole Oral Susp"
         },
         {
             "code": "cyanoco"
@@ -18109,13 +17501,13 @@
             "code": "DOXYCYCLINE HYCLATE"
         },
         {
-            "code": "sod"
-        },
-        {
             "code": "Tacrolimus (Self Med)"
         },
         {
             "code": "niacin"
+        },
+        {
+            "code": "sod"
         },
         {
             "code": "Mineral"
@@ -18145,10 +17537,10 @@
             "code": "Multaq"
         },
         {
-            "code": "cholestyramine-aspartame"
+            "code": "INV-CoQ10 300mg"
         },
         {
-            "code": "INV-CoQ10 300mg"
+            "code": "cholestyramine-aspartame"
         },
         {
             "code": "Calcium Carbonate 500 (Walgreens)"
@@ -18319,9 +17711,6 @@
             "code": "Sodium Chloride 7%"
         },
         {
-            "code": "NEO*IM*Pneumococcal 13-Valent"
-        },
-        {
             "code": "Code EPA/DHA 26"
         },
         {
@@ -18355,10 +17744,10 @@
             "code": "Ramipril"
         },
         {
-            "code": "Aminocapr"
+            "code": "L-Carnitine Bolus"
         },
         {
-            "code": "L-Carnitine Bolus"
+            "code": "Aminocapr"
         },
         {
             "code": "Fergon"
@@ -18367,10 +17756,10 @@
             "code": "Pancrelipase 5000"
         },
         {
-            "code": "Micafungin"
+            "code": "Bismuth Subsalicylate Chewable"
         },
         {
-            "code": "Bismuth Subsalicylate Chewable"
+            "code": "Micafungin"
         },
         {
             "code": "tetrabenazine (Xenazine) 25mg tab"
@@ -18392,9 +17781,6 @@
         },
         {
             "code": "Sucralfate Enema"
-        },
-        {
-            "code": "pantoprazole IV"
         },
         {
             "code": "polyvinyl alcohol-povidon(PF)"
@@ -18571,10 +17957,10 @@
             "code": "Terbutaline Sulfate"
         },
         {
-            "code": "poly"
+            "code": "Keppra *Brand Name*"
         },
         {
-            "code": "Keppra *Brand Name*"
+            "code": "poly"
         },
         {
             "code": "Multivitamins W/minerals"
@@ -18587,9 +17973,6 @@
         },
         {
             "code": "Omega-3"
-        },
-        {
-            "code": "PHENobarbital Oral Solution"
         },
         {
             "code": "Aminocaproic Acid"
@@ -18643,10 +18026,10 @@
             "code": "CIPRODEX"
         },
         {
-            "code": "AzaTHIOprine"
+            "code": "Lidocaine 0.5%/Epinephrine"
         },
         {
-            "code": "Lidocaine 0.5%/Epinephrine"
+            "code": "AzaTHIOprine"
         },
         {
             "code": "trimethobenzamide 300mg CAP"
@@ -18692,9 +18075,6 @@
         },
         {
             "code": "Furosemide in 0.9% Sodium Chloride"
-        },
-        {
-            "code": "spiro"
         },
         {
             "code": "melatonin 3mg"
@@ -18745,19 +18125,16 @@
             "code": "Wellbutrin XL (buproprion)"
         },
         {
-            "code": "Sodium Bicarbonate 4.2% (2.4mEq)"
-        },
-        {
             "code": "Ventavis (iloprost)"
         },
         {
             "code": "Probiotic Formula"
         },
         {
-            "code": "fosfomycin tromethamine"
+            "code": "nadolol"
         },
         {
-            "code": "nadolol"
+            "code": "fosfomycin tromethamine"
         },
         {
             "code": "Jalyn"
@@ -18767,9 +18144,6 @@
         },
         {
             "code": "phenazopyridine"
-        },
-        {
-            "code": "NEO*Aquaphor"
         },
         {
             "code": "NIFEdipi"
@@ -18859,10 +18233,10 @@
             "code": "DOXOrubicin"
         },
         {
-            "code": "cyclosporin"
+            "code": "Nimodipine 30mg"
         },
         {
-            "code": "Nimodipine 30mg"
+            "code": "cyclosporin"
         },
         {
             "code": "XIBROM (BROMFENAC)"
@@ -18904,12 +18278,6 @@
             "code": "Cortroysn"
         },
         {
-            "code": "Gadobutrol"
-        },
-        {
-            "code": "Amlodipine Suspension"
-        },
-        {
             "code": "Polytrim (trimethoprim + polymyxin B)"
         },
         {
@@ -18937,6 +18305,9 @@
             "code": "Rapaflo"
         },
         {
+            "code": "Valtrex"
+        },
+        {
             "code": "Umeclidinium 62.5mcg"
         },
         {
@@ -18952,10 +18323,10 @@
             "code": "sodium bica"
         },
         {
-            "code": "Lubricant Eye Drops"
+            "code": "Meningococ Vac A,C,Y,W135 (PF)"
         },
         {
-            "code": "Meningococ Vac A,C,Y,W135 (PF)"
+            "code": "Lubricant Eye Drops"
         },
         {
             "code": "ProAir HFA (Albuterol Sulf.)"
@@ -19144,12 +18515,6 @@
             "code": "Insulin Regular Hum U-500 Conc"
         },
         {
-            "code": "ADEK's Pediatric Drops *NF*"
-        },
-        {
-            "code": "NEO*PO*Hydrocortisone Sod Succinate"
-        },
-        {
             "code": "Creon 24 Capsules"
         },
         {
@@ -19228,9 +18593,6 @@
             "code": "Prednisone"
         },
         {
-            "code": "Ibuprofen Lysine (PF)"
-        },
-        {
             "code": "Captopril"
         },
         {
@@ -19247,9 +18609,6 @@
         },
         {
             "code": "levalb"
-        },
-        {
-            "code": "Gentian Violet 0.5 %"
         },
         {
             "code": "Fluticasone 44mcg/Inh"
@@ -19396,10 +18755,10 @@
             "code": "KePPRA XR"
         },
         {
-            "code": "thiamine"
+            "code": "Penicillin G Benzathine"
         },
         {
-            "code": "Penicillin G Benzathine"
+            "code": "thiamine"
         },
         {
             "code": "dextran 70-hypromellose (PF)"
@@ -19418,9 +18777,6 @@
         },
         {
             "code": "omega"
-        },
-        {
-            "code": "indo"
         },
         {
             "code": "Norvasc"
@@ -19453,9 +18809,6 @@
             "code": "vancomycin capsule"
         },
         {
-            "code": "Phytonadione (Vitamin K1)"
-        },
-        {
             "code": "norethindrone (contraceptive)"
         },
         {
@@ -19466,9 +18819,6 @@
         },
         {
             "code": "levmetamfetamine"
-        },
-        {
-            "code": "Plaquenil via feeding tube"
         },
         {
             "code": "Tiagabine HCl"
@@ -19502,9 +18852,6 @@
         },
         {
             "code": "Epirubicin HCl"
-        },
-        {
-            "code": "Norepinephrine (PF) IV"
         },
         {
             "code": "Oxycodone-Acetaminophen"
@@ -19601,9 +18948,6 @@
         },
         {
             "code": "Exelon (rivastigmine) 9.5 mg patch"
-        },
-        {
-            "code": "Afrin Nasal Spray 0.05 %"
         },
         {
             "code": "Ashlyna"
@@ -19723,22 +19067,19 @@
             "code": "Lena25inv"
         },
         {
-            "code": "Paclitaxel-Protein Bound (Abraxane)"
-        },
-        {
             "code": "Citracal"
         },
         {
-            "code": "glycopyrr"
+            "code": "Paclitaxel-Protein Bound (Abraxane)"
         },
         {
             "code": "novolog"
         },
         {
-            "code": "Neupro 8mg/24hrs Patch"
+            "code": "glycopyrr"
         },
         {
-            "code": "Trimethoprim Oral Soln"
+            "code": "Neupro 8mg/24hrs Patch"
         },
         {
             "code": "Carboxymethylcellulose Sodium"
@@ -19885,9 +19226,6 @@
             "code": "Symbicort *NF* 160/4.5"
         },
         {
-            "code": "NEO*PO*Morphine"
-        },
-        {
             "code": "Ibutilide Fumarate"
         },
         {
@@ -19918,9 +19256,6 @@
             "code": "ZZ"
         },
         {
-            "code": "Midazo"
-        },
-        {
             "code": "Antacid Maximum Strength"
         },
         {
@@ -19942,13 +19277,7 @@
             "code": "donna"
         },
         {
-            "code": "beclo"
-        },
-        {
             "code": "Tenofovir Disoproxil"
-        },
-        {
-            "code": "Alteplase Intrapleural"
         },
         {
             "code": "Ketamine/Gabapentin/Amitriptyline"
@@ -20071,16 +19400,16 @@
             "code": "prenatal cmb#95-iron-FA-dha"
         },
         {
-            "code": "CoQ10 200mg liquid"
-        },
-        {
             "code": "Niacin SR (OWN BRAND)"
         },
         {
-            "code": "Calcium Replacement (Oncology)"
+            "code": "CoQ10 200mg liquid"
         },
         {
             "code": "PHENObarbital Alcohol Withdrawal Dose Taper (Days 2-7)"
+        },
+        {
+            "code": "Calcium Replacement (Oncology)"
         },
         {
             "code": "Isosorbide Dini"
@@ -20135,9 +19464,6 @@
         },
         {
             "code": "acetic"
-        },
-        {
-            "code": "Glyce"
         },
         {
             "code": "Morphine (PF)"
@@ -20227,9 +19553,6 @@
             "code": "Creon 10"
         },
         {
-            "code": "NEO*PO*Ranitidine"
-        },
-        {
             "code": "atropine"
         },
         {
@@ -20272,10 +19595,10 @@
             "code": "Bimatoprost 0.01% Ophth (*NF*)"
         },
         {
-            "code": "Belladonna-Opium"
+            "code": "Mestinon Timespan"
         },
         {
-            "code": "Mestinon Timespan"
+            "code": "Belladonna-Opium"
         },
         {
             "code": "Revlimid (lenanilomide)"
@@ -20383,10 +19706,10 @@
             "code": "Ceftaroline Desensitization"
         },
         {
-            "code": "hydroCHLOROthiazide"
+            "code": "Sucra"
         },
         {
-            "code": "Sucra"
+            "code": "hydroCHLOROthiazide"
         },
         {
             "code": "PHENO"
@@ -20521,9 +19844,6 @@
             "code": "ferric citrate"
         },
         {
-            "code": "Omeprazole Suspension"
-        },
-        {
             "code": "PHE"
         },
         {
@@ -20573,9 +19893,6 @@
         },
         {
             "code": "OcuSoft Lid Scrub"
-        },
-        {
-            "code": "azithromycin PO Susp"
         },
         {
             "code": "Methenamine Hippurate"
@@ -20675,9 +19992,6 @@
         },
         {
             "code": "rOPINIRole (Requip) XL"
-        },
-        {
-            "code": "AVASTIN Intravitreal"
         },
         {
             "code": "Atorvaststin 40 mg"
@@ -20785,9 +20099,6 @@
             "code": "ZyrTEC-D"
         },
         {
-            "code": "Spironolactone Susp via feeding tube"
-        },
-        {
             "code": "Sensipar"
         },
         {
@@ -20855,9 +20166,6 @@
         },
         {
             "code": "Donepezil"
-        },
-        {
-            "code": "Simeth"
         },
         {
             "code": "Von Willebrand factor"
@@ -21016,9 +20324,6 @@
             "code": "Clonidine TTS 3 Patch"
         },
         {
-            "code": "Penicillin G Potassium *Central Line Only*"
-        },
-        {
             "code": "Multivi"
         },
         {
@@ -21032,9 +20337,6 @@
         },
         {
             "code": "INV- Ruxolitinib"
-        },
-        {
-            "code": "fen"
         },
         {
             "code": "Thiamine study drug"
@@ -21151,10 +20453,10 @@
             "code": "brexpiprazole"
         },
         {
-            "code": "Docusate S"
+            "code": "Cep"
         },
         {
-            "code": "Cep"
+            "code": "Docusate S"
         },
         {
             "code": "PONATinib"
@@ -21166,10 +20468,10 @@
             "code": "Tresiba FlexTouch U-200"
         },
         {
-            "code": "Tretinoin (ATRA, All-Transretinoic Acid)"
+            "code": "proscar"
         },
         {
-            "code": "proscar"
+            "code": "Tretinoin (ATRA, All-Transretinoic Acid)"
         },
         {
             "code": "Endometrin"
@@ -21328,9 +20630,6 @@
             "code": "BuPROPion XL (Once Daily)"
         },
         {
-            "code": "Vitamin K"
-        },
-        {
             "code": "valproic"
         },
         {
@@ -21379,13 +20678,7 @@
             "code": "Lipofen"
         },
         {
-            "code": "Filgrastim Sub-Q"
-        },
-        {
             "code": "Debrox 6.5%"
-        },
-        {
-            "code": "Multivitamin (Infant)"
         },
         {
             "code": "Ortho Tri-Cyclen LO"
@@ -21427,6 +20720,9 @@
             "code": "Tretinoin"
         },
         {
+            "code": "Enox"
+        },
+        {
             "code": "Caduet"
         },
         {
@@ -21458,9 +20754,6 @@
         },
         {
             "code": "Quixin 0.5%"
-        },
-        {
-            "code": "penicillin G Potassium IV"
         },
         {
             "code": "DHA - Prenatal"
@@ -21535,10 +20828,10 @@
             "code": "fenofibrate nanocrystallized"
         },
         {
-            "code": "potass"
+            "code": "Atomoxetine"
         },
         {
-            "code": "Atomoxetine"
+            "code": "potass"
         },
         {
             "code": "tamsuLOSIN"
@@ -21595,16 +20888,13 @@
             "code": "OxycoD"
         },
         {
-            "code": "Sodium Citrate/Citric Acid"
-        },
-        {
             "code": "Combigan 0.2%-0.5% eye drops"
         },
         {
-            "code": "Dextromethorphan-"
+            "code": "Cefpodo"
         },
         {
-            "code": "Cefpodo"
+            "code": "Dextromethorphan-"
         },
         {
             "code": "Anoro Ellipta 62.5/25"
@@ -21656,9 +20946,6 @@
         },
         {
             "code": "Cyclobenzapri"
-        },
-        {
-            "code": "Flecainide PO"
         },
         {
             "code": "quinacrine (bulk)"
@@ -21784,19 +21071,19 @@
             "code": "Opana ER (oxymorphone)"
         },
         {
-            "code": "Clevidipine"
+            "code": "Chlorpheniramine Maleate"
         },
         {
-            "code": "Chlorpheniramine Maleate"
+            "code": "Clevidipine"
         },
         {
             "code": "Mupiro"
         },
         {
-            "code": "Dipivefrin 0.1%"
+            "code": "Tretinoin 0.25% Gel"
         },
         {
-            "code": "Tretinoin 0.25% Gel"
+            "code": "Dipivefrin 0.1%"
         },
         {
             "code": "Mononessa (28)"
@@ -21868,19 +21155,13 @@
             "code": "Nortriptyline 50mg"
         },
         {
-            "code": "Ergocalciferol"
+            "code": "Phytonadi"
         },
         {
             "code": "Calcium Disodium Versenate"
         },
         {
-            "code": "Phytonadi"
-        },
-        {
             "code": "dila"
-        },
-        {
-            "code": "Sime"
         },
         {
             "code": "Anusol-HC"
@@ -21907,13 +21188,13 @@
             "code": "Pink Bismuth"
         },
         {
-            "code": "*NF* Testosterone Gel 1% (50 mg)"
+            "code": "novolin"
         },
         {
             "code": "Nyst"
         },
         {
-            "code": "novolin"
+            "code": "*NF* Testosterone Gel 1% (50 mg)"
         },
         {
             "code": "Granisetron HCl"
@@ -22093,9 +21374,6 @@
             "code": "Collagenase Ointment"
         },
         {
-            "code": "Aldactone via feeding tube"
-        },
-        {
             "code": "Cocaine 4% Soln"
         },
         {
@@ -22249,10 +21527,10 @@
             "code": "Ziana (clindamycin-tretinoin)"
         },
         {
-            "code": "Maalox"
+            "code": "Lumigan (0.01%) Bimatoprost"
         },
         {
-            "code": "Lumigan (0.01%) Bimatoprost"
+            "code": "Maalox"
         },
         {
             "code": "Terlipressin ication"
@@ -22267,10 +21545,10 @@
             "code": "Tofacitinib (Xeljanz)"
         },
         {
-            "code": "Fluvoxamine"
+            "code": "methotrexate"
         },
         {
-            "code": "methotrexate"
+            "code": "Fluvoxamine"
         },
         {
             "code": "Sodium Tetradecyl Sulfate 1%"
@@ -22480,9 +21758,6 @@
             "code": "Refresh Optive Advanced"
         },
         {
-            "code": "ceFAZolin IM"
-        },
-        {
             "code": "PARoxetine ER 37.5 mg"
         },
         {
@@ -22600,9 +21875,6 @@
             "code": "Modafin"
         },
         {
-            "code": "Betadine Ophthalmic Prep Ophth Soln 5 %"
-        },
-        {
             "code": "raloxifene"
         },
         {
@@ -22666,9 +21938,6 @@
             "code": "acety"
         },
         {
-            "code": "Aspirin PO Chew"
-        },
-        {
             "code": "midazolam"
         },
         {
@@ -22705,9 +21974,6 @@
             "code": "amoxapine"
         },
         {
-            "code": "syringe (disposable)"
-        },
-        {
             "code": "Fleet"
         },
         {
@@ -22715,9 +21981,6 @@
         },
         {
             "code": "Oxcarba"
-        },
-        {
-            "code": "Povidone-Iodine Ophth Soln 5 %"
         },
         {
             "code": "furosemide"
@@ -22801,9 +22064,6 @@
             "code": "Camila (Norethindrone) 0.35mg tab"
         },
         {
-            "code": "Lubricant Eye Gel 0.3%"
-        },
-        {
             "code": "Vitamin D3/Placebo"
         },
         {
@@ -22849,19 +22109,16 @@
             "code": "Pulmicort Flexhaler 180mcg/puff"
         },
         {
-            "code": "Artesunate"
+            "code": "fio"
         },
         {
             "code": "Lidocaine (Bristojet)"
         },
         {
-            "code": "fio"
+            "code": "Artesunate"
         },
         {
             "code": "Cutivate"
-        },
-        {
-            "code": "Alteplase Intra-Catheter"
         },
         {
             "code": "miralax"
@@ -22993,9 +22250,6 @@
             "code": "Amitriptyline HCl"
         },
         {
-            "code": "Simet"
-        },
-        {
             "code": "Nitrolingual Pumpspray"
         },
         {
@@ -23035,10 +22289,10 @@
             "code": "Temozolo"
         },
         {
-            "code": "Fentanyl Infusion \u2013 Comfort Care Guidelines"
+            "code": "Glutamine"
         },
         {
-            "code": "Glutamine"
+            "code": "Fentanyl Infusion \u2013 Comfort Care Guidelines"
         },
         {
             "code": "Accolate"
@@ -23095,10 +22349,10 @@
             "code": "insulin regular hum U-500 conc"
         },
         {
-            "code": "Coenzyme Q10 300 mg"
+            "code": "Erythromycin Ethylsuccinate Suspension"
         },
         {
-            "code": "Erythromycin Ethylsuccinate Suspension"
+            "code": "Coenzyme Q10 300 mg"
         },
         {
             "code": "indinavir"
@@ -23215,9 +22469,6 @@
             "code": "LevETIRAcetam Oral Solution"
         },
         {
-            "code": "MethylPREDNISolone Sod Succ"
-        },
-        {
             "code": "VitD/PCB 4000/400/0IU"
         },
         {
@@ -23227,13 +22478,7 @@
             "code": "nimodipine/placebo"
         },
         {
-            "code": "NEO*PO*Ursodiol"
-        },
-        {
             "code": "Lactulose"
-        },
-        {
-            "code": "Glycopyrrolate PO Liq"
         },
         {
             "code": "Dolasetron Mesylate"
@@ -23449,9 +22694,6 @@
             "code": "lidocaine"
         },
         {
-            "code": "Loperamide via feeding tube"
-        },
-        {
             "code": "Hydrocodone-Acetaminophen (5mg-500mg"
         },
         {
@@ -23515,9 +22757,6 @@
             "code": "Breo Ellipta 200-25 mcg/dose"
         },
         {
-            "code": "Heparin Sodium (Preservative Free)"
-        },
-        {
             "code": "tyrosine"
         },
         {
@@ -23533,10 +22772,10 @@
             "code": "Aviane-28"
         },
         {
-            "code": "Propafenone (Immediate Release)"
+            "code": "TiCLOPIDINE"
         },
         {
-            "code": "TiCLOPIDINE"
+            "code": "Propafenone (Immediate Release)"
         },
         {
             "code": "Fluticasone (Flovent)"
@@ -23548,10 +22787,10 @@
             "code": "Heparin Flush (10 Units/mL)"
         },
         {
-            "code": "Zeasorb AF"
+            "code": "anu"
         },
         {
-            "code": "anu"
+            "code": "Zeasorb AF"
         },
         {
             "code": "Pilocarpine"
@@ -23578,25 +22817,19 @@
             "code": "Lithium Carbonate"
         },
         {
-            "code": "Drisdol"
-        },
-        {
             "code": "Exelon (rivastigmine) patch"
         },
         {
             "code": "Hydrocortisone Oint 1%"
         },
         {
-            "code": "Thrombin-JMI"
-        },
-        {
             "code": "Ambien CR"
         },
         {
-            "code": "DICYCLOMine"
+            "code": "LACOSamide - STAT Dose"
         },
         {
-            "code": "LACOSamide - STAT Dose"
+            "code": "DICYCLOMine"
         },
         {
             "code": "Senna Plus"
@@ -23665,9 +22898,6 @@
             "code": "Tums Ultra"
         },
         {
-            "code": "NEO*PO*Captopril"
-        },
-        {
             "code": "DILTIAZEM"
         },
         {
@@ -23723,9 +22953,6 @@
         },
         {
             "code": "Raloxifene"
-        },
-        {
-            "code": "Neo*PO*Azithromycin"
         },
         {
             "code": "Quetiapine Fumarate (Serroquel)"
@@ -23800,10 +23027,10 @@
             "code": "N-acetylcysteine (NAC)"
         },
         {
-            "code": "Levobunolol 0.25%"
+            "code": "RifAMPin"
         },
         {
-            "code": "RifAMPin"
+            "code": "Levobunolol 0.25%"
         },
         {
             "code": "medroxyPROGEST, ac micro(bulk)"
@@ -23920,10 +23147,10 @@
             "code": "ramelteon"
         },
         {
-            "code": "INV-GO-203-2c"
+            "code": "Lithium Carbo"
         },
         {
-            "code": "Lithium Carbo"
+            "code": "INV-GO-203-2c"
         },
         {
             "code": "I-Caps Areds"
@@ -24016,12 +23243,6 @@
             "code": "Pantoprazole (Self Med)"
         },
         {
-            "code": "First- Omeprazole"
-        },
-        {
-            "code": "Atropine Sulfate Ophth 0.25%"
-        },
-        {
             "code": "Formoterol 20 mcg"
         },
         {
@@ -24059,9 +23280,6 @@
         },
         {
             "code": "*NF* Irbesartan"
-        },
-        {
-            "code": "Silvadene Top Cr 1 %"
         },
         {
             "code": "enoxaparin"
@@ -24103,9 +23321,6 @@
             "code": "Rimantadine"
         },
         {
-            "code": "Aquaphor 1 lb jar"
-        },
-        {
             "code": "Imuran"
         },
         {
@@ -24139,12 +23354,6 @@
             "code": "lithium"
         },
         {
-            "code": "dextrose 25 % in water (D25W)"
-        },
-        {
-            "code": "NEO*SC*Polio Vaccine (Inactive)"
-        },
-        {
             "code": "Abacavir-Lamivudine-Zidovudine"
         },
         {
@@ -24169,9 +23378,6 @@
             "code": "robi"
         },
         {
-            "code": "Hydrocortison"
-        },
-        {
             "code": "PALIperidone Palmitate"
         },
         {
@@ -24188,9 +23394,6 @@
         },
         {
             "code": "paliperidone palm (3-month)"
-        },
-        {
-            "code": "NEO*PO*Ergocalciferol"
         },
         {
             "code": "Bortezomib"
@@ -24230,9 +23433,6 @@
         },
         {
             "code": "mupirocin calcium"
-        },
-        {
-            "code": "LevoTHYROXine"
         },
         {
             "code": "Tetrahydrozoline 0.05% Eye Drops"
@@ -24406,9 +23606,6 @@
             "code": "Insulin Aspart"
         },
         {
-            "code": "Phosphate-Sodium-Potassium Oral Suspension"
-        },
-        {
             "code": "Tresiba FlexTouch Pen"
         },
         {
@@ -24478,9 +23675,6 @@
             "code": "CycloSPORINE (Neoral) MODIFIED"
         },
         {
-            "code": "NEO*PO*Levothyroxine Suspension"
-        },
-        {
             "code": "dilt"
         },
         {
@@ -24532,9 +23726,6 @@
             "code": "Jolessa 0.15-30"
         },
         {
-            "code": "Sodium Bicarbonate 4.2% (5mEq)"
-        },
-        {
             "code": "Prednisolone Sodium Phosphate"
         },
         {
@@ -24545,12 +23736,6 @@
         },
         {
             "code": "Dexedrine Spansule"
-        },
-        {
-            "code": "Polytrim Ophth Drops"
-        },
-        {
-            "code": "sotalol PO Liq"
         },
         {
             "code": "Levemir Flexpen 100 units/mL"
@@ -24569,9 +23754,6 @@
         },
         {
             "code": "Ketamine 200mg/20mL 20mL Vial"
-        },
-        {
-            "code": "Topamax PO"
         },
         {
             "code": "Testosterone Gel (40.5mg/ 2.5g)"
@@ -24596,9 +23778,6 @@
         },
         {
             "code": "Antivert"
-        },
-        {
-            "code": "NEO*PO*Chlorothiazide"
         },
         {
             "code": "Chlordiazepoxide (with clidinium)"
@@ -24715,9 +23894,6 @@
             "code": "Prempro"
         },
         {
-            "code": "Ceftaroline Fosamil IV"
-        },
-        {
             "code": "Ethanol 70% Catheter Lock"
         },
         {
@@ -24772,16 +23948,10 @@
             "code": "Copaxone (glatiramer acetate)"
         },
         {
-            "code": "Apraclonidine 0.5%"
-        },
-        {
             "code": "Ferrous Sulfate (Liquid)"
         },
         {
-            "code": "Evoxac"
-        },
-        {
-            "code": "Haloper"
+            "code": "Apraclonidine 0.5%"
         },
         {
             "code": "Heparin (CRRT Machine Priming)"
@@ -24859,10 +24029,10 @@
             "code": "vit A,C and E-lutein-minerals"
         },
         {
-            "code": "Itraconazole Solution"
+            "code": "cloBAZam"
         },
         {
-            "code": "cloBAZam"
+            "code": "Itraconazole Solution"
         },
         {
             "code": "Desmopressin"
@@ -24905,9 +24075,6 @@
         },
         {
             "code": "sertraline"
-        },
-        {
-            "code": "Levo"
         },
         {
             "code": "dorzolamide-timolol"
@@ -25201,9 +24368,6 @@
             "code": "Nimodipine 60mg/placebo"
         },
         {
-            "code": "Poly-Vi-Sol with Iron"
-        },
-        {
             "code": "Cyanocobalamin (vitamin B-12) 1000mcg tab"
         },
         {
@@ -25243,9 +24407,6 @@
             "code": "vitamin"
         },
         {
-            "code": "spirono"
-        },
-        {
             "code": "Dairy Relief"
         },
         {
@@ -25262,9 +24423,6 @@
         },
         {
             "code": "Elidel"
-        },
-        {
-            "code": "Haemophilus B Conj Vac"
         },
         {
             "code": "Fluconazole Suspension"
@@ -25351,9 +24509,6 @@
             "code": "omega 3-dha-epa-fish oil,4c,3c,1c"
         },
         {
-            "code": "NEO*PO*Midazolam"
-        },
-        {
             "code": "well"
         },
         {
@@ -25388,9 +24543,6 @@
         },
         {
             "code": "Prenatal Multi"
-        },
-        {
-            "code": "Ferrous Sulfate Elixir"
         },
         {
             "code": "Symbicort 160 mcg-4.5 mcg/actuation"
@@ -25448,9 +24600,6 @@
         },
         {
             "code": "niMODipine"
-        },
-        {
-            "code": "Caffeine (anhydrous) / Placebo Study"
         },
         {
             "code": "Horizant"
@@ -25576,10 +24725,10 @@
             "code": "Pirmella"
         },
         {
-            "code": "EPINEPHrine-Sodium Chloride"
+            "code": "CISplatin Desensitization"
         },
         {
-            "code": "CISplatin Desensitization"
+            "code": "EPINEPHrine-Sodium Chloride"
         },
         {
             "code": "linaCLOtide (Linzess)"
@@ -25807,10 +24956,10 @@
             "code": "hydroxyprogesterone capr(bulk)"
         },
         {
-            "code": "Pred"
+            "code": "Furo"
         },
         {
-            "code": "Furo"
+            "code": "Pred"
         },
         {
             "code": "Novolog"
@@ -25867,16 +25016,10 @@
             "code": "NMB Study Control (0.9%NACL) Study Med"
         },
         {
-            "code": "NEO*PO*Dexamethasone"
-        },
-        {
             "code": "PARoxetine ER 12.5 mg"
         },
         {
             "code": "Femcon Fe 0.4mg-35mcg & 75mg"
-        },
-        {
-            "code": "Miconazole 2% Paste"
         },
         {
             "code": "BYL719"
@@ -25894,10 +25037,10 @@
             "code": "Levodopa-benserazide"
         },
         {
-            "code": "Ephedrin"
+            "code": "Atropine Sulfa 1mg/10mL 10mL SYR"
         },
         {
-            "code": "Atropine Sulfa 1mg/10mL 10mL SYR"
+            "code": "Ephedrin"
         },
         {
             "code": "Mesna*"
@@ -26143,16 +25286,10 @@
             "code": "Cepacol Dual Relief"
         },
         {
-            "code": "PHENObarbital Injectable"
-        },
-        {
             "code": "Esmolol study drug"
         },
         {
             "code": "ToPAMax"
-        },
-        {
-            "code": "NEO*PO*Metoclopramide"
         },
         {
             "code": "Viramune XR"
@@ -26216,9 +25353,6 @@
         },
         {
             "code": "Nyamyc"
-        },
-        {
-            "code": "Penicillin G Potassium *Peripheral or Central Line*"
         },
         {
             "code": "Lactaid Fast Act"
@@ -26293,10 +25427,10 @@
             "code": "Diane 35"
         },
         {
-            "code": "Prunelax"
+            "code": "Hydrocortisone"
         },
         {
-            "code": "Hydrocortisone"
+            "code": "Prunelax"
         },
         {
             "code": "Silibinin"
@@ -26314,13 +25448,7 @@
             "code": "PreserVision Lutein"
         },
         {
-            "code": "pyridoxine IV"
-        },
-        {
             "code": "LeVET"
-        },
-        {
-            "code": "DTaP-HepB-IPV Combined"
         },
         {
             "code": "Chlorpromazine"
@@ -26506,9 +25634,6 @@
             "code": "Aspirin 325mg TAB"
         },
         {
-            "code": "Diazoxide PO Susp"
-        },
-        {
             "code": "Clobetasol"
         },
         {
@@ -26540,9 +25665,6 @@
         },
         {
             "code": "Namzaric"
-        },
-        {
-            "code": "bumetanide"
         },
         {
             "code": "DiaResQ"
@@ -26620,9 +25742,6 @@
             "code": "Flecainide"
         },
         {
-            "code": "Atropine Sulfate 1% Ophth Ointment"
-        },
-        {
             "code": "Epeleuton 500mg"
         },
         {
@@ -26644,10 +25763,10 @@
             "code": "Icatibant"
         },
         {
-            "code": "Midazolam 100mg/100mL 100mL Bag"
+            "code": "Atorvastatin 40 mg"
         },
         {
-            "code": "Atorvastatin 40 mg"
+            "code": "Midazolam 100mg/100mL 100mL Bag"
         },
         {
             "code": "Aptivus"
@@ -26866,6 +25985,9 @@
             "code": "clonazepam"
         },
         {
+            "code": "Tessal"
+        },
+        {
             "code": "Pramoxine-Menthol-Petrolatum"
         },
         {
@@ -26885,9 +26007,6 @@
         },
         {
             "code": "Beclomethasone Dipro. AQ (Nasal)"
-        },
-        {
-            "code": "Midazol"
         },
         {
             "code": "miner"
@@ -26953,13 +26072,13 @@
             "code": "CloNIDine"
         },
         {
-            "code": "Vaccine Book"
-        },
-        {
             "code": "Romiplostim"
         },
         {
             "code": "Fludarabine Phosphate"
+        },
+        {
+            "code": "Vaccine Book"
         },
         {
             "code": "BuPRopion"
@@ -27004,9 +26123,6 @@
             "code": "Dextroamphetamine"
         },
         {
-            "code": "spiron"
-        },
-        {
             "code": "Aviane 28"
         },
         {
@@ -27040,9 +26156,6 @@
             "code": "mucus clearing device"
         },
         {
-            "code": "CefoTAXime"
-        },
-        {
             "code": "Sodium"
         },
         {
@@ -27071,9 +26184,6 @@
         },
         {
             "code": "ganciclovir 500 mg cap"
-        },
-        {
-            "code": "Gadavist"
         },
         {
             "code": "Midodrine 20 mg TID or Placebo"
@@ -27274,16 +26384,10 @@
             "code": "nephrocap"
         },
         {
-            "code": "Sodium Chloride Neb 3 %"
-        },
-        {
             "code": "Oxybutynin Patch 3.9mg"
         },
         {
             "code": "Quetiapine extended-release"
-        },
-        {
-            "code": "Antihemophic Factor 8 (Recomb)"
         },
         {
             "code": "Triumeq (abacavir, dolutegravir, lamivudine)"
@@ -27310,12 +26414,6 @@
             "code": "Isosor"
         },
         {
-            "code": "Rabies Vaccine, PCEC (PF) IM"
-        },
-        {
-            "code": "NEO*PO*Hydralazine"
-        },
-        {
             "code": "Estropipate"
         },
         {
@@ -27329,9 +26427,6 @@
         },
         {
             "code": "Hydrocortisone (Rectal) 2.5% Cream"
-        },
-        {
-            "code": "penicillin G Benzathine IM"
         },
         {
             "code": "Dexilant (Dexlansoprazole)"
@@ -27365,9 +26460,6 @@
         },
         {
             "code": "Linaclotide (Linzess)"
-        },
-        {
-            "code": "NEO*PO*Ferrous Sulfate Elixir"
         },
         {
             "code": "URSO Forte"
@@ -27460,9 +26552,6 @@
             "code": "Narcan"
         },
         {
-            "code": "Lorazepam Oral Solution"
-        },
-        {
             "code": "Lunesta(eszopiclone)"
         },
         {
@@ -27488,9 +26577,6 @@
         },
         {
             "code": "amphetami"
-        },
-        {
-            "code": "NEO*PO*Potassium Phosphate"
         },
         {
             "code": "1Travatan Z"
@@ -27520,9 +26606,6 @@
             "code": "Inbrija"
         },
         {
-            "code": "Simethi"
-        },
-        {
             "code": "sertraline oral solution"
         },
         {
@@ -27536,9 +26619,6 @@
         },
         {
             "code": "Avodart"
-        },
-        {
-            "code": "Sodium Chloride 0.9% Nasal"
         },
         {
             "code": "C"
@@ -27607,9 +26687,6 @@
             "code": "LACOSamide"
         },
         {
-            "code": "Albuterol Sulfate-Ipratropium"
-        },
-        {
             "code": "bimatoprost 0.01%"
         },
         {
@@ -27643,10 +26720,10 @@
             "code": "Sodium Chloride (Mini Bag Plus)"
         },
         {
-            "code": "Buprenorp"
+            "code": "methylPREDNISolone"
         },
         {
-            "code": "methylPREDNISolone"
+            "code": "Buprenorp"
         },
         {
             "code": "sodium bicarb"
@@ -27662,12 +26739,6 @@
         },
         {
             "code": "NIFEdipin"
-        },
-        {
-            "code": "Neo*Nasal*Sodium Chloride 0.9%"
-        },
-        {
-            "code": "Bacitracin-Polymyxin B Ophth Oint 500 unit-10,000 unit/gram"
         },
         {
             "code": "Velivet Triphasic Regimen (28)"
@@ -27862,9 +26933,6 @@
             "code": "DurezoL"
         },
         {
-            "code": "Potassium Phosphate Soln"
-        },
-        {
             "code": "ketorolac 0.4% drops"
         },
         {
@@ -27917,9 +26985,6 @@
         },
         {
             "code": "Zarah 3mg-0.03mg tab"
-        },
-        {
-            "code": "Furosemide (Elixir)"
         },
         {
             "code": "Mesa"
@@ -28090,13 +27155,7 @@
             "code": "Cilostaz"
         },
         {
-            "code": "phyto"
-        },
-        {
             "code": "Colazal"
-        },
-        {
-            "code": "Fluticasone Inh 110 mcg/actuation"
         },
         {
             "code": "phenylephrin"
@@ -28114,19 +27173,16 @@
             "code": "arginine (L-arginine)"
         },
         {
-            "code": "Bacitracin-Polymyxin B"
-        },
-        {
             "code": "Chloroprocaine 3% MPF"
         },
         {
             "code": "Kelnor 1/35 (28)"
         },
         {
-            "code": "Triamterene"
+            "code": "PHENobarbital Patch for Allergy Testing"
         },
         {
-            "code": "PHENobarbital Patch for Allergy Testing"
+            "code": "Triamterene"
         },
         {
             "code": "Eucerin"
@@ -28180,10 +27236,10 @@
             "code": "NIFEdipine"
         },
         {
-            "code": "Aluminum"
+            "code": "Afrin"
         },
         {
-            "code": "Afrin"
+            "code": "Aluminum"
         },
         {
             "code": "Fenofibrate"
@@ -28211,9 +27267,6 @@
         },
         {
             "code": "Medroxyprojest"
-        },
-        {
-            "code": "Polytrim Ophth Drops 1 mg-10,000 unit/mL"
         },
         {
             "code": "Apidra SoloStar U-100 Insulin ** Non-Formulary **"
@@ -28276,9 +27329,6 @@
             "code": "SAGE-547"
         },
         {
-            "code": "Hydroxy"
-        },
-        {
             "code": "bisacodyl"
         },
         {
@@ -28327,10 +27377,10 @@
             "code": "Letermovir"
         },
         {
-            "code": "Cem 102 300mg tab"
+            "code": "Donepezil 5 mg"
         },
         {
-            "code": "Donepezil 5 mg"
+            "code": "Cem 102 300mg tab"
         },
         {
             "code": "EPINEPHrine 1:1000"
@@ -28370,6 +27420,9 @@
         },
         {
             "code": "AYR Saline Nasal Gel"
+        },
+        {
+            "code": "Refresh P.M."
         },
         {
             "code": "PNEUMOcoccal 13-valent conjugate vaccine"
@@ -28414,10 +27467,10 @@
             "code": "Multivitamins W/minerals Liquid"
         },
         {
-            "code": "hydrOXYzine pamoate"
+            "code": "Charcoal-Sorbitol"
         },
         {
-            "code": "Charcoal-Sorbitol"
+            "code": "hydrOXYzine pamoate"
         },
         {
             "code": "Power C Vitamin C (Ascorbic Acid)"
@@ -28436,9 +27489,6 @@
         },
         {
             "code": "interferon beta-1b"
-        },
-        {
-            "code": "Phenytoin Suspension"
         },
         {
             "code": "PENTObarbital Sodium"
@@ -28564,13 +27614,10 @@
             "code": "Linzessc145mcg"
         },
         {
-            "code": "NEO*IM*Hepatitis B Vaccine"
+            "code": "CoQ10 200 mg cap"
         },
         {
             "code": "Dival"
-        },
-        {
-            "code": "CoQ10 200 mg cap"
         },
         {
             "code": "Makena"
@@ -28672,13 +27719,13 @@
             "code": "GlipiZIDE"
         },
         {
+            "code": "Diltia"
+        },
+        {
             "code": "Balanced Salt Opth. Soln"
         },
         {
             "code": "desmopressin"
-        },
-        {
-            "code": "Diltia"
         },
         {
             "code": "Repliva 21/7 (New Formulation)"
@@ -28876,9 +27923,6 @@
             "code": "refre"
         },
         {
-            "code": "Refresh P.M."
-        },
-        {
             "code": "Namenda XR"
         },
         {
@@ -28963,9 +28007,6 @@
             "code": "N-Acetylcysteine"
         },
         {
-            "code": "Aminophylline IV"
-        },
-        {
             "code": "Acular LS"
         },
         {
@@ -28994,9 +28035,6 @@
         },
         {
             "code": "JanUMET"
-        },
-        {
-            "code": "Aqua-E *NF*"
         },
         {
             "code": "Isoso"
@@ -29134,9 +28172,6 @@
             "code": "Keppra XR"
         },
         {
-            "code": "PHENobarbital Suspension"
-        },
-        {
             "code": "Prefera-OB One"
         },
         {
@@ -29179,10 +28214,10 @@
             "code": "Potassium Chloride (Po 20mEq PKT"
         },
         {
-            "code": "lactul"
+            "code": "Estraderm"
         },
         {
-            "code": "Estraderm"
+            "code": "lactul"
         },
         {
             "code": "Nicotine Polacrilex"
@@ -29230,10 +28265,10 @@
             "code": "Benzoyl Peroxide"
         },
         {
-            "code": "Zithromax Z-Pak"
+            "code": "Atropine Sulfate"
         },
         {
-            "code": "Atropine Sulfate"
+            "code": "Zithromax Z-Pak"
         },
         {
             "code": "ASPIRIN325MG"
@@ -29329,16 +28364,19 @@
             "code": "Buprenorphine-Naloxone (2mg-0.5mg)"
         },
         {
-            "code": "Leupr"
+            "code": "levalbuter"
         },
         {
-            "code": "levalbuter"
+            "code": "Leupr"
         },
         {
             "code": "Calcium Chloride (Bristojet)"
         },
         {
             "code": "meningococcal vac A,C,Y,W-135"
+        },
+        {
+            "code": "Tasigna"
         },
         {
             "code": "*NF* Levalbuterol Soln"
@@ -29362,10 +28400,10 @@
             "code": "Acetaminophen/ Placebo Study Drug"
         },
         {
-            "code": "alb"
+            "code": "LaMIV"
         },
         {
-            "code": "LaMIV"
+            "code": "alb"
         },
         {
             "code": "OxyCODONE SR (OxyCONTIN)"
@@ -29378,9 +28416,6 @@
         },
         {
             "code": "AZILECT (Rasagiline) 0.5mg TAB"
-        },
-        {
-            "code": "bica"
         },
         {
             "code": "oxyCODONE-acetaminophen"
@@ -29402,9 +28437,6 @@
         },
         {
             "code": "Retaine CMC"
-        },
-        {
-            "code": "Acetaminophen (Childrens)"
         },
         {
             "code": "Raltegravir 400mg tablet"
@@ -29464,9 +28496,6 @@
             "code": "Bactroban Ointment"
         },
         {
-            "code": "Dp(A)T-Polio-Hib Conj-Tet"
-        },
-        {
             "code": "tryptophan"
         },
         {
@@ -29500,9 +28529,6 @@
             "code": "Zonegran"
         },
         {
-            "code": "Penicillin V Potassium Suspension"
-        },
-        {
             "code": "Liquid B-12"
         },
         {
@@ -29524,13 +28550,13 @@
             "code": "BuPROPion XL 150mg Tab (Once Daily)"
         },
         {
+            "code": "Valganc"
+        },
+        {
             "code": "Dipentum"
         },
         {
             "code": "dipy"
-        },
-        {
-            "code": "Valganc"
         },
         {
             "code": "sodium bicarbonate"
@@ -29662,10 +28688,10 @@
             "code": "amitriptyline"
         },
         {
-            "code": "Lupron Depot"
+            "code": "Neu"
         },
         {
-            "code": "Neu"
+            "code": "Lupron Depot"
         },
         {
             "code": "0.25% bupivacaine"
@@ -29683,19 +28709,16 @@
             "code": "TriLyte With Flavor Packets"
         },
         {
-            "code": "Fentanyl Injectable"
-        },
-        {
             "code": "Mupirocin Calcium"
         },
         {
             "code": "Aciphex (rabeprazole)"
         },
         {
-            "code": "rotigotine"
+            "code": "Bevacizumab (Avastin)"
         },
         {
-            "code": "Bevacizumab (Avastin)"
+            "code": "rotigotine"
         },
         {
             "code": "hydromorphone-bupiv-NaCL (PF)"
@@ -29758,9 +28781,6 @@
             "code": "Tacr"
         },
         {
-            "code": "Indomethacin Sodium"
-        },
-        {
             "code": "Apidra U-100 Insulin"
         },
         {
@@ -29794,13 +28814,13 @@
             "code": "desvenlafaxine"
         },
         {
-            "code": "lactic"
-        },
-        {
             "code": "olm"
         },
         {
             "code": "Lithiu"
+        },
+        {
+            "code": "lactic"
         },
         {
             "code": "Oxcarbazepine (Trileptal)"
@@ -29818,10 +28838,10 @@
             "code": "Timoptic-XE"
         },
         {
-            "code": "Isosorbide Mononit"
+            "code": "Ofirmev"
         },
         {
-            "code": "Ofirmev"
+            "code": "Isosorbide Mononit"
         },
         {
             "code": "Oxcarbazepine"
@@ -29947,9 +28967,6 @@
             "code": "Doxycycline Hyclate W/ Lidocaine 1%"
         },
         {
-            "code": "Dexamethasone Solution"
-        },
-        {
             "code": "Carbi"
         },
         {
@@ -30013,9 +29030,6 @@
             "code": "CefTAZidime-Avibactam (Avycaz)"
         },
         {
-            "code": "MCT Oil"
-        },
-        {
             "code": "Benadryl Allergy"
         },
         {
@@ -30064,9 +29078,6 @@
             "code": "Haloperidol Decanoate (long acting)"
         },
         {
-            "code": "Flovent Inh 44 mcg/actuation"
-        },
-        {
             "code": "Paroxetine ER 12.5mg"
         },
         {
@@ -30089,9 +29100,6 @@
         },
         {
             "code": "Alteplase 1mg"
-        },
-        {
-            "code": "KlonoPIN (clonazepam)"
         },
         {
             "code": "zinc gluconate"
@@ -30244,9 +29252,6 @@
             "code": "Omega-3 Fatty Acids"
         },
         {
-            "code": "Albumin 5% (2.5 g)"
-        },
-        {
             "code": "Exelon (Rivastigmine) 4.6mg"
         },
         {
@@ -30298,16 +29303,13 @@
             "code": "Vandazole"
         },
         {
-            "code": "Critic-Aid Clear AF"
-        },
-        {
             "code": "Acetami"
         },
         {
-            "code": "Tasmar"
+            "code": "Critic-Aid Clear AF"
         },
         {
-            "code": "Neo*IV*Hyaluronidase (Ovine)"
+            "code": "Tasmar"
         },
         {
             "code": "Tiotropium Bromide"
@@ -30338,9 +29340,6 @@
         },
         {
             "code": "CARDura XL"
-        },
-        {
-            "code": "Spironolactone via feeding tube"
         },
         {
             "code": "Cimzia"
@@ -30382,10 +29381,10 @@
             "code": "pirbuterol"
         },
         {
-            "code": "levocarn"
+            "code": "bupr"
         },
         {
-            "code": "bupr"
+            "code": "levocarn"
         },
         {
             "code": "Fluticasone-Salmeterol Diskus (250/50)"
@@ -30409,10 +29408,10 @@
             "code": "Levoxyl"
         },
         {
-            "code": "Doc"
+            "code": "Epoe"
         },
         {
-            "code": "Epoe"
+            "code": "Doc"
         },
         {
             "code": "Fluocinonide 0.05% Ointment"
@@ -30469,9 +29468,6 @@
             "code": "levothyroxine 112mcg"
         },
         {
-            "code": "Antithrombin III"
-        },
-        {
             "code": "Acetylcysteine"
         },
         {
@@ -30497,9 +29493,6 @@
         },
         {
             "code": "Tacrolimus (Brand) *NF*"
-        },
-        {
-            "code": "spironol"
         },
         {
             "code": "LoSeasonique"
@@ -30553,10 +29546,10 @@
             "code": "Hydrocortisone Oint 0.5%"
         },
         {
-            "code": "Calcitonin (Salmon)"
+            "code": "Zofran ODT"
         },
         {
-            "code": "Zofran ODT"
+            "code": "Calcitonin (Salmon)"
         },
         {
             "code": "Amnesteem"
@@ -30688,19 +29681,16 @@
             "code": "SMOFlipid"
         },
         {
-            "code": "*NF"
-        },
-        {
             "code": "Fenofibrate Nanocrystallized"
         },
         {
-            "code": "irbes"
+            "code": "*NF"
         },
         {
             "code": "Nafcillin"
         },
         {
-            "code": "NEO*SC*Phytonadione"
+            "code": "irbes"
         },
         {
             "code": "carbamide peroxide"
@@ -30767,12 +29757,6 @@
         },
         {
             "code": "Bupivacaine 0.1%"
-        },
-        {
-            "code": "Multivitamin Liquid"
-        },
-        {
-            "code": "Kayexalate PO"
         },
         {
             "code": "T.E.D. Knee Length-M-Long"
@@ -30865,19 +29849,19 @@
             "code": "CISplatin"
         },
         {
-            "code": "HYDROmorphone (D 2mg/1mL 1mL INJ"
+            "code": "BusPIRo"
         },
         {
-            "code": "BusPIRo"
+            "code": "HYDROmorphone (D 2mg/1mL 1mL INJ"
         },
         {
             "code": "Ketotifen Fumarate (Bulk)"
         },
         {
-            "code": "Niacin (niacinamide)"
+            "code": "HYDROmo"
         },
         {
-            "code": "HYDROmo"
+            "code": "Niacin (niacinamide)"
         },
         {
             "code": "Amikacin"
@@ -30925,9 +29909,6 @@
             "code": "Bydureon"
         },
         {
-            "code": "neoral"
-        },
-        {
             "code": "Mebendazole"
         },
         {
@@ -30973,10 +29954,10 @@
             "code": "SymlinPen 60"
         },
         {
-            "code": "Mylanta"
+            "code": "ondan"
         },
         {
-            "code": "ondan"
+            "code": "Mylanta"
         },
         {
             "code": "Dutasteride"
@@ -31057,9 +30038,6 @@
             "code": "vilazodone"
         },
         {
-            "code": "Bevacizumab Blinded Injection"
-        },
-        {
             "code": "Pepogest"
         },
         {
@@ -31073,9 +30051,6 @@
         },
         {
             "code": "HydrALAzine"
-        },
-        {
-            "code": "Midazolam Oral Solution"
         },
         {
             "code": "vitamin a"
@@ -31123,9 +30098,6 @@
             "code": "ethacrynate sodium"
         },
         {
-            "code": "metroNIDAZOLE IV"
-        },
-        {
             "code": "1x 5cc of bolus APS 10"
         },
         {
@@ -31151,9 +30123,6 @@
         },
         {
             "code": "calcipotriene"
-        },
-        {
-            "code": "NEO*IV*Morphine Sulfate"
         },
         {
             "code": "cyto"
@@ -31243,9 +30212,6 @@
             "code": "ValGA"
         },
         {
-            "code": "Kayexala"
-        },
-        {
             "code": "Nafcillin Graded Challenge"
         },
         {
@@ -31301,9 +30267,6 @@
         },
         {
             "code": "CRLX101"
-        },
-        {
-            "code": "Daptacel (DTaP Pediatric) (PF)"
         },
         {
             "code": "Bromelain"
@@ -31393,9 +30356,6 @@
             "code": "Natalizumab"
         },
         {
-            "code": "NEO*PO*Caffeine Citrate"
-        },
-        {
             "code": "Delsym Cough+Soothing Action"
         },
         {
@@ -31477,9 +30437,6 @@
             "code": "benzon"
         },
         {
-            "code": "Amphotericin B Lipo. (Ambisome)"
-        },
-        {
             "code": "Chantix Continuing Month Box"
         },
         {
@@ -31528,16 +30485,10 @@
             "code": "OLANZap"
         },
         {
-            "code": "Hydrocortisone ("
-        },
-        {
             "code": "Vitamin ad"
         },
         {
             "code": "mupirocin"
-        },
-        {
-            "code": "Hydrocortisone (Topical)"
         },
         {
             "code": "Ventolin CFC"

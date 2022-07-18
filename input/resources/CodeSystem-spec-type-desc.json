@@ -7,9 +7,10 @@
     "name": "SpecTypeDesc",
     "title": "SpecTypeDesc",
     "status": "draft",
-    "date": "2022-05-13T15:40:44-04:00",
+    "date": "2022-05-24T14:39:04-04:00",
     "publisher": "KinD Lab",
     "description": "The specimen type codes for microbiologyevents",
+    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/spec-type-desc",
     "content": "complete",
     "concept": [
         {
@@ -363,10 +364,6 @@
         {
             "code": "70069",
             "display": "SWAB"
-        },
-        {
-            "code": "90907",
-            "display": "CHLAMYDIA CULTURE"
         },
         {
             "code": "70071",

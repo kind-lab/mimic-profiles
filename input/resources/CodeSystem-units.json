@@ -7,7 +7,7 @@
     "name": "Units",
     "title": "Units",
     "status": "draft",
-    "date": "2022-05-13T15:40:44-04:00",
+    "date": "2022-05-24T14:39:04-04:00",
     "publisher": "KinD Lab",
     "description": "The units used throughout MIMIC",
     "valueSet": "http://fhir.mimic.mit.edu/ValueSet/units",
@@ -593,9 +593,6 @@
             "code": "gram/12 gram"
         },
         {
-            "code": "SUP"
-        },
-        {
             "code": "iu/0iu"
         },
         {
@@ -1154,9 +1151,6 @@
             "code": "AERA"
         },
         {
-            "code": "INS"
-        },
-        {
             "code": "doses"
         },
         {
@@ -1260,9 +1254,6 @@
         },
         {
             "code": "gram/60 mL"
-        },
-        {
-            "code": "mg\\"
         },
         {
             "code": "2.5 ml 1 drop"
@@ -1839,9 +1830,6 @@
         },
         {
             "code": "gram/118 mL"
-        },
-        {
-            "code": "mL/kg"
         },
         {
             "code": "NEB"

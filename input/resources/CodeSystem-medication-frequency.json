@@ -7,9 +7,10 @@
     "name": "MedicationFrequency",
     "title": "MedicationFrequency",
     "status": "draft",
-    "date": "2022-05-13T15:40:44-04:00",
+    "date": "2022-05-24T14:39:04-04:00",
     "publisher": "KinD Lab",
     "description": "The medication frequency reported for medication delivery in MIMIC",
+    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/medication-frequency",
     "content": "complete",
     "concept": [
         {
@@ -145,13 +146,13 @@
             "code": "PRE-HYDRATION"
         },
         {
+            "code": "QID"
+        },
+        {
             "code": "BREAKFAST"
         },
         {
             "code": "INFUSION"
-        },
-        {
-            "code": "QID"
         },
         {
             "code": "TID"
@@ -184,10 +185,10 @@
             "code": "QID:PRN"
         },
         {
-            "code": "QSUN"
+            "code": "1X"
         },
         {
-            "code": "1X"
+            "code": "QSUN"
         },
         {
             "code": "ASDIR"
@@ -259,16 +260,16 @@
             "code": "QAM"
         },
         {
-            "code": "Q2H"
-        },
-        {
             "code": "Q 24H"
         },
         {
-            "code": "HD PROTOCOL"
+            "code": "Q2H"
         },
         {
             "code": "NOON"
+        },
+        {
+            "code": "HD PROTOCOL"
         },
         {
             "code": "QHS"
@@ -310,10 +311,10 @@
             "code": "Q8H"
         },
         {
-            "code": "5X/DAY"
+            "code": "ONCE PER LUMEN (1 LUMEN)"
         },
         {
-            "code": "ONCE PER LUMEN (1 LUMEN)"
+            "code": "5X/DAY"
         },
         {
             "code": "PREOP"
@@ -490,10 +491,10 @@
             "code": "TIDPC"
         },
         {
-            "code": "Q3-4H:PRN"
+            "code": "QWED"
         },
         {
-            "code": "QWED"
+            "code": "Q3-4H:PRN"
         },
         {
             "code": "DAILY18"

@@ -7,9 +7,10 @@
     "name": "ProcedureIcd10",
     "title": "ProcedureIcd10",
     "status": "draft",
-    "date": "2022-05-13T15:40:44-04:00",
+    "date": "2022-05-24T14:39:04-04:00",
     "publisher": "KinD Lab",
     "description": "The procedure ICD10 codes for MIMIC",
+    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/procedure-icd10",
     "content": "complete",
     "concept": [
         {
@@ -339,10 +340,6 @@
         {
             "code": "00B24ZZ",
             "display": "Excision of Dura Mater, Percutaneous Endoscopic Approach"
-        },
-        {
-            "code": "0UQ90ZZ",
-            "display": "Repair Uterus, Open Approach"
         },
         {
             "code": "00B60ZX",
@@ -2281,14 +2278,6 @@
             "display": "Insertion of Intraluminal Device into Superior Vena Cava, Percutaneous Approach"
         },
         {
-            "code": "02HW32Z",
-            "display": "Insertion of Monitoring Device into Thoracic Aorta, Descending, Percutaneous Approach"
-        },
-        {
-            "code": "02HW33Z",
-            "display": "Insertion of Infusion Device into Thoracic Aorta, Descending, Percutaneous Approach"
-        },
-        {
             "code": "02HX33Z",
             "display": "Insertion of Infusion Device into Thoracic Aorta, Ascending/Arch, Percutaneous Approach"
         },
@@ -2339,14 +2328,6 @@
         {
             "code": "02LQ0ZZ",
             "display": "Occlusion of Right Pulmonary Artery, Open Approach"
-        },
-        {
-            "code": "02LR0CT",
-            "display": "Occlusion of Ductus Arteriosus with Extraluminal Device, Open Approach"
-        },
-        {
-            "code": "02LR0DT",
-            "display": "Occlusion of Ductus Arteriosus with Intraluminal Device, Open Approach"
         },
         {
             "code": "02LR0ZT",
@@ -3345,10 +3326,6 @@
             "display": "Dilation of Left Internal Carotid Artery, Open Approach"
         },
         {
-            "code": "03CJ3ZZ",
-            "display": "Extirpation of Matter from Left Common Carotid Artery, Percutaneous Approach"
-        },
-        {
             "code": "037L34Z",
             "display": "Dilation of Left Internal Carotid Artery with Drug-eluting Intraluminal Device, Percutaneous Approach"
         },
@@ -3653,12 +3630,20 @@
             "display": "Extirpation of Matter from Left Common Carotid Artery, Open Approach"
         },
         {
+            "code": "03CJ3ZZ",
+            "display": "Extirpation of Matter from Left Common Carotid Artery, Percutaneous Approach"
+        },
+        {
             "code": "03CK0Z6",
             "display": "Extirpation of Matter from Right Internal Carotid Artery, Bifurcation, Open Approach"
         },
         {
             "code": "03CK0ZZ",
             "display": "Extirpation of Matter from Right Internal Carotid Artery, Open Approach"
+        },
+        {
+            "code": "04L43ZZ",
+            "display": "Occlusion of Splenic Artery, Percutaneous Approach"
         },
         {
             "code": "03CK3Z6",
@@ -4233,10 +4218,6 @@
             "display": "Supplement Right Common Carotid Artery with Synthetic Substitute, Open Approach"
         },
         {
-            "code": "04QH3ZZ",
-            "display": "Repair Right External Iliac Artery, Percutaneous Approach"
-        },
-        {
             "code": "03UH0KZ",
             "display": "Supplement Right Common Carotid Artery with Nonautologous Tissue Substitute, Open Approach"
         },
@@ -4497,16 +4478,16 @@
             "display": "Bypass Abdominal Aorta to Bilateral External Iliac Arteries with Nonautologous Tissue Substitute, Open Approach"
         },
         {
-            "code": "0UQC0ZZ",
-            "display": "Repair Cervix, Open Approach"
-        },
-        {
             "code": "04100KR",
             "display": "Bypass Abdominal Aorta to Lower Artery with Nonautologous Tissue Substitute, Open Approach"
         },
         {
             "code": "04100Z1",
             "display": "Bypass Abdominal Aorta to Celiac Artery, Open Approach"
+        },
+        {
+            "code": "04QQ0ZZ",
+            "display": "Repair Left Anterior Tibial Artery, Open Approach"
         },
         {
             "code": "041C0J0",
@@ -4743,10 +4724,6 @@
         {
             "code": "041L0ZM",
             "display": "Bypass Left Femoral Artery to Peroneal Artery, Open Approach"
-        },
-        {
-            "code": "04QJ0ZZ",
-            "display": "Repair Left External Iliac Artery, Open Approach"
         },
         {
             "code": "041L0ZN",
@@ -5011,6 +4988,10 @@
         {
             "code": "047C3EZ",
             "display": "Dilation of Right Common Iliac Artery with Two Intraluminal Devices, Percutaneous Approach"
+        },
+        {
+            "code": "04QR0ZZ",
+            "display": "Repair Right Posterior Tibial Artery, Open Approach"
         },
         {
             "code": "047C3GZ",
@@ -5989,10 +5970,6 @@
             "display": "Insertion of Infusion Device into Right Internal Iliac Artery, Percutaneous Approach"
         },
         {
-            "code": "04HF33Z",
-            "display": "Insertion of Infusion Device into Left Internal Iliac Artery, Percutaneous Approach"
-        },
-        {
             "code": "04HH0DZ",
             "display": "Insertion of Intraluminal Device into Right External Iliac Artery, Open Approach"
         },
@@ -6057,14 +6034,6 @@
             "display": "Insertion of Monitoring Device into Lower Artery, Percutaneous Approach"
         },
         {
-            "code": "04HY33Z",
-            "display": "Insertion of Infusion Device into Lower Artery, Percutaneous Approach"
-        },
-        {
-            "code": "04HY3DZ",
-            "display": "Insertion of Intraluminal Device into Lower Artery, Percutaneous Approach"
-        },
-        {
             "code": "04JY0ZZ",
             "display": "Inspection of Lower Artery, Open Approach"
         },
@@ -6123,10 +6092,6 @@
         {
             "code": "04L43DZ",
             "display": "Occlusion of Splenic Artery with Intraluminal Device, Percutaneous Approach"
-        },
-        {
-            "code": "04L43ZZ",
-            "display": "Occlusion of Splenic Artery, Percutaneous Approach"
         },
         {
             "code": "04L50DZ",
@@ -6421,6 +6386,14 @@
             "display": "Repair Left Internal Iliac Artery, Open Approach"
         },
         {
+            "code": "04QH3ZZ",
+            "display": "Repair Right External Iliac Artery, Percutaneous Approach"
+        },
+        {
+            "code": "04QJ0ZZ",
+            "display": "Repair Left External Iliac Artery, Open Approach"
+        },
+        {
             "code": "04QK0ZZ",
             "display": "Repair Right Femoral Artery, Open Approach"
         },
@@ -6439,14 +6412,6 @@
         {
             "code": "04QN0ZZ",
             "display": "Repair Left Popliteal Artery, Open Approach"
-        },
-        {
-            "code": "04QQ0ZZ",
-            "display": "Repair Left Anterior Tibial Artery, Open Approach"
-        },
-        {
-            "code": "04QR0ZZ",
-            "display": "Repair Right Posterior Tibial Artery, Open Approach"
         },
         {
             "code": "04QS0ZZ",
@@ -6717,6 +6682,10 @@
             "display": "Restriction of Abdominal Aorta with Intraluminal Device, Open Approach"
         },
         {
+            "code": "05753ZZ",
+            "display": "Dilation of Right Subclavian Vein, Percutaneous Approach"
+        },
+        {
             "code": "04V00E6",
             "display": "Restriction of Abdominal Aorta, Bifurcation, with Branched or Fenestrated Intraluminal Device, One or Two Arteries, Open Approach"
         },
@@ -6975,10 +6944,6 @@
         {
             "code": "05753DZ",
             "display": "Dilation of Right Subclavian Vein with Intraluminal Device, Percutaneous Approach"
-        },
-        {
-            "code": "05753ZZ",
-            "display": "Dilation of Right Subclavian Vein, Percutaneous Approach"
         },
         {
             "code": "05763DZ",
@@ -7817,10 +7782,6 @@
             "display": "Dilation of Lower Vein, Percutaneous Approach"
         },
         {
-            "code": "06903ZZ",
-            "display": "Drainage of Inferior Vena Cava, Percutaneous Approach"
-        },
-        {
             "code": "06B00ZZ",
             "display": "Excision of Inferior Vena Cava, Open Approach"
         },
@@ -8045,10 +8006,6 @@
             "display": "Extraction of Lower Vein, Percutaneous Endoscopic Approach"
         },
         {
-            "code": "06H033T",
-            "display": "Insertion of Infusion Device, Via Umbilical Vein, into Inferior Vena Cava, Percutaneous Approach"
-        },
-        {
             "code": "06H033Z",
             "display": "Insertion of Infusion Device into Inferior Vena Cava, Percutaneous Approach"
         },
@@ -8117,20 +8074,12 @@
             "display": "Insertion of Infusion Device into Right Saphenous Vein, Percutaneous Approach"
         },
         {
-            "code": "06HQ33Z",
-            "display": "Insertion of Infusion Device into Left Saphenous Vein, Percutaneous Approach"
-        },
-        {
             "code": "06HT33Z",
             "display": "Insertion of Infusion Device into Right Foot Vein, Percutaneous Approach"
         },
         {
             "code": "06HV33Z",
             "display": "Insertion of Infusion Device into Left Foot Vein, Percutaneous Approach"
-        },
-        {
-            "code": "06HY32Z",
-            "display": "Insertion of Monitoring Device into Lower Vein, Percutaneous Approach"
         },
         {
             "code": "06HY33Z",
@@ -10985,10 +10934,6 @@
             "display": "Excision of Left Main Bronchus, Open Approach, Diagnostic"
         },
         {
-            "code": "0BQ60ZZ",
-            "display": "Repair Right Lower Lobe Bronchus, Open Approach"
-        },
-        {
             "code": "0BB78ZX",
             "display": "Excision of Left Main Bronchus, Via Natural or Artificial Opening Endoscopic, Diagnostic"
         },
@@ -11557,10 +11502,6 @@
             "display": "Insertion of Endotracheal Airway into Trachea, Via Natural or Artificial Opening"
         },
         {
-            "code": "0BQ70ZZ",
-            "display": "Repair Left Main Bronchus, Open Approach"
-        },
-        {
             "code": "0BH18DZ",
             "display": "Insertion of Intraluminal Device into Trachea, Via Natural or Artificial Opening Endoscopic"
         },
@@ -11591,6 +11532,10 @@
         {
             "code": "0BH88GZ",
             "display": "Insertion of Endobronchial Valve into Left Upper Lobe Bronchus, Via Natural or Artificial Opening Endoscopic"
+        },
+        {
+            "code": "0BQJ0ZZ",
+            "display": "Repair Left Lower Lung Lobe, Open Approach"
         },
         {
             "code": "0BH98GZ",
@@ -11865,6 +11810,14 @@
             "display": "Repair Right Middle Lobe Bronchus, Open Approach"
         },
         {
+            "code": "0BQ60ZZ",
+            "display": "Repair Right Lower Lobe Bronchus, Open Approach"
+        },
+        {
+            "code": "0BQ70ZZ",
+            "display": "Repair Left Main Bronchus, Open Approach"
+        },
+        {
             "code": "0BQ74ZZ",
             "display": "Repair Left Main Bronchus, Percutaneous Endoscopic Approach"
         },
@@ -11903,10 +11856,6 @@
         {
             "code": "0BQG4ZZ",
             "display": "Repair Left Upper Lung Lobe, Percutaneous Endoscopic Approach"
-        },
-        {
-            "code": "0BQJ0ZZ",
-            "display": "Repair Left Lower Lung Lobe, Open Approach"
         },
         {
             "code": "0BQK0ZZ",
@@ -12225,10 +12174,6 @@
             "display": "Revision of Infusion Device in Right Lung, Percutaneous Approach"
         },
         {
-            "code": "0BWQX0Z",
-            "display": "Revision of Drainage Device in Pleura, External Approach"
-        },
-        {
             "code": "0C57XZZ",
             "display": "Destruction of Tongue, External Approach"
         },
@@ -12473,10 +12418,6 @@
             "display": "Excision of Buccal Mucosa, External Approach, Diagnostic"
         },
         {
-            "code": "0CB5XZZ",
-            "display": "Excision of Upper Gingiva, External Approach"
-        },
-        {
             "code": "0CB6XZX",
             "display": "Excision of Lower Gingiva, External Approach, Diagnostic"
         },
@@ -12617,10 +12558,6 @@
             "display": "Extirpation of Matter from Lower Gingiva, External Approach"
         },
         {
-            "code": "0CCM7ZZ",
-            "display": "Extirpation of Matter from Pharynx, Via Natural or Artificial Opening"
-        },
-        {
             "code": "0CCM8ZZ",
             "display": "Extirpation of Matter from Pharynx, Via Natural or Artificial Opening Endoscopic"
         },
@@ -12703,10 +12640,6 @@
         {
             "code": "0CN10ZZ",
             "display": "Release Lower Lip, Open Approach"
-        },
-        {
-            "code": "0CN7XZZ",
-            "display": "Release Tongue, External Approach"
         },
         {
             "code": "0CNS8ZZ",
@@ -13669,10 +13602,6 @@
             "display": "Drainage of Stomach with Drainage Device, Via Natural or Artificial Opening"
         },
         {
-            "code": "0D967ZZ",
-            "display": "Drainage of Stomach, Via Natural or Artificial Opening"
-        },
-        {
             "code": "0D9680Z",
             "display": "Drainage of Stomach with Drainage Device, Via Natural or Artificial Opening Endoscopic"
         },
@@ -13847,6 +13776,10 @@
         {
             "code": "0D9N70Z",
             "display": "Drainage of Sigmoid Colon with Drainage Device, Via Natural or Artificial Opening"
+        },
+        {
+            "code": "0DB94ZZ",
+            "display": "Excision of Duodenum, Percutaneous Endoscopic Approach"
         },
         {
             "code": "0D9N80Z",
@@ -14173,10 +14106,6 @@
             "display": "Excision of Duodenum, Percutaneous Endoscopic Approach, Diagnostic"
         },
         {
-            "code": "0DB94ZZ",
-            "display": "Excision of Duodenum, Percutaneous Endoscopic Approach"
-        },
-        {
             "code": "0DB97ZX",
             "display": "Excision of Duodenum, Via Natural or Artificial Opening, Diagnostic"
         },
@@ -14441,10 +14370,6 @@
             "display": "Excision of Sigmoid Colon, Via Natural or Artificial Opening"
         },
         {
-            "code": "0DJW3ZZ",
-            "display": "Inspection of Peritoneum, Percutaneous Approach"
-        },
-        {
             "code": "0DBN8ZX",
             "display": "Excision of Sigmoid Colon, Via Natural or Artificial Opening Endoscopic, Diagnostic"
         },
@@ -14645,10 +14570,6 @@
             "display": "Extirpation of Matter from Stomach, Open Approach"
         },
         {
-            "code": "0DC67ZZ",
-            "display": "Extirpation of Matter from Stomach, Via Natural or Artificial Opening"
-        },
-        {
             "code": "0DC68ZZ",
             "display": "Extirpation of Matter from Stomach, Via Natural or Artificial Opening Endoscopic"
         },
@@ -14809,6 +14730,10 @@
             "display": "Extraction of Cecum, Via Natural or Artificial Opening Endoscopic, Diagnostic"
         },
         {
+            "code": "0DLB0ZZ",
+            "display": "Occlusion of Ileum, Open Approach"
+        },
+        {
             "code": "0DDK8ZX",
             "display": "Extraction of Ascending Colon, Via Natural or Artificial Opening Endoscopic, Diagnostic"
         },
@@ -14831,10 +14756,6 @@
         {
             "code": "0DDQ8ZX",
             "display": "Extraction of Anus, Via Natural or Artificial Opening Endoscopic, Diagnostic"
-        },
-        {
-            "code": "0DH57UZ",
-            "display": "Insertion of Feeding Device into Esophagus, Via Natural or Artificial Opening"
         },
         {
             "code": "0DH58DZ",
@@ -15053,6 +14974,10 @@
             "display": "Inspection of Peritoneum, Open Approach"
         },
         {
+            "code": "0DJW3ZZ",
+            "display": "Inspection of Peritoneum, Percutaneous Approach"
+        },
+        {
             "code": "0DJW4ZZ",
             "display": "Inspection of Peritoneum, Percutaneous Endoscopic Approach"
         },
@@ -15099,10 +15024,6 @@
         {
             "code": "0DLA8DZ",
             "display": "Occlusion of Jejunum with Intraluminal Device, Via Natural or Artificial Opening Endoscopic"
-        },
-        {
-            "code": "0DLB0ZZ",
-            "display": "Occlusion of Ileum, Open Approach"
         },
         {
             "code": "0DLE8DZ",
@@ -17321,6 +17242,10 @@
             "display": "Inspection of Hepatobiliary Duct, Percutaneous Endoscopic Approach"
         },
         {
+            "code": "0H8BXZZ",
+            "display": "Division of Right Upper Arm Skin, External Approach"
+        },
+        {
             "code": "0FJB7ZZ",
             "display": "Inspection of Hepatobiliary Duct, Via Natural or Artificial Opening"
         },
@@ -17973,20 +17898,12 @@
             "display": "Destruction of Right Lower Arm Skin, External Approach"
         },
         {
-            "code": "0H5GXZZ",
-            "display": "Destruction of Left Hand Skin, External Approach"
-        },
-        {
             "code": "0H88XZZ",
             "display": "Division of Buttock Skin, External Approach"
         },
         {
             "code": "0H89XZZ",
             "display": "Division of Perineum Skin, External Approach"
-        },
-        {
-            "code": "0H8BXZZ",
-            "display": "Division of Right Upper Arm Skin, External Approach"
         },
         {
             "code": "0H8EXZZ",
@@ -18945,10 +18862,6 @@
             "display": "Replacement of Left Upper Arm Skin with Autologous Tissue Substitute, Partial Thickness, External Approach"
         },
         {
-            "code": "0HTU0ZZ",
-            "display": "Resection of Left Breast, Open Approach"
-        },
-        {
             "code": "0HRDX73",
             "display": "Replacement of Right Lower Arm Skin with Autologous Tissue Substitute, Full Thickness, External Approach"
         },
@@ -19199,6 +19112,10 @@
         {
             "code": "0HTT0ZZ",
             "display": "Resection of Right Breast, Open Approach"
+        },
+        {
+            "code": "0HTU0ZZ",
+            "display": "Resection of Left Breast, Open Approach"
         },
         {
             "code": "0HTV0ZZ",
@@ -21101,6 +21018,10 @@
             "display": "Supplement of Right Lower Leg Subcutaneous Tissue and Fascia with Autologous Tissue Substitute, Open Approach"
         },
         {
+            "code": "0K9R3ZZ",
+            "display": "Drainage of Left Upper Leg Muscle, Percutaneous Approach"
+        },
+        {
             "code": "0JUN0KZ",
             "display": "Supplement of Right Lower Leg Subcutaneous Tissue and Fascia with Nonautologous Tissue Substitute, Open Approach"
         },
@@ -21295,10 +21216,6 @@
         {
             "code": "0JXG0ZZ",
             "display": "Transfer Right Lower Arm Subcutaneous Tissue and Fascia, Open Approach"
-        },
-        {
-            "code": "0K9N30Z",
-            "display": "Drainage of Right Hip Muscle with Drainage Device, Percutaneous Approach"
         },
         {
             "code": "0JXH0ZB",
@@ -21589,6 +21506,10 @@
             "display": "Drainage of Right Hip Muscle, Open Approach"
         },
         {
+            "code": "0K9N30Z",
+            "display": "Drainage of Right Hip Muscle with Drainage Device, Percutaneous Approach"
+        },
+        {
             "code": "0K9N3ZX",
             "display": "Drainage of Right Hip Muscle, Percutaneous Approach, Diagnostic"
         },
@@ -21643,10 +21564,6 @@
         {
             "code": "0K9R30Z",
             "display": "Drainage of Left Upper Leg Muscle with Drainage Device, Percutaneous Approach"
-        },
-        {
-            "code": "0K9R3ZZ",
-            "display": "Drainage of Left Upper Leg Muscle, Percutaneous Approach"
         },
         {
             "code": "0K9S0ZZ",
@@ -24319,6 +24236,10 @@
         {
             "code": "0NUB07Z",
             "display": "Supplement Nasal Bone with Autologous Tissue Substitute, Open Approach"
+        },
+        {
+            "code": "0QT60ZZ",
+            "display": "Resection of Right Upper Femur, Open Approach"
         },
         {
             "code": "0NUD47Z",
@@ -27049,10 +26970,6 @@
             "display": "Reposition Left Tarsal with Internal Fixation Device, Percutaneous Approach"
         },
         {
-            "code": "0RBL0ZZ",
-            "display": "Excision of Right Elbow Joint, Open Approach"
-        },
-        {
             "code": "0QSM35Z",
             "display": "Reposition Left Tarsal with External Fixation Device, Percutaneous Approach"
         },
@@ -27115,10 +27032,6 @@
         {
             "code": "0QT20ZZ",
             "display": "Resection of Right Pelvic Bone, Open Approach"
-        },
-        {
-            "code": "0QT60ZZ",
-            "display": "Resection of Right Upper Femur, Open Approach"
         },
         {
             "code": "0QT70ZZ",
@@ -27671,6 +27584,10 @@
         {
             "code": "0RBK4ZZ",
             "display": "Excision of Left Shoulder Joint, Percutaneous Endoscopic Approach"
+        },
+        {
+            "code": "0RBL0ZZ",
+            "display": "Excision of Right Elbow Joint, Open Approach"
         },
         {
             "code": "0RBM0ZZ",
@@ -29669,6 +29586,10 @@
             "display": "Release Left Toe Phalangeal Joint, Open Approach"
         },
         {
+            "code": "0TB03ZX",
+            "display": "Excision of Right Kidney, Percutaneous Approach, Diagnostic"
+        },
+        {
             "code": "0SP004Z",
             "display": "Removal of Internal Fixation Device from Lumbar Vertebral Joint, Open Approach"
         },
@@ -29965,6 +29886,10 @@
             "display": "Replacement of Right Hip Joint with Metal Synthetic Substitute, Open Approach"
         },
         {
+            "code": "0SUA09Z",
+            "display": "Supplement Right Hip Joint, Acetabular Surface with Liner, Open Approach"
+        },
+        {
             "code": "0SR902A",
             "display": "Replacement of Right Hip Joint with Metal on Polyethylene Synthetic Substitute, Uncemented, Open Approach"
         },
@@ -30167,10 +30092,6 @@
         {
             "code": "0SRG0JA",
             "display": "Replacement of Left Ankle Joint with Synthetic Substitute, Uncemented, Open Approach"
-        },
-        {
-            "code": "0T2BX0Z",
-            "display": "Change Drainage Device in Bladder, External Approach"
         },
         {
             "code": "0SRQ0JZ",
@@ -30489,10 +30410,6 @@
             "display": "Supplement Right Hip Joint with Liner, Open Approach"
         },
         {
-            "code": "0SUA09Z",
-            "display": "Supplement Right Hip Joint, Acetabular Surface with Liner, Open Approach"
-        },
-        {
             "code": "0SUB09Z",
             "display": "Supplement Left Hip Joint with Liner, Open Approach"
         },
@@ -30737,6 +30654,10 @@
             "display": "Change Drainage Device in Ureter, External Approach"
         },
         {
+            "code": "0T2BX0Z",
+            "display": "Change Drainage Device in Bladder, External Approach"
+        },
+        {
             "code": "0T513ZZ",
             "display": "Destruction of Left Kidney, Percutaneous Approach"
         },
@@ -30783,6 +30704,10 @@
         {
             "code": "0T760DZ",
             "display": "Dilation of Right Ureter with Intraluminal Device, Open Approach"
+        },
+        {
+            "code": "0TB00ZZ",
+            "display": "Excision of Right Kidney, Open Approach"
         },
         {
             "code": "0T763DZ",
@@ -31075,14 +31000,6 @@
         {
             "code": "0TB00ZX",
             "display": "Excision of Right Kidney, Open Approach, Diagnostic"
-        },
-        {
-            "code": "0TB00ZZ",
-            "display": "Excision of Right Kidney, Open Approach"
-        },
-        {
-            "code": "0TB03ZX",
-            "display": "Excision of Right Kidney, Percutaneous Approach, Diagnostic"
         },
         {
             "code": "0TB03ZZ",
@@ -32633,6 +32550,14 @@
             "display": "Repair Uterine Supporting Structure, Percutaneous Endoscopic Approach"
         },
         {
+            "code": "0UQ90ZZ",
+            "display": "Repair Uterus, Open Approach"
+        },
+        {
+            "code": "0UQC0ZZ",
+            "display": "Repair Cervix, Open Approach"
+        },
+        {
             "code": "0UQC4ZZ",
             "display": "Repair Cervix, Percutaneous Endoscopic Approach"
         },
@@ -32945,10 +32870,6 @@
             "display": "Destruction of Prostate, Via Natural or Artificial Opening Endoscopic"
         },
         {
-            "code": "0V574ZZ",
-            "display": "Destruction of Left Tunica Vaginalis, Percutaneous Endoscopic Approach"
-        },
-        {
             "code": "0V5SXZZ",
             "display": "Destruction of Penis, External Approach"
         },
@@ -32999,10 +32920,6 @@
         {
             "code": "0V95XZZ",
             "display": "Drainage of Scrotum, External Approach"
-        },
-        {
-            "code": "0V960ZZ",
-            "display": "Drainage of Right Tunica Vaginalis, Open Approach"
         },
         {
             "code": "0V9C3ZZ",
@@ -33125,10 +33042,6 @@
             "display": "Excision of Left Spermatic Cord, Percutaneous Endoscopic Approach"
         },
         {
-            "code": "0VBH0ZZ",
-            "display": "Excision of Bilateral Spermatic Cords, Open Approach"
-        },
-        {
             "code": "0VBL0ZZ",
             "display": "Excision of Bilateral Epididymis, Open Approach"
         },
@@ -33167,10 +33080,6 @@
         {
             "code": "0VBTXZX",
             "display": "Excision of Prepuce, External Approach, Diagnostic"
-        },
-        {
-            "code": "0VBTXZZ",
-            "display": "Excision of Prepuce, External Approach"
         },
         {
             "code": "0VCS0ZZ",
@@ -33235,14 +33144,6 @@
         {
             "code": "0VRB0JZ",
             "display": "Replacement of Left Testis with Synthetic Substitute, Open Approach"
-        },
-        {
-            "code": "0VS90ZZ",
-            "display": "Reposition Right Testis, Open Approach"
-        },
-        {
-            "code": "0VSB0ZZ",
-            "display": "Reposition Left Testis, Open Approach"
         },
         {
             "code": "0VSC0ZZ",
@@ -34487,10 +34388,6 @@
         {
             "code": "0WJP8ZZ",
             "display": "Inspection of Gastrointestinal Tract, Via Natural or Artificial Opening Endoscopic Approach"
-        },
-        {
-            "code": "0WJQ7ZZ",
-            "display": "Inspection of Respiratory Tract, Via Natural or Artificial Opening Approach"
         },
         {
             "code": "0WJQ8ZZ",
@@ -36081,6 +35978,10 @@
             "display": "Drainage of Right Ankle Region, Percutaneous Approach"
         },
         {
+            "code": "2W16X6Z",
+            "display": "Compression of Right Inguinal Region using Pressure Dressing"
+        },
+        {
             "code": "0Y9L00Z",
             "display": "Drainage of Left Ankle Region with Drainage Device, Open Approach"
         },
@@ -36249,10 +36150,6 @@
             "display": "Inspection of Left Femoral Region, External Approach"
         },
         {
-            "code": "0YJA4ZZ",
-            "display": "Inspection of Bilateral Inguinal Region, Percutaneous Endoscopic Approach"
-        },
-        {
             "code": "0YJC0ZZ",
             "display": "Inspection of Right Upper Leg, Open Approach"
         },
@@ -36349,20 +36246,12 @@
             "display": "Repair Right Inguinal Region, Open Approach"
         },
         {
-            "code": "0YQ54ZZ",
-            "display": "Repair Right Inguinal Region, Percutaneous Endoscopic Approach"
-        },
-        {
             "code": "0YQ5XZZ",
             "display": "Repair Right Inguinal Region, External Approach"
         },
         {
             "code": "0YQ60ZZ",
             "display": "Repair Left Inguinal Region, Open Approach"
-        },
-        {
-            "code": "0YQ64ZZ",
-            "display": "Repair Left Inguinal Region, Percutaneous Endoscopic Approach"
         },
         {
             "code": "0YQ70ZZ",
@@ -36389,20 +36278,12 @@
             "display": "Repair Bilateral Inguinal Region, Open Approach"
         },
         {
-            "code": "0YQA4ZZ",
-            "display": "Repair Bilateral Inguinal Region, Percutaneous Endoscopic Approach"
-        },
-        {
             "code": "0YQD0ZZ",
             "display": "Repair Left Upper Leg, Open Approach"
         },
         {
             "code": "0YQDXZZ",
             "display": "Repair Left Upper Leg, External Approach"
-        },
-        {
-            "code": "0YQE0ZZ",
-            "display": "Repair Bilateral Femoral Region, Open Approach"
         },
         {
             "code": "0YQF0ZZ",
@@ -36763,10 +36644,6 @@
         {
             "code": "2W14X7Z",
             "display": "Compression of Chest Wall using Intermittent Pressure Device"
-        },
-        {
-            "code": "2W16X6Z",
-            "display": "Compression of Right Inguinal Region using Pressure Dressing"
         },
         {
             "code": "2W17X6Z",
@@ -37189,10 +37066,6 @@
             "display": "Transfusion of Nonautologous Whole Blood into Central Vein, Percutaneous Approach"
         },
         {
-            "code": "30243K1",
-            "display": "Transfusion of Nonautologous Frozen Plasma into Central Vein, Percutaneous Approach"
-        },
-        {
             "code": "30243N0",
             "display": "Transfusion of Autologous Red Blood Cells into Central Vein, Percutaneous Approach"
         },
@@ -37307,10 +37180,6 @@
         {
             "code": "3E0133Z",
             "display": "Introduction of Anti-inflammatory into Subcutaneous Tissue, Percutaneous Approach"
-        },
-        {
-            "code": "3E0134Z",
-            "display": "Introduction of Serum, Toxoid and Vaccine into Subcutaneous Tissue, Percutaneous Approach"
         },
         {
             "code": "3E013BZ",
@@ -37675,10 +37544,6 @@
         {
             "code": "3E0D73Z",
             "display": "Introduction of Anti-inflammatory into Mouth and Pharynx, Via Natural or Artificial Opening"
-        },
-        {
-            "code": "3E0D76Z",
-            "display": "Introduction of Nutritional Substance into Mouth and Pharynx, Via Natural or Artificial Opening"
         },
         {
             "code": "3E0D7GC",
@@ -38485,14 +38350,6 @@
             "display": "Assistance with Respiratory Ventilation, Less than 24 Consecutive Hours, Intermittent Positive Airway Pressure"
         },
         {
-            "code": "5A09359",
-            "display": "Assistance with Respiratory Ventilation, Less than 24 Consecutive Hours, Continuous Negative Airway Pressure"
-        },
-        {
-            "code": "5A0935B",
-            "display": "Assistance with Respiratory Ventilation, Less than 24 Consecutive Hours, Intermittent Negative Airway Pressure"
-        },
-        {
             "code": "5A0935Z",
             "display": "Assistance with Respiratory Ventilation, Less than 24 Consecutive Hours"
         },
@@ -38515,14 +38372,6 @@
         {
             "code": "5A09558",
             "display": "Assistance with Respiratory Ventilation, Greater than 96 Consecutive Hours, Intermittent Positive Airway Pressure"
-        },
-        {
-            "code": "5A0955B",
-            "display": "Assistance with Respiratory Ventilation, Greater than 96 Consecutive Hours, Intermittent Negative Airway Pressure"
-        },
-        {
-            "code": "5A0955Z",
-            "display": "Assistance with Respiratory Ventilation, Greater than 96 Consecutive Hours"
         },
         {
             "code": "5A12012",
@@ -38657,14 +38506,6 @@
             "display": "Pheresis of Hematopoietic Stem Cells, Multiple"
         },
         {
-            "code": "6A600ZZ",
-            "display": "Phototherapy of Skin, Single"
-        },
-        {
-            "code": "6A601ZZ",
-            "display": "Phototherapy of Skin, Multiple"
-        },
-        {
             "code": "6A650ZZ",
             "display": "Phototherapy, Circulatory, Single"
         },
@@ -38679,14 +38520,6 @@
         {
             "code": "6A751Z7",
             "display": "Ultrasound Therapy of Other Vessels, Multiple"
-        },
-        {
-            "code": "6A800ZZ",
-            "display": "Ultraviolet Light Therapy of Skin, Single"
-        },
-        {
-            "code": "6A801ZZ",
-            "display": "Ultraviolet Light Therapy of Skin, Multiple"
         },
         {
             "code": "6ABF0BZ",
@@ -39649,10 +39482,6 @@
             "display": "Fluoroscopy of Left Renal Artery using Other Contrast"
         },
         {
-            "code": "B51FYZZ",
-            "display": "Fluoroscopy of Right Pelvic (Iliac) Veins using Other Contrast"
-        },
-        {
             "code": "B4181ZZ",
             "display": "Fluoroscopy of Bilateral Renal Arteries using Low Osmolar Contrast"
         },
@@ -39971,6 +39800,10 @@
         {
             "code": "B51DYZZ",
             "display": "Fluoroscopy of Bilateral Lower Extremity Veins using Other Contrast"
+        },
+        {
+            "code": "B51FYZZ",
+            "display": "Fluoroscopy of Right Pelvic (Iliac) Veins using Other Contrast"
         },
         {
             "code": "B51G1ZZ",
@@ -40387,10 +40220,6 @@
         {
             "code": "BT00YZZ",
             "display": "Plain Radiography of Bladder using Other Contrast"
-        },
-        {
-            "code": "BT04ZZZ",
-            "display": "Plain Radiography of Kidneys, Ureters and Bladder"
         },
         {
             "code": "BT0BZZZ",
@@ -40991,10 +40820,6 @@
         {
             "code": "F01L5ZZ",
             "display": "Range of Motion and Joint Integrity Assessment of Musculoskeletal System - Lower Back / Lower Extremity"
-        },
-        {
-            "code": "F13Z0ZZ",
-            "display": "Hearing Screening Assessment"
         },
         {
             "code": "GZ3ZZZZ",

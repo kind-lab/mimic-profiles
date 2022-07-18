@@ -7,9 +7,10 @@
     "name": "DItems",
     "title": "DItems",
     "status": "draft",
-    "date": "2022-05-13T15:40:44-04:00",
+    "date": "2022-05-24T14:39:04-04:00",
     "publisher": "KinD Lab",
     "description": "The item codes used throughout the ICU in MIMIC",
+    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/d-items",
     "content": "complete",
     "concept": [
         {

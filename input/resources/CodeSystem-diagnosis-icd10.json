@@ -7,9 +7,10 @@
     "name": "DiagnosisIcd10",
     "title": "DiagnosisIcd10",
     "status": "draft",
-    "date": "2022-05-13T15:40:44-04:00",
+    "date": "2022-05-24T14:39:04-04:00",
     "publisher": "KinD Lab",
     "description": "The diagnosis ICD10 codes used for MIMIC",
+    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/diagnosis-icd10",
     "content": "complete",
     "concept": [
         {
@@ -777,10 +778,6 @@
             "display": "Tick-borne viral encephalitis, unspecified"
         },
         {
-            "code": "A850",
-            "display": "Enteroviral encephalitis"
-        },
-        {
             "code": "A852",
             "display": "Arthropod-borne viral encephalitis, unspecified"
         },
@@ -1279,10 +1276,6 @@
         {
             "code": "B3749",
             "display": "Other urogenital candidiasis"
-        },
-        {
-            "code": "B375",
-            "display": "Candidal meningitis"
         },
         {
             "code": "B376",
@@ -2541,10 +2534,6 @@
             "display": "Squamous cell carcinoma of skin of unspecified upper limb, including shoulder"
         },
         {
-            "code": "C511",
-            "display": "Malignant neoplasm of labium minus"
-        },
-        {
             "code": "C44622",
             "display": "Squamous cell carcinoma of skin of right upper limb, including shoulder"
         },
@@ -2887,6 +2876,10 @@
         {
             "code": "C510",
             "display": "Malignant neoplasm of labium majus"
+        },
+        {
+            "code": "C511",
+            "display": "Malignant neoplasm of labium minus"
         },
         {
             "code": "C518",
@@ -3287,10 +3280,6 @@
         {
             "code": "C771",
             "display": "Secondary and unspecified malignant neoplasm of intrathoracic lymph nodes"
-        },
-        {
-            "code": "E7801",
-            "display": "Familial hypercholesterolemia"
         },
         {
             "code": "C772",
@@ -3977,10 +3966,6 @@
             "display": "Burkitt lymphoma, intra-abdominal lymph nodes"
         },
         {
-            "code": "E781",
-            "display": "Pure hyperglyceridemia"
-        },
-        {
             "code": "C8374",
             "display": "Burkitt lymphoma, lymph nodes of axilla and upper limb"
         },
@@ -3991,6 +3976,10 @@
         {
             "code": "C8378",
             "display": "Burkitt lymphoma, lymph nodes of multiple sites"
+        },
+        {
+            "code": "D801",
+            "display": "Nonfamilial hypogammaglobulinemia"
         },
         {
             "code": "C8379",
@@ -5021,14 +5010,6 @@
             "display": "Benign neoplasm of connective and other soft tissue, unspecified"
         },
         {
-            "code": "D2211",
-            "display": "Melanocytic nevi of right eyelid, including canthus"
-        },
-        {
-            "code": "D22111",
-            "display": "Melanocytic nevi of right upper eyelid, including canthus"
-        },
-        {
             "code": "D2212",
             "display": "Melanocytic nevi of left eyelid, including canthus"
         },
@@ -5049,14 +5030,6 @@
             "display": "Melanocytic nevi of right upper limb, including shoulder"
         },
         {
-            "code": "D2262",
-            "display": "Melanocytic nevi of left upper limb, including shoulder"
-        },
-        {
-            "code": "D2270",
-            "display": "Melanocytic nevi of unspecified lower limb, including hip"
-        },
-        {
             "code": "D2271",
             "display": "Melanocytic nevi of right lower limb, including hip"
         },
@@ -5067,10 +5040,6 @@
         {
             "code": "D229",
             "display": "Melanocytic nevi, unspecified"
-        },
-        {
-            "code": "D230",
-            "display": "Other benign neoplasm of skin of lip"
         },
         {
             "code": "D2330",
@@ -5499,6 +5468,10 @@
         {
             "code": "D429",
             "display": "Neoplasm of uncertain behavior of meninges, unspecified"
+        },
+        {
+            "code": "E310",
+            "display": "Autoimmune polyglandular failure"
         },
         {
             "code": "D430",
@@ -6261,10 +6234,6 @@
             "display": "Disease of spleen, unspecified"
         },
         {
-            "code": "D740",
-            "display": "Congenital methemoglobinemia"
-        },
-        {
             "code": "D748",
             "display": "Other methemoglobinemias"
         },
@@ -6339,10 +6308,6 @@
         {
             "code": "D7889",
             "display": "Other postprocedural complications of the spleen"
-        },
-        {
-            "code": "D801",
-            "display": "Nonfamilial hypogammaglobulinemia"
         },
         {
             "code": "D802",
@@ -6685,10 +6650,6 @@
             "display": "Diabetes mellitus due to underlying condition with diabetic peripheral angiopathy without gangrene"
         },
         {
-            "code": "E273",
-            "display": "Drug-induced adrenocortical insufficiency"
-        },
-        {
             "code": "E08649",
             "display": "Diabetes mellitus due to underlying condition with hypoglycemia without coma"
         },
@@ -6715,6 +6676,10 @@
         {
             "code": "E0922",
             "display": "Drug or chemical induced diabetes mellitus with diabetic chronic kidney disease"
+        },
+        {
+            "code": "F1011",
+            "display": "Alcohol abuse, in remission"
         },
         {
             "code": "E09319",
@@ -6933,10 +6898,6 @@
             "display": "Type 1 diabetes mellitus with diabetic cataract"
         },
         {
-            "code": "E782",
-            "display": "Mixed hyperlipidemia"
-        },
-        {
             "code": "E1039",
             "display": "Type 1 diabetes mellitus with other diabetic ophthalmic complication"
         },
@@ -6967,6 +6928,10 @@
         {
             "code": "E1051",
             "display": "Type 1 diabetes mellitus with diabetic peripheral angiopathy without gangrene"
+        },
+        {
+            "code": "E299",
+            "display": "Testicular dysfunction, unspecified"
         },
         {
             "code": "E1052",
@@ -7195,10 +7160,6 @@
         {
             "code": "E113532",
             "display": "Type 2 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment not involving the macula, left eye"
-        },
-        {
-            "code": "E2740",
-            "display": "Unspecified adrenocortical insufficiency"
         },
         {
             "code": "E113542",
@@ -7561,6 +7522,14 @@
             "display": "Addisonian crisis"
         },
         {
+            "code": "E273",
+            "display": "Drug-induced adrenocortical insufficiency"
+        },
+        {
+            "code": "E2740",
+            "display": "Unspecified adrenocortical insufficiency"
+        },
+        {
             "code": "E2749",
             "display": "Other adrenocortical insufficiency"
         },
@@ -7603,14 +7572,6 @@
         {
             "code": "E298",
             "display": "Other testicular dysfunction"
-        },
-        {
-            "code": "E299",
-            "display": "Testicular dysfunction, unspecified"
-        },
-        {
-            "code": "E310",
-            "display": "Autoimmune polyglandular failure"
         },
         {
             "code": "E3120",
@@ -7869,10 +7830,6 @@
             "display": "Hermansky-Pudlak syndrome"
         },
         {
-            "code": "E7039",
-            "display": "Other specified albinism"
-        },
-        {
             "code": "E710",
             "display": "Maple-syrup-urine disease"
         },
@@ -8037,6 +7994,18 @@
             "display": "Pure hypercholesterolemia, unspecified"
         },
         {
+            "code": "E7801",
+            "display": "Familial hypercholesterolemia"
+        },
+        {
+            "code": "E781",
+            "display": "Pure hyperglyceridemia"
+        },
+        {
+            "code": "E782",
+            "display": "Mixed hyperlipidemia"
+        },
+        {
             "code": "E783",
             "display": "Hyperchylomicronemia"
         },
@@ -8075,6 +8044,10 @@
         {
             "code": "E790",
             "display": "Hyperuricemia without signs of inflammatory arthritis and tophaceous disease"
+        },
+        {
+            "code": "F4010",
+            "display": "Social phobia, unspecified"
         },
         {
             "code": "E799",
@@ -8199,10 +8172,6 @@
         {
             "code": "E840",
             "display": "Cystic fibrosis with pulmonary manifestations"
-        },
-        {
-            "code": "E8411",
-            "display": "Meconium ileus in cystic fibrosis"
         },
         {
             "code": "E8419",
@@ -8457,10 +8426,6 @@
             "display": "Mood disorder due to known physiological condition with depressive features"
         },
         {
-            "code": "F12259",
-            "display": "Cannabis dependence with psychotic disorder, unspecified"
-        },
-        {
             "code": "F0632",
             "display": "Mood disorder due to known physiological condition with major depressive-like episode"
         },
@@ -8495,10 +8460,6 @@
         {
             "code": "F1010",
             "display": "Alcohol abuse, uncomplicated"
-        },
-        {
-            "code": "F1011",
-            "display": "Alcohol abuse, in remission"
         },
         {
             "code": "F10120",
@@ -8817,6 +8778,10 @@
             "display": "Cannabis dependence with withdrawal"
         },
         {
+            "code": "F12259",
+            "display": "Cannabis dependence with psychotic disorder, unspecified"
+        },
+        {
             "code": "F12288",
             "display": "Cannabis dependence with other cannabis-induced disorder"
         },
@@ -9125,10 +9090,6 @@
             "display": "Other stimulant abuse with stimulant-induced mood disorder"
         },
         {
-            "code": "F648",
-            "display": "Other gender identity disorders"
-        },
-        {
             "code": "F15150",
             "display": "Other stimulant abuse with stimulant-induced psychotic disorder with delusions"
         },
@@ -9159,6 +9120,10 @@
         {
             "code": "F15220",
             "display": "Other stimulant dependence with intoxication, uncomplicated"
+        },
+        {
+            "code": "F4011",
+            "display": "Social phobia, generalized"
         },
         {
             "code": "F15221",
@@ -9471,6 +9436,10 @@
         {
             "code": "F19231",
             "display": "Other psychoactive substance dependence with withdrawal delirium"
+        },
+        {
+            "code": "F40210",
+            "display": "Arachnophobia"
         },
         {
             "code": "F19232",
@@ -9819,18 +9788,6 @@
         {
             "code": "F4002",
             "display": "Agoraphobia without panic disorder"
-        },
-        {
-            "code": "F4010",
-            "display": "Social phobia, unspecified"
-        },
-        {
-            "code": "F4011",
-            "display": "Social phobia, generalized"
-        },
-        {
-            "code": "F40210",
-            "display": "Arachnophobia"
         },
         {
             "code": "F40231",
@@ -10227,6 +10184,10 @@
         {
             "code": "F641",
             "display": "Dual role transvestism"
+        },
+        {
+            "code": "F648",
+            "display": "Other gender identity disorders"
         },
         {
             "code": "F649",
@@ -10973,10 +10934,6 @@
             "display": "Absence epileptic syndrome, not intractable, without status epilepticus"
         },
         {
-            "code": "G4762",
-            "display": "Sleep related leg cramps"
-        },
-        {
             "code": "G40A11",
             "display": "Absence epileptic syndrome, intractable, with status epilepticus"
         },
@@ -11007,6 +10964,10 @@
         {
             "code": "G43109",
             "display": "Migraine with aura, not intractable, without status migrainosus"
+        },
+        {
+            "code": "G5132",
+            "display": "Clonic hemifacial spasm, left"
         },
         {
             "code": "G43111",
@@ -11357,6 +11318,10 @@
             "display": "Periodic limb movement disorder"
         },
         {
+            "code": "G4762",
+            "display": "Sleep related leg cramps"
+        },
+        {
             "code": "G4763",
             "display": "Sleep related bruxism"
         },
@@ -11403,10 +11368,6 @@
         {
             "code": "G5131",
             "display": "Clonic hemifacial spasm, right"
-        },
-        {
-            "code": "G5132",
-            "display": "Clonic hemifacial spasm, left"
         },
         {
             "code": "G514",
@@ -12845,32 +12806,8 @@
             "display": "Chronic dacryocystitis of unspecified lacrimal passage"
         },
         {
-            "code": "H04531",
-            "display": "Neonatal obstruction of right nasolacrimal duct"
-        },
-        {
-            "code": "H04532",
-            "display": "Neonatal obstruction of left nasolacrimal duct"
-        },
-        {
-            "code": "H04533",
-            "display": "Neonatal obstruction of bilateral nasolacrimal duct"
-        },
-        {
-            "code": "H04539",
-            "display": "Neonatal obstruction of unspecified nasolacrimal duct"
-        },
-        {
-            "code": "H04559",
-            "display": "Acquired stenosis of unspecified nasolacrimal duct"
-        },
-        {
             "code": "H04561",
             "display": "Stenosis of right lacrimal punctum"
-        },
-        {
-            "code": "H0469",
-            "display": "Other changes of lacrimal passages"
         },
         {
             "code": "H0489",
@@ -13433,10 +13370,6 @@
             "display": "Posterior subcapsular polar age-related cataract, bilateral"
         },
         {
-            "code": "H5509",
-            "display": "Other forms of nystagmus"
-        },
-        {
             "code": "H25049",
             "display": "Posterior subcapsular polar age-related cataract, unspecified eye"
         },
@@ -13817,68 +13750,8 @@
             "display": "Retinal telangiectasis, bilateral"
         },
         {
-            "code": "H35101",
-            "display": "Retinopathy of prematurity, unspecified, right eye"
-        },
-        {
             "code": "H35103",
             "display": "Retinopathy of prematurity, unspecified, bilateral"
-        },
-        {
-            "code": "H35109",
-            "display": "Retinopathy of prematurity, unspecified, unspecified eye"
-        },
-        {
-            "code": "H5581",
-            "display": "Saccadic eye movements"
-        },
-        {
-            "code": "H35121",
-            "display": "Retinopathy of prematurity, stage 1, right eye"
-        },
-        {
-            "code": "H35122",
-            "display": "Retinopathy of prematurity, stage 1, left eye"
-        },
-        {
-            "code": "H35123",
-            "display": "Retinopathy of prematurity, stage 1, bilateral"
-        },
-        {
-            "code": "H35129",
-            "display": "Retinopathy of prematurity, stage 1, unspecified eye"
-        },
-        {
-            "code": "H35131",
-            "display": "Retinopathy of prematurity, stage 2, right eye"
-        },
-        {
-            "code": "H35132",
-            "display": "Retinopathy of prematurity, stage 2, left eye"
-        },
-        {
-            "code": "H35133",
-            "display": "Retinopathy of prematurity, stage 2, bilateral"
-        },
-        {
-            "code": "H35139",
-            "display": "Retinopathy of prematurity, stage 2, unspecified eye"
-        },
-        {
-            "code": "H35141",
-            "display": "Retinopathy of prematurity, stage 3, right eye"
-        },
-        {
-            "code": "H35142",
-            "display": "Retinopathy of prematurity, stage 3, left eye"
-        },
-        {
-            "code": "H35143",
-            "display": "Retinopathy of prematurity, stage 3, bilateral"
-        },
-        {
-            "code": "H35153",
-            "display": "Retinopathy of prematurity, stage 4, bilateral"
         },
         {
             "code": "H3520",
@@ -13935,6 +13808,10 @@
         {
             "code": "H353230",
             "display": "Exudative age-related macular degeneration, bilateral, stage unspecified"
+        },
+        {
+            "code": "H43811",
+            "display": "Vitreous degeneration, right eye"
         },
         {
             "code": "H353290",
@@ -14315,10 +14192,6 @@
         {
             "code": "H43399",
             "display": "Other vitreous opacities, unspecified eye"
-        },
-        {
-            "code": "H43811",
-            "display": "Vitreous degeneration, right eye"
         },
         {
             "code": "H43812",
@@ -15053,6 +14926,14 @@
             "display": "Visual deprivation nystagmus"
         },
         {
+            "code": "H5509",
+            "display": "Other forms of nystagmus"
+        },
+        {
+            "code": "H5581",
+            "display": "Saccadic eye movements"
+        },
+        {
             "code": "H5589",
             "display": "Other irregular eye movements"
         },
@@ -15185,6 +15066,10 @@
             "display": "Other infective otitis externa, left ear"
         },
         {
+            "code": "H8102",
+            "display": "Meniere's disease, left ear"
+        },
+        {
             "code": "H60393",
             "display": "Other infective otitis externa, bilateral"
         },
@@ -15249,20 +15134,12 @@
             "display": "Chondritis of left external ear"
         },
         {
-            "code": "H61033",
-            "display": "Chondritis of external ear, bilateral"
-        },
-        {
             "code": "H61039",
             "display": "Chondritis of external ear, unspecified ear"
         },
         {
             "code": "H61112",
             "display": "Acquired deformity of pinna, left ear"
-        },
-        {
-            "code": "H61191",
-            "display": "Noninfective disorders of pinna, right ear"
         },
         {
             "code": "H6120",
@@ -15563,10 +15440,6 @@
         {
             "code": "H8101",
             "display": "Meniere's disease, right ear"
-        },
-        {
-            "code": "H8102",
-            "display": "Meniere's disease, left ear"
         },
         {
             "code": "H8103",
@@ -16313,6 +16186,14 @@
             "display": "Atherosclerosis of autologous vein coronary artery bypass graft(s) with unstable angina pectoris"
         },
         {
+            "code": "I447",
+            "display": "Left bundle-branch block, unspecified"
+        },
+        {
+            "code": "I7773",
+            "display": "Dissection of renal artery"
+        },
+        {
             "code": "I25711",
             "display": "Atherosclerosis of autologous vein coronary artery bypass graft(s) with angina pectoris with documented spasm"
         },
@@ -16705,10 +16586,6 @@
             "display": "Other fascicular block"
         },
         {
-            "code": "I447",
-            "display": "Left bundle-branch block, unspecified"
-        },
-        {
             "code": "I4510",
             "display": "Unspecified right bundle-branch block"
         },
@@ -16995,10 +16872,6 @@
         {
             "code": "I6002",
             "display": "Nontraumatic subarachnoid hemorrhage from left carotid siphon and bifurcation"
-        },
-        {
-            "code": "I6901",
-            "display": "Cognitive deficits following nontraumatic subarachnoid hemorrhage"
         },
         {
             "code": "I6010",
@@ -17637,8 +17510,8 @@
             "display": "Unspecified sequelae of nontraumatic subarachnoid hemorrhage"
         },
         {
-            "code": "I722",
-            "display": "Aneurysm of renal artery"
+            "code": "I6901",
+            "display": "Cognitive deficits following nontraumatic subarachnoid hemorrhage"
         },
         {
             "code": "I69011",
@@ -17907,10 +17780,6 @@
         {
             "code": "I69315",
             "display": "Cognitive social or emotional deficit following cerebral infarction"
-        },
-        {
-            "code": "I723",
-            "display": "Aneurysm of iliac artery"
         },
         {
             "code": "I69318",
@@ -18193,10 +18062,6 @@
             "display": "Hemiplegia and hemiparesis following unspecified cerebrovascular disease affecting left non-dominant side"
         },
         {
-            "code": "I724",
-            "display": "Aneurysm of artery of lower extremity"
-        },
-        {
             "code": "I69959",
             "display": "Hemiplegia and hemiparesis following unspecified cerebrovascular disease affecting unspecified side"
         },
@@ -18295,6 +18160,10 @@
         {
             "code": "I70232",
             "display": "Atherosclerosis of native arteries of right leg with ulceration of calf"
+        },
+        {
+            "code": "I7772",
+            "display": "Dissection of iliac artery"
         },
         {
             "code": "I70233",
@@ -18459,10 +18328,6 @@
         {
             "code": "I70413",
             "display": "Atherosclerosis of autologous vein bypass graft(s) of the extremities with intermittent claudication, bilateral legs"
-        },
-        {
-            "code": "I725",
-            "display": "Aneurysm of other precerebral arteries"
         },
         {
             "code": "I70419",
@@ -18733,6 +18598,22 @@
             "display": "Aneurysm of artery of upper extremity"
         },
         {
+            "code": "I722",
+            "display": "Aneurysm of renal artery"
+        },
+        {
+            "code": "I723",
+            "display": "Aneurysm of iliac artery"
+        },
+        {
+            "code": "I724",
+            "display": "Aneurysm of artery of lower extremity"
+        },
+        {
+            "code": "I725",
+            "display": "Aneurysm of other precerebral arteries"
+        },
+        {
             "code": "I726",
             "display": "Aneurysm of vertebral artery"
         },
@@ -18871,14 +18752,6 @@
         {
             "code": "I7771",
             "display": "Dissection of carotid artery"
-        },
-        {
-            "code": "I7772",
-            "display": "Dissection of iliac artery"
-        },
-        {
-            "code": "I7773",
-            "display": "Dissection of renal artery"
         },
         {
             "code": "I7774",
@@ -19513,6 +19386,10 @@
             "display": "Varicose veins of left lower extremity with ulcer other part of lower leg"
         },
         {
+            "code": "J151",
+            "display": "Pneumonia due to Pseudomonas"
+        },
+        {
             "code": "I83029",
             "display": "Varicose veins of left lower extremity with ulcer of unspecified site"
         },
@@ -19841,6 +19718,10 @@
             "display": "Intraoperative hemorrhage and hematoma of a circulatory system organ or structure complicating other circulatory system procedure"
         },
         {
+            "code": "J1520",
+            "display": "Pneumonia due to staphylococcus, unspecified"
+        },
+        {
             "code": "I9742",
             "display": "Intraoperative hemorrhage and hematoma of a circulatory system organ or structure complicating other procedure"
         },
@@ -20065,10 +19946,6 @@
             "display": "Influenza due to identified novel influenza A virus with pneumonia"
         },
         {
-            "code": "J410",
-            "display": "Simple chronic bronchitis"
-        },
-        {
             "code": "J09X2",
             "display": "Influenza due to identified novel influenza A virus with other respiratory manifestations"
         },
@@ -20171,14 +20048,6 @@
         {
             "code": "J150",
             "display": "Pneumonia due to Klebsiella pneumoniae"
-        },
-        {
-            "code": "J151",
-            "display": "Pneumonia due to Pseudomonas"
-        },
-        {
-            "code": "J1520",
-            "display": "Pneumonia due to staphylococcus, unspecified"
         },
         {
             "code": "J15211",
@@ -20475,6 +20344,10 @@
         {
             "code": "J40",
             "display": "Bronchitis, not specified as acute or chronic"
+        },
+        {
+            "code": "J410",
+            "display": "Simple chronic bronchitis"
         },
         {
             "code": "J411",
@@ -21877,10 +21750,6 @@
             "display": "Bilateral femoral hernia, with obstruction, without gangrene, recurrent"
         },
         {
-            "code": "K4120",
-            "display": "Bilateral femoral hernia, without obstruction or gangrene, not specified as recurrent"
-        },
-        {
             "code": "K4130",
             "display": "Unilateral femoral hernia, with obstruction, without gangrene, not specified as recurrent"
         },
@@ -22057,10 +21926,6 @@
             "display": "Crohn's disease, unspecified, with rectal bleeding"
         },
         {
-            "code": "L218",
-            "display": "Other seborrheic dermatitis"
-        },
-        {
             "code": "K50912",
             "display": "Crohn's disease, unspecified, with intestinal obstruction"
         },
@@ -22235,10 +22100,6 @@
         {
             "code": "K522",
             "display": "Allergic and dietetic gastroenteritis and colitis"
-        },
-        {
-            "code": "K5221",
-            "display": "Food protein-induced enterocolitis syndrome"
         },
         {
             "code": "K5229",
@@ -22435,10 +22296,6 @@
         {
             "code": "K56690",
             "display": "Other partial intestinal obstruction"
-        },
-        {
-            "code": "L219",
-            "display": "Seborrheic dermatitis, unspecified"
         },
         {
             "code": "K56691",
@@ -24105,10 +23962,6 @@
             "display": "Bullous disorder, unspecified"
         },
         {
-            "code": "L2083",
-            "display": "Infantile (acute) (chronic) eczema"
-        },
-        {
             "code": "L2089",
             "display": "Other atopic dermatitis"
         },
@@ -24117,12 +23970,12 @@
             "display": "Atopic dermatitis, unspecified"
         },
         {
-            "code": "L210",
-            "display": "Seborrhea capitis"
+            "code": "L218",
+            "display": "Other seborrheic dermatitis"
         },
         {
-            "code": "L211",
-            "display": "Seborrheic infantile dermatitis"
+            "code": "L219",
+            "display": "Seborrheic dermatitis, unspecified"
         },
         {
             "code": "L22",
@@ -24549,10 +24402,6 @@
             "display": "Acne varioliformis"
         },
         {
-            "code": "L704",
-            "display": "Infantile acne"
-        },
-        {
             "code": "L708",
             "display": "Other acne"
         },
@@ -24703,10 +24552,6 @@
         {
             "code": "L811",
             "display": "Chloasma"
-        },
-        {
-            "code": "L813",
-            "display": "Cafe au lait spots"
         },
         {
             "code": "L814",
@@ -25521,6 +25366,10 @@
             "display": "Non-pressure chronic ulcer of left ankle with unspecified severity"
         },
         {
+            "code": "L981",
+            "display": "Factitial dermatitis"
+        },
+        {
             "code": "L97401",
             "display": "Non-pressure chronic ulcer of unspecified heel and midfoot limited to breakdown of skin"
         },
@@ -25677,10 +25526,6 @@
             "display": "Non-pressure chronic ulcer of other part of unspecified lower leg with necrosis of bone"
         },
         {
-            "code": "M00821",
-            "display": "Arthritis due to other bacteria, right elbow"
-        },
-        {
             "code": "L97809",
             "display": "Non-pressure chronic ulcer of other part of unspecified lower leg with unspecified severity"
         },
@@ -25779,10 +25624,6 @@
         {
             "code": "L980",
             "display": "Pyogenic granuloma"
-        },
-        {
-            "code": "L981",
-            "display": "Factitial dermatitis"
         },
         {
             "code": "L982",
@@ -26007,6 +25848,10 @@
         {
             "code": "M00812",
             "display": "Arthritis due to other bacteria, left shoulder"
+        },
+        {
+            "code": "M00821",
+            "display": "Arthritis due to other bacteria, right elbow"
         },
         {
             "code": "M00831",
@@ -26367,10 +26212,6 @@
         {
             "code": "M08842",
             "display": "Other juvenile arthritis, left hand"
-        },
-        {
-            "code": "M25361",
-            "display": "Other instability, right knee"
         },
         {
             "code": "M0890",
@@ -27305,6 +27146,10 @@
             "display": "Valgus deformity, not elsewhere classified, right ankle"
         },
         {
+            "code": "M67472",
+            "display": "Ganglion, left ankle and foot"
+        },
+        {
             "code": "M21072",
             "display": "Valgus deformity, not elsewhere classified, left ankle"
         },
@@ -27973,6 +27818,10 @@
             "display": "Other instability, unspecified hip"
         },
         {
+            "code": "M25361",
+            "display": "Other instability, right knee"
+        },
+        {
             "code": "M25362",
             "display": "Other instability, left knee"
         },
@@ -28325,14 +28174,6 @@
             "display": "Other specified anomalies of jaw size"
         },
         {
-            "code": "M2612",
-            "display": "Other jaw asymmetry"
-        },
-        {
-            "code": "M2619",
-            "display": "Other specified anomalies of jaw-cranial base relationship"
-        },
-        {
             "code": "M26212",
             "display": "Malocclusion, Angle's class II"
         },
@@ -28415,10 +28256,6 @@
         {
             "code": "M273",
             "display": "Alveolitis of jaws"
-        },
-        {
-            "code": "M4302",
-            "display": "Spondylolysis, cervical region"
         },
         {
             "code": "M2762",
@@ -28837,6 +28674,10 @@
             "display": "Juvenile osteochondrosis of spine, site unspecified"
         },
         {
+            "code": "M4302",
+            "display": "Spondylolysis, cervical region"
+        },
+        {
             "code": "M4304",
             "display": "Spondylolysis, thoracic region"
         },
@@ -28999,6 +28840,10 @@
         {
             "code": "M4620",
             "display": "Osteomyelitis of vertebra, site unspecified"
+        },
+        {
+            "code": "M7651",
+            "display": "Patellar tendinitis, right knee"
         },
         {
             "code": "M4622",
@@ -29671,6 +29516,10 @@
         {
             "code": "M5147",
             "display": "Schmorl's nodes, lumbosacral region"
+        },
+        {
+            "code": "N99518",
+            "display": "Other cystostomy complication"
         },
         {
             "code": "M5184",
@@ -30489,10 +30338,6 @@
             "display": "Ganglion, right ankle and foot"
         },
         {
-            "code": "M67472",
-            "display": "Ganglion, left ankle and foot"
-        },
-        {
             "code": "M67479",
             "display": "Ganglion, unspecified ankle and foot"
         },
@@ -30887,10 +30732,6 @@
         {
             "code": "M7650",
             "display": "Patellar tendinitis, unspecified knee"
-        },
-        {
-            "code": "M7651",
-            "display": "Patellar tendinitis, right knee"
         },
         {
             "code": "M7660",
@@ -31425,10 +31266,6 @@
             "display": "Pathological fracture, right shoulder, initial encounter for fracture"
         },
         {
-            "code": "N431",
-            "display": "Infected hydrocele"
-        },
-        {
             "code": "M84412A",
             "display": "Pathological fracture, left shoulder, initial encounter for fracture"
         },
@@ -31797,6 +31634,10 @@
             "display": "Atypical femoral fracture, unspecified, initial encounter for fracture"
         },
         {
+            "code": "O479",
+            "display": "False labor, unspecified"
+        },
+        {
             "code": "M84751A",
             "display": "Incomplete atypical femoral fracture, right leg, initial encounter for fracture"
         },
@@ -32159,6 +32000,10 @@
         {
             "code": "M868X8",
             "display": "Other osteomyelitis, other site"
+        },
+        {
+            "code": "O480",
+            "display": "Post-term pregnancy"
         },
         {
             "code": "M868X9",
@@ -32569,6 +32414,10 @@
             "display": "Osteitis deformans in neoplastic diseases, other site"
         },
         {
+            "code": "O481",
+            "display": "Prolonged pregnancy"
+        },
+        {
             "code": "M9080",
             "display": "Osteopathy in diseases classified elsewhere, unspecified site"
         },
@@ -32771,10 +32620,6 @@
         {
             "code": "M96843",
             "display": "Postprocedural seroma of a musculoskeletal structure following other procedure"
-        },
-        {
-            "code": "N432",
-            "display": "Other hydrocele"
         },
         {
             "code": "M9689",
@@ -33557,6 +33402,14 @@
             "display": "Encysted hydrocele"
         },
         {
+            "code": "N431",
+            "display": "Infected hydrocele"
+        },
+        {
+            "code": "N432",
+            "display": "Other hydrocele"
+        },
+        {
             "code": "N433",
             "display": "Hydrocele, unspecified"
         },
@@ -33571,14 +33424,6 @@
         {
             "code": "N4400",
             "display": "Torsion of testis, unspecified"
-        },
-        {
-            "code": "N4401",
-            "display": "Extravaginal torsion of spermatic cord"
-        },
-        {
-            "code": "N4402",
-            "display": "Intravaginal torsion of spermatic cord"
         },
         {
             "code": "N4403",
@@ -34193,6 +34038,10 @@
             "display": "Follicular cyst of ovary"
         },
         {
+            "code": "O9812",
+            "display": "Syphilis complicating childbirth"
+        },
+        {
             "code": "N8300",
             "display": "Follicular cyst of ovary, unspecified side"
         },
@@ -34635,10 +34484,6 @@
         {
             "code": "N99512",
             "display": "Cystostomy malfunction"
-        },
-        {
-            "code": "N99518",
-            "display": "Other cystostomy complication"
         },
         {
             "code": "N99520",
@@ -35477,10 +35322,6 @@
             "display": "Pre-existing type 2 diabetes mellitus, in the puerperium"
         },
         {
-            "code": "O43212",
-            "display": "Placenta accreta, second trimester"
-        },
-        {
             "code": "O24311",
             "display": "Unspecified pre-existing diabetes mellitus in pregnancy, first trimester"
         },
@@ -35919,6 +35760,10 @@
         {
             "code": "O330",
             "display": "Maternal care for disproportion due to deformity of maternal pelvic bones"
+        },
+        {
+            "code": "O471",
+            "display": "False labor at or after 37 completed weeks of gestation"
         },
         {
             "code": "O335XX0",
@@ -36369,6 +36214,10 @@
             "display": "Other malformation of placenta, third trimester"
         },
         {
+            "code": "O43212",
+            "display": "Placenta accreta, second trimester"
+        },
+        {
             "code": "O43213",
             "display": "Placenta accreta, third trimester"
         },
@@ -36503,22 +36352,6 @@
         {
             "code": "O4703",
             "display": "False labor before 37 completed weeks of gestation, third trimester"
-        },
-        {
-            "code": "O471",
-            "display": "False labor at or after 37 completed weeks of gestation"
-        },
-        {
-            "code": "O479",
-            "display": "False labor, unspecified"
-        },
-        {
-            "code": "O480",
-            "display": "Post-term pregnancy"
-        },
-        {
-            "code": "O481",
-            "display": "Prolonged pregnancy"
         },
         {
             "code": "O6002",
@@ -37225,10 +37058,6 @@
             "display": "Syphilis complicating pregnancy, second trimester"
         },
         {
-            "code": "O9812",
-            "display": "Syphilis complicating childbirth"
-        },
-        {
             "code": "O98211",
             "display": "Gonorrhea complicating pregnancy, first trimester"
         },
@@ -37391,10 +37220,6 @@
         {
             "code": "O99113",
             "display": "Other diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism complicating pregnancy, third trimester"
-        },
-        {
-            "code": "R10816",
-            "display": "Epigastric abdominal tenderness"
         },
         {
             "code": "O99119",
@@ -37773,1272 +37598,20 @@
             "display": "Psychological abuse complicating childbirth"
         },
         {
-            "code": "P000",
-            "display": "Newborn affected by maternal hypertensive disorders"
-        },
-        {
-            "code": "P002",
-            "display": "Newborn affected by maternal infectious and parasitic diseases"
-        },
-        {
-            "code": "P003",
-            "display": "Newborn affected by other maternal circulatory and respiratory diseases"
-        },
-        {
-            "code": "P004",
-            "display": "Newborn affected by maternal nutritional disorders"
-        },
-        {
-            "code": "P006",
-            "display": "Newborn affected by surgical procedure on mother"
-        },
-        {
-            "code": "P007",
-            "display": "Newborn affected by other medical procedures on mother, not elsewhere classified"
-        },
-        {
-            "code": "P0089",
-            "display": "Newborn affected by other maternal conditions"
-        },
-        {
-            "code": "P009",
-            "display": "Newborn affected by unspecified maternal condition"
-        },
-        {
-            "code": "P010",
-            "display": "Newborn affected by incompetent cervix"
-        },
-        {
-            "code": "P011",
-            "display": "Newborn affected by premature rupture of membranes"
-        },
-        {
-            "code": "P012",
-            "display": "Newborn affected by oligohydramnios"
-        },
-        {
-            "code": "P013",
-            "display": "Newborn affected by polyhydramnios"
-        },
-        {
-            "code": "P015",
-            "display": "Newborn affected by multiple pregnancy"
-        },
-        {
-            "code": "P017",
-            "display": "Newborn affected by malpresentation before labor"
-        },
-        {
-            "code": "P018",
-            "display": "Newborn affected by other maternal complications of pregnancy"
-        },
-        {
-            "code": "P020",
-            "display": "Newborn affected by placenta previa"
-        },
-        {
-            "code": "P021",
-            "display": "Newborn affected by other forms of placental separation and hemorrhage"
-        },
-        {
-            "code": "P0229",
-            "display": "Newborn affected by other morphological and functional abnormalities of placenta"
-        },
-        {
-            "code": "P023",
-            "display": "Newborn affected by placental transfusion syndromes"
-        },
-        {
-            "code": "P024",
-            "display": "Newborn affected by prolapsed cord"
-        },
-        {
-            "code": "P025",
-            "display": "Newborn affected by other compression of umbilical cord"
-        },
-        {
-            "code": "P0260",
-            "display": "Newborn affected by unspecified conditions of umbilical cord"
-        },
-        {
-            "code": "P0269",
-            "display": "Newborn affected by other conditions of umbilical cord"
-        },
-        {
-            "code": "P027",
-            "display": "Newborn affected by chorioamnionitis"
-        },
-        {
-            "code": "P0278",
-            "display": "Newborn affected by other conditions from chorioamnionitis"
-        },
-        {
-            "code": "P028",
-            "display": "Newborn affected by other abnormalities of membranes"
-        },
-        {
-            "code": "P030",
-            "display": "Newborn affected by breech delivery and extraction"
-        },
-        {
-            "code": "P031",
-            "display": "Newborn affected by other malpresentation, malposition and disproportion during labor and delivery"
-        },
-        {
-            "code": "P033",
-            "display": "Newborn affected by delivery by vacuum extractor [ventouse]"
-        },
-        {
-            "code": "P034",
-            "display": "Newborn affected by Cesarean delivery"
-        },
-        {
-            "code": "P035",
-            "display": "Newborn affected by precipitate delivery"
-        },
-        {
-            "code": "P036",
-            "display": "Newborn affected by abnormal uterine contractions"
-        },
-        {
-            "code": "P03810",
-            "display": "Newborn affected by abnormality in fetal (intrauterine) heart rate or rhythm before the onset of labor"
-        },
-        {
-            "code": "P03811",
-            "display": "Newborn affected by abnormality in fetal (intrauterine) heart rate or rhythm during labor"
-        },
-        {
-            "code": "P03819",
-            "display": "Newborn affected by abnormality in fetal (intrauterine) heart rate or rhythm, unspecified as to time of onset"
-        },
-        {
-            "code": "P0382",
-            "display": "Meconium passage during delivery"
-        },
-        {
-            "code": "P0389",
-            "display": "Newborn affected by other specified complications of labor and delivery"
-        },
-        {
-            "code": "P040",
-            "display": "Newborn affected by maternal anesthesia and analgesia in pregnancy, labor and delivery"
-        },
-        {
-            "code": "P041",
-            "display": "Newborn affected by other maternal medication"
-        },
-        {
-            "code": "P0414",
-            "display": "Newborn affected by maternal use of opiates"
-        },
-        {
-            "code": "P0415",
-            "display": "Newborn affected by maternal use of antidepressants"
-        },
-        {
-            "code": "P0418",
-            "display": "Newborn affected by other maternal medication"
-        },
-        {
-            "code": "P042",
-            "display": "Newborn affected by maternal use of tobacco"
-        },
-        {
-            "code": "P043",
-            "display": "Newborn affected by maternal use of alcohol"
-        },
-        {
             "code": "P0440",
             "display": "Newborn affected by maternal use of unspecified drugs of addiction"
-        },
-        {
-            "code": "P0441",
-            "display": "Newborn affected by maternal use of cocaine"
-        },
-        {
-            "code": "P0449",
-            "display": "Newborn affected by maternal use of other drugs of addiction"
-        },
-        {
-            "code": "P0481",
-            "display": "Newborn affected by maternal use of cannabis"
-        },
-        {
-            "code": "P0506",
-            "display": "Newborn light for gestational age, 1500-1749 grams"
-        },
-        {
-            "code": "P0508",
-            "display": "Newborn light for gestational age, 2000-2499 grams"
-        },
-        {
-            "code": "P0509",
-            "display": "Newborn light for gestational age, 2500 grams and over"
-        },
-        {
-            "code": "P0510",
-            "display": "Newborn small for gestational age, unspecified weight"
-        },
-        {
-            "code": "P0511",
-            "display": "Newborn small for gestational age, less than 500 grams"
-        },
-        {
-            "code": "P0512",
-            "display": "Newborn small for gestational age, 500-749 grams"
-        },
-        {
-            "code": "P0513",
-            "display": "Newborn small for gestational age, 750-999 grams"
-        },
-        {
-            "code": "P0514",
-            "display": "Newborn small for gestational age, 1000-1249 grams"
-        },
-        {
-            "code": "P0515",
-            "display": "Newborn small for gestational age, 1250-1499 grams"
-        },
-        {
-            "code": "P0516",
-            "display": "Newborn small for gestational age, 1500-1749 grams"
-        },
-        {
-            "code": "P0517",
-            "display": "Newborn small for gestational age, 1750-1999 grams"
-        },
-        {
-            "code": "P0518",
-            "display": "Newborn small for gestational age, 2000-2499 grams"
-        },
-        {
-            "code": "P0519",
-            "display": "Newborn small for gestational age, other"
-        },
-        {
-            "code": "P059",
-            "display": "Newborn affected by slow intrauterine growth, unspecified"
-        },
-        {
-            "code": "P0701",
-            "display": "Extremely low birth weight newborn, less than 500 grams"
-        },
-        {
-            "code": "P0702",
-            "display": "Extremely low birth weight newborn, 500-749 grams"
-        },
-        {
-            "code": "P0703",
-            "display": "Extremely low birth weight newborn, 750-999 grams"
-        },
-        {
-            "code": "P0710",
-            "display": "Other low birth weight newborn, unspecified weight"
-        },
-        {
-            "code": "P0714",
-            "display": "Other low birth weight newborn, 1000-1249 grams"
-        },
-        {
-            "code": "P0715",
-            "display": "Other low birth weight newborn, 1250-1499 grams"
-        },
-        {
-            "code": "P0716",
-            "display": "Other low birth weight newborn, 1500-1749 grams"
-        },
-        {
-            "code": "P0717",
-            "display": "Other low birth weight newborn, 1750-1999 grams"
-        },
-        {
-            "code": "P0718",
-            "display": "Other low birth weight newborn, 2000-2499 grams"
-        },
-        {
-            "code": "P0720",
-            "display": "Extreme immaturity of newborn, unspecified weeks of gestation"
-        },
-        {
-            "code": "P0721",
-            "display": "Extreme immaturity of newborn, gestational age less than 23 completed weeks"
-        },
-        {
-            "code": "P0722",
-            "display": "Extreme immaturity of newborn, gestational age 23 completed weeks"
-        },
-        {
-            "code": "P0723",
-            "display": "Extreme immaturity of newborn, gestational age 24 completed weeks"
-        },
-        {
-            "code": "P0724",
-            "display": "Extreme immaturity of newborn, gestational age 25 completed weeks"
-        },
-        {
-            "code": "P0725",
-            "display": "Extreme immaturity of newborn, gestational age 26 completed weeks"
-        },
-        {
-            "code": "P0726",
-            "display": "Extreme immaturity of newborn, gestational age 27 completed weeks"
-        },
-        {
-            "code": "P0730",
-            "display": "Preterm newborn, unspecified weeks of gestation"
-        },
-        {
-            "code": "P0731",
-            "display": "Preterm newborn, gestational age 28 completed weeks"
-        },
-        {
-            "code": "P0732",
-            "display": "Preterm newborn, gestational age 29 completed weeks"
-        },
-        {
-            "code": "P0733",
-            "display": "Preterm newborn, gestational age 30 completed weeks"
-        },
-        {
-            "code": "P0734",
-            "display": "Preterm newborn, gestational age 31 completed weeks"
-        },
-        {
-            "code": "P0735",
-            "display": "Preterm newborn, gestational age 32 completed weeks"
-        },
-        {
-            "code": "P0736",
-            "display": "Preterm newborn, gestational age 33 completed weeks"
-        },
-        {
-            "code": "P0737",
-            "display": "Preterm newborn, gestational age 34 completed weeks"
-        },
-        {
-            "code": "P0738",
-            "display": "Preterm newborn, gestational age 35 completed weeks"
-        },
-        {
-            "code": "P0739",
-            "display": "Preterm newborn, gestational age 36 completed weeks"
-        },
-        {
-            "code": "P080",
-            "display": "Exceptionally large newborn baby"
-        },
-        {
-            "code": "P081",
-            "display": "Other heavy for gestational age newborn"
-        },
-        {
-            "code": "P0821",
-            "display": "Post-term newborn"
-        },
-        {
-            "code": "P0822",
-            "display": "Prolonged gestation of newborn"
-        },
-        {
-            "code": "P09",
-            "display": "Abnormal findings on neonatal screening"
-        },
-        {
-            "code": "P100",
-            "display": "Subdural hemorrhage due to birth injury"
-        },
-        {
-            "code": "P103",
-            "display": "Subarachnoid hemorrhage due to birth injury"
-        },
-        {
-            "code": "P110",
-            "display": "Cerebral edema due to birth injury"
-        },
-        {
-            "code": "P113",
-            "display": "Birth injury to facial nerve"
-        },
-        {
-            "code": "P120",
-            "display": "Cephalhematoma due to birth injury"
-        },
-        {
-            "code": "P121",
-            "display": "Chignon (from vacuum extraction) due to birth injury"
-        },
-        {
-            "code": "P122",
-            "display": "Epicranial subaponeurotic hemorrhage due to birth injury"
-        },
-        {
-            "code": "P123",
-            "display": "Bruising of scalp due to birth injury"
-        },
-        {
-            "code": "P124",
-            "display": "Injury of scalp of newborn due to monitoring equipment"
-        },
-        {
-            "code": "P1281",
-            "display": "Caput succedaneum"
-        },
-        {
-            "code": "P1289",
-            "display": "Other birth injuries to scalp"
-        },
-        {
-            "code": "P129",
-            "display": "Birth injury to scalp, unspecified"
-        },
-        {
-            "code": "P130",
-            "display": "Fracture of skull due to birth injury"
-        },
-        {
-            "code": "P132",
-            "display": "Birth injury to femur"
-        },
-        {
-            "code": "P133",
-            "display": "Birth injury to other long bones"
-        },
-        {
-            "code": "P134",
-            "display": "Fracture of clavicle due to birth injury"
-        },
-        {
-            "code": "P138",
-            "display": "Birth injuries to other parts of skeleton"
-        },
-        {
-            "code": "P140",
-            "display": "Erb's paralysis due to birth injury"
-        },
-        {
-            "code": "P143",
-            "display": "Other brachial plexus birth injuries"
-        },
-        {
-            "code": "P149",
-            "display": "Birth injury to peripheral nervous system, unspecified"
-        },
-        {
-            "code": "P153",
-            "display": "Birth injury to eye"
-        },
-        {
-            "code": "P154",
-            "display": "Birth injury to face"
-        },
-        {
-            "code": "P155",
-            "display": "Birth injury to external genitalia"
-        },
-        {
-            "code": "P158",
-            "display": "Other specified birth injuries"
-        },
-        {
-            "code": "P192",
-            "display": "Metabolic acidemia noted at birth"
-        },
-        {
-            "code": "P199",
-            "display": "Metabolic acidemia, unspecified"
-        },
-        {
-            "code": "P220",
-            "display": "Respiratory distress syndrome of newborn"
-        },
-        {
-            "code": "P221",
-            "display": "Transient tachypnea of newborn"
-        },
-        {
-            "code": "P228",
-            "display": "Other respiratory distress of newborn"
-        },
-        {
-            "code": "P229",
-            "display": "Respiratory distress of newborn, unspecified"
-        },
-        {
-            "code": "P230",
-            "display": "Congenital pneumonia due to viral agent"
-        },
-        {
-            "code": "P232",
-            "display": "Congenital pneumonia due to staphylococcus"
-        },
-        {
-            "code": "P233",
-            "display": "Congenital pneumonia due to streptococcus, group B"
-        },
-        {
-            "code": "P234",
-            "display": "Congenital pneumonia due to Escherichia coli"
-        },
-        {
-            "code": "P235",
-            "display": "Congenital pneumonia due to Pseudomonas"
-        },
-        {
-            "code": "P236",
-            "display": "Congenital pneumonia due to other bacterial agents"
-        },
-        {
-            "code": "P239",
-            "display": "Congenital pneumonia, unspecified"
-        },
-        {
-            "code": "P2400",
-            "display": "Meconium aspiration without respiratory symptoms"
-        },
-        {
-            "code": "P2401",
-            "display": "Meconium aspiration with respiratory symptoms"
-        },
-        {
-            "code": "P2411",
-            "display": "Neonatal aspiration of (clear) amniotic fluid and mucus with respiratory symptoms"
-        },
-        {
-            "code": "P2421",
-            "display": "Neonatal aspiration of blood with respiratory symptoms"
-        },
-        {
-            "code": "P2430",
-            "display": "Neonatal aspiration of milk and regurgitated food without respiratory symptoms"
-        },
-        {
-            "code": "P2431",
-            "display": "Neonatal aspiration of milk and regurgitated food with respiratory symptoms"
-        },
-        {
-            "code": "P2480",
-            "display": "Other neonatal aspiration without respiratory symptoms"
-        },
-        {
-            "code": "P2481",
-            "display": "Other neonatal aspiration with respiratory symptoms"
-        },
-        {
-            "code": "P249",
-            "display": "Neonatal aspiration, unspecified"
-        },
-        {
-            "code": "P250",
-            "display": "Interstitial emphysema originating in the perinatal period"
-        },
-        {
-            "code": "P251",
-            "display": "Pneumothorax originating in the perinatal period"
-        },
-        {
-            "code": "P252",
-            "display": "Pneumomediastinum originating in the perinatal period"
-        },
-        {
-            "code": "P268",
-            "display": "Other pulmonary hemorrhages originating in the perinatal period"
-        },
-        {
-            "code": "P269",
-            "display": "Unspecified pulmonary hemorrhage originating in the perinatal period"
-        },
-        {
-            "code": "P270",
-            "display": "Wilson-Mikity syndrome"
         },
         {
             "code": "P271",
             "display": "Bronchopulmonary dysplasia originating in the perinatal period"
         },
         {
-            "code": "P278",
-            "display": "Other chronic respiratory diseases originating in the perinatal period"
-        },
-        {
-            "code": "P279",
-            "display": "Unspecified chronic respiratory disease originating in the perinatal period"
-        },
-        {
-            "code": "P280",
-            "display": "Primary atelectasis of newborn"
-        },
-        {
-            "code": "P2810",
-            "display": "Unspecified atelectasis of newborn"
-        },
-        {
-            "code": "P2819",
-            "display": "Other atelectasis of newborn"
-        },
-        {
-            "code": "P282",
-            "display": "Cyanotic attacks of newborn"
-        },
-        {
-            "code": "P283",
-            "display": "Primary sleep apnea of newborn"
-        },
-        {
-            "code": "P284",
-            "display": "Other apnea of newborn"
-        },
-        {
-            "code": "P285",
-            "display": "Respiratory failure of newborn"
-        },
-        {
-            "code": "P2881",
-            "display": "Respiratory arrest of newborn"
-        },
-        {
-            "code": "P2889",
-            "display": "Other specified respiratory conditions of newborn"
-        },
-        {
-            "code": "P289",
-            "display": "Respiratory condition of newborn, unspecified"
-        },
-        {
-            "code": "P290",
-            "display": "Neonatal cardiac failure"
-        },
-        {
-            "code": "P2911",
-            "display": "Neonatal tachycardia"
-        },
-        {
-            "code": "P2912",
-            "display": "Neonatal bradycardia"
-        },
-        {
-            "code": "P292",
-            "display": "Neonatal hypertension"
-        },
-        {
-            "code": "P293",
-            "display": "Persistent fetal circulation"
-        },
-        {
-            "code": "P2930",
-            "display": "Pulmonary hypertension of newborn"
-        },
-        {
-            "code": "P2938",
-            "display": "Other persistent fetal circulation"
-        },
-        {
-            "code": "P2981",
-            "display": "Cardiac arrest of newborn"
-        },
-        {
-            "code": "P2989",
-            "display": "Other cardiovascular disorders originating in the perinatal period"
-        },
-        {
-            "code": "P299",
-            "display": "Cardiovascular disorder originating in the perinatal period, unspecified"
-        },
-        {
-            "code": "P351",
-            "display": "Congenital cytomegalovirus infection"
-        },
-        {
-            "code": "P352",
-            "display": "Congenital herpesviral [herpes simplex] infection"
-        },
-        {
-            "code": "P359",
-            "display": "Congenital viral disease, unspecified"
-        },
-        {
-            "code": "P360",
-            "display": "Sepsis of newborn due to streptococcus, group B"
-        },
-        {
-            "code": "P3619",
-            "display": "Sepsis of newborn due to other streptococci"
-        },
-        {
-            "code": "P362",
-            "display": "Sepsis of newborn due to Staphylococcus aureus"
-        },
-        {
-            "code": "P3639",
-            "display": "Sepsis of newborn due to other staphylococci"
-        },
-        {
-            "code": "P364",
-            "display": "Sepsis of newborn due to Escherichia coli"
-        },
-        {
-            "code": "P365",
-            "display": "Sepsis of newborn due to anaerobes"
-        },
-        {
-            "code": "P368",
-            "display": "Other bacterial sepsis of newborn"
-        },
-        {
-            "code": "P369",
-            "display": "Bacterial sepsis of newborn, unspecified"
-        },
-        {
-            "code": "P372",
-            "display": "Neonatal (disseminated) listeriosis"
-        },
-        {
-            "code": "P375",
-            "display": "Neonatal candidiasis"
-        },
-        {
-            "code": "P378",
-            "display": "Other specified congenital infectious and parasitic diseases"
-        },
-        {
-            "code": "P389",
-            "display": "Omphalitis without hemorrhage"
-        },
-        {
-            "code": "P391",
-            "display": "Neonatal conjunctivitis and dacryocystitis"
-        },
-        {
-            "code": "P393",
-            "display": "Neonatal urinary tract infection"
-        },
-        {
-            "code": "P394",
-            "display": "Neonatal skin infection"
-        },
-        {
-            "code": "P398",
-            "display": "Other specified infections specific to the perinatal period"
-        },
-        {
-            "code": "P399",
-            "display": "Infection specific to the perinatal period, unspecified"
-        },
-        {
-            "code": "P504",
-            "display": "Newborn affected by hemorrhage into maternal circulation"
-        },
-        {
-            "code": "P518",
-            "display": "Other umbilical hemorrhages of newborn"
-        },
-        {
-            "code": "P519",
-            "display": "Umbilical hemorrhage of newborn, unspecified"
-        },
-        {
-            "code": "P520",
-            "display": "Intraventricular (nontraumatic) hemorrhage, grade 1, of newborn"
-        },
-        {
-            "code": "P521",
-            "display": "Intraventricular (nontraumatic) hemorrhage, grade 2, of newborn"
-        },
-        {
-            "code": "P5221",
-            "display": "Intraventricular (nontraumatic) hemorrhage, grade 3, of newborn"
-        },
-        {
-            "code": "P5222",
-            "display": "Intraventricular (nontraumatic) hemorrhage, grade 4, of newborn"
-        },
-        {
-            "code": "P523",
-            "display": "Unspecified intraventricular (nontraumatic) hemorrhage of newborn"
-        },
-        {
-            "code": "P524",
-            "display": "Intracerebral (nontraumatic) hemorrhage of newborn"
-        },
-        {
-            "code": "P525",
-            "display": "Subarachnoid (nontraumatic) hemorrhage of newborn"
-        },
-        {
-            "code": "P526",
-            "display": "Cerebellar (nontraumatic) and posterior fossa hemorrhage of newborn"
-        },
-        {
-            "code": "P528",
-            "display": "Other intracranial (nontraumatic) hemorrhages of newborn"
-        },
-        {
-            "code": "P529",
-            "display": "Intracranial (nontraumatic) hemorrhage of newborn, unspecified"
-        },
-        {
-            "code": "P53",
-            "display": "Hemorrhagic disease of newborn"
-        },
-        {
-            "code": "P540",
-            "display": "Neonatal hematemesis"
-        },
-        {
-            "code": "P541",
-            "display": "Neonatal melena"
-        },
-        {
-            "code": "P544",
-            "display": "Neonatal adrenal hemorrhage"
-        },
-        {
-            "code": "P545",
-            "display": "Neonatal cutaneous hemorrhage"
-        },
-        {
-            "code": "P546",
-            "display": "Neonatal vaginal hemorrhage"
-        },
-        {
-            "code": "P548",
-            "display": "Other specified neonatal hemorrhages"
-        },
-        {
-            "code": "P549",
-            "display": "Neonatal hemorrhage, unspecified"
-        },
-        {
-            "code": "P550",
-            "display": "Rh isoimmunization of newborn"
-        },
-        {
-            "code": "P551",
-            "display": "ABO isoimmunization of newborn"
-        },
-        {
-            "code": "P558",
-            "display": "Other hemolytic diseases of newborn"
-        },
-        {
-            "code": "P559",
-            "display": "Hemolytic disease of newborn, unspecified"
-        },
-        {
-            "code": "P5699",
-            "display": "Hydrops fetalis due to other hemolytic disease"
-        },
-        {
-            "code": "P589",
-            "display": "Neonatal jaundice due to excessive hemolysis, unspecified"
-        },
-        {
-            "code": "P590",
-            "display": "Neonatal jaundice associated with preterm delivery"
-        },
-        {
-            "code": "P593",
-            "display": "Neonatal jaundice from breast milk inhibitor"
-        },
-        {
-            "code": "P598",
-            "display": "Neonatal jaundice from other specified causes"
-        },
-        {
-            "code": "P599",
-            "display": "Neonatal jaundice, unspecified"
-        },
-        {
-            "code": "P60",
-            "display": "Disseminated intravascular coagulation of newborn"
-        },
-        {
-            "code": "P610",
-            "display": "Transient neonatal thrombocytopenia"
-        },
-        {
-            "code": "P611",
-            "display": "Polycythemia neonatorum"
-        },
-        {
-            "code": "P612",
-            "display": "Anemia of prematurity"
-        },
-        {
-            "code": "P613",
-            "display": "Congenital anemia from fetal blood loss"
-        },
-        {
-            "code": "P614",
-            "display": "Other congenital anemias, not elsewhere classified"
-        },
-        {
-            "code": "P615",
-            "display": "Transient neonatal neutropenia"
-        },
-        {
-            "code": "P616",
-            "display": "Other transient neonatal disorders of coagulation"
-        },
-        {
-            "code": "P618",
-            "display": "Other specified perinatal hematological disorders"
-        },
-        {
-            "code": "P700",
-            "display": "Syndrome of infant of mother with gestational diabetes"
-        },
-        {
-            "code": "P701",
-            "display": "Syndrome of infant of a diabetic mother"
-        },
-        {
-            "code": "P702",
-            "display": "Neonatal diabetes mellitus"
-        },
-        {
-            "code": "P703",
-            "display": "Iatrogenic neonatal hypoglycemia"
-        },
-        {
-            "code": "P704",
-            "display": "Other neonatal hypoglycemia"
-        },
-        {
-            "code": "P708",
-            "display": "Other transitory disorders of carbohydrate metabolism of newborn"
-        },
-        {
-            "code": "P709",
-            "display": "Transitory disorder of carbohydrate metabolism of newborn, unspecified"
-        },
-        {
-            "code": "P711",
-            "display": "Other neonatal hypocalcemia"
-        },
-        {
-            "code": "P712",
-            "display": "Neonatal hypomagnesemia"
-        },
-        {
-            "code": "P721",
-            "display": "Transitory neonatal hyperthyroidism"
-        },
-        {
-            "code": "P722",
-            "display": "Other transitory neonatal disorders of thyroid function, not elsewhere classified"
-        },
-        {
-            "code": "P728",
-            "display": "Other specified transitory neonatal endocrine disorders"
-        },
-        {
-            "code": "P740",
-            "display": "Late metabolic acidosis of newborn"
-        },
-        {
-            "code": "P741",
-            "display": "Dehydration of newborn"
-        },
-        {
-            "code": "P742",
-            "display": "Disturbances of sodium balance of newborn"
-        },
-        {
-            "code": "P7421",
-            "display": "Hypernatremia of newborn"
-        },
-        {
-            "code": "P7422",
-            "display": "Hyponatremia of newborn"
-        },
-        {
-            "code": "P743",
-            "display": "Disturbances of potassium balance of newborn"
-        },
-        {
-            "code": "P7431",
-            "display": "Hyperkalemia of newborn"
-        },
-        {
-            "code": "P7432",
-            "display": "Hypokalemia of newborn"
-        },
-        {
-            "code": "P744",
-            "display": "Other transitory electrolyte disturbances of newborn"
-        },
-        {
-            "code": "P74421",
-            "display": "Hyperchloremia of newborn"
-        },
-        {
-            "code": "P74422",
-            "display": "Hypochloremia of newborn"
-        },
-        {
-            "code": "P7449",
-            "display": "Other transitory electrolyte disturbance of newborn"
-        },
-        {
-            "code": "P748",
-            "display": "Other transitory metabolic disturbances of newborn"
-        },
-        {
-            "code": "P749",
-            "display": "Transitory metabolic disturbance of newborn, unspecified"
-        },
-        {
-            "code": "P760",
-            "display": "Meconium plug syndrome"
-        },
-        {
-            "code": "P761",
-            "display": "Transitory ileus of newborn"
-        },
-        {
-            "code": "P768",
-            "display": "Other specified intestinal obstruction of newborn"
-        },
-        {
-            "code": "P769",
-            "display": "Intestinal obstruction of newborn, unspecified"
-        },
-        {
-            "code": "P771",
-            "display": "Stage 1 necrotizing enterocolitis in newborn"
-        },
-        {
-            "code": "P772",
-            "display": "Stage 2 necrotizing enterocolitis in newborn"
-        },
-        {
-            "code": "P773",
-            "display": "Stage 3 necrotizing enterocolitis in newborn"
-        },
-        {
-            "code": "P779",
-            "display": "Necrotizing enterocolitis in newborn, unspecified"
-        },
-        {
-            "code": "P780",
-            "display": "Perinatal intestinal perforation"
-        },
-        {
-            "code": "P782",
-            "display": "Neonatal hematemesis and melena due to swallowed maternal blood"
-        },
-        {
-            "code": "P783",
-            "display": "Noninfective neonatal diarrhea"
-        },
-        {
-            "code": "P7883",
-            "display": "Newborn esophageal reflux"
-        },
-        {
-            "code": "P7889",
-            "display": "Other specified perinatal digestive system disorders"
-        },
-        {
-            "code": "P789",
-            "display": "Perinatal digestive system disorder, unspecified"
-        },
-        {
-            "code": "P808",
-            "display": "Other hypothermia of newborn"
-        },
-        {
-            "code": "P809",
-            "display": "Hypothermia of newborn, unspecified"
-        },
-        {
-            "code": "P810",
-            "display": "Environmental hyperthermia of newborn"
-        },
-        {
-            "code": "P818",
-            "display": "Other specified disturbances of temperature regulation of newborn"
-        },
-        {
-            "code": "P819",
-            "display": "Disturbance of temperature regulation of newborn, unspecified"
-        },
-        {
-            "code": "P830",
-            "display": "Sclerema neonatorum"
-        },
-        {
-            "code": "P831",
-            "display": "Neonatal erythema toxicum"
-        },
-        {
-            "code": "P832",
-            "display": "Hydrops fetalis not due to hemolytic disease"
-        },
-        {
-            "code": "P8330",
-            "display": "Unspecified edema specific to newborn"
-        },
-        {
-            "code": "P8339",
-            "display": "Other edema specific to newborn"
-        },
-        {
-            "code": "P834",
-            "display": "Breast engorgement of newborn"
-        },
-        {
             "code": "P835",
             "display": "Congenital hydrocele"
         },
         {
-            "code": "P838",
-            "display": "Other specified conditions of integument specific to newborn"
-        },
-        {
-            "code": "P8388",
-            "display": "Other specified conditions of integument specific to newborn"
-        },
-        {
-            "code": "P839",
-            "display": "Condition of the integument specific to newborn, unspecified"
-        },
-        {
-            "code": "P84",
-            "display": "Other problems with newborn"
-        },
-        {
-            "code": "P90",
-            "display": "Convulsions of newborn"
-        },
-        {
-            "code": "P910",
-            "display": "Neonatal cerebral ischemia"
-        },
-        {
-            "code": "P911",
-            "display": "Acquired periventricular cysts of newborn"
-        },
-        {
-            "code": "P912",
-            "display": "Neonatal cerebral leukomalacia"
-        },
-        {
-            "code": "P914",
-            "display": "Neonatal cerebral depression"
-        },
-        {
-            "code": "P9160",
-            "display": "Hypoxic ischemic encephalopathy [HIE], unspecified"
-        },
-        {
-            "code": "P9161",
-            "display": "Mild hypoxic ischemic encephalopathy [HIE]"
-        },
-        {
-            "code": "P9162",
-            "display": "Moderate hypoxic ischemic encephalopathy [HIE]"
-        },
-        {
-            "code": "P9163",
-            "display": "Severe hypoxic ischemic encephalopathy [HIE]"
-        },
-        {
-            "code": "P918",
-            "display": "Other specified disturbances of cerebral status of newborn"
-        },
-        {
-            "code": "P91811",
-            "display": "Neonatal encephalopathy in diseases classified elsewhere"
-        },
-        {
-            "code": "P91819",
-            "display": "Neonatal encephalopathy, unspecified"
-        },
-        {
-            "code": "P919",
-            "display": "Disturbance of cerebral status of newborn, unspecified"
-        },
-        {
-            "code": "P9201",
-            "display": "Bilious vomiting of newborn"
-        },
-        {
-            "code": "P9209",
-            "display": "Other vomiting of newborn"
-        },
-        {
-            "code": "P922",
-            "display": "Slow feeding of newborn"
-        },
-        {
-            "code": "P923",
-            "display": "Underfeeding of newborn"
-        },
-        {
-            "code": "P925",
-            "display": "Neonatal difficulty in feeding at breast"
-        },
-        {
-            "code": "P928",
-            "display": "Other feeding problems of newborn"
-        },
-        {
-            "code": "P929",
-            "display": "Feeding problem of newborn, unspecified"
-        },
-        {
-            "code": "P941",
-            "display": "Congenital hypertonia"
-        },
-        {
-            "code": "P942",
-            "display": "Congenital hypotonia"
-        },
-        {
-            "code": "P948",
-            "display": "Other disorders of muscle tone of newborn"
-        },
-        {
-            "code": "P949",
-            "display": "Disorder of muscle tone of newborn, unspecified"
-        },
-        {
-            "code": "P960",
-            "display": "Congenital renal failure"
-        },
-        {
-            "code": "P961",
-            "display": "Neonatal withdrawal symptoms from maternal use of drugs of addiction"
-        },
-        {
-            "code": "P962",
-            "display": "Withdrawal symptoms from therapeutic use of drugs in newborn"
-        },
-        {
-            "code": "P963",
-            "display": "Wide cranial sutures of newborn"
-        },
-        {
             "code": "P9681",
             "display": "Exposure to (parental) (environmental) tobacco smoke in the perinatal period"
-        },
-        {
-            "code": "P9683",
-            "display": "Meconium staining"
-        },
-        {
-            "code": "P9689",
-            "display": "Other specified conditions originating in the perinatal period"
-        },
-        {
-            "code": "P969",
-            "display": "Condition originating in the perinatal period, unspecified"
-        },
-        {
-            "code": "Q012",
-            "display": "Occipital encephalocele"
         },
         {
             "code": "Q018",
@@ -39153,14 +37726,6 @@
             "display": "Congenital ptosis"
         },
         {
-            "code": "Q101",
-            "display": "Congenital ectropion"
-        },
-        {
-            "code": "Q105",
-            "display": "Congenital stenosis and stricture of lacrimal duct"
-        },
-        {
             "code": "Q107",
             "display": "Congenital malformation of orbit"
         },
@@ -39179,10 +37744,6 @@
         {
             "code": "Q121",
             "display": "Congenital displaced lens"
-        },
-        {
-            "code": "Q122",
-            "display": "Coloboma of lens"
         },
         {
             "code": "Q130",
@@ -39213,44 +37774,12 @@
             "display": "Congenital glaucoma"
         },
         {
-            "code": "Q170",
-            "display": "Accessory auricle"
-        },
-        {
-            "code": "Q172",
-            "display": "Microtia"
-        },
-        {
-            "code": "Q173",
-            "display": "Other misshapen ear"
-        },
-        {
-            "code": "Q174",
-            "display": "Misplaced ear"
-        },
-        {
-            "code": "Q175",
-            "display": "Prominent ear"
-        },
-        {
-            "code": "Q178",
-            "display": "Other specified congenital malformations of ear"
-        },
-        {
-            "code": "Q179",
-            "display": "Congenital malformation of ear, unspecified"
-        },
-        {
             "code": "Q180",
             "display": "Sinus, fistula and cyst of branchial cleft"
         },
         {
             "code": "Q181",
             "display": "Preauricular sinus and cyst"
-        },
-        {
-            "code": "Q182",
-            "display": "Other branchial cleft malformations"
         },
         {
             "code": "Q188",
@@ -39261,24 +37790,8 @@
             "display": "Congenital malformation of face and neck, unspecified"
         },
         {
-            "code": "Q200",
-            "display": "Common arterial trunk"
-        },
-        {
-            "code": "Q201",
-            "display": "Double outlet right ventricle"
-        },
-        {
             "code": "Q202",
             "display": "Double outlet left ventricle"
-        },
-        {
-            "code": "Q203",
-            "display": "Discordant ventriculoarterial connection"
-        },
-        {
-            "code": "Q204",
-            "display": "Double inlet ventricle"
         },
         {
             "code": "Q205",
@@ -39305,16 +37818,8 @@
             "display": "Tetralogy of Fallot"
         },
         {
-            "code": "Q218",
-            "display": "Other congenital malformations of cardiac septa"
-        },
-        {
             "code": "Q219",
             "display": "Congenital malformation of cardiac septum, unspecified"
-        },
-        {
-            "code": "Q220",
-            "display": "Pulmonary valve atresia"
         },
         {
             "code": "Q221",
@@ -39325,24 +37830,12 @@
             "display": "Congenital pulmonary valve insufficiency"
         },
         {
-            "code": "Q223",
-            "display": "Other congenital malformations of pulmonary valve"
-        },
-        {
             "code": "Q225",
             "display": "Ebstein's anomaly"
         },
         {
-            "code": "Q226",
-            "display": "Hypoplastic right heart syndrome"
-        },
-        {
             "code": "Q228",
             "display": "Other congenital malformations of tricuspid valve"
-        },
-        {
-            "code": "Q229",
-            "display": "Congenital malformation of tricuspid valve, unspecified"
         },
         {
             "code": "Q230",
@@ -39355,10 +37848,6 @@
         {
             "code": "Q233",
             "display": "Congenital mitral insufficiency"
-        },
-        {
-            "code": "Q234",
-            "display": "Hypoplastic left heart syndrome"
         },
         {
             "code": "Q238",
@@ -39405,10 +37894,6 @@
             "display": "Coarctation of aorta"
         },
         {
-            "code": "Q2521",
-            "display": "Interruption of aortic arch"
-        },
-        {
             "code": "Q254",
             "display": "Other congenital malformations of aorta"
         },
@@ -39417,16 +37902,8 @@
             "display": "Congenital malformation of aorta unspecified"
         },
         {
-            "code": "Q2542",
-            "display": "Hypoplasia of aorta"
-        },
-        {
             "code": "Q2543",
             "display": "Congenital aneurysm of aorta"
-        },
-        {
-            "code": "Q2544",
-            "display": "Congenital dilation of aorta"
         },
         {
             "code": "Q2545",
@@ -39463,14 +37940,6 @@
         {
             "code": "Q2579",
             "display": "Other congenital malformations of pulmonary artery"
-        },
-        {
-            "code": "Q258",
-            "display": "Other congenital malformations of other great arteries"
-        },
-        {
-            "code": "Q262",
-            "display": "Total anomalous pulmonary venous connection"
         },
         {
             "code": "Q263",
@@ -39557,18 +38026,6 @@
             "display": "Congenital malformation of circulatory system, unspecified"
         },
         {
-            "code": "Q300",
-            "display": "Choanal atresia"
-        },
-        {
-            "code": "Q301",
-            "display": "Agenesis and underdevelopment of nose"
-        },
-        {
-            "code": "Q308",
-            "display": "Other congenital malformations of nose"
-        },
-        {
             "code": "Q310",
             "display": "Web of larynx"
         },
@@ -39625,44 +38082,12 @@
             "display": "Other congenital malformations of lung"
         },
         {
-            "code": "Q339",
-            "display": "Congenital malformation of lung, unspecified"
-        },
-        {
             "code": "Q341",
             "display": "Congenital cyst of mediastinum"
         },
         {
-            "code": "Q348",
-            "display": "Other specified congenital malformations of respiratory system"
-        },
-        {
-            "code": "Q353",
-            "display": "Cleft soft palate"
-        },
-        {
             "code": "Q359",
             "display": "Cleft palate, unspecified"
-        },
-        {
-            "code": "Q369",
-            "display": "Cleft lip, unilateral"
-        },
-        {
-            "code": "Q373",
-            "display": "Cleft soft palate with unilateral cleft lip"
-        },
-        {
-            "code": "Q378",
-            "display": "Unspecified cleft palate with bilateral cleft lip"
-        },
-        {
-            "code": "Q379",
-            "display": "Unspecified cleft palate with unilateral cleft lip"
-        },
-        {
-            "code": "Q381",
-            "display": "Ankyloglossia"
         },
         {
             "code": "Q382",
@@ -39733,10 +38158,6 @@
             "display": "Congenital malformation of stomach, unspecified"
         },
         {
-            "code": "R10817",
-            "display": "Generalized abdominal tenderness"
-        },
-        {
             "code": "Q408",
             "display": "Other specified congenital malformations of upper alimentary tract"
         },
@@ -39749,20 +38170,12 @@
             "display": "Congenital absence, atresia and stenosis of jejunum"
         },
         {
-            "code": "Q419",
-            "display": "Congenital absence, atresia and stenosis of small intestine, part unspecified"
-        },
-        {
             "code": "Q422",
             "display": "Congenital absence, atresia and stenosis of anus with fistula"
         },
         {
             "code": "Q423",
             "display": "Congenital absence, atresia and stenosis of anus without fistula"
-        },
-        {
-            "code": "Q428",
-            "display": "Congenital absence, atresia and stenosis of other parts of large intestine"
         },
         {
             "code": "Q430",
@@ -39775,10 +38188,6 @@
         {
             "code": "Q433",
             "display": "Congenital malformations of intestinal fixation"
-        },
-        {
-            "code": "Q436",
-            "display": "Congenital fistula of rectum and anus"
         },
         {
             "code": "Q437",
@@ -39803,10 +38212,6 @@
         {
             "code": "Q442",
             "display": "Atresia of bile ducts"
-        },
-        {
-            "code": "Q443",
-            "display": "Congenital stenosis and stricture of bile ducts"
         },
         {
             "code": "Q444",
@@ -39839,14 +38244,6 @@
         {
             "code": "Q5001",
             "display": "Congenital absence of ovary, unilateral"
-        },
-        {
-            "code": "Q501",
-            "display": "Developmental ovarian cyst"
-        },
-        {
-            "code": "Q502",
-            "display": "Congenital torsion of ovary"
         },
         {
             "code": "Q510",
@@ -39889,20 +38286,8 @@
             "display": "Congenital absence of vagina"
         },
         {
-            "code": "Q522",
-            "display": "Congenital rectovaginal fistula"
-        },
-        {
-            "code": "Q523",
-            "display": "Imperforate hymen"
-        },
-        {
             "code": "Q524",
             "display": "Other congenital malformations of vagina"
-        },
-        {
-            "code": "Q526",
-            "display": "Congenital malformation of clitoris"
         },
         {
             "code": "Q5279",
@@ -39921,48 +38306,12 @@
             "display": "Unilateral inguinal testis"
         },
         {
-            "code": "Q5313",
-            "display": "Unilateral high scrotal testis"
-        },
-        {
-            "code": "Q5320",
-            "display": "Undescended testicle, unspecified, bilateral"
-        },
-        {
-            "code": "Q5321",
-            "display": "Abdominal testis, bilateral"
-        },
-        {
-            "code": "Q53211",
-            "display": "Bilateral intraabdominal testes"
-        },
-        {
-            "code": "Q53212",
-            "display": "Bilateral inguinal testes"
-        },
-        {
             "code": "Q539",
             "display": "Undescended testicle, unspecified"
         },
         {
-            "code": "Q540",
-            "display": "Hypospadias, balanic"
-        },
-        {
             "code": "Q541",
             "display": "Hypospadias, penile"
-        },
-        {
-            "code": "Q542",
-            "display": "Hypospadias, penoscrotal"
-        },
-        {
-            "code": "Q543",
-            "display": "Hypospadias, perineal"
-        },
-        {
-            "code": "Q544",
-            "display": "Congenital chordee"
         },
         {
             "code": "Q548",
@@ -39973,10 +38322,6 @@
             "display": "Hypospadias, unspecified"
         },
         {
-            "code": "Q5520",
-            "display": "Unspecified congenital malformations of testis and scrotum"
-        },
-        {
             "code": "Q5529",
             "display": "Other congenital malformations of testis and scrotum"
         },
@@ -39985,16 +38330,8 @@
             "display": "Curvature of penis (lateral)"
         },
         {
-            "code": "Q5562",
-            "display": "Hypoplasia of penis"
-        },
-        {
             "code": "Q5564",
             "display": "Hidden penis"
-        },
-        {
-            "code": "Q558",
-            "display": "Other specified congenital malformations of male genital organs"
         },
         {
             "code": "Q560",
@@ -40023,10 +38360,6 @@
         {
             "code": "Q605",
             "display": "Renal hypoplasia, unspecified"
-        },
-        {
-            "code": "Q606",
-            "display": "Potter's syndrome"
         },
         {
             "code": "Q6100",
@@ -40073,16 +38406,8 @@
             "display": "Congenital occlusion of ureter, unspecified"
         },
         {
-            "code": "Q6211",
-            "display": "Congenital occlusion of ureteropelvic junction"
-        },
-        {
             "code": "Q622",
             "display": "Congenital megaureter"
-        },
-        {
-            "code": "Q6231",
-            "display": "Congenital ureterocele, orthotopic"
         },
         {
             "code": "Q6239",
@@ -40113,10 +38438,6 @@
             "display": "Ectopic kidney"
         },
         {
-            "code": "Q633",
-            "display": "Hyperplastic and giant kidney"
-        },
-        {
             "code": "Q638",
             "display": "Other specified congenital malformations of kidney"
         },
@@ -40139,10 +38460,6 @@
         {
             "code": "Q6419",
             "display": "Other exstrophy of urinary bladder"
-        },
-        {
-            "code": "Q642",
-            "display": "Congenital posterior urethral valves"
         },
         {
             "code": "Q6431",
@@ -40169,36 +38486,12 @@
             "display": "Congenital prolapse of urethra"
         },
         {
-            "code": "Q6473",
-            "display": "Congenital urethrorectal fistula"
-        },
-        {
             "code": "Q6479",
             "display": "Other congenital malformations of bladder and urethra"
         },
         {
             "code": "Q648",
             "display": "Other specified congenital malformations of urinary system"
-        },
-        {
-            "code": "Q6501",
-            "display": "Congenital dislocation of right hip, unilateral"
-        },
-        {
-            "code": "Q6502",
-            "display": "Congenital dislocation of left hip, unilateral"
-        },
-        {
-            "code": "Q651",
-            "display": "Congenital dislocation of hip, bilateral"
-        },
-        {
-            "code": "Q654",
-            "display": "Congenital partial dislocation of hip, bilateral"
-        },
-        {
-            "code": "Q655",
-            "display": "Congenital partial dislocation of hip, unspecified"
         },
         {
             "code": "Q6582",
@@ -40209,10 +38502,6 @@
             "display": "Other specified congenital deformities of hip"
         },
         {
-            "code": "Q659",
-            "display": "Congenital deformity of hip, unspecified"
-        },
-        {
             "code": "Q660",
             "display": "Congenital talipes equinovarus"
         },
@@ -40221,44 +38510,12 @@
             "display": "Congenital talipes calcaneovarus"
         },
         {
-            "code": "Q6611",
-            "display": "Congenital talipes calcaneovarus, right foot"
-        },
-        {
-            "code": "Q6612",
-            "display": "Congenital talipes calcaneovarus, left foot"
-        },
-        {
-            "code": "Q662",
-            "display": "Congenital metatarsus (primus) varus"
-        },
-        {
-            "code": "Q6622",
-            "display": "Congenital metatarsus adductus"
-        },
-        {
-            "code": "Q663",
-            "display": "Other congenital varus deformities of feet"
-        },
-        {
-            "code": "Q664",
-            "display": "Congenital talipes calcaneovalgus"
-        },
-        {
             "code": "Q6650",
             "display": "Congenital pes planus, unspecified foot"
         },
         {
-            "code": "Q666",
-            "display": "Other congenital valgus deformities of feet"
-        },
-        {
             "code": "Q667",
             "display": "Congenital pes cavus"
-        },
-        {
-            "code": "Q6682",
-            "display": "Congenital vertical talus deformity, left foot"
         },
         {
             "code": "Q6689",
@@ -40277,10 +38534,6 @@
             "display": "Dolichocephaly"
         },
         {
-            "code": "Q673",
-            "display": "Plagiocephaly"
-        },
-        {
             "code": "Q674",
             "display": "Other congenital deformities of skull, face and jaw"
         },
@@ -40297,10 +38550,6 @@
             "display": "Pectus carinatum"
         },
         {
-            "code": "Q678",
-            "display": "Other congenital deformities of chest"
-        },
-        {
             "code": "Q680",
             "display": "Congenital deformity of sternocleidomastoid muscle"
         },
@@ -40309,60 +38558,8 @@
             "display": "Congenital deformity of finger(s) and hand"
         },
         {
-            "code": "Q683",
-            "display": "Congenital bowing of femur"
-        },
-        {
             "code": "Q688",
             "display": "Other specified congenital musculoskeletal deformities"
-        },
-        {
-            "code": "Q690",
-            "display": "Accessory finger(s)"
-        },
-        {
-            "code": "Q691",
-            "display": "Accessory thumb(s)"
-        },
-        {
-            "code": "Q692",
-            "display": "Accessory toe(s)"
-        },
-        {
-            "code": "Q699",
-            "display": "Polydactyly, unspecified"
-        },
-        {
-            "code": "Q7002",
-            "display": "Fused fingers, left hand"
-        },
-        {
-            "code": "Q7003",
-            "display": "Fused fingers, bilateral"
-        },
-        {
-            "code": "Q7012",
-            "display": "Webbed fingers, left hand"
-        },
-        {
-            "code": "Q7023",
-            "display": "Fused toes, bilateral"
-        },
-        {
-            "code": "Q7030",
-            "display": "Webbed toes, unspecified foot"
-        },
-        {
-            "code": "Q7031",
-            "display": "Webbed toes, right foot"
-        },
-        {
-            "code": "Q7032",
-            "display": "Webbed toes, left foot"
-        },
-        {
-            "code": "Q7033",
-            "display": "Webbed toes, bilateral"
         },
         {
             "code": "Q709",
@@ -40377,28 +38574,20 @@
             "display": "Congenital absence of both forearm and hand, right upper limb"
         },
         {
-            "code": "Q7131",
-            "display": "Congenital absence of right hand and finger"
+            "code": "R0600",
+            "display": "Dyspnea, unspecified"
         },
         {
-            "code": "Q7132",
-            "display": "Congenital absence of left hand and finger"
+            "code": "Q7131",
+            "display": "Congenital absence of right hand and finger"
         },
         {
             "code": "Q7133",
             "display": "Congenital absence of hand and finger, bilateral"
         },
         {
-            "code": "Q7142",
-            "display": "Longitudinal reduction defect of left radius"
-        },
-        {
             "code": "Q71892",
             "display": "Other reduction defects of left upper limb"
-        },
-        {
-            "code": "Q71893",
-            "display": "Other reduction defects of upper limb, bilateral"
         },
         {
             "code": "Q71899",
@@ -40415,10 +38604,6 @@
         {
             "code": "Q7231",
             "display": "Congenital absence of right foot and toe(s)"
-        },
-        {
-            "code": "Q7233",
-            "display": "Congenital absence of foot and toe(s), bilateral"
         },
         {
             "code": "Q7252",
@@ -40445,24 +38630,12 @@
             "display": "Unspecified congenital malformation of limb(s)"
         },
         {
-            "code": "Q750",
-            "display": "Craniosynostosis"
-        },
-        {
             "code": "Q751",
             "display": "Craniofacial dysostosis"
         },
         {
-            "code": "Q753",
-            "display": "Macrocephaly"
-        },
-        {
             "code": "Q758",
             "display": "Other specified congenital malformations of skull and face bones"
-        },
-        {
-            "code": "Q759",
-            "display": "Congenital malformation of skull and face bones, unspecified"
         },
         {
             "code": "Q760",
@@ -40477,24 +38650,12 @@
             "display": "Congenital spondylolisthesis"
         },
         {
-            "code": "Q763",
-            "display": "Congenital scoliosis due to congenital bony malformation"
-        },
-        {
             "code": "Q76419",
             "display": "Congenital kyphosis, unspecified region"
         },
         {
             "code": "Q7649",
             "display": "Other congenital malformations of spine, not associated with scoliosis"
-        },
-        {
-            "code": "Q766",
-            "display": "Other congenital malformations of ribs"
-        },
-        {
-            "code": "Q767",
-            "display": "Congenital malformation of sternum"
         },
         {
             "code": "Q774",
@@ -40541,10 +38702,6 @@
             "display": "Exomphalos"
         },
         {
-            "code": "Q793",
-            "display": "Gastroschisis"
-        },
-        {
             "code": "Q794",
             "display": "Prune belly syndrome"
         },
@@ -40585,10 +38742,6 @@
             "display": "Ichthyosis vulgaris"
         },
         {
-            "code": "Q802",
-            "display": "Lamellar ichthyosis"
-        },
-        {
             "code": "Q809",
             "display": "Congenital ichthyosis, unspecified"
         },
@@ -40621,40 +38774,16 @@
             "display": "Congenital non-neoplastic nevus"
         },
         {
-            "code": "Q826",
-            "display": "Congenital sacral dimple"
-        },
-        {
-            "code": "R29730",
-            "display": "NIHSS score 30"
-        },
-        {
             "code": "Q828",
             "display": "Other specified congenital malformations of skin"
-        },
-        {
-            "code": "Q829",
-            "display": "Congenital malformation of skin, unspecified"
         },
         {
             "code": "Q831",
             "display": "Accessory breast"
         },
         {
-            "code": "Q833",
-            "display": "Accessory nipple"
-        },
-        {
             "code": "Q838",
             "display": "Other congenital malformations of breast"
-        },
-        {
-            "code": "Q848",
-            "display": "Other specified congenital malformations of integument"
-        },
-        {
-            "code": "Q849",
-            "display": "Congenital malformation of integument, unspecified"
         },
         {
             "code": "Q8500",
@@ -40729,10 +38858,6 @@
             "display": "Marfan's syndrome with skeletal manifestation"
         },
         {
-            "code": "Q875",
-            "display": "Other congenital malformation syndromes with other skeletal changes"
-        },
-        {
             "code": "Q8781",
             "display": "Alport syndrome"
         },
@@ -40747,10 +38872,6 @@
         {
             "code": "Q8909",
             "display": "Congenital malformations of spleen"
-        },
-        {
-            "code": "Q891",
-            "display": "Congenital malformations of adrenal gland"
         },
         {
             "code": "Q892",
@@ -40781,32 +38902,8 @@
             "display": "Down syndrome, unspecified"
         },
         {
-            "code": "Q913",
-            "display": "Trisomy 18, unspecified"
-        },
-        {
-            "code": "Q917",
-            "display": "Trisomy 13, unspecified"
-        },
-        {
-            "code": "Q925",
-            "display": "Duplications with other complex rearrangements"
-        },
-        {
-            "code": "Q927",
-            "display": "Triploidy and polyploidy"
-        },
-        {
             "code": "Q928",
             "display": "Other specified trisomies and partial trisomies of autosomes"
-        },
-        {
-            "code": "Q933",
-            "display": "Deletion of short arm of chromosome 4"
-        },
-        {
-            "code": "Q934",
-            "display": "Deletion of short arm of chromosome 5"
         },
         {
             "code": "Q9382",
@@ -40919,10 +39016,6 @@
         {
             "code": "R05",
             "display": "Cough"
-        },
-        {
-            "code": "R0600",
-            "display": "Dyspnea, unspecified"
         },
         {
             "code": "R0601",
@@ -41105,6 +39198,14 @@
             "display": "Periumbilic abdominal tenderness"
         },
         {
+            "code": "R10816",
+            "display": "Epigastric abdominal tenderness"
+        },
+        {
+            "code": "R10817",
+            "display": "Generalized abdominal tenderness"
+        },
+        {
             "code": "R10819",
             "display": "Abdominal tenderness, unspecified site"
         },
@@ -41267,10 +39368,6 @@
         {
             "code": "R1904",
             "display": "Left lower quadrant abdominal swelling, mass and lump"
-        },
-        {
-            "code": "R1905",
-            "display": "Periumbilic swelling, mass or lump"
         },
         {
             "code": "R1907",
@@ -41485,10 +39582,6 @@
             "display": "Abnormal posture"
         },
         {
-            "code": "R294",
-            "display": "Clicking hip"
-        },
-        {
             "code": "R295",
             "display": "Transient paralysis"
         },
@@ -41615,6 +39708,10 @@
         {
             "code": "R29729",
             "display": "NIHSS score 29"
+        },
+        {
+            "code": "R29730",
+            "display": "NIHSS score 30"
         },
         {
             "code": "R29731",
@@ -43009,10 +41106,6 @@
             "display": "Abnormal brain scan"
         },
         {
-            "code": "R94120",
-            "display": "Abnormal auditory function study"
-        },
-        {
             "code": "R942",
             "display": "Abnormal results of pulmonary function studies"
         },
@@ -43175,10 +41268,6 @@
         {
             "code": "S00512A",
             "display": "Abrasion of oral cavity, initial encounter"
-        },
-        {
-            "code": "Z733",
-            "display": "Stress, not elsewhere classified"
         },
         {
             "code": "S00522A",
@@ -43945,6 +42034,10 @@
             "display": "Fracture of other specified skull and facial bones, left side, subsequent encounter for fracture with routine healing"
         },
         {
+            "code": "Z227",
+            "display": "Latent tuberculosis"
+        },
+        {
             "code": "S02831A",
             "display": "Fracture of medial orbital wall, right side, initial encounter for closed fracture"
         },
@@ -44449,6 +42542,10 @@
             "display": "Epidural hemorrhage with loss of consciousness of unspecified duration, initial encounter"
         },
         {
+            "code": "S098XXA",
+            "display": "Other specified injuries of head, initial encounter"
+        },
+        {
             "code": "S064X9D",
             "display": "Epidural hemorrhage with loss of consciousness of unspecified duration, subsequent encounter"
         },
@@ -44519,10 +42616,6 @@
         {
             "code": "S066X0S",
             "display": "Traumatic subarachnoid hemorrhage without loss of consciousness, sequela"
-        },
-        {
-            "code": "S36262A",
-            "display": "Major laceration of tail of pancreas, initial encounter"
         },
         {
             "code": "S066X1A",
@@ -44679,10 +42772,6 @@
         {
             "code": "S09391A",
             "display": "Other specified injury of right middle and inner ear, initial encounter"
-        },
-        {
-            "code": "S098XXA",
-            "display": "Other specified injuries of head, initial encounter"
         },
         {
             "code": "S098XXS",
@@ -44957,6 +43046,10 @@
             "display": "Other nondisplaced dens fracture, initial encounter for closed fracture"
         },
         {
+            "code": "S134XXA",
+            "display": "Sprain of ligaments of cervical spine, initial encounter"
+        },
+        {
             "code": "S12130A",
             "display": "Unspecified traumatic displaced spondylolisthesis of second cervical vertebra, initial encounter for closed fracture"
         },
@@ -45027,10 +43120,6 @@
         {
             "code": "S12391A",
             "display": "Other nondisplaced fracture of fourth cervical vertebra, initial encounter for closed fracture"
-        },
-        {
-            "code": "S3630XA",
-            "display": "Unspecified injury of stomach, initial encounter"
         },
         {
             "code": "S12400A",
@@ -45215,10 +43304,6 @@
         {
             "code": "S13181A",
             "display": "Dislocation of C7/T1 cervical vertebrae, initial encounter"
-        },
-        {
-            "code": "S134XXA",
-            "display": "Sprain of ligaments of cervical spine, initial encounter"
         },
         {
             "code": "S134XXD",
@@ -45515,6 +43600,10 @@
         {
             "code": "S15391A",
             "display": "Other specified injury of right internal jugular vein, initial encounter"
+        },
+        {
+            "code": "Z565",
+            "display": "Uncongenial work environment"
         },
         {
             "code": "S15392A",
@@ -46045,6 +44134,10 @@
             "display": "Unspecified fracture of T11-T12 vertebra, initial encounter for closed fracture"
         },
         {
+            "code": "S249XXS",
+            "display": "Injury of unspecified nerve of thorax, sequela"
+        },
+        {
             "code": "S22089D",
             "display": "Unspecified fracture of T11-T12 vertebra, subsequent encounter for fracture with routine healing"
         },
@@ -46331,10 +44424,6 @@
         {
             "code": "S24154A",
             "display": "Other incomplete lesion at T11-T12 level of thoracic spinal cord, initial encounter"
-        },
-        {
-            "code": "S249XXS",
-            "display": "Injury of unspecified nerve of thorax, sequela"
         },
         {
             "code": "S2500XS",
@@ -46745,10 +44834,6 @@
             "display": "Unspecified open wound of abdominal wall, left lower quadrant without penetration into peritoneal cavity, sequela"
         },
         {
-            "code": "S3632XA",
-            "display": "Contusion of stomach, initial encounter"
-        },
-        {
             "code": "S31105A",
             "display": "Unspecified open wound of abdominal wall, periumbilic region without penetration into peritoneal cavity, initial encounter"
         },
@@ -46883,6 +44968,10 @@
         {
             "code": "S31613A",
             "display": "Laceration without foreign body of abdominal wall, right lower quadrant with penetration into peritoneal cavity, initial encounter"
+        },
+        {
+            "code": "S32029A",
+            "display": "Unspecified fracture of second lumbar vertebra, initial encounter for closed fracture"
         },
         {
             "code": "S31614A",
@@ -47123,10 +45212,6 @@
         {
             "code": "S32028D",
             "display": "Other fracture of second lumbar vertebra, subsequent encounter for fracture with routine healing"
-        },
-        {
-            "code": "S32029A",
-            "display": "Unspecified fracture of second lumbar vertebra, initial encounter for closed fracture"
         },
         {
             "code": "S32029D",
@@ -48053,6 +46138,18 @@
             "display": "Major laceration of body of pancreas, initial encounter"
         },
         {
+            "code": "S36262A",
+            "display": "Major laceration of tail of pancreas, initial encounter"
+        },
+        {
+            "code": "S3630XA",
+            "display": "Unspecified injury of stomach, initial encounter"
+        },
+        {
+            "code": "S3632XA",
+            "display": "Contusion of stomach, initial encounter"
+        },
+        {
             "code": "S3633XA",
             "display": "Laceration of stomach, initial encounter"
         },
@@ -48617,6 +46714,10 @@
             "display": "Fracture of unspecified part of right clavicle, initial encounter for closed fracture"
         },
         {
+            "code": "S60413A",
+            "display": "Abrasion of left middle finger, initial encounter"
+        },
+        {
             "code": "S42001D",
             "display": "Fracture of unspecified part of right clavicle, subsequent encounter for fracture with routine healing"
         },
@@ -48855,6 +46956,10 @@
         {
             "code": "S42202B",
             "display": "Unspecified fracture of upper end of left humerus, initial encounter for open fracture"
+        },
+        {
+            "code": "S60414A",
+            "display": "Abrasion of right ring finger, initial encounter"
         },
         {
             "code": "S42202D",
@@ -49173,10 +47278,6 @@
             "display": "Unspecified fracture of lower end of left humerus, subsequent encounter for fracture with routine healing"
         },
         {
-            "code": "S43491A",
-            "display": "Other sprain of right shoulder joint, initial encounter"
-        },
-        {
             "code": "S42402K",
             "display": "Unspecified fracture of lower end of left humerus, subsequent encounter for fracture with nonunion"
         },
@@ -49431,6 +47532,10 @@
         {
             "code": "S43439A",
             "display": "Superior glenoid labrum lesion of unspecified shoulder, initial encounter"
+        },
+        {
+            "code": "S43491A",
+            "display": "Other sprain of right shoulder joint, initial encounter"
         },
         {
             "code": "S43492A",
@@ -49897,6 +48002,10 @@
             "display": "Displaced fracture of olecranon process without intraarticular extension of right ulna, initial encounter for closed fracture"
         },
         {
+            "code": "S60416A",
+            "display": "Abrasion of right little finger, initial encounter"
+        },
+        {
             "code": "S52021B",
             "display": "Displaced fracture of olecranon process without intraarticular extension of right ulna, initial encounter for open fracture type I or II"
         },
@@ -50123,6 +48232,10 @@
         {
             "code": "S52252B",
             "display": "Displaced comminuted fracture of shaft of ulna, left arm, initial encounter for open fracture type I or II"
+        },
+        {
+            "code": "S60417A",
+            "display": "Abrasion of left little finger, initial encounter"
         },
         {
             "code": "S52252D",
@@ -50913,22 +49026,6 @@
             "display": "Abrasion of right middle finger, initial encounter"
         },
         {
-            "code": "S60413A",
-            "display": "Abrasion of left middle finger, initial encounter"
-        },
-        {
-            "code": "S60414A",
-            "display": "Abrasion of right ring finger, initial encounter"
-        },
-        {
-            "code": "S60416A",
-            "display": "Abrasion of right little finger, initial encounter"
-        },
-        {
-            "code": "S60417A",
-            "display": "Abrasion of left little finger, initial encounter"
-        },
-        {
             "code": "S60418A",
             "display": "Abrasion of other finger, initial encounter"
         },
@@ -51471,6 +49568,10 @@
         {
             "code": "S62142A",
             "display": "Displaced fracture of body of hamate [unciform] bone, left wrist, initial encounter for closed fracture"
+        },
+        {
+            "code": "S64491A",
+            "display": "Injury of digital nerve of left index finger, initial encounter"
         },
         {
             "code": "S62152A",
@@ -52181,6 +50282,10 @@
             "display": "Nondisplaced fracture of distal phalanx of right index finger, initial encounter for closed fracture"
         },
         {
+            "code": "S90812A",
+            "display": "Abrasion, left foot, initial encounter"
+        },
+        {
             "code": "S62660B",
             "display": "Nondisplaced fracture of distal phalanx of right index finger, initial encounter for open fracture"
         },
@@ -52463,10 +50568,6 @@
         {
             "code": "S64490A",
             "display": "Injury of digital nerve of right index finger, initial encounter"
-        },
-        {
-            "code": "S64491A",
-            "display": "Injury of digital nerve of left index finger, initial encounter"
         },
         {
             "code": "S64492A",
@@ -53509,6 +51610,10 @@
             "display": "Unspecified fracture of shaft of left femur, subsequent encounter for closed fracture with nonunion"
         },
         {
+            "code": "S90821A",
+            "display": "Blister (nonthermal), right foot, initial encounter"
+        },
+        {
             "code": "S72321A",
             "display": "Displaced transverse fracture of shaft of right femur, initial encounter for closed fracture"
         },
@@ -53735,6 +51840,10 @@
         {
             "code": "S72452A",
             "display": "Displaced supracondylar fracture without intracondylar extension of lower end of left femur, initial encounter for closed fracture"
+        },
+        {
+            "code": "S76312A",
+            "display": "Strain of muscle, fascia and tendon of the posterior muscle group at thigh level, left thigh, initial encounter"
         },
         {
             "code": "S72452B",
@@ -54011,10 +52120,6 @@
         {
             "code": "S76311A",
             "display": "Strain of muscle, fascia and tendon of the posterior muscle group at thigh level, right thigh, initial encounter"
-        },
-        {
-            "code": "S76312A",
-            "display": "Strain of muscle, fascia and tendon of the posterior muscle group at thigh level, left thigh, initial encounter"
         },
         {
             "code": "S76811A",
@@ -54435,10 +52540,6 @@
         {
             "code": "S82101A",
             "display": "Unspecified fracture of upper end of right tibia, initial encounter for closed fracture"
-        },
-        {
-            "code": "T368X5S",
-            "display": "Adverse effect of other systemic antibiotics, sequela"
         },
         {
             "code": "S82101B",
@@ -54913,10 +53014,6 @@
             "display": "Unspecified fracture of lower end of left tibia, initial encounter for open fracture type IIIA, IIIB, or IIIC"
         },
         {
-            "code": "T368X6A",
-            "display": "Underdosing of other systemic antibiotics, initial encounter"
-        },
-        {
             "code": "S82302E",
             "display": "Unspecified fracture of lower end of left tibia, subsequent encounter for open fracture type I or II with routine healing"
         },
@@ -55067,6 +53164,10 @@
         {
             "code": "S82441B",
             "display": "Displaced spiral fracture of shaft of right fibula, initial encounter for open fracture type I or II"
+        },
+        {
+            "code": "S82875A",
+            "display": "Nondisplaced pilon fracture of left tibia, initial encounter for closed fracture"
         },
         {
             "code": "S82441D",
@@ -55291,6 +53392,10 @@
         {
             "code": "S82831K",
             "display": "Other fracture of upper and lower end of right fibula, subsequent encounter for closed fracture with nonunion"
+        },
+        {
+            "code": "S90811A",
+            "display": "Abrasion, right foot, initial encounter"
         },
         {
             "code": "S82831M",
@@ -55519,10 +53624,6 @@
         {
             "code": "S82874A",
             "display": "Nondisplaced pilon fracture of right tibia, initial encounter for closed fracture"
-        },
-        {
-            "code": "S82875A",
-            "display": "Nondisplaced pilon fracture of left tibia, initial encounter for closed fracture"
         },
         {
             "code": "S82891A",
@@ -56105,18 +54206,6 @@
             "display": "Insect bite (nonvenomous), left ankle, initial encounter"
         },
         {
-            "code": "S90811A",
-            "display": "Abrasion, right foot, initial encounter"
-        },
-        {
-            "code": "S90812A",
-            "display": "Abrasion, left foot, initial encounter"
-        },
-        {
-            "code": "S90821A",
-            "display": "Blister (nonthermal), right foot, initial encounter"
-        },
-        {
             "code": "S90822A",
             "display": "Blister (nonthermal), left foot, initial encounter"
         },
@@ -56215,10 +54304,6 @@
         {
             "code": "S91112A",
             "display": "Laceration without foreign body of left great toe without damage to nail, initial encounter"
-        },
-        {
-            "code": "S92492A",
-            "display": "Other fracture of left great toe, initial encounter for closed fracture"
         },
         {
             "code": "S91114A",
@@ -56967,6 +55052,10 @@
         {
             "code": "S92425A",
             "display": "Nondisplaced fracture of distal phalanx of left great toe, initial encounter for closed fracture"
+        },
+        {
+            "code": "S92492A",
+            "display": "Other fracture of left great toe, initial encounter for closed fracture"
         },
         {
             "code": "S92501D",
@@ -58185,6 +56274,14 @@
             "display": "Adverse effect of other systemic antibiotics, subsequent encounter"
         },
         {
+            "code": "T368X5S",
+            "display": "Adverse effect of other systemic antibiotics, sequela"
+        },
+        {
+            "code": "T368X6A",
+            "display": "Underdosing of other systemic antibiotics, initial encounter"
+        },
+        {
             "code": "T3691XA",
             "display": "Poisoning by unspecified systemic antibiotic, accidental (unintentional), initial encounter"
         },
@@ -59325,10 +57422,6 @@
             "display": "Poisoning by other parasympathomimetics [cholinergics], accidental (unintentional), initial encounter"
         },
         {
-            "code": "T782XXS",
-            "display": "Anaphylactic shock, unspecified, sequela"
-        },
-        {
             "code": "T441X2A",
             "display": "Poisoning by other parasympathomimetics [cholinergics], intentional self-harm, initial encounter"
         },
@@ -59487,6 +57580,10 @@
         {
             "code": "T451X3A",
             "display": "Poisoning by antineoplastic and immunosuppressive drugs, assault, initial encounter"
+        },
+        {
+            "code": "T7411XA",
+            "display": "Adult physical abuse, confirmed, initial encounter"
         },
         {
             "code": "T451X4A",
@@ -59875,10 +57972,6 @@
         {
             "code": "T481X2A",
             "display": "Poisoning by skeletal muscle relaxants [neuromuscular blocking agents], intentional self-harm, initial encounter"
-        },
-        {
-            "code": "T783XXA",
-            "display": "Angioneurotic edema, initial encounter"
         },
         {
             "code": "T481X5A",
@@ -60605,10 +58698,6 @@
             "display": "Exhaustion due to excessive exertion, initial encounter"
         },
         {
-            "code": "T7411XA",
-            "display": "Adult physical abuse, confirmed, initial encounter"
-        },
-        {
             "code": "T7411XS",
             "display": "Adult physical abuse, confirmed, sequela"
         },
@@ -60723,6 +58812,14 @@
         {
             "code": "T782XXA",
             "display": "Anaphylactic shock, unspecified, initial encounter"
+        },
+        {
+            "code": "T782XXS",
+            "display": "Anaphylactic shock, unspecified, sequela"
+        },
+        {
+            "code": "T783XXA",
+            "display": "Angioneurotic edema, initial encounter"
         },
         {
             "code": "T783XXD",
@@ -60919,6 +59016,10 @@
         {
             "code": "T8089XS",
             "display": "Other complications following infusion, transfusion and therapeutic injection, sequela"
+        },
+        {
+            "code": "T879",
+            "display": "Unspecified complications of amputation stump"
         },
         {
             "code": "T80910A",
@@ -61849,10 +59950,6 @@
             "display": "Mechanical loosening of internal left hip prosthetic joint, initial encounter"
         },
         {
-            "code": "V00891A",
-            "display": "Fall from other pedestrian conveyance, initial encounter"
-        },
-        {
             "code": "T84032A",
             "display": "Mechanical loosening of internal right knee prosthetic joint, initial encounter"
         },
@@ -62017,6 +60114,10 @@
             "display": "Displacement of internal fixation device of bone of right lower leg, subsequent encounter"
         },
         {
+            "code": "T880XXA",
+            "display": "Infection following immunization, initial encounter"
+        },
+        {
             "code": "T84127A",
             "display": "Displacement of internal fixation device of bone of left lower leg, initial encounter"
         },
@@ -62107,10 +60208,6 @@
         {
             "code": "T84428A",
             "display": "Displacement of other internal orthopedic devices, implants and grafts, initial encounter"
-        },
-        {
-            "code": "W450XXS",
-            "display": "Nail entering through skin, sequela"
         },
         {
             "code": "T84498A",
@@ -62825,14 +60922,6 @@
             "display": "Other complications of amputation stump"
         },
         {
-            "code": "T879",
-            "display": "Unspecified complications of amputation stump"
-        },
-        {
-            "code": "T880XXA",
-            "display": "Infection following immunization, initial encounter"
-        },
-        {
             "code": "T881XXA",
             "display": "Other complications following immunization, not elsewhere classified, initial encounter"
         },
@@ -62939,6 +61028,10 @@
         {
             "code": "V00838A",
             "display": "Other accident with motorized mobility scooter, initial encounter"
+        },
+        {
+            "code": "V00891A",
+            "display": "Fall from other pedestrian conveyance, initial encounter"
         },
         {
             "code": "V0100XA",
@@ -63147,10 +61240,6 @@
         {
             "code": "V182XXA",
             "display": "Unspecified pedal cyclist injured in noncollision transport accident in nontraffic accident, initial encounter"
-        },
-        {
-            "code": "W451XXA",
-            "display": "Paper entering through skin, initial encounter"
         },
         {
             "code": "V183XXA",
@@ -63371,10 +61460,6 @@
         {
             "code": "V393XXA",
             "display": "Occupant (driver) (passenger) of three-wheeled motor vehicle injured in unspecified nontraffic accident, initial encounter"
-        },
-        {
-            "code": "X371XXA",
-            "display": "Tornado, initial encounter"
         },
         {
             "code": "V405XXA",
@@ -63605,10 +61690,6 @@
             "display": "Car occupant (driver) (passenger) injured in other specified transport accidents, initial encounter"
         },
         {
-            "code": "X372XXA",
-            "display": "Blizzard (snow)(ice), initial encounter"
-        },
-        {
             "code": "V4988XD",
             "display": "Car occupant (driver) (passenger) injured in other specified transport accidents, subsequent encounter"
         },
@@ -63743,6 +61824,10 @@
         {
             "code": "V6988XS",
             "display": "Occupant (driver) (passenger) of heavy transport vehicle injured in other specified transport accidents, sequela"
+        },
+        {
+            "code": "V988XXD",
+            "display": "Other specified transport accidents, subsequent encounter"
         },
         {
             "code": "V736XXA",
@@ -63989,10 +62074,6 @@
             "display": "Other specified transport accidents, initial encounter"
         },
         {
-            "code": "V988XXD",
-            "display": "Other specified transport accidents, subsequent encounter"
-        },
-        {
             "code": "V988XXS",
             "display": "Other specified transport accidents, sequela"
         },
@@ -64067,10 +62148,6 @@
         {
             "code": "W01198A",
             "display": "Fall on same level from slipping, tripping and stumbling with subsequent striking against other object, initial encounter"
-        },
-        {
-            "code": "W1842XS",
-            "display": "Slipping, tripping and stumbling without falling due to stepping into hole or opening, sequela"
         },
         {
             "code": "W01198D",
@@ -64399,6 +62476,10 @@
         {
             "code": "W1841XA",
             "display": "Slipping, tripping and stumbling without falling due to stepping on object, initial encounter"
+        },
+        {
+            "code": "W1842XS",
+            "display": "Slipping, tripping and stumbling without falling due to stepping into hole or opening, sequela"
         },
         {
             "code": "W1843XA",
@@ -64733,6 +62814,14 @@
             "display": "Nail entering through skin, initial encounter"
         },
         {
+            "code": "W450XXS",
+            "display": "Nail entering through skin, sequela"
+        },
+        {
+            "code": "W451XXA",
+            "display": "Paper entering through skin, initial encounter"
+        },
+        {
             "code": "W458XXA",
             "display": "Other foreign body or object entering through skin, initial encounter"
         },
@@ -64957,6 +63046,10 @@
             "display": "Exposure to prolonged high air pressure, initial encounter"
         },
         {
+            "code": "Y991",
+            "display": "Military activity"
+        },
+        {
             "code": "X000XXA",
             "display": "Exposure to flames in uncontrolled fire in building or structure, initial encounter"
         },
@@ -65071,6 +63164,14 @@
         {
             "code": "X32XXXS",
             "display": "Exposure to sunlight, sequela"
+        },
+        {
+            "code": "X371XXA",
+            "display": "Tornado, initial encounter"
+        },
+        {
+            "code": "X372XXA",
+            "display": "Blizzard (snow)(ice), initial encounter"
         },
         {
             "code": "X500XXA",
@@ -65267,6 +63368,10 @@
         {
             "code": "X990XXA",
             "display": "Assault by sharp glass, initial encounter"
+        },
+        {
+            "code": "Y998",
+            "display": "Other external cause status"
         },
         {
             "code": "X991XXA",
@@ -65577,6 +63682,10 @@
             "display": "Contaminated medical or biological substance, injected or used for immunization"
         },
         {
+            "code": "Y999",
+            "display": "Unspecified external cause status"
+        },
+        {
             "code": "Y654",
             "display": "Failure to introduce or to remove other tube or instrument"
         },
@@ -65659,10 +63768,6 @@
         {
             "code": "Y742",
             "display": "Prosthetic and other implants, materials and accessory general hospital and personal-use devices associated with adverse incidents"
-        },
-        {
-            "code": "Y92833",
-            "display": "Campsite as the place of occurrence of the external cause"
         },
         {
             "code": "Y743",
@@ -65857,10 +63962,6 @@
             "display": "Other medical procedures as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure"
         },
         {
-            "code": "Z565",
-            "display": "Uncongenial work environment"
-        },
-        {
             "code": "Y849",
             "display": "Medical procedure, unspecified as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure"
         },
@@ -66031,6 +64132,10 @@
         {
             "code": "Y92092",
             "display": "Bedroom in other non-institutional residence as the place of occurrence of the external cause"
+        },
+        {
+            "code": "Z2259",
+            "display": "Carrier of other viral hepatitis"
         },
         {
             "code": "Y92093",
@@ -66433,8 +64538,8 @@
             "display": "Beach as the place of occurrence of the external cause"
         },
         {
-            "code": "Z731",
-            "display": "Type A behavior pattern"
+            "code": "Y92833",
+            "display": "Campsite as the place of occurrence of the external cause"
         },
         {
             "code": "Y92838",
@@ -66709,18 +64814,6 @@
             "display": "Civilian activity done for income or pay"
         },
         {
-            "code": "Y991",
-            "display": "Military activity"
-        },
-        {
-            "code": "Y998",
-            "display": "Other external cause status"
-        },
-        {
-            "code": "Y999",
-            "display": "Unspecified external cause status"
-        },
-        {
             "code": "Z0000",
             "display": "Encounter for general adult medical examination without abnormal findings"
         },
@@ -66729,24 +64822,12 @@
             "display": "Encounter for general adult medical examination with abnormal findings"
         },
         {
-            "code": "Z00110",
-            "display": "Health examination for newborn under 8 days old"
-        },
-        {
-            "code": "Z00111",
-            "display": "Health examination for newborn 8 to 28 days old"
-        },
-        {
             "code": "Z005",
             "display": "Encounter for examination of potential donor of organ and tissue"
         },
         {
             "code": "Z006",
             "display": "Encounter for examination for normal comparison and control in clinical research program"
-        },
-        {
-            "code": "Z01118",
-            "display": "Encounter for examination of ears and hearing with other abnormal findings"
         },
         {
             "code": "Z01810",
@@ -66759,10 +64840,6 @@
         {
             "code": "Z022",
             "display": "Encounter for examination for admission to residential institution"
-        },
-        {
-            "code": "Z023",
-            "display": "Encounter for examination for recruitment to armed forces"
         },
         {
             "code": "Z026",
@@ -66813,54 +64890,6 @@
             "display": "Encounter for examination and observation for unspecified reason"
         },
         {
-            "code": "Z050",
-            "display": "Observation and evaluation of newborn for suspected cardiac condition ruled out"
-        },
-        {
-            "code": "Z051",
-            "display": "Observation and evaluation of newborn for suspected infectious condition ruled out"
-        },
-        {
-            "code": "Z052",
-            "display": "Observation and evaluation of newborn for suspected neurological condition ruled out"
-        },
-        {
-            "code": "Z053",
-            "display": "Observation and evaluation of newborn for suspected respiratory condition ruled out"
-        },
-        {
-            "code": "Z0541",
-            "display": "Observation and evaluation of newborn for suspected genetic condition ruled out"
-        },
-        {
-            "code": "Z0542",
-            "display": "Observation and evaluation of newborn for suspected metabolic condition ruled out"
-        },
-        {
-            "code": "Z0543",
-            "display": "Observation and evaluation of newborn for suspected immunologic condition ruled out"
-        },
-        {
-            "code": "Z055",
-            "display": "Observation and evaluation of newborn for suspected gastrointestinal condition ruled out"
-        },
-        {
-            "code": "Z056",
-            "display": "Observation and evaluation of newborn for suspected genitourinary condition ruled out"
-        },
-        {
-            "code": "Z0572",
-            "display": "Observation and evaluation of newborn for suspected musculoskeletal condition ruled out"
-        },
-        {
-            "code": "Z058",
-            "display": "Observation and evaluation of newborn for other specified suspected condition ruled out"
-        },
-        {
-            "code": "Z059",
-            "display": "Observation and evaluation of newborn for unspecified suspected condition ruled out"
-        },
-        {
             "code": "Z08",
             "display": "Encounter for follow-up examination after completed treatment for malignant neoplasm"
         },
@@ -66909,16 +64938,8 @@
             "display": "Encounter for screening for lipoid disorders"
         },
         {
-            "code": "Z1329",
-            "display": "Encounter for screening for other suspected endocrine disorder"
-        },
-        {
             "code": "Z13850",
             "display": "Encounter for screening for traumatic brain injury"
-        },
-        {
-            "code": "Z1389",
-            "display": "Encounter for screening for other disorder"
         },
         {
             "code": "Z1401",
@@ -67149,14 +65170,6 @@
             "display": "Carrier of viral hepatitis C"
         },
         {
-            "code": "Z2259",
-            "display": "Carrier of other viral hepatitis"
-        },
-        {
-            "code": "Z227",
-            "display": "Latent tuberculosis"
-        },
-        {
             "code": "Z228",
             "display": "Carrier of other infectious diseases"
         },
@@ -67179,10 +65192,6 @@
         {
             "code": "Z2809",
             "display": "Immunization not carried out because of other contraindication"
-        },
-        {
-            "code": "Z2820",
-            "display": "Immunization not carried out because of patient decision for unspecified reason"
         },
         {
             "code": "Z2821",
@@ -67335,38 +65344,6 @@
         {
             "code": "Z379",
             "display": "Outcome of delivery, unspecified"
-        },
-        {
-            "code": "Z3800",
-            "display": "Single liveborn infant, delivered vaginally"
-        },
-        {
-            "code": "Z3801",
-            "display": "Single liveborn infant, delivered by cesarean"
-        },
-        {
-            "code": "Z381",
-            "display": "Single liveborn infant, born outside hospital"
-        },
-        {
-            "code": "Z3830",
-            "display": "Twin liveborn infant, delivered vaginally"
-        },
-        {
-            "code": "Z3831",
-            "display": "Twin liveborn infant, delivered by cesarean"
-        },
-        {
-            "code": "Z384",
-            "display": "Twin liveborn infant, born outside hospital"
-        },
-        {
-            "code": "Z3861",
-            "display": "Triplet liveborn infant, delivered vaginally"
-        },
-        {
-            "code": "Z3862",
-            "display": "Triplet liveborn infant, delivered by cesarean"
         },
         {
             "code": "Z390",
@@ -67587,6 +65564,10 @@
         {
             "code": "Z433",
             "display": "Encounter for attention to colostomy"
+        },
+        {
+            "code": "Z566",
+            "display": "Other physical and mental strain related to work"
         },
         {
             "code": "Z434",
@@ -67933,10 +65914,6 @@
             "display": "Discord with boss and workmates"
         },
         {
-            "code": "Z566",
-            "display": "Other physical and mental strain related to work"
-        },
-        {
             "code": "Z5689",
             "display": "Other problems related to employment"
         },
@@ -68027,10 +66004,6 @@
         {
             "code": "Z609",
             "display": "Problem related to social environment, unspecified"
-        },
-        {
-            "code": "Z6221",
-            "display": "Child in welfare custody"
         },
         {
             "code": "Z62810",
@@ -68353,6 +66326,14 @@
             "display": "Other problems related to lifestyle"
         },
         {
+            "code": "Z731",
+            "display": "Type A behavior pattern"
+        },
+        {
+            "code": "Z733",
+            "display": "Stress, not elsewhere classified"
+        },
+        {
             "code": "Z736",
             "display": "Limitation of activities due to disability"
         },
@@ -68415,10 +66396,6 @@
         {
             "code": "Z760",
             "display": "Encounter for issue of repeat prescription"
-        },
-        {
-            "code": "Z762",
-            "display": "Encounter for health supervision and care of other healthy infant and child"
         },
         {
             "code": "Z763",
@@ -69671,10 +67648,6 @@
         {
             "code": "Z9282",
             "display": "Status post administration of tPA (rtPA) in a different facility within the last 24 hours prior to admission to current facility"
-        },
-        {
-            "code": "Z9289",
-            "display": "Personal history of other medical treatment"
         },
         {
             "code": "Z930",
