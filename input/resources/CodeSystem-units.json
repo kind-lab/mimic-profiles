@@ -3,13 +3,14 @@
     "id": "units",
     "language": "en",
     "url": "http://fhir.mimic.mit.edu/CodeSystem/units",
-    "version": "0.4",
+    "version": "2.0",
     "name": "Units",
     "title": "Units",
-    "status": "active",
-    "date": "2022-03-14T14:29:07-04:00",
+    "status": "draft",
+    "date": "2022-05-24T14:39:04-04:00",
     "publisher": "KinD Lab",
     "description": "The units used throughout MIMIC",
+    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/units",
     "content": "complete",
     "concept": [
         {
@@ -17,6 +18,9 @@
         },
         {
             "code": "75"
+        },
+        {
+            "code": "BULK"
         },
         {
             "code": "log10 IU/mL"
@@ -100,6 +104,9 @@
             "code": "mcg/0.5 mL"
         },
         {
+            "code": "LIQ"
+        },
+        {
             "code": "/min"
         },
         {
@@ -112,6 +119,9 @@
             "code": "% (40 mg/mL)"
         },
         {
+            "code": "CUP"
+        },
+        {
             "code": "AMP"
         },
         {
@@ -122,9 +132,6 @@
         },
         {
             "code": "600"
-        },
-        {
-            "code": "1 BTL"
         },
         {
             "code": "mg TID"
@@ -221,6 +228,9 @@
         },
         {
             "code": "mg/24 mL"
+        },
+        {
+            "code": "SUSP"
         },
         {
             "code": "(25 mg/mL)"
@@ -346,6 +356,12 @@
             "code": "mg/0.6mL"
         },
         {
+            "code": "RING"
+        },
+        {
+            "code": "TRMT"
+        },
+        {
             "code": "\u00b0F"
         },
         {
@@ -397,6 +413,9 @@
             "code": "Grams"
         },
         {
+            "code": "ENE"
+        },
+        {
             "code": "/hour"
         },
         {
@@ -415,7 +434,13 @@
             "code": "STCK"
         },
         {
+            "code": "CRE"
+        },
+        {
             "code": "40mg"
+        },
+        {
+            "code": "mg\\ 150 mg"
         },
         {
             "code": "grams"
@@ -448,6 +473,9 @@
             "code": "ea"
         },
         {
+            "code": "mL/mL"
+        },
+        {
             "code": "mcg/2 mL"
         },
         {
@@ -473,6 +501,9 @@
         },
         {
             "code": "in"
+        },
+        {
+            "code": "mg/50 mL"
         },
         {
             "code": "mg//min"
@@ -503,6 +534,9 @@
         },
         {
             "code": "mEq/1,000 mL"
+        },
+        {
+            "code": "SYRP"
         },
         {
             "code": "KIT"
@@ -553,6 +587,9 @@
             "code": "mg/0.3 mL"
         },
         {
+            "code": "DBTL"
+        },
+        {
             "code": "gram/12 gram"
         },
         {
@@ -586,6 +623,9 @@
             "code": "% of current infusion rate"
         },
         {
+            "code": "mg/500 ml"
+        },
+        {
             "code": "(84)/10 mcg (7)"
         },
         {
@@ -599,6 +639,9 @@
         },
         {
             "code": "40"
+        },
+        {
+            "code": "mg\\960 mg"
         },
         {
             "code": "cmH2O"
@@ -733,6 +776,9 @@
             "code": "mA"
         },
         {
+            "code": "nanogram"
+        },
+        {
             "code": "Score"
         },
         {
@@ -755,6 +801,9 @@
         },
         {
             "code": "mg-mcg"
+        },
+        {
+            "code": "-"
         },
         {
             "code": "Mg"
@@ -904,7 +953,13 @@
             "code": "mg/2.625 mL"
         },
         {
+            "code": "SYR"
+        },
+        {
             "code": "drop"
+        },
+        {
+            "code": "mg/dose"
         },
         {
             "code": "200"
@@ -955,16 +1010,25 @@
             "code": "chamber"
         },
         {
+            "code": "/ 0 Units"
+        },
+        {
             "code": "mg/m2"
         },
         {
             "code": "mg iron/5 mL"
         },
         {
+            "code": "_UNIT"
+        },
+        {
             "code": "U/hr"
         },
         {
             "code": "ng/dL"
+        },
+        {
+            "code": "CREA"
         },
         {
             "code": "12 ml"
@@ -1003,6 +1067,9 @@
             "code": "mEq in 500ml D5W"
         },
         {
+            "code": "scp"
+        },
+        {
             "code": "180000 unit"
         },
         {
@@ -1039,6 +1106,9 @@
             "code": "mg/40mg"
         },
         {
+            "code": "mg/50 ml"
+        },
+        {
             "code": "mm Hg"
         },
         {
@@ -1046,6 +1116,12 @@
         },
         {
             "code": "IU/L"
+        },
+        {
+            "code": "Floor Stock Bag"
+        },
+        {
+            "code": "NEEDLE"
         },
         {
             "code": "cc"
@@ -1105,6 +1181,9 @@
             "code": "MCG/KG"
         },
         {
+            "code": "MU"
+        },
+        {
             "code": "mg (1 mL)"
         },
         {
@@ -1112,6 +1191,9 @@
         },
         {
             "code": "(100 mg/mL)"
+        },
+        {
+            "code": "___"
         },
         {
             "code": "gram/100 mL"
@@ -1150,6 +1232,9 @@
             "code": "Umits"
         },
         {
+            "code": "CART"
+        },
+        {
             "code": "1 mg/mL"
         },
         {
@@ -1165,10 +1250,10 @@
             "code": "can"
         },
         {
-            "code": "gram/60 mL"
+            "code": "mL/Lumen"
         },
         {
-            "code": "mg\\"
+            "code": "gram/60 mL"
         },
         {
             "code": "2.5 ml 1 drop"
@@ -1187,6 +1272,9 @@
         },
         {
             "code": "puffs"
+        },
+        {
+            "code": "PWDR"
         },
         {
             "code": "Mcg"
@@ -1259,6 +1347,9 @@
         },
         {
             "code": "mg/24hr"
+        },
+        {
+            "code": "BAGS"
         },
         {
             "code": "mcg (120 doses)"
@@ -1354,10 +1445,16 @@
             "code": "mg/0 mg"
         },
         {
+            "code": "ERT"
+        },
+        {
             "code": "540,000IU / 0 IU"
         },
         {
             "code": "(36 mg iron)"
+        },
+        {
+            "code": "CADD"
         },
         {
             "code": "gr"
@@ -1438,6 +1535,9 @@
             "code": "mg/2.5 mL"
         },
         {
+            "code": "mg/250 ml"
+        },
+        {
             "code": "cm3"
         },
         {
@@ -1451,6 +1551,9 @@
         },
         {
             "code": "15000 unit"
+        },
+        {
+            "code": "CON"
         },
         {
             "code": "mEq/200 mL NS"
@@ -1478,6 +1581,9 @@
         },
         {
             "code": "mEq/200mL"
+        },
+        {
+            "code": "mg PE/kg"
         },
         {
             "code": "-200 unit"
@@ -1528,6 +1634,15 @@
             "code": "unit per ISS"
         },
         {
+            "code": "JAR"
+        },
+        {
+            "code": "mL/Day"
+        },
+        {
+            "code": "Units/kg"
+        },
+        {
             "code": "thin strip on lower lid"
         },
         {
@@ -1547,6 +1662,9 @@
         },
         {
             "code": "units/kg/hr"
+        },
+        {
+            "code": "mL/Syringe"
         },
         {
             "code": "60"
@@ -1571,6 +1689,9 @@
         },
         {
             "code": "mg/kg/hr"
+        },
+        {
+            "code": "PE (Phenytoin Sodium Equivalent)"
         },
         {
             "code": "bo"
@@ -1669,6 +1790,9 @@
             "code": "neb"
         },
         {
+            "code": "CONC"
+        },
+        {
             "code": "mcg/2.7 mL"
         },
         {
@@ -1723,6 +1847,9 @@
             "code": "mEq/5 mL"
         },
         {
+            "code": "SWAB"
+        },
+        {
             "code": "kcal/kg"
         },
         {
@@ -1765,10 +1892,16 @@
             "code": "60mg"
         },
         {
+            "code": "STRP"
+        },
+        {
             "code": "Dose"
         },
         {
             "code": "450"
+        },
+        {
+            "code": "LOT"
         },
         {
             "code": "SC"
@@ -1828,6 +1961,9 @@
             "code": "mg iron"
         },
         {
+            "code": "ELIX"
+        },
+        {
             "code": "0mg"
         },
         {
@@ -1847,6 +1983,9 @@
         },
         {
             "code": "PATCHES"
+        },
+        {
+            "code": "CPT"
         },
         {
             "code": "1"
@@ -1873,6 +2012,9 @@
             "code": "ng/mL FEU"
         },
         {
+            "code": "UNIT/KG"
+        },
+        {
             "code": "mmol"
         },
         {
@@ -1894,6 +2036,9 @@
             "code": "Mmg"
         },
         {
+            "code": "TUBE"
+        },
+        {
             "code": "mg/6mL"
         },
         {
@@ -1909,10 +2054,10 @@
             "code": "umol/L"
         },
         {
-            "code": "mg (950 mg)"
+            "code": "PACK"
         },
         {
-            "code": "PACK"
+            "code": "mg (950 mg)"
         },
         {
             "code": "billion cell"

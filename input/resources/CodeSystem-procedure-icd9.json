@@ -3,13 +3,14 @@
     "id": "procedure-icd9",
     "language": "en",
     "url": "http://fhir.mimic.mit.edu/CodeSystem/procedure-icd9",
-    "version": "0.4",
+    "version": "2.0",
     "name": "ProcedureIcd9",
     "title": "ProcedureIcd9",
-    "status": "active",
-    "date": "2022-03-14T14:29:07-04:00",
+    "status": "draft",
+    "date": "2022-05-24T14:39:04-04:00",
     "publisher": "KinD Lab",
     "description": "The procedure ICD9 codes for MIMIC",
+    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/procedure-icd9",
     "content": "complete",
     "concept": [
         {
@@ -271,10 +272,6 @@
         {
             "code": "0086",
             "display": "Resurfacing hip, partial, femoral head"
-        },
-        {
-            "code": "0087",
-            "display": "Resurfacing hip, partial, acetabulum"
         },
         {
             "code": "0091",
@@ -957,10 +954,6 @@
             "display": "Other adjustment of lid position"
         },
         {
-            "code": "0861",
-            "display": "Reconstruction of eyelid with skin flap or graft"
-        },
-        {
             "code": "0869",
             "display": "Other reconstruction of eyelid with flaps or grafts"
         },
@@ -971,10 +964,6 @@
         {
             "code": "0873",
             "display": "Reconstruction of eyelid involving lid margin, full-thickness"
-        },
-        {
-            "code": "0874",
-            "display": "Other reconstruction of eyelid, full-thickness"
         },
         {
             "code": "0881",
@@ -1019,10 +1008,6 @@
         {
             "code": "1049",
             "display": "Other conjunctivoplasty"
-        },
-        {
-            "code": "1091",
-            "display": "Subconjunctival injection"
         },
         {
             "code": "1121",
@@ -1117,20 +1102,12 @@
             "display": "Diagnostic aspiration of vitreous"
         },
         {
-            "code": "1421",
-            "display": "Destruction of chorioretinal lesion by diathermy"
-        },
-        {
             "code": "1422",
             "display": "Destruction of chorioretinal lesion by cryotherapy"
         },
         {
             "code": "1424",
             "display": "Destruction of chorioretinal lesion by laser photocoagulation"
-        },
-        {
-            "code": "1429",
-            "display": "Other destruction of chorioretinal lesion"
         },
         {
             "code": "1434",
@@ -1241,10 +1218,6 @@
             "display": "Retrobulbar injection of therapeutic agent"
         },
         {
-            "code": "1692",
-            "display": "Excision of lesion of orbit"
-        },
-        {
             "code": "1699",
             "display": "Other operations on eyeball"
         },
@@ -1267,6 +1240,10 @@
         {
             "code": "1722",
             "display": "Laparoscopic bilateral repair of indirect inguinal hernia with graft or prosthesis"
+        },
+        {
+            "code": "2631",
+            "display": "Partial sialoadenectomy"
         },
         {
             "code": "1723",
@@ -1331,10 +1308,6 @@
         {
             "code": "1756",
             "display": "Atherectomy of other non-coronary vessel(s)"
-        },
-        {
-            "code": "1769",
-            "display": "Laser interstitial thermal therapy [LITT] of lesion or tissue of other and unspecified site under guidance"
         },
         {
             "code": "1770",
@@ -1709,14 +1682,6 @@
             "display": "Other repair and plastic operations on tongue"
         },
         {
-            "code": "2591",
-            "display": "Lingual frenotomy"
-        },
-        {
-            "code": "2592",
-            "display": "Lingual frenectomy"
-        },
-        {
             "code": "260",
             "display": "Incision of salivary gland or duct"
         },
@@ -1735,10 +1700,6 @@
         {
             "code": "2630",
             "display": "Sialoadenectomy, not otherwise specified"
-        },
-        {
-            "code": "2631",
-            "display": "Partial sialoadenectomy"
         },
         {
             "code": "2632",
@@ -1863,10 +1824,6 @@
         {
             "code": "287",
             "display": "Control of hemorrhage after tonsillectomy and adenoidectomy"
-        },
-        {
-            "code": "2892",
-            "display": "Excision of lesion of tonsil and adenoid"
         },
         {
             "code": "290",
@@ -2105,10 +2062,6 @@
             "display": "Radical dissection of thoracic structures"
         },
         {
-            "code": "331",
-            "display": "Incision of lung"
-        },
-        {
             "code": "3320",
             "display": "Thoracoscopic lung biopsy"
         },
@@ -2187,6 +2140,10 @@
         {
             "code": "3373",
             "display": "Endoscopic insertion or replacement of bronchial valve(s), multiple lobes"
+        },
+        {
+            "code": "4198",
+            "display": "Other operations on bone marrow"
         },
         {
             "code": "3378",
@@ -2613,6 +2570,10 @@
             "display": "Excision or destruction of other lesion or tissue of heart, endovascular approach"
         },
         {
+            "code": "4199",
+            "display": "Other operations on spleen"
+        },
+        {
             "code": "3736",
             "display": "Excision, destruction, or exclusion of left atrial appendage (LAA)"
         },
@@ -2971,6 +2932,10 @@
         {
             "code": "3884",
             "display": "Other surgical occlusion of vessels, aorta, abdominal"
+        },
+        {
+            "code": "4922",
+            "display": "Biopsy of perianal tissue"
         },
         {
             "code": "3885",
@@ -3393,14 +3358,6 @@
             "display": "Repair and plastic operations on spleen"
         },
         {
-            "code": "4198",
-            "display": "Other operations on bone marrow"
-        },
-        {
-            "code": "4199",
-            "display": "Other operations on spleen"
-        },
-        {
             "code": "4210",
             "display": "Esophagostomy, not otherwise specified"
         },
@@ -3519,10 +3476,6 @@
         {
             "code": "4292",
             "display": "Dilation of esophagus"
-        },
-        {
-            "code": "4299",
-            "display": "Other operations on esophagus"
         },
         {
             "code": "430",
@@ -4281,10 +4234,6 @@
             "display": "Anoscopy"
         },
         {
-            "code": "4922",
-            "display": "Biopsy of perianal tissue"
-        },
-        {
             "code": "4923",
             "display": "Biopsy of anus"
         },
@@ -4761,14 +4710,6 @@
             "display": "Repair of inguinal hernia with graft or prosthesis, not otherwise specified"
         },
         {
-            "code": "5310",
-            "display": "Bilateral repair of inguinal hernia, not otherwise specified"
-        },
-        {
-            "code": "5312",
-            "display": "Other and open bilateral repair of indirect inguinal hernia"
-        },
-        {
             "code": "5314",
             "display": "Other and open bilateral repair of direct inguinal hernia with graft or prosthesis"
         },
@@ -5063,10 +5004,6 @@
         {
             "code": "5551",
             "display": "Nephroureterectomy"
-        },
-        {
-            "code": "5552",
-            "display": "Nephrectomy of remaining kidney"
         },
         {
             "code": "5553",
@@ -5609,6 +5546,10 @@
             "display": "Excision of cyst of epididymis"
         },
         {
+            "code": "8097",
+            "display": "Other excision of joint, ankle"
+        },
+        {
             "code": "633",
             "display": "Excision of other lesion or tissue of spermatic cord and epididymis"
         },
@@ -5973,10 +5914,6 @@
             "display": "Other and unspecified total abdominal hysterectomy"
         },
         {
-            "code": "8077",
-            "display": "Synovectomy, ankle"
-        },
-        {
             "code": "6851",
             "display": "Laparoscopically assisted vaginal hysterectomy (LAVH)"
         },
@@ -6091,10 +6028,6 @@
         {
             "code": "7024",
             "display": "Vaginal biopsy"
-        },
-        {
-            "code": "7031",
-            "display": "Hymenectomy"
         },
         {
             "code": "7032",
@@ -6251,6 +6184,10 @@
         {
             "code": "7179",
             "display": "Other repair of vulva and perineum"
+        },
+        {
+            "code": "719",
+            "display": "Other operations on female genital organs"
         },
         {
             "code": "720",
@@ -6493,6 +6430,10 @@
             "display": "Other facial bone repair"
         },
         {
+            "code": "8289",
+            "display": "Other plastic operations on hand"
+        },
+        {
             "code": "7670",
             "display": "Reduction of facial fracture, not otherwise specified"
         },
@@ -6559,10 +6500,6 @@
         {
             "code": "7705",
             "display": "Sequestrectomy, femur"
-        },
-        {
-            "code": "7706",
-            "display": "Sequestrectomy, patella"
         },
         {
             "code": "7711",
@@ -6897,6 +6834,10 @@
             "display": "Application of external fixator device, carpals and metacarpals"
         },
         {
+            "code": "8291",
+            "display": "Lysis of adhesions of hand"
+        },
+        {
             "code": "7815",
             "display": "Application of external fixator device, femur"
         },
@@ -7077,10 +7018,6 @@
             "display": "Osteoclasis, tarsals and metatarsals"
         },
         {
-            "code": "7879",
-            "display": "Osteoclasis, other bones"
-        },
-        {
             "code": "7898",
             "display": "Insertion of bone growth stimulator, tarsals and metatarsals"
         },
@@ -7171,10 +7108,6 @@
         {
             "code": "7923",
             "display": "Open reduction of fracture without internal fixation, carpals and metacarpals"
-        },
-        {
-            "code": "8078",
-            "display": "Synovectomy, foot and toe"
         },
         {
             "code": "7924",
@@ -7377,10 +7310,6 @@
             "display": "Arthrotomy for removal of prosthesis without replacement, elbow"
         },
         {
-            "code": "8003",
-            "display": "Arthrotomy for removal of prosthesis without replacement, wrist"
-        },
-        {
             "code": "8005",
             "display": "Arthrotomy for removal of prosthesis without replacement, hip"
         },
@@ -7569,6 +7498,14 @@
             "display": "Synovectomy, knee"
         },
         {
+            "code": "8077",
+            "display": "Synovectomy, ankle"
+        },
+        {
+            "code": "8078",
+            "display": "Synovectomy, foot and toe"
+        },
+        {
             "code": "8079",
             "display": "Synovectomy, other specified sites"
         },
@@ -7631,10 +7568,6 @@
         {
             "code": "8096",
             "display": "Other excision of joint, knee"
-        },
-        {
-            "code": "8097",
-            "display": "Other excision of joint, ankle"
         },
         {
             "code": "8098",
@@ -7735,10 +7668,6 @@
         {
             "code": "8129",
             "display": "Arthrodesis of other specified joints"
-        },
-        {
-            "code": "8131",
-            "display": "Refusion of atlas-axis spine"
         },
         {
             "code": "8132",
@@ -8065,24 +7994,12 @@
             "display": "Other tenoplasty of hand"
         },
         {
-            "code": "8289",
-            "display": "Other plastic operations on hand"
-        },
-        {
-            "code": "8291",
-            "display": "Lysis of adhesions of hand"
-        },
-        {
             "code": "8292",
             "display": "Aspiration of bursa of hand"
         },
         {
             "code": "8293",
             "display": "Aspiration of other soft tissue of hand"
-        },
-        {
-            "code": "8295",
-            "display": "Injection of therapeutic substance into tendon of hand"
         },
         {
             "code": "8296",
@@ -8521,16 +8438,8 @@
             "display": "Bilateral radical mastectomy"
         },
         {
-            "code": "8547",
-            "display": "Unilateral extended radical mastectomy"
-        },
-        {
             "code": "8550",
             "display": "Augmentation mammoplasty, not otherwise specified"
-        },
-        {
-            "code": "8551",
-            "display": "Unilateral injection into breast for augmentation"
         },
         {
             "code": "8553",
@@ -8571,10 +8480,6 @@
         {
             "code": "8574",
             "display": "Deep inferior epigastric artery perforator (DIEP) flap, free"
-        },
-        {
-            "code": "8575",
-            "display": "Superficial inferior epigastric artery (SIEA) flap, free"
         },
         {
             "code": "8576",
@@ -8695,10 +8600,6 @@
         {
             "code": "8624",
             "display": "Chemosurgery of skin"
-        },
-        {
-            "code": "8626",
-            "display": "Ligation of dermal appendage"
         },
         {
             "code": "8627",
@@ -9581,10 +9482,6 @@
             "display": "Non-invasive mechanical ventilation"
         },
         {
-            "code": "9391",
-            "display": "Intermittent positive pressure breathing [IPPB]"
-        },
-        {
             "code": "9393",
             "display": "Nonmechanical methods of resuscitation"
         },
@@ -9667,14 +9564,6 @@
         {
             "code": "9509",
             "display": "Eye examination, not otherwise specified"
-        },
-        {
-            "code": "9543",
-            "display": "Audiological evaluation"
-        },
-        {
-            "code": "9547",
-            "display": "Hearing examination, not otherwise specified"
         },
         {
             "code": "9601",
@@ -9767,10 +9656,6 @@
         {
             "code": "9634",
             "display": "Other irrigation of (naso-)gastric tube"
-        },
-        {
-            "code": "9635",
-            "display": "Gastric gavage"
         },
         {
             "code": "9636",
@@ -10257,10 +10142,6 @@
             "display": "Prophylactic vaccination against influenza"
         },
         {
-            "code": "9953",
-            "display": "Prophylactic vaccination against arthropod-borne viral encephalitis"
-        },
-        {
             "code": "9955",
             "display": "Prophylactic administration of vaccine against other diseases"
         },
@@ -10331,10 +10212,6 @@
         {
             "code": "9981",
             "display": "Hypothermia (central) (local)"
-        },
-        {
-            "code": "9982",
-            "display": "Ultraviolet light therapy"
         },
         {
             "code": "9983",

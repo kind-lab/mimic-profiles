@@ -3,13 +3,14 @@
     "id": "medication-method",
     "language": "en",
     "url": "http://fhir.mimic.mit.edu/CodeSystem/medication-method",
-    "version": "0.4",
+    "version": "2.0",
     "name": "MedicationMethod",
     "title": "MedicationMethod",
-    "status": "active",
-    "date": "2022-03-14T14:29:07-04:00",
+    "status": "draft",
+    "date": "2022-05-24T14:39:04-04:00",
     "publisher": "KinD Lab",
     "description": "The medication delivery method for MIMIC",
+    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/medication-method",
     "content": "complete",
     "concept": [
         {
@@ -130,10 +131,10 @@
             "code": "Not Started per Sliding Scale"
         },
         {
-            "code": "Rate Change"
+            "code": "Administered Bolus from IV Drip"
         },
         {
-            "code": "Administered Bolus from IV Drip"
+            "code": "Rate Change"
         },
         {
             "code": "Not Stopped per Sliding Scale"
@@ -148,10 +149,10 @@
             "code": "Restarted in Other Location"
         },
         {
-            "code": "Delayed Stopped"
+            "code": "Delayed Flushed"
         },
         {
-            "code": "Delayed Flushed"
+            "code": "Delayed Stopped"
         },
         {
             "code": "Delayed Administered"
@@ -221,21 +222,6 @@
         },
         {
             "code": "Documented in O.R. Holding"
-        },
-        {
-            "code": "Non Iv Meds"
-        },
-        {
-            "code": "Drug Push"
-        },
-        {
-            "code": "Continuous Med"
-        },
-        {
-            "code": "Bolus"
-        },
-        {
-            "code": "Continuous IV"
         }
     ]
 }

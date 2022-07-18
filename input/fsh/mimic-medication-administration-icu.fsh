@@ -6,4 +6,4 @@ Description:    "A MIMIC medication administration ICU profile based on the base
 
 * identifier.type from http://fhir.mimic.mit.edu/ValueSet/identifier-type
 * category from http://fhir.mimic.mit.edu/ValueSet/medadmin-category-icu
-* dosage.method from http://fhir.mimic.mit.edu/ValueSet/medication-method
+* dosage.method from http://fhir.mimic.mit.edu/ValueSet/medication-method-icu

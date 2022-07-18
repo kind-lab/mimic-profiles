@@ -3,13 +3,14 @@
     "id": "microbiology-test",
     "language": "en",
     "url": "http://fhir.mimic.mit.edu/CodeSystem/microbiology-test",
-    "version": "0.4",
+    "version": "2.0",
     "name": "MicrobiologyTest",
     "title": "MicrobiologyTest",
-    "status": "active",
-    "date": "2022-03-14T14:29:07-04:00",
+    "status": "draft",
+    "date": "2022-05-24T14:39:04-04:00",
     "publisher": "KinD Lab",
     "description": "The microbiology test completed in MIMIC",
+    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/microbiology-test",
     "content": "complete",
     "concept": [
         {
@@ -181,16 +182,8 @@
             "display": "Acid Fast Stain for Cryptosporidium"
         },
         {
-            "code": "90221",
-            "display": "C. difficile DNA amplification assay"
-        },
-        {
             "code": "90148",
             "display": "Cryopreservation - Cells"
-        },
-        {
-            "code": "90130",
-            "display": "THROAT - R/O BETA STREP"
         },
         {
             "code": "90202",
@@ -337,6 +330,10 @@
             "display": "MTB Direct Amplification"
         },
         {
+            "code": "90130",
+            "display": "R/O Beta Strep Group A"
+        },
+        {
             "code": "90128",
             "display": "Legionella Urinary Antigen "
         },
@@ -349,12 +346,12 @@
             "display": "Respiratory Viral Culture"
         },
         {
-            "code": "90096",
-            "display": "DIRECT ANTIGEN TEST FOR VARICELLA-ZOSTER VIRUS"
-        },
-        {
             "code": "90140",
             "display": "QUANTITATIVE CRYPTOCOCCAL ANTIGEN"
+        },
+        {
+            "code": "90096",
+            "display": "DIRECT ANTIGEN TEST FOR VARICELLA-ZOSTER VIRUS"
         },
         {
             "code": "90039",
@@ -363,6 +360,10 @@
         {
             "code": "90144",
             "display": "TOXOPLASMA IgG ANTIBODY"
+        },
+        {
+            "code": "90207",
+            "display": "Stem Cell Aer/Ana Culture"
         },
         {
             "code": "90086",
@@ -441,6 +442,10 @@
             "display": "ASO TITER"
         },
         {
+            "code": "90105",
+            "display": "Respiratory Viral Antigen Screen"
+        },
+        {
             "code": "90235",
             "display": "REFLEX URINE CULTURE"
         },
@@ -505,12 +510,8 @@
             "display": "VIRAL CULTURE: R/O HERPES SIMPLEX VIRUS"
         },
         {
-            "code": "90105",
-            "display": "Rapid Respiratory Viral Antigen Test"
-        },
-        {
-            "code": "90123",
-            "display": "Hepatitis C Viral Load, Quantitative"
+            "code": "90221",
+            "display": "C. difficile PCR"
         },
         {
             "code": "90162",
@@ -561,6 +562,10 @@
             "display": "Rubella IgG/IgM Antibody"
         },
         {
+            "code": "90123",
+            "display": "HCV VIRAL LOAD"
+        },
+        {
             "code": "90258",
             "display": "AEROBIC BOTTLE"
         },
@@ -583,6 +588,10 @@
         {
             "code": "90178",
             "display": "FUNGAL CULTURE (HAIR/SKIN/NAILS)"
+        },
+        {
+            "code": "90246",
+            "display": "ACID FAST SMEAR"
         },
         {
             "code": "90142",
@@ -637,16 +646,8 @@
             "display": "Enterovirus Culture"
         },
         {
-            "code": "90246",
-            "display": "DIRECT AFB STAIN-BI"
-        },
-        {
             "code": "90231",
             "display": "Swab - R/O Yeast - IC"
-        },
-        {
-            "code": "90199",
-            "display": "Immunoflourescent test for Pneumocystis jirovecii (carinii)"
         },
         {
             "code": "90167",
@@ -669,6 +670,10 @@
             "display": "URINE-GRAM STAIN - UNSPUN"
         },
         {
+            "code": "90240",
+            "display": "ACID FAST CULTURE"
+        },
+        {
             "code": "90248",
             "display": "RAPID PLASMA REAGIN TEST"
         },
@@ -689,8 +694,8 @@
             "display": "GENITAL CULTURE FOR TOXIC SHOCK"
         },
         {
-            "code": "90207",
-            "display": "Stem Cell Culture in Bottles"
+            "code": "90199",
+            "display": "Immunofluorescent test for Pneumocystis jirovecii (carinii)"
         },
         {
             "code": "90127",
@@ -715,10 +720,6 @@
         {
             "code": "90132",
             "display": "LYME SEROLOGY"
-        },
-        {
-            "code": "90240",
-            "display": "STATE AFB CULTURE AND SMEAR"
         }
     ]
 }

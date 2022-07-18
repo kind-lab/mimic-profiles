@@ -3,13 +3,14 @@
     "id": "microbiology-organism",
     "language": "en",
     "url": "http://fhir.mimic.mit.edu/CodeSystem/microbiology-organism",
-    "version": "0.4",
+    "version": "2.0",
     "name": "MicrobiologyOrganism",
     "title": "MicrobiologyOrganism",
-    "status": "active",
-    "date": "2022-03-14T14:29:07-04:00",
+    "status": "draft",
+    "date": "2022-05-24T14:39:04-04:00",
     "publisher": "KinD Lab",
     "description": "The microbiology organism being tested in MIMIC",
+    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/microbiology-organism",
     "content": "complete",
     "concept": [
         {
@@ -313,10 +314,6 @@
             "display": "CAMPYLOBACTER COLI"
         },
         {
-            "code": "90304",
-            "display": "ANAEROBIC GRAM NEGATIVE ROD #1"
-        },
-        {
             "code": "90498",
             "display": "MYCOBACTERIUM XENOPI"
         },
@@ -377,12 +374,12 @@
             "display": "SALMONELLA OSLO"
         },
         {
-            "code": "80052",
-            "display": "ALPHA STREPTOCOCCI"
-        },
-        {
             "code": "90461",
             "display": "KINGELLA SPECIES"
+        },
+        {
+            "code": "80052",
+            "display": "ALPHA STREPTOCOCCI"
         },
         {
             "code": "80008",
@@ -597,6 +594,10 @@
             "display": "SALMONELLA AGONA"
         },
         {
+            "code": "90979",
+            "display": "NEUROSPORA SITOPHILA (FORMERLY CHRYSONILLA SITOPHILA)"
+        },
+        {
             "code": "90778",
             "display": "ACHROMOBACTER SPECIES"
         },
@@ -615,6 +616,10 @@
         {
             "code": "80155",
             "display": "STAPHYLOCOCCUS, COAGULASE NEGATIVE"
+        },
+        {
+            "code": "90968",
+            "display": "STREPTOCOCCUS ALACTOLYTICUS"
         },
         {
             "code": "90476",
@@ -763,6 +768,10 @@
         {
             "code": "80171",
             "display": "STREPTOCOCCUS ANGINOSUS"
+        },
+        {
+            "code": "90984",
+            "display": "IRPEX LACTEUS"
         },
         {
             "code": "90835",
@@ -1081,6 +1090,10 @@
             "display": "YEAST, PRESUMPTIVELY NOT C. ALBICANS"
         },
         {
+            "code": "90983",
+            "display": "ROTHIA SPECIES"
+        },
+        {
             "code": "90431",
             "display": "LEGIONELLA PNEUMOPHILA, GROUP 1"
         },
@@ -1211,6 +1224,10 @@
         {
             "code": "90528",
             "display": "PREVOTELLA (BACTEROIDES) SPECIES"
+        },
+        {
+            "code": "90900",
+            "display": "MYCOBACTERIUM NEOAURUM"
         },
         {
             "code": "80303",
@@ -1793,10 +1810,6 @@
             "display": "MICROBACTERIUM SPECIES"
         },
         {
-            "code": "90658",
-            "display": "SALMONELLA BAREILLY"
-        },
-        {
             "code": "80176",
             "display": "VARICELLA-ZOSTER VIRUS"
         },
@@ -1889,10 +1902,6 @@
             "display": "MYCOBACTERIUM MARINUM"
         },
         {
-            "code": "90675",
-            "display": "SALMONELLA POMONA"
-        },
-        {
             "code": "90695",
             "display": "DELFTIA ACIDOVORANS"
         },
@@ -1903,6 +1912,10 @@
         {
             "code": "80170",
             "display": "LEUCONOSTOC SPECIES"
+        },
+        {
+            "code": "90829",
+            "display": "ACRODONTIUM SALMONEUM"
         },
         {
             "code": "90472",
@@ -1985,16 +1998,16 @@
             "display": "RESPIRATORY SYNCYTIAL VIRUS (RSV)"
         },
         {
+            "code": "90977",
+            "display": "PHIALEMONIUM INFLATUM"
+        },
+        {
             "code": "90279",
             "display": "SHIGELLA BOYDII"
         },
         {
             "code": "80137",
             "display": "CANDIDA LUSITANIAE"
-        },
-        {
-            "code": "90751",
-            "display": "SALMONELLA HAVANA"
         },
         {
             "code": "80288",
@@ -2055,6 +2068,10 @@
         {
             "code": "80078",
             "display": "ANAEROBIC GRAM POSITIVE COCCUS(I)"
+        },
+        {
+            "code": "90892",
+            "display": "KOCURIA SPECIES"
         },
         {
             "code": "90518",
@@ -2469,16 +2486,16 @@
             "display": "SALMONELLA TELELKEBIR"
         },
         {
-            "code": "90628",
-            "display": "SALMONELLA KENTUCKY"
-        },
-        {
             "code": "90880",
             "display": "CUTIBACTERIUM (PROPIONIBACTERIUM) ACNES"
         },
         {
             "code": "90894",
             "display": "CORYNEBACTERIUM GLUCURONOLYTICUM"
+        },
+        {
+            "code": "90899",
+            "display": "CORYNEBACTERIUM PYRUVICIPRODUCENS"
         },
         {
             "code": "90860",
@@ -2517,12 +2534,12 @@
             "display": "RESEMBLING MICROCOCCUS/STOMATOCOCCUS SPECIES"
         },
         {
-            "code": "90717",
-            "display": "LACTOBACILLUS GASSERI"
-        },
-        {
             "code": "90507",
             "display": "SALMONELLA STANLEY"
+        },
+        {
+            "code": "90717",
+            "display": "LACTOBACILLUS GASSERI"
         },
         {
             "code": "80132",

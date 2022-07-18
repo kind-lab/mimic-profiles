@@ -5,11 +5,12 @@
 id: kindlab.fhir.mimic
 canonical: http://fhir.mimic.mit.edu
 name: MIMIC
+title: MIMIC Implementation Guide
 status: draft
-version: 0.1.7
+version: 0.2.4
 fhirVersion: 4.0.1
 copyrightYear: 2022+
-releaseLabel: ci-build
+releaseLabel: Draft
 publisher:
   name: KinD Lab
   url: http://fhir.kindlab.sickkids.ca

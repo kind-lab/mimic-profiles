@@ -3,13 +3,14 @@
     "id": "admission-class",
     "language": "en",
     "url": "http://fhir.mimic.mit.edu/CodeSystem/admission-class",
-    "version": "0.4",
+    "version": "2.0",
     "name": "AdmissionClass",
     "title": "AdmissionClass",
-    "status": "active",
-    "date": "2022-03-14T14:29:07-04:00",
+    "status": "draft",
+    "date": "2022-05-24T14:39:04-04:00",
     "publisher": "KinD Lab",
     "description": "The admission class for MIMIC",
+    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/admission-class",
     "content": "complete",
     "concept": [
         {
@@ -31,10 +32,10 @@
             "code": "DIRECT OBSERVATION"
         },
         {
-            "code": "OBSERVATION ADMIT"
+            "code": "DIRECT EMER."
         },
         {
-            "code": "DIRECT EMER."
+            "code": "OBSERVATION ADMIT"
         },
         {
             "code": "EW EMER."

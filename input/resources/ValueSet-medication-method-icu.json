@@ -1,0 +1,20 @@
+{
+    "resourceType": "ValueSet",
+    "id": "medication-method-icu",
+    "language": "en",
+    "url": "http://fhir.mimic.mit.edu/ValueSet/medication-method-icu",
+    "version": "2.0",
+    "name": "MedicationMethodIcu",
+    "title": "MedicationMethodIcu",
+    "status": "draft",
+    "date": "2022-05-24T14:39:04-04:00",
+    "publisher": "KinD Lab",
+    "description": "The medication delivery method used in the ICU for MIMIC",
+    "compose": {
+        "include": [
+            {
+                "system": "http://fhir.mimic.mit.edu/CodeSystem/medication-method-icu"
+            }
+        ]
+    }
+}

@@ -3,21 +3,16 @@
     "id": "medication-frequency",
     "language": "en",
     "url": "http://fhir.mimic.mit.edu/CodeSystem/medication-frequency",
-    "version": "0.1.0",
-    "name": "Medication Frequency",
-    "title": "Medication Frequency",
-    "date": "2022-02-08T00:00:00-04:00",
-    "status": "active",
+    "version": "2.0",
+    "name": "MedicationFrequency",
+    "title": "MedicationFrequency",
+    "status": "draft",
+    "date": "2022-05-24T14:39:04-04:00",
     "publisher": "KinD Lab",
-    "description": "The frequency of use prescribed for a medication in MIMIC",
+    "description": "The medication frequency reported for medication delivery in MIMIC",
+    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/medication-frequency",
     "content": "complete",
     "concept": [
-        {
-            "code": "DAILY18"
-        },
-        {
-            "code": "EVERY 8 WEEKS"
-        },
         {
             "code": "Q36H"
         },
@@ -151,13 +146,13 @@
             "code": "PRE-HYDRATION"
         },
         {
-            "code": "INFUSION"
-        },
-        {
             "code": "QID"
         },
         {
             "code": "BREAKFAST"
+        },
+        {
+            "code": "INFUSION"
         },
         {
             "code": "TID"
@@ -190,10 +185,10 @@
             "code": "QID:PRN"
         },
         {
-            "code": "QSUN"
+            "code": "1X"
         },
         {
-            "code": "1X"
+            "code": "QSUN"
         },
         {
             "code": "ASDIR"
@@ -265,10 +260,10 @@
             "code": "QAM"
         },
         {
-            "code": "Q2H"
+            "code": "Q 24H"
         },
         {
-            "code": "Q 24H"
+            "code": "Q2H"
         },
         {
             "code": "NOON"
@@ -316,10 +311,10 @@
             "code": "Q8H"
         },
         {
-            "code": "5X/DAY"
+            "code": "ONCE PER LUMEN (1 LUMEN)"
         },
         {
-            "code": "ONCE PER LUMEN (1 LUMEN)"
+            "code": "5X/DAY"
         },
         {
             "code": "PREOP"
@@ -496,10 +491,16 @@
             "code": "TIDPC"
         },
         {
+            "code": "QWED"
+        },
+        {
             "code": "Q3-4H:PRN"
         },
         {
-            "code": "QWED"
+            "code": "DAILY18"
+        },
+        {
+            "code": "EVERY 8 WEEKS"
         }
     ]
 }

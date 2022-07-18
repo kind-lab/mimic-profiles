@@ -3,13 +3,14 @@
     "id": "microbiology-interpretation",
     "language": "en",
     "url": "http://fhir.mimic.mit.edu/CodeSystem/microbiology-interpretation",
-    "version": "0.4",
+    "version": "2.0",
     "name": "MicrobiologyInterpretation",
     "title": "MicrobiologyInterpretation",
-    "status": "active",
-    "date": "2022-03-14T14:29:07-04:00",
+    "status": "draft",
+    "date": "2022-05-24T14:39:04-04:00",
     "publisher": "KinD Lab",
     "description": "The microbiology result interpretation codes in  MIMIC",
+    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/microbiology-interpretation",
     "content": "complete",
     "concept": [
         {

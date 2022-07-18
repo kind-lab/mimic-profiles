@@ -3,13 +3,14 @@
     "id": "bodysite",
     "language": "en",
     "url": "http://fhir.mimic.mit.edu/CodeSystem/bodysite",
-    "version": "0.4",
+    "version": "2.0",
     "name": "Bodysite",
     "title": "Bodysite",
-    "status": "active",
-    "date": "2022-03-14T14:29:07-04:00",
+    "status": "draft",
+    "date": "2022-05-24T14:39:04-04:00",
     "publisher": "KinD Lab",
     "description": "The bodysite codes for MIMIC",
+    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/bodysite",
     "content": "complete",
     "concept": [
         {
@@ -40,13 +41,13 @@
             "code": "Right Antecube"
         },
         {
+            "code": "R Wrist"
+        },
+        {
             "code": "Right Accessory Cephalic"
         },
         {
             "code": "Right Cephalic Lower Arm"
-        },
-        {
-            "code": "R Wrist"
         },
         {
             "code": "Left Axilla."
@@ -67,10 +68,10 @@
             "code": "RL Post Forearm"
         },
         {
-            "code": "R Hand Lateral"
+            "code": "R Subclavian"
         },
         {
-            "code": "R Subclavian"
+            "code": "R Hand Lateral"
         },
         {
             "code": "Right Axilla."
@@ -106,10 +107,10 @@
             "code": "Left Femoral."
         },
         {
-            "code": "Left IJ."
+            "code": "R Wrist Medial"
         },
         {
-            "code": "R Wrist Medial"
+            "code": "Left IJ."
         },
         {
             "code": "Left Antecube"
@@ -130,25 +131,25 @@
             "code": "Central"
         },
         {
-            "code": "Right above Antecubital"
-        },
-        {
-            "code": "Right IJ."
-        },
-        {
             "code": "RU Ant Forearm Lateral"
         },
         {
             "code": "LL Ant Forearm"
         },
         {
+            "code": "Right IJ."
+        },
+        {
+            "code": "Right above Antecubital"
+        },
+        {
             "code": "RU Ant Forearm Medial"
         },
         {
-            "code": "Right Metacarpal"
+            "code": "Right Axilla"
         },
         {
-            "code": "Right Axilla"
+            "code": "Right Metacarpal"
         },
         {
             "code": "L Subclavian"
@@ -232,10 +233,10 @@
             "code": "Ostomy"
         },
         {
-            "code": "Right Antecubital"
+            "code": "Right Digital"
         },
         {
-            "code": "Right Digital"
+            "code": "Right Antecubital"
         },
         {
             "code": "LU Post Forearm"
@@ -301,10 +302,10 @@
             "code": "Right Median Cubital"
         },
         {
-            "code": "Left Subclavian"
+            "code": "L Wrist"
         },
         {
-            "code": "L Wrist"
+            "code": "Left Subclavian"
         },
         {
             "code": "L Antecube"

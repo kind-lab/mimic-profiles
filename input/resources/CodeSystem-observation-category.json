@@ -3,13 +3,14 @@
     "id": "observation-category",
     "language": "en",
     "url": "http://fhir.mimic.mit.edu/CodeSystem/observation-category",
-    "version": "0.4",
+    "version": "2.0",
     "name": "ObservationCategory",
     "title": "ObservationCategory",
-    "status": "active",
-    "date": "2022-03-14T14:29:07-04:00",
+    "status": "draft",
+    "date": "2022-05-24T14:39:04-04:00",
     "publisher": "KinD Lab",
     "description": "The observation category codes for MIMIC",
+    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/observation-category",
     "content": "complete",
     "concept": [
         {
@@ -109,13 +110,16 @@
             "code": "Nutrition - Enteral"
         },
         {
+            "code": "Ingredients - general (Not In Use)"
+        },
+        {
             "code": "Triggers Note"
         },
         {
-            "code": "Tandem Heart"
+            "code": "ApacheII Parameters"
         },
         {
-            "code": "ApacheII Parameters"
+            "code": "Tandem Heart"
         },
         {
             "code": "ZIntake"
@@ -239,6 +243,9 @@
         },
         {
             "code": "5-Imaging"
+        },
+        {
+            "code": "Ingredients"
         },
         {
             "code": "General"
