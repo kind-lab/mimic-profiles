@@ -1,7 +1,10 @@
-Profile:        MIMIC_Specimen
+Profile:        MimicSpecimen
 Parent:         Specimen
 Id:             mimic-specimen
 Title:          "MIMIC Specimen"
 Description:    "A MIMIC lab specimen profile based on the baes FHIR R4 Specimen."
 
 * type from http://fhir.mimic.mit.edu/ValueSet/specimen-type
+
+// referencing must be to MIMIC profiles
+* subject only Reference(MimicPatient)

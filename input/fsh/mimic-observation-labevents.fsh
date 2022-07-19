@@ -15,3 +15,8 @@ Title: "Lab Priority"
 Description: "The priority of a lab item in MIMIC"
 * value[x] from http://fhir.mimic.mit.edu/ValueSet/lab-priority
 * value[x] only string
+
+// referencing must be to MIMIC profiles
+* subject only Reference(MimicPatient)
+* encounter only Reference(MimicEncounter)
+* specimen only Reference(MimicSpecimen)

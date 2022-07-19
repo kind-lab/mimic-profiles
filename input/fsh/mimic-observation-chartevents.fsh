@@ -1,4 +1,4 @@
-Profile:        MIMIC_Observation_Chartevents
+Profile:        MimicObservationChartevents
 Parent:         Observation
 Id:             mimic-observation-chartevents
 Title:          "MIMIC Observation Chartevents"
@@ -6,3 +6,7 @@ Description:    "A MIMIC observation chartevents profile based on the base obser
 
 * code from http://fhir.mimic.mit.edu/ValueSet/chartevents-d-items
 * category from http://fhir.mimic.mit.edu/ValueSet/observation-category
+
+// referencing must be to MIMIC profiles
+* subject only Reference(MimicPatient)
+* encounter only Reference(MimicEncounterICU)

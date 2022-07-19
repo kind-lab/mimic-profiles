@@ -1,4 +1,4 @@
-Profile:        MIMIC_Patient
+Profile:        MimicPatient
 Parent:         us-core-patient
 Id:             mimic-patient
 Title:          "MIMIC Patient"

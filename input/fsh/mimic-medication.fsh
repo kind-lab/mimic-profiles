@@ -1,4 +1,4 @@
-Profile:        MIMIC_Medication
+Profile:        MimicMedication
 Parent:         Medication
 Id:             mimic-medication
 Title:          "MIMIC Medication"

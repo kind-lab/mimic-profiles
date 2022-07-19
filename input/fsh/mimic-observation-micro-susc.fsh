@@ -1,4 +1,4 @@
-Profile:        MIMIC_Observation_Micro_Susc
+Profile:        MimicObservationMicroSusc
 Parent:         us-core-observation-lab
 Id:             mimic-observation-micro-susc
 Title:          "MIMIC Observation Micro Susc"
@@ -7,6 +7,10 @@ Description:    "A MIMIC observation microbiology susceptiblity profile based on
 * code from http://fhir.mimic.mit.edu/ValueSet/microbiology-antibiotic
 * interpretation from http://fhir.mimic.mit.edu/ValueSet/microbiology-interpretation
 * extension contains DilutionDetails named dilutionDetails 0..1
+
+// referencing must be to MIMIC profiles
+* subject only Reference(MimicPatient)
+* derivedFrom only Reference(MimicObservationMicroOrg)
 
 Extension: DilutionDetails
 Id: dilution-details
