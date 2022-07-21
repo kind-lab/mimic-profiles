@@ -1,0 +1,330 @@
+{
+    "resourceType": "ValueSet",
+    "id": "mimic-outputevents-d-items",
+    "language": "en",
+    "url": "http://fhir.mimic.mit.edu/ValueSet/mimic-outputevents-d-items",
+    "version": "2.0",
+    "name": "MimicOutputeventsDItems",
+    "title": "MimicOutputeventsDItems",
+    "status": "draft",
+    "date": "2022-07-19T11:21:50-04:00",
+    "publisher": "KinD Lab",
+    "description": "The item codes for outputevents used in MIMIC",
+    "compose": {
+        "include": [
+            {
+                "system": "http://fhir.mimic.mit.edu/CodeSystem/mimic-d-items",
+                "concept": [
+                    {
+                        "code": "227489",
+                        "display": "GU Irrigant/Urine Volume Out"
+                    },
+                    {
+                        "code": "226629",
+                        "display": "PACU EBL"
+                    },
+                    {
+                        "code": "224458",
+                        "display": "Drain Output_ingr"
+                    },
+                    {
+                        "code": "226613",
+                        "display": "Wound Vac #1"
+                    },
+                    {
+                        "code": "226588",
+                        "display": "Chest Tube #1"
+                    },
+                    {
+                        "code": "227487",
+                        "display": "GU Irrigant Type"
+                    },
+                    {
+                        "code": "226630",
+                        "display": "PACU Gastric"
+                    },
+                    {
+                        "code": "226600",
+                        "display": "Jackson Pratt #2"
+                    },
+                    {
+                        "code": "226605",
+                        "display": "Hemovac #2"
+                    },
+                    {
+                        "code": "226583",
+                        "display": "Rectal Tube"
+                    },
+                    {
+                        "code": "227511",
+                        "display": "TF Residual Output"
+                    },
+                    {
+                        "code": "226624",
+                        "display": "Penrose #2"
+                    },
+                    {
+                        "code": "226627",
+                        "display": "OR Urine"
+                    },
+                    {
+                        "code": "226609",
+                        "display": "Cerebral Subdural #2"
+                    },
+                    {
+                        "code": "226567",
+                        "display": "Straight Cath"
+                    },
+                    {
+                        "code": "226597",
+                        "display": "JP Medial"
+                    },
+                    {
+                        "code": "227488",
+                        "display": "GU Irrigant Volume In"
+                    },
+                    {
+                        "code": "226590",
+                        "display": "L Pleural #1"
+                    },
+                    {
+                        "code": "226622",
+                        "display": "Red Rubber"
+                    },
+                    {
+                        "code": "226619",
+                        "display": "Pigtail #1"
+                    },
+                    {
+                        "code": "226570",
+                        "display": "Blakemore"
+                    },
+                    {
+                        "code": "226603",
+                        "display": "T Tube"
+                    },
+                    {
+                        "code": "226576",
+                        "display": "Oral Gastric"
+                    },
+                    {
+                        "code": "226574",
+                        "display": "Jejunostomy"
+                    },
+                    {
+                        "code": "226606",
+                        "display": "Cerebral Ventricular #1"
+                    },
+                    {
+                        "code": "226572",
+                        "display": "Ewald"
+                    },
+                    {
+                        "code": "226621",
+                        "display": "Davol"
+                    },
+                    {
+                        "code": "226618",
+                        "display": "Sump #2"
+                    },
+                    {
+                        "code": "226610",
+                        "display": "Lumbar"
+                    },
+                    {
+                        "code": "226560",
+                        "display": "Void"
+                    },
+                    {
+                        "code": "226631",
+                        "display": "PACU Urine"
+                    },
+                    {
+                        "code": "226604",
+                        "display": "Hemovac #1"
+                    },
+                    {
+                        "code": "226626",
+                        "display": "OR EBL"
+                    },
+                    {
+                        "code": "226591",
+                        "display": "L Pleural #2"
+                    },
+                    {
+                        "code": "226586",
+                        "display": "Stool Estimate"
+                    },
+                    {
+                        "code": "226559",
+                        "display": "Foley"
+                    },
+                    {
+                        "code": "226599",
+                        "display": "Jackson Pratt #1"
+                    },
+                    {
+                        "code": "226595",
+                        "display": "R Pleural #2"
+                    },
+                    {
+                        "code": "229414",
+                        "display": "Chest Tube #4"
+                    },
+                    {
+                        "code": "226633",
+                        "display": "Pre-Admission"
+                    },
+                    {
+                        "code": "226628",
+                        "display": "PACU Drains"
+                    },
+                    {
+                        "code": "226575",
+                        "display": "Nasogastric"
+                    },
+                    {
+                        "code": "226564",
+                        "display": "R Nephrostomy"
+                    },
+                    {
+                        "code": "226602",
+                        "display": "Jackson Pratt #4"
+                    },
+                    {
+                        "code": "226713",
+                        "display": "Incontinent/voids (estimate)"
+                    },
+                    {
+                        "code": "226598",
+                        "display": "JP Lateral"
+                    },
+                    {
+                        "code": "227510",
+                        "display": "TF Residual"
+                    },
+                    {
+                        "code": "226625",
+                        "display": "Tap"
+                    },
+                    {
+                        "code": "226616",
+                        "display": "Anderson"
+                    },
+                    {
+                        "code": "226632",
+                        "display": "Cath Lab"
+                    },
+                    {
+                        "code": "229413",
+                        "display": "Chest Tube #3"
+                    },
+                    {
+                        "code": "226566",
+                        "display": "Urine and GU Irrigant Out"
+                    },
+                    {
+                        "code": "226620",
+                        "display": "Pigtail #2"
+                    },
+                    {
+                        "code": "226607",
+                        "display": "Cerebral Ventricular #2"
+                    },
+                    {
+                        "code": "226565",
+                        "display": "L Nephrostomy"
+                    },
+                    {
+                        "code": "226580",
+                        "display": "Fecal Bag"
+                    },
+                    {
+                        "code": "226623",
+                        "display": "Penrose #1"
+                    },
+                    {
+                        "code": "226589",
+                        "display": "Chest Tube #2"
+                    },
+                    {
+                        "code": "226558",
+                        "display": "L Ureteral Stent"
+                    },
+                    {
+                        "code": "226592",
+                        "display": "Mediastinal"
+                    },
+                    {
+                        "code": "226569",
+                        "display": "Anderson (gastric)"
+                    },
+                    {
+                        "code": "226557",
+                        "display": "R Ureteral Stent"
+                    },
+                    {
+                        "code": "227701",
+                        "display": "Drainage Bag"
+                    },
+                    {
+                        "code": "226573",
+                        "display": "Gastric Tube"
+                    },
+                    {
+                        "code": "226563",
+                        "display": "Suprapubic"
+                    },
+                    {
+                        "code": "226582",
+                        "display": "Ostomy (output)"
+                    },
+                    {
+                        "code": "226601",
+                        "display": "Jackson Pratt #3"
+                    },
+                    {
+                        "code": "226579",
+                        "display": "Stool"
+                    },
+                    {
+                        "code": "226614",
+                        "display": "Wound Vac #2"
+                    },
+                    {
+                        "code": "226561",
+                        "display": "Condom Cath"
+                    },
+                    {
+                        "code": "226612",
+                        "display": "Pericardial"
+                    },
+                    {
+                        "code": "226584",
+                        "display": "Ileoconduit"
+                    },
+                    {
+                        "code": "226571",
+                        "display": "Emesis"
+                    },
+                    {
+                        "code": "228103",
+                        "display": "Stool containment device placed"
+                    },
+                    {
+                        "code": "226608",
+                        "display": "Cerebral Subdural #1"
+                    },
+                    {
+                        "code": "226617",
+                        "display": "Sump #1"
+                    },
+                    {
+                        "code": "226593",
+                        "display": "R Pleural #1"
+                    }
+                ]
+            }
+        ]
+    }
+}

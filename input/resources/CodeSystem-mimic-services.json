@@ -1,0 +1,74 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "mimic-services",
+    "language": "en",
+    "url": "http://fhir.mimic.mit.edu/CodeSystem/mimic-services",
+    "version": "2.0",
+    "name": "MimicServices",
+    "title": "MimicServices",
+    "status": "draft",
+    "date": "2022-07-19T11:21:50-04:00",
+    "publisher": "KinD Lab",
+    "description": "The hospital services for MIMIC",
+    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/mimic-services",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "TRAUM"
+        },
+        {
+            "code": "DENT"
+        },
+        {
+            "code": "CSURG"
+        },
+        {
+            "code": "CMED"
+        },
+        {
+            "code": "ORTHO"
+        },
+        {
+            "code": "ENT"
+        },
+        {
+            "code": "GU"
+        },
+        {
+            "code": "NMED"
+        },
+        {
+            "code": "SURG"
+        },
+        {
+            "code": "TSURG"
+        },
+        {
+            "code": "GYN"
+        },
+        {
+            "code": "VSURG"
+        },
+        {
+            "code": "MED"
+        },
+        {
+            "code": "NSURG"
+        },
+        {
+            "code": "PSYCH"
+        },
+        {
+            "code": "OBS"
+        },
+        {
+            "code": "OMED"
+        },
+        {
+            "code": "EYE"
+        },
+        {
+            "code": "PSURG"
+        }
+    ]
+}

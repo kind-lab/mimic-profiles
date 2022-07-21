@@ -1,0 +1,50 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "mimic-admit-source",
+    "language": "en",
+    "url": "http://fhir.mimic.mit.edu/CodeSystem/mimic-admit-source",
+    "version": "2.0",
+    "name": "MimicAdmitSource",
+    "title": "MimicAdmitSource",
+    "status": "draft",
+    "date": "2022-07-19T11:21:50-04:00",
+    "publisher": "KinD Lab",
+    "description": "The admission source for MIMIC",
+    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/mimic-admit-source",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "AMBULATORY SURGERY TRANSFER"
+        },
+        {
+            "code": "TRANSFER FROM SKILLED NURSING FACILITY"
+        },
+        {
+            "code": "PROCEDURE SITE"
+        },
+        {
+            "code": "WALK-IN/SELF REFERRAL"
+        },
+        {
+            "code": "INTERNAL TRANSFER TO OR FROM PSYCH"
+        },
+        {
+            "code": "PHYSICIAN REFERRAL"
+        },
+        {
+            "code": "INFORMATION NOT AVAILABLE"
+        },
+        {
+            "code": "PACU"
+        },
+        {
+            "code": "EMERGENCY ROOM"
+        },
+        {
+            "code": "CLINIC REFERRAL"
+        },
+        {
+            "code": "TRANSFER FROM HOSPITAL"
+        }
+    ]
+}

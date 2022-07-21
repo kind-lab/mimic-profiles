@@ -1,0 +1,53 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "mimic-lab-fluid",
+    "language": "en",
+    "url": "http://fhir.mimic.mit.edu/CodeSystem/mimic-lab-fluid",
+    "version": "2.0",
+    "name": "MimicLabFluid",
+    "title": "MimicLabFluid",
+    "status": "draft",
+    "date": "2022-07-19T11:21:50-04:00",
+    "publisher": "KinD Lab",
+    "description": "The lab fluid that is captured for the specimen",
+    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/mimic-lab-fluid",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "I"
+        },
+        {
+            "code": "Joint Fluid"
+        },
+        {
+            "code": "Pleural"
+        },
+        {
+            "code": "Bone Marrow"
+        },
+        {
+            "code": "Ascites"
+        },
+        {
+            "code": "Fluid"
+        },
+        {
+            "code": "Stool"
+        },
+        {
+            "code": "Other Body Fluid"
+        },
+        {
+            "code": "Q"
+        },
+        {
+            "code": "Cerebrospinal Fluid"
+        },
+        {
+            "code": "Blood"
+        },
+        {
+            "code": "Urine"
+        }
+    ]
+}

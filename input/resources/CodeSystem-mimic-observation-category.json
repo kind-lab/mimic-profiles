@@ -1,0 +1,260 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "mimic-observation-category",
+    "language": "en",
+    "url": "http://fhir.mimic.mit.edu/CodeSystem/mimic-observation-category",
+    "version": "2.0",
+    "name": "MimicObservationCategory",
+    "title": "MimicObservationCategory",
+    "status": "draft",
+    "date": "2022-07-19T11:21:50-04:00",
+    "publisher": "KinD Lab",
+    "description": "The observation category codes for MIMIC",
+    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/mimic-observation-category",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "Scores - APACHE II"
+        },
+        {
+            "code": "6-Cultures"
+        },
+        {
+            "code": "4-Procedures"
+        },
+        {
+            "code": "PA Line Insertion"
+        },
+        {
+            "code": "Thoracentesis"
+        },
+        {
+            "code": "Restraint/Support Systems"
+        },
+        {
+            "code": "Research Enrollment Note"
+        },
+        {
+            "code": "Scores - APACHE IV (2)"
+        },
+        {
+            "code": "Impella"
+        },
+        {
+            "code": "GI/GU"
+        },
+        {
+            "code": "Lumbar Puncture"
+        },
+        {
+            "code": "Pulmonary"
+        },
+        {
+            "code": "Swallow Evaluation"
+        },
+        {
+            "code": "Dialysis"
+        },
+        {
+            "code": "OT Notes"
+        },
+        {
+            "code": "Output"
+        },
+        {
+            "code": "Family Mtg Note"
+        },
+        {
+            "code": "7-Communication"
+        },
+        {
+            "code": "Respiratory"
+        },
+        {
+            "code": "Access Lines - Peripheral"
+        },
+        {
+            "code": "ADT"
+        },
+        {
+            "code": "Medications"
+        },
+        {
+            "code": "Drains"
+        },
+        {
+            "code": "Cardiovascular"
+        },
+        {
+            "code": "RNTriggerNote"
+        },
+        {
+            "code": "Skin - Impairment"
+        },
+        {
+            "code": "Cardiovascular (Pacer Data)"
+        },
+        {
+            "code": "Intubation"
+        },
+        {
+            "code": "Centrimag"
+        },
+        {
+            "code": "Toxicology"
+        },
+        {
+            "code": "Hemodynamics"
+        },
+        {
+            "code": "Nutrition - Enteral"
+        },
+        {
+            "code": "Ingredients - general (Not In Use)"
+        },
+        {
+            "code": "Triggers Note"
+        },
+        {
+            "code": "ApacheII Parameters"
+        },
+        {
+            "code": "Tandem Heart"
+        },
+        {
+            "code": "ZIntake"
+        },
+        {
+            "code": "MD Progress Note"
+        },
+        {
+            "code": "Case Management"
+        },
+        {
+            "code": "Fluids/Intake"
+        },
+        {
+            "code": "Antibiotics"
+        },
+        {
+            "code": "Alarms"
+        },
+        {
+            "code": "Neurological"
+        },
+        {
+            "code": "Fluids - Other (Not In Use)"
+        },
+        {
+            "code": "Access Lines - Invasive"
+        },
+        {
+            "code": "ApacheIV Parameters"
+        },
+        {
+            "code": "Durable VAD"
+        },
+        {
+            "code": "ECMO"
+        },
+        {
+            "code": "Bronchoscopy"
+        },
+        {
+            "code": "Paracentesis"
+        },
+        {
+            "code": "3-Significant Events"
+        },
+        {
+            "code": "IABP"
+        },
+        {
+            "code": "RDOS"
+        },
+        {
+            "code": "1-Intubation/Extubation"
+        },
+        {
+            "code": "NICOM"
+        },
+        {
+            "code": "Routine Vital Signs"
+        },
+        {
+            "code": "Heartware"
+        },
+        {
+            "code": "Pain/Sedation"
+        },
+        {
+            "code": "Generic Proc Note"
+        },
+        {
+            "code": "Cardiovascular (Pulses)"
+        },
+        {
+            "code": "2-Ventilation"
+        },
+        {
+            "code": "Adm History/FHPA"
+        },
+        {
+            "code": "CVL Insertion"
+        },
+        {
+            "code": "Nutrition - Supplements"
+        },
+        {
+            "code": "PiCCO"
+        },
+        {
+            "code": "Treatments"
+        },
+        {
+            "code": "PICC Line Insertion"
+        },
+        {
+            "code": "Pastoral Care Note"
+        },
+        {
+            "code": "Skin - Incisions"
+        },
+        {
+            "code": "Scores - APACHE IV"
+        },
+        {
+            "code": "Labs"
+        },
+        {
+            "code": "Skin - Assessment"
+        },
+        {
+            "code": "Blood Products/Colloids"
+        },
+        {
+            "code": "SBNET"
+        },
+        {
+            "code": "Arterial Line Insertion"
+        },
+        {
+            "code": "Care Plans"
+        },
+        {
+            "code": "5-Imaging"
+        },
+        {
+            "code": "Ingredients"
+        },
+        {
+            "code": "General"
+        },
+        {
+            "code": "OB-GYN"
+        },
+        {
+            "code": "Nutrition - Parenteral"
+        }
+    ]
+}

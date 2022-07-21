@@ -1,0 +1,29 @@
+{
+    "resourceType": "ValueSet",
+    "id": "mimic-encounter-type",
+    "language": "en",
+    "url": "http://fhir.mimic.mit.edu/ValueSet/mimic-encounter-type",
+    "version": "2.0",
+    "name": "MimicEncounterType",
+    "title": "MimicEncounterType",
+    "status": "draft",
+    "date": "2022-07-19T11:21:50-04:00",
+    "publisher": "KinD Lab",
+    "description": "The encounter type for MIMIC",
+    "compose": {
+        "include": [
+            {
+                "system": "http://fhir.mimic.mit.edu/CodeSystem/mimic-hcpcs-cd"
+            },
+            {
+                "system": "http://snomed.info/sct",
+                "concept": [
+                    {
+                        "code": "453701000124103",
+                        "display": "In-person encounter (procedure)"
+                    }
+                ]
+            }
+        ]
+    }
+}

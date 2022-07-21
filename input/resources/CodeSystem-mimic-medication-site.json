@@ -1,0 +1,1154 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "mimic-medication-site",
+    "language": "en",
+    "url": "http://fhir.mimic.mit.edu/CodeSystem/mimic-medication-site",
+    "version": "2.0",
+    "name": "MimicMedicationSite",
+    "title": "MimicMedicationSite",
+    "status": "draft",
+    "date": "2022-07-19T11:21:50-04:00",
+    "publisher": "KinD Lab",
+    "description": "The medication site for administration in MIMIC",
+    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/mimic-medication-site",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "___"
+        },
+        {
+            "code": "a"
+        },
+        {
+            "code": "ab"
+        },
+        {
+            "code": "ABD"
+        },
+        {
+            "code": "Abd"
+        },
+        {
+            "code": "abd"
+        },
+        {
+            "code": "abd."
+        },
+        {
+            "code": "abd and back"
+        },
+        {
+            "code": "abd/back"
+        },
+        {
+            "code": "ABDOMEN"
+        },
+        {
+            "code": "Abdomen"
+        },
+        {
+            "code": "abdomen"
+        },
+        {
+            "code": "abdomen and back"
+        },
+        {
+            "code": "abdomen/back"
+        },
+        {
+            "code": "above knee"
+        },
+        {
+            "code": "Ankle"
+        },
+        {
+            "code": "ankle"
+        },
+        {
+            "code": "ant chest"
+        },
+        {
+            "code": "anterior chest"
+        },
+        {
+            "code": "anterior shoulder"
+        },
+        {
+            "code": "anterior thigh"
+        },
+        {
+            "code": "ARM"
+        },
+        {
+            "code": "Arm"
+        },
+        {
+            "code": "arm"
+        },
+        {
+            "code": "arm,"
+        },
+        {
+            "code": "arm/shoulder"
+        },
+        {
+            "code": "arn"
+        },
+        {
+            "code": "axilla"
+        },
+        {
+            "code": "axillary"
+        },
+        {
+            "code": "BACK"
+        },
+        {
+            "code": "Back"
+        },
+        {
+            "code": "bACK"
+        },
+        {
+            "code": "baCK"
+        },
+        {
+            "code": "b ack"
+        },
+        {
+            "code": "back"
+        },
+        {
+            "code": "back/abdomen"
+        },
+        {
+            "code": "back and abdomen"
+        },
+        {
+            "code": "back and neck"
+        },
+        {
+            "code": "back/flank"
+        },
+        {
+            "code": "back/hip"
+        },
+        {
+            "code": "back lower"
+        },
+        {
+            "code": "back neck"
+        },
+        {
+            "code": "back/neck"
+        },
+        {
+            "code": "back of arm"
+        },
+        {
+            "code": "back of ear"
+        },
+        {
+            "code": "back of neck"
+        },
+        {
+            "code": "back of shoulder"
+        },
+        {
+            "code": "back of thigh"
+        },
+        {
+            "code": "back/ribs"
+        },
+        {
+            "code": "back shoulder"
+        },
+        {
+            "code": "back/shoulder"
+        },
+        {
+            "code": "back/side"
+        },
+        {
+            "code": "bacl"
+        },
+        {
+            "code": "bak"
+        },
+        {
+            "code": "bCK"
+        },
+        {
+            "code": "bck"
+        },
+        {
+            "code": "Behind ear"
+        },
+        {
+            "code": "behind ear"
+        },
+        {
+            "code": "behind left ear"
+        },
+        {
+            "code": "behind R ear"
+        },
+        {
+            "code": "behind right ear"
+        },
+        {
+            "code": "behind the ear"
+        },
+        {
+            "code": "belly"
+        },
+        {
+            "code": "Bicep"
+        },
+        {
+            "code": "bicep"
+        },
+        {
+            "code": "bicept"
+        },
+        {
+            "code": "bilat chest"
+        },
+        {
+            "code": "bilateral feet"
+        },
+        {
+            "code": "bilateral hips"
+        },
+        {
+            "code": "Bilateral knees"
+        },
+        {
+            "code": "bilateral knees"
+        },
+        {
+            "code": "bilateral legs"
+        },
+        {
+            "code": "bilateral shoulders"
+        },
+        {
+            "code": "bilateral thighs"
+        },
+        {
+            "code": "bilat feet"
+        },
+        {
+            "code": "bilat hips"
+        },
+        {
+            "code": "bilat knees"
+        },
+        {
+            "code": "bilat legs"
+        },
+        {
+            "code": "bilat shoulders"
+        },
+        {
+            "code": "BLE"
+        },
+        {
+            "code": "b/l knees"
+        },
+        {
+            "code": "both knees"
+        },
+        {
+            "code": "both shoulders"
+        },
+        {
+            "code": "bottom"
+        },
+        {
+            "code": "breast"
+        },
+        {
+            "code": "butt"
+        },
+        {
+            "code": "Buttock"
+        },
+        {
+            "code": "buttock"
+        },
+        {
+            "code": "Buttocks"
+        },
+        {
+            "code": "buttocks"
+        },
+        {
+            "code": "Calf"
+        },
+        {
+            "code": "calf"
+        },
+        {
+            "code": "center"
+        },
+        {
+            "code": "center back"
+        },
+        {
+            "code": "center lower back"
+        },
+        {
+            "code": "cervical spine"
+        },
+        {
+            "code": "CHEST"
+        },
+        {
+            "code": "Chest"
+        },
+        {
+            "code": "chest"
+        },
+        {
+            "code": "chest and back"
+        },
+        {
+            "code": "chest/back"
+        },
+        {
+            "code": "chest/flank"
+        },
+        {
+            "code": "chest/ribs"
+        },
+        {
+            "code": "chest/shoulder"
+        },
+        {
+            "code": "chest/side"
+        },
+        {
+            "code": "chest tube site"
+        },
+        {
+            "code": "Chest wall"
+        },
+        {
+            "code": "chest wall"
+        },
+        {
+            "code": "clavicle"
+        },
+        {
+            "code": "coccyx"
+        },
+        {
+            "code": "CT"
+        },
+        {
+            "code": "CT site"
+        },
+        {
+            "code": "ct site"
+        },
+        {
+            "code": "CW"
+        },
+        {
+            "code": "cw"
+        },
+        {
+            "code": "Delt"
+        },
+        {
+            "code": "delt"
+        },
+        {
+            "code": "deltiod"
+        },
+        {
+            "code": "DELTOID"
+        },
+        {
+            "code": "Deltoid"
+        },
+        {
+            "code": "deltoid"
+        },
+        {
+            "code": "Deltoid area"
+        },
+        {
+            "code": "deltoid area"
+        },
+        {
+            "code": "dorsal foot"
+        },
+        {
+            "code": "drain site"
+        },
+        {
+            "code": "EAR"
+        },
+        {
+            "code": "Ear"
+        },
+        {
+            "code": "ear"
+        },
+        {
+            "code": "elbow"
+        },
+        {
+            "code": "epigastric"
+        },
+        {
+            "code": "FA"
+        },
+        {
+            "code": "feet"
+        },
+        {
+            "code": "femur"
+        },
+        {
+            "code": "FLANK"
+        },
+        {
+            "code": "Flank"
+        },
+        {
+            "code": "flank"
+        },
+        {
+            "code": "flank area"
+        },
+        {
+            "code": "flank/back"
+        },
+        {
+            "code": "flank/chest"
+        },
+        {
+            "code": "FOOT"
+        },
+        {
+            "code": "Foot"
+        },
+        {
+            "code": "foot"
+        },
+        {
+            "code": "Forearm"
+        },
+        {
+            "code": "forearm"
+        },
+        {
+            "code": "glute"
+        },
+        {
+            "code": "gluteal"
+        },
+        {
+            "code": "gluteus"
+        },
+        {
+            "code": "Groin"
+        },
+        {
+            "code": "groin"
+        },
+        {
+            "code": "hand"
+        },
+        {
+            "code": "hands"
+        },
+        {
+            "code": "heel"
+        },
+        {
+            "code": "heels"
+        },
+        {
+            "code": "HIP"
+        },
+        {
+            "code": "Hip"
+        },
+        {
+            "code": "hip"
+        },
+        {
+            "code": "hip and thigh"
+        },
+        {
+            "code": "hip/back"
+        },
+        {
+            "code": "hip/buttock"
+        },
+        {
+            "code": "hips"
+        },
+        {
+            "code": "hip/thigh"
+        },
+        {
+            "code": "incision"
+        },
+        {
+            "code": "inner thigh"
+        },
+        {
+            "code": "KNEE"
+        },
+        {
+            "code": "Knee"
+        },
+        {
+            "code": "knee"
+        },
+        {
+            "code": "kneee"
+        },
+        {
+            "code": "knees"
+        },
+        {
+            "code": "L arm"
+        },
+        {
+            "code": "lateral"
+        },
+        {
+            "code": "lateral abdomen"
+        },
+        {
+            "code": "lateral back"
+        },
+        {
+            "code": "lateral chest"
+        },
+        {
+            "code": "lateral chest wall"
+        },
+        {
+            "code": "lateral side"
+        },
+        {
+            "code": "lateral thigh"
+        },
+        {
+            "code": "LB"
+        },
+        {
+            "code": "lb"
+        },
+        {
+            "code": "LE"
+        },
+        {
+            "code": "le"
+        },
+        {
+            "code": "left"
+        },
+        {
+            "code": "left arm"
+        },
+        {
+            "code": "left back"
+        },
+        {
+            "code": "left deltoid"
+        },
+        {
+            "code": "left ear"
+        },
+        {
+            "code": "left flank"
+        },
+        {
+            "code": "left hip"
+        },
+        {
+            "code": "left knee"
+        },
+        {
+            "code": "left lower back"
+        },
+        {
+            "code": "left shoulder"
+        },
+        {
+            "code": "left side"
+        },
+        {
+            "code": "left upper arm"
+        },
+        {
+            "code": "LEG"
+        },
+        {
+            "code": "Leg"
+        },
+        {
+            "code": "leg"
+        },
+        {
+            "code": "legs"
+        },
+        {
+            "code": "L flank"
+        },
+        {
+            "code": "LLE"
+        },
+        {
+            "code": "LLQ"
+        },
+        {
+            "code": "llq"
+        },
+        {
+            "code": "lolwer back"
+        },
+        {
+            "code": "Low Back"
+        },
+        {
+            "code": "Low back"
+        },
+        {
+            "code": "low back"
+        },
+        {
+            "code": "lowe back"
+        },
+        {
+            "code": "lower"
+        },
+        {
+            "code": "lower abd"
+        },
+        {
+            "code": "lower abdomen"
+        },
+        {
+            "code": "LOWER BACK"
+        },
+        {
+            "code": "Lower Back"
+        },
+        {
+            "code": "Lower back"
+        },
+        {
+            "code": "lower baCK"
+        },
+        {
+            "code": "lower back"
+        },
+        {
+            "code": "lowerback"
+        },
+        {
+            "code": "lower back/hip"
+        },
+        {
+            "code": "lower chest"
+        },
+        {
+            "code": "lower flank"
+        },
+        {
+            "code": "lower leg"
+        },
+        {
+            "code": "lower lumbar"
+        },
+        {
+            "code": "lower quadrant"
+        },
+        {
+            "code": "lower rib"
+        },
+        {
+            "code": "lower ribs"
+        },
+        {
+            "code": "lower spine"
+        },
+        {
+            "code": "LQ"
+        },
+        {
+            "code": "L shoulder"
+        },
+        {
+            "code": "LUE"
+        },
+        {
+            "code": "lue"
+        },
+        {
+            "code": "Lumbar"
+        },
+        {
+            "code": "lumbar"
+        },
+        {
+            "code": "lumbar area"
+        },
+        {
+            "code": "lumbar back"
+        },
+        {
+            "code": "lumbar spine"
+        },
+        {
+            "code": "LUQ"
+        },
+        {
+            "code": "mid abdomen"
+        },
+        {
+            "code": "Mid back"
+        },
+        {
+            "code": "mid back"
+        },
+        {
+            "code": "mid-back"
+        },
+        {
+            "code": "midback"
+        },
+        {
+            "code": "middle"
+        },
+        {
+            "code": "middle back"
+        },
+        {
+            "code": "middle lower back"
+        },
+        {
+            "code": "mid lower back"
+        },
+        {
+            "code": "NECK"
+        },
+        {
+            "code": "Neck"
+        },
+        {
+            "code": "neck"
+        },
+        {
+            "code": "neck and back"
+        },
+        {
+            "code": "neck/back"
+        },
+        {
+            "code": "neck/shoulder"
+        },
+        {
+            "code": "outer thigh"
+        },
+        {
+            "code": "parasternal"
+        },
+        {
+            "code": "post ear"
+        },
+        {
+            "code": "posterior back"
+        },
+        {
+            "code": "posterior chest"
+        },
+        {
+            "code": "posterior ear"
+        },
+        {
+            "code": "posterior hip"
+        },
+        {
+            "code": "posterior knee"
+        },
+        {
+            "code": "posterior neck"
+        },
+        {
+            "code": "posterior ribs"
+        },
+        {
+            "code": "posterior shoulder"
+        },
+        {
+            "code": "posterior thigh"
+        },
+        {
+            "code": "post neck"
+        },
+        {
+            "code": "post shoulder"
+        },
+        {
+            "code": "R arm"
+        },
+        {
+            "code": "r arm"
+        },
+        {
+            "code": "R hip"
+        },
+        {
+            "code": "RIB"
+        },
+        {
+            "code": "Rib"
+        },
+        {
+            "code": "rib"
+        },
+        {
+            "code": "rib area"
+        },
+        {
+            "code": "Rib cage"
+        },
+        {
+            "code": "rib cage"
+        },
+        {
+            "code": "ribcage"
+        },
+        {
+            "code": "RIBS"
+        },
+        {
+            "code": "Ribs"
+        },
+        {
+            "code": "ribs"
+        },
+        {
+            "code": "right"
+        },
+        {
+            "code": "right arm"
+        },
+        {
+            "code": "right back"
+        },
+        {
+            "code": "right flank"
+        },
+        {
+            "code": "right hip"
+        },
+        {
+            "code": "right knee"
+        },
+        {
+            "code": "right lower back"
+        },
+        {
+            "code": "right shoulder"
+        },
+        {
+            "code": "RLE"
+        },
+        {
+            "code": "R lower back"
+        },
+        {
+            "code": "RLQ"
+        },
+        {
+            "code": "rlq"
+        },
+        {
+            "code": "RLQ abdomen"
+        },
+        {
+            "code": "R shoulder"
+        },
+        {
+            "code": "r shoulder"
+        },
+        {
+            "code": "RUA"
+        },
+        {
+            "code": "RUE"
+        },
+        {
+            "code": "rue"
+        },
+        {
+            "code": "RUQ"
+        },
+        {
+            "code": "ruq"
+        },
+        {
+            "code": "RUQ abd"
+        },
+        {
+            "code": "RUQ abdomen"
+        },
+        {
+            "code": "sacral"
+        },
+        {
+            "code": "sacrum"
+        },
+        {
+            "code": "Scapula"
+        },
+        {
+            "code": "scapula"
+        },
+        {
+            "code": "scapular"
+        },
+        {
+            "code": "schoulder"
+        },
+        {
+            "code": "sh"
+        },
+        {
+            "code": "shin"
+        },
+        {
+            "code": "shld"
+        },
+        {
+            "code": "shldr"
+        },
+        {
+            "code": "sholder"
+        },
+        {
+            "code": "shouder"
+        },
+        {
+            "code": "shoudler"
+        },
+        {
+            "code": "shouilder"
+        },
+        {
+            "code": "shoukder"
+        },
+        {
+            "code": "shouklder"
+        },
+        {
+            "code": "SHOULDER"
+        },
+        {
+            "code": "Shoulder"
+        },
+        {
+            "code": "shoulder"
+        },
+        {
+            "code": "shoulder."
+        },
+        {
+            "code": "shoulder and back"
+        },
+        {
+            "code": "shoulder and hip"
+        },
+        {
+            "code": "shoulder/arm"
+        },
+        {
+            "code": "shoulder/back"
+        },
+        {
+            "code": "shoulder blade"
+        },
+        {
+            "code": "shoulder blades"
+        },
+        {
+            "code": "shoulder/chest"
+        },
+        {
+            "code": "shoulder/neck"
+        },
+        {
+            "code": "shoulders"
+        },
+        {
+            "code": "shouldert"
+        },
+        {
+            "code": "shoulder/upper back"
+        },
+        {
+            "code": "shouler"
+        },
+        {
+            "code": "Side"
+        },
+        {
+            "code": "side"
+        },
+        {
+            "code": "side/back"
+        },
+        {
+            "code": "spine"
+        },
+        {
+            "code": "sternal"
+        },
+        {
+            "code": "sternal incision"
+        },
+        {
+            "code": "Sternum"
+        },
+        {
+            "code": "sternum"
+        },
+        {
+            "code": "stomach"
+        },
+        {
+            "code": "stomach and back"
+        },
+        {
+            "code": "stump"
+        },
+        {
+            "code": "tailbone"
+        },
+        {
+            "code": "Thigh"
+        },
+        {
+            "code": "thigh"
+        },
+        {
+            "code": "thoracic"
+        },
+        {
+            "code": "thoracotomy"
+        },
+        {
+            "code": "thoracotomy site"
+        },
+        {
+            "code": "thorax"
+        },
+        {
+            "code": "top of foot"
+        },
+        {
+            "code": "torso"
+        },
+        {
+            "code": "trap"
+        },
+        {
+            "code": "trunk"
+        },
+        {
+            "code": "UA"
+        },
+        {
+            "code": "UE"
+        },
+        {
+            "code": "ue"
+        },
+        {
+            "code": "underarm"
+        },
+        {
+            "code": "under breast"
+        },
+        {
+            "code": "under ear"
+        },
+        {
+            "code": "upper"
+        },
+        {
+            "code": "upper abd"
+        },
+        {
+            "code": "upper abdomen"
+        },
+        {
+            "code": "upper and lower back"
+        },
+        {
+            "code": "Upper Arm"
+        },
+        {
+            "code": "Upper arm"
+        },
+        {
+            "code": "upper arm"
+        },
+        {
+            "code": "Upper Back"
+        },
+        {
+            "code": "Upper back"
+        },
+        {
+            "code": "upper back"
+        },
+        {
+            "code": "upper back/neck"
+        },
+        {
+            "code": "upper back/shoulder"
+        },
+        {
+            "code": "upper chest"
+        },
+        {
+            "code": "upper extremity"
+        },
+        {
+            "code": "upper leg"
+        },
+        {
+            "code": "upper quad"
+        },
+        {
+            "code": "upper quadrant"
+        },
+        {
+            "code": "upper shoulder"
+        },
+        {
+            "code": "Upper thigh"
+        },
+        {
+            "code": "upper thigh"
+        },
+        {
+            "code": "UQ"
+        },
+        {
+            "code": "wrist"
+        }
+    ]
+}

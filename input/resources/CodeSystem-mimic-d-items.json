@@ -1,0 +1,1753 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "mimic-d-items",
+    "language": "en",
+    "url": "http://fhir.mimic.mit.edu/CodeSystem/mimic-d-items",
+    "version": "2.0",
+    "name": "MimicDItems",
+    "title": "MimicDItems",
+    "status": "draft",
+    "date": "2022-07-19T11:21:50-04:00",
+    "publisher": "KinD Lab",
+    "description": "The item codes used throughout the ICU in MIMIC",
+    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/mimic-d-items",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "227797",
+            "display": "Impaired Skin  - Dressing Change #8"
+        },
+        {
+            "code": "227795",
+            "display": "Impaired Skin  - Dressing Change #6"
+        },
+        {
+            "code": "225814",
+            "display": "Stool Culture"
+        },
+        {
+            "code": "225315",
+            "display": "Tunneled (Hickman) Line"
+        },
+        {
+            "code": "221223",
+            "display": "EEG"
+        },
+        {
+            "code": "225437",
+            "display": "CSF Culture"
+        },
+        {
+            "code": "225454",
+            "display": "Urine Culture"
+        },
+        {
+            "code": "228801",
+            "display": "Pressure ulcer #9- Dressing change"
+        },
+        {
+            "code": "225464",
+            "display": "Cardioversion/Defibrillation"
+        },
+        {
+            "code": "224458",
+            "display": "Drain Output_ingr"
+        },
+        {
+            "code": "225392",
+            "display": "Triple Introducer Change over Wire Date"
+        },
+        {
+            "code": "225802",
+            "display": "Dialysis - CRRT"
+        },
+        {
+            "code": "229352",
+            "display": "Foley Cath Insertion Date"
+        },
+        {
+            "code": "229298",
+            "display": "Speech and Swallow Evaluation"
+        },
+        {
+            "code": "226582",
+            "display": "Ostomy (output)"
+        },
+        {
+            "code": "226605",
+            "display": "Hemovac #2"
+        },
+        {
+            "code": "228127",
+            "display": "Family met with Social Worker"
+        },
+        {
+            "code": "226560",
+            "display": "Void"
+        },
+        {
+            "code": "225356",
+            "display": "PA Catheter Tubing Change"
+        },
+        {
+            "code": "224263",
+            "display": "Multi Lumen"
+        },
+        {
+            "code": "225321",
+            "display": "Dialysis Catheter Dressing Change"
+        },
+        {
+            "code": "224275",
+            "display": "20 Gauge"
+        },
+        {
+            "code": "226628",
+            "display": "PACU Drains"
+        },
+        {
+            "code": "227511",
+            "display": "TF Residual Output"
+        },
+        {
+            "code": "225393",
+            "display": "Triple Introducer Dressing Change"
+        },
+        {
+            "code": "225427",
+            "display": "Angiography"
+        },
+        {
+            "code": "225336",
+            "display": "IABP Change over Wire Date"
+        },
+        {
+            "code": "229529",
+            "display": "ECMO Inflow Line"
+        },
+        {
+            "code": "229528",
+            "display": "Centrimag Outflow Line"
+        },
+        {
+            "code": "225470",
+            "display": "OR Sent"
+        },
+        {
+            "code": "229351",
+            "display": "Foley Catheter"
+        },
+        {
+            "code": "227489",
+            "display": "GU Irrigant/Urine Volume Out"
+        },
+        {
+            "code": "224279",
+            "display": "Multi Lumen Dressing Change"
+        },
+        {
+            "code": "226623",
+            "display": "Penrose #1"
+        },
+        {
+            "code": "223253",
+            "display": "Magnetic Resonance Imaging"
+        },
+        {
+            "code": "229579",
+            "display": "Transfer Intercampus by Ambulance"
+        },
+        {
+            "code": "225316",
+            "display": "CCO PAC Insertion Date"
+        },
+        {
+            "code": "225330",
+            "display": "Tunneled (Hickman) Insertion Date"
+        },
+        {
+            "code": "225348",
+            "display": "Midline Tubing Change"
+        },
+        {
+            "code": "226602",
+            "display": "Jackson Pratt #4"
+        },
+        {
+            "code": "224292",
+            "display": "Cordis/Introducer Cap Change"
+        },
+        {
+            "code": "229380",
+            "display": "Nursing Water Swallow Screening"
+        },
+        {
+            "code": "226557",
+            "display": "R Ureteral Stent"
+        },
+        {
+            "code": "226574",
+            "display": "Jejunostomy"
+        },
+        {
+            "code": "229736",
+            "display": "14 Gauge Cap Change"
+        },
+        {
+            "code": "225803",
+            "display": "Dialysis - CVVHD"
+        },
+        {
+            "code": "225224",
+            "display": "CCO PAC Dressing Change"
+        },
+        {
+            "code": "226616",
+            "display": "Anderson"
+        },
+        {
+            "code": "226515",
+            "display": "Date of Birth"
+        },
+        {
+            "code": "225463",
+            "display": "TLS Spine"
+        },
+        {
+            "code": "229581",
+            "display": "Portable Chest X-Ray"
+        },
+        {
+            "code": "225345",
+            "display": "Midline Dressing Change"
+        },
+        {
+            "code": "227722",
+            "display": "AVA Dressing Change"
+        },
+        {
+            "code": "227199",
+            "display": "Indwelling (PortaCath) Port #2 Date De-accessed"
+        },
+        {
+            "code": "225436",
+            "display": "CRRT Filter Change"
+        },
+        {
+            "code": "225221",
+            "display": "CCO PAC Cap Change"
+        },
+        {
+            "code": "229555",
+            "display": "Cardiac Assist Cannula Change"
+        },
+        {
+            "code": "229891",
+            "display": "Pressure Ulcer #8- Date Indentified"
+        },
+        {
+            "code": "226477",
+            "display": "Temporary Pacemaker Wires Inserted"
+        },
+        {
+            "code": "225447",
+            "display": "Percutaneous Drain Insertion"
+        },
+        {
+            "code": "229580",
+            "display": "Line Placement at Bedside"
+        },
+        {
+            "code": "229755",
+            "display": "Trigger Initiated"
+        },
+        {
+            "code": "225369",
+            "display": "Pheresis Catheter Dressing Change"
+        },
+        {
+            "code": "225428",
+            "display": "Blakemore / Minnesota Tube D/C"
+        },
+        {
+            "code": "229577",
+            "display": "Cath Lab (Received)"
+        },
+        {
+            "code": "224296",
+            "display": "Cordis/Introducer Insertion Date"
+        },
+        {
+            "code": "224288",
+            "display": "Arterial line Insertion Date"
+        },
+        {
+            "code": "225794",
+            "display": "Non-invasive Ventilation"
+        },
+        {
+            "code": "228169",
+            "display": "Impella Line"
+        },
+        {
+            "code": "225335",
+            "display": "IABP Cap Change"
+        },
+        {
+            "code": "227794",
+            "display": "Impaired Skin  - Dressing Change #5"
+        },
+        {
+            "code": "225352",
+            "display": "PA Catheter Change over Wire Date"
+        },
+        {
+            "code": "221255",
+            "display": "Trans Esophageal Echo"
+        },
+        {
+            "code": "228201",
+            "display": "Tandem Heart Inflow Line"
+        },
+        {
+            "code": "229728",
+            "display": "18 Gauge Dressing Change"
+        },
+        {
+            "code": "226622",
+            "display": "Red Rubber"
+        },
+        {
+            "code": "228798",
+            "display": "Pressure ulcer #6- Dressing change"
+        },
+        {
+            "code": "225769",
+            "display": "Sheath Tubing Change"
+        },
+        {
+            "code": "229738",
+            "display": "20 Gauge Cap Change"
+        },
+        {
+            "code": "226532",
+            "display": "Organ Bank Notified"
+        },
+        {
+            "code": "224295",
+            "display": "Cordis/Introducer Dressing Change"
+        },
+        {
+            "code": "221217",
+            "display": "Ultrasound"
+        },
+        {
+            "code": "225383",
+            "display": "Presep Catheter Cap Change"
+        },
+        {
+            "code": "227911",
+            "display": "Date - Therapist"
+        },
+        {
+            "code": "229892",
+            "display": "Pressure Ulcer #9- Date Indentified"
+        },
+        {
+            "code": "227800",
+            "display": "Impaired Skin  - Dressing Change #10"
+        },
+        {
+            "code": "224560",
+            "display": "PA Catheter"
+        },
+        {
+            "code": "229517",
+            "display": "Multi Lumen Cooling Catheter"
+        },
+        {
+            "code": "225442",
+            "display": "Liver Biopsy"
+        },
+        {
+            "code": "225955",
+            "display": "Dialysis - SCUF"
+        },
+        {
+            "code": "225343",
+            "display": "Midline Cap Change"
+        },
+        {
+            "code": "228126",
+            "display": "Family met with Case Manager"
+        },
+        {
+            "code": "226563",
+            "display": "Suprapubic"
+        },
+        {
+            "code": "225340",
+            "display": "IABP Tubing Change"
+        },
+        {
+            "code": "226719",
+            "display": "Last menses"
+        },
+        {
+            "code": "225396",
+            "display": "Triple Introducer Tubing Change"
+        },
+        {
+            "code": "228165",
+            "display": "Impella Daily Tubing Change"
+        },
+        {
+            "code": "225429",
+            "display": "Blakemore / MinnesotaTube Inserted"
+        },
+        {
+            "code": "225328",
+            "display": "Tunneled (Hickman) Change over Wire Date"
+        },
+        {
+            "code": "225753",
+            "display": "22 Gauge Insertion Date"
+        },
+        {
+            "code": "229471",
+            "display": "24 Gauge Insertion Date"
+        },
+        {
+            "code": "227720",
+            "display": "AVA Cap Change"
+        },
+        {
+            "code": "225763",
+            "display": "Sheath Change over Wire Date"
+        },
+        {
+            "code": "227790",
+            "display": "Impaired Skin  - Dressing Change #1"
+        },
+        {
+            "code": "229522",
+            "display": "SEPS (Subdural Evacuating Port System)"
+        },
+        {
+            "code": "229515",
+            "display": "Avalon/Protek Duo"
+        },
+        {
+            "code": "225443",
+            "display": "Nuclear Medicine"
+        },
+        {
+            "code": "229643",
+            "display": "Stroke NCP - Ed Given Date"
+        },
+        {
+            "code": "229733",
+            "display": "22 Gauge Dressing Change"
+        },
+        {
+            "code": "226583",
+            "display": "Rectal Tube"
+        },
+        {
+            "code": "229885",
+            "display": "Pressure Ulcer #2- Date Indentified"
+        },
+        {
+            "code": "225386",
+            "display": "Presep Catheter Insertion Date"
+        },
+        {
+            "code": "229468",
+            "display": "24 Gauge"
+        },
+        {
+            "code": "229525",
+            "display": "Sheath (Arterial)"
+        },
+        {
+            "code": "226595",
+            "display": "R Pleural #2"
+        },
+        {
+            "code": "225758",
+            "display": "RIC Insertion Date"
+        },
+        {
+            "code": "225762",
+            "display": "Sheath Cap Change"
+        },
+        {
+            "code": "229527",
+            "display": "Centrimag Inflow Line"
+        },
+        {
+            "code": "228221",
+            "display": "Tandem Heart Return Cannula Insertion Date"
+        },
+        {
+            "code": "224185",
+            "display": "PICC Line Change over Wire Date"
+        },
+        {
+            "code": "228136",
+            "display": "Family notified of transfer"
+        },
+        {
+            "code": "227792",
+            "display": "Impaired Skin  - Dressing Change #3"
+        },
+        {
+            "code": "225400",
+            "display": "Bronchoscopy"
+        },
+        {
+            "code": "227724",
+            "display": "AVA Insertion Date"
+        },
+        {
+            "code": "226565",
+            "display": "L Nephrostomy"
+        },
+        {
+            "code": "229353",
+            "display": "Foley Cath Removal Date"
+        },
+        {
+            "code": "226599",
+            "display": "Jackson Pratt #1"
+        },
+        {
+            "code": "226482",
+            "display": "Blood Clot Outdates"
+        },
+        {
+            "code": "225218",
+            "display": "Trauma Line Tubing Change"
+        },
+        {
+            "code": "229585",
+            "display": "Surgical Procedure at Bedside"
+        },
+        {
+            "code": "227584",
+            "display": "GU Catheter D/C Date"
+        },
+        {
+            "code": "229520",
+            "display": "EVD #2"
+        },
+        {
+            "code": "225214",
+            "display": "Trauma Line Change over Wire Date"
+        },
+        {
+            "code": "228331",
+            "display": "PC Time of visit"
+        },
+        {
+            "code": "225439",
+            "display": "Endoscopy"
+        },
+        {
+            "code": "224276",
+            "display": "16 Gauge"
+        },
+        {
+            "code": "228128",
+            "display": "Family updated by MD"
+        },
+        {
+            "code": "226516",
+            "display": "Discharge Date/Time"
+        },
+        {
+            "code": "225351",
+            "display": "PA Catheter Cap Change"
+        },
+        {
+            "code": "220003",
+            "display": "ICU Admission date"
+        },
+        {
+            "code": "225478",
+            "display": "Operation"
+        },
+        {
+            "code": "224186",
+            "display": "PICC Line Dressing Change"
+        },
+        {
+            "code": "227126",
+            "display": "Indwelling (PortaCath) Port #1 Date Accessed"
+        },
+        {
+            "code": "224878",
+            "display": "GU Catheter Insertion Date"
+        },
+        {
+            "code": "224267",
+            "display": "Cordis/Introducer"
+        },
+        {
+            "code": "229366",
+            "display": "Epoprostenol (Inhaled)"
+        },
+        {
+            "code": "227715",
+            "display": "TLS Clearance"
+        },
+        {
+            "code": "229584",
+            "display": "EMG"
+        },
+        {
+            "code": "226558",
+            "display": "L Ureteral Stent"
+        },
+        {
+            "code": "226619",
+            "display": "Pigtail #1"
+        },
+        {
+            "code": "229883",
+            "display": "Pressure ulcer #1- Date Indentified_OLD_1"
+        },
+        {
+            "code": "226624",
+            "display": "Penrose #2"
+        },
+        {
+            "code": "224264",
+            "display": "PICC Line"
+        },
+        {
+            "code": "229586",
+            "display": "VAC Change"
+        },
+        {
+            "code": "224262",
+            "display": "Multi Lumen Change over Wire Date"
+        },
+        {
+            "code": "226626",
+            "display": "OR EBL"
+        },
+        {
+            "code": "229521",
+            "display": "ICP - PbtO2"
+        },
+        {
+            "code": "226631",
+            "display": "PACU Urine"
+        },
+        {
+            "code": "225377",
+            "display": "Indwelling Port (PortaCath) Dressing Change"
+        },
+        {
+            "code": "226580",
+            "display": "Fecal Bag"
+        },
+        {
+            "code": "229576",
+            "display": "ERCP (Done in unit)"
+        },
+        {
+            "code": "225789",
+            "display": "Sheath (Venous)"
+        },
+        {
+            "code": "227721",
+            "display": "AVA Change over Wire Date"
+        },
+        {
+            "code": "225430",
+            "display": "Cardiac Cath"
+        },
+        {
+            "code": "224277",
+            "display": "18 Gauge"
+        },
+        {
+            "code": "226586",
+            "display": "Stool Estimate"
+        },
+        {
+            "code": "224269",
+            "display": "CCO PAC"
+        },
+        {
+            "code": "227714",
+            "display": "Pericardial Drain Removed"
+        },
+        {
+            "code": "225354",
+            "display": "PA Catheter Insertion Date"
+        },
+        {
+            "code": "225472",
+            "display": "Pneumothorax"
+        },
+        {
+            "code": "227907",
+            "display": "Date - Student"
+        },
+        {
+            "code": "229735",
+            "display": "RIC Dressing Change"
+        },
+        {
+            "code": "228129",
+            "display": "Family updated by RN"
+        },
+        {
+            "code": "227817",
+            "display": "Referral Date"
+        },
+        {
+            "code": "226724",
+            "display": "Hospital Admit Date"
+        },
+        {
+            "code": "225765",
+            "display": "Sheath Dressing Change"
+        },
+        {
+            "code": "225279",
+            "display": "Date of Admission to Hospital"
+        },
+        {
+            "code": "229655",
+            "display": "Stroke NCP -  Fam Ed Given Date"
+        },
+        {
+            "code": "228793",
+            "display": "Pressure ulcer #1- Dressing change"
+        },
+        {
+            "code": "225477",
+            "display": "Unplanned Extubation (non-patient initiated)"
+        },
+        {
+            "code": "225384",
+            "display": "Presep Catheter Change over Wire Date"
+        },
+        {
+            "code": "224268",
+            "display": "Trauma line"
+        },
+        {
+            "code": "227194",
+            "display": "Extubation"
+        },
+        {
+            "code": "225378",
+            "display": "Indwelling Port (PortaCath) Insertion Date"
+        },
+        {
+            "code": "229514",
+            "display": "EKOS"
+        },
+        {
+            "code": "226632",
+            "display": "Cath Lab"
+        },
+        {
+            "code": "228266",
+            "display": "FM Date/Time"
+        },
+        {
+            "code": "225444",
+            "display": "Pan Culture"
+        },
+        {
+            "code": "228799",
+            "display": "Pressure ulcer #7- Dressing change"
+        },
+        {
+            "code": "225368",
+            "display": "Pheresis Catheter Change over Wire Date"
+        },
+        {
+            "code": "229739",
+            "display": "22 Gauge Cap Change"
+        },
+        {
+            "code": "229732",
+            "display": "20 Gauge Dressing Change"
+        },
+        {
+            "code": "226126",
+            "display": "ICP Line Dressing Change"
+        },
+        {
+            "code": "229983",
+            "display": "Isoflurane (Inhaled)"
+        },
+        {
+            "code": "225372",
+            "display": "Pheresis Catheter Tubing Change"
+        },
+        {
+            "code": "229526",
+            "display": "MAC"
+        },
+        {
+            "code": "225401",
+            "display": "Blood Cultured"
+        },
+        {
+            "code": "229549",
+            "display": "Avalon Dressing Change"
+        },
+        {
+            "code": "227198",
+            "display": "Indwelling (PortaCath) Port #1 Date De-accessed"
+        },
+        {
+            "code": "225451",
+            "display": "Sputum Culture"
+        },
+        {
+            "code": "226618",
+            "display": "Sump #2"
+        },
+        {
+            "code": "226570",
+            "display": "Blakemore"
+        },
+        {
+            "code": "227798",
+            "display": "Impaired Skin  - Dressing Change #9"
+        },
+        {
+            "code": "225390",
+            "display": "Presep Catheter Tubing Change"
+        },
+        {
+            "code": "229888",
+            "display": "Pressure Ulcer #5- Date Indentified"
+        },
+        {
+            "code": "226236",
+            "display": "Temporary Pacemaker Wires Discontinued"
+        },
+        {
+            "code": "229518",
+            "display": "ICP - Camino"
+        },
+        {
+            "code": "229887",
+            "display": "Pressure Ulcer #4- Date Indentified"
+        },
+        {
+            "code": "228800",
+            "display": "Pressure ulcer #8- Dressing change"
+        },
+        {
+            "code": "226128",
+            "display": "ICP Line Insertion Date"
+        },
+        {
+            "code": "229730",
+            "display": "14 Gauge Dressing Change"
+        },
+        {
+            "code": "224385",
+            "display": "Intubation"
+        },
+        {
+            "code": "225766",
+            "display": "Sheath Insertion Date"
+        },
+        {
+            "code": "225475",
+            "display": "Respiratory Arrest"
+        },
+        {
+            "code": "228291",
+            "display": "IO Insertion Date"
+        },
+        {
+            "code": "226613",
+            "display": "Wound Vac #1"
+        },
+        {
+            "code": "225467",
+            "display": "Chest Opened"
+        },
+        {
+            "code": "224287",
+            "display": "Arterial Line Dressing Change"
+        },
+        {
+            "code": "229886",
+            "display": "Pressure Ulcer #3- Date Indentified"
+        },
+        {
+            "code": "227729",
+            "display": "AVA Tubing Change"
+        },
+        {
+            "code": "225816",
+            "display": "Wound Culture"
+        },
+        {
+            "code": "225203",
+            "display": "Pheresis Catheter"
+        },
+        {
+            "code": "226592",
+            "display": "Mediastinal"
+        },
+        {
+            "code": "227796",
+            "display": "Impaired Skin  - Dressing Change #7"
+        },
+        {
+            "code": "226474",
+            "display": "ICP Bolt Inserted"
+        },
+        {
+            "code": "228228",
+            "display": "Family meeting attempted, unable"
+        },
+        {
+            "code": "229524",
+            "display": "Lumbar Drain"
+        },
+        {
+            "code": "229620",
+            "display": "Massive Transfusion"
+        },
+        {
+            "code": "224285",
+            "display": "Arterial line Change over Wire Date"
+        },
+        {
+            "code": "226124",
+            "display": "ICP Catheter"
+        },
+        {
+            "code": "226476",
+            "display": "Esophogeal Balloon"
+        },
+        {
+            "code": "225821",
+            "display": "Unplanned Line/Catheter Removal (Patient Initiated)"
+        },
+        {
+            "code": "225202",
+            "display": "Indwelling Port (PortaCath)"
+        },
+        {
+            "code": "229889",
+            "display": "Pressure Ulcer #6- Date Indentified"
+        },
+        {
+            "code": "227510",
+            "display": "TF Residual"
+        },
+        {
+            "code": "225457",
+            "display": "Abdominal X-Ray"
+        },
+        {
+            "code": "225222",
+            "display": "CCO PAC Change over Wire Date"
+        },
+        {
+            "code": "229531",
+            "display": "Tunneled Access Line"
+        },
+        {
+            "code": "229532",
+            "display": "Indwelling Port"
+        },
+        {
+            "code": "227541",
+            "display": "SvO2 Calibrated"
+        },
+        {
+            "code": "226579",
+            "display": "Stool"
+        },
+        {
+            "code": "225385",
+            "display": "Presep Catheter Dressing Change"
+        },
+        {
+            "code": "225450",
+            "display": "Radiation Therapy"
+        },
+        {
+            "code": "225376",
+            "display": "Indwelling Port (PortaCath) Change over Wire Date"
+        },
+        {
+            "code": "224290",
+            "display": "Arterial line Tubing Change"
+        },
+        {
+            "code": "226633",
+            "display": "Pre-Admission"
+        },
+        {
+            "code": "226612",
+            "display": "Pericardial"
+        },
+        {
+            "code": "225756",
+            "display": "16 Gauge Insertion Date"
+        },
+        {
+            "code": "228794",
+            "display": "Pressure ulcer #2- Dressing change"
+        },
+        {
+            "code": "229996",
+            "display": "Nitrous Oxide (Inhaled)"
+        },
+        {
+            "code": "225460",
+            "display": "Cervical Spine"
+        },
+        {
+            "code": "228715",
+            "display": "Transcranial Doppler"
+        },
+        {
+            "code": "227712",
+            "display": "Chest Tube Removed"
+        },
+        {
+            "code": "225317",
+            "display": "Trauma Line Insertion Date"
+        },
+        {
+            "code": "225327",
+            "display": "Tunneled (Hickman) Cap Change"
+        },
+        {
+            "code": "228130",
+            "display": "NEOB notified"
+        },
+        {
+            "code": "228795",
+            "display": "Pressure ulcer #3- Dressing change"
+        },
+        {
+            "code": "225370",
+            "display": "Pheresis Catheter Insertion Date"
+        },
+        {
+            "code": "226617",
+            "display": "Sump #1"
+        },
+        {
+            "code": "225967",
+            "display": "Rectal Swab"
+        },
+        {
+            "code": "225449",
+            "display": "Pericardiocentesis"
+        },
+        {
+            "code": "228209",
+            "display": "Tandem Heart Access Line Insertion Date"
+        },
+        {
+            "code": "225213",
+            "display": "Trauma Line Cap Change"
+        },
+        {
+            "code": "226590",
+            "display": "L Pleural #1"
+        },
+        {
+            "code": "226559",
+            "display": "Foley"
+        },
+        {
+            "code": "229884",
+            "display": "Pressure Ulcer #1- Date Indentified"
+        },
+        {
+            "code": "226588",
+            "display": "Chest Tube #1"
+        },
+        {
+            "code": "225434",
+            "display": "Colonoscopy"
+        },
+        {
+            "code": "225815",
+            "display": "Peritoneal Fluid"
+        },
+        {
+            "code": "225456",
+            "display": "Ventricular Drain"
+        },
+        {
+            "code": "229729",
+            "display": "18 Gauge Cap Change"
+        },
+        {
+            "code": "225817",
+            "display": "BAL Fluid Culture"
+        },
+        {
+            "code": "225805",
+            "display": "Peritoneal Dialysis"
+        },
+        {
+            "code": "225479",
+            "display": "Thoracentesis"
+        },
+        {
+            "code": "225461",
+            "display": "Pelvis"
+        },
+        {
+            "code": "228215",
+            "display": "Tandem Heart Access Line Tubing Change"
+        },
+        {
+            "code": "224284",
+            "display": "Arterial line Cap Change"
+        },
+        {
+            "code": "224298",
+            "display": "Cordis/Introducer Tubing Change"
+        },
+        {
+            "code": "227701",
+            "display": "Drainage Bag"
+        },
+        {
+            "code": "229413",
+            "display": "Chest Tube #3"
+        },
+        {
+            "code": "225402",
+            "display": "EKG"
+        },
+        {
+            "code": "229614",
+            "display": "EEG (Continuous)"
+        },
+        {
+            "code": "225440",
+            "display": "Fluoroscopy"
+        },
+        {
+            "code": "229501",
+            "display": "Small Bore Nasal Enteral Tube Placement"
+        },
+        {
+            "code": "225757",
+            "display": "14 Gauge Insertion Date"
+        },
+        {
+            "code": "221214",
+            "display": "CT scan"
+        },
+        {
+            "code": "226614",
+            "display": "Wound Vac #2"
+        },
+        {
+            "code": "226593",
+            "display": "R Pleural #1"
+        },
+        {
+            "code": "225216",
+            "display": "Trauma Line Dressing Change"
+        },
+        {
+            "code": "226567",
+            "display": "Straight Cath"
+        },
+        {
+            "code": "225468",
+            "display": "Unplanned Extubation (patient-initiated)"
+        },
+        {
+            "code": "229542",
+            "display": "EKOS Dressing Change"
+        },
+        {
+            "code": "226629",
+            "display": "PACU EBL"
+        },
+        {
+            "code": "228202",
+            "display": "Tandem Heart Outflow Line"
+        },
+        {
+            "code": "225329",
+            "display": "Tunneled (Hickman) Dressing Change"
+        },
+        {
+            "code": "224261",
+            "display": "Multi Lumen Cap Change"
+        },
+        {
+            "code": "225353",
+            "display": "PA Catheter Dressing Change"
+        },
+        {
+            "code": "227793",
+            "display": "Impaired Skin  - Dressing Change #4"
+        },
+        {
+            "code": "225432",
+            "display": "Transthoracic Echo"
+        },
+        {
+            "code": "226597",
+            "display": "JP Medial"
+        },
+        {
+            "code": "225761",
+            "display": "Sheath Insertion"
+        },
+        {
+            "code": "226572",
+            "display": "Ewald"
+        },
+        {
+            "code": "224187",
+            "display": "PICC Line Tubing Change"
+        },
+        {
+            "code": "224184",
+            "display": "PICC Line Insertion Date"
+        },
+        {
+            "code": "229519",
+            "display": "EVD #1"
+        },
+        {
+            "code": "225448",
+            "display": "Percutaneous Tracheostomy"
+        },
+        {
+            "code": "226621",
+            "display": "Davol"
+        },
+        {
+            "code": "229737",
+            "display": "16 Gauge Cap Change"
+        },
+        {
+            "code": "225446",
+            "display": "PEG Insertion"
+        },
+        {
+            "code": "229533",
+            "display": "Camino"
+        },
+        {
+            "code": "229740",
+            "display": "24 Gauge Cap Change"
+        },
+        {
+            "code": "227488",
+            "display": "GU Irrigant Volume In"
+        },
+        {
+            "code": "229741",
+            "display": "RIC Cap Change"
+        },
+        {
+            "code": "228321",
+            "display": "PC Date"
+        },
+        {
+            "code": "227550",
+            "display": "ERCP (Travel to)"
+        },
+        {
+            "code": "225391",
+            "display": "Triple Introducer Cap Change"
+        },
+        {
+            "code": "227713",
+            "display": "Epidural Placement"
+        },
+        {
+            "code": "225966",
+            "display": "Nasal Swab"
+        },
+        {
+            "code": "225818",
+            "display": "Pleural Fluid Culture"
+        },
+        {
+            "code": "226620",
+            "display": "Pigtail #2"
+        },
+        {
+            "code": "226600",
+            "display": "Jackson Pratt #2"
+        },
+        {
+            "code": "226584",
+            "display": "Ileoconduit"
+        },
+        {
+            "code": "229414",
+            "display": "Chest Tube #4"
+        },
+        {
+            "code": "225406",
+            "display": "Transferred to Floor"
+        },
+        {
+            "code": "226132",
+            "display": "ICP Line Tubing Change"
+        },
+        {
+            "code": "225755",
+            "display": "18 Gauge Insertion Date"
+        },
+        {
+            "code": "226566",
+            "display": "Urine and GU Irrigant Out"
+        },
+        {
+            "code": "226630",
+            "display": "PACU Gastric"
+        },
+        {
+            "code": "226564",
+            "display": "R Nephrostomy"
+        },
+        {
+            "code": "224272",
+            "display": "IABP line"
+        },
+        {
+            "code": "228797",
+            "display": "Pressure ulcer #5- Dressing change"
+        },
+        {
+            "code": "228168",
+            "display": "Impella Insertion Date"
+        },
+        {
+            "code": "226627",
+            "display": "OR Urine"
+        },
+        {
+            "code": "224270",
+            "display": "Dialysis Catheter"
+        },
+        {
+            "code": "226573",
+            "display": "Gastric Tube"
+        },
+        {
+            "code": "229550",
+            "display": "Avalon Insertion Date"
+        },
+        {
+            "code": "226598",
+            "display": "JP Lateral"
+        },
+        {
+            "code": "225337",
+            "display": "IABP Dressing Change"
+        },
+        {
+            "code": "229734",
+            "display": "24 Gauge Dressing Change"
+        },
+        {
+            "code": "224273",
+            "display": "Presep Catheter"
+        },
+        {
+            "code": "225754",
+            "display": "20 Gauge Insertion Date"
+        },
+        {
+            "code": "226625",
+            "display": "Tap"
+        },
+        {
+            "code": "229523",
+            "display": "Subdural Drain"
+        },
+        {
+            "code": "228631",
+            "display": "Date signed"
+        },
+        {
+            "code": "228218",
+            "display": "Tandem Heart Return Cannula Dressing Change"
+        },
+        {
+            "code": "226713",
+            "display": "Incontinent/voids (estimate)"
+        },
+        {
+            "code": "227487",
+            "display": "GU Irrigant Type"
+        },
+        {
+            "code": "229890",
+            "display": "Pressure Ulcer #7- Date Indentified"
+        },
+        {
+            "code": "225465",
+            "display": "Chest Pain"
+        },
+        {
+            "code": "225346",
+            "display": "Midline Insertion Date"
+        },
+        {
+            "code": "226569",
+            "display": "Anderson (gastric)"
+        },
+        {
+            "code": "226475",
+            "display": "Intraventricular Drain Inserted"
+        },
+        {
+            "code": "227719",
+            "display": "AVA"
+        },
+        {
+            "code": "228802",
+            "display": "Pressure ulcer #10- Dressing change"
+        },
+        {
+            "code": "226607",
+            "display": "Cerebral Ventricular #2"
+        },
+        {
+            "code": "229651",
+            "display": "Stroke NCP - Water Swallow Date"
+        },
+        {
+            "code": "229582",
+            "display": "Portable CT scan"
+        },
+        {
+            "code": "226571",
+            "display": "Emesis"
+        },
+        {
+            "code": "224183",
+            "display": "PICC Line Cap Change"
+        },
+        {
+            "code": "226561",
+            "display": "Condom Cath"
+        },
+        {
+            "code": "225332",
+            "display": "Tunneled (Hickman) Tubing Change"
+        },
+        {
+            "code": "229578",
+            "display": "Cath Lab (Sent)"
+        },
+        {
+            "code": "225809",
+            "display": "Dialysis - CVVHDF"
+        },
+        {
+            "code": "225466",
+            "display": "Cardiac Arrest"
+        },
+        {
+            "code": "226589",
+            "display": "Chest Tube #2"
+        },
+        {
+            "code": "225375",
+            "display": "Indwelling Port (PortaCath) Cap Change"
+        },
+        {
+            "code": "229893",
+            "display": "Pressure Ulcer #10- Date Indentified"
+        },
+        {
+            "code": "226601",
+            "display": "Jackson Pratt #3"
+        },
+        {
+            "code": "226576",
+            "display": "Oral Gastric"
+        },
+        {
+            "code": "226575",
+            "display": "Nasogastric"
+        },
+        {
+            "code": "225820",
+            "display": "C-Spine Clearance"
+        },
+        {
+            "code": "225338",
+            "display": "IABP Insertion Date"
+        },
+        {
+            "code": "221216",
+            "display": "X-ray"
+        },
+        {
+            "code": "229575",
+            "display": "Travel to Radiology"
+        },
+        {
+            "code": "227361",
+            "display": "Indwelling (PortaCath) Dressing Change"
+        },
+        {
+            "code": "226604",
+            "display": "Hemovac #1"
+        },
+        {
+            "code": "225462",
+            "display": "Interventional Radiology"
+        },
+        {
+            "code": "225318",
+            "display": "Dialysis Catheter Cap Change"
+        },
+        {
+            "code": "229541",
+            "display": "EKOS Insertion Date"
+        },
+        {
+            "code": "225322",
+            "display": "Dialysis Catheter Insertion Date"
+        },
+        {
+            "code": "225367",
+            "display": "Pheresis Catheter Cap Change"
+        },
+        {
+            "code": "228160",
+            "display": "Impella Aortic Pressure Tubing Change"
+        },
+        {
+            "code": "226603",
+            "display": "T Tube"
+        },
+        {
+            "code": "225199",
+            "display": "Triple Introducer"
+        },
+        {
+            "code": "228103",
+            "display": "Stool containment device placed"
+        },
+        {
+            "code": "227791",
+            "display": "Impaired Skin  - Dressing Change #2"
+        },
+        {
+            "code": "227551",
+            "display": "Plasma Pheresis."
+        },
+        {
+            "code": "225433",
+            "display": "Chest Tube Placed"
+        },
+        {
+            "code": "224566",
+            "display": "14 Gauge"
+        },
+        {
+            "code": "227197",
+            "display": "Indwelling (PortaCath) Port #2 Date Accessed"
+        },
+        {
+            "code": "225752",
+            "display": "Arterial Line"
+        },
+        {
+            "code": "226608",
+            "display": "Cerebral Subdural #1"
+        },
+        {
+            "code": "228166",
+            "display": "Impella Dressing Change"
+        },
+        {
+            "code": "225205",
+            "display": "RIC"
+        },
+        {
+            "code": "224280",
+            "display": "Multi Lumen Insertion Date"
+        },
+        {
+            "code": "224274",
+            "display": "22 Gauge"
+        },
+        {
+            "code": "229516",
+            "display": "Single Lumen"
+        },
+        {
+            "code": "225469",
+            "display": "OR Received"
+        },
+        {
+            "code": "229731",
+            "display": "16 Gauge Dressing Change"
+        },
+        {
+            "code": "225819",
+            "display": "Brain Death"
+        },
+        {
+            "code": "227711",
+            "display": "Drain Removed"
+        },
+        {
+            "code": "225459",
+            "display": "Chest X-Ray"
+        },
+        {
+            "code": "225474",
+            "display": "Fall"
+        },
+        {
+            "code": "225128",
+            "display": "Last dialysis"
+        },
+        {
+            "code": "225399",
+            "display": "Lumbar Puncture"
+        },
+        {
+            "code": "225319",
+            "display": "Dialysis Catheter Change over Wire Date"
+        },
+        {
+            "code": "225324",
+            "display": "Dialysis CatheterTubing Change"
+        },
+        {
+            "code": "228207",
+            "display": "Tandem Heart Access Line Dressing Change"
+        },
+        {
+            "code": "225226",
+            "display": "CCO PAC Tubing Change"
+        },
+        {
+            "code": "226237",
+            "display": "Open Tracheostomy"
+        },
+        {
+            "code": "225476",
+            "display": "Unplanned Line/Catheter Removal (Non-Patient initated)"
+        },
+        {
+            "code": "225083",
+            "display": "Pregnancy due date"
+        },
+        {
+            "code": "226591",
+            "display": "L Pleural #2"
+        },
+        {
+            "code": "225204",
+            "display": "Midline"
+        },
+        {
+            "code": "227542",
+            "display": "ScvO2 (Presep) Calibrated"
+        },
+        {
+            "code": "229556",
+            "display": "Cardiac Assist Cannula Date"
+        },
+        {
+            "code": "225380",
+            "display": "Indwelling Port (PortaCath)Tubing Change"
+        },
+        {
+            "code": "226609",
+            "display": "Cerebral Subdural #2"
+        },
+        {
+            "code": "226606",
+            "display": "Cerebral Ventricular #1"
+        },
+        {
+            "code": "225441",
+            "display": "Hemodialysis"
+        },
+        {
+            "code": "226518",
+            "display": "Expected Discharge Date"
+        },
+        {
+            "code": "225344",
+            "display": "Midline Change over Wire Date"
+        },
+        {
+            "code": "229984",
+            "display": "Sevoflurane (Inhaled)"
+        },
+        {
+            "code": "228125",
+            "display": "Family meeting held"
+        },
+        {
+            "code": "224293",
+            "display": "Cordis/Introducer Change over Wire Date"
+        },
+        {
+            "code": "221219",
+            "display": "Venogram"
+        },
+        {
+            "code": "228286",
+            "display": "Intraosseous Device"
+        },
+        {
+            "code": "225394",
+            "display": "Triple Introducer Insertion Date"
+        },
+        {
+            "code": "225792",
+            "display": "Invasive Ventilation"
+        },
+        {
+            "code": "225445",
+            "display": "Paracentesis"
+        },
+        {
+            "code": "226610",
+            "display": "Lumbar"
+        },
+        {
+            "code": "229530",
+            "display": "ECMO Outflow Line"
+        },
+        {
+            "code": "228796",
+            "display": "Pressure ulcer #4- Dressing change"
+        },
+        {
+            "code": "224282",
+            "display": "Multi Lumen Tubing Change"
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "mimic-discharge-disposition",
+    "language": "en",
+    "url": "http://fhir.mimic.mit.edu/CodeSystem/mimic-discharge-disposition",
+    "version": "2.0",
+    "name": "MimicDischargeDisposition",
+    "title": "MimicDischargeDisposition",
+    "status": "draft",
+    "date": "2022-07-19T11:21:50-04:00",
+    "publisher": "KinD Lab",
+    "description": "The discharge disposition for MIMIC",
+    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/mimic-discharge-disposition",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "ASSISTED LIVING"
+        },
+        {
+            "code": "AGAINST ADVICE"
+        },
+        {
+            "code": "DIED"
+        },
+        {
+            "code": "HOSPICE"
+        },
+        {
+            "code": "ACUTE HOSPITAL"
+        },
+        {
+            "code": "REHAB"
+        },
+        {
+            "code": "OTHER FACILITY"
+        },
+        {
+            "code": "SKILLED NURSING FACILITY"
+        },
+        {
+            "code": "PSYCH FACILITY"
+        },
+        {
+            "code": "CHRONIC/LONG TERM ACUTE CARE"
+        },
+        {
+            "code": "HEALTHCARE FACILITY"
+        },
+        {
+            "code": "HOME HEALTH CARE"
+        },
+        {
+            "code": "HOME"
+        }
+    ]
+}

@@ -1,0 +1,227 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "mimic-medication-method",
+    "language": "en",
+    "url": "http://fhir.mimic.mit.edu/CodeSystem/mimic-medication-method",
+    "version": "2.0",
+    "name": "MimicMedicationMethod",
+    "title": "MimicMedicationMethod",
+    "status": "draft",
+    "date": "2022-07-19T11:21:50-04:00",
+    "publisher": "KinD Lab",
+    "description": "The medication delivery method for MIMIC",
+    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/mimic-medication-method",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "Hold Dose"
+        },
+        {
+            "code": "Partial Administered"
+        },
+        {
+            "code": "Assessed"
+        },
+        {
+            "code": "Delayed Applied"
+        },
+        {
+            "code": "in Other Location"
+        },
+        {
+            "code": "Delayed Assessed"
+        },
+        {
+            "code": "Not Assessed"
+        },
+        {
+            "code": "Administered in Other Location"
+        },
+        {
+            "code": "Delayed"
+        },
+        {
+            "code": "Started"
+        },
+        {
+            "code": "Removed - Unscheduled"
+        },
+        {
+            "code": "Delayed Started"
+        },
+        {
+            "code": "Not Given per Sliding Scale in Other Location"
+        },
+        {
+            "code": "Not Started"
+        },
+        {
+            "code": "Not Given per Sliding Scale"
+        },
+        {
+            "code": "Partial"
+        },
+        {
+            "code": "Stopped - Unscheduled in Other Location"
+        },
+        {
+            "code": "Restarted"
+        },
+        {
+            "code": "Started in Other Location"
+        },
+        {
+            "code": "Delayed Not Assessed"
+        },
+        {
+            "code": "Removed in Other Location"
+        },
+        {
+            "code": "Infusion Reconciliation"
+        },
+        {
+            "code": "Read in Other Location"
+        },
+        {
+            "code": "Not Confirmed"
+        },
+        {
+            "code": "Delayed Not Stopped"
+        },
+        {
+            "code": "TPN Rate Not Changed"
+        },
+        {
+            "code": "Confirmed in Other Location"
+        },
+        {
+            "code": "Delayed Not Started"
+        },
+        {
+            "code": "Stopped - Unscheduled"
+        },
+        {
+            "code": "Confirmed"
+        },
+        {
+            "code": "Stopped"
+        },
+        {
+            "code": "Not Flushed"
+        },
+        {
+            "code": "Rate Change in Other Location"
+        },
+        {
+            "code": "Delayed Rate Change"
+        },
+        {
+            "code": "Applied in Other Location"
+        },
+        {
+            "code": "Administered"
+        },
+        {
+            "code": "Delayed Not Flushed"
+        },
+        {
+            "code": "Not Given"
+        },
+        {
+            "code": "Not Started per Sliding Scale"
+        },
+        {
+            "code": "Administered Bolus from IV Drip"
+        },
+        {
+            "code": "Rate Change"
+        },
+        {
+            "code": "Not Stopped per Sliding Scale"
+        },
+        {
+            "code": "Delayed Not Removed"
+        },
+        {
+            "code": "Assessed in Other Location"
+        },
+        {
+            "code": "Restarted in Other Location"
+        },
+        {
+            "code": "Delayed Flushed"
+        },
+        {
+            "code": "Delayed Stopped"
+        },
+        {
+            "code": "Delayed Administered"
+        },
+        {
+            "code": "Removed"
+        },
+        {
+            "code": "Delayed Stopped As Directed"
+        },
+        {
+            "code": "Stopped in Other Location"
+        },
+        {
+            "code": "Flushed in Other Location"
+        },
+        {
+            "code": "Not Stopped"
+        },
+        {
+            "code": "Delayed Not Applied"
+        },
+        {
+            "code": "Delayed Confirmed"
+        },
+        {
+            "code": "Not Removed"
+        },
+        {
+            "code": "Delayed Not Confirmed"
+        },
+        {
+            "code": "Not Applied"
+        },
+        {
+            "code": "Flushed"
+        },
+        {
+            "code": "Not Read"
+        },
+        {
+            "code": "Removed Existing / Applied New in Other Location"
+        },
+        {
+            "code": "Removed Existing / Applied New"
+        },
+        {
+            "code": "Infusion Reconciliation Not Done"
+        },
+        {
+            "code": "Read"
+        },
+        {
+            "code": "Infusion Reconciliation in Other Location"
+        },
+        {
+            "code": "Delayed Removed"
+        },
+        {
+            "code": "Stopped As Directed"
+        },
+        {
+            "code": "Delayed Restarted"
+        },
+        {
+            "code": "Applied"
+        },
+        {
+            "code": "Documented in O.R. Holding"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "resourceType": "ValueSet",
+    "id": "mimic-diagnosis-icd",
+    "language": "en",
+    "url": "http://fhir.mimic.mit.edu/ValueSet/mimic-diagnosis-icd",
+    "version": "2.0",
+    "name": "MimicDiagnosisIcd",
+    "title": "MimicDiagnosisIcd",
+    "status": "draft",
+    "date": "2022-07-19T11:21:50-04:00",
+    "publisher": "KinD Lab",
+    "description": "The diagnosis ICD9 and ICD10 codes for MIMIC",
+    "compose": {
+        "include": [
+            {
+                "system": "http://fhir.mimic.mit.edu/CodeSystem/mimic-diagnosis-icd9"
+            },
+            {
+                "system": "http://fhir.mimic.mit.edu/CodeSystem/mimic-diagnosis-icd10"
+            }
+        ]
+    }
+}

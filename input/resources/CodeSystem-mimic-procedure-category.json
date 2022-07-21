@@ -1,0 +1,59 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "mimic-procedure-category",
+    "language": "en",
+    "url": "http://fhir.mimic.mit.edu/CodeSystem/mimic-procedure-category",
+    "version": "2.0",
+    "name": "MimicProcedureCategory",
+    "title": "MimicProcedureCategory",
+    "status": "draft",
+    "date": "2022-07-19T11:21:50-04:00",
+    "publisher": "KinD Lab",
+    "description": "The procedure category codes for MIMIC",
+    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/mimic-procedure-category",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "CRRT Filter Change"
+        },
+        {
+            "code": "Ventilation"
+        },
+        {
+            "code": "Peripheral Lines"
+        },
+        {
+            "code": "Procedures"
+        },
+        {
+            "code": "Communication"
+        },
+        {
+            "code": "Peritoneal Dialysis"
+        },
+        {
+            "code": "Continuous Procedures"
+        },
+        {
+            "code": "Significant Events"
+        },
+        {
+            "code": "Tubes"
+        },
+        {
+            "code": "Intubation/Extubation"
+        },
+        {
+            "code": "Dialysis"
+        },
+        {
+            "code": "17 - Inhaled Meds"
+        },
+        {
+            "code": "Imaging"
+        },
+        {
+            "code": "Invasive Lines"
+        }
+    ]
+}
