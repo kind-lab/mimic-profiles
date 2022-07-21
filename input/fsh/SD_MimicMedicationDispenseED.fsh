@@ -1,10 +1,10 @@
-Alias: GSN=http://fhir.mimic.mit.edu/ValueSet/mimic-medication-gsn
-
 Profile:        MimicMedicationDispenseED
 Parent:         MedicationDispense
 Id:             mimic-medicationdispense-ed
 Title:          "MIMIC-ED MedicationDispense"
 Description:    "A MedicationDispense resource that represents each record in the pyxis (ED medication dispensation) table of MIMIC-ED."
+
+* identifer.system = $IdentiferMedicationDispenseED
 
 // Cardinalities used elements
 * status 1..1 // Unknown
@@ -20,4 +20,4 @@ Description:    "A MedicationDispense resource that represents each record in th
 * medication[x] only CodeableConcept
 * subject only Reference(MimicPatientED)
 * context only Reference(MimicEncounterED)
-* medicationCodeableConcept.coding from $GSN // pyxis: gsn
+* medicationCodeableConcept.coding from $GSN_VS // pyxis: gsn

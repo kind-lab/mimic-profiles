@@ -4,9 +4,10 @@ Id:             mimic-procedure-icu
 Title:          "MIMIC Procedure ICU"
 Description:    "A MIMIC procedure ICU profile based on US Core Procedure."
 
-* code from http://fhir.mimic.mit.edu/ValueSet/procedureevents-d-items
-* bodySite from http://fhir.mimic.mit.edu/ValueSet/bodysite
-* category from http://fhir.mimic.mit.edu/ValueSet/procedure-category
+* identifier.system = $IdentifierProcedureICU
+* code from $MimicProcedureeventsDItems
+* bodySite from $MimicBodySite
+* category from $MimicProcedureCategory
 
 // referencing must be to MIMIC profiles
 * subject only Reference(MimicPatient)

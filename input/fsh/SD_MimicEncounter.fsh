@@ -1,9 +1,3 @@
-// identifier system alias
-Alias: $ENCOUNTER_HOSP = http://fhir.mimic.mit.edu/identifier/encounter-hosp
-Alias: $ENCOUNTER_ICU = http://fhir.mimic.mit.edu/identifier/encounter-icu
-Alias: $ENCOUNTER_ED = http://fhir.mimic.mit.edu/identifier/encounter-ed
-
-
 Profile:        MimicEncounter
 Parent:         us-core-encounter
 Id:             mimic-encounter
@@ -21,29 +15,29 @@ Description:    "A MIMIC encounter profile based on US Core Encounter."
   and ED_ID 0..1
   and ICU_ID 0..1
 * identifier[HOSP_ID].system 1..1
-* identifier[HOSP_ID].system = $ENCOUNTER_HOSP (exactly)
+* identifier[HOSP_ID].system = $IdentifierEncounterHSP 
 * identifier[HOSP_ID].value ^short = "Hospital encounter identifier"
 * identifier[HOSP_ID].value obeys mimic-encounter-id
 * identifier[HOSP_ID].value 1..1
 
 * identifier[ED_ID].system 1..1
-* identifier[ED_ID].system = $ENCOUNTER_ED (exactly)
+* identifier[ED_ID].system = $IdentiferEncounterED
 * identifier[ED_ID].value ^short = "ED encounter identifier"
 * identifier[ED_ID].value obeys mimic-encounter-id
 * identifier[ED_ID].value 1..1
 
 * identifier[ICU_ID].system 1..1
-* identifier[ICU_ID].system = $ENCOUNTER_ICU (exactly)
+* identifier[ICU_ID].system = $IdentiferEncounterICU
 * identifier[ICU_ID].value ^short = "ICU encounter identifier"
 * identifier[ICU_ID].value obeys mimic-encounter-id
 * identifier[ICU_ID].value 1..1
 
-* class from http://fhir.mimic.mit.edu/ValueSet/mimic-admission-class
-* type from http://fhir.mimic.mit.edu/ValueSet/mimic-encounter-type
-* serviceType from http://fhir.mimic.mit.edu/ValueSet/mimic-services
-* priority from http://fhir.mimic.mit.edu/ValueSet/mimic-admission-type
-* hospitalization.admitSource from http://fhir.mimic.mit.edu/ValueSet/mimic-admit-source
-* hospitalization.dischargeDisposition from http://fhir.mimic.mit.edu/ValueSet/mimic-discharge-disposition
+* class from $MimicAdmissionClass
+* type from $MimicEncounterType
+* serviceType from $MimicServices
+* priority from $MimicAdmissionType
+* hospitalization.admitSource from $MimicAdmitSource
+* hospitalization.dischargeDisposition from $MimicDischargeDisposition
 
 // referencing must be to MIMIC profiles
 * subject only Reference(MimicPatient)

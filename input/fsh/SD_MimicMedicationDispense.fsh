@@ -4,8 +4,9 @@ Id:             mimic-medication-dispense
 Title:          "MIMIC Medication Dispense"
 Description:    "A MIMIC medication dispense profile based on the base FHIR medication dispense resource."
 
-* dosageInstruction.timing.code from http://fhir.mimic.mit.edu/ValueSet/mimic-medication-frequency
-* dosageInstruction.route from http://fhir.mimic.mit.edu/ValueSet/mimic-medication-route
+* identifier.system = $IdentiferMedicationDispense
+* dosageInstruction.timing.code from $MimicMedicationFrequency
+* dosageInstruction.route from $MimicMedicationRoute
 
 // referencing must be to MIMIC profiles
 * subject only Reference(MimicPatient)

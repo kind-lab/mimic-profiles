@@ -4,6 +4,8 @@ Id:             mimic-observation-vitalsigns
 Title:          "MIMIC-ED Observation Vital Signs"
 Description:    "An Observation resource (based on US Core Vital Signs) that represents a single measurement from a row of the triage and vitalsign tables of MIMIC-ED: only temperatature, heartrate, resprate, blood pressure sbp dbp, and o2sat."
 
+* identifier.system = $IdentifierObservationVitalSigns
+
 // Cardinalities used elements
 * partOf 1..1 // Reference(Procedure)
 * status 1..1 // final

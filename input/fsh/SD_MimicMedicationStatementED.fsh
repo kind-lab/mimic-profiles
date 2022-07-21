@@ -30,6 +30,6 @@ Description:    "A MedicationStatement resource that represents each record in t
        gsnCode 0..1 and
        ndcCode 0..1 and
        etccodeCode 0..
-* medicationCodeableConcept.coding[gsnCode].system = $GSN // No defined code system.. 
+* medicationCodeableConcept.coding[gsnCode].system = $GSN_CS // No defined code system.. 
 * medicationCodeableConcept.coding[ndcCode].system = $NDC
 * medicationCodeableConcept.coding[etccodeCode].system = $ETC // URL correct but no defined code system..

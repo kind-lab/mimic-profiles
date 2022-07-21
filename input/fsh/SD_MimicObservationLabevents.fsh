@@ -4,8 +4,9 @@ Id:             mimic-observation-labevents
 Title:          "MIMIC Observation Labevents"
 Description:    "A MIMIC observation labevents profile based on US Core observation lab profile"
 
-* code from http://fhir.mimic.mit.edu/ValueSet/mimic-d-labitems
-* interpretation from http://fhir.mimic.mit.edu/ValueSet/mimic-lab-flags
+* identifer.system = $IdentiferObservationLabevents
+* code from $MimicDLabitems
+* interpretation from $MimicLabFlags
 
 // referencing must be to MIMIC profiles
 * subject only Reference(MimicPatient)
@@ -18,5 +19,5 @@ Extension: LabPriority
 Id: lab-priority
 Title: "Lab Priority"
 Description: "The priority of a lab item in MIMIC"
-* value[x] from http://fhir.mimic.mit.edu/ValueSet/mimic-lab-priority
+* value[x] from $MimicLabPriority
 * value[x] only string
