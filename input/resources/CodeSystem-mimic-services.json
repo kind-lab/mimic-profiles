@@ -7,7 +7,7 @@
     "name": "MimicServices",
     "title": "MimicServices",
     "status": "draft",
-    "date": "2022-07-21T12:30:06-04:00",
+    "date": "2022-07-21T13:01:37-04:00",
     "publisher": "KinD Lab",
     "description": "The hospital services for MIMIC",
     "valueSet": "http://fhir.mimic.mit.edu/ValueSet/mimic-services",
