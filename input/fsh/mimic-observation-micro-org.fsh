@@ -4,7 +4,7 @@ Id:             mimic-observation-micro-org
 Title:          "MIMIC Observation Micro Org"
 Description:    "A MIMIC observation microbiology organism profile based on US Core observation lab profile"
 
-* code from http://fhir.mimic.mit.edu/ValueSet/microbiology-organism
+* code from http://fhir.mimic.mit.edu/ValueSet/mimic-microbiology-organism
 
 // referencing must be to MIMIC profiles
 * subject only Reference(MimicPatient)

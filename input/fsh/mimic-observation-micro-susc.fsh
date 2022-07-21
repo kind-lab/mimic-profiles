@@ -4,8 +4,8 @@ Id:             mimic-observation-micro-susc
 Title:          "MIMIC Observation Micro Susc"
 Description:    "A MIMIC observation microbiology susceptiblity profile based on US Core observation lab profile"
 
-* code from http://fhir.mimic.mit.edu/ValueSet/microbiology-antibiotic
-* interpretation from http://fhir.mimic.mit.edu/ValueSet/microbiology-interpretation
+* code from http://fhir.mimic.mit.edu/ValueSet/mimic-microbiology-antibiotic
+* interpretation from http://fhir.mimic.mit.edu/ValueSet/mimic-microbiology-interpretation
 * extension contains DilutionDetails named dilutionDetails 0..1
 
 // referencing must be to MIMIC profiles

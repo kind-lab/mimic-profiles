@@ -38,12 +38,12 @@ Description:    "A MIMIC encounter profile based on US Core Encounter."
 * identifier[ICU_ID].value obeys mimic-encounter-id
 * identifier[ICU_ID].value 1..1
 
-* class from http://fhir.mimic.mit.edu/ValueSet/admission-class
-* type from http://fhir.mimic.mit.edu/ValueSet/encounter-type
-* serviceType from http://fhir.mimic.mit.edu/ValueSet/services
-* priority from http://fhir.mimic.mit.edu/ValueSet/admission-type
-* hospitalization.admitSource from http://fhir.mimic.mit.edu/ValueSet/admit-source
-* hospitalization.dischargeDisposition from http://fhir.mimic.mit.edu/ValueSet/discharge-disposition
+* class from http://fhir.mimic.mit.edu/ValueSet/mimic-admission-class
+* type from http://fhir.mimic.mit.edu/ValueSet/mimic-encounter-type
+* serviceType from http://fhir.mimic.mit.edu/ValueSet/mimic-services
+* priority from http://fhir.mimic.mit.edu/ValueSet/mimic-admission-type
+* hospitalization.admitSource from http://fhir.mimic.mit.edu/ValueSet/mimic-admit-source
+* hospitalization.dischargeDisposition from http://fhir.mimic.mit.edu/ValueSet/mimic-discharge-disposition
 
 // referencing must be to MIMIC profiles
 * subject only Reference(MimicPatient)
