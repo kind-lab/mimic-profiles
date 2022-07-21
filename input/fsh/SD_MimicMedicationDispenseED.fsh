@@ -1,6 +1,6 @@
 Profile:        MimicMedicationDispenseED
 Parent:         MedicationDispense
-Id:             mimic-medicationdispense-ed
+Id:             mimic-medication-dispense-ed
 Title:          "MIMIC-ED MedicationDispense"
 Description:    "A MedicationDispense resource that represents each record in the pyxis (ED medication dispensation) table of MIMIC-ED."
 

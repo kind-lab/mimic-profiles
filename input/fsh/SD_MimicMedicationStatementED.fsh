@@ -1,6 +1,6 @@
 Profile:        MimicMedicationStatementED
 Parent:         MedicationStatement
-Id:             mimic-medicationstatement-ed
+Id:             mimic-medication-statement-ed
 Title:          "MIMIC-ED MedicationStatement"
 Description:    "A MedicationStatement resource that represents each record in the medrecon table of MIMIC-ED."
 
