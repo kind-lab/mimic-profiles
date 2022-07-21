@@ -1,5 +1,5 @@
 // Administration
-Alias: $IdentiferCondition= http://fhir.mimic.mit.edu/identifier/condition
+Alias: $IdentifierCondition = http://fhir.mimic.mit.edu/identifier/condition
 Alias: $IdentifierOrganization = http://hl7.org/fhir/sid/us-npi
 Alias: $IdentifierPatient = http://fhir.mimic.mit.edu/identifier/patient
 Alias: $IdentifierProcedure = http://fhir.mimic.mit.edu/identifier/procedure
@@ -8,14 +8,14 @@ Alias: $IdentifierProcedureICU = http://fhir.mimic.mit.edu/identifier/procedure-
 
 // encounter
 Alias: $IdentifierEncounterHSP = http://fhir.mimic.mit.edu/identifier/encounter-hosp
-Alias: $IdentiferEncounterICU = http://fhir.mimic.mit.edu/identifier/encounter-icu
+Alias: $IdentifierEncounterICU = http://fhir.mimic.mit.edu/identifier/encounter-icu
 Alias: $IdentifierEncounterED = http://fhir.mimic.mit.edu/identifier/encounter-ed
 
 // medication
 Alias: $IdentifierMedicationAdministration = http://fhir.mimic.mit.edu/identifier/medication-administration
 Alias: $IdentifierMedicationAdministrationICU = http://fhir.mimic.mit.edu/identifier/medication-administration-icu
-Alias: $IdentiferMedicationDispense = http://fhir.mimic.mit.edu/identifier/medication-dispense
-Alias: $IdentiferMedicationDispenseED = http://fhir.mimic.mit.edu/identifier/medication-dispense-ed
+Alias: $IdentifierMedicationDispense = http://fhir.mimic.mit.edu/identifier/medication-dispense
+Alias: $IdentifierMedicationDispenseED = http://fhir.mimic.mit.edu/identifier/medication-dispense-ed
 
 Alias: $IdentifierMedicationRequestPHID = http://fhir.mimic.mit.edu/identifier/medication-request-phid
 Alias: $IdentifierMedicationRequestPOE = http://fhir.mimic.mit.edu/identifier/medication-request-poe

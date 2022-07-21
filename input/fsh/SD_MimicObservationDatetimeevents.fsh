@@ -4,10 +4,10 @@ Id:             mimic-observation-datetimeevents
 Title:          "MIMIC Observation Datetimeevents"
 Description:    "A MIMIC observation datetimeevents profile based on the base observation resource"
 
-* identifer.system = $IdentifierObservationDatetimeevents
+* identifier.system = $IdentifierObservationDatetimeevents
 * code from $MimicDatetimeeventsDItems
 * category from $MimicObservationCategory
 
 // referencing must be to MIMIC profiles
 * subject only Reference(MimicPatient)
-* encounter only Reference(MimicEncounterICU)
+* encounter only Reference(MimicEncounter)

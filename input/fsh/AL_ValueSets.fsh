@@ -1,6 +1,5 @@
 // Medication
 Alias: $GSN_VS = http://fhir.mimic.mit.edu/ValueSet/mimic-medication-gsn
-Alias: $ETC = http://fhir.mimic.mit.edu/ValueSet/mimic-medication-etc
 Alias: $MimicMedicationCodes = http://fhir.mimic.mit.edu/ValueSet/mimic-medication
 
 Alias: $MimicMedicationMethod = http://fhir.mimic.mit.edu/ValueSet/mimic-medication-method

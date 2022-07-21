@@ -10,4 +10,4 @@ Description:    "A MIMIC observation outputevents profile based on the base obse
 
 // referencing must be to MIMIC profiles
 * subject only Reference(MimicPatient)
-* encounter only Reference(MimicEncounterICU)
+* encounter only Reference(MimicEncounter)

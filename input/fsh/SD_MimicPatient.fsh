@@ -4,4 +4,4 @@ Id:             mimic-patient
 Title:          "MIMIC Patient"
 Description:    "A MIMIC patient based on US Core Patient."
 
-* identifier.system = $IdentiferPatient
+* identifier.system = $IdentifierPatient

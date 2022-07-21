@@ -1,10 +1,10 @@
-Profile:        MIMIC_Observation_Labevents
+Profile:        MimicObservationLabevents
 Parent:         us-core-observation-lab
 Id:             mimic-observation-labevents
 Title:          "MIMIC Observation Labevents"
 Description:    "A MIMIC observation labevents profile based on US Core observation lab profile"
 
-* identifer.system = $IdentiferObservationLabevents
+* identifier.system = $IdentifierObservationLabevents
 * code from $MimicDLabitems
 * interpretation from $MimicLabFlags
 

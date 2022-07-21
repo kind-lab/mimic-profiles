@@ -21,13 +21,13 @@ Description:    "A MIMIC encounter profile based on US Core Encounter."
 * identifier[HOSP_ID].value 1..1
 
 * identifier[ED_ID].system 1..1
-* identifier[ED_ID].system = $IdentiferEncounterED
+* identifier[ED_ID].system = $IdentifierEncounterED
 * identifier[ED_ID].value ^short = "ED encounter identifier"
 * identifier[ED_ID].value obeys mimic-encounter-id
 * identifier[ED_ID].value 1..1
 
 * identifier[ICU_ID].system 1..1
-* identifier[ICU_ID].system = $IdentiferEncounterICU
+* identifier[ICU_ID].system = $IdentifierEncounterICU
 * identifier[ICU_ID].value ^short = "ICU encounter identifier"
 * identifier[ICU_ID].value obeys mimic-encounter-id
 * identifier[ICU_ID].value 1..1

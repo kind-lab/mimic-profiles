@@ -4,7 +4,7 @@ Id:             mimic-medication-dispense
 Title:          "MIMIC Medication Dispense"
 Description:    "A MIMIC medication dispense profile based on the base FHIR medication dispense resource."
 
-* identifier.system = $IdentiferMedicationDispense
+* identifier.system = $IdentifierMedicationDispense
 * dosageInstruction.timing.code from $MimicMedicationFrequency
 * dosageInstruction.route from $MimicMedicationRoute
 

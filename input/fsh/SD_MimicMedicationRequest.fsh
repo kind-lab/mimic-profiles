@@ -18,10 +18,10 @@ Description:    "A MIMIC medication request profile based on the base FHIR medic
 * identifier[PH_ID].value ^short = "Medication request pharmacy_id identifier"
 * identifier[PH_ID].value 1..1
 
-* identifier[ED_ID].system 1..1
-* identifier[ED_ID].system = $IdentifierMedicationRequestPOE
-* identifier[ED_ID].value ^short = "Medication request POE identifier"
-* identifier[ED_ID].value 1..1
+* identifier[POE_ID].system 1..1
+* identifier[POE_ID].system = $IdentifierMedicationRequestPOE
+* identifier[POE_ID].value ^short = "Medication request POE identifier"
+* identifier[POE_ID].value 1..1
 
 
 * dosageInstruction.timing.code from $MimicMedicationFrequency

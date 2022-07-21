@@ -11,4 +11,4 @@ Description:    "A MIMIC procedure ICU profile based on US Core Procedure."
 
 // referencing must be to MIMIC profiles
 * subject only Reference(MimicPatient)
-* encounter only Reference(MimicEncounterICU)
+* encounter only Reference(MimicEncounter)

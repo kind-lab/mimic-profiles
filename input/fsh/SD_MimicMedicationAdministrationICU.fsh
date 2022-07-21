@@ -10,4 +10,4 @@ Description:    "A MIMIC medication administration ICU profile based on the base
 
 // referencing must be to MIMIC profiles
 * subject only Reference(MimicPatient)
-* context only Reference(MimicEncounterICU)
+* context only Reference(MimicEncounter)

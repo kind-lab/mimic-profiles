@@ -8,7 +8,7 @@ Title:          "MIMIC-ED Observation"
 Description:    "An Observation resource that represents a single measurement from a row of the triage and vitalsign tables of MIMIC-ED: only pain, acuity, chiefcomplaint, and rhythm."
 
 // identifier
-* identifer.system = $IdentiferObservationED
+* identifier.system = $IdentifierObservationED
 
 // Cardinalities used elements
 * partOf 1..1 // Reference(Procedure)
@@ -30,13 +30,13 @@ Description:    "An Observation resource that represents a single measurement fr
 * effective[x] only dateTime
 
 // Pain, acuity, chiefcomplaint, rhythm
-* category from MimicObservationCategory
+* category from MimicObservationCategoryED
 * code from MimicObservationType
 * dataAbsentReason from DataAbsentReason
 
 // Value sets
-ValueSet: MimicObservationCategory
-Id: mimic-observation-category
+ValueSet: MimicObservationCategoryED
+Id: mimic-observation-category-ed
 Title: "MIMIC-ED Observation Resource Category Value Set"
 Description: "Selected codes from the ObservationCategoryCodes value set."
 * http://terminology.hl7.org/CodeSystem/observation-category#survey "Survey" // pain
