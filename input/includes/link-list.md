@@ -8,7 +8,6 @@
 
 [MIMIC Condition]: StructureDefinition-mimic-condition.html
 [MIMIC Encounter]: StructureDefinition-mimic-encounter.html
-[MIMIC Encounter ICU]: StructureDefinition-mimic-encounter-icu.html
 [MIMIC Medication]: StructureDefinition-mimic-medication.html
 [MIMIC Medication Administration]: StructureDefinition-mimic-medication-administration.html
 [MIMIC Medication Administration ICU]: StructureDefinition-mimic-medication-administration-icu.html
@@ -36,13 +35,12 @@
 [MimicIdentifierType]: CodeSystem-mimic-identifier-type.html
 [MimicLabFlags]: CodeSystem-mimic-lab-flags.html
 [MimicLabFluid]: CodeSystem-mimic-lab-fluid.html
-[MimicLabPriority]: CodeSystem-mimic-lab-fluid.html
+[MimicLabPriority]: CodeSystem-mimic-lab-priority.html
 [MimicMedAdminCategoryICU]: CodeSystem-mimic-medadmin-category-icu.html
 [MimicMedicationFormularyDrugCd]: CodeSystem-mimic-medication-formulary-drug-cd.html
 [MimicMedicationFrequency]: CodeSystem-mimic-medication-frequency.html
 [MimicMedicationICU]: CodeSystem-mimic-medication-icu.html
 [MimicMedicationMetho]: CodeSystem-mimic-medication-method.html
-[MimicMedicationMix]: CodeSystem-mimic-medication-mix.html
 [MimicMedicationName]: CodeSystem-mimic-medication-name.html
 [MimicMedicationPoeIv]: CodeSystem-mimic-medication-poe-iv.html
 [MimicMedicationRoute]: CodeSystem-mimic-medication-route.html
@@ -59,7 +57,7 @@
 [MimicUnits]: CodeSystem-mimic-units.html
 
 [DilutionDetails]: StructureDefinition-dilution-details.html
-[LabPriority]: StructureDefinition-mimic-lab-priority.html
+[LabPriority]: StructureDefinition-lab-priority.html
 
 
 [MimicCharteventsDItems]: ValueSet-mimic-chartevents-d-items.html
