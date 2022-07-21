@@ -7,7 +7,7 @@
     "name": "MimicMedicationSite",
     "title": "MimicMedicationSite",
     "status": "draft",
-    "date": "2022-07-19T11:21:50-04:00",
+    "date": "2022-07-21T12:30:06-04:00",
     "publisher": "KinD Lab",
     "description": "The medication site for administration in MIMIC",
     "valueSet": "http://fhir.mimic.mit.edu/ValueSet/mimic-medication-site",
