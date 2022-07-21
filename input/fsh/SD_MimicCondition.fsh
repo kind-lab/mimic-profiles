@@ -10,7 +10,7 @@ Description:    "A MIMIC condition profile based on US Core Condition."
 * category.coding.system = "http://terminology.hl7.org/CodeSystem/condition-category" (exactly)
 * category ^short = "All encounters are assumed to be diagnosis encounters in MIMIC"
 
-* code from http://fhir.mimic.mit.edu/ValueSet/diagnosis-icd
+* code from http://fhir.mimic.mit.edu/ValueSet/mimic-diagnosis-icd
 
 // referencing must be to MIMIC profiles
 * subject only Reference(MimicPatient)
