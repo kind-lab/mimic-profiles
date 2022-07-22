@@ -6,8 +6,7 @@ Description:    "A MIMIC condition profile based on US Core Condition."
 
 * identifier.system = $IdentifierCondition
 
-* category.coding.code = #encounter-diagnosis
-* category.coding.system = $ConditionCategory
+* category.coding = $ConditionCategory#encounter-diagnosis "Encounter Diagnosis"
 * category ^short = "All encounters are assumed to be diagnosis encounters in MIMIC"
 
 * code from $MimicDiagnosisIcd
