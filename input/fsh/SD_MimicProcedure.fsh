@@ -1,8 +1,8 @@
 Profile:        MimicProcedure
-Parent:         us-core-procedure
+Parent:         Procedure
 Id:             mimic-procedure
 Title:          "MIMIC Procedure"
-Description:    "A MIMIC procedure profile based on US Core Procedure."
+Description:    "A MIMIC procedure profile based on base Procedure resource."
 
 // cardinalities of updated elements
 * encounter 1..1
@@ -15,7 +15,7 @@ Description:    "A MIMIC procedure profile based on US Core Procedure."
 
 
 // binding to MIMIC terminology
-* code from $MimicProcedureIcd
+* code from $MimicProcedureIcd // extending the us core valueset did not make sense (SCT, can map to later)
 
 // referencing must be to MIMIC profiles
 * subject only Reference(MimicPatient)

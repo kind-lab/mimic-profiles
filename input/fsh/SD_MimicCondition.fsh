@@ -1,5 +1,5 @@
 Profile:        MimicCondition
-Parent:         us-core-condition
+Parent:         Condition
 Id:             mimic-condition
 Title:          "MIMIC Condition"
 Description:    "A MIMIC condition profile based on US Core Condition."

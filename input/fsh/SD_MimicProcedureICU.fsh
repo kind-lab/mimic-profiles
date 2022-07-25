@@ -1,8 +1,8 @@
 Profile:        MimicProcedureICU
-Parent:         us-core-procedure
+Parent:         Procedure
 Id:             mimic-procedure-icu
 Title:          "MIMIC Procedure ICU"
-Description:    "A MIMIC procedure ICU profile based on US Core Procedure."
+Description:    "A MIMIC procedure ICU profile based on base Procedure resource."
 
 // cardinalities of updated elements
 * category 1..1
@@ -16,7 +16,7 @@ Description:    "A MIMIC procedure ICU profile based on US Core Procedure."
 * bodySite 0..*
 
 // binding to MIMIC terminology
-* code from $MimicProcedureeventsDItems
+* code from $MimicProcedureeventsDItems // will need to map to SCT for us core conformance 
 * bodySite from $MimicBodySite
 * category from $MimicProcedureCategory
 

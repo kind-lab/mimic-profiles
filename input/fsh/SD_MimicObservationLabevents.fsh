@@ -1,8 +1,8 @@
 Profile:        MimicObservationLabevents
-Parent:         us-core-observation-lab
+Parent:         Observation
 Id:             mimic-observation-labevents
 Title:          "MIMIC Observation Labevents"
-Description:    "A MIMIC observation labevents profile based on US Core observation lab profile"
+Description:    "A MIMIC observation labevents profile based on base observation resource"
 
 // cardinalities of updated elements
 * identifier 1..*
@@ -27,7 +27,7 @@ Description:    "A MIMIC observation labevents profile based on US Core observat
 // binding to MIMIC terminology
 * identifier.system = $IdentifierObservationLabevents
 * code from $MimicDLabitems
-* interpretation from $MimicLabFlags
+* interpretation from MimicLabInterpretation
 
 // referencing must be to MIMIC profiles
 * subject only Reference(MimicPatient)

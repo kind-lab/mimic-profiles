@@ -2,7 +2,7 @@ Profile:        MimicObservationMicroOrg
 Parent:         us-core-observation-lab
 Id:             mimic-observation-micro-org
 Title:          "MIMIC Observation Micro Org"
-Description:    "A MIMIC observation microbiology organism profile based on US Core observation lab profile"
+Description:    "A MIMIC observation microbiology organism profile based on the base observation resource"
 
 // cardinalities of updated elements
 * effective[x] 1..1

@@ -1,8 +1,8 @@
 Profile:        MimicObservationMicroTest
-Parent:         us-core-observation-lab
+Parent:         Observation
 Id:             mimic-observation-micro-test
 Title:          "MIMIC Observation Micro Test"
-Description:    "A MIMIC observation microbiology test profile based on US Core observation lab profile"
+Description:    "A MIMIC observation microbiology test profile based on the base observation resource"
 
 // cardinalities of updated elements
 * specimen 1..1
