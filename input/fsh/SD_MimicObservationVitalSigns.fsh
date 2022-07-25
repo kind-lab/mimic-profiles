@@ -31,29 +31,3 @@ Description:    "An Observation resource (based on US Core Vital Signs) that rep
 * value[x] only Quantity
 * value[x] from MimicQuantityUnit
 * dataAbsentReason from DataAbsentReason
-
-// Value sets
-ValueSet: MimicObservationTypeVital
-Id: mimic-observation-type-vital
-Title: "MIMIC-ED Observation Resource Types Value Set"
-Description: "Selected codes from LOINC that represent values from the triage or vitalsigns tables of MIMIC-ED."
-* $LNC#8310-5 "Body temperature" // temp
-* $LNC#8867-4 "Heart rate" // heartrate
-* $LNC#9279-1 "Respiratory rate" // resprate
-* $LNC#2708-6 "Oxygen saturation in Arterial blood" // o2sat
-* $LNC#85354-9 "Blood pressure panel with all children optional" // sbp and dbp (component)
-
-ValueSet: MimicQuantityUnit
-Id: mimic-unit-quantity
-Title: "MIMIC-ED Observation Quantity Units Value Set"
-Description: "Selected codes from UCUM that represent quantity units."
-* $UCUM#degF "F" // triage:temperature / vitalsign:temperature
-* $UCUM#/min "beats/minute" // triage:heartrate / vitalsign:heartrate
-* $UCUM#/min "breaths/minute" // triage:resprate / vitalsign: resprate
-* $UCUM#% "%" // triage:o2sat / vitalsign:o2sat
-
-ValueSet: DataAbsentReason
-Id: mimic-dateAbsentReason
-Title: "MIMIC-ED Data Absent Reason"
-Description: "Selected code from the DataAbsentReason value set."
-* http://terminology.hl7.org/CodeSystem/data-absent-reason#unknown "Unknown"

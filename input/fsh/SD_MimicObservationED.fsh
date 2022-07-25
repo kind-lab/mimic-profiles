@@ -25,27 +25,10 @@ Description:    "An Observation resource that represents a single measurement fr
 
 // binding to MIMIC terminology
 * category from MimicObservationCategoryED
-* code from MimicObservationType
+* code from MimicObservationTypeED
 * dataAbsentReason from DataAbsentReason
 
 // referencing MIMIC profiles
 * partOf only Reference(MimicProcedureED)
 * subject only Reference(MimicPatient)
 * encounter only Reference(MimicEncounter)
-
-// Value sets
-ValueSet: MimicObservationCategoryED
-Id: mimic-observation-category-ed
-Title: "MIMIC-ED Observation Resource Category Value Set"
-Description: "Selected codes from the ObservationCategoryCodes value set."
-* http://terminology.hl7.org/CodeSystem/observation-category#survey "Survey" // pain
-* http://terminology.hl7.org/CodeSystem/observation-category#exam "Exam" // rhythm
-
-ValueSet: MimicObservationType
-Id: mimic-observation-type
-Title: "MIMIC-ED Observation Resource Types Value Set"
-Description: "Selected codes from LOINC that represent values from the triage or vitalsigns tables of MIMIC-ED."
-* $LNC#72514-3 "Pain severity - 0-10 verbal numeric rating [Score] - Reported" // pain
-* $LNC#56839-4 "Acuity assessment Narrative" // acuity
-* $LNC#8884-9 "Heart rate rhythm" // rhythm
-* $LNC#8661-1 "Chief complaint - Reported" // chiefcomplaint
