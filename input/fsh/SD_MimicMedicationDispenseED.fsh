@@ -4,8 +4,6 @@ Id:             mimic-medication-dispense-ed
 Title:          "MIMIC-ED MedicationDispense"
 Description:    "A MedicationDispense resource that represents each record in the pyxis (ED medication dispensation) table of MIMIC-ED."
 
-* identifier.system = $IdentifierMedicationDispenseED
-
 // Cardinalities used elements
 * status 1..1 // Unknown
 * medication[x] 1..1

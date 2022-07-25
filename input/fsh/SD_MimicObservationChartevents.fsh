@@ -4,7 +4,6 @@ Id:             mimic-observation-chartevents
 Title:          "MIMIC Observation Chartevents"
 Description:    "A MIMIC observation chartevents profile based on the base observation resource"
 
-* identifier.system = $IdentifierObservationChartevents
 * code from $MimicCharteventsDItems
 * category from $MimicObservationCategory
 

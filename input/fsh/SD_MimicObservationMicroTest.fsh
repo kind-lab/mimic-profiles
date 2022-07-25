@@ -4,7 +4,6 @@ Id:             mimic-observation-micro-test
 Title:          "MIMIC Observation Micro Test"
 Description:    "A MIMIC observation microbiology test profile based on US Core observation lab profile"
 
-* identifier.system = $IdentifierObservationMicroTest
 * code from $MimicMicrobiologyTest
 
 // referencing must be to MIMIC profiles

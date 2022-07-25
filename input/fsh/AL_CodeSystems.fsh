@@ -8,3 +8,7 @@ Alias: $ConditionCategory = http://terminology.hl7.org/CodeSystem/condition-cate
 
 // procedures
 Alias: $SCT = http://snomed.info/sct 
+
+// observations
+Alias: $LNC = http://loinc.org
+Alias: $UCUM = http://unitsofmeasure.org

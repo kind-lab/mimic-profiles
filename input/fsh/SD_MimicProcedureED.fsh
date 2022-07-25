@@ -4,7 +4,6 @@ Id:             mimic-procedure-ed
 Title:          "MIMIC Procedure ICU"
 Description:    "A MIMIC procedure ICU profile based on US Core Procedure."
 
-* identifier.system = $IdentifierProcedureED
 * code from MimicProcedureTypes
 * status = http://hl7.org/fhir/event-status#completed "Completed"
 * performed[x] only dateTime

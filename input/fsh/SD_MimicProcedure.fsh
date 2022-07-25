@@ -4,7 +4,6 @@ Id:             mimic-procedure
 Title:          "MIMIC Procedure"
 Description:    "A MIMIC procedure profile based on US Core Procedure."
 
-* identifier.system = $IdentifierProcedure
 * code from $MimicProcedureIcd
 
 // referencing must be to MIMIC profiles

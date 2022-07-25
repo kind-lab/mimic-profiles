@@ -1,14 +1,8 @@
-Alias: $LNC = http://loinc.org
-Alias: $UCUM = http://unitsofmeasure.org
-
 Profile:        MimicObservationED
 Parent:         Observation
 Id:             mimic-observation-ed
 Title:          "MIMIC-ED Observation"
 Description:    "An Observation resource that represents a single measurement from a row of the triage and vitalsign tables of MIMIC-ED: only pain, acuity, chiefcomplaint, and rhythm."
-
-// identifier
-* identifier.system = $IdentifierObservationED
 
 // Cardinalities used elements
 * partOf 1..1 // Reference(Procedure)

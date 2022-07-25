@@ -4,7 +4,6 @@ Id:             mimic-observation-micro-org
 Title:          "MIMIC Observation Micro Org"
 Description:    "A MIMIC observation microbiology organism profile based on US Core observation lab profile"
 
-* identifier.system = $IdentifierObservationMicroOrg
 * code from $MimicMicrobiologyOrganism
 
 // referencing must be to MIMIC profiles

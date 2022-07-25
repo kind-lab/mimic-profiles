@@ -4,7 +4,6 @@ Id:             mimic-procedure-icu
 Title:          "MIMIC Procedure ICU"
 Description:    "A MIMIC procedure ICU profile based on US Core Procedure."
 
-* identifier.system = $IdentifierProcedureICU
 * code from $MimicProcedureeventsDItems
 * bodySite from $MimicBodySite
 * category from $MimicProcedureCategory
