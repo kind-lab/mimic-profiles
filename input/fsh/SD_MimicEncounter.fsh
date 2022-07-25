@@ -51,10 +51,8 @@ Description:    "A MIMIC encounter profile based on US Core Encounter."
 
 
 // Bind MIMIC terminology
-* class from $MimicAdmissionClass
 * type from $MimicEncounterType
 * serviceType from $MimicServices
-* priority from $MimicAdmissionType
 * hospitalization.admitSource from $MimicAdmitSource
 * hospitalization.dischargeDisposition from $MimicDischargeDisposition
 

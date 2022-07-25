@@ -33,12 +33,10 @@ Alias: $MimicOutputeventsDItems = http://fhir.mimic.mit.edu/ValueSet/mimic-outpu
 
 // Observation labs
 Alias: $MimicDLabitems = http://fhir.mimic.mit.edu/ValueSet/mimic-d-labitems
-Alias: $MimicLabFlags = http://fhir.mimic.mit.edu/ValueSet/mimic-lab-flags
 Alias: $MimicLabPriority = http://fhir.mimic.mit.edu/ValueSet/mimic-lab-priority
 
 // Observation micro
 Alias: $MimicMicrobiologyAntibiotic = http://fhir.mimic.mit.edu/ValueSet/mimic-microbiology-antibiotic
-Alias: $MimicMicrobiologyInterpretation = http://fhir.mimic.mit.edu/ValueSet/mimic-microbiology-interpretation
 Alias: $MimicMicrobiologyOrganism = http://fhir.mimic.mit.edu/ValueSet/mimic-microbiology-organism
 Alias: $MimicMicrobiologyTest = http://fhir.mimic.mit.edu/ValueSet/mimic-microbiology-test
 Alias: $MimicSpecimenType = http://fhir.mimic.mit.edu/ValueSet/mimic-specimen-type
