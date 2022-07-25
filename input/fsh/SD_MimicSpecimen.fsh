@@ -5,7 +5,7 @@ Title:          "MIMIC Specimen"
 Description:    "A MIMIC lab specimen profile based on the baes FHIR R4 Specimen."
 
 // cardinalities of used elements
-* identifer 1..1
+* identifier 1..1
 * subject 1..1
 * collection.collectedDateTime 1..1 
 * type 0..1

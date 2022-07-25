@@ -5,7 +5,7 @@ Title:          "MIMIC Encounter"
 Description:    "A MIMIC encounter profile based on US Core Encounter."
 
 // Cardinalities of used elements
-* identifer 1..*
+* identifier 1..*
 * status 1..1
 * class 1..1
 * type 1..*

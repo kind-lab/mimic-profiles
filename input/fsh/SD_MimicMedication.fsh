@@ -5,7 +5,7 @@ Title:          "MIMIC Medication"
 Description:    "A MIMIC medication profile based on the base FHIR medication resource."
 
 // cardinalities of used elements
-* identifer 1..*
+* identifier 1..*
 * code 1..1
 
 // bindings to MIMIC terminology
