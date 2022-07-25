@@ -7,13 +7,16 @@
     "name": "MimicEncounterType",
     "title": "MimicEncounterType",
     "status": "draft",
-    "date": "2022-07-21T13:01:37-04:00",
+    "date": "2022-07-25T18:22:49-04:00",
     "publisher": "KinD Lab",
     "description": "The encounter type for MIMIC",
     "compose": {
         "include": [
             {
-                "system": "http://fhir.mimic.mit.edu/CodeSystem/mimic-hcpcs-cd"
+                "system": "http://hl7.org/fhir/us/core/ValueSet/us-core-encounter-type"
+            },
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/HCPCS"
             },
             {
                 "system": "http://snomed.info/sct",

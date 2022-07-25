@@ -28,12 +28,10 @@
 
 
 
-[MimicAdmissionClass]: CodeSystem-mimic-admission-class.html
 [MimicBodySite]: CodeSystem-mimic-bodysite.html
 [MimicDItems]: CodeSystem-mimic-d-items.html
 [MimicDLabItems]: CodeSystem-mimic-d-labitems.html
 [MimicIdentifierType]: CodeSystem-mimic-identifier-type.html
-[MimicLabFlags]: CodeSystem-mimic-lab-flags.html
 [MimicLabFluid]: CodeSystem-mimic-lab-fluid.html
 [MimicLabPriority]: CodeSystem-mimic-lab-priority.html
 [MimicMedAdminCategoryICU]: CodeSystem-mimic-medadmin-category-icu.html
@@ -46,7 +44,6 @@
 [MimicMedicationRoute]: CodeSystem-mimic-medication-route.html
 [MimicMedicationSite]: CodeSystem-mimic-medication-site.html
 [MimicMicrobiologyAntibiotic]: CodeSystem-mimic-microbiology-antibiotic.html
-[MimicMicrobiologyInterpretation]: CodeSystem-mimic-microbiology-interpretation.html
 [MimicMicrobiologyOrganism]: CodeSystem-mimic-microbiology-organism.html
 [MimicMicrobiologyTest]: CodeSystem-mimic-microbiology-test.html
 [MimicObservationCategory]: CodeSystem-mimic-observation-category.html

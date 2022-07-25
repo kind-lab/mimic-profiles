@@ -7,7 +7,7 @@
     "name": "MimicProcedureIcd9",
     "title": "MimicProcedureIcd9",
     "status": "draft",
-    "date": "2022-07-21T13:01:37-04:00",
+    "date": "2022-07-25T18:22:49-04:00",
     "publisher": "KinD Lab",
     "description": "The procedure ICD9 codes for MIMIC",
     "valueSet": "http://fhir.mimic.mit.edu/ValueSet/mimic-procedure-icd9",
