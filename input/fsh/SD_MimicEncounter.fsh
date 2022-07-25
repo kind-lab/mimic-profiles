@@ -4,7 +4,22 @@ Id:             mimic-encounter
 Title:          "MIMIC Encounter"
 Description:    "A MIMIC encounter profile based on US Core Encounter."
 
-* identifier 1..*
+// Cardinalities of used elements
+* identifer 1..*
+* status 1..1
+* class 1..1
+* type 1..*
+* priority 0..1
+* serviceType 0..1
+* subject 1..1
+* period 1..1
+* hospitalization.dischargeDisposition 0..1
+* hospitalization.admitSource 0..1
+* location 0..*
+* serviceProvider 0..1 
+
+
+// Identifier slicing
 * identifier ^slicing.discriminator.type = #value
 * identifier ^slicing.discriminator.path = "system"
 * identifier ^slicing.rules = #open
@@ -32,6 +47,8 @@ Description:    "A MIMIC encounter profile based on US Core Encounter."
 * identifier[ICU_ID].value obeys mimic-encounter-id
 * identifier[ICU_ID].value 1..1
 
+
+// Bind MIMIC terminology
 * class from $MimicAdmissionClass
 * type from $MimicEncounterType
 * serviceType from $MimicServices
@@ -42,6 +59,7 @@ Description:    "A MIMIC encounter profile based on US Core Encounter."
 // referencing must be to MIMIC profiles
 * subject only Reference(MimicPatient)
 * partOf only Reference(MimicEncounter)
+* serviceProvider only Reference(MimicOrganization)
 
 Invariant: mimic-encounter-id
 Description: "Identifier must be a 8 digit numeric value"

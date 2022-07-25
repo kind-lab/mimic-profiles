@@ -4,7 +4,7 @@ Id:             mimic-medication-dispense-ed
 Title:          "MIMIC-ED MedicationDispense"
 Description:    "A MedicationDispense resource that represents each record in the pyxis (ED medication dispensation) table of MIMIC-ED."
 
-// Cardinalities used elements
+// cardinalities of used elements
 * status 1..1 // Unknown
 * medication[x] 1..1
 * medicationCodeableConcept.coding 1..*
@@ -13,9 +13,11 @@ Description:    "A MedicationDispense resource that represents each record in th
 * context 1..1 // Reference(MimicEncounter)
 * whenHandedOver 1..1 // pyxis: charttime
 
-// Further specification of elements
+// further specification of elements
 * status = http://terminology.hl7.org/CodeSystem/medicationdispense-status#unknown "Unknown"
 * medication[x] only CodeableConcept
+* medicationCodeableConcept.coding from $GSN_VS // pyxis: gsn
+
+// referencing MIMIC profiles
 * subject only Reference(MimicPatient)
 * context only Reference(MimicEncounter)
-* medicationCodeableConcept.coding from $GSN_VS // pyxis: gsn

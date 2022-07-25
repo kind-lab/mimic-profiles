@@ -4,6 +4,20 @@ Id:             mimic-medication-administration-icu
 Title:          "MIMIC Medication Administration ICU"
 Description:    "A MIMIC medication administration ICU profile based on the base FHIR medication administration resource."
 
+// cardinalities of used elements
+* status 1..1
+* category 1..1
+* medicationCodeableConcept 1..1
+* subject 1..1
+* context 1..1
+* effective[x] 1..1
+* effectivePeriod 0..1
+* effectiveDateTime 0..1
+* dosage.method 0..1
+* dosage.dose 0..1
+* dosage.rateQuantity 0..1
+
+// bindings to MIMIC terminology
 * category from $MimicMedAdminCategoryICU
 * dosage.method from $MimicMedicationMethodICU
 

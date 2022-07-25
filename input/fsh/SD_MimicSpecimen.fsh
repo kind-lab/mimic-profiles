@@ -4,8 +4,13 @@ Id:             mimic-specimen
 Title:          "MIMIC Specimen"
 Description:    "A MIMIC lab specimen profile based on the baes FHIR R4 Specimen."
 
+// cardinalities of used elements
+* identifer 1..1
+* subject 1..1
+* collection.collectedDateTime 1..1 
+* type 0..1
+
 // slice identifer system for labs/micro
-* identifier 1..*
 * identifier ^slicing.discriminator.type = #value
 * identifier ^slicing.discriminator.path = "system"
 * identifier ^slicing.rules = #open
@@ -24,7 +29,7 @@ Description:    "A MIMIC lab specimen profile based on the baes FHIR R4 Specimen
 * identifier[MICRO].value ^short = "Specimen microbiology identifier"
 * identifier[MICRO].value 1..1
 
-
+// binding to MIMIC terminology
 * type from $MimicSpecimenType
 
 // referencing must be to MIMIC profiles

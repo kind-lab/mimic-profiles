@@ -4,6 +4,21 @@ Id:             mimic-medication-dispense
 Title:          "MIMIC Medication Dispense"
 Description:    "A MIMIC medication dispense profile based on the base FHIR medication dispense resource."
 
+
+// Cardinalities used elements
+* identifier 1..*
+* status 1..1 // completed
+* medication[x] 1..1
+* medicationCodeableConcept 1..1
+* subject 1..1 // Reference(MimicPatient)
+* context 0..1 // Reference(MimicEncounter)
+* authorizingPrescription 0..*
+* quantity 0..1
+* dosageInstruction.route 0..1
+* dosageInstruction.timing 0..1
+* dosageInstruction.maxDosePerPeriod 0..1
+
+// binding to MIMIC terminology
 * identifier.system = $IdentifierMedicationDispense
 * dosageInstruction.timing.code from $MimicMedicationFrequency
 * dosageInstruction.route from $MimicMedicationRoute
