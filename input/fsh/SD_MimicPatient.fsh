@@ -15,7 +15,7 @@ Description:    "A MIMIC patient based on US Core Patient."
 * deceasedDateTime 0..1
 * communication 0..*
 * managingOrganization 0..1
-
+* extension[race].extension[text] 1..1 
 
 // binding to MIMIC terminology
 * identifier.system = $IdentifierPatient
