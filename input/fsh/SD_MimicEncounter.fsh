@@ -4,15 +4,17 @@ Id:             mimic-encounter
 Title:          "MIMIC Encounter"
 Description:    "A MIMIC encounter profile based on US Core Encounter."
 
-// Cardinalities of used elements
+// cardinalities of updated elements
 * identifier 1..*
+* period 1..1
+
+// cardinalities of used elements
 * status 1..1
 * class 1..1
 * type 1..*
-* priority 0..1
 * serviceType 0..1
+* priority 0..1
 * subject 1..1
-* period 1..1
 * hospitalization.dischargeDisposition 0..1
 * hospitalization.admitSource 0..1
 * location 0..*

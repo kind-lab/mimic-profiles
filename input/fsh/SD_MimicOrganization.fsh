@@ -4,9 +4,11 @@ Id:             mimic-organization
 Title:          "MIMIC Organization"
 Description:    "A MIMIC organization profile based on US Core Organization."
 
-// cardinalities of used elements
+// cardinalities of update elements
 * identifier 1..*
-* type 1..1
+* type 1..*
+
+// cardinalities of used elements
 * name 1..1
 * active 1..1
 

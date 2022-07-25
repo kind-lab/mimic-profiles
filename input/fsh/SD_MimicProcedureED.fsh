@@ -4,12 +4,14 @@ Id:             mimic-procedure-ed
 Title:          "MIMIC Procedure ICU"
 Description:    "A MIMIC procedure ICU profile based on US Core Procedure."
 
+// cardinalities of updated elements
+* encounter 1..1
+* performedDateTime 1..1
+
 // cardinalities of used elements
 * status 1..1
 * code 1..1
 * subject 1..1
-* encounter 1..1
-* performedDateTime 1..1
 
 // binding to MIMIC terminology
 * code from MimicProcedureTypes

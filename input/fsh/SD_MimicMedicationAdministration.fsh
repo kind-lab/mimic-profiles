@@ -4,10 +4,12 @@ Id:             mimic-medication-administration
 Title:          "MIMIC Medication Administration"
 Description:    "A MIMIC medication administration profile based on the base FHIR medication administration resource."
 
-// cardinalities of used elements
-* status 1..1
+// cardinalities of updated elements
 * category 1..1
 * medicationCodeableConcept 1..1
+
+// cardinalities of used elements
+* status 1..1
 * subject 1..1
 * context 0..1
 * effective[x] 1..1

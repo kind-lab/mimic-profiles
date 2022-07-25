@@ -4,29 +4,34 @@ Id:             mimic-observation-ed
 Title:          "MIMIC-ED Observation"
 Description:    "An Observation resource that represents a single measurement from a row of the triage and vitalsign tables of MIMIC-ED: only pain, acuity, chiefcomplaint, and rhythm."
 
-// Cardinalities used elements
+// cardinalities of update elements
 * partOf 1..1 // Reference(Procedure)
-* status 1..1 // final
 * subject 1..1 // Reference(Patient)
-* encounter 0..1 
 * effective[x] 1..1
 * effectiveDateTime 1..1 // edstays:intime (triage) or vitalsign:charttime (for vital signs)
+
+// cardinalities of used elements
+* status 1..1 // final
+* encounter 0..1 
 * category 0..1
 * code 1..1
 * value[x] 0..1
+* valueQuantity 0..1
 * dataAbsentReason 0..1
 
-// Further specification of elements
-* partOf only Reference(MimicProcedureED)
+// further specification of elements
 * status = http://hl7.org/fhir/observation-status#final "Final"
-* subject only Reference(MimicPatient)
-* encounter only Reference(MimicEncounter)
 * effective[x] only dateTime
 
-// Pain, acuity, chiefcomplaint, rhythm
+// binding to MIMIC terminology
 * category from MimicObservationCategoryED
 * code from MimicObservationType
 * dataAbsentReason from DataAbsentReason
+
+// referencing MIMIC profiles
+* partOf only Reference(MimicProcedureED)
+* subject only Reference(MimicPatient)
+* encounter only Reference(MimicEncounter)
 
 // Value sets
 ValueSet: MimicObservationCategoryED

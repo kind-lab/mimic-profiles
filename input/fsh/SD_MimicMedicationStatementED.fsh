@@ -4,14 +4,17 @@ Id:             mimic-medication-statement-ed
 Title:          "MIMIC-ED MedicationStatement"
 Description:    "A MedicationStatement resource that represents each record in the medrecon table of MIMIC-ED."
 
-// Cardinalities used elements
-* status 1..1 // Unknown
-* medication[x] 1..1
+// cardinalities of updated elements
 * medicationCodeableConcept.coding 1..
 * medicationCodeableConcept.text 1..1 // medrecon: name
-* subject 1..1 // Reference(Patient)
 * context 1..1 // Reference(Encounter)
 * dateAsserted 1..1 // medrecon: charttime
+
+// cardinalities of used elements
+* status 1..1 // Unknown
+* medication[x] 1..1
+* subject 1..1 // Reference(Patient)
+
 
 // Further specification of elements
 * status = http://hl7.org/fhir/CodeSystem/medication-statement-status#unknown "Unknown"

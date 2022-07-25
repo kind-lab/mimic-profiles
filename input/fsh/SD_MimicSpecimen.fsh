@@ -4,10 +4,12 @@ Id:             mimic-specimen
 Title:          "MIMIC Specimen"
 Description:    "A MIMIC lab specimen profile based on the baes FHIR R4 Specimen."
 
-// cardinalities of used elements
+// cardinalities of updated elements
 * identifier 1..1
 * subject 1..1
 * collection.collectedDateTime 1..1 
+
+// cardinalities of used elements
 * type 0..1
 
 // slice identifer system for labs/micro
