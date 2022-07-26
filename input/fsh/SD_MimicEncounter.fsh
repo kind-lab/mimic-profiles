@@ -7,6 +7,8 @@ Description:    "A MIMIC encounter profile based on US Core Encounter."
 // cardinalities of updated elements
 * identifier 1..*
 * period 1..1
+* period.start 1..1 
+* period.end 1..1 
 
 // cardinalities of used elements
 * status 1..1
