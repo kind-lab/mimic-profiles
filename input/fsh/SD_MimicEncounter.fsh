@@ -21,6 +21,7 @@ Description:    "A MIMIC encounter profile based on US Core Encounter."
 * hospitalization.admitSource 0..1
 * location 0..*
 * serviceProvider 0..1 
+* partOf 0..1
 
 
 // Identifier slicing
