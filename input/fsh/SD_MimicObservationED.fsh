@@ -7,12 +7,12 @@ Description:    "An Observation resource that represents a single measurement fr
 // cardinalities of update elements
 * partOf 1..1 // Reference(Procedure)
 * subject 1..1 // Reference(Patient)
+* encounter 1..1 
 * effective[x] 1..1
 * effectiveDateTime 1..1 // edstays:intime (triage) or vitalsign:charttime (for vital signs)
 
 // cardinalities of used elements
 * status 1..1 // final
-* encounter 0..1 
 * category 0..1
 * code 1..1
 * value[x] 0..1
