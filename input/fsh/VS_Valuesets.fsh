@@ -52,7 +52,7 @@ ValueSet: MimicObservationTypeED
 Id: mimic-observation-type-ed
 Title: "MIMIC-ED Observation Resource Types Value Set"
 Description: "Selected codes from LOINC that represent values from the triage or vitalsigns tables of MIMIC-ED."
-* $LNC#72514-3 "Pain severity - 0-10 verbal numeric rating [Score] - Reported" // pain
+* $LNC#98137-3 "Pain severity - Reported" // pain
 * $LNC#56839-4 "Acuity assessment Narrative" // acuity
 * $LNC#8884-9 "Heart rate rhythm" // rhythm
 * $LNC#8661-1 "Chief complaint - Reported" // chiefcomplaint
