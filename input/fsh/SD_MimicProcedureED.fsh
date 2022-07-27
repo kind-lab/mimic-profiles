@@ -6,19 +6,20 @@ Description:    "A MIMIC procedure ICU profile based on US Core Procedure."
 
 // cardinalities of updated elements
 * encounter 1..1
-* performedDateTime 1..1
+* performed[x] 1..1
 
 // cardinalities of used elements
 * status 1..1
 * code 1..1
 * subject 1..1
 
-// binding to MIMIC terminology
-* code from MimicProcedureTypesED
-
-// further specification for elements
+// further specification of elements
+* performed[x] only dateTime
 * status = http://hl7.org/fhir/event-status#completed "Completed"
 * performed[x] only dateTime
+
+// binding to MIMIC terminology
+* code from MimicProcedureTypesED
 
 // referencing must be to MIMIC profiles
 * subject only Reference(MimicPatient)

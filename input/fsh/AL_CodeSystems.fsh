@@ -13,3 +13,4 @@ Alias: $SCT = http://snomed.info/sct
 Alias: $LNC = http://loinc.org
 Alias: $UCUM = http://unitsofmeasure.org
 Alias: $INTERP = http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation
+Alias: $ObservationStatus = http://hl7.org/fhir/observation-status

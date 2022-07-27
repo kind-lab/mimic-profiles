@@ -7,27 +7,29 @@ Description:    "An Observation resource (based on US Core Vital Signs) that rep
 // cardinalities of updated elements
 * partOf 1..1 // Reference(Procedure)
 * encounter 1..1 // Reference(Encounter)
-* effectiveDateTime 1..1 // edstays:intime (triage) or vitalsign:charttime (for vital signs)
 * component 0..2
 
 // cardinalities of used elements
 * status 1..1 // final
 * subject 1..1 // Reference(Patient)
+* effective[x] 1..1 // edstays:intime (triage) or vitalsign:charttime (for vital signs)
 * category 1..*
 * code 1..1
 * value[x] 0..1
 * dataAbsentReason 0..1
 
-// Further specification of elements
-* partOf only Reference(MimicProcedureED)
+// further specification of elements
 * status = http://hl7.org/fhir/observation-status#final "Final"
-* subject only Reference(MimicPatient)
-* encounter only Reference(MimicEncounter)
-* effective[x] only dateTime
-
-// Vitalsigns
 * category = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs "Vital Signs"
-* code from MimicObservationTypeVital
+* effective[x] only dateTime
 * value[x] only Quantity
+
+// binding to terminology
+* code from MimicObservationTypeVital
 * value[x] from MimicQuantityUnit
 * dataAbsentReason from DataAbsentReason
+
+// referencing MIMIC resources
+* subject only Reference(MimicPatient)
+* encounter only Reference(MimicEncounter)
+* partOf only Reference(MimicProcedureED)

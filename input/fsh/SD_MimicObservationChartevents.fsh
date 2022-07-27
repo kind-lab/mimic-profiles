@@ -15,10 +15,11 @@ Description:    "A MIMIC observation chartevents profile based on the base obser
 * status 1..1
 * code 1..1
 * issued 0..1
-* valueQuantity 0..1
-* valueString 0..1
 * referenceRange.low 0..1
 * referenceRange.high 0..1
+
+// further specification of elements
+* value[x] only string or Quantity
 
 // binding to MIMIC terminology
 * code from $MimicCharteventsDItems

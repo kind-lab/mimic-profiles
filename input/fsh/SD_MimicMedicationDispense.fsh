@@ -6,7 +6,6 @@ Description:    "A MIMIC medication dispense profile based on the base FHIR medi
 
 // cardinalities of update elements
 * identifier 1..*
-* medicationCodeableConcept 1..1
 
 // cardinalities of used elements
 * status 1..1 // completed
@@ -19,6 +18,9 @@ Description:    "A MIMIC medication dispense profile based on the base FHIR medi
 * dosageInstruction.timing 0..1
 * dosageInstruction.maxDosePerPeriod 0..1
 
+// futher specification of elements
+* medication[x] only CodeableConcept
+ 
 // binding to MIMIC terminology
 * identifier.system = $IdentifierMedicationDispense
 * dosageInstruction.timing.code from $MimicMedicationFrequency

@@ -7,7 +7,7 @@ Description:    "A MIMIC observation microbiology test profile based on the base
 // cardinalities of updated elements
 * specimen 1..1
 * effective[x] 1..1
-* effectiveDateTime 1..1
+* value[x] 1..1
 
 // cardinalities of used elements
 * status 1..1
@@ -16,9 +16,10 @@ Description:    "A MIMIC observation microbiology test profile based on the base
 * subject 1..1
 * encounter 0..1
 * hasMember 0..1
-* valueString 0..1
-* valueCodeableConcept 0..1
 
+// further specification of elements
+* effective[x] only dateTime
+* value[x] only string or CodeableConcept
 
 // binding to MIMIC terminology
 * code from $MimicMicrobiologyTest

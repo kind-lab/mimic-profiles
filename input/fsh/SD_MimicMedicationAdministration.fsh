@@ -13,8 +13,6 @@ Description:    "A MIMIC medication administration profile based on the base FHI
 * subject 1..1
 * context 0..1
 * effective[x] 1..1
-* effectiveDateTime 0..1
-* effectivePeriod 0..1
 * dosage.text 0..1
 * dosage.site 0..1
 * dosage.route 0..1

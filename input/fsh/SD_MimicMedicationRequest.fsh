@@ -6,7 +6,6 @@ Description:    "A MIMIC medication request profile based on the base FHIR medic
 
 // cardinalities of updated elements
 * identifier 1..1
-* medicationReference 1..1
 * authoredOn 1..1
 
 // cardinalities of used elements
@@ -14,6 +13,7 @@ Description:    "A MIMIC medication request profile based on the base FHIR medic
 * intent 1..1
 * subject 1..1
 * encounter 0..1
+* medication[x] 1..1
 * dosageInstruction.route 0..1
 * dosageInstruction.doseAndRate 0..1
 * dosageInstruction.timing 0..1

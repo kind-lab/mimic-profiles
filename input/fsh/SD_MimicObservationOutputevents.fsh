@@ -9,14 +9,16 @@ Description:    "A MIMIC observation outputevents profile based on the base obse
 * subject 1..1
 * encounter 1..1
 * effective[x] 1..1
-* effectiveDateTime 1..1
 * value[x] 1..1
-* valueQuantity 1..1
 
 // cardinalities of used elements
 * status 1..1
 * code 1..1
 * issued 0..1
+
+// further specification of elements
+* effective[x] only dateTime
+* value[x] only Quantity
 
 // binding to MIMIC terminology
 * code from $MimicOutputeventsDItems

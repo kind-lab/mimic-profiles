@@ -6,9 +6,7 @@ Description:    "A MIMIC observation microbiology susceptiblity profile based on
 
 // cardinalities of updated elements
 * effective[x] 1..1
-* effectiveDateTime 1..1
 * value[x] 1..1
-* valueCodeableConcept 1..1
 * derivedFrom 1..1
 
 // cardinalities of used elements
@@ -17,6 +15,10 @@ Description:    "A MIMIC observation microbiology susceptiblity profile based on
 * code 1..1
 * subject 1..1
 * note 0..1
+
+// further specification of elements
+* value[x] only CodeableConcept
+* effective[x] only dateTime
 
 // binding to MIMIC terminology
 * identifier.system = $IdentifierObservationMicroSusc

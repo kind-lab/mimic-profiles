@@ -8,7 +8,6 @@ Description:    "A MIMIC observation labevents profile based on base observation
 * identifier 1..*
 * subject 1..1
 * effective[x] 1..1
-* effectiveDateTime 1..1
 * specimen 1..1
 
 // cardinalities of used elements
@@ -17,12 +16,14 @@ Description:    "A MIMIC observation labevents profile based on base observation
 * category 1..*
 * encounter 0..1
 * issued 0..1
-* valueQuantity 0..1
-* valueString 0..1
 * interpretation 0..*
 * note 0..*
 * referenceRange.low 0..1
 * referenceRange.high 0..1
+
+// further specification of elements
+* value[x] only string or Quantity
+* effective[x] only dateTime
 
 // binding to MIMIC terminology
 * identifier.system = $IdentifierObservationLabevents
