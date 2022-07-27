@@ -1,0 +1,23 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "mimic-lab-priority",
+    "language": "en",
+    "url": "http://fhir.mimic.mit.edu/CodeSystem/mimic-lab-priority",
+    "version": "2.0",
+    "name": "MimicLabPriority",
+    "title": "MimicLabPriority",
+    "status": "draft",
+    "date": "2022-07-25T18:22:49-04:00",
+    "publisher": "KinD Lab",
+    "description": "The priority of the lab item in MIMIC",
+    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/mimic-lab-priority",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "ROUTINE"
+        },
+        {
+            "code": "STAT"
+        }
+    ]
+}

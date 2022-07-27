@@ -1,0 +1,2621 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "mimic-microbiology-organism",
+    "language": "en",
+    "url": "http://fhir.mimic.mit.edu/CodeSystem/mimic-microbiology-organism",
+    "version": "2.0",
+    "name": "MimicMicrobiologyOrganism",
+    "title": "MimicMicrobiologyOrganism",
+    "status": "draft",
+    "date": "2022-07-25T18:22:49-04:00",
+    "publisher": "KinD Lab",
+    "description": "The microbiology organism being tested in MIMIC",
+    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/mimic-microbiology-organism",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "90795",
+            "display": "CANDIDA FAMATA"
+        },
+        {
+            "code": "80040",
+            "display": "NEISSERIA GONORRHOEAE"
+        },
+        {
+            "code": "90645",
+            "display": "PINWORM EGG(S) SEEN"
+        },
+        {
+            "code": "90783",
+            "display": "STREPTOCOCCUS BOVIS GROUP"
+        },
+        {
+            "code": "90846",
+            "display": "CUTIBACTERIUM ACNES"
+        },
+        {
+            "code": "80237",
+            "display": "PRESUMPTIVE CLOSTRIDIUM SEPTICUM"
+        },
+        {
+            "code": "90766",
+            "display": "SLACKIA EXIGUA"
+        },
+        {
+            "code": "90845",
+            "display": "MYCOBACTERIUM LENTIFLAVUM"
+        },
+        {
+            "code": "80012",
+            "display": "CRONOBACTER (ENTEROBACTER) SAKAZAKII"
+        },
+        {
+            "code": "90655",
+            "display": "ROSEOMONAS MUCOSA"
+        },
+        {
+            "code": "90831",
+            "display": "MUCOR IRREGULARIS"
+        },
+        {
+            "code": "80185",
+            "display": "CAMPYLOBACTER JEJUNI"
+        },
+        {
+            "code": "80200",
+            "display": "CHAETOMIUM SPECIES"
+        },
+        {
+            "code": "90386",
+            "display": "ACTINOMYCES NAESLUNDII"
+        },
+        {
+            "code": "80183",
+            "display": "GEMELLA MORBILLORUM"
+        },
+        {
+            "code": "80278",
+            "display": "DEMATIACEOUS MOLD"
+        },
+        {
+            "code": "90657",
+            "display": "SALMONELLA ANATUM"
+        },
+        {
+            "code": "80039",
+            "display": "CLOSTRIDIUM SPECIES"
+        },
+        {
+            "code": "90302",
+            "display": "ANAEROBIC GRAM NEGATIVE COCCI"
+        },
+        {
+            "code": "80207",
+            "display": "STREPTOCOCCUS SPECIES"
+        },
+        {
+            "code": "80075",
+            "display": "YEAST"
+        },
+        {
+            "code": "90489",
+            "display": "MYCOBACTERIUM SZULGAI"
+        },
+        {
+            "code": "80065",
+            "display": "CRYPTOCOCCUS NEOFORMANS"
+        },
+        {
+            "code": "90331",
+            "display": "SERRATIA ODORIFERA"
+        },
+        {
+            "code": "80291",
+            "display": "BASIDIOMYCETE"
+        },
+        {
+            "code": "90501",
+            "display": "PEPTOSTREPTOCOCCUS SP."
+        },
+        {
+            "code": "80125",
+            "display": "FUSOBACTERIUM SPECIES"
+        },
+        {
+            "code": "90802",
+            "display": "ALACALIGENES SPECIES"
+        },
+        {
+            "code": "90815",
+            "display": "RAOULTELLA PLANTICOLA"
+        },
+        {
+            "code": "90809",
+            "display": "STAPHYLOCOCCUS PSEUDINTERMEDIUS"
+        },
+        {
+            "code": "90723",
+            "display": "POSITIVE FOR PARAINFLUENZA TYPE 3"
+        },
+        {
+            "code": "80141",
+            "display": "CORYNEBACTERIUM JEIKEIUM (C.D.C. GROUP JK)"
+        },
+        {
+            "code": "90592",
+            "display": "TSUKAMURELLA SPECIES"
+        },
+        {
+            "code": "90427",
+            "display": "SALMONELLA THOMPSON"
+        },
+        {
+            "code": "80262",
+            "display": "STAPHYLOCOCCUS, COAGULASE NEGATIVE, PRESUMPTIVELY NOT S. SAPROPHYTICUS"
+        },
+        {
+            "code": "90378",
+            "display": "ROTHIA DENTOCARIOSA"
+        },
+        {
+            "code": "80119",
+            "display": "NUTRITIONALLY VARIANT STREPTOCOCCUS"
+        },
+        {
+            "code": "80201",
+            "display": "CITROBACTER KOSERI"
+        },
+        {
+            "code": "90803",
+            "display": "STREPTOCOCCUS PORCINUS"
+        },
+        {
+            "code": "80156",
+            "display": "CORYNEBACTERIUM STRIATUM"
+        },
+        {
+            "code": "90426",
+            "display": "TAENIA SAGINATA"
+        },
+        {
+            "code": "80210",
+            "display": "CAPNOCYTOPHAGA SPECIES"
+        },
+        {
+            "code": "80268",
+            "display": "PITHOMYCES SP."
+        },
+        {
+            "code": "80145",
+            "display": "HERPES SIMPLEX VIRUS TYPE 2"
+        },
+        {
+            "code": "90688",
+            "display": "ERYSIPELOTHRIX RHUSIOPATHIAE"
+        },
+        {
+            "code": "80218",
+            "display": "ENTEROBACTERIACEAE"
+        },
+        {
+            "code": "90890",
+            "display": "BREVUNDIMONAS DIMINUTA/VESICULARIS"
+        },
+        {
+            "code": "90785",
+            "display": "MIXED BACTERIAL FLORA"
+        },
+        {
+            "code": "80180",
+            "display": "PARAINFLUENZA VIRUS TYPE 1"
+        },
+        {
+            "code": "90574",
+            "display": "ENTEROVIRUS"
+        },
+        {
+            "code": "80198",
+            "display": "HAEMOPHILUS INFLUENZAE"
+        },
+        {
+            "code": "80205",
+            "display": "BACTEROIDES UREOLYTICUS GROUP"
+        },
+        {
+            "code": "80019",
+            "display": "PROVIDENCIA STUARTII"
+        },
+        {
+            "code": "90884",
+            "display": "CLOSTRIDIUM SAUDIENSE"
+        },
+        {
+            "code": "80020",
+            "display": "PROVIDENCIA RETTGERI"
+        },
+        {
+            "code": "80250",
+            "display": "MODERATE BLASTOCYSTIS HOMINIS"
+        },
+        {
+            "code": "80249",
+            "display": "FEW BLASTOCYSTIS HOMINIS"
+        },
+        {
+            "code": "80285",
+            "display": "CANDIDA KEFYR"
+        },
+        {
+            "code": "90870",
+            "display": "STREPTOCOCCUS SALIVARIUS SSP. SALIVARIUS"
+        },
+        {
+            "code": "90360",
+            "display": "STREPTOCOCCUS UBERIS"
+        },
+        {
+            "code": "80236",
+            "display": "PRESUMPTIVE CLOSTRIDIUM PERFRINGENS"
+        },
+        {
+            "code": "80148",
+            "display": "ASPERGILLUS VERSICOLOR GROUP "
+        },
+        {
+            "code": "90502",
+            "display": "TRICHOSPORON SPECIES"
+        },
+        {
+            "code": "80121",
+            "display": "BACTEROIDES FRAGILIS"
+        },
+        {
+            "code": "80059",
+            "display": "CANDIDA SPECIES"
+        },
+        {
+            "code": "80168",
+            "display": "ENTEROCOCCUS FAECIUM"
+        },
+        {
+            "code": "90705",
+            "display": "PSEUDOMONAS ORYZIHABITANS"
+        },
+        {
+            "code": "90772",
+            "display": "GRAPHIUM EUMORPHUM"
+        },
+        {
+            "code": "90821",
+            "display": "MYCOBACTERIUM CHIMAERA INTRACELLULARE GROUP"
+        },
+        {
+            "code": "80150",
+            "display": "TRICHODERMA SP."
+        },
+        {
+            "code": "90807",
+            "display": "ACHROMOBACTER SP."
+        },
+        {
+            "code": "90584",
+            "display": "ANAEROBIC GRAM POSITIVE BACTERIA"
+        },
+        {
+            "code": "90744",
+            "display": "STAPHYLOCOCCUS HOMINIS"
+        },
+        {
+            "code": "90513",
+            "display": "TRICHOMONAS VAGINALIS"
+        },
+        {
+            "code": "90532",
+            "display": "CAMPYLOBACTER COLI"
+        },
+        {
+            "code": "90498",
+            "display": "MYCOBACTERIUM XENOPI"
+        },
+        {
+            "code": "90453",
+            "display": "ESCHERICHIA HERMANNII"
+        },
+        {
+            "code": "90856",
+            "display": "NEGATIVE"
+        },
+        {
+            "code": "80073",
+            "display": "GRAM NEGATIVE ROD #4"
+        },
+        {
+            "code": "90530",
+            "display": "PSEUDOMONAS FLUORESCENS"
+        },
+        {
+            "code": "90865",
+            "display": "STAPHYLOCOCCUS LENTUS"
+        },
+        {
+            "code": "80229",
+            "display": "PRESUMPTIVE STREPTOCOCCUS BOVIS"
+        },
+        {
+            "code": "90336",
+            "display": "CANDIDA RUGOSA"
+        },
+        {
+            "code": "90811",
+            "display": "COCCIDIOIDES IMMITIS/POSADASII"
+        },
+        {
+            "code": "80216",
+            "display": "ACINETOBACTER SP."
+        },
+        {
+            "code": "90794",
+            "display": "BREVIBACTERIUM CASEI"
+        },
+        {
+            "code": "90715",
+            "display": "SALMONELLA BARRANQUILLA"
+        },
+        {
+            "code": "90708",
+            "display": "BETA STREP NOT GROUP A, B OR ANGINOSUS (MILLERI)"
+        },
+        {
+            "code": "90709",
+            "display": "CHRYSEOBACTERIUM INDOLOGENES"
+        },
+        {
+            "code": "90635",
+            "display": "SALMONELLA OSLO"
+        },
+        {
+            "code": "90461",
+            "display": "KINGELLA SPECIES"
+        },
+        {
+            "code": "80052",
+            "display": "ALPHA STREPTOCOCCI"
+        },
+        {
+            "code": "80008",
+            "display": "ENTEROBACTER CLOACAE"
+        },
+        {
+            "code": "90359",
+            "display": "NEISSERIA SUBFLAVA"
+        },
+        {
+            "code": "90383",
+            "display": "ACTINOBACILLUS ACTINOMYCETEMCOMITANS"
+        },
+        {
+            "code": "80228",
+            "display": "CANDIDA GLABRATA"
+        },
+        {
+            "code": "80301",
+            "display": "CHRYSEOBACTERIUM MENINGOSEPTICUM"
+        },
+        {
+            "code": "80113",
+            "display": "ENTEROBACTER SPECIES"
+        },
+        {
+            "code": "90350",
+            "display": "STREPTOCOCCUS MUTANS"
+        },
+        {
+            "code": "90812",
+            "display": "AEROCOCCUS URINAE"
+        },
+        {
+            "code": "80095",
+            "display": "MYCOBACTERIUM FORTUITUM"
+        },
+        {
+            "code": "90292",
+            "display": "SPHINGOMONAS PAUCIMOBILIS"
+        },
+        {
+            "code": "80064",
+            "display": "PENICILLIUM SPECIES"
+        },
+        {
+            "code": "80265",
+            "display": "2ND ISOLATE"
+        },
+        {
+            "code": "80028",
+            "display": "BURKHOLDERIA CEPACIA"
+        },
+        {
+            "code": "80241",
+            "display": "PROBABLE MICROCOCCUS SPECIES"
+        },
+        {
+            "code": "80094",
+            "display": "KLEBSIELLA SPECIES"
+        },
+        {
+            "code": "90757",
+            "display": "ROSEOMONAS SPECIES"
+        },
+        {
+            "code": "90492",
+            "display": "RHODOTORULA GLUTINIS"
+        },
+        {
+            "code": "80259",
+            "display": "POSITIVE FOR M. TUBERCULOSIS BY MTD"
+        },
+        {
+            "code": "90724",
+            "display": "POSITIVE FOR ADENOVIRUS"
+        },
+        {
+            "code": "80140",
+            "display": "BLASTOCYSTIS HOMINIS"
+        },
+        {
+            "code": "80220",
+            "display": "AFB GROWN IN CULTURE; ADDITIONAL INFORMATION TO FOLLOW"
+        },
+        {
+            "code": "90392",
+            "display": "ARCANOBACTERIUM HAEMOLYTICUM"
+        },
+        {
+            "code": "90832",
+            "display": "BACTEROIDES DOREI/VULGATUS"
+        },
+        {
+            "code": "90698",
+            "display": "HUMICOLA SPECIES"
+        },
+        {
+            "code": "90771",
+            "display": "OCHROBACTRUM INTERMEDIUM"
+        },
+        {
+            "code": "80124",
+            "display": "EXOPHIALA JEANSELMEI COMPLEX"
+        },
+        {
+            "code": "90828",
+            "display": "ZYGOSACCHAROMYCES FERMENTATI"
+        },
+        {
+            "code": "90634",
+            "display": "POSITIVE FOR MICROSPORIDIA SPECIES"
+        },
+        {
+            "code": "90606",
+            "display": "CORYNEBACTERIUM ACCOLANS (CDC GROUP 6)"
+        },
+        {
+            "code": "90882",
+            "display": "KLEBSIELLA (RAOULTELLA) PLANTICOLA"
+        },
+        {
+            "code": "80007",
+            "display": "ENTEROBACTER AEROGENES"
+        },
+        {
+            "code": "90447",
+            "display": "ENTEROBIUS VERMICULARIS"
+        },
+        {
+            "code": "80100",
+            "display": "CANDIDA GUILLIERMONDII"
+        },
+        {
+            "code": "90444",
+            "display": "EPIDERMOPHYTON FLOCCOSUM"
+        },
+        {
+            "code": "90287",
+            "display": "ACINETOBACTER LWOFFII"
+        },
+        {
+            "code": "90843",
+            "display": "CITROBACTER SEDLAKII"
+        },
+        {
+            "code": "80011",
+            "display": "ENTEROBACTER GERGOVIAE"
+        },
+        {
+            "code": "80311",
+            "display": "POSITIVE FOR HERPES SIMPLEX TYPE 2 (HSV2)"
+        },
+        {
+            "code": "80264",
+            "display": "ACTINOMYCETE"
+        },
+        {
+            "code": "90457",
+            "display": "AGROBACTERIUM RADIOBACTER"
+        },
+        {
+            "code": "80289",
+            "display": "MORAXELLA CATARRHALIS"
+        },
+        {
+            "code": "80192",
+            "display": "HAEMOPHILUS INFLUENZAE, BETA-LACTAMASE NEGATIVE"
+        },
+        {
+            "code": "90706",
+            "display": "CUNNINGHAMELLA BERTHOLLETIAE"
+        },
+        {
+            "code": "90405",
+            "display": "SALMONELLA MONTEVIDEO"
+        },
+        {
+            "code": "80032",
+            "display": "AEROMONAS HYDROPHILA"
+        },
+        {
+            "code": "90667",
+            "display": "TRICHOSPORON MUCOIDES"
+        },
+        {
+            "code": "80294",
+            "display": "BURKHOLDERIA CEPACIA GROUP"
+        },
+        {
+            "code": "90773",
+            "display": "GEMELLA HAEMOLYSANS"
+        },
+        {
+            "code": "80165",
+            "display": "TRICHOPHYTON SPECIES"
+        },
+        {
+            "code": "90779",
+            "display": "ACHROMOBACTER  DENTRIFICANS"
+        },
+        {
+            "code": "80146",
+            "display": "ADENOVIRUS"
+        },
+        {
+            "code": "90494",
+            "display": "ASPERGILLUS TERREUS"
+        },
+        {
+            "code": "90406",
+            "display": "SALMONELLA AGONA"
+        },
+        {
+            "code": "90979",
+            "display": "NEUROSPORA SITOPHILA (FORMERLY CHRYSONILLA SITOPHILA)"
+        },
+        {
+            "code": "90778",
+            "display": "ACHROMOBACTER SPECIES"
+        },
+        {
+            "code": "80058",
+            "display": "GRAM NEGATIVE ROD(S)"
+        },
+        {
+            "code": "90896",
+            "display": "WAUTERSIELLA FALSENII"
+        },
+        {
+            "code": "80023",
+            "display": "STAPH AUREUS COAG +"
+        },
+        {
+            "code": "80155",
+            "display": "STAPHYLOCOCCUS, COAGULASE NEGATIVE"
+        },
+        {
+            "code": "90968",
+            "display": "STREPTOCOCCUS ALACTOLYTICUS"
+        },
+        {
+            "code": "90476",
+            "display": "MYCOBACTERIUM AVIUM"
+        },
+        {
+            "code": "80086",
+            "display": "ACIDFAST BACILLI"
+        },
+        {
+            "code": "80223",
+            "display": "PROBABLE ENTEROCOCCUS"
+        },
+        {
+            "code": "90579",
+            "display": "DIPHYLLOBOTHRIUM SP."
+        },
+        {
+            "code": "80036",
+            "display": "ANAEROBIC GRAM NEGATIVE ROD(S)"
+        },
+        {
+            "code": "90824",
+            "display": "STREPTOCOCCUS SANGUINIS"
+        },
+        {
+            "code": "80045",
+            "display": "BETA STREPTOCOCCUS GROUP B"
+        },
+        {
+            "code": "80070",
+            "display": "GRAM NEGATIVE ROD #1"
+        },
+        {
+            "code": "90620",
+            "display": "TICK CONSISTENT WITH IXODES SPECIES"
+        },
+        {
+            "code": "80274",
+            "display": "NO GROWTH"
+        },
+        {
+            "code": "90609",
+            "display": "WORM"
+        },
+        {
+            "code": "90362",
+            "display": "VERTICILLIUM SP."
+        },
+        {
+            "code": "80206",
+            "display": "RHINOVIRUS"
+        },
+        {
+            "code": "90500",
+            "display": "STAPHYLOCOCCUS SCHLEIFERI"
+        },
+        {
+            "code": "80129",
+            "display": "CLOSTRIDIUM SEPTICUM"
+        },
+        {
+            "code": "90747",
+            "display": "STREPTOCOCCUS MITIS/ORALIS"
+        },
+        {
+            "code": "80076",
+            "display": "STREPTOCOCCUS PNEUMONIAE"
+        },
+        {
+            "code": "90585",
+            "display": "PENICILLIUM MARNEFFEI"
+        },
+        {
+            "code": "80240",
+            "display": "PRESUMPTIVE FUSOBACTERIUM MORTIFERUM/VARIUM GROUP"
+        },
+        {
+            "code": "80186",
+            "display": "PSEUDALLESCHERIA BOYDII "
+        },
+        {
+            "code": "90650",
+            "display": "SCOPULARIOPSIS BREVICAULIS"
+        },
+        {
+            "code": "80208",
+            "display": "BURKHOLDERIA SPECIES"
+        },
+        {
+            "code": "80217",
+            "display": "ENTAMOEBA HISTOLYTICA/DISPAR"
+        },
+        {
+            "code": "90418",
+            "display": "SALMONELLA MUENCHEN"
+        },
+        {
+            "code": "80071",
+            "display": "GRAM NEGATIVE ROD #2"
+        },
+        {
+            "code": "80175",
+            "display": "VIRUS"
+        },
+        {
+            "code": "90407",
+            "display": "CLOSTRIDIUM INNOCUUM"
+        },
+        {
+            "code": "90557",
+            "display": "NOCARDIA OTITIDISCAVIARUM (CAVIAE)"
+        },
+        {
+            "code": "90897",
+            "display": "LACTOBACILLUS FERMENTUM"
+        },
+        {
+            "code": "80026",
+            "display": "PSEUDOMONAS AERUGINOSA"
+        },
+        {
+            "code": "80122",
+            "display": "KLUYVERA SPECIES"
+        },
+        {
+            "code": "90707",
+            "display": "BETA STREP NOT GROUP A OR ANGINOSUS (MILLERI)"
+        },
+        {
+            "code": "90749",
+            "display": "STREPTOCOCCUS SALIVARUS"
+        },
+        {
+            "code": "80295",
+            "display": "PRESUMPTIVE GARDNERELLA VAGINALIS"
+        },
+        {
+            "code": "90740",
+            "display": "LACTOCOCCUS SPECIES"
+        },
+        {
+            "code": "90448",
+            "display": "SALMONELLA BRAENDERUP"
+        },
+        {
+            "code": "80171",
+            "display": "STREPTOCOCCUS ANGINOSUS"
+        },
+        {
+            "code": "90984",
+            "display": "IRPEX LACTEUS"
+        },
+        {
+            "code": "90835",
+            "display": "PARACOCCUS YEEI"
+        },
+        {
+            "code": "80093",
+            "display": "MYCOBACTERIUM GORDONAE"
+        },
+        {
+            "code": "90601",
+            "display": "MYCOBACTERIUM MALMOENSE"
+        },
+        {
+            "code": "80179",
+            "display": "INFLUENZA B VIRUS"
+        },
+        {
+            "code": "90410",
+            "display": "CHILOMASTIX MESNILI"
+        },
+        {
+            "code": "90626",
+            "display": "STAPHYLOCOCCUS SIMULANS"
+        },
+        {
+            "code": "90372",
+            "display": "YERSINIA INTERMEDIA"
+        },
+        {
+            "code": "90891",
+            "display": "CIMEX SPECIES (BEDBUG)"
+        },
+        {
+            "code": "80123",
+            "display": "ANAEROBIC BACTERIA"
+        },
+        {
+            "code": "80139",
+            "display": "CLOSTRIDIUM DIFFICILE"
+        },
+        {
+            "code": "80016",
+            "display": "PROTEUS VULGARIS"
+        },
+        {
+            "code": "90503",
+            "display": "SALMONELLA INFANTIS"
+        },
+        {
+            "code": "80169",
+            "display": "ENTAMOEBA HARTMANNI"
+        },
+        {
+            "code": "90725",
+            "display": "POSITIVE FOR RESPIRATORY SYNCYTIAL VIRUS (RSV)"
+        },
+        {
+            "code": "90421",
+            "display": "STRONGYLOIDES"
+        },
+        {
+            "code": "80267",
+            "display": "CRYPTOSPORIDIUM PARVUM OOCYSTS SEEN"
+        },
+        {
+            "code": "90404",
+            "display": "SALMONELLA MUENSTER"
+        },
+        {
+            "code": "90324",
+            "display": "PSEUDOMONAS STUTZERI"
+        },
+        {
+            "code": "80227",
+            "display": "PROBABLE GARDNERELLA VAGINALIS"
+        },
+        {
+            "code": "90296",
+            "display": "VIBRIO ALGINOLYTICUS"
+        },
+        {
+            "code": "90764",
+            "display": "LEPTOTRICHIA HOFSTADII"
+        },
+        {
+            "code": "90679",
+            "display": "STAPHYLOCOCCUS HAEMOLYTICUS"
+        },
+        {
+            "code": "90786",
+            "display": "STREPTOCOCCUS MITIS GROUP"
+        },
+        {
+            "code": "80114",
+            "display": "ASPERGILLUS FLAVUS"
+        },
+        {
+            "code": "80157",
+            "display": "ACREMONIUM SPECIES"
+        },
+        {
+            "code": "80025",
+            "display": "CITROBACTER AMALONATICUS"
+        },
+        {
+            "code": "90743",
+            "display": "STAPHYLOCOCCUS CAPRAE"
+        },
+        {
+            "code": "80074",
+            "display": "ANAEROBIC GRAM NEGATIVE ROD #2"
+        },
+        {
+            "code": "80138",
+            "display": "STAPHYLOCOCCUS SPECIES"
+        },
+        {
+            "code": "90567",
+            "display": "CYCLOSPORA SPECIES"
+        },
+        {
+            "code": "90718",
+            "display": "AEROCOCCUS SPECIES"
+        },
+        {
+            "code": "90363",
+            "display": "HAEMOPHILUS PARAHAEMOLYTICUS"
+        },
+        {
+            "code": "80284",
+            "display": "ACHROMOBACTER (ALCALIGENES) XYLOSOXIDANS SS DENTRIFICANS"
+        },
+        {
+            "code": "90887",
+            "display": "BACILLUS CEREUS/THURINGIENSIS"
+        },
+        {
+            "code": "90768",
+            "display": "TICK"
+        },
+        {
+            "code": "80047",
+            "display": "BETA STREPTOCOCCUS GROUP G"
+        },
+        {
+            "code": "80252",
+            "display": "ALCALIGENES XYLOSOXIDANS"
+        },
+        {
+            "code": "80258",
+            "display": "MICROSPORIDIUM SPECIES SEEN"
+        },
+        {
+            "code": "90820",
+            "display": "BREVUNDIMONAS VESICULARIS"
+        },
+        {
+            "code": "90837",
+            "display": "PROTEUS HAUSERI"
+        },
+        {
+            "code": "80096",
+            "display": "STREPTOMYCES SPECIES"
+        },
+        {
+            "code": "80069",
+            "display": "MYCOBACTERIUM TUBERCULOSIS"
+        },
+        {
+            "code": "90719",
+            "display": "PHAEOACREMONIUM SPECIES"
+        },
+        {
+            "code": "80144",
+            "display": "HERPES SIMPLEX VIRUS TYPE 1"
+        },
+        {
+            "code": "90819",
+            "display": "POSITIVE FOR CRYPTOCOCCAL ANTIGEN"
+        },
+        {
+            "code": "80256",
+            "display": "HAEMOPHILUS SPECIES NOT INFLUENZAE"
+        },
+        {
+            "code": "90761",
+            "display": "MYCOBATERIUM HAEMOPHILUM"
+        },
+        {
+            "code": "90838",
+            "display": "MYCOBACTERIUM ASIATICUM"
+        },
+        {
+            "code": "80111",
+            "display": "ENTEROCOCCUS AVIUM"
+        },
+        {
+            "code": "90639",
+            "display": "BACTEROIDIES THETAIOTAOMICRON"
+        },
+        {
+            "code": "80087",
+            "display": "STENOTROPHOMONAS MALTOPHILIA"
+        },
+        {
+            "code": "80196",
+            "display": "SALMONELLA SPECIES"
+        },
+        {
+            "code": "90509",
+            "display": "YERSINIA SP."
+        },
+        {
+            "code": "90408",
+            "display": "ENTAMOEBA SP."
+        },
+        {
+            "code": "80072",
+            "display": "GRAM NEGATIVE ROD #3"
+        },
+        {
+            "code": "80195",
+            "display": "AEROMONAS SPECIES"
+        },
+        {
+            "code": "90327",
+            "display": "CARDIOBACTERIUM HOMINIS"
+        },
+        {
+            "code": "80152",
+            "display": "ESCHERICHIA FERGUSONII"
+        },
+        {
+            "code": "90759",
+            "display": "RAOULTELLA ORNITHINOLYTICA"
+        },
+        {
+            "code": "80302",
+            "display": "PANTOEA SPECIES"
+        },
+        {
+            "code": "80033",
+            "display": "VIBRIO SPECIES"
+        },
+        {
+            "code": "90368",
+            "display": "SALMONELLA PARATYPHI A"
+        },
+        {
+            "code": "90486",
+            "display": "STAPHYLOCOCCUS SACCHAROLYTICUS"
+        },
+        {
+            "code": "90859",
+            "display": "RHODATORULA MUCILAGINOSA"
+        },
+        {
+            "code": "80304",
+            "display": "ACINETOBACTER BAUMANNII COMPLEX"
+        },
+        {
+            "code": "90853",
+            "display": "EUBACTERIUM LIMOSUM"
+        },
+        {
+            "code": "80172",
+            "display": "ENTEROCOCCUS FAECALIS"
+        },
+        {
+            "code": "90702",
+            "display": "ENTEROBACTER CANCEROGENUS"
+        },
+        {
+            "code": "90861",
+            "display": "CUPRIAVIDUS PAUCULUS"
+        },
+        {
+            "code": "90796",
+            "display": "SPOROTHRIX SCHENCKII COMPLEX"
+        },
+        {
+            "code": "90825",
+            "display": "RHINOCLADIELLA SP."
+        },
+        {
+            "code": "80190",
+            "display": "SYNCEPHALASTRUM SPECIES"
+        },
+        {
+            "code": "80163",
+            "display": "MOLD"
+        },
+        {
+            "code": "80187",
+            "display": "NOCARDIA ASTEROIDES COMPLEX "
+        },
+        {
+            "code": "80135",
+            "display": "ASCARIS LUMBRICOIDES"
+        },
+        {
+            "code": "80193",
+            "display": "CORYNEBACTERIUM UREALYTICUM SP. NOV."
+        },
+        {
+            "code": "80022",
+            "display": "SALMONELLA ENTERITIDIS"
+        },
+        {
+            "code": "90313",
+            "display": "BACTEROIDES SPECIES"
+        },
+        {
+            "code": "80253",
+            "display": "YEAST, PRESUMPTIVELY NOT C. ALBICANS"
+        },
+        {
+            "code": "90983",
+            "display": "ROTHIA SPECIES"
+        },
+        {
+            "code": "90431",
+            "display": "LEGIONELLA PNEUMOPHILA, GROUP 1"
+        },
+        {
+            "code": "90301",
+            "display": "BRUCELLA SPECIES"
+        },
+        {
+            "code": "80160",
+            "display": "BACILLUS SUBTILIS "
+        },
+        {
+            "code": "90804",
+            "display": "STREPTOCOCCUS PORCINUS/PSEUDOPORCINUS"
+        },
+        {
+            "code": "80270",
+            "display": "CANDIDA DUBLINIENSIS"
+        },
+        {
+            "code": "90712",
+            "display": "MYROIDES SPECIES"
+        },
+        {
+            "code": "90877",
+            "display": "LEPTOTRICHIA SPECIES"
+        },
+        {
+            "code": "90805",
+            "display": "PASTEURELLA CANIS"
+        },
+        {
+            "code": "80110",
+            "display": "MUCOR SP."
+        },
+        {
+            "code": "80044",
+            "display": "HAEMOPHILUS SP"
+        },
+        {
+            "code": "90282",
+            "display": "SALMONELLA SPECIES"
+        },
+        {
+            "code": "80081",
+            "display": "GRAM POSITIVE BACTERIA"
+        },
+        {
+            "code": "80055",
+            "display": "GRAM POSITIVE COCCUS(COCCI)"
+        },
+        {
+            "code": "80221",
+            "display": "CORYNEBCATERIUM AMYCOLATUM"
+        },
+        {
+            "code": "90737",
+            "display": "ALCALIGENES SPECIES"
+        },
+        {
+            "code": "90571",
+            "display": "BURKHOLDERIA GLADIOLI"
+        },
+        {
+            "code": "80054",
+            "display": "BETA STREPTOCOCCUS GROUP A"
+        },
+        {
+            "code": "90456",
+            "display": "LECLERCIA ADECARBOXYLATA"
+        },
+        {
+            "code": "80271",
+            "display": "STREPTOCOCCUS ORALIS"
+        },
+        {
+            "code": "80307",
+            "display": "LEPTOTRICHIA TREVISANII"
+        },
+        {
+            "code": "90881",
+            "display": "KLEBSIELLA (RAOULTELLA) ORNITHINOLYTICA"
+        },
+        {
+            "code": "90462",
+            "display": "MICROSPORUM CANIS"
+        },
+        {
+            "code": "80027",
+            "display": "PSEUDOMONAS PUTIDA "
+        },
+        {
+            "code": "80280",
+            "display": "VIRIDANS STREPTOCOCCI"
+        },
+        {
+            "code": "80189",
+            "display": "PEDIOCOCCUS SPECIES"
+        },
+        {
+            "code": "80222",
+            "display": "POSITIVE FOR GROUP B BETA STREPTOCOCCI"
+        },
+        {
+            "code": "80309",
+            "display": "POSITIVE FOR VARICELLA ZOSTER"
+        },
+        {
+            "code": "80049",
+            "display": "STREPTOCOCCUS MITIS"
+        },
+        {
+            "code": "90653",
+            "display": "SALMONELLA MBANDAKA"
+        },
+        {
+            "code": "90596",
+            "display": "CAMPYLOBACTER LARI"
+        },
+        {
+            "code": "80310",
+            "display": "POSITIVE FOR HERPES SIMPLEX TYPE 1 (HSV1)"
+        },
+        {
+            "code": "80041",
+            "display": "NEISSERIA MENINGITIDIS"
+        },
+        {
+            "code": "90528",
+            "display": "PREVOTELLA (BACTEROIDES) SPECIES"
+        },
+        {
+            "code": "90900",
+            "display": "MYCOBACTERIUM NEOAURUM"
+        },
+        {
+            "code": "80303",
+            "display": "ABIOTROPHIA/GRANULICATELLA SPECIES"
+        },
+        {
+            "code": "80211",
+            "display": "STACHYBOTRYS SPP."
+        },
+        {
+            "code": "90866",
+            "display": "MYCOBACTERIUM TRIPLEX"
+        },
+        {
+            "code": "80002",
+            "display": "ESCHERICHIA COLI"
+        },
+        {
+            "code": "90787",
+            "display": "STREPTOCCUS SALIVARIUS GROUP"
+        },
+        {
+            "code": "90797",
+            "display": "NOCARDIA TRANSVALENSIS COMPLEX"
+        },
+        {
+            "code": "80061",
+            "display": "RHODOTORULA SPECIES"
+        },
+        {
+            "code": "80038",
+            "display": "CLOSTRIDIUM PERFRINGENS"
+        },
+        {
+            "code": "90450",
+            "display": "MORAXELLA NONLIQUIFACIENS "
+        },
+        {
+            "code": "80048",
+            "display": "BETA STREPTOCOCCUS"
+        },
+        {
+            "code": "90716",
+            "display": "CUPRIAVIDUS METALLIDURANS"
+        },
+        {
+            "code": "80112",
+            "display": "BACTEROIDES FRAGILIS GROUP"
+        },
+        {
+            "code": "90878",
+            "display": "CAMPYLOBACTER UREOLYTICUS"
+        },
+        {
+            "code": "90729",
+            "display": "DESULFOVIBRIO DESULFURICANS"
+        },
+        {
+            "code": "90801",
+            "display": "LACTOBACILLUS RHAMNOSUS"
+        },
+        {
+            "code": "80153",
+            "display": "MORAXELLA OSLOENSIS"
+        },
+        {
+            "code": "90422",
+            "display": "HOOKWORM"
+        },
+        {
+            "code": "90305",
+            "display": "MYCOBACTERIUM SPECIES"
+        },
+        {
+            "code": "90745",
+            "display": "STAPHYLOCOCCUS SAPROPHYTICUS"
+        },
+        {
+            "code": "80130",
+            "display": "MYCELIA STERILIA"
+        },
+        {
+            "code": "80300",
+            "display": "POSITIVE FOR PNEUMOCYSTIS JIROVECII (CARINII)"
+        },
+        {
+            "code": "90280",
+            "display": "SHIGELLA SONNEI"
+        },
+        {
+            "code": "90736",
+            "display": "AGGREGATIBACTER (HAEMOPHILUS) APHROPHILUS"
+        },
+        {
+            "code": "80254",
+            "display": "CANDIDA ALBICANS, PRESUMPTIVE IDENTIFICATION"
+        },
+        {
+            "code": "80005",
+            "display": "KLEBSIELLA OXYTOCA"
+        },
+        {
+            "code": "90758",
+            "display": "STAPHYLOCOCCUS WARNERI/PASTEURI"
+        },
+        {
+            "code": "90818",
+            "display": "PRESUMPTIVE POSITIVE FOR LEGIONELLA SEROGROUP 1 ANTIGEN"
+        },
+        {
+            "code": "90672",
+            "display": "NIGROSPORA SPECIES"
+        },
+        {
+            "code": "80245",
+            "display": "FUSOBACTERIUM SPECIES"
+        },
+        {
+            "code": "80030",
+            "display": "BORDETELLA BRONCHISEPTICA"
+        },
+        {
+            "code": "90621",
+            "display": "TICK NOT CONSISTENT WITH IXODES SPECIES"
+        },
+        {
+            "code": "90864",
+            "display": "LACTOBACILLUS CASEI/PARACASEI/ZEAE"
+        },
+        {
+            "code": "90322",
+            "display": "MYCOPLASMA SPECIES"
+        },
+        {
+            "code": "90660",
+            "display": "PHOMA SPECIES"
+        },
+        {
+            "code": "80224",
+            "display": "BETA STREPTOCOCCUS NOT GROUP A OR B"
+        },
+        {
+            "code": "80213",
+            "display": "BETA STREPTOCOCCI, NOT GROUP A"
+        },
+        {
+            "code": "90412",
+            "display": "SALMONELLA HEIDELBERG"
+        },
+        {
+            "code": "80255",
+            "display": "STAPHYLOCOCCUS SAPROPHYTICUS, PRESUMPTIVE IDENTIFICATION"
+        },
+        {
+            "code": "90533",
+            "display": "HYMENOLEPIS NANA"
+        },
+        {
+            "code": "90752",
+            "display": "MALASSEZIA PACHYDERMATIS"
+        },
+        {
+            "code": "80142",
+            "display": "FUSOBACTERIUM NECROPHORUM"
+        },
+        {
+            "code": "90550",
+            "display": "MALASSEZIA SPECIES"
+        },
+        {
+            "code": "90817",
+            "display": "GRANULICATELLA ADIACENS"
+        },
+        {
+            "code": "90851",
+            "display": "SCEDOSPORIUM APIOSPERMUM COMPLEX"
+        },
+        {
+            "code": "90776",
+            "display": "STREPTOCOCCUS GALLOLYTICUS SSP. GALLOLYTICUS (STREPTOCOCCUS BOVIS)"
+        },
+        {
+            "code": "90339",
+            "display": "CRYPTOCOCCUS LAURENTII"
+        },
+        {
+            "code": "80035",
+            "display": "EIKENELLA CORRODENS"
+        },
+        {
+            "code": "80017",
+            "display": "PROTEUS MIRABILIS"
+        },
+        {
+            "code": "80306",
+            "display": "MICROCOCCUS/STOMATOCOCCUS SPECIES"
+        },
+        {
+            "code": "80178",
+            "display": "INFLUENZA A VIRUS"
+        },
+        {
+            "code": "90374",
+            "display": "CLOSTRIDIUM TERTIUM"
+        },
+        {
+            "code": "90750",
+            "display": "RHIZOBIUM RADIOBACTER"
+        },
+        {
+            "code": "90763",
+            "display": "ENTEROBACTER CLOACAE COMPLEX"
+        },
+        {
+            "code": "80164",
+            "display": "ENTEROBACTER ASBURIAE"
+        },
+        {
+            "code": "90440",
+            "display": "SALMONELLA SCHWARZENGRUND"
+        },
+        {
+            "code": "90826",
+            "display": "STAPHYLOCOCCUS AURICULARIS"
+        },
+        {
+            "code": "80042",
+            "display": "NEISSERIA SPECIES"
+        },
+        {
+            "code": "90430",
+            "display": "SALMONELLA DUBLIN"
+        },
+        {
+            "code": "90454",
+            "display": "PROTEUS PENNERI"
+        },
+        {
+            "code": "80107",
+            "display": "CAMPYLOBACTER SPECIES"
+        },
+        {
+            "code": "90784",
+            "display": "PSEUDOMONAS MENDOCINA"
+        },
+        {
+            "code": "80014",
+            "display": "SERRATIA MARCESCENS"
+        },
+        {
+            "code": "90760",
+            "display": "CANCELLED"
+        },
+        {
+            "code": "90844",
+            "display": "GEMELLA BERGERI"
+        },
+        {
+            "code": "80103",
+            "display": "SPOROBOLOMYCES SALMONICOLOR"
+        },
+        {
+            "code": "90352",
+            "display": "CLOSTRIDIUM CLOSTRIDIIFORME"
+        },
+        {
+            "code": "90377",
+            "display": "CLOSTRIDIUM RAMOSUM"
+        },
+        {
+            "code": "90871",
+            "display": "GLOBICATELLA SANGUINIS"
+        },
+        {
+            "code": "90497",
+            "display": "MICROCOCCUS LUTEUS"
+        },
+        {
+            "code": "80182",
+            "display": "OCHROBACTRUM ANTHROPI"
+        },
+        {
+            "code": "90644",
+            "display": "GIARDIA LAMBLIA SEEN"
+        },
+        {
+            "code": "90840",
+            "display": "S. AUREUS POSITIVE; MRSA POSITIVE"
+        },
+        {
+            "code": "90814",
+            "display": "ARTHROGRAPHIS SPECIES"
+        },
+        {
+            "code": "90640",
+            "display": "BIPOLARIS SPECIES"
+        },
+        {
+            "code": "90680",
+            "display": "SALMONELLA CORVALLIS"
+        },
+        {
+            "code": "80204",
+            "display": "ENTEROCOCCUS CASSELIFLAVUS"
+        },
+        {
+            "code": "80060",
+            "display": "CANDIDA ALBICANS"
+        },
+        {
+            "code": "80158",
+            "display": "MYCOBACTERIUM AVIUM COMPLEX"
+        },
+        {
+            "code": "80085",
+            "display": "CORYNEBACTERIUM SPECIES (DIPHTHEROIDS)"
+        },
+        {
+            "code": "90452",
+            "display": "ENTEROBACTER AMNIGENUS 2 "
+        },
+        {
+            "code": "90748",
+            "display": "STREPTOCOCCUS INFANTARIUS SSP. COLI (STREPTOCOCCUS BOVIS)"
+        },
+        {
+            "code": "90799",
+            "display": "STREPTOCOCCUS INFANTARIUS SSP. INFANTARIUS (STREPTOCOCCUS BOVIS)"
+        },
+        {
+            "code": "90874",
+            "display": "KOCURIA ROSEA"
+        },
+        {
+            "code": "90665",
+            "display": "EPICOCCUM SPECIES"
+        },
+        {
+            "code": "90885",
+            "display": "ACETOBACTER SP."
+        },
+        {
+            "code": "90765",
+            "display": "DOLOSIGRANULUM PIGRUM"
+        },
+        {
+            "code": "80251",
+            "display": "MANY BLASTOCYSTIS HOMINIS"
+        },
+        {
+            "code": "80106",
+            "display": "CANDIDA TROPICALIS"
+        },
+        {
+            "code": "90330",
+            "display": "MYCOBACTERIUM CHELONAE"
+        },
+        {
+            "code": "90827",
+            "display": "CANDIDA AURIS"
+        },
+        {
+            "code": "80143",
+            "display": "CYTOMEGALOVIRUS "
+        },
+        {
+            "code": "80225",
+            "display": "NON-FERMENTER, NOT PSEUDOMONAS AERUGINOSA"
+        },
+        {
+            "code": "90646",
+            "display": "TRICHOMONAS VAGINALIS SEEN"
+        },
+        {
+            "code": "90774",
+            "display": "ENTEROCOCCUS HIRAE"
+        },
+        {
+            "code": "90713",
+            "display": "MYCOBACTERIUM MUCOGENICUM"
+        },
+        {
+            "code": "80199",
+            "display": "MALASSEZIA FURFUR"
+        },
+        {
+            "code": "90808",
+            "display": "MICROMONOSPORA SPECIES"
+        },
+        {
+            "code": "80290",
+            "display": "SHEWANELLA SPECIES"
+        },
+        {
+            "code": "90387",
+            "display": "MYCOBACTERIUM BOVIS"
+        },
+        {
+            "code": "80009",
+            "display": "HAFNIA ALVEI"
+        },
+        {
+            "code": "80197",
+            "display": "CITROBACTER YOUNGAE"
+        },
+        {
+            "code": "90836",
+            "display": "STREPTOCOCCUS PARASANGUINIS"
+        },
+        {
+            "code": "90420",
+            "display": "TAENIA SP."
+        },
+        {
+            "code": "90693",
+            "display": "BEAUVERIA BASSIANA"
+        },
+        {
+            "code": "80181",
+            "display": "PARAINFLUENZA VIRUS TYPE 3"
+        },
+        {
+            "code": "80149",
+            "display": "PAECILOMYCES SPECIES"
+        },
+        {
+            "code": "80046",
+            "display": "BETA STREPTOCOCCUS GROUP C"
+        },
+        {
+            "code": "90627",
+            "display": "LEGIONELLA SPECIES"
+        },
+        {
+            "code": "90671",
+            "display": "STEMPHYLIUM SP."
+        },
+        {
+            "code": "90816",
+            "display": "ACHROMOBACTER XYLOSOXIDANS"
+        },
+        {
+            "code": "80050",
+            "display": "STREPTOCOCCUS BOVIS "
+        },
+        {
+            "code": "90683",
+            "display": "PROTEUS VULGARIS GROUP"
+        },
+        {
+            "code": "80018",
+            "display": "MORGANELLA MORGANII"
+        },
+        {
+            "code": "90379",
+            "display": "CAPNOCYTOPHAGA OCHRACEA"
+        },
+        {
+            "code": "80286",
+            "display": "GORDONIA SPECIES"
+        },
+        {
+            "code": "90590",
+            "display": "PREVOTELLA ORALIS"
+        },
+        {
+            "code": "80173",
+            "display": "VEILLONELLA SPECIES"
+        },
+        {
+            "code": "80298",
+            "display": "GEMELLA SPECIES"
+        },
+        {
+            "code": "90390",
+            "display": "TRICHOPHYTON RUBRUM"
+        },
+        {
+            "code": "80127",
+            "display": "FUNGUS"
+        },
+        {
+            "code": "90415",
+            "display": "SALMONELLA NEWPORT"
+        },
+        {
+            "code": "90741",
+            "display": "ROTHIA MUCILAGINOSA"
+        },
+        {
+            "code": "90511",
+            "display": "STAPHYLOCOCCUS INTERMEDIUS"
+        },
+        {
+            "code": "80161",
+            "display": "STRONGYLOIDES STERCORALIS "
+        },
+        {
+            "code": "90850",
+            "display": "BACILLUS CIRCULANS GROUP"
+        },
+        {
+            "code": "80243",
+            "display": "PORPHYROMONAS SPECIES"
+        },
+        {
+            "code": "80102",
+            "display": "SACCHAROMYCES CEREVISIAE"
+        },
+        {
+            "code": "90564",
+            "display": "NOCARDIA BRASILIENSIS"
+        },
+        {
+            "code": "90775",
+            "display": "USTILAGO SPECIES"
+        },
+        {
+            "code": "80105",
+            "display": "RHIZOPUS SPECIES"
+        },
+        {
+            "code": "90769",
+            "display": "NOCARDIA FARCINICA"
+        },
+        {
+            "code": "80272",
+            "display": "STREPTOCOCCUS VESTIBULARIS"
+        },
+        {
+            "code": "80053",
+            "display": "ENTEROCOCCUS SP."
+        },
+        {
+            "code": "80004",
+            "display": "KLEBSIELLA PNEUMONIAE"
+        },
+        {
+            "code": "90295",
+            "display": "VIBRIO CHOLERAE"
+        },
+        {
+            "code": "90780",
+            "display": "ACHROMOBACTER (ALCALIGENES) XYLOSOXIDANS"
+        },
+        {
+            "code": "90742",
+            "display": "STAPHYLOCOCCUS CAPITIS"
+        },
+        {
+            "code": "90543",
+            "display": "OLIGELLA URETHRALIS"
+        },
+        {
+            "code": "80097",
+            "display": "PROVIDENCIA SPECIES"
+        },
+        {
+            "code": "90868",
+            "display": "YOKENELLA REGENSBURGEI"
+        },
+        {
+            "code": "80080",
+            "display": "BACTERIA"
+        },
+        {
+            "code": "90544",
+            "display": "STAPHYLOCOCCUS SCIURI"
+        },
+        {
+            "code": "90512",
+            "display": "DERMATOPHYTE"
+        },
+        {
+            "code": "90508",
+            "display": "ACTINOMYCES SP."
+        },
+        {
+            "code": "90678",
+            "display": "MICROBACTERIUM SPECIES"
+        },
+        {
+            "code": "80176",
+            "display": "VARICELLA-ZOSTER VIRUS"
+        },
+        {
+            "code": "80015",
+            "display": "SERRATIA RUBIDAEA"
+        },
+        {
+            "code": "80282",
+            "display": "FONSECAEA PEDROSOI"
+        },
+        {
+            "code": "90889",
+            "display": "CUTIBACTERIUM SPECIES"
+        },
+        {
+            "code": "90767",
+            "display": "OCHROBACTRUM SPECIES"
+        },
+        {
+            "code": "90443",
+            "display": "ALTERNARIA SP."
+        },
+        {
+            "code": "90281",
+            "display": "EDWARDSIELLA TARDA"
+        },
+        {
+            "code": "90398",
+            "display": "ACTINOMYCES ISRAELII"
+        },
+        {
+            "code": "80226",
+            "display": "PROBABLE LACTOBACILLUS SPECIES"
+        },
+        {
+            "code": "90552",
+            "display": "ROSEOMONAS GILARDII"
+        },
+        {
+            "code": "80092",
+            "display": "AEROCOCCUS VIRIDANS"
+        },
+        {
+            "code": "80013",
+            "display": "SERRATIA LIQUEFACIENS"
+        },
+        {
+            "code": "80066",
+            "display": "ASPERGILLUS FUMIGATUS"
+        },
+        {
+            "code": "90855",
+            "display": "POSITIVE"
+        },
+        {
+            "code": "90340",
+            "display": "GEOTRICHIUM SPECIES"
+        },
+        {
+            "code": "80299",
+            "display": "MYCOPLASMA HOMINIS"
+        },
+        {
+            "code": "80248",
+            "display": "CITROBACTER FREUNDII COMPLEX"
+        },
+        {
+            "code": "80292",
+            "display": "NEISSERIA SPECIES, NOT GONORRHOEAE"
+        },
+        {
+            "code": "90370",
+            "display": "SERRATIA FONTICOLA"
+        },
+        {
+            "code": "90623",
+            "display": "SALMONELLA SANDIEGO"
+        },
+        {
+            "code": "90734",
+            "display": "FINEGOLDIA (PEPTOSTREPTOCOCCUS) SPECIES"
+        },
+        {
+            "code": "80147",
+            "display": "CHLAMYDIA TRACHOMATIS"
+        },
+        {
+            "code": "90514",
+            "display": "MYCOBACTERIUM MARINUM"
+        },
+        {
+            "code": "90695",
+            "display": "DELFTIA ACIDOVORANS"
+        },
+        {
+            "code": "90681",
+            "display": "STAPHYLOCOCCUS CAPRAE/CAPITIS"
+        },
+        {
+            "code": "80170",
+            "display": "LEUCONOSTOC SPECIES"
+        },
+        {
+            "code": "90829",
+            "display": "ACRODONTIUM SALMONEUM"
+        },
+        {
+            "code": "90472",
+            "display": "ALCALIGENES FAECALIS"
+        },
+        {
+            "code": "90738",
+            "display": "ELIZABETHKINGIA (CHRYSEOBACTERIUM) MENIGOSEPTICA"
+        },
+        {
+            "code": "90470",
+            "display": "GARDNERELLA  VAGINALIS"
+        },
+        {
+            "code": "90522",
+            "display": "CAMPYLOBACTER UPSALIENSIS"
+        },
+        {
+            "code": "90333",
+            "display": "MYCOBACTERIUM KANSASII"
+        },
+        {
+            "code": "90863",
+            "display": "NOCARDIA CYRIACIGEORGICA"
+        },
+        {
+            "code": "90310",
+            "display": "HAEMOPHILUS APHROPHILUS"
+        },
+        {
+            "code": "80234",
+            "display": "PRESUMPTIVE PROPIONIBACTERIUM ACNES"
+        },
+        {
+            "code": "90791",
+            "display": "GORDONIA SPUTI"
+        },
+        {
+            "code": "80077",
+            "display": "CRYPTOCOCCUS SPECIES"
+        },
+        {
+            "code": "90888",
+            "display": "DIALISTER MICRAEROPHILUS"
+        },
+        {
+            "code": "90697",
+            "display": "ACTINOMYCES TURICENSIS"
+        },
+        {
+            "code": "90549",
+            "display": "ENTEROCOCCUS DURANS"
+        },
+        {
+            "code": "90487",
+            "display": "ACHROMOBACTER (ALCALIGENES) DENTRIFICANS"
+        },
+        {
+            "code": "90361",
+            "display": "HEMOPHILUS HEMOLYTICUS"
+        },
+        {
+            "code": "90839",
+            "display": "ACTINOTIGNUM SANGUINIS"
+        },
+        {
+            "code": "90756",
+            "display": "HERBASPIRILLUM SPECIES"
+        },
+        {
+            "code": "80244",
+            "display": "PREVOTELLA SPECIES"
+        },
+        {
+            "code": "80116",
+            "display": "FUSARIUM SPECIES"
+        },
+        {
+            "code": "80177",
+            "display": "RESPIRATORY SYNCYTIAL VIRUS (RSV)"
+        },
+        {
+            "code": "90977",
+            "display": "PHIALEMONIUM INFLATUM"
+        },
+        {
+            "code": "90279",
+            "display": "SHIGELLA BOYDII"
+        },
+        {
+            "code": "80137",
+            "display": "CANDIDA LUSITANIAE"
+        },
+        {
+            "code": "80288",
+            "display": "CANDIDA KRUSEI / CANDIDA INCONSPICUA"
+        },
+        {
+            "code": "90798",
+            "display": "ALLOIOCOCCUS OTITIS"
+        },
+        {
+            "code": "90411",
+            "display": "GIARDIA CYSTS"
+        },
+        {
+            "code": "90755",
+            "display": "STREPTOCOCCUS GALLOLYTICUS SSP. PASTEURIANUS (STREPTOCOCCUS BOVIS)"
+        },
+        {
+            "code": "90380",
+            "display": "SCOPULARIOPSIS SP."
+        },
+        {
+            "code": "90466",
+            "display": "LACTOBACILLUS SALIVARIUS SS. SALIVARIUS"
+        },
+        {
+            "code": "80235",
+            "display": "STREPTOCOCCUS ANGINOSUS (MILLERI) GROUP"
+        },
+        {
+            "code": "80056",
+            "display": "GRAM POSITIVE RODS"
+        },
+        {
+            "code": "90710",
+            "display": "SYTALIDIUM SPECIES"
+        },
+        {
+            "code": "80239",
+            "display": "ASPERGILLUS SP. NOT FUMIGATUS, FLAVUS OR NIGER"
+        },
+        {
+            "code": "90739",
+            "display": "GLOBICATELLA SPECIES"
+        },
+        {
+            "code": "80101",
+            "display": "CANDIDA KRUSEI"
+        },
+        {
+            "code": "90566",
+            "display": "NOCARDIA NOVA"
+        },
+        {
+            "code": "80037",
+            "display": "GRAM VARIABLE RODS"
+        },
+        {
+            "code": "80078",
+            "display": "ANAEROBIC GRAM POSITIVE COCCUS(I)"
+        },
+        {
+            "code": "90892",
+            "display": "KOCURIA SPECIES"
+        },
+        {
+            "code": "90518",
+            "display": "ENTEROCOCCUS RAFFINOSUS"
+        },
+        {
+            "code": "90560",
+            "display": "MYCOBACTERIUM CELATUM"
+        },
+        {
+            "code": "80194",
+            "display": "ACINETOBACTER BAUMANNII"
+        },
+        {
+            "code": "90714",
+            "display": "CONIDIOBOLUS SPECIES"
+        },
+        {
+            "code": "90598",
+            "display": "EXOPHIALA (WANGIELLA) DERMATITIDIS"
+        },
+        {
+            "code": "90581",
+            "display": "EXOPHIALA SPECIES"
+        },
+        {
+            "code": "90733",
+            "display": "PEPTONIPHILUS (PEPTOSTREPTOCOCCUS) SPECIES"
+        },
+        {
+            "code": "90537",
+            "display": "SPHINGOBACTERIUM MULTIVORUM"
+        },
+        {
+            "code": "90873",
+            "display": "HAEMOPHILUS HAEMOLYTICUS"
+        },
+        {
+            "code": "80079",
+            "display": "ANAEROBIC GRAM POSITIVE ROD(S)"
+        },
+        {
+            "code": "90346",
+            "display": "PREVOTELLA MELANINOGENICA"
+        },
+        {
+            "code": "90711",
+            "display": "AEROMONAS HYDROPHILA COMPLEX"
+        },
+        {
+            "code": "80057",
+            "display": "GRAM NEGATIVE DIPLOCOCCI"
+        },
+        {
+            "code": "80232",
+            "display": "PRESUMPTIVE VEILLONELLA SPECIES"
+        },
+        {
+            "code": "90355",
+            "display": "STREPTOCOCCUS INTERMEDIUS"
+        },
+        {
+            "code": "80188",
+            "display": "SCEDOSPORIUM (APIOSPERMUM) BOYDII COMPLEX"
+        },
+        {
+            "code": "80108",
+            "display": "PROPIONIBACTERIUM ACNES"
+        },
+        {
+            "code": "80021",
+            "display": "SHIGELLA FLEXNERI"
+        },
+        {
+            "code": "80128",
+            "display": "FUSOBACTERIUM NUCLEATUM"
+        },
+        {
+            "code": "90728",
+            "display": "SERRATIA LIQUEFACIENS COMPLEX"
+        },
+        {
+            "code": "80238",
+            "display": "CLOSTRIDIUM SPECIES NOT C. PERFRINGENS OR C. SEPTICUM"
+        },
+        {
+            "code": "90484",
+            "display": "SALMONELLA ORANIENBURG"
+        },
+        {
+            "code": "90893",
+            "display": "PAENIBACILLUS SPECIES"
+        },
+        {
+            "code": "80184",
+            "display": "ENTEROCOCCUS GALLINARUM"
+        },
+        {
+            "code": "90491",
+            "display": "ULOCLADIUM SP."
+        },
+        {
+            "code": "80212",
+            "display": "PORPHYROMONAS SPECIES"
+        },
+        {
+            "code": "90526",
+            "display": "PARAINFLUENZA VIRUS TYPE 2"
+        },
+        {
+            "code": "80191",
+            "display": "HAEMOPHILUS INFLUENZAE, BETA-LACTAMASE POSITIVE"
+        },
+        {
+            "code": "90727",
+            "display": "POSITIVE FOR HERPES SIMPLEX (HSV)"
+        },
+        {
+            "code": "80090",
+            "display": "SERRATIA SPECIES"
+        },
+        {
+            "code": "80151",
+            "display": "CITROBACTER KOSERI"
+        },
+        {
+            "code": "80063",
+            "display": "ASPERGILLUS SPECIES"
+        },
+        {
+            "code": "90439",
+            "display": "CUNNINGHAMELLA SP."
+        },
+        {
+            "code": "80281",
+            "display": "BACILLUS SPECIES; NOT ANTHRACIS"
+        },
+        {
+            "code": "80126",
+            "display": "CLADOSPORIUM SPECIES"
+        },
+        {
+            "code": "90848",
+            "display": "KOCURIA KRISTINAE"
+        },
+        {
+            "code": "80024",
+            "display": "STAPHYLOCOCCUS EPIDERMIDIS"
+        },
+        {
+            "code": "80031",
+            "display": "MORAXELLA SPECIES"
+        },
+        {
+            "code": "80233",
+            "display": "PRESUMPTIVE PEPTOSTREPTOCOCCUS SPECIES"
+        },
+        {
+            "code": "80162",
+            "display": "STAPHYLOCOCCUS LUGDUNENSIS"
+        },
+        {
+            "code": "90754",
+            "display": "PASTEURELLA SPECIES"
+        },
+        {
+            "code": "90656",
+            "display": "SPHINGOMONAS SPECIES"
+        },
+        {
+            "code": "80293",
+            "display": "POSITIVE FOR METHICILLIN RESISTANT STAPH AUREUS"
+        },
+        {
+            "code": "90689",
+            "display": "SALMONELLA KIAMBU"
+        },
+        {
+            "code": "80117",
+            "display": "AUREOBASIDIUM PULLULANS"
+        },
+        {
+            "code": "90883",
+            "display": "PERONEUTYPA SCOPARIA"
+        },
+        {
+            "code": "80029",
+            "display": "PSEUDOMONAS SPECIES"
+        },
+        {
+            "code": "90353",
+            "display": "MYCOBACTERIUM SCROFULACEUM"
+        },
+        {
+            "code": "90536",
+            "display": "ESCHERICHIA COLI O157:H7"
+        },
+        {
+            "code": "90869",
+            "display": "STREPTOCOCCUS CONSTELLATUS SSP. CONSTELLATUS"
+        },
+        {
+            "code": "80257",
+            "display": "POSITIVE FOR INFLUENZA B VIRAL ANTIGEN"
+        },
+        {
+            "code": "90519",
+            "display": "LEUCONOSTOC MESENTEROIDES"
+        },
+        {
+            "code": "90862",
+            "display": "MYCOBACTERIUM MARSEILLENSE"
+        },
+        {
+            "code": "90854",
+            "display": "DESULFOVIBRIO LEGALLII"
+        },
+        {
+            "code": "80159",
+            "display": "MYCOBACTERIUM TUBERCULOSIS COMPLEX"
+        },
+        {
+            "code": "90834",
+            "display": "ASPERGILLUS FUMIGATUS COMPLEX"
+        },
+        {
+            "code": "90283",
+            "display": "SALMONELLA TYPHI"
+        },
+        {
+            "code": "90559",
+            "display": "ESCHERICHIA SPECIES"
+        },
+        {
+            "code": "90847",
+            "display": "CUTIBACTERIUM AVIDUM"
+        },
+        {
+            "code": "90823",
+            "display": "LOMENTOSPORA PROLIFICANS (FORMERLY SCEDOSPORIUM PROLIFICANS)"
+        },
+        {
+            "code": "80067",
+            "display": "NOCARDIA ASTEROIDES"
+        },
+        {
+            "code": "90872",
+            "display": "STREPTOCOCCUS INFANTARIUS SSP. COLI (STR. LUTETIENSIS)"
+        },
+        {
+            "code": "90399",
+            "display": "SALMONELLA TYPHIMURIUM"
+        },
+        {
+            "code": "90822",
+            "display": "MYCOBACTERIUM MAGERITENSE"
+        },
+        {
+            "code": "80131",
+            "display": "SALMONELLA HADAR"
+        },
+        {
+            "code": "90830",
+            "display": "STREPTOCOCCUS GORDONII"
+        },
+        {
+            "code": "80312",
+            "display": "PSEUDOMONAS PUTIDA/FLUORESCENS"
+        },
+        {
+            "code": "90722",
+            "display": "POSITIVE FOR PARAINFLUENZA TYPE 2"
+        },
+        {
+            "code": "90294",
+            "display": "PLESIOMONAS SHIGELLOIDES"
+        },
+        {
+            "code": "90297",
+            "display": "VIBRIO PARAHAEMOLYTICUS"
+        },
+        {
+            "code": "80118",
+            "display": "STREPTOCOCCUS SALIVARIUS"
+        },
+        {
+            "code": "90746",
+            "display": "STAPHYLOCOCCUS WARNERI"
+        },
+        {
+            "code": "80134",
+            "display": "ENDOLIMAX NANA"
+        },
+        {
+            "code": "90875",
+            "display": "ATOPOBIUM RIMAE"
+        },
+        {
+            "code": "90464",
+            "display": "SALMONELLA JAVIANA"
+        },
+        {
+            "code": "90403",
+            "display": "ESCHERICHIA VULNERIS"
+        },
+        {
+            "code": "90753",
+            "display": "IXODES SPECIES"
+        },
+        {
+            "code": "80082",
+            "display": "BACILLUS SPECIES"
+        },
+        {
+            "code": "80115",
+            "display": "PROPIONIBACTERIUM SPECIES"
+        },
+        {
+            "code": "90735",
+            "display": "AGGREGATIBACTER SPECIES"
+        },
+        {
+            "code": "80202",
+            "display": "LEGIONELLA PNEUMOPHILA "
+        },
+        {
+            "code": "90762",
+            "display": "NEOSCYTALIDIUM DIMIDIATUM"
+        },
+        {
+            "code": "80089",
+            "display": "GAMMA(I.E. NON-HEMOLYTIC) STREPTOCOCCUS"
+        },
+        {
+            "code": "80308",
+            "display": "POSITIVE FOR CYTOMEGALOVIRUS"
+        },
+        {
+            "code": "90852",
+            "display": "BIFIDOBACTERIUM LONGUM"
+        },
+        {
+            "code": "90425",
+            "display": "DIENTAMOEBA FRAGILIS"
+        },
+        {
+            "code": "80043",
+            "display": "HAEMOPHILUS PARAINFLUENZAE"
+        },
+        {
+            "code": "90879",
+            "display": "PENICILLIUM FELLUTANUM"
+        },
+        {
+            "code": "80062",
+            "display": "ASPERGILLUS NIGER"
+        },
+        {
+            "code": "80091",
+            "display": "LISTERIA MONOCYTOGENES"
+        },
+        {
+            "code": "90434",
+            "display": "SALMONELLA SAINTPAUL"
+        },
+        {
+            "code": "90636",
+            "display": "IODAMOEBA BUTSCHLII"
+        },
+        {
+            "code": "90429",
+            "display": "HERPES SIMPLEX VIRUS"
+        },
+        {
+            "code": "90438",
+            "display": "FRANCISELLA TULARENSIS"
+        },
+        {
+            "code": "90841",
+            "display": "SAPROCHAETE (FORMERLY GEOTRICHUM) CAPITATA"
+        },
+        {
+            "code": "80084",
+            "display": "PROTEUS SPECIES"
+        },
+        {
+            "code": "90541",
+            "display": "COMAMONAS TESTOSTERONI"
+        },
+        {
+            "code": "90858",
+            "display": "NEOASCOCHYTA DESMAZIERI"
+        },
+        {
+            "code": "90276",
+            "display": "YERSINIA ENTEROCOLITICA"
+        },
+        {
+            "code": "80305",
+            "display": "PSEUDOMONAS LUTEOLA"
+        },
+        {
+            "code": "80034",
+            "display": "PASTEURELLA MULTOCIDA"
+        },
+        {
+            "code": "80266",
+            "display": "PANTOEA (ENTEROBACTER) AGGLOMERANS"
+        },
+        {
+            "code": "90669",
+            "display": "SALMONELLA TELELKEBIR"
+        },
+        {
+            "code": "90880",
+            "display": "CUTIBACTERIUM (PROPIONIBACTERIUM) ACNES"
+        },
+        {
+            "code": "90894",
+            "display": "CORYNEBACTERIUM GLUCURONOLYTICUM"
+        },
+        {
+            "code": "90899",
+            "display": "CORYNEBACTERIUM PYRUVICIPRODUCENS"
+        },
+        {
+            "code": "90860",
+            "display": "DESULFOVIBRIO SP."
+        },
+        {
+            "code": "80099",
+            "display": "CANDIDA PARAPSILOSIS"
+        },
+        {
+            "code": "90459",
+            "display": "NEISSERIA MUCOSA"
+        },
+        {
+            "code": "90789",
+            "display": "MYCOBACTERIUM ABSCESSUS GROUP"
+        },
+        {
+            "code": "90813",
+            "display": "ACINETOBACTER RADIORESISTENS"
+        },
+        {
+            "code": "80174",
+            "display": "CURVULARIA SP."
+        },
+        {
+            "code": "80068",
+            "display": "NOCARDIA SPECIES"
+        },
+        {
+            "code": "90849",
+            "display": "S. AUREUS POSITIVE; MRSA NEGATIVE"
+        },
+        {
+            "code": "80242",
+            "display": "RESEMBLING MICROCOCCUS/STOMATOCOCCUS SPECIES"
+        },
+        {
+            "code": "90507",
+            "display": "SALMONELLA STANLEY"
+        },
+        {
+            "code": "90717",
+            "display": "LACTOBACILLUS GASSERI"
+        },
+        {
+            "code": "80132",
+            "display": "ENTAMOEBA COLI"
+        },
+        {
+            "code": "80133",
+            "display": "GIARDIA LAMBLIA"
+        },
+        {
+            "code": "80215",
+            "display": "ASPERGILLUS NIDULANS"
+        },
+        {
+            "code": "90638",
+            "display": "RARE BLASTOCYSTIS HOMINIS"
+        },
+        {
+            "code": "80136",
+            "display": "ACTINOMYCES ODONTOLYTICUS"
+        },
+        {
+            "code": "90793",
+            "display": "EMMONSIA SPECIES"
+        },
+        {
+            "code": "90641",
+            "display": "MYCOBACTERIUM ABSCESSUS"
+        },
+        {
+            "code": "80098",
+            "display": "CITROBACTER SPECIES"
+        },
+        {
+            "code": "90349",
+            "display": "MYCOBACTERIUM TERRAE"
+        },
+        {
+            "code": "80209",
+            "display": "LISTERIA SPECIES"
+        },
+        {
+            "code": "90721",
+            "display": "POSITIVE FOR PARAINFLUENZA TYPE 1"
+        },
+        {
+            "code": "90730",
+            "display": "BURKHOLDERIA XENOVORANS"
+        },
+        {
+            "code": "90806",
+            "display": "SHEWANELLA ALGAE"
+        },
+        {
+            "code": "80088",
+            "display": "LACTOBACILLUS SPECIES"
+        },
+        {
+            "code": "80279",
+            "display": "STREPTOCOCCUS MILLERI GROUP"
+        },
+        {
+            "code": "80263",
+            "display": "ORGANISM"
+        },
+        {
+            "code": "90433",
+            "display": "MYCOBACTERIUM FLAVESCENS"
+        },
+        {
+            "code": "90726",
+            "display": "POSITIVE FOR PARAINFLUENZA VIRUS"
+        },
+        {
+            "code": "80230",
+            "display": "POSITIVE FOR INFLUENZA A VIRAL ANTIGEN"
+        }
+    ]
+}

@@ -24,4 +24,12 @@ dependencies:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
+  Background: index.html
+  Mappings: 
+      MIMIC-IV: mimic-fhir-mappings.html
+      MIMIC-ED: mimic-ed-fhir-mappings.html
+  Guidance:
+      Joint profiles: index.html
+      Terminology: index.html
   Artifacts: artifacts.html
+  Examples: index.html

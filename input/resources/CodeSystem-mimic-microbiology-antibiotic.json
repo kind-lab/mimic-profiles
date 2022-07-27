@@ -1,0 +1,125 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "mimic-microbiology-antibiotic",
+    "language": "en",
+    "url": "http://fhir.mimic.mit.edu/CodeSystem/mimic-microbiology-antibiotic",
+    "version": "2.0",
+    "name": "MimicMicrobiologyAntibiotic",
+    "title": "MimicMicrobiologyAntibiotic",
+    "status": "draft",
+    "date": "2022-07-25T18:22:49-04:00",
+    "publisher": "KinD Lab",
+    "description": "The microbiology antibiotic being tested on an organism in MIMIC",
+    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/mimic-microbiology-antibiotic",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "90012",
+            "display": "GENTAMICIN"
+        },
+        {
+            "code": "90016",
+            "display": "OXACILLIN"
+        },
+        {
+            "code": "90010",
+            "display": "NITROFURANTOIN"
+        },
+        {
+            "code": "90030",
+            "display": "DAPTOMYCIN"
+        },
+        {
+            "code": "90031",
+            "display": "LINEZOLID"
+        },
+        {
+            "code": "90013",
+            "display": "TOBRAMYCIN"
+        },
+        {
+            "code": "90023",
+            "display": "CEFUROXIME"
+        },
+        {
+            "code": "90008",
+            "display": "TRIMETHOPRIM/SULFA"
+        },
+        {
+            "code": "90015",
+            "display": "VANCOMYCIN"
+        },
+        {
+            "code": "90028",
+            "display": "CEFEPIME"
+        },
+        {
+            "code": "90020",
+            "display": "IMIPENEM"
+        },
+        {
+            "code": "90011",
+            "display": "TETRACYCLINE"
+        },
+        {
+            "code": "90025",
+            "display": "LEVOFLOXACIN"
+        },
+        {
+            "code": "90017",
+            "display": "CEFTAZIDIME"
+        },
+        {
+            "code": "90027",
+            "display": "RIFAMPIN"
+        },
+        {
+            "code": "90022",
+            "display": "AMPICILLIN/SULBACTAM"
+        },
+        {
+            "code": "90026",
+            "display": "PIPERACILLIN/TAZO"
+        },
+        {
+            "code": "90007",
+            "display": "CLINDAMYCIN"
+        },
+        {
+            "code": "90029",
+            "display": "MEROPENEM"
+        },
+        {
+            "code": "90005",
+            "display": "CEFAZOLIN"
+        },
+        {
+            "code": "90003",
+            "display": "PENICILLIN G"
+        },
+        {
+            "code": "90006",
+            "display": "ERYTHROMYCIN"
+        },
+        {
+            "code": "90014",
+            "display": "AMIKACIN"
+        },
+        {
+            "code": "90004",
+            "display": "AMPICILLIN"
+        },
+        {
+            "code": "90018",
+            "display": "CEFTRIAXONE"
+        },
+        {
+            "code": "90019",
+            "display": "CIPROFLOXACIN"
+        },
+        {
+            "code": "90021",
+            "display": "PIPERACILLIN"
+        }
+    ]
+}
