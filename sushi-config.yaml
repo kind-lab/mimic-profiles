@@ -25,3 +25,6 @@ dependencies:
 menu:
   Home: index.html
   Artifacts: artifacts.html
+  Mappings: 
+      MIMIC-IV: mimic-fhir-mappings.html
+      MIMIC-ED: mimic-ed-fhir-mappings.html
