@@ -2,7 +2,7 @@ Profile:        MimicObservationED
 Parent:         Observation
 Id:             mimic-observation-ed
 Title:          "MIMIC-ED Observation"
-Description:    "An Observation resource that represents a single measurement from a row of the triage and vitalsign tables of MIMIC-ED: only pain, acuity, chiefcomplaint, and rhythm."
+Description:    "An Observation resource that represents a single measurement from a row of the triage and vitalsign tables of MIMIC-ED: only acuity, chiefcomplaint, and rhythm."
 
 // cardinalities of update elements
 * partOf 1..1 // Reference(Procedure)
