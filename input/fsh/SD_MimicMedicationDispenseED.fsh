@@ -16,7 +16,7 @@ Description:    "A MedicationDispense resource that represents each record in th
 * subject 1..1 // Reference(MimicPatient)
 
 // further specification of elements
-* status = http://terminology.hl7.org/CodeSystem/medicationdispense-status#unknown "Unknown"
+* status = $MedicationDispenseStatus#unknown "Unknown"
 * medication[x] only CodeableConcept
 * medicationCodeableConcept.coding from $GSN_VS // pyxis: gsn
 

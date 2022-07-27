@@ -15,7 +15,7 @@ Description:    "A MIMIC procedure ICU profile based on US Core Procedure."
 
 // further specification of elements
 * performed[x] only dateTime
-* status = http://hl7.org/fhir/event-status#completed "Completed"
+* status = $EventStatus#completed "Completed"
 * performed[x] only dateTime
 
 // binding to MIMIC terminology

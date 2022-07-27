@@ -1,5 +1,5 @@
 Profile:        MimicObservationVitalSigns
-Parent:         http://hl7.org/fhir/us/core/StructureDefinition/us-core-vital-signs
+Parent:         us-core-vital-signs
 Id:             mimic-observation-vital-signs
 Title:          "MIMIC-ED Observation Vital Signs"
 Description:    "An Observation resource (based on US Core Vital Signs) that represents a single measurement from a row of the triage and vitalsign tables of MIMIC-ED: only pain, temperatature, heartrate, resprate, blood pressure sbp dbp, and o2sat."
@@ -19,8 +19,8 @@ Description:    "An Observation resource (based on US Core Vital Signs) that rep
 * dataAbsentReason 0..1
 
 // further specification of elements
-* status = http://hl7.org/fhir/observation-status#final "Final"
-* category = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs "Vital Signs"
+* status = $ObservationStatus#final "Final"
+* category = $ObservationCategory#vital-signs "Vital Signs"
 * effective[x] only dateTime
 * value[x] only Quantity or string
 

@@ -17,7 +17,7 @@ Description:    "A MedicationStatement resource that represents each record in t
 
 
 // Further specification of elements
-* status = http://hl7.org/fhir/CodeSystem/medication-statement-status#unknown "Unknown"
+* status = $MedicationStatementStatus#unknown "Unknown"
 * medication[x] only CodeableConcept
 * subject only Reference(MimicPatient)
 * context only Reference(MimicEncounter)

@@ -1,4 +1,4 @@
-// Microbiology
+// ------------------ Microbiology -----------------------------------------
 ValueSet: MimicMicroInterpretation
 Id: mimic-micro-interpretation
 Title: "MIMIC Observation Lab interpretation Value Set"
@@ -8,14 +8,16 @@ Description: "Selected codes from ObservationInterpretation that represent inter
 * $INTERP#R "Resistant"
 * $INTERP#S "Susceptible"
 
-// Labs
+
+// ------------------ Labs -----------------------------------------
 ValueSet: MimicLabInterpretation
 Id: mimic-lab-interpretation
 Title: "MIMIC Observation Lab interpretation Value Set"
 Description: "Selected codes from ObservationInterpretation that represent interpretations in MIMIC."
 * $INTERP#A "Abnormal" 
 
-// ED Observation
+
+// ----------------- ED Observation --------------------------------
 ValueSet: MimicObservationTypeVital
 Id: mimic-observation-type-vital
 Title: "MIMIC-ED Observation Resource Types Value Set"
@@ -40,14 +42,14 @@ ValueSet: DataAbsentReason
 Id: mimic-dateAbsentReason
 Title: "MIMIC-ED Data Absent Reason"
 Description: "Selected code from the DataAbsentReason value set."
-* http://terminology.hl7.org/CodeSystem/data-absent-reason#unknown "Unknown"
+* $DataAbsentReason#unknown "Unknown"
 
 ValueSet: MimicObservationCategoryED
 Id: mimic-observation-category-ed
 Title: "MIMIC-ED Observation Resource Category Value Set"
 Description: "Selected codes from the ObservationCategoryCodes value set."
-* http://terminology.hl7.org/CodeSystem/observation-category#survey "Survey" // pain
-* http://terminology.hl7.org/CodeSystem/observation-category#exam "Exam" // rhythm
+* $ObservationCategory#survey "Survey" // pain
+* $ObservationCategory#exam "Exam" // rhythm
 
 ValueSet: MimicObservationTypeED
 Id: mimic-observation-type-ed
@@ -58,7 +60,7 @@ Description: "Selected codes from LOINC that represent values from the triage or
 * $LNC#8661-1 "Chief complaint - Reported" // chiefcomplaint
 
 
-// ED Procedures
+// ------------------ ED Procedures -----------------------------------------
 ValueSet: MimicProcedureTypesED
 Id: mimic-procedure-types-ed
 Title: "MIMIC-ED Procedure Code Types Value Set"
