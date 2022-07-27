@@ -1,5 +1,6 @@
 [Extensions]: extensions.html
 [MIMIC to FHIR Mappings]: mimic-fhir-mappings.html
+[MIMIC-ED to FHIR Mappings]: mimic-ed-fhir-mappings.html
 [Microbiology Background]: microbiology-background.html
 [Medication Background]: medication-background.html
 [Terminology]: terminology.html

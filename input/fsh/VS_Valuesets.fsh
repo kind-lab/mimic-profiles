@@ -25,6 +25,7 @@ Description: "Selected codes from LOINC that represent values from the triage or
 * $LNC#9279-1 "Respiratory rate" // resprate
 * $LNC#2708-6 "Oxygen saturation in Arterial blood" // o2sat
 * $LNC#85354-9 "Blood pressure panel with all children optional" // sbp and dbp (component)
+* $LNC#98137-3 "Pain severity - Reported" // pain
 
 ValueSet: MimicQuantityUnit
 Id: mimic-unit-quantity
@@ -52,7 +53,6 @@ ValueSet: MimicObservationTypeED
 Id: mimic-observation-type-ed
 Title: "MIMIC-ED Observation Resource Types Value Set"
 Description: "Selected codes from LOINC that represent values from the triage or vitalsigns tables of MIMIC-ED."
-* $LNC#72514-3 "Pain severity - 0-10 verbal numeric rating [Score] - Reported" // pain
 * $LNC#56839-4 "Acuity assessment Narrative" // acuity
 * $LNC#8884-9 "Heart rate rhythm" // rhythm
 * $LNC#8661-1 "Chief complaint - Reported" // chiefcomplaint
