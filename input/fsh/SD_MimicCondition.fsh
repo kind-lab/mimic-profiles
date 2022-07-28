@@ -8,13 +8,13 @@ Description:    "A MIMIC condition profile based on US Core Condition."
 * encounter 1..1
 
 // cardinalities of used elements
-* category 1..*
+* category 1..1
 * code 1..1
 * subject 1..1
 
 // modifications to category and code
-* category.coding = $ConditionCategory#encounter-diagnosis "Encounter Diagnosis"
-* category ^short = "All encounters are assumed to be diagnosis encounters in MIMIC"
+* category = $ConditionCategory#encounter-diagnosis "Encounter Diagnosis"
+* category ^short = "All conditions are assumed to be encounter diagnosis (a point in time diagnosis related to an encounter) in MIMIC"
 * code from $MimicDiagnosisIcd
 
 // referencing must be to MIMIC profiles
