@@ -12,7 +12,7 @@ Usage:          #example
 * subject = Reference(ExampleMimicPatientED)
 * diagnosis.rank = 1
 * diagnosis.condition = Reference(ExampleMimicConditionED)
-* partOf = Reference(ExampleMimicEncounterAdmissionED)
+// * partOf = Reference(ExampleMimicEncounterAdmissionED)
 * hospitalization.admitSource.text = "AMBULANCE"
 * hospitalization.dischargeDisposition.text = "ADMITTED"
 * class = $HL7ActCode#EMER "emergency"
