@@ -24,7 +24,7 @@ Description:    "A MIMIC encounter profile based on US Core Encounter."
 * partOf 0..1
 
 // set default elements
-* status = http://hl7.org/fhir/encounter-status#finished "Finished"
+* status = $HL7EncounterStatus#finished "Finished"
 
 // Identifier slicing
 * identifier ^slicing.discriminator.type = #value
