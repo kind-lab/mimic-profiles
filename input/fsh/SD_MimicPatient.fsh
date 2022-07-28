@@ -7,7 +7,7 @@ Description:    "A MIMIC patient based on US Core Patient."
 // cardinalities of update elements
 * name 1..*
 * identifier 1..1
-* birthDate 1..1
+* birthDate 0..1
 
 // cardinalities of used elements
 * gender 1..1
