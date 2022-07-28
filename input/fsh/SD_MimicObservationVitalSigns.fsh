@@ -22,7 +22,7 @@ Description:    "An Observation resource (based on US Core Vital Signs) that rep
 * status = $ObservationStatus#final "Final"
 * category = $ObservationCategory#vital-signs "Vital Signs"
 * effective[x] only dateTime
-* value[x] only Quantity or string
+* value[x] only Quantity
 
 // binding to terminology
 * code from MimicObservationTypeVital
