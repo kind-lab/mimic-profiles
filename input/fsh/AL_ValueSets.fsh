@@ -24,6 +24,8 @@ Alias: $MimicServices = http://fhir.mimic.mit.edu/ValueSet/mimic-services
 Alias: $MimicAdmissionType = http://fhir.mimic.mit.edu/ValueSet/mimic-admission-type
 Alias: $MimicAdmitSource = http://fhir.mimic.mit.edu/ValueSet/mimic-admit-source
 Alias: $MimicDischargeDisposition = http://fhir.mimic.mit.edu/ValueSet/mimic-discharge-disposition
+Alias: $HL7EncounterStatus = http://hl7.org/fhir/encounter-status
+Alias: $MimicEncounterType = http://fhir.mimic.mit.edu/ValueSet/mimic-encounter-type
 
 // Observations ICU
 Alias: $MimicCharteventsDItems = http://fhir.mimic.mit.edu/ValueSet/mimic-chartevents-d-items
