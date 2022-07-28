@@ -20,7 +20,6 @@ Description:    "An Observation resource that represents a single measurement fr
 // further specification of elements
 * status = $ObservationStatus#final "Final"
 * effective[x] only dateTime
-* value[x] only Quantity
 
 // binding to MIMIC terminology
 * category from MimicObservationCategoryED
