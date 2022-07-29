@@ -7,20 +7,21 @@
     "name": "MimicEncounterType",
     "title": "MimicEncounterType",
     "status": "draft",
-    "date": "2022-07-25T18:22:49-04:00",
+    "date": "2022-07-29T11:34:34-04:00",
     "publisher": "KinD Lab",
     "description": "The encounter type for MIMIC",
     "compose": {
         "include": [
             {
-                "system": "http://hl7.org/fhir/us/core/ValueSet/us-core-encounter-type"
-            },
-            {
-                "system": "http://terminology.hl7.org/CodeSystem/HCPCS"
+                "system": "http://fhir.mimic.mit.edu/CodeSystem/mimic-hcpcs-cd"
             },
             {
                 "system": "http://snomed.info/sct",
                 "concept": [
+                    {
+                        "code": "308335008",
+                        "display": "Patient encounter procedure"
+                    },
                     {
                         "code": "453701000124103",
                         "display": "In-person encounter (procedure)"
