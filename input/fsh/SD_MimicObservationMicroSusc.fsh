@@ -8,12 +8,12 @@ Description:    "A MIMIC observation microbiology susceptiblity profile based on
 * effective[x] 1..1
 * value[x] 1..1
 * derivedFrom 1..1
+* subject 1..1
+* category 1..*
 
 // cardinalities of used elements
 * status 1..1
-* category 1..*
 * code 1..1
-* subject 1..1
 * note 0..1
 
 // further specification of elements

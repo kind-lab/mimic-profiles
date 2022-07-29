@@ -8,7 +8,7 @@ Description:    "A MIMIC observation datetimeevents profile based on the base ob
 * category 1..1
 * subject 1..1
 * encounter 1..1
-* effectiveDateTime 1..1
+* effective[x] 1..1
 * value[x] 1..1
 
 // cardinalities of used elements
@@ -17,7 +17,8 @@ Description:    "A MIMIC observation datetimeevents profile based on the base ob
 * issued 0..1
 
 // further specification of elements
-* value[x] only Quantity
+* value[x] only dateTime
+* effective[x] only dateTime
 
 // binding to MIMIC terminology
 * code from $MimicDatetimeeventsDItems
