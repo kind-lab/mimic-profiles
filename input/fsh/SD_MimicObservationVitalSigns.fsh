@@ -26,7 +26,6 @@ Description:    "An Observation resource (based on US Core Vital Signs) that rep
 
 // binding to terminology
 * code from MimicObservationTypeVital
-* valueQuantity from MimicQuantityUnit
 * dataAbsentReason from DataAbsentReason
 
 // referencing MIMIC resources

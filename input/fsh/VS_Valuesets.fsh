@@ -56,7 +56,7 @@ Title: "MIMIC-ED Observation Resource Types Value Set"
 Description: "Selected codes from LOINC that represent values from the triage table in MIMIC-ED."
 * $LNC#56839-4 "Acuity assessment Narrative" // acuity
 * $LNC#8661-1 "Chief complaint - Reported" // chiefcomplaint
-* $LNC#98137-3 "Pain severity - Reported" // pain
+* $LNC#98137-3 "Pain assessment report" // pain
 * $LNC#8884-9 "Heart rate rhythm" // rhythm
 
 

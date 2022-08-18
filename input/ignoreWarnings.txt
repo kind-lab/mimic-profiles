@@ -3,3 +3,7 @@
 # Add warning and/or information messages here after you've confirmed that they aren't really a problem
 # (And include comments like this justifying why)
 # see https://github.com/FHIR/sample-ig
+
+
+# dateshift for deid brings up warning for unrealistic times
+% is outside the range of reasonable years - check for data entry error

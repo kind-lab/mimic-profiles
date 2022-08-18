@@ -8,7 +8,7 @@ Description:    "A MIMIC medication profile based on the base FHIR medication re
 * identifier 1..*
 
 // cardinalities of used elements
-* code 1..1
+* code 0..1
 
 // bindings to MIMIC terminology
 * code from $MimicMedicationCodes

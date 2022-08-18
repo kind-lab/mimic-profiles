@@ -14,7 +14,7 @@ Description:    "A MIMIC observation microbiology test profile based on the base
 * status 1..1
 * code 1..1
 * encounter 0..1
-* hasMember 0..1
+* hasMember 0..*
 * value[x] 0..1
 
 // further specification of elements
