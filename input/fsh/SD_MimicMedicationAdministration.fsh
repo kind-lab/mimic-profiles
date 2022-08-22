@@ -5,8 +5,7 @@ Title:          "MIMIC Medication Administration"
 Description:    "A MIMIC medication administration profile based on the base FHIR medication administration resource."
 
 // cardinalities of updated elements
-* category 1..1
-* medicationCodeableConcept 1..1
+* medication[x] 1..1
 
 // cardinalities of used elements
 * status 1..1
@@ -19,6 +18,9 @@ Description:    "A MIMIC medication administration profile based on the base FHI
 * dosage.method 0..1
 * dosage.dose 0..1
 * dosage.rateQuantity 0..1
+
+// further specification of elements
+* medication[x] only CodeableConcept
 
 // binding to MIMIC terminology
 * dosage.method from $MimicMedicationMethod

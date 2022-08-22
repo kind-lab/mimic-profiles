@@ -7,7 +7,7 @@
     "name": "MimicMicrobiologyAntibiotic",
     "title": "MimicMicrobiologyAntibiotic",
     "status": "draft",
-    "date": "2022-07-25T18:22:49-04:00",
+    "date": "2022-07-29T11:34:34-04:00",
     "publisher": "KinD Lab",
     "description": "The microbiology antibiotic being tested on an organism in MIMIC",
     "valueSet": "http://fhir.mimic.mit.edu/ValueSet/mimic-microbiology-antibiotic",

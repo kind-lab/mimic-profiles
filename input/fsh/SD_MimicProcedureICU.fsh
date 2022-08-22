@@ -16,7 +16,7 @@ Description:    "A MIMIC procedure ICU profile based on base Procedure resource.
 * bodySite 0..*
 
 // further specification of elements
-* performed[x] only dateTime
+* performed[x] only Period
 
 // binding to MIMIC terminology
 * code from $MimicProcedureeventsDItems // will need to map to SCT for us core conformance 

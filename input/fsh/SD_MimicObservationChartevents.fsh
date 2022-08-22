@@ -8,7 +8,7 @@ Description:    "A MIMIC observation chartevents profile based on the base obser
 * category 1..1
 * subject 1..1
 * encounter 1..1
-* effectiveDateTime 1..1
+* effective[x] 1..1
 * value[x] 1..1
 
 // cardinalities of used elements
@@ -20,6 +20,7 @@ Description:    "A MIMIC observation chartevents profile based on the base obser
 
 // further specification of elements
 * value[x] only string or Quantity
+* effective[x] only dateTime
 
 // binding to MIMIC terminology
 * code from $MimicCharteventsDItems

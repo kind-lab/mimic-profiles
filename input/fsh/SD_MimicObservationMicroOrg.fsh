@@ -7,17 +7,18 @@ Description:    "A MIMIC observation microbiology organism profile based on the 
 // cardinalities of updated elements
 * effective[x] 1..1
 * derivedFrom 1..1
+* category 1..*
+* subject 1..1
 
 // cardinalities of used elements
 * status 1..1
-* category 1..*
 * code 1..1
-* subject 1..1
-* hasMember 0..1
-* valueString 1..1
+* hasMember 0..*
+* value[x] 0..1
 
 // further specification of elements
 * effective[x] only dateTime
+* value[x] only string
  
 // binding to MIMIC terminology
 * code from $MimicMicrobiologyOrganism

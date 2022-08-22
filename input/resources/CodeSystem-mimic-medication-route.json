@@ -7,7 +7,7 @@
     "name": "MimicMedicationRoute",
     "title": "MimicMedicationRoute",
     "status": "draft",
-    "date": "2022-07-25T18:22:49-04:00",
+    "date": "2022-07-29T11:34:34-04:00",
     "publisher": "KinD Lab",
     "description": "The medication route during administration for MIMIC",
     "valueSet": "http://fhir.mimic.mit.edu/ValueSet/mimic-medication-route",

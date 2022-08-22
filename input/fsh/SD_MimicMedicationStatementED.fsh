@@ -5,12 +5,12 @@ Title:          "MIMIC-ED MedicationStatement"
 Description:    "A MedicationStatement resource that represents each record in the medrecon table of MIMIC-ED."
 
 // cardinalities of updated elements
-* medicationCodeableConcept.coding 1..
 * medicationCodeableConcept.text 1..1 // medrecon: name
 * context 1..1 // Reference(Encounter)
 * dateAsserted 1..1 // medrecon: charttime
 
 // cardinalities of used elements
+* medicationCodeableConcept.coding 0..*
 * status 1..1 // Unknown
 * medication[x] 1..1
 * subject 1..1 // Reference(Patient)
