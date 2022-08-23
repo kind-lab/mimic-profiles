@@ -7,7 +7,7 @@
     "name": "MimicAdmitSource",
     "title": "MimicAdmitSource",
     "status": "draft",
-    "date": "2022-07-29T11:34:34-04:00",
+    "date": "2022-08-23T10:40:31-04:00",
     "publisher": "KinD Lab",
     "description": "The admission source for MIMIC",
     "compose": {

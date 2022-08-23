@@ -7,7 +7,7 @@
     "name": "MimicSpecTypeDesc",
     "title": "MimicSpecTypeDesc",
     "status": "draft",
-    "date": "2022-07-29T11:34:34-04:00",
+    "date": "2022-08-23T10:40:31-04:00",
     "publisher": "KinD Lab",
     "description": "The specimen type codes for microbiologyevents",
     "valueSet": "http://fhir.mimic.mit.edu/ValueSet/mimic-spec-type-desc",
