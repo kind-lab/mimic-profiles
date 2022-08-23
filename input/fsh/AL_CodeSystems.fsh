@@ -58,10 +58,10 @@ Alias: $MimicMicrobiologyOrganism_CS = http://fhir.mimic.mit.edu/CodeSystem/mimi
 Alias: $MimicMicrobiologyAntibiotic_CS = http://fhir.mimic.mit.edu/CodeSystem/mimic-microbiology-antibiotic
 Alias: $MimicMicrobiologyTest_CS = http://fhir.mimic.mit.edu/CodeSystem/mimic-microbiology-test
 Alias: $MimicObservationCategory_CS = http://fhir.mimic.mit.edu/CodeSystem/mimic-observation-category
-Alias: $ObservationInterpretation_CS
+Alias: $ObservationInterpretation_CS = http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation
 
 // location
 Alias: $HL7LocationPhysicalType = http://terminology.hl7.org/CodeSystem/location-physical-type
 
 // specimen
-Alias: $MimicLabFluid = http://fhir.mimic.mit.edu/CodeSystem/mimiclab-fluid
+Alias: $MimicLabFluid = http://fhir.mimic.mit.edu/CodeSystem/mimic-lab-fluid

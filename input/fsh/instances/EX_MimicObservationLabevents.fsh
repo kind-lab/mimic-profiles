@@ -7,7 +7,7 @@ Usage: #example
 * identifier.system = $IdentifierObservationLabevents
 * identifier.value = "284911"
 * status = #final
-* category = $MimicObservationCategory_CS#laboratory
+* category = $ObservationCategory#laboratory "Laboratory"
 * code = $MimicDLabitems_CS#50885 "Bilirubin, Total"
 * subject = Reference(ExampleMimicPatient)
 * encounter = Reference(ExampleMimicEncounter)
