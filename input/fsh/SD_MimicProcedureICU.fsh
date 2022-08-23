@@ -1,5 +1,5 @@
 Profile:        MimicProcedureICU
-Parent:         Procedure
+Parent:         us-core-procedure
 Id:             mimic-procedure-icu
 Title:          "MIMIC Procedure ICU"
 Description:    "A MIMIC procedure ICU profile based on base Procedure resource."

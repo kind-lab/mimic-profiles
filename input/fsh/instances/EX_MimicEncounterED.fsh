@@ -16,4 +16,4 @@ Usage:          #example
 * hospitalization.admitSource.text = "AMBULANCE"
 * hospitalization.dischargeDisposition.text = "ADMITTED"
 * class = $HL7ActCode#EMER "emergency"
-* type = $SCT#185347001 "Encounter for problem (procedure)"
+* type = $SCT#308335008 "Patient encounter procedure"

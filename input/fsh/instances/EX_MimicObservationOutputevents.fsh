@@ -2,8 +2,6 @@ Instance: ExampleMimicObservationOutputevents
 InstanceOf: MimicObservationOutputevents
 Usage: #example
 
-* identifier.system = $IdentifierObservationOutputevents
-* identifier.value = "37293400-2133-12-23 12:00:00-226559"
 * status = #final
 * category = $MimicObservationCategory_CS#Output
 * code = $MimicDItems_CS#226559 "Foley"

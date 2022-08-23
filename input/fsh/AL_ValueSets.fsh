@@ -42,3 +42,4 @@ Alias: $MimicMicrobiologyAntibiotic = http://fhir.mimic.mit.edu/ValueSet/mimic-m
 Alias: $MimicMicrobiologyOrganism = http://fhir.mimic.mit.edu/ValueSet/mimic-microbiology-organism
 Alias: $MimicMicrobiologyTest = http://fhir.mimic.mit.edu/ValueSet/mimic-microbiology-test
 Alias: $MimicSpecimenType = http://fhir.mimic.mit.edu/ValueSet/mimic-specimen-type
+Alias: $ObservationInterpretation = http://hl7.org/fhir/ValueSet/observation-interpretation

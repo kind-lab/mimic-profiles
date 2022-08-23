@@ -7,4 +7,4 @@ Usage:          #example
 
 * subject = Reference(ExampleMimicPatientED)
 * encounter = Reference(ExampleMimicEncounterED)
-* code = $MimicDiagnosisIcd10#V08 "Asymptomatic human immunodeficiency virus [HIV] infection status"
+* code = $MimicDiagnosisIcd9#V08 "Asymptomatic human immunodeficiency virus [HIV] infection status"
