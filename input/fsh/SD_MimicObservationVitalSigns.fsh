@@ -20,7 +20,6 @@ Description:    "An Observation resource (based on US Core Vital Signs) that rep
 
 // further specification of elements
 * status = $ObservationStatus#final "Final"
-* category = $ObservationCategory#vital-signs "Vital Signs"
 * effective[x] only dateTime
 * value[x] only Quantity
 

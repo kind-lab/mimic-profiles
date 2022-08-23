@@ -2,6 +2,9 @@ Instance: ExampleMimicObservationMicroSusc
 InstanceOf: MimicObservationMicroSusc
 Usage: #example
 
+
+* identifier.system = $IdentifierObservationMicroSusc
+* identifier.value = "12345"
 * extension.url = "http://fhir.mimic.mit.edu/StructureDefinition/dilution-details"
 * extension.valueQuantity.value = 4
 * extension.valueQuantity.comparator = #<=

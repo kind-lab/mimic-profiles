@@ -22,7 +22,7 @@ Alias: $MimicMedicationMethodICU_CS = http://fhir.mimic.mit.edu/CodeSystem/mimic
 Alias: $MimicMedicationFrequencyCS = http://fhir.mimic.mit.edu/CodeSystem/mimic-medication-frequency
 Alias: $MimicMedicationRouteCS = http://fhir.mimic.mit.edu/CodeSystem/mimic-medication-route
 
-// condtion
+// condition
 Alias: $ConditionCategory = http://terminology.hl7.org/CodeSystem/condition-category
 Alias: $MimicDiagnosisIcd10 = http://fhir.mimic.mit.edu/CodeSystem/mimic-diagnosis-icd10
 Alias: $MimicDiagnosisIcd9 = http://fhir.mimic.mit.edu/CodeSystem/mimic-diagnosis-icd9

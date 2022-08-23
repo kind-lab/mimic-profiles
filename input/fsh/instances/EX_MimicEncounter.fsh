@@ -5,7 +5,6 @@ Usage: #example
 * identifier.system = $IdentifierEncounterHSP
 * identifier.value = "22429197"
 * identifier.assigner = Reference(ExampleMimicOrganization)
-
 * class = $MimicAdmissionClassCS#"EW EMER."
 * type = $SCT#308335008 "Patient encounter procedure"
 * serviceType = $MimicServicesCS#TRAUM
