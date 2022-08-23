@@ -2,8 +2,6 @@ Instance: ExampleMimicObservationMicroOrg
 InstanceOf: MimicObservationMicroOrg
 Usage: #example
 
-* identifier.system = $IdentifierObservationMicroOrg
-* identifier.value = "90055-1715807-80023"
 * status = #final
 * category = $MimicObservationCategory_CS#laboratory
 * code = $MimicMicrobiologyOrganism_CS#80023 "STAPH AUREUS COAG +"

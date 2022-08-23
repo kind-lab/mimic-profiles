@@ -2,8 +2,6 @@ Instance: ExampleMimicProcedureICU
 InstanceOf: MimicProcedureICU
 Usage: #example
 
-* identifier.system = $IdentifierProcedureICU
-* identifier.value = "34629895-2356166-225469"
 * status = #completed
 * category = $MimicProcedureCategory_CS#"Significant Events"
 * code = $MimicDItems_CS#225469 "OR Received"

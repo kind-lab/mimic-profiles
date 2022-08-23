@@ -2,8 +2,7 @@ Instance: ExampleMimicMedicationRequest
 InstanceOf: MimicMedicationRequest
 Usage: #example
 
-* identifier.type = $MimicIdentifierType#PHID "Pharmacy identifier"
-* identifier.system = $IdentifierMedicationRequest
+* identifier.system = $IdentifierMedicationRequestPHID
 * identifier.value = "29195459"
 * status = #stopped
 * intent = #order
