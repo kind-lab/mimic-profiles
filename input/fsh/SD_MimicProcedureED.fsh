@@ -1,8 +1,8 @@
 Profile:        MimicProcedureED
 Parent:         us-core-procedure
 Id:             mimic-procedure-ed
-Title:          "MIMIC Procedure ICU"
-Description:    "A MIMIC procedure ICU profile based on US Core Procedure."
+Title:          "MIMIC Procedure ED"
+Description:    "A MIMIC procedure ED profile based on US Core Procedure."
 
 // cardinalities of updated elements
 * encounter 1..1

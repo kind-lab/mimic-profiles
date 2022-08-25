@@ -2,7 +2,7 @@ Profile:        MimicObservationVitalSigns
 Parent:         us-core-vital-signs
 Id:             mimic-observation-vital-signs
 Title:          "MIMIC-ED Observation Vital Signs"
-Description:    "An Observation resource (based on US Core Vital Signs) that represents a single measurement from a row of the triage and vitalsign tables of MIMIC-ED: only pain, temperatature, heartrate, resprate, blood pressure sbp dbp, and o2sat."
+Description:    "An Observation resource (based on US Core Vital Signs) that represents a single measurement from a row of the triage and vitalsign tables of MIMIC-ED: only pain, temperature, heartrate, resprate, blood pressure sbp dbp, and o2sat."
 
 // cardinalities of updated elements
 * partOf 1..1 // Reference(Procedure)
