@@ -15,6 +15,6 @@ Alias: $IdentifierMedicationRequestPOE = http://fhir.mimic.mit.edu/identifier/me
 
 // observation labs and micro
 Alias: $IdentifierObservationLabevents = http://fhir.mimic.mit.edu/identifier/observation-labevents
-Alias: $IdentifierObservationMicroSusc = http://fhir.mimic.mit.edu/identifier/obervation-micro-susc
+Alias: $IdentifierObservationMicroSusc = http://fhir.mimic.mit.edu/identifier/observation-micro-susc
 Alias: $IdentifierSpecimenLab = http://fhir.mimic.mit.edu/identifier/specimen-lab
 Alias: $IdentifierSpecimenMicro = http://fhir.mimic.mit.edu/identifier/specimen-micro

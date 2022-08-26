@@ -4,8 +4,9 @@ Alias: $MimicIdentifierType = http://fhir.mimic.mit.edu/CodeSystem/identifier-ty
 // units
 Alias: $MimicUnits = http://fhir.mimic.mit.edu/CodeSystem/mimic-units
 
-// Organization type
+// Organizational information
 Alias: $HL7OrganizationType = http://terminology.hl7.org/CodeSystem/organization-type
+Alias: $LocationPhysicalType = http://terminology.hl7.org/CodeSystem/location-physical-type
 
 // medication
 Alias: $NDC = http://hl7.org/fhir/sid/ndc
