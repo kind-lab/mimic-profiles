@@ -7,7 +7,7 @@ canonical: http://fhir.mimic.mit.edu
 name: MIMIC
 title: MIMIC Implementation Guide
 status: draft
-version: 1.0.0
+version: 1.0.2
 fhirVersion: 4.0.1
 copyrightYear: 2022+
 releaseLabel: Draft
