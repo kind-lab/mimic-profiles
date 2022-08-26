@@ -1,5 +1,5 @@
 Profile:        MimicObservationLabevents
-Parent:         Observation
+Parent:         us-core-observation-lab
 Id:             mimic-observation-labevents
 Title:          "MIMIC Observation Labevents"
 Description:    "A MIMIC observation labevents profile based on base observation resource"

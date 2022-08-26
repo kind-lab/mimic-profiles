@@ -1,5 +1,5 @@
 Profile:        MimicProcedure
-Parent:         Procedure
+Parent:         us-core-procedure
 Id:             mimic-procedure
 Title:          "MIMIC Procedure"
 Description:    "A MIMIC procedure profile based on base Procedure resource."

@@ -7,7 +7,7 @@
     "name": "MimicMedicationIcu",
     "title": "MimicMedicationIcu",
     "status": "draft",
-    "date": "2022-07-29T11:34:34-04:00",
+    "date": "2022-08-23T10:40:31-04:00",
     "publisher": "KinD Lab",
     "description": "All medication found in the ICU, derived from mimic_icu.d_items",
     "valueSet": "http://fhir.mimic.mit.edu/ValueSet/mimic-medication-icu",

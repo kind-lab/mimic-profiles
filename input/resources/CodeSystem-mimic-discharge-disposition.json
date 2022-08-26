@@ -7,24 +7,12 @@
     "name": "MimicDischargeDisposition",
     "title": "MimicDischargeDisposition",
     "status": "draft",
-    "date": "2022-07-29T11:34:34-04:00",
+    "date": "2022-08-23T10:40:31-04:00",
     "publisher": "KinD Lab",
     "description": "The discharge disposition for MIMIC",
     "valueSet": "http://fhir.mimic.mit.edu/ValueSet/mimic-discharge-disposition",
     "content": "complete",
     "concept": [
-        {
-            "code": "ASSISTED LIVING"
-        },
-        {
-            "code": "AGAINST ADVICE"
-        },
-        {
-            "code": "DIED"
-        },
-        {
-            "code": "HOSPICE"
-        },
         {
             "code": "ACUTE HOSPITAL"
         },
@@ -32,25 +20,58 @@
             "code": "REHAB"
         },
         {
-            "code": "OTHER FACILITY"
+            "code": "LEFT AGAINST MEDICAL ADVICE"
         },
         {
-            "code": "SKILLED NURSING FACILITY"
+            "code": "OTHER"
         },
         {
             "code": "PSYCH FACILITY"
         },
         {
-            "code": "CHRONIC/LONG TERM ACUTE CARE"
+            "code": "EXPIRED"
         },
         {
-            "code": "HEALTHCARE FACILITY"
+            "code": "HOME"
+        },
+        {
+            "code": "AGAINST ADVICE"
+        },
+        {
+            "code": "TRANSFER"
+        },
+        {
+            "code": "HOSPICE"
+        },
+        {
+            "code": "ELOPED"
+        },
+        {
+            "code": "SKILLED NURSING FACILITY"
+        },
+        {
+            "code": "OTHER FACILITY"
+        },
+        {
+            "code": "CHRONIC/LONG TERM ACUTE CARE"
         },
         {
             "code": "HOME HEALTH CARE"
         },
         {
-            "code": "HOME"
+            "code": "HEALTHCARE FACILITY"
+        },
+        {
+            "code": "LEFT WITHOUT BEING SEEN"
+        },
+        {
+            "code": "ADMITTED"
+        },
+        {
+            "code": "ASSISTED LIVING"
+        },
+        {
+            "code": "DIED"
         }
     ]
 }
