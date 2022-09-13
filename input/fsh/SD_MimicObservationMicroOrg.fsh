@@ -1,8 +1,8 @@
 Profile:        MimicObservationMicroOrg
-Parent:         us-core-observation-lab
+Parent:         Observation
 Id:             mimic-observation-micro-org
 Title:          "MIMIC Observation Micro Org"
-Description:    "A MIMIC observation microbiology organism profile based on the base observation resource"
+Description:    "A MIMIC observation microbiology organism profile based on the FHIR R4 observation resource"
 
 // cardinalities of updated elements
 * effective[x] 1..1
@@ -19,6 +19,7 @@ Description:    "A MIMIC observation microbiology organism profile based on the 
 // further specification of elements
 * effective[x] only dateTime
 * value[x] only string
+* category = $ObservationCategory#laboratory "Laboratory"
  
 // binding to MIMIC terminology
 * code from $MimicMicrobiologyOrganism

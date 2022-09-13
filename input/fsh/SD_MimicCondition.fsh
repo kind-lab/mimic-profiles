@@ -1,8 +1,8 @@
 Profile:        MimicCondition
-Parent:         us-core-condition
+Parent:         Condition
 Id:             mimic-condition
 Title:          "MIMIC Condition"
-Description:    "A MIMIC condition profile based on US Core Condition."
+Description:    "A MIMIC condition profile based on FHIR R4 Condition."
 
 // cardinalities of updated elements
 * encounter 1..1

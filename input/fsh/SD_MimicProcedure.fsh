@@ -1,8 +1,8 @@
 Profile:        MimicProcedure
-Parent:         us-core-procedure
+Parent:         Procedure
 Id:             mimic-procedure
 Title:          "MIMIC Procedure"
-Description:    "A MIMIC procedure profile based on base Procedure resource."
+Description:    "A MIMIC procedure profile based on FHIR R4 Procedure resource."
 
 // cardinalities of updated elements
 * encounter 1..1
