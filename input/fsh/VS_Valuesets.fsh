@@ -47,7 +47,7 @@ ValueSet: MimicObservationCategoryED
 Id: mimic-observation-category-ed
 Title: "MIMIC-ED Observation Resource Category Value Set"
 Description: "Selected codes from the ObservationCategoryCodes value set."
-// * $ObservationCategory#survey "Survey" // pain (REMOVED AS PAIN IS NOW IN VITALSIGNS)
+* $ObservationCategory#survey "Survey" // pain 
 * $ObservationCategory#exam "Exam" // rhythm
 
 ValueSet: MimicObservationTypeED

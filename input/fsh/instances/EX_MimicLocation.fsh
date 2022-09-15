@@ -1,5 +1,5 @@
 Instance: ExampleLocation
-InstanceOf: us-core-location
+InstanceOf: MimicLocation
 Usage: #example
 
 * status = #active

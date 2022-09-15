@@ -2,7 +2,7 @@ Profile:        MimicObservationOutputevents
 Parent:         Observation
 Id:             mimic-observation-outputevents
 Title:          "MIMIC Observation Outputevents"
-Description:    "A MIMIC observation outputevents profile based on the base observation resource"
+Description:    "A MIMIC observation outputevents profile based on the FHIR R4 observation resource"
 
 // cardinalities of updated elements
 * category 1..1

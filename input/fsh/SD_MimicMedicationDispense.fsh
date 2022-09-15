@@ -2,7 +2,7 @@ Profile:        MimicMedicationDispense
 Parent:         MedicationDispense
 Id:             mimic-medication-dispense
 Title:          "MIMIC Medication Dispense"
-Description:    "A MIMIC medication dispense profile based on the base FHIR medication dispense resource."
+Description:    "A MIMIC medication dispense profile based on the FHIR R4 medication dispense resource."
 
 // cardinalities of update elements
 * identifier 1..*

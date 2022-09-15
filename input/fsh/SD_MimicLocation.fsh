@@ -1,8 +1,8 @@
 Profile:        MimicLocation
-Parent:         us-core-location
+Parent:         Location
 Id:             mimic-location
 Title:          "MIMIC Location"
-Description:    "A MIMIC location profile based on US Core Location."
+Description:    "A MIMIC location profile based on FHIR R4 Location."
 
 // cardinalities of used elements
 * name 1..1

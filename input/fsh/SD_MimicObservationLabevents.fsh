@@ -1,8 +1,8 @@
 Profile:        MimicObservationLabevents
-Parent:         us-core-observation-lab
+Parent:         Observation
 Id:             mimic-observation-labevents
 Title:          "MIMIC Observation Labevents"
-Description:    "A MIMIC observation labevents profile based on base observation resource"
+Description:    "A MIMIC observation labevents profile based on FHIR R4 observation resource"
 
 // cardinalities of updated elements
 * identifier 1..*
@@ -24,6 +24,7 @@ Description:    "A MIMIC observation labevents profile based on base observation
 // further specification of elements
 * value[x] only string or Quantity
 * effective[x] only dateTime
+* category = $ObservationCategory#laboratory "Laboratory"
 
 // binding to MIMIC terminology
 * identifier.system = $IdentifierObservationLabevents

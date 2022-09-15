@@ -1,8 +1,8 @@
 Profile:        MimicObservationMicroTest
-Parent:         us-core-observation-lab
+Parent:         Observation
 Id:             mimic-observation-micro-test
 Title:          "MIMIC Observation Micro Test"
-Description:    "A MIMIC observation microbiology test profile based on the base observation resource"
+Description:    "A MIMIC observation microbiology test profile based on the FHIR R4 observation resource"
 
 // cardinalities of updated elements
 * specimen 1..1
@@ -20,6 +20,7 @@ Description:    "A MIMIC observation microbiology test profile based on the base
 // further specification of elements
 * effective[x] only dateTime
 * value[x] only string or CodeableConcept
+* category = $ObservationCategory#laboratory "Laboratory"
 
 // binding to MIMIC terminology
 * code from $MimicMicrobiologyTest

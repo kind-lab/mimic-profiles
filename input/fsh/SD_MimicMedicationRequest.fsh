@@ -2,7 +2,7 @@ Profile:        MimicMedicationRequest
 Parent:         MedicationRequest
 Id:             mimic-medication-request
 Title:          "MIMIC Medication Request"
-Description:    "A MIMIC medication request profile based on the base FHIR medication request resource."
+Description:    "A MIMIC medication request profile based on the FHIR R4 medication request resource."
 
 // cardinalities of updated elements
 * identifier 1..1
