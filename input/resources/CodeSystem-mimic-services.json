@@ -2,15 +2,15 @@
     "resourceType": "CodeSystem",
     "id": "mimic-services",
     "language": "en",
-    "url": "http://fhir.mimic.mit.edu/CodeSystem/mimic-services",
+    "url": "http://mimic.mit.edu/fhir/CodeSystem/mimic-services",
     "version": "2.0",
     "name": "MimicServices",
     "title": "MimicServices",
     "status": "draft",
-    "date": "2022-08-23T10:40:31-04:00",
+    "date": "2022-09-15T15:52:00-04:00",
     "publisher": "KinD Lab",
     "description": "The hospital services for MIMIC",
-    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/mimic-services",
+    "valueSet": "http://mimic.mit.edu/fhir/ValueSet/mimic-services",
     "content": "complete",
     "concept": [
         {

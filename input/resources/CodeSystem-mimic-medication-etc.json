@@ -2,15 +2,15 @@
     "resourceType": "CodeSystem",
     "id": "mimic-medication-etc",
     "language": "en",
-    "url": "http://fhir.mimic.mit.edu/CodeSystem/mimic-medication-etc",
+    "url": "http://mimic.mit.edu/fhir/CodeSystem/mimic-medication-etc",
     "version": "2.0",
     "name": "MimicMedicationEtc",
     "title": "MimicMedicationEtc",
     "status": "draft",
-    "date": "2022-08-23T10:40:31-04:00",
+    "date": "2022-09-15T15:52:00-04:00",
     "publisher": "KinD Lab",
     "description": "The medication ETC (enhanced therapeutic class) codes for MIMIC",
-    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/mimic-medication-etc",
+    "valueSet": "http://mimic.mit.edu/fhir/ValueSet/mimic-medication-etc",
     "content": "complete",
     "concept": [
         {
@@ -42,12 +42,12 @@
             "display": "Chemicals - Solvents"
         },
         {
-            "code": "00000889",
-            "display": "Otic (Ear) - Glucocorticoids"
-        },
-        {
             "code": "00006688",
             "display": "Dermatitis or Eczema Agents, Systemic-Interleukin-4 (IL-4Ra) Antag.MAb"
+        },
+        {
+            "code": "00000889",
+            "display": "Otic (Ear) - Glucocorticoids"
         },
         {
             "code": "00004543",
@@ -298,16 +298,16 @@
             "display": "Mouth and Throat - Local Anesthetic and Antiseptic Lozenges"
         },
         {
-            "code": "00001149",
-            "display": "Medical Supplies and DME - Ostomy Supplies"
-        },
-        {
             "code": "00003162",
             "display": "1st Generation Antihistamine-Decongestant Combinations"
         },
         {
             "code": "00000253",
             "display": "Diuretic - Potassium Sparing"
+        },
+        {
+            "code": "00001149",
+            "display": "Medical Supplies and DME - Ostomy Supplies"
         },
         {
             "code": "00006654",
@@ -350,12 +350,12 @@
             "display": "Dermatological - Keratoplastic Tar Products"
         },
         {
-            "code": "00001132",
-            "display": "Medical Supplies and DME - Parenteral Therapy Supplies"
-        },
-        {
             "code": "00006818",
             "display": "Asthma Therapy - Interleukin-4 (IL-4) Receptor Alpha Antagonists, MAb"
+        },
+        {
+            "code": "00001132",
+            "display": "Medical Supplies and DME - Parenteral Therapy Supplies"
         },
         {
             "code": "00006783",
@@ -394,12 +394,12 @@
             "display": "Contraceptive Intrauterine - Progesterone IUD"
         },
         {
-            "code": "00003649",
-            "display": "Salicylate Analgesic Combinations"
-        },
-        {
             "code": "00006020",
             "display": "Dermatological - Antifungal Hydroxypyridinone"
+        },
+        {
+            "code": "00003649",
+            "display": "Salicylate Analgesic Combinations"
         },
         {
             "code": "00006525",
@@ -510,12 +510,12 @@
             "display": "Cardiac Inotropes - Phosphodiesterase Inhibitors"
         },
         {
-            "code": "00005956",
-            "display": "Patent Ductus Arteriosus (PDA) Treatment Agents , NSAID-type"
-        },
-        {
             "code": "00006255",
             "display": "Antineoplastic - Halichondrin B Analogs, Microtubule Inhibitors"
+        },
+        {
+            "code": "00005956",
+            "display": "Patent Ductus Arteriosus (PDA) Treatment Agents , NSAID-type"
         },
         {
             "code": "00006251",
@@ -590,12 +590,12 @@
             "display": "Non-Opioid Antitussive-Decongestant Combinations"
         },
         {
-            "code": "00002586",
-            "display": "Antidepressant - MAO Inhibitor Nonselective and Irreversible-Types A,B"
-        },
-        {
             "code": "00000324",
             "display": "Mucolytics"
+        },
+        {
+            "code": "00002586",
+            "display": "Antidepressant - MAO Inhibitor Nonselective and Irreversible-Types A,B"
         },
         {
             "code": "00000935",
@@ -626,12 +626,12 @@
             "display": "GI Antispasmodic and Benzodiazepine Combinations"
         },
         {
-            "code": "00000727",
-            "display": "Geriatric Vitamins"
-        },
-        {
             "code": "00000221",
             "display": "Antiarrhythmic - Class II"
+        },
+        {
+            "code": "00000727",
+            "display": "Geriatric Vitamins"
         },
         {
             "code": "00006295",
@@ -778,12 +778,12 @@
             "display": "Nutritional Product - MSUD Specific Formulation"
         },
         {
-            "code": "00000536",
-            "display": "Antipsychotic - Atypical Dopamine-Serotonin Antag-Dibenzodiazepine Der"
-        },
-        {
             "code": "00001247",
             "display": "Immunosuppressive - Calcineurin Inhibitors"
+        },
+        {
+            "code": "00000536",
+            "display": "Antipsychotic - Atypical Dopamine-Serotonin Antag-Dibenzodiazepine Der"
         },
         {
             "code": "00003196",
@@ -798,12 +798,12 @@
             "display": "Antineoplastic - Topoisomerase I Inhibitors"
         },
         {
-            "code": "00000109",
-            "display": "Antineoplastic - LHRH (GnRH) Agonist Analog Pituitary Suppressants"
-        },
-        {
             "code": "00006152",
             "display": "Dextrose Solutions"
+        },
+        {
+            "code": "00000109",
+            "display": "Antineoplastic - LHRH (GnRH) Agonist Analog Pituitary Suppressants"
         },
         {
             "code": "00000742",
@@ -922,12 +922,12 @@
             "display": "Medical Supplies and DME - Feeding Tubes and Supplies"
         },
         {
-            "code": "00005633",
-            "display": "Salicylate Analgesics, Buffered"
-        },
-        {
             "code": "00006199",
             "display": "Anticonvulsant - Functionalized Amino Acid"
+        },
+        {
+            "code": "00005633",
+            "display": "Salicylate Analgesics, Buffered"
         },
         {
             "code": "00000561",
@@ -950,12 +950,12 @@
             "display": "Urinary Antispasmodic - Anticholinergics, Non-Selective"
         },
         {
-            "code": "00006092",
-            "display": "Human Insulins - Intermediate Acting"
-        },
-        {
             "code": "00002541",
             "display": "Antianxiety Agent - Antihistamine Type"
+        },
+        {
+            "code": "00006092",
+            "display": "Human Insulins - Intermediate Acting"
         },
         {
             "code": "00005781",
@@ -986,12 +986,12 @@
             "display": "Non-Opioid Antitus-1st Gen Antihist.-Decongest-Analgesic,Non-Salicylat"
         },
         {
-            "code": "00002704",
-            "display": "CMV Antiviral Agent - Nucleoside Analogs"
-        },
-        {
             "code": "00006121",
             "display": "Medical Supplies and DME - Crutches, Walkers, and related devices"
+        },
+        {
+            "code": "00002704",
+            "display": "CMV Antiviral Agent - Nucleoside Analogs"
         },
         {
             "code": "00005785",
@@ -1122,12 +1122,12 @@
             "display": "Sodium Chloride Solutions, Concentrated"
         },
         {
-            "code": "00005850",
-            "display": "Antiretroviral Combinations - Protease Inhibitors"
-        },
-        {
             "code": "00000825",
             "display": "Hematorheologic Agents"
+        },
+        {
+            "code": "00005850",
+            "display": "Antiretroviral Combinations - Protease Inhibitors"
         },
         {
             "code": "00000666",
@@ -1178,12 +1178,12 @@
             "display": "Antineoplastic - Alkylating Agent - Other"
         },
         {
-            "code": "00000804",
-            "display": "Heparins"
-        },
-        {
             "code": "00000734",
             "display": "Minerals and Electrolytes - Calcium Replacement Combinations"
+        },
+        {
+            "code": "00000804",
+            "display": "Heparins"
         },
         {
             "code": "00006765",
@@ -1338,12 +1338,12 @@
             "display": "Nutritional Product - Urea Cycle Disorder Specific Formulation"
         },
         {
-            "code": "00003003",
-            "display": "Antiemetic - Cannabinoid Type"
-        },
-        {
             "code": "00000508",
             "display": "Urinary Acidifier - Phosphates"
+        },
+        {
+            "code": "00003003",
+            "display": "Antiemetic - Cannabinoid Type"
         },
         {
             "code": "00006399",
@@ -1426,16 +1426,16 @@
             "display": "Urinary Anti-infective Methenamine-Antispas-Analg Combinations"
         },
         {
-            "code": "00005913",
-            "display": "DMARD - Antinflammatory, Select. costimulation modulator,T-cell Inhib."
+            "code": "00006671",
+            "display": "Contraceptives - Intravaginal, Systemic - Estrogen and Progestin Comb."
         },
         {
             "code": "00005718",
             "display": "Ophthalmic - Anti-inflammatory, Immunomodulators"
         },
         {
-            "code": "00006671",
-            "display": "Contraceptives - Intravaginal, Systemic - Estrogen and Progestin Comb."
+            "code": "00005913",
+            "display": "DMARD - Antinflammatory, Select. costimulation modulator,T-cell Inhib."
         },
         {
             "code": "00006022",
@@ -1638,12 +1638,12 @@
             "display": "Immunomodulator B-Lymphocyte Stimulator (BLyS)-Specific Inhibitor MCAB"
         },
         {
-            "code": "00006397",
-            "display": "Antihyperglycemic - Sodium Glucose Cotransporter-2 (SGLT2) Inhibitors"
-        },
-        {
             "code": "00003376",
             "display": "Dermatological - Emollients"
+        },
+        {
+            "code": "00006397",
+            "display": "Antihyperglycemic - Sodium Glucose Cotransporter-2 (SGLT2) Inhibitors"
         },
         {
             "code": "00002656",
@@ -1690,16 +1690,16 @@
             "display": "Skeletal Muscle Relaxant - Central Muscle Relaxants"
         },
         {
+            "code": "00000663",
+            "display": "Vitamins - B-6, Pyridoxine and Derivatives"
+        },
+        {
             "code": "00000865",
             "display": "Ophthalmic-Intraocular Press. Reducing, Sel. Alpha Adrenergic Agonists"
         },
         {
             "code": "00005859",
             "display": "Narcolepsy Therapy Agents - Stimulant-Type, Piperadine Derivative"
-        },
-        {
-            "code": "00000663",
-            "display": "Vitamins - B-6, Pyridoxine and Derivatives"
         },
         {
             "code": "00003010",
@@ -1814,12 +1814,12 @@
             "display": "Sedative-Hypnotic - Others"
         },
         {
-            "code": "00002623",
-            "display": "Aminopenicillin Antibiotic - Beta-lactamase Inhibitor Combinations"
-        },
-        {
             "code": "00006600",
             "display": "Antineoplastic - MEK1 and MEK2 Kinase Inhibitors"
+        },
+        {
+            "code": "00002623",
+            "display": "Aminopenicillin Antibiotic - Beta-lactamase Inhibitor Combinations"
         },
         {
             "code": "00006262",
@@ -1990,12 +1990,12 @@
             "display": "Antipsychotic -Atypical Dopamine-Serotonin Antag-Dibenzothiazepine Der"
         },
         {
-            "code": "00006256",
-            "display": "Vaginal Lubricants and Moisturizers"
-        },
-        {
             "code": "00003307",
             "display": "Dermatological - Burn Products Anti-infective"
+        },
+        {
+            "code": "00006256",
+            "display": "Vaginal Lubricants and Moisturizers"
         },
         {
             "code": "00000220",
@@ -2022,12 +2022,12 @@
             "display": "Dermatological - Antipsoriatic Agents Systemic, Photosensitizing"
         },
         {
-            "code": "00005708",
-            "display": "Anti-inflammatory Tumor Necrosis Factor Inhibiting Agnts,TNF-alpha Sel"
-        },
-        {
             "code": "00000750",
             "display": "Minerals and Electrolytes - Trace Minerals"
+        },
+        {
+            "code": "00005708",
+            "display": "Anti-inflammatory Tumor Necrosis Factor Inhibiting Agnts,TNF-alpha Sel"
         },
         {
             "code": "00005998",
@@ -2250,12 +2250,12 @@
             "display": "Antacid Combinations Other"
         },
         {
-            "code": "00002591",
-            "display": "Bipolar Therapy Agents - Lithium"
-        },
-        {
             "code": "00006137",
             "display": "Chelating Agents - Copper"
+        },
+        {
+            "code": "00002591",
+            "display": "Bipolar Therapy Agents - Lithium"
         },
         {
             "code": "00000835",
@@ -2462,12 +2462,12 @@
             "display": "Penicillin Antibiotic - Penicillinase-resistant"
         },
         {
-            "code": "00006421",
-            "display": "Live Vaccine and Live Virus Formulations"
-        },
-        {
             "code": "00002622",
             "display": "Penicillin Antibiotic, Extended-spectrum and Beta-lactamase Inhib Comb"
+        },
+        {
+            "code": "00006421",
+            "display": "Live Vaccine and Live Virus Formulations"
         },
         {
             "code": "00003274",
@@ -2542,12 +2542,12 @@
             "display": "Dermatological - Retinoids (Vitamin A Derivatives) - Topical Cosmetic"
         },
         {
-            "code": "00003515",
-            "display": "Vitamins - B Preparation Combinations"
-        },
-        {
             "code": "00002689",
             "display": "Antiparkinson Adjuvant - Peripheral Dopa-decarboxylase Inhibitors"
+        },
+        {
+            "code": "00003515",
+            "display": "Vitamins - B Preparation Combinations"
         },
         {
             "code": "00003041",
@@ -2694,12 +2694,12 @@
             "display": "Pulmonary Fibrosis Treatment Agents - Multikinase Inhibitors"
         },
         {
-            "code": "00000131",
-            "display": "Estrogen-Androgen"
-        },
-        {
             "code": "00006492",
             "display": "Sedative-Hypnotic - Orexin Receptor Antagonist"
+        },
+        {
+            "code": "00000131",
+            "display": "Estrogen-Androgen"
         },
         {
             "code": "00005675",
@@ -2798,12 +2798,12 @@
             "display": "Antianxiety Agent - Non-Benzodiazepine"
         },
         {
-            "code": "00000544",
-            "display": "Sedative-Hypnotic - Benzodiazepines"
-        },
-        {
             "code": "00003352",
             "display": "Dermatological - Keratolytic-Antimitotic Single Agents"
+        },
+        {
+            "code": "00000544",
+            "display": "Sedative-Hypnotic - Benzodiazepines"
         },
         {
             "code": "00004511",
@@ -2966,12 +2966,12 @@
             "display": "Cephalosporin Antibiotics - 4th Generation"
         },
         {
-            "code": "00006219",
-            "display": "Attention Deficit-Hyperact. Disorder (ADHD)- alpha-2 Receptor Agonist"
-        },
-        {
             "code": "00006505",
             "display": "Hepatitis C - NS5B Polymerase and NS5A Inhibitor Combinations"
+        },
+        {
+            "code": "00006219",
+            "display": "Attention Deficit-Hyperact. Disorder (ADHD)- alpha-2 Receptor Agonist"
         },
         {
             "code": "00000184",
@@ -3018,12 +3018,12 @@
             "display": "Antipsoriatic - Vitamin D Analog - Glucocorticoid Combinations"
         },
         {
-            "code": "00000840",
-            "display": "Ophthalmic Antibiotic - Sulfonamides"
-        },
-        {
             "code": "00006149",
             "display": "Medical Supplies and DME - Subcutaneous Insulin Pump"
+        },
+        {
+            "code": "00000840",
+            "display": "Ophthalmic Antibiotic - Sulfonamides"
         },
         {
             "code": "00003379",
@@ -3214,12 +3214,12 @@
             "display": "Dermatological - Antineoplastic Retinoids"
         },
         {
-            "code": "00002669",
-            "display": "Antitubercular - Rifamycin and Derivatives"
-        },
-        {
             "code": "00003408",
             "display": "Dermatological - Antiperspirants"
+        },
+        {
+            "code": "00002669",
+            "display": "Antitubercular - Rifamycin and Derivatives"
         },
         {
             "code": "00001175",
@@ -3754,16 +3754,16 @@
             "display": "1st Generation Antihistamine-Decongestant-Analgesic, Non-Salicylate"
         },
         {
-            "code": "00006086",
-            "display": "Human Insulins - Fixed Combinations"
-        },
-        {
             "code": "00001272",
             "display": "Antifungal - Amphoteric Polyene Macrolides"
         },
         {
             "code": "00006609",
             "display": "PAH Agents - Selective Prostacyclin Receptor (IP) Agonists"
+        },
+        {
+            "code": "00006086",
+            "display": "Human Insulins - Fixed Combinations"
         },
         {
             "code": "00000767",
@@ -3906,12 +3906,12 @@
             "display": "Bone Formation Stimulating Agents - Parathyroid Hormone-Type"
         },
         {
-            "code": "00006638",
-            "display": "Analgesic Opioid Hydrocodone and NSAID Combinations"
-        },
-        {
             "code": "00006516",
             "display": "Antineoplastic - Poly (ADP-ribose) polymerase (PARP) inhibitors"
+        },
+        {
+            "code": "00006638",
+            "display": "Analgesic Opioid Hydrocodone and NSAID Combinations"
         },
         {
             "code": "00002609",
@@ -3938,12 +3938,12 @@
             "display": "Postherpetic Neuralgia Agents"
         },
         {
-            "code": "00006520",
-            "display": "Anti-Obesity - Glucagon-Like Peptide-1 (GLP-1) Receptor Agonists"
-        },
-        {
             "code": "00005988",
             "display": "Angiotensin II Receptor Blocker (ARB)-Calcium Channel Blocker Comb."
+        },
+        {
+            "code": "00006520",
+            "display": "Anti-Obesity - Glucagon-Like Peptide-1 (GLP-1) Receptor Agonists"
         },
         {
             "code": "00000811",
@@ -4014,12 +4014,12 @@
             "display": "Dermatological - Antibacterial,Antifungal Agent with Glucocorticoid"
         },
         {
-            "code": "00005953",
-            "display": "Acne Therapy Systemic - Tetracyclines"
-        },
-        {
             "code": "00006250",
             "display": "Emergency Contraceptives - Progestin Type"
+        },
+        {
+            "code": "00005953",
+            "display": "Acne Therapy Systemic - Tetracyclines"
         },
         {
             "code": "00005732",
@@ -4078,12 +4078,12 @@
             "display": "Minerals and Electrolytes - Sodium Chloride, Oral"
         },
         {
-            "code": "00003365",
-            "display": "Dermatological - Antibacterial-Glucocorticoid Combinations"
-        },
-        {
             "code": "00006132",
             "display": "Nutritional Product - Ketogenic Formulation"
+        },
+        {
+            "code": "00003365",
+            "display": "Dermatological - Antibacterial-Glucocorticoid Combinations"
         },
         {
             "code": "00001259",
@@ -4286,12 +4286,12 @@
             "display": "Adrenocorticotrophic Hormones"
         },
         {
-            "code": "00005844",
-            "display": "Rifamycins and Related Derivative Antibiotics"
-        },
-        {
             "code": "00006027",
             "display": "Anticonvulsant - Pyrrolidine Derivatives"
+        },
+        {
+            "code": "00005844",
+            "display": "Rifamycins and Related Derivative Antibiotics"
         },
         {
             "code": "00002722",
@@ -4358,12 +4358,12 @@
             "display": "DMARD - Janus Kinase (JAK) Inhibitors"
         },
         {
-            "code": "00005855",
-            "display": "Leukocyte adhesion inhibitors, alpha4-mediated, IgG4k mc antibody"
-        },
-        {
             "code": "00006672",
             "display": "Contraceptive Transdermal Combinations - Estrogen and Progestin Comb."
+        },
+        {
+            "code": "00005855",
+            "display": "Leukocyte adhesion inhibitors, alpha4-mediated, IgG4k mc antibody"
         },
         {
             "code": "00000870",
@@ -4542,12 +4542,12 @@
             "display": "Aromatic Antitussive Demulcents"
         },
         {
-            "code": "00005892",
-            "display": "Protease Inhibitors (Non-Peptidic) Antiretroviral"
-        },
-        {
             "code": "00001095",
             "display": "Alternative Therapy - Pineal Hormone Agents"
+        },
+        {
+            "code": "00005892",
+            "display": "Protease Inhibitors (Non-Peptidic) Antiretroviral"
         },
         {
             "code": "00002858",
@@ -4698,16 +4698,16 @@
             "display": "Medical Supplies and DME - Vaporizers"
         },
         {
+            "code": "00002710",
+            "display": "Antileprotic - Sulfone Agents"
+        },
+        {
             "code": "00000754",
             "display": "Minerals and Electrolytes - Parenteral Electrolyte Combinations"
         },
         {
             "code": "00006433",
             "display": "Antineoplastic - Bruton's tyrosine kinase (BTK) inhibitor"
-        },
-        {
-            "code": "00002710",
-            "display": "Antileprotic - Sulfone Agents"
         },
         {
             "code": "00000590",
@@ -4726,12 +4726,12 @@
             "display": "Asthma Therapy - Monoclonal Antibodies to Immunoglobulin E (IgE)"
         },
         {
-            "code": "00000929",
-            "display": "Anorectal - Hemorrhoidal Single Agents Other"
-        },
-        {
             "code": "00006684",
             "display": "Chronic Idiopathic Const. Agents - Guanylate Cyclase-C (GC-C) Agonists"
+        },
+        {
+            "code": "00000929",
+            "display": "Anorectal - Hemorrhoidal Single Agents Other"
         },
         {
             "code": "00003572",

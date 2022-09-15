@@ -2,15 +2,15 @@
     "resourceType": "CodeSystem",
     "id": "mimic-procedure-icd10",
     "language": "en",
-    "url": "http://fhir.mimic.mit.edu/CodeSystem/mimic-procedure-icd10",
+    "url": "http://mimic.mit.edu/fhir/CodeSystem/mimic-procedure-icd10",
     "version": "2.0",
     "name": "MimicProcedureIcd10",
     "title": "MimicProcedureIcd10",
     "status": "draft",
-    "date": "2022-08-23T10:40:31-04:00",
+    "date": "2022-09-15T15:52:00-04:00",
     "publisher": "KinD Lab",
     "description": "The procedure ICD10 codes for MIMIC",
-    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/mimic-procedure-icd10",
+    "valueSet": "http://mimic.mit.edu/fhir/ValueSet/mimic-procedure-icd10",
     "content": "complete",
     "concept": [
         {

@@ -2,18 +2,18 @@
     "resourceType": "ValueSet",
     "id": "mimic-units",
     "language": "en",
-    "url": "http://fhir.mimic.mit.edu/ValueSet/mimic-units",
+    "url": "http://mimic.mit.edu/fhir/ValueSet/mimic-units",
     "version": "2.0",
     "name": "MimicUnits",
     "title": "MimicUnits",
     "status": "draft",
-    "date": "2022-08-23T10:40:31-04:00",
+    "date": "2022-09-15T15:52:00-04:00",
     "publisher": "KinD Lab",
     "description": "The units used throughout MIMIC",
     "compose": {
         "include": [
             {
-                "system": "http://fhir.mimic.mit.edu/CodeSystem/mimic-units"
+                "system": "http://mimic.mit.edu/fhir/CodeSystem/mimic-units"
             }
         ]
     }

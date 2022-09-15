@@ -2,15 +2,14 @@
     "resourceType": "CodeSystem",
     "id": "mimic-admission-type",
     "language": "en",
-    "url": "http://fhir.mimic.mit.edu/CodeSystem/mimic-admission-type",
+    "url": "http://mimic.mit.edu/fhir/CodeSystem/mimic-admission-type",
     "version": "2.0",
     "name": "MimicAdmissionType",
     "title": "MimicAdmissionType",
     "status": "draft",
-    "date": "2022-08-23T10:40:31-04:00",
+    "date": "2022-09-15T15:52:00-04:00",
     "publisher": "KinD Lab",
     "description": "The admission type for MIMIC",
-    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/mimic-admission-type",
     "content": "complete",
     "concept": [
         {
