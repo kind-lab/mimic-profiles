@@ -3,7 +3,7 @@
 # │  supported properties, see: https://fshschool.org/docs/sushi/configuration/                    │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: kindlab.fhir.mimic
-canonical: http://fhir.mimic.mit.edu
+canonical: http://mimic.mit.edu/fhir
 name: MIMIC
 title: MIMIC Implementation Guide
 status: draft
