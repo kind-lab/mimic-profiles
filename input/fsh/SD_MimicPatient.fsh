@@ -15,15 +15,14 @@ Description:    "A MIMIC patient based on FHIR R4 Patient."
 * deceasedDateTime 0..1
 * communication 0..*
 * managingOrganization 0..1
-//* extension[race].extension[text] 1..1 
 
 // add in US Core extensions for race, ethnicity, and birthsex
-// Identifier slicing
-
 * extension contains
   $UsCoreRaceExtension named race 0..1 
   and $UsCoreEthnicityExtension named ethnicity 0..1
   and $UsCoreBirthSexExtension named birthsex 0..1
+
+* extension[race].extension[text] 1..1 
 
 // binding to MIMIC terminology
 * identifier.system = $IdentifierPatient
