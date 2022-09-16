@@ -48,7 +48,6 @@ Terminology used throughout MIMIC was captured into FHIR terminology systems. Th
 
 ### MIMIC ValueSets
 Listing non canonical valuesets for MIMIC-profiles
-- [MimicCharteventsDItems]
 - [MimicDatetimeeventsDItems]
 - [MimicDiagnosisICD]
 - [MimicMedication]
