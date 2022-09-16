@@ -7,7 +7,7 @@ A great deal of interest exists around FHIR development using real world fhir st
 
 ### Background
 
-The Medical Information Mart for Intensive Care (MIMIC)-IV is a database of critical care records ~40,000 patients admitted to Beth Israel Deaconess Medical Center (BIDMC). 
+The Medical Information Mart for Intensive Care (MIMIC)-IV is a database of critical care records ~300,000 patients admitted to Beth Israel Deaconess Medical Center (BIDMC). 
 
 
 ### Walkthrough of Implementation Guide
@@ -24,22 +24,26 @@ The Medical Information Mart for Intensive Care (MIMIC)-IV is a database of crit
 ### MIMIC Profiles
 - [MIMIC Condition]
 - [MIMIC Encounter]
-- [MIMIC Encounter ICU]
 - [MIMIC Medication]
 - [MIMIC Medication Administration]
 - [MIMIC Medication Administration ICU]
 - [MIMIC Medication Dispense]
+- [MIMIC Medication Dispense ED]
 - [MIMIC Medication Request]
+- [MIMIC Medication Statement ED]
 - [MIMIC Observation Chartevents]
 - [MIMIC Observation Datetimeevents]
+- [MIMIC Observation ED]
 - [MIMIC ObservationLabevents]
 - [MIMIC Observation Micro Org]
 - [MIMIC Observation Micro Susc]
 - [MIMIC Observation Micro Test]
 - [MIMIC Observation Outputevents]
+- [MIMIC Observation Vital Signs]
 - [MIMIC Organization]
 - [MIMIC Patient]
 - [MIMIC Procedure]
+- [MIMIC Procedure ED]
 - [MIMIC Procedure ICU]
 - [MIMIC Specimen]
 
