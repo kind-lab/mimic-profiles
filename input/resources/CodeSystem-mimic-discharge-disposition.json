@@ -2,15 +2,15 @@
     "resourceType": "CodeSystem",
     "id": "mimic-discharge-disposition",
     "language": "en",
-    "url": "http://fhir.mimic.mit.edu/CodeSystem/mimic-discharge-disposition",
+    "url": "http://mimic.mit.edu/fhir/CodeSystem/mimic-discharge-disposition",
     "version": "2.0",
     "name": "MimicDischargeDisposition",
     "title": "MimicDischargeDisposition",
     "status": "draft",
-    "date": "2022-08-23T10:40:31-04:00",
+    "date": "2022-09-15T15:52:00-04:00",
     "publisher": "KinD Lab",
     "description": "The discharge disposition for MIMIC",
-    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/mimic-discharge-disposition",
+    "valueSet": "http://mimic.mit.edu/fhir/ValueSet/mimic-discharge-disposition",
     "content": "complete",
     "concept": [
         {

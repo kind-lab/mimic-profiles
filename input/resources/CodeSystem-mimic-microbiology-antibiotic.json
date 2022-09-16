@@ -2,15 +2,15 @@
     "resourceType": "CodeSystem",
     "id": "mimic-microbiology-antibiotic",
     "language": "en",
-    "url": "http://fhir.mimic.mit.edu/CodeSystem/mimic-microbiology-antibiotic",
+    "url": "http://mimic.mit.edu/fhir/CodeSystem/mimic-microbiology-antibiotic",
     "version": "2.0",
     "name": "MimicMicrobiologyAntibiotic",
     "title": "MimicMicrobiologyAntibiotic",
     "status": "draft",
-    "date": "2022-08-23T10:40:31-04:00",
+    "date": "2022-09-15T15:52:00-04:00",
     "publisher": "KinD Lab",
     "description": "The microbiology antibiotic being tested on an organism in MIMIC",
-    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/mimic-microbiology-antibiotic",
+    "valueSet": "http://mimic.mit.edu/fhir/ValueSet/mimic-microbiology-antibiotic",
     "content": "complete",
     "concept": [
         {

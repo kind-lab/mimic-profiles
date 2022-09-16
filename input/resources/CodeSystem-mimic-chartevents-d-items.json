@@ -2,15 +2,15 @@
     "resourceType": "CodeSystem",
     "id": "mimic-chartevents-d-items",
     "language": "en",
-    "url": "http://fhir.mimic.mit.edu/CodeSystem/mimic-chartevents-d-items",
+    "url": "http://mimic.mit.edu/fhir/CodeSystem/mimic-chartevents-d-items",
     "version": "2.0",
     "name": "MimicCharteventsDItems",
     "title": "MimicCharteventsDItems",
     "status": "draft",
-    "date": "2022-08-23T10:40:31-04:00",
+    "date": "2022-09-15T15:52:00-04:00",
     "publisher": "KinD Lab",
     "description": "The chartevents item codes used in the ICU for MIMIC",
-    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/mimic-chartevents-d-items",
+    "valueSet": "http://mimic.mit.edu/fhir/ValueSet/mimic-chartevents-d-items",
     "content": "complete",
     "concept": [
         {

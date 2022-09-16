@@ -2,15 +2,15 @@
     "resourceType": "CodeSystem",
     "id": "mimic-hcpcs-cd",
     "language": "en",
-    "url": "http://fhir.mimic.mit.edu/CodeSystem/mimic-hcpcs-cd",
+    "url": "http://mimic.mit.edu/fhir/CodeSystem/mimic-hcpcs-cd",
     "version": "2.0",
     "name": "MimicHcpcsCd",
     "title": "MimicHcpcsCd",
     "status": "draft",
-    "date": "2022-08-23T10:40:31-04:00",
+    "date": "2022-09-15T15:52:00-04:00",
     "publisher": "KinD Lab",
     "description": "The HCPCS codes used for encounters in MIMIC",
-    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/mimic-hcpcs-cd",
+    "valueSet": "http://mimic.mit.edu/fhir/ValueSet/mimic-hcpcs-cd",
     "content": "complete",
     "concept": [
         {

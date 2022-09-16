@@ -2,21 +2,21 @@
     "resourceType": "ValueSet",
     "id": "mimic-specimen-type",
     "language": "en",
-    "url": "http://fhir.mimic.mit.edu/ValueSet/mimic-specimen-type",
+    "url": "http://mimic.mit.edu/fhir/ValueSet/mimic-specimen-type",
     "version": "2.0",
     "name": "MimicSpecimenType",
     "title": "MimicSpecimenType",
     "status": "draft",
-    "date": "2022-08-23T10:40:31-04:00",
+    "date": "2022-09-15T15:52:00-04:00",
     "publisher": "KinD Lab",
     "description": "The specimen type codes for both lab and micro specimen for MIMIC",
     "compose": {
         "include": [
             {
-                "system": "http://fhir.mimic.mit.edu/CodeSystem/mimic-lab-fluid"
+                "system": "http://mimic.mit.edu/fhir/CodeSystem/mimic-lab-fluid"
             },
             {
-                "system": "http://fhir.mimic.mit.edu/CodeSystem/mimic-spec-type-desc"
+                "system": "http://mimic.mit.edu/fhir/CodeSystem/mimic-spec-type-desc"
             }
         ]
     }

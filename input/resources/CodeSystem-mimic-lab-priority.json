@@ -2,15 +2,15 @@
     "resourceType": "CodeSystem",
     "id": "mimic-lab-priority",
     "language": "en",
-    "url": "http://fhir.mimic.mit.edu/CodeSystem/mimic-lab-priority",
+    "url": "http://mimic.mit.edu/fhir/CodeSystem/mimic-lab-priority",
     "version": "2.0",
     "name": "MimicLabPriority",
     "title": "MimicLabPriority",
     "status": "draft",
-    "date": "2022-08-23T10:40:31-04:00",
+    "date": "2022-09-15T15:52:00-04:00",
     "publisher": "KinD Lab",
     "description": "The priority of the lab item in MIMIC",
-    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/mimic-lab-priority",
+    "valueSet": "http://mimic.mit.edu/fhir/ValueSet/mimic-lab-priority",
     "content": "complete",
     "concept": [
         {
