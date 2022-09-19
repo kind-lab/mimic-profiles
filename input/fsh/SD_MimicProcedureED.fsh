@@ -2,7 +2,7 @@ Profile:        MimicProcedureED
 Parent:         us-core-procedure
 Id:             mimic-procedure-ed
 Title:          "MIMIC Procedure ED"
-Description:    "A MIMIC procedure ED profile based on US Core Procedure."
+Description:    "A MIMIC procedure ED profile based on FHIR R4 Procedure."
 
 // cardinalities of updated elements
 * encounter 1..1
