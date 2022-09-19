@@ -1,4 +1,4 @@
-One Observation resource per single measurement from a row of the triage and vitalsign tables of MIMIC-ED. Only acuity, chiefcomplaint, and rhythm. 
+One Observation resource per single measurement from a row of the triage and vitalsign tables of MIMIC-ED. Only acuity, chiefcomplaint, rhythm, and pain. 
 
 |MIMIC-ED Table|MIMIC-ED Data Element|FHIR Data Element|FHIR Profile|Notes| 
 |---|---|---|---|---|
@@ -10,6 +10,7 @@ One Observation resource per single measurement from a row of the triage and vit
 |triage|acuity|Observation.value[x]|MimicObservationED|If Observation captures acuity.|
 |triage|chiefcomplaint|Observation.value[x]|MimicObservationED|If Observation captures chiefcomplaint.|
 |vitalsign|rhythm|Observation.value[x]|MimicObservationED|If Observation captures rhythm.|
+|triage / vitalsign|pain|Observation.value[x]|MimicObservationED|If Observation captures pain.|
 {: .grid #grid}
 
 * Observation.status is fixed to 'final' (Final) for all MIMIC observations.
