@@ -1,4 +1,4 @@
-One Observation resource per single measurement from a row of the triage and vitalsign tables of MIMIC-ED. Only pain, temperature, heartrate, resprate, blood pressure sbp dbp, and o2sat. Conforms to the US Core Vital Signs Profile.
+One Observation resource per single measurement from a row of the triage and vitalsign tables of MIMIC-ED. Only temperature, heartrate, resprate, blood pressure sbp dbp, and o2sat. Conforms to the US Core Vital Signs Profile.
 
 |MIMIC-ED Table|MIMIC-ED Data Element|FHIR Data Element|FHIR Profile|Notes| 
 |---|---|---|---|---|
@@ -11,7 +11,6 @@ One Observation resource per single measurement from a row of the triage and vit
 |vitalsign|heartrate|Observation.value[x]|MimicObservationVitalSigns|If Observation captures heartrate.|
 |vitalsign|resprate|Observation.value[x]|MimicObservationVitalSigns|If Observation captures resprate.|
 |vitalsign|o2sat|Observation.value[x]|MimicObservationVitalSigns|If Observation captures o2sat.|
-|triage / vitalsign|pain|Observation.value[x]|MimicObservationVitalSigns|If Observation captures pain.|
 |vitalsign|sbp / dbp|Observation.component.value[x]|MimicObservationVitalSigns|If Observation captures blood pressure (component for sbp and dbp).|
 {: .grid #grid}
 
