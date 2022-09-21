@@ -2,15 +2,15 @@
     "resourceType": "CodeSystem",
     "id": "mimic-procedure-category",
     "language": "en",
-    "url": "http://mimic.mit.edu/fhir/CodeSystem/mimic-procedure-category",
+    "url": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-procedure-category",
     "version": "2.0",
     "name": "MimicProcedureCategory",
     "title": "MimicProcedureCategory",
     "status": "draft",
-    "date": "2022-09-15T15:52:00-04:00",
+    "date": "2022-09-21T13:59:43-04:00",
     "publisher": "KinD Lab",
     "description": "The procedure category codes for MIMIC",
-    "valueSet": "http://mimic.mit.edu/fhir/ValueSet/mimic-procedure-category",
+    "valueSet": "http://mimic.mit.edu/fhir/mimic/ValueSet/mimic-procedure-category",
     "content": "complete",
     "concept": [
         {

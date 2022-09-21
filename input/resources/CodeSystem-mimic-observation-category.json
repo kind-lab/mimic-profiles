@@ -2,15 +2,15 @@
     "resourceType": "CodeSystem",
     "id": "mimic-observation-category",
     "language": "en",
-    "url": "http://mimic.mit.edu/fhir/CodeSystem/mimic-observation-category",
+    "url": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-observation-category",
     "version": "2.0",
     "name": "MimicObservationCategory",
     "title": "MimicObservationCategory",
     "status": "draft",
-    "date": "2022-09-15T15:52:00-04:00",
+    "date": "2022-09-21T13:59:43-04:00",
     "publisher": "KinD Lab",
     "description": "The observation category codes for MIMIC",
-    "valueSet": "http://mimic.mit.edu/fhir/ValueSet/mimic-observation-category",
+    "valueSet": "http://mimic.mit.edu/fhir/mimic/ValueSet/mimic-observation-category",
     "content": "complete",
     "concept": [
         {

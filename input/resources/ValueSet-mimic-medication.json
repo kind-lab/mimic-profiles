@@ -2,30 +2,30 @@
     "resourceType": "ValueSet",
     "id": "mimic-medication",
     "language": "en",
-    "url": "http://mimic.mit.edu/fhir/ValueSet/mimic-medication",
+    "url": "http://mimic.mit.edu/fhir/mimic/ValueSet/mimic-medication",
     "version": "2.0",
     "name": "MimicMedication",
     "title": "MimicMedication",
     "status": "draft",
-    "date": "2022-09-15T15:52:00-04:00",
+    "date": "2022-09-21T13:59:43-04:00",
     "publisher": "KinD Lab",
     "description": "All medication codesystems combined for MIMIC. Contains medication-formulary-drug-cd, medication-ndc, medication-name, medication-poe-iv, medication-icu",
     "compose": {
         "include": [
             {
-                "system": "http://mimic.mit.edu/fhir/CodeSystem/mimic-medication-formulary-drug-cd"
+                "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-medication-formulary-drug-cd"
             },
             {
-                "system": "http://mimic.mit.edu/fhir/CodeSystem/mimic-medication-icu"
+                "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-medication-icu"
             },
             {
-                "system": "http://mimic.mit.edu/fhir/CodeSystem/mimic-medication-name"
+                "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-medication-name"
             },
             {
-                "system": "http://mimic.mit.edu/fhir/CodeSystem/mimic-medication-ndc"
+                "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-medication-ndc"
             },
             {
-                "system": "http://mimic.mit.edu/fhir/CodeSystem/mimic-medication-poe-iv"
+                "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-medication-poe-iv"
             }
         ]
     }
