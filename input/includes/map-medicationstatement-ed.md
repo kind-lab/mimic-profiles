@@ -11,4 +11,4 @@ One MedicationStatement resource per medication that was taken by a patient. A d
 {: .grid #grid}
 
 * MedicationStatement.status is fixed to 'unknown' (Unknown)
-* MedicationStatement.medicationCodeableConcept.coding:etccodeCode has cardinality 0..*; allows multiple etc codes to be stored.
+* MedicationStatement.medicationCodeableConcept.coding:etccodeCode has cardinality 0..*; allows multiple etc codes to be stored. 
