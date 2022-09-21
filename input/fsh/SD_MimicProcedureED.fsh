@@ -1,8 +1,8 @@
 Profile:        MimicProcedureED
 Parent:         Procedure
 Id:             mimic-procedure-ed
-Title:          "MIMIC Procedure ICU"
-Description:    "A MIMIC procedure ICU profile based on FHIR R4 Procedure."
+Title:          "MIMIC Procedure ED"
+Description:    "A MIMIC procedure ED profile based on FHIR R4 Procedure."
 
 // cardinalities of updated elements
 * encounter 1..1

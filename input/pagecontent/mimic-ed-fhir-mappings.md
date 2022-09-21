@@ -6,30 +6,26 @@ The MIMIC-ED database was converted into FHIR. The tables from MIMIC-ED were eac
 
 Custom profiles were created to house the tables coming into FHIR. This was necessary to handle the unique terminology coming from MIMIC-ED. In the following sections you will see tables detailing the mapping from each MIMIC-ED table to these MIMIC-FHIR profiles.
 
-<!-- ### Condition
-
-{% include map-condition.md %}
+### Condition
+{% include map-condition-ed.md %}
 
 ### Encounter
+{% include map-encounter-ed.md %}
 
-{% include map-encounter.md %}
+### MedicationDispense ED
+{% include map-medicationdispense-ed.md %}
 
-### mimic-core to FHIR
+### MedicationStatement ED
+{% include map-medicationstatement-ed.md %}
 
-{% include map-mimic-core.md %}
+### Observation ED
+{% include map-observation-ed.md %}
 
-### mimic microbiologyevents to FHIR
+### Observation Vital Signs
+{% include map-observationvitalsigns-ed.md %}
 
-{% include map-mimic-microbiologyevents.md %}
+### Patient
+See MIMIC patient. MIMIC-ED only captures subject_id and gender. 
 
-### mimic-hosp medication to FHIR
-
-{% include map-mimic-hosp-meds.md %}
-
-### mimic-hosp diagnosis, procedure, and labs to FHIR
-
-{% include map-mimic-hosp-other.md %}
-
-### mimic-icu to FHIR
-
-{% include map-mimic-icu.md %} -->
+### Procedure ED
+{% include map-procedure-ed.md %}
