@@ -2,8 +2,6 @@ Instance: ExampleMimicObservationDatetimeevents
 InstanceOf: MimicObservationDatetimeevents
 Usage: #example
 
-* identifier.system = $IdentifierObservationDatetimeevents
-* identifier.value = "33060379-2147-11-18 08:33:00-228166"
 * status = #final
 * category = $MimicObservationCategory_CS#"Access Lines - Invasive"
 * code = $MimicDItems_CS#228166 "Impella Dressing Change"

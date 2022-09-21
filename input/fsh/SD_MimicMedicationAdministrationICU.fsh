@@ -2,7 +2,7 @@ Profile:        MimicMedicationAdministrationICU
 Parent:         MedicationAdministration
 Id:             mimic-medication-administration-icu
 Title:          "MIMIC Medication Administration ICU"
-Description:    "A MIMIC medication administration ICU profile based on the base FHIR medication administration resource."
+Description:    "A MIMIC medication administration ICU profile based on the FHIR R4 medication administration resource."
 
 // cardinalities of updated elements
 * category 1..1

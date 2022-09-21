@@ -1,8 +1,8 @@
 Profile:        MimicOrganization
-Parent:         us-core-organization
+Parent:         Organization
 Id:             mimic-organization
 Title:          "MIMIC Organization"
-Description:    "A MIMIC organization profile based on US Core Organization."
+Description:    "A MIMIC organization profile based on FHIR R4 Organization."
 
 // cardinalities of update elements
 * identifier 1..*

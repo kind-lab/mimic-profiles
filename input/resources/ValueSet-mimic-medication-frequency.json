@@ -2,18 +2,18 @@
     "resourceType": "ValueSet",
     "id": "mimic-medication-frequency",
     "language": "en",
-    "url": "http://fhir.mimic.mit.edu/ValueSet/mimic-medication-frequency",
+    "url": "http://mimic.mit.edu/fhir/ValueSet/mimic-medication-frequency",
     "version": "2.0",
     "name": "MimicMedicationFrequency",
     "title": "MimicMedicationFrequency",
     "status": "draft",
-    "date": "2022-07-29T11:34:34-04:00",
+    "date": "2022-09-15T15:52:00-04:00",
     "publisher": "KinD Lab",
     "description": "The medication frequency reported for medication delivery in MIMIC",
     "compose": {
         "include": [
             {
-                "system": "http://fhir.mimic.mit.edu/CodeSystem/mimic-medication-frequency"
+                "system": "http://mimic.mit.edu/fhir/CodeSystem/mimic-medication-frequency"
             }
         ]
     }

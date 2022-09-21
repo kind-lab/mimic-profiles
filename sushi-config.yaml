@@ -3,21 +3,17 @@
 # │  supported properties, see: https://fshschool.org/docs/sushi/configuration/                    │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: kindlab.fhir.mimic
-canonical: http://fhir.mimic.mit.edu
+canonical: http://mimic.mit.edu/fhir
 name: MIMIC
 title: MIMIC Implementation Guide
 status: draft
-version: 0.3.5
+version: 1.2.0
 fhirVersion: 4.0.1
 copyrightYear: 2022+
 releaseLabel: Draft
 publisher:
   name: KinD Lab
   url: http://fhir.kindlab.sickkids.ca
-dependencies:
-  hl7.fhir.us.core:
-    id: uscore
-    version: 4.0.0   
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │

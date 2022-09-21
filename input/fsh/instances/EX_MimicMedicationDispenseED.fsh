@@ -8,5 +8,5 @@ Usage:          #example
 * whenHandedOver = 2116-06-09T23:21:00.000Z
 * subject = Reference(ExampleMimicPatientED)
 * context = Reference(ExampleMimicEncounterED)
-* medicationCodeableConcept.coding = $GSN_CS#41562
+* medicationCodeableConcept.coding = $GSN_CS#041562
 * medicationCodeableConcept.text = "Ondansetron ODT"

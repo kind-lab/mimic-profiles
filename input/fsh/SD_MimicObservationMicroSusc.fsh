@@ -2,7 +2,7 @@ Profile:        MimicObservationMicroSusc
 Parent:         Observation
 Id:             mimic-observation-micro-susc
 Title:          "MIMIC Observation Micro Susc"
-Description:    "A MIMIC observation microbiology susceptiblity profile based on the base observation resource"
+Description:    "A MIMIC observation microbiology susceptiblity profile based on the FHIR R4 observation resource"
 
 // cardinalities of updated elements
 * effective[x] 1..1
@@ -19,11 +19,12 @@ Description:    "A MIMIC observation microbiology susceptiblity profile based on
 // further specification of elements
 * value[x] only CodeableConcept
 * effective[x] only dateTime
+* category = $ObservationCategory#laboratory "Laboratory"
 
 // binding to MIMIC terminology
 * identifier.system = $IdentifierObservationMicroSusc
 * code from $MimicMicrobiologyAntibiotic
-* interpretation from MimicMicroInterpretation
+* interpretation from $ObservationInterpretation
 * extension contains DilutionDetails named dilutionDetails 0..1
 
 // referencing must be to MIMIC profiles

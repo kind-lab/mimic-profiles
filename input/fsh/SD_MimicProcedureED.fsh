@@ -1,5 +1,5 @@
 Profile:        MimicProcedureED
-Parent:         us-core-procedure
+Parent:         Procedure
 Id:             mimic-procedure-ed
 Title:          "MIMIC Procedure ED"
 Description:    "A MIMIC procedure ED profile based on FHIR R4 Procedure."

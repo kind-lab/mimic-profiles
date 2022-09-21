@@ -2,7 +2,7 @@ Profile:        MimicProcedureICU
 Parent:         Procedure
 Id:             mimic-procedure-icu
 Title:          "MIMIC Procedure ICU"
-Description:    "A MIMIC procedure ICU profile based on base Procedure resource."
+Description:    "A MIMIC procedure ICU profile based on FHIR R4 Procedure resource."
 
 // cardinalities of updated elements
 * category 1..1

@@ -1,5 +1,5 @@
 Profile:        MimicObservationVitalSigns
-Parent:         us-core-vital-signs
+Parent:         Observation
 Id:             mimic-observation-vital-signs
 Title:          "MIMIC-ED Observation Vital Signs"
 Description:    "An Observation resource (based on FHIR R4 Observation) that represents a single measurement from a row of the triage and vitalsign tables of MIMIC-ED: only pain, temperature, heartrate, resprate, blood pressure sbp dbp, and o2sat."
@@ -20,9 +20,9 @@ Description:    "An Observation resource (based on FHIR R4 Observation) that rep
 
 // further specification of elements
 * status = $ObservationStatus#final "Final"
-* category = $ObservationCategory#vital-signs "Vital Signs"
 * effective[x] only dateTime
 * value[x] only Quantity
+* category = $ObservationCategory#vital-signs "Vital Signs"
 
 // binding to terminology
 * code from MimicObservationTypeVital

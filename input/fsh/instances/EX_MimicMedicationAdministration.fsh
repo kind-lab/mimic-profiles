@@ -2,9 +2,6 @@ Instance: ExampleMimicMedicationAdministration
 InstanceOf: MimicMedicationAdministration
 Usage: #example
 
-* identifier.type = $MimicIdentifierType#MEDHOSP "ICU medication administration"
-* identifier.system = $IdentifierMedicationAdministration
-* identifier.value = "10014354-41-1.10"
 * status = #completed
 * category = http://terminology.hl7.org/CodeSystem/medication-admin-category#inpatient "Inpatient" // CHECK, added later, mimic CS?
 * medicationCodeableConcept = $MimicMedicationFormDrug#GABA100

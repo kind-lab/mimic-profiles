@@ -1,8 +1,8 @@
 Profile:        MimicEncounter
-Parent:         us-core-encounter
+Parent:         Encounter
 Id:             mimic-encounter
 Title:          "MIMIC Encounter"
-Description:    "A MIMIC encounter profile based on US Core Encounter."
+Description:    "A MIMIC encounter profile based on FHIR R4 Encounter."
 
 // cardinalities of updated elements
 * identifier 1..*

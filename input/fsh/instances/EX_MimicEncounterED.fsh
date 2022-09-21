@@ -13,7 +13,7 @@ Usage:          #example
 * diagnosis.rank = 1
 * diagnosis.condition = Reference(ExampleMimicConditionED)
 // * partOf = Reference(ExampleMimicEncounterAdmissionED)
-* hospitalization.admitSource.text = "AMBULANCE"
-* hospitalization.dischargeDisposition.text = "ADMITTED"
+* hospitalization.admitSource = $MimicAdmitSourceCS#AMBULANCE
+* hospitalization.dischargeDisposition = $MimicDischargeDispositionCS#ADMITTED
 * class = $HL7ActCode#EMER "emergency"
-* type = $SCT#185347001 "Encounter for problem (procedure)"
+* type = $SCT#308335008 "Patient encounter procedure"

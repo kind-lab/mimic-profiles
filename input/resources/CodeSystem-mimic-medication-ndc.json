@@ -2,15 +2,15 @@
     "resourceType": "CodeSystem",
     "id": "mimic-medication-ndc",
     "language": "en",
-    "url": "http://fhir.mimic.mit.edu/CodeSystem/mimic-medication-ndc",
+    "url": "http://mimic.mit.edu/fhir/CodeSystem/mimic-medication-ndc",
     "version": "2.0",
     "name": "MimicMedicationNdc",
     "title": "MimicMedicationNdc",
     "status": "draft",
-    "date": "2022-07-29T11:34:34-04:00",
+    "date": "2022-09-15T15:52:00-04:00",
     "publisher": "KinD Lab",
     "description": "Medication National Drug Codes (NDC) for use in prescriptions",
-    "valueSet": "http://fhir.mimic.mit.edu/ValueSet/mimic-medication-ndc",
+    "valueSet": "http://mimic.mit.edu/fhir/ValueSet/mimic-medication-ndc",
     "content": "complete",
     "concept": [
         {
