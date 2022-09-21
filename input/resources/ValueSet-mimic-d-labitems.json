@@ -2,18 +2,18 @@
     "resourceType": "ValueSet",
     "id": "mimic-d-labitems",
     "language": "en",
-    "url": "http://mimic.mit.edu/fhir/ValueSet/mimic-d-labitems",
+    "url": "http://mimic.mit.edu/fhir/mimic/ValueSet/mimic-d-labitems",
     "version": "2.0",
     "name": "MimicDLabitems",
     "title": "MimicDLabitems",
     "status": "draft",
-    "date": "2022-09-15T15:52:00-04:00",
+    "date": "2022-09-21T13:59:43-04:00",
     "publisher": "KinD Lab",
     "description": "The lab item codes used in MIMIC",
     "compose": {
         "include": [
             {
-                "system": "http://mimic.mit.edu/fhir/CodeSystem/mimic-d-labitems"
+                "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-d-labitems"
             }
         ]
     }

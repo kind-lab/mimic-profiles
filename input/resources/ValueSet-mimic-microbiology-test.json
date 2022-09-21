@@ -2,18 +2,18 @@
     "resourceType": "ValueSet",
     "id": "mimic-microbiology-test",
     "language": "en",
-    "url": "http://mimic.mit.edu/fhir/ValueSet/mimic-microbiology-test",
+    "url": "http://mimic.mit.edu/fhir/mimic/ValueSet/mimic-microbiology-test",
     "version": "2.0",
     "name": "MimicMicrobiologyTest",
     "title": "MimicMicrobiologyTest",
     "status": "draft",
-    "date": "2022-09-15T15:52:00-04:00",
+    "date": "2022-09-21T13:59:43-04:00",
     "publisher": "KinD Lab",
     "description": "The microbiology test completed in MIMIC",
     "compose": {
         "include": [
             {
-                "system": "http://mimic.mit.edu/fhir/CodeSystem/mimic-microbiology-test"
+                "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-microbiology-test"
             }
         ]
     }

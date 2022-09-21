@@ -2,18 +2,18 @@
     "resourceType": "ValueSet",
     "id": "mimic-medication-etc",
     "language": "en",
-    "url": "http://mimic.mit.edu/fhir/ValueSet/mimic-medication-etc",
+    "url": "http://mimic.mit.edu/fhir/mimic/ValueSet/mimic-medication-etc",
     "version": "2.0",
     "name": "MimicMedicationEtc",
     "title": "MimicMedicationEtc",
     "status": "draft",
-    "date": "2022-09-15T15:52:00-04:00",
+    "date": "2022-09-21T13:59:43-04:00",
     "publisher": "KinD Lab",
     "description": "The medication ETC (enhanced therapeutic class) codes for MIMIC",
     "compose": {
         "include": [
             {
-                "system": "http://mimic.mit.edu/fhir/CodeSystem/mimic-medication-etc"
+                "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-medication-etc"
             }
         ]
     }

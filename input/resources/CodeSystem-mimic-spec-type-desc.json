@@ -2,15 +2,15 @@
     "resourceType": "CodeSystem",
     "id": "mimic-spec-type-desc",
     "language": "en",
-    "url": "http://mimic.mit.edu/fhir/CodeSystem/mimic-spec-type-desc",
+    "url": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-spec-type-desc",
     "version": "2.0",
     "name": "MimicSpecTypeDesc",
     "title": "MimicSpecTypeDesc",
     "status": "draft",
-    "date": "2022-09-15T15:52:00-04:00",
+    "date": "2022-09-21T13:59:43-04:00",
     "publisher": "KinD Lab",
     "description": "The specimen type codes for microbiologyevents",
-    "valueSet": "http://mimic.mit.edu/fhir/ValueSet/mimic-spec-type-desc",
+    "valueSet": "http://mimic.mit.edu/fhir/mimic/ValueSet/mimic-spec-type-desc",
     "content": "complete",
     "concept": [
         {

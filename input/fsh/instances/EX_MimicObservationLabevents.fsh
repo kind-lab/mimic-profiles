@@ -2,7 +2,7 @@ Instance: ExampleMimicObservationLabevents
 InstanceOf: MimicObservationLabevents
 Usage: #example
 
-* extension.url = "http://mimic.mit.edu/fhir/StructureDefinition/lab-priority" 
+* extension.url = "http://mimic.mit.edu/fhir/mimic/StructureDefinition/lab-priority" 
 * extension.valueString = "STAT"
 * identifier.system = $IdentifierObservationLabevents
 * identifier.value = "284911"

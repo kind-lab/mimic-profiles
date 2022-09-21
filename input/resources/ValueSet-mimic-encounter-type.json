@@ -2,18 +2,18 @@
     "resourceType": "ValueSet",
     "id": "mimic-encounter-type",
     "language": "en",
-    "url": "http://mimic.mit.edu/fhir/ValueSet/mimic-encounter-type",
+    "url": "http://mimic.mit.edu/fhir/mimic/ValueSet/mimic-encounter-type",
     "version": "2.0",
     "name": "MimicEncounterType",
     "title": "MimicEncounterType",
     "status": "draft",
-    "date": "2022-09-15T15:52:00-04:00",
+    "date": "2022-09-21T13:59:43-04:00",
     "publisher": "KinD Lab",
     "description": "The encounter type for MIMIC",
     "compose": {
         "include": [
             {
-                "system": "http://mimic.mit.edu/fhir/CodeSystem/mimic-hcpcs-cd"
+                "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-hcpcs-cd"
             },
             {
                 "system": "http://snomed.info/sct",

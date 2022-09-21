@@ -2,15 +2,15 @@
     "resourceType": "CodeSystem",
     "id": "mimic-medication-method",
     "language": "en",
-    "url": "http://mimic.mit.edu/fhir/CodeSystem/mimic-medication-method",
+    "url": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-medication-method",
     "version": "2.0",
     "name": "MimicMedicationMethod",
     "title": "MimicMedicationMethod",
     "status": "draft",
-    "date": "2022-09-15T15:52:00-04:00",
+    "date": "2022-09-21T13:59:43-04:00",
     "publisher": "KinD Lab",
     "description": "The medication delivery method for MIMIC",
-    "valueSet": "http://mimic.mit.edu/fhir/ValueSet/mimic-medication-method",
+    "valueSet": "http://mimic.mit.edu/fhir/mimic/ValueSet/mimic-medication-method",
     "content": "complete",
     "concept": [
         {
