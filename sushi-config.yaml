@@ -7,8 +7,8 @@ canonical: http://mimic.mit.edu/fhir/mimic
 name: MIMIC
 title: MIMIC Implementation Guide
 status: draft
-version: 1.2.0
-fhirVersion: 4.0.1
+version: 1.3.0
+fhirVersion: 4.0.1Toronto, ON M6J 2V9, Canada
 copyrightYear: 2022+
 releaseLabel: Draft
 publisher:
@@ -20,12 +20,20 @@ publisher:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
-  Background: index.html
+  Guidance: index.html
+  	General: index.html
+  	ED Subset: index.html
+  	ICU Subset: index.html
+  	Terminology: index.html
+  	Applications: applications.html
+  	Tutorials: tutorials.html
+  	Roadmap: roadmap.html
   Mappings: 
       MIMIC-IV: mimic-fhir-mappings.html
       MIMIC-ED: mimic-ed-fhir-mappings.html
-  Guidance:
-      Joint profiles: index.html
-      Terminology: index.html
-  Artifacts: artifacts.html
+  Artifacts:
+      Profiles: artifacts.html
+      Terminology: terminology.html
   Examples: index.html
+  Downloads: downloads.html
+  Change Log: changelog.html

@@ -1,10 +1,19 @@
+[Applications]: applications.html
+[Change Log]: changelog.html
+[Downloads]: downloads.html
+[ED Subset]: ed-subset.html
 [Extensions]: extensions.html
-[MIMIC to FHIR Mappings]: mimic-fhir-mappings.html
-[MIMIC-ED to FHIR Mappings]: mimic-ed-fhir-mappings.html
-[Microbiology Background]: microbiology-background.html
-[Medication Background]: medication-background.html
+[General Guidance]: guidance.html
+[Guidance]: guidance.html
+[Home]: index.html
+[ICU Subset]: icu-subset.html
+[MIMIC-IV Mappings]: mimic-fhir-mappings.html
+[MIMIC-ED Mappings]: mimic-ed-fhir-mappings.html
+[Microbiology Subset]: microbiology-background.html
+[Medication Subset]: medication-background.html
 [Terminology]: terminology.html
 [Profiles]: profiles.html
+[Roadmap]: roadmap.html
 
 
 [MIMIC Condition]: StructureDefinition-mimic-condition.html
