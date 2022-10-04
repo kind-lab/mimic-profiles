@@ -8,7 +8,7 @@ name: MIMIC
 title: MIMIC Implementation Guide
 status: draft
 version: 1.3.0
-fhirVersion: 4.0.1Toronto, ON M6J 2V9, Canada
+fhirVersion: 4.0.1
 copyrightYear: 2022+
 releaseLabel: Draft
 publisher:
@@ -20,20 +20,23 @@ publisher:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
-  Guidance: index.html
-  	General: index.html
-  	ED Subset: index.html
-  	ICU Subset: index.html
-  	Terminology: index.html
-  	Applications: applications.html
-  	Tutorials: tutorials.html
-  	Roadmap: roadmap.html
+  Guidance:
+    General: guidance.html
+    Terminology: terminology-guide.html
+    Applications: applications.html
+    Tutorials: tutorials.html
+    Roadmap: roadmap.html
+  Subsets:
+    Microbiology: microbiology-background.html
+    Medication: medication-background.html
+    ED: ed-subset.html
+    ICU: icu-subset.html
   Mappings: 
-      MIMIC-IV: mimic-fhir-mappings.html
-      MIMIC-ED: mimic-ed-fhir-mappings.html
+    MIMIC-IV: mimic-fhir-mappings.html
+    MIMIC-ED: mimic-ed-fhir-mappings.html
   Artifacts:
-      Profiles: artifacts.html
-      Terminology: terminology.html
+    Profiles: artifacts.html
+    Terminology: terminology.html
   Examples: index.html
   Downloads: downloads.html
   Change Log: changelog.html

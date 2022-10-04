@@ -15,7 +15,7 @@ The MIMIC IG is an early stage implementation guide. As usage of the MIMIC IG an
 - [Home]\: This page provides an introduction, background, and walkthrough for the MIMIC IG.
 - [Guidance]\: These pages provide guidance on how best to use and understand the MIMIC IG 
   - [General Guidance]\: This page walks through the general guidance for using the MIMIC IG.
-  - [Terminology Tour]\: This page walks through the decisions and usage of terminology.
+  - [Terminology Guide]\: This page walks through the decisions and usage of terminology.
   - [Applications]\: This page lists out potential applciations for the MIMIC-IV-on-FHIR datastore.
   - [Tutorials]\: This page details tutorials that were developed to accelerate adoption of the data.
   - [Roadmap]\: This page includes the future direction for this implementation guide.

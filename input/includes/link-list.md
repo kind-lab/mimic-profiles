@@ -12,8 +12,13 @@
 [Microbiology Subset]: microbiology-background.html
 [Medication Subset]: medication-background.html
 [Terminology]: terminology.html
+[terminology artifact]: terminology.html
+[Terminology Guide]: terminology-guide.html
 [Profiles]: profiles.html
 [Roadmap]: roadmap.html
+
+[Lab specimen]: CodeSystem-mimic-lab-fluid.html
+[Microbiology specimen]: CodeSystem-mimic-spec-type-desc.html
 
 
 [MIMIC Condition]: StructureDefinition-mimic-condition.html
