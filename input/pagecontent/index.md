@@ -49,4 +49,14 @@ Data from three in-hospital information systems together form MIMIC-IV, namely: 
 - [MIMIC Specimen]
 
 
+### Authors and Contributors
+
+| Role  | Name | Organization |
+| --- | --- | --- | --- |
+| **Author** | Alex M. Bennett | The Hospital for Sick Children | 
+| **Author** | Philip van Damme | Amsterdam UMC |
+| **Author** | Alistair E. W. Johnson | The Hospital for Sick Children |
+| **Author** | Hannes Ulrich | Kiel University |
+| **Author** | Joshua Wiedekopf | University of Lübeck |
+
 {% include link-list.md %}
