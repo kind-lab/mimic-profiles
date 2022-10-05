@@ -1,3 +1,13 @@
+### Medication Subset
+The medication information stored in the MIMIC-IV profiles covers many hospital medication workflows. The medication related data can be pulled out separately to be used as test data for medication applications.
+
+The medication workflow found in the MIMIC-IV Profiles often appear in one of 3 main ways in MIMIC-IV-on-FHIR:
+- Full view: MedicationRequest -> MedicationDispense -> MedicationAdminsitration
+- Historical view: MedicationStatement only
+- Point of care view: MedicationAdministration only
+
+Each workflow can be explored in depth to test robustness of your application.
+
 ### FHIR Medication
 Medication in FHIR is organized into 4 resources
 - *Medication*: Stores all medications and medication mixes. 

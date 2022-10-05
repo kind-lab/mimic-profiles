@@ -17,6 +17,19 @@ In the situation of an extensible ValueSet (ie Patient.maritalStatus bound to Ma
 In order to bind the custom CodeSystems to FHIR elements, custom ValueSets were made. The majority of ValueSets in the MIMIC IG are canonical sets (covers all codes) of the custom CodeSystems. In a few select scenarios there were ValueSets that combined multiple custom CodeSystems. For example, there were two specimen type CodeSystems created: one for [Lab specimen] and one for [Microbiology specimen] that was combined into one ValueSet, [MimicSpecTypeDesc], for specimen type. Multiple CodeSystems are generated to distinguish provenane of where the codes are derived from.
 
 ### Custom CodeSystems
-When no current CodeSystems captured the codes from MIMIC-IV, a new custom CodeSystem was made. The distinct coded values were pulled from the database and translated into a CodeSystem. The CodeSystem codes may extend with versions of MIMIC-IV as new patients and hospital information is added. For all custom CodeSystems check out the [terminology artifact] page.
+When no current CodeSystems captured the codes from MIMIC-IV, a new custom CodeSystem was made. The distinct coded values were pulled from the database and translated into a CodeSystem. The CodeSystem codes may extend with versions of MIMIC-IV as new patients and hospital information is added. For all custom terminology check out the [Artifacts] page. Additional notes on some CodeSystems are provided below.
+
+#### ICD CodeSystem
+Custom ICD-9 and ICD-10 CodeSystems were made for procedure and condition codes. The current [ICD-9](http://hl7.org/fhir/sid/icd-9-cm) and [ICD-10](http://hl7.org/fhir/sid/icd-10) contain a fracture set of codes and did not encapsulate all the codes found in MIMIC-IV. Additionally there are some deprecated ICD codes found in MIMIC-IV that needed to be stored. Future work will look to integrate the canonical ICD-9 and ICD-10 FHIR codesystems in place of the custom MIMIC-IV CodeSystems.
+
+#### GSN CodeSystem
+Generic Sequence Number codes for medication does not currently have a standard FHIR CodeSystem. Thus a custom CodeSystem to capture this information was made. If a canonical GSN CodeSystem is developed in FHIR then we will reference that in future versions of the guide.
+
+#### CPT CodeSystem
+The CPT codes did not validate against the current FHIR [CPT CodeSystem](http://www.ama-assn.org/go/cpt). A custom CPT codesystem was made to capture the MIMIC-IV codes in FHIR. Future work will look to integrate with the FHIR CPT CodeSystem.
+
+### Future Work
+The MIMIC-IV Profiles were heavily infuenced by US Core, but did not conform due to strict terminology bindings. Mapping over the MIMIC-IV terminology to US Core terminology systems would make the MIMIC-IV-on-FHIR data conformant to US Core. ConceptMaps will be created to translate MIMIC-IV terminology to US Core terminology.
+
 
 {% include link-list.md %}

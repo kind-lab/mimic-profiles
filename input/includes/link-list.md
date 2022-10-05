@@ -1,16 +1,18 @@
 [Applications]: applications.html
+[Artifacts]: artifacts.html
 [Change Log]: changelog.html
 [Downloads]: downloads.html
 [ED Subset]: ed-subset.html
 [Examples]: index.html
 [Extensions]: extensions.html
+[General Background]: index.html
 [General Guidance]: guidance.html
 [Guidance]: guidance.html
 [Home]: index.html
 [ICU Subset]: icu-subset.html
 [Mappings]: mimic-fhir-mappings.html
 [MIMIC-IV Mappings]: mimic-fhir-mappings.html
-[MIMIC-ED Mappings]: mimic-ed-fhir-mappings.html
+[MIMIC-IV-ED Mappings]: mimic-ed-fhir-mappings.html
 [Microbiology Subset]: microbiology-background.html
 [Medication Subset]: medication-background.html
 [Terminology]: terminology.html
@@ -18,7 +20,7 @@
 [Terminology Guide]: terminology-guide.html
 [Tutorials]: tutorials.html
 [Profiles]: profiles.html
-[Roadmap]: roadmap.html
+[Future Work]: future-work.html
 
 [Lab specimen]: CodeSystem-mimic-lab-fluid.html
 [Microbiology specimen]: CodeSystem-mimic-spec-type-desc.html

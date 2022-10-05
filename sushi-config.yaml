@@ -20,23 +20,38 @@ publisher:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
+  Background:
+    General Background: index.html
+    MIMIC-IV Mapping: mimic-fhir-mappings.html
+    MIMIC-ED Mapping: mimic-ed-fhir-mappings.html
   Guidance:
     General: guidance.html
     Terminology: terminology-guide.html
     Applications: applications.html
     Tutorials: tutorials.html
-    Roadmap: roadmap.html
+    Future Work: future-work.html
   Subsets:
     Microbiology: microbiology-background.html
     Medication: medication-background.html
     ED: ed-subset.html
-    ICU: icu-subset.html
-  Mappings: 
-    MIMIC-IV: mimic-fhir-mappings.html
-    MIMIC-ED: mimic-ed-fhir-mappings.html
-  Artifacts:
-    Profiles: artifacts.html
-    Terminology: terminology.html
+    ICU: icu-subset.html    
+  Artifacts: artifacts.html
   Examples: index.html
   Downloads: downloads.html
   Change Log: changelog.html
+
+pages:
+  index.md:
+  mimic-fhir-mappings.md:
+    mimic-ed-fhir-mappings.md:
+  guidance.md:
+    terminology-guide.md:
+    applications.md:
+    tutorials.md:
+    future-work.md:
+  microbiology-background.md:
+    medication-background.md:
+    ed-subset.md:
+    icu-subset.md:
+  downloads.md:
+  changelog.md:  

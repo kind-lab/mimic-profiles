@@ -1,7 +1,7 @@
 ### Introduction
-This guide walks through the profiles found in the MIMIC IG.
+This guide walks through the profiles found in the MIMIC-IV Profiles.
 
-An exemplar patient generated using the MIMIC IG profiles will appear as Figure 1. The profiles fall into one of 6 categories:
+An exemplar patient generated using the MIMIC-IV profiles will appear as Figure 1. The profiles fall into one of 6 categories:
 1. Administration: Resources related to patient information and visit encounters.
 2. Organizational: Resources related to careunit location and hospital organizations.
 3. Charted Observations: Resources related to charted events occuring in the ED and ICU.
@@ -10,9 +10,9 @@ An exemplar patient generated using the MIMIC IG profiles will appear as Figure 
 6. Orders: Resources related to condition and procedure orders
 
 
-{% include img.html img="average-mimic-fhir-patient.png" caption="Exemplar MIMIC FHIR Patient with their resources" %}
+{% include img.html img="average-mimic-fhir-patient.png" caption="Exemplar MIMIC-IV FHIR Patient with their resources" %}
 
-Modelling was completed to map the MIMIC-IV tables into FHIR. More detail can be found on the [MIMIC-IV Mappings] and [MIMIC-ED Mappings] pages.
+Modelling was completed to map the MIMIC-IV tables into FHIR. More detail can be found on the [MIMIC-IV Mappings] and [MIMIC-IV-ED Mappings] pages.
 
 ### Administration Profiles
 The majority of profiles reference MimicPatient and MimicEncounter. The referencing is useful to group together patient related resources or encounter specific resources.
@@ -47,7 +47,7 @@ Additional observations captured in the ED are stored in MimicObservationED. The
 - Accuity assessment
 
 #### [MimicObservationOutputevents]
-Outputevents in the ICU primarily include output and drain events. These
+Outputevents in the ICU primarily include output and drain events. These events are documented by a timestamp and event code.
 
 
 #### [MimicObservationVitalSigns]
@@ -76,7 +76,7 @@ The MimicObservationMicroSusc profile captures the antibiotic information and th
 The MimicSpecimen profile captures information on the patient specimen collected for laboratory or microbiology testing. The main informtion stored are the specimen identifier and the specimen type (ie blood or urine).
 
 ### Medication Profiles
-The medication workflow found in the MIMIC IG is used in one of 3 main ways in MIMIC-IV-on-FHIR:
+The medication workflow found in the MIMIC-IV Profiles are used in one of 3 main ways in MIMIC-IV-on-FHIR:
 - Full view: MedicationRequest -> MedicationDispense -> MedicationAdminsitration
 - Historical view: MedicationStatement only
 - Point of care view: MedicationAdministration only
