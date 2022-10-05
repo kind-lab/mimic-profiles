@@ -1,5 +1,7 @@
 Instance: ExampleMimicEncounterICU
 InstanceOf: MimicEncounter
+Title: "Example Encounter resource MIMIC-IV-ICU"
+Description: "An example of how a MIMIC-IV-ICU Encounter resource would look like."
 Usage: #example
 
 * identifier.system = $IdentifierEncounterICU

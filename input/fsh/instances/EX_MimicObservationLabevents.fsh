@@ -1,5 +1,7 @@
 Instance: ExampleMimicObservationLabevents
 InstanceOf: MimicObservationLabevents
+Title: "Example Observation labevents resource MIMIC-IV"
+Description: "An example of how a MIMIC-IV Observation labevents resource would look like."
 Usage: #example
 
 * extension.url = "http://mimic.mit.edu/fhir/StructureDefinition/lab-priority" 

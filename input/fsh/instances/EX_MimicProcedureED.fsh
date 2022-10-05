@@ -1,8 +1,8 @@
 // Instance
 Instance:       ExampleMimicProcedureED
 InstanceOf:     MimicProcedureED
-Title:          "Example Procedure MIMIC-ED"
-Description:    "An example of how a MIMIC-ED Procedure resource would look like."
+Title:          "Example Procedure resource MIMIC-IV-ED"
+Description:    "An example of how a MIMIC-IV-ED Procedure resource would look like."
 Usage:          #example
 
 * subject = Reference(ExampleMimicPatientED)

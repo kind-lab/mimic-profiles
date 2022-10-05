@@ -1,5 +1,7 @@
 Instance: ExampleMimicSpecimen
 InstanceOf: MimicSpecimen
+Title: "Example Specimen resource MIMIC-IV"
+Description:    "An example of how a MIMIC-IV Specimen resource would look like."
 Usage: #example
 
 * identifier.system = $IdentifierSpecimenLab

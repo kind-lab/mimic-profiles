@@ -1,8 +1,8 @@
 // Instance
 Instance:       ExampleMimicObservationED
 InstanceOf:     MimicObservationED
-Title:          "Example Observation for chiefcomplaint"
-Description:    "An example of how a MIMIC-ED Observation resource would look like with data from the triage table (chiefcomplaint)."
+Title:          "Example Observation resource MIMIC-IV-ED"
+Description:    "An example of how a MIMIC-IV-ED Observation resource would look like with data from the triage table (chiefcomplaint)."
 Usage:          #example
 
 // Further specification of elements

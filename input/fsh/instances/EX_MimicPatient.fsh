@@ -1,5 +1,7 @@
 Instance: ExampleMimicPatient
 InstanceOf: MimicPatient
+Title: "Example Patient resource MIMIC-IV"
+Description: "An example of how a MIMIC-IV Patient resource would look like."
 Usage: #example
 
 * extension[0].url = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
