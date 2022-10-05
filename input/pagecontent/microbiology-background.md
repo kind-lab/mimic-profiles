@@ -1,4 +1,7 @@
-### FHIR Microbiology
+### Microbiology Subset
+The microbiology data in MIMIC-IV-on-FHIR provides great real-world data for microbiology workflows. The microbiology data can be pulled out of MIMIC-IV-on-FHIR as a subset to test and explore in more lab focused applications.
+
+### Microbiology Workflow
 The MIMIC data is mapped into three microbiology profiles in FHIR. The microbiology framework is:
 - Test: The test being completed
 - Organism: The organism the test is completed on

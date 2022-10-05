@@ -1,36 +1,56 @@
+[Applications]: applications.html
+[Artifacts]: artifacts.html
+[Change Log]: changelog.html
+[Downloads]: downloads.html
+[ED Subset]: ed-subset.html
+[Examples]: index.html
 [Extensions]: extensions.html
-[MIMIC to FHIR Mappings]: mimic-fhir-mappings.html
-[MIMIC-ED to FHIR Mappings]: mimic-ed-fhir-mappings.html
-[Microbiology Background]: microbiology-background.html
-[Medication Background]: medication-background.html
+[General Background]: index.html
+[General Guidance]: guidance.html
+[Guidance]: guidance.html
+[Home]: index.html
+[ICU Subset]: icu-subset.html
+[Mappings]: mimic-fhir-mappings.html
+[MIMIC-IV Mappings]: mimic-fhir-mappings.html
+[MIMIC-IV-ED Mappings]: mimic-ed-fhir-mappings.html
+[Microbiology Subset]: microbiology-background.html
+[Medication Subset]: medication-background.html
 [Terminology]: terminology.html
+[terminology artifact]: terminology.html
+[Terminology Guide]: terminology-guide.html
+[Tutorials]: tutorials.html
 [Profiles]: profiles.html
+[Future Work]: future-work.html
+
+[Lab specimen]: CodeSystem-mimic-lab-fluid.html
+[Microbiology specimen]: CodeSystem-mimic-spec-type-desc.html
 
 
-[MIMIC Condition]: StructureDefinition-mimic-condition.html
-[MIMIC Encounter]: StructureDefinition-mimic-encounter.html
-[MIMIC Medication]: StructureDefinition-mimic-medication.html
-[MIMIC Medication Administration]: StructureDefinition-mimic-medication-administration.html
-[MIMIC Medication Administration ICU]: StructureDefinition-mimic-medication-administration-icu.html
-[MIMIC Medication Dispense]: StructureDefinition-mimic-medication-dispense.html
-[MIMIC Medication Dispense ED]: StructureDefinition-mimic-medication-dispense-ed.html
-[MIMIC Medication Request]: StructureDefinition-mimic-medication-request.html
-[MIMIC Medication Statement ED]: StructureDefinition-mimic-medication-statement-ed.html
-[MIMIC Observation Chartevents]: StructureDefinition-mimic-observation-chartevents.html
-[MIMIC Observation Datetimeevents]: StructureDefinition-mimic-observation-datetimeevents.html
-[MIMIC Observation ED]: StructureDefinition-mimic-observation-ed.html
-[MIMIC ObservationLabevents]: StructureDefinition-mimic-observation-labevents.html
-[MIMIC Observation Micro Org]: StructureDefinition-mimic-observation-micro-org.html
-[MIMIC Observation Micro Susc]: StructureDefinition-mimic-observation-micro-susc.html
-[MIMIC Observation Micro Test]: StructureDefinition-mimic-observation-micro-test.html
-[MIMIC Observation Outputevents]: StructureDefinition-mimic-observation-outputevents.html
-[MIMIC Observation Vital Signs]: StructureDefinition-mimic-observation-vital-signs.html
-[MIMIC Organization]: StructureDefinition-mimic-organization.html
-[MIMIC Patient]: StructureDefinition-mimic-patient.html
-[MIMIC Procedure]: StructureDefinition-mimic-procedure.html
-[MIMIC Procedure ED]: StructureDefinition-mimic-procedure-ed.html
-[MIMIC Procedure ICU]: StructureDefinition-mimic-procedure-icu.html
-[MIMIC Specimen]: StructureDefinition-mimic-specimen.html
+[MimicCondition]: StructureDefinition-mimic-condition.html
+[MimicEncounter]: StructureDefinition-mimic-encounter.html
+[MimicLocation]: StructureDefinition-mimic-location.html
+[MimicMedication]: StructureDefinition-mimic-medication.html
+[MimicMedicationAdministration]: StructureDefinition-mimic-medication-administration.html
+[MimicMedicationAdministrationICU]: StructureDefinition-mimic-medication-administration-icu.html
+[MimicMedicationDispense]: StructureDefinition-mimic-medication-dispense.html
+[MimicMedicationDispenseED]: StructureDefinition-mimic-medication-dispense-ed.html
+[MimicMedicationRequest]: StructureDefinition-mimic-medication-request.html
+[MimicMedicationStatementED]: StructureDefinition-mimic-medication-statement-ed.html
+[MimicObservationChartevents]: StructureDefinition-mimic-observation-chartevents.html
+[MimicObservationDatetimeevents]: StructureDefinition-mimic-observation-datetimeevents.html
+[MimicObservationED]: StructureDefinition-mimic-observation-ed.html
+[MimicObservationLabevents]: StructureDefinition-mimic-observation-labevents.html
+[MimicObservationMicroOrg]: StructureDefinition-mimic-observation-micro-org.html
+[MimicObservationMicroSusc]: StructureDefinition-mimic-observation-micro-susc.html
+[MimicObservationMicroTest]: StructureDefinition-mimic-observation-micro-test.html
+[MimicObservationOutputevents]: StructureDefinition-mimic-observation-outputevents.html
+[MimicObservationVitalSigns]: StructureDefinition-mimic-observation-vital-signs.html
+[MimicOrganization]: StructureDefinition-mimic-organization.html
+[MimicPatient]: StructureDefinition-mimic-patient.html
+[MimicProcedure]: StructureDefinition-mimic-procedure.html
+[MimicProcedureED]: StructureDefinition-mimic-procedure-ed.html
+[MimicProcedureICU]: StructureDefinition-mimic-procedure-icu.html
+[MimicSpecimen]: StructureDefinition-mimic-specimen.html
 
 
 [MimicAdmissionClass]: CodeSystem-mimic-admission-class.html
