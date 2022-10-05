@@ -7,8 +7,9 @@ A great deal of interest exists around FHIR development using real world fhir st
 
 ### Background
 
-The Medical Information Mart for Intensive Care (MIMIC)-IV is a database of critical care records ~300,000 patients admitted to Beth Israel Deaconess Medical Center (BIDMC). 
+The [Medical Information Mart for Intensive Care (MIMIC)-IV](https://physionet.org/content/mimiciv/) is a database of deidentified critical care records of ~300,000 patients admitted to Beth Israel Deaconess Medical Center (Boston, MA). MIMIC-IV is released publicly on [PhysioNet](https://physionet.org/), a repository for medical research data, as a set of tabular CSV files. This real-world, deidentified, and freely available database should advance and enable a multitude of research applications.
 
+Data from three in-hospital information systems together form MIMIC-IV, namely: a custom hospital wide electronic health record, an intensive care unit (ICU) specific clinical information system, and an emergency department information system ([MIMIC-IV-ED](https://physionet.org/content/mimic-iv-ed/)). Consequently, MIMIC-IV comprises of data from all three data sources and follows a modular structure. Each module highlights data provenance and facilitates both individual and combined use of disparate data sources. 
 
 ### Walkthrough of Implementation Guide
 - [MIMIC to FHIR Mappings]\: These pages provide a detailed breakdown of the element mappings from MIMIC to FHIR
