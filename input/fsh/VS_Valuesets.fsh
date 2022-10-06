@@ -33,8 +33,8 @@ Id: mimic-unit-quantity
 Title: "MIMIC-ED Observation Quantity Units Value Set"
 Description: "Selected codes from UCUM that represent quantity units."
 * $UCUM#degF "F" // triage:temperature / vitalsign:temperature
-* $UCUM#/min "beats/minute" // triage:heartrate / vitalsign:heartrate
-* $UCUM#/min "breaths/minute" // triage:resprate / vitalsign: resprate
+* $UCUM#{Beats}/min "Beats / minute" // triage:heartrate / vitalsign:heartrate
+* $UCUM#{Breaths}/min "Breaths / minute" // triage:resprate / vitalsign: resprate
 * $UCUM#% "%" // triage:o2sat / vitalsign:o2sat
 
 ValueSet: DataAbsentReason
