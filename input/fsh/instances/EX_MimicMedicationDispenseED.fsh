@@ -5,7 +5,7 @@ Title:          "Example MedicationDispense resource MIMIC-ED"
 Description:    "An example of how a MIMIC-ED MedicationDispense resource would look like."
 Usage:          #example
 
-* whenHandedOver = 2118-07-10T34:22:00.000Z
+* whenHandedOver = 2118-07-10T21:22:00.000Z
 * subject = Reference(ExampleMimicPatientED)
 * context = Reference(ExampleMimicEncounterED)
 * medicationCodeableConcept.coding = $GSN_CS#041562
