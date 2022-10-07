@@ -3,11 +3,11 @@
 # │  supported properties, see: https://fshschool.org/docs/sushi/configuration/                    │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: kindlab.fhir.mimic
-canonical: http://mimic.mit.edu/fhir
+canonical: http://mimic.mit.edu/fhir/mimic
 name: MIMIC
 title: MIMIC Implementation Guide
 status: draft
-version: 1.2.0
+version: 1.3.0
 fhirVersion: 4.0.1
 copyrightYear: 2022+
 releaseLabel: Draft
@@ -20,12 +20,38 @@ publisher:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
-  Background: index.html
-  Mappings: 
-      MIMIC-IV: mimic-fhir-mappings.html
-      MIMIC-ED: mimic-ed-fhir-mappings.html
+  Background:
+    General Background: index.html
+    MIMIC-IV Mapping: mimic-fhir-mappings.html
+    MIMIC-ED Mapping: mimic-ed-fhir-mappings.html
   Guidance:
-      Subsets: guidance-subsets.html
-      Terminology: index.html
+    General: guidance.html
+    Terminology: terminology-guide.html
+    Applications: applications.html
+    Tutorials: tutorials.html
+    Future Work: future-work.html
+  Subsets:
+    Microbiology: microbiology-background.html
+    Medication: medication-background.html
+    ED: ed-subset.html
+    ICU: icu-subset.html    
   Artifacts: artifacts.html
   Examples: index.html
+  Downloads: downloads.html
+  Change Log: changelog.html
+
+pages:
+  index.md:
+  mimic-fhir-mappings.md:
+    mimic-ed-fhir-mappings.md:
+  guidance.md:
+    terminology-guide.md:
+    applications.md:
+    tutorials.md:
+    future-work.md:
+  microbiology-background.md:
+    medication-background.md:
+    ed-subset.md:
+    icu-subset.md:
+  downloads.md:
+  changelog.md:  

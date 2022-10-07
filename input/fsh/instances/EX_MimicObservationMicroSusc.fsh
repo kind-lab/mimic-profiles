@@ -6,7 +6,7 @@ Usage: #example
 
 * identifier.system = $IdentifierObservationMicroSusc
 * identifier.value = "12345"
-* extension.url = "http://mimic.mit.edu/fhir/StructureDefinition/dilution-details"
+* extension.url = "http://mimic.mit.edu/fhir/mimic/StructureDefinition/dilution-details"
 * extension.valueQuantity.value = 4
 * extension.valueQuantity.comparator = #<=
 * status = #final

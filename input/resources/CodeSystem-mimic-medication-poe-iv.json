@@ -2,15 +2,15 @@
     "resourceType": "CodeSystem",
     "id": "mimic-medication-poe-iv",
     "language": "en",
-    "url": "http://mimic.mit.edu/fhir/CodeSystem/mimic-medication-poe-iv",
+    "url": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-medication-poe-iv",
     "version": "2.0",
     "name": "MimicMedicationPoeIv",
     "title": "MimicMedicationPoeIv",
     "status": "draft",
-    "date": "2022-09-15T15:52:00-04:00",
+    "date": "2022-09-21T13:59:43-04:00",
     "publisher": "KinD Lab",
     "description": "The IV medication that is ordered through POE",
-    "valueSet": "http://mimic.mit.edu/fhir/ValueSet/mimic-medication-poe-iv",
+    "valueSet": "http://mimic.mit.edu/fhir/mimic/ValueSet/mimic-medication-poe-iv",
     "content": "complete",
     "concept": [
         {

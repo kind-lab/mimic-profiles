@@ -40,3 +40,6 @@
   float: left;
   margin-left: 3px;
 }
+#body {
+  transform: scale(1.5);
+}

@@ -2,15 +2,15 @@
     "resourceType": "CodeSystem",
     "id": "mimic-medication-name",
     "language": "en",
-    "url": "http://mimic.mit.edu/fhir/CodeSystem/mimic-medication-name",
+    "url": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-medication-name",
     "version": "2.0",
     "name": "MimicMedicationName",
     "title": "MimicMedicationName",
     "status": "draft",
-    "date": "2022-09-15T15:52:00-04:00",
+    "date": "2022-09-21T13:59:43-04:00",
     "publisher": "KinD Lab",
     "description": "The standard medication name used in MIMIC. Used in pharmacy, prescriptions, and emar",
-    "valueSet": "http://mimic.mit.edu/fhir/ValueSet/mimic-medication-name",
+    "valueSet": "http://mimic.mit.edu/fhir/mimic/ValueSet/mimic-medication-name",
     "content": "complete",
     "concept": [
         {

@@ -4,7 +4,7 @@ Title: "Example Observation labevents resource MIMIC-IV"
 Description: "An example of how a MIMIC-IV Observation labevents resource would look like."
 Usage: #example
 
-* extension.url = "http://mimic.mit.edu/fhir/StructureDefinition/lab-priority" 
+* extension.url = "http://mimic.mit.edu/fhir/mimic/StructureDefinition/lab-priority" 
 * extension.valueString = "STAT"
 * identifier.system = $IdentifierObservationLabevents
 * identifier.value = "284911"
