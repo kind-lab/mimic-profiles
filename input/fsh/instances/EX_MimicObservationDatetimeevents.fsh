@@ -1,5 +1,7 @@
 Instance: ExampleMimicObservationDatetimeevents
 InstanceOf: MimicObservationDatetimeevents
+Title: "Example Observation datetimeevents resource MIMIC-IV"
+Description: "An example of how a MIMIC-IV Observation datetimeevents resource would look like."
 Usage: #example
 
 * status = #final

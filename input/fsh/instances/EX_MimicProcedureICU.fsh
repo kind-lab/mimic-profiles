@@ -1,5 +1,7 @@
 Instance: ExampleMimicProcedureICU
 InstanceOf: MimicProcedureICU
+Title: "Example Procedure resource MIMIC-IV-ICU"
+Description: "An example of how a MIMIC-IV-ICU Procedure resource would look like."
 Usage: #example
 
 * status = #completed

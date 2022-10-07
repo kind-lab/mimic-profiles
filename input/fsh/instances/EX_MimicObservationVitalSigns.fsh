@@ -1,8 +1,8 @@
 // Instance
 Instance:       ExampleMimicObservationVitalSigns
 InstanceOf:     MimicObservationVitalSigns
-Title:          "Example Observation for a vital sign measurement"
-Description:    "An example of how a MIMIC-ED Observation resource would look like with data from the vitalsigns table."
+Title:          "Example Observation resource for a MIMIC-IV-ED vital sign measurement"
+Description:    "An example of how a MIMIC-IV-ED Observation resource would look like with data from the vitalsigns table."
 Usage:          #example
 
 * partOf = Reference(ExampleMimicProcedureED)

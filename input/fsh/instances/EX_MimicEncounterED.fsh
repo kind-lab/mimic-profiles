@@ -1,14 +1,14 @@
 // Instance
 Instance:       ExampleMimicEncounterED
 InstanceOf:     MimicEncounter
-Title:          "Example Encounter MIMIC-ED"
-Description:    "An example of how a MIMIC-ED Encounter resource would look like."
+Title:          "Example Encounter resource MIMIC-IV-ED"
+Description:    "An example of how a MIMIC-IV-ED Encounter resource would look like."
 Usage:          #example
 
 * identifier.system = $IdentifierEncounterED
-* identifier.value = "38081480"
-* period.start = 2154-12-10T02:04:00.000Z
-* period.end = 2154-12-10T02:16:00.000Z
+* identifier.value = "22429197"
+* period.start = 2147-12-30T06:45:00-05:00
+* period.end = 2147-12-30T09:33:00-05:00
 * subject = Reference(ExampleMimicPatientED)
 * diagnosis.rank = 1
 * diagnosis.condition = Reference(ExampleMimicConditionED)

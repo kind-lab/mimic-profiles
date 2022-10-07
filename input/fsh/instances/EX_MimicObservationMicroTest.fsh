@@ -1,5 +1,7 @@
 Instance: ExampleMimicObservationMicroTest
 InstanceOf: MimicObservationMicroTest
+Title: "Example Observation microbiology test resource MIMIC-IV"
+Description: "An example of how a MIMIC-IV Observation microbiology test resource would look like."
 Usage: #example
 
 * status = #final

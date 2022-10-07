@@ -1,5 +1,7 @@
 Instance: ExampleMimicMedicationRequest
 InstanceOf: MimicMedicationRequest
+Title: "Example MedicationRequest resource MIMIC-IV"
+Description: "An example of how a MIMIC-IV MedicationRequest resource would look like."
 Usage: #example
 
 * identifier.system = $IdentifierMedicationRequestPHID

@@ -1,5 +1,7 @@
 Instance: ExampleMimicOrganization
 InstanceOf: MimicOrganization
+Title: "Example Organization resource MIMIC-IV"
+Description: "An example of how a MIMIC-IV Organization resource would look like."
 Usage: #example
 
 * identifier.system = $IdentifierOrganization

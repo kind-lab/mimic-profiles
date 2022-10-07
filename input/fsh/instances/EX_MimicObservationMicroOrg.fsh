@@ -1,5 +1,7 @@
 Instance: ExampleMimicObservationMicroOrg
 InstanceOf: MimicObservationMicroOrg
+Title: "Example Observation microbiology organism resource MIMIC-IV"
+Description: "An example of how a MIMIC-IV Observation microbiology organism resource would look like."
 Usage: #example
 
 * status = #final

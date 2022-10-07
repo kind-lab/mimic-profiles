@@ -1,5 +1,7 @@
 Instance: ExampleMimicMedicationAdministration
 InstanceOf: MimicMedicationAdministration
+Title: "Example MedicationAdministration resource MIMIC-IV"
+Description: "An example of how a MIMIC-IV MedicationAdministration resource would look like."
 Usage: #example
 
 * status = #completed

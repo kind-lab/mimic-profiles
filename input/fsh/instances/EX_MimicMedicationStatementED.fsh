@@ -1,7 +1,7 @@
 // Instance
 Instance:       ExampleMimicMedicationStatementED
 InstanceOf:     MimicMedicationStatementED
-Title:          "Example MedicationStatement MIMIC-ED"
+Title:          "Example MedicationStatement resource MIMIC-ED"
 Description:    "An example of how a MIMIC-ED MedicationStatement resource would look like."
 Usage:          #example
 

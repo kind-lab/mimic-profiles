@@ -1,5 +1,7 @@
 Instance: ExampleMimicObservationOutputevents
 InstanceOf: MimicObservationOutputevents
+Title: "Example Observation outputevents resource MIMIC-IV"
+Description: "An example of how a MIMIC-IV Observation outputevents resource would look like."
 Usage: #example
 
 * status = #final

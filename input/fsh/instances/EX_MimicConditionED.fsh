@@ -1,10 +1,10 @@
 // Instance
 Instance:       ExampleMimicConditionED
 InstanceOf:     MimicCondition
-Title:          "Example Condition MIMIC-ED"
-Description:    "An example of how a MIMIC-ED Condition resource would look like."
+Title:          "Example Condition resource MIMIC-IV-ED"
+Description:    "An example of how a MIMIC-IV-ED Condition resource would look like."
 Usage:          #example
 
 * subject = Reference(ExampleMimicPatientED)
 * encounter = Reference(ExampleMimicEncounterED)
-* code = $MimicDiagnosisIcd9#V08 "Asymptomatic human immunodeficiency virus [HIV] infection status"
+* code = $MimicDiagnosisIcd9#20500 "Acute myeloid leukemia, without mention of having achieved remission"

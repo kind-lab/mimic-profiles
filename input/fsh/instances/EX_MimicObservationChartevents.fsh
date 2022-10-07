@@ -1,5 +1,7 @@
 Instance: ExampleMimicObservationChartevents
 InstanceOf: MimicObservationChartevents
+Title: "Example Observation chartevents resource MIMIC-IV"
+Description: "An example of how a MIMIC-IV Observation chartevents resource would look like."
 Usage: #example
 
 * status = #final

@@ -15,6 +15,9 @@ The MIMIC-IV Profiles and the resulting datastore MIMIC-IV-on-FHIR are meant for
 1. Researchers: The MIMIC-IV-on-FHIR datastore can be used to test and explore novel FHIR applications
 2. Developers: The datastore can be used to test the robustness of applications to real-world data.
 
+The [Medical Information Mart for Intensive Care (MIMIC)-IV](https://physionet.org/content/mimiciv/) is a database of deidentified critical care records of ~300,000 patients admitted to Beth Israel Deaconess Medical Center (Boston, MA). MIMIC-IV is released publicly on [PhysioNet](https://physionet.org/), a repository for medical research data, as a set of tabular CSV files. This real-world, deidentified, and freely available database should advance and enable a multitude of research applications.
+
+Data from three in-hospital information systems together form MIMIC-IV, namely: a custom hospital wide electronic health record, an intensive care unit (ICU) specific clinical information system, and an emergency department information system ([MIMIC-IV-ED](https://physionet.org/content/mimic-iv-ed/)). Consequently, MIMIC-IV comprises of data from all three data sources and follows a modular structure. Each module highlights data provenance and facilitates both individual and combined use of disparate data sources. 
 
 ### Walkthrough of Implementation Guide
 - [Home]\: This page provides an introduction, background, and walkthrough for the MIMIC-IV Profiles.
@@ -66,5 +69,15 @@ The MIMIC-IV Profiles and the resulting datastore MIMIC-IV-on-FHIR are meant for
 - [MimicProcedureICU]
 - [MimicSpecimen]
 
+
+### Authors and Contributors
+
+| Role  | Name | Organization |
+| --- | --- | --- | --- |
+| **Author** | Alex M. Bennett | The Hospital for Sick Children | 
+| **Author** | Philip van Damme | Amsterdam UMC |
+| **Author** | Alistair E. W. Johnson | The Hospital for Sick Children |
+| **Author** | Hannes Ulrich | Kiel University |
+| **Author** | Joshua Wiedekopf | University of Lübeck |
 
 {% include link-list.md %}
