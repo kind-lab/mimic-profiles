@@ -10,7 +10,7 @@ An exemplar patient generated using the MIMIC-IV profiles will appear as Figure 
 6. Orders: Resources related to condition and procedure orders
 
 
-{% include img.html img="average-mimic-fhir-patient.png" caption="Exemplar MIMIC-IV FHIR Patient with their resources" %}
+{% include img-small.html img="average-mimic-fhir-patient.png" caption="Exemplar MIMIC-IV FHIR Patient with their resources" %}
 
 Modelling was completed to map the MIMIC-IV tables into FHIR. More detail can be found on the [MIMIC-IV Mappings] and [MIMIC-IV-ED Mappings] pages.
 
