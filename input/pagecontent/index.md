@@ -6,7 +6,7 @@ The MIMIC-IV Implementation Guide captures the [Medical Information Mart for Int
 
 Data from three in-hospital information systems together form MIMIC-IV, namely: a custom hospital wide electronic health record, an intensive care unit (ICU) specific clinical information system, and an emergency department information system ([MIMIC-IV-ED](https://physionet.org/content/mimic-iv-ed/)). A total of five modules facilitate both individual and combined use of the data in MIMIC-IV. 
 
-{% include img.html img="mimic-modules-overview.png" caption="General overview of MIMIC-IV" %}
+{% include img.html img="mimic-modules-overview.jpg" caption="General overview of MIMIC-IV" %}
 
 ### Usage of the MIMIC-IV Profiles
 A great deal of interest exists around FHIR development using real world FHIR stores. The MIMIC-IV Profiles have been used as the foundation to create MIMIC-IV-on-FHIR as one of the first openly accessible real-world FHIR stores. The data is open access thanks to deidentification efforts carried out in the initial MIMIC-IV database.
