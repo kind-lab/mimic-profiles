@@ -11,3 +11,5 @@
 
 * Encounter.status is fixed to 'finished' for all MIMIC encounters
 * Encounter.class is fixed to 'ACUTE'
+
+{% include link-list.md %}
