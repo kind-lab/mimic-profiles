@@ -21,7 +21,6 @@ publisher:
 menu:
   Home: index.html
   Background:
-    General Background: index.html
     MIMIC-IV Mapping: mimic-fhir-mappings.html
     MIMIC-ED Mapping: mimic-ed-fhir-mappings.html
   Guidance:
