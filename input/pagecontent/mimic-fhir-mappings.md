@@ -18,11 +18,11 @@ Custom profiles were created to house the tables coming into FHIR. This was nece
 
 {% include map-encounter-icu.md %}
 
-### mimic-core to FHIR
+### mimic-hosp patient and ADT to FHIR
 
 {% include map-mimic-core.md %}
 
-### mimic microbiologyevents to FHIR
+### mimic-hosp microbiologyevents to FHIR
 
 {% include map-mimic-microbiologyevents.md %}
 
