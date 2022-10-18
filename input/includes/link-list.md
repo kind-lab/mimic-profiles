@@ -2,14 +2,14 @@
 [Artifacts]: artifacts.html
 [Change Log]: changelog.html
 [Downloads]: downloads.html
-[ED Subset]: ed-subset.html
+[ED Subset]: emergency-department-subset.html
 [Examples]: index.html
 [Extensions]: extensions.html
 [General Background]: index.html
 [General Guidance]: guidance.html
 [Guidance]: guidance.html
 [Home]: index.html
-[ICU Subset]: icu-subset.html
+[ICU Subset]: intensive-care-unit-subset.html 
 [Mappings]: mimic-fhir-mappings.html
 [MIMIC-IV Mappings]: mimic-fhir-mappings.html
 [MIMIC-IV-ED Mappings]: mimic-ed-fhir-mappings.html

@@ -14,6 +14,10 @@ releaseLabel: Draft
 publisher:
   name: KinD Lab
   url: http://fhir.kindlab.sickkids.ca
+dependencies:
+  hl7.fhir.us.core:
+    id: uscore
+    version: 4.0.0  
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
@@ -21,7 +25,6 @@ publisher:
 menu:
   Home: index.html
   Background:
-    General Background: index.html
     MIMIC-IV Mapping: mimic-fhir-mappings.html
     MIMIC-ED Mapping: mimic-ed-fhir-mappings.html
   Guidance:
@@ -31,12 +34,12 @@ menu:
     Tutorials: tutorials.html
     Future Work: future-work.html
   Subsets:
-    Microbiology: microbiology-background.html
-    Medication: medication-background.html
-    ED: ed-subset.html
-    ICU: icu-subset.html    
+    Microbiology data: microbiology-background.html
+    Medication data: medication-background.html
+    Emergency Department data: emergency-department-subset.html
+    Intensive Care Unit data: intensive-care-unit-subset.html    
   Artifacts: artifacts.html
-  Examples: index.html
+  Examples: artifacts.html#example-example-instances
   Downloads: downloads.html
   Change Log: changelog.html
 
@@ -51,7 +54,7 @@ pages:
     future-work.md:
   microbiology-background.md:
     medication-background.md:
-    ed-subset.md:
-    icu-subset.md:
+    emergency-department-subset.md:
+    intensive-care-unit-subset.md:
   downloads.md:
   changelog.md:  
