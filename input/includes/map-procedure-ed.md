@@ -2,10 +2,16 @@ One Procedure resource per row in the triage / vitalsign tables (= collection of
 
 |MIMIC-ED Table|MIMIC-ED Data Element|FHIR Data Element|FHIR Profile|Notes| 
 |---|---|---|---|---|
-|triage / vitalsign|subject_id|Procedure.subject|[MimicProcedureED]|Links to a MimicPatient with corresponding identifier.|
-|triage / vitalsign|stay_id|Procedure.encounter|[MimicProcedureED]|Links to a MimicEncounter with corresponding identifier.|
-|edstays|intime|Procedure.performed[x]|[MimicProcedureED]|Only when describing a row of the triage table.|
-|vitalsign|charttime|Procedure.performed[x]|[MimicProcedureED]|Only when describing a row of the vitalsign table.|
+|triage|stay_id|Procedure.id|[MimicProcedureED]|Each stay_id has one triage associated with it|
+|triage|subject_id|Procedure.subject|[MimicProcedureED]|Convert to UUID5|
+|triage|stay_id|Procedure.encounter|[MimicProcedureED]|Convert to UUID5|
+|triage|intime|Procedure.performedDateTime|[MimicProcedureED]||
+|vitalsign|stay_id, charttime|Procedure.id|[MimicProcedureED]|Concat elements and convert to UUID5|
+|vitalsign|subject_id|Procedure.subject|[MimicProcedureED]|Convert to UUID5|
+|vitalsign|stay_id|Procedure.encounter|[MimicProcedureED]|Convert to UUID5|
+|vitalsign|charttime|Procedure.performedDateTime|[MimicProcedureED]||
+
+
 {: .grid #grid}
 
 * Procedure.status is fixed to 'completed' (Completed) for all MIMIC-ED procedures.

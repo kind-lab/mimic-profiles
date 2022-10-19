@@ -14,26 +14,51 @@ Custom profiles were created to house the tables coming into FHIR. This was nece
 
 {% include map-encounter.md %}
 
-### Encounter ICU
-
 {% include map-encounter-icu.md %}
 
-### mimic-hosp patient and ADT to FHIR
+### MedicationAdministration
 
-{% include map-mimic-core.md %}
+{% include map-medication-administration.md %}
 
-### mimic-hosp microbiologyevents to FHIR
+{% include map-medication-administration-icu.md %}
 
-{% include map-mimic-microbiologyevents.md %}
+### MedicationDispense
 
-### mimic-hosp medication to FHIR
+{% include map-medicationdispense.md %}
 
-{% include map-mimic-hosp-meds.md %}
+### MedicationRequest
 
-### mimic-hosp diagnosis, procedure, and labs to FHIR
+{% include map-medicationrequest.md %}
 
-{% include map-mimic-hosp-other.md %}
+### Observation - labevents
 
-### mimic-icu to FHIR
+{% include map-observation-labevents.md %}
 
-{% include map-mimic-icu.md %}
+### Observation - microbiology
+
+{% include map-observation-micro-test.md %}
+{% include map-observation-micro-org.md %}
+{% include map-observation-micro-susc.md %}
+
+### Observation - ICU
+
+{% include map-observation-chartevents.md %}
+{% include map-observation-datetimeevents.md %}
+{% include map-observation-outputevents.md %}
+
+### Location
+
+{% include map-location.md %}
+
+### Patient
+
+{% include map-patient.md %}
+
+### Procedure
+
+{% include map-procedure.md %}
+{% include map-procedure-icu.md %}
+
+### Specimen
+
+{% include map-specimen.md %}
