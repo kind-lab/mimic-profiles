@@ -2,15 +2,21 @@ One Observation resource per single measurement from a row of the triage and vit
 
 |MIMIC-ED Table|MIMIC-ED Data Element|FHIR Data Element|FHIR Profile|Notes| 
 |---|---|---|---|---|
-|triage / vitalsign|subject_id / stay_id|Observation.partOf|[MimicObservationED]|Links to a MimicProcedureED whose subject (MimicPatient) and context (MimicEncounter) identifiers correspond with subject_id and stay_id, respectively.|
-|triage / vitalsign|subject_id|Observation.subject|[MimicObservationED]|Links to a MimicPatient with corresponding identifier.|
-|triage / vitalsign|stay_id|Observation.encounter|[MimicObservationED]|Links to a MimicEncounter with corresponding identifier.|
-|edstays|intime|Observation.effective[x]|[MimicObservationED]|Only for values from the triage table.|
-|vitalsign|charttime|Observation.effective[x]|[MimicObservationED]|Only for values from the vitalsign table.|
-|triage|acuity|Observation.value[x]|[MimicObservationED]|If Observation captures acuity.|
-|triage|chiefcomplaint|Observation.value[x]|[MimicObservationED]|If Observation captures chiefcomplaint.|
-|vitalsign|rhythm|Observation.value[x]|[MimicObservationED]|If Observation captures rhythm.|
-|triage / vitalsign|pain|Observation.value[x]|[MimicObservationED]|If Observation captures pain.|
+|vitalsign|stay_id, charttime, key|Observation.id|[MimicObservationED]|Concat elements and convert to UUID5|
+|vitalsign|rhythm|Observation.value[x]|[MimicObservationED]|If Observation captures rhythm|
+|vitalsign|pain|Observation.value[x]|[MimicObservationED]|If Observation captures pain|
+|vitalsign|subject_id|Observation.subject|[MimicObservationED]|Convert to UUID5|
+|vitalsign|stay_id|Observation.encounter|[MimicObservationED]|Convert to UUID5|
+|vitalsign|value|Observation.valueString|[MimicObservationED]||
+|vitalsign|stay_id, charttime|Observation.partOf|[MimicObservationED]|Concat elements and convert to UUID5|
+|triage|stay_id, intime, key|Observation.id|[MimicObservationED]|Concat elements and convert to UUID5|
+|triage|acuity|Observation.value[x]|[MimicObservationED]|If Observation captures acuity|
+|triage|chiefcomplaint|Observation.value[x]|[MimicObservationED]|If Observation captures chiefcomplaint|
+|triage|pain|Observation.value[x]|[MimicObservationED]|If Observation captures pain|
+|triage|subject_id|Observation.subject|[MimicObservationED]|Convert to UUID5|
+|triage|stay_id|Observation.encounter|[MimicObservationED]|Convert to UUID5|
+|triage|value|Observation.valueString|[MimicObservationED]||
+|triage|stay_id, charttime|Observation.partOf|[MimicObservationED]|Concat elements and convert to UUID5|
 {: .grid #grid}
 
 * Observation.status is fixed to 'final' (Final) for all MIMIC observations.

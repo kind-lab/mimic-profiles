@@ -15,7 +15,7 @@ The MIMIC-IV Profiles were heavily infuenced by US Core, but did not conform due
 Additionally there will be work to generate more cloud access to use the MIMIC-IV-on-FHIR data. The current plan is to make these cloud FHIR stores accessible:
 - [Google Healthcare API](https://cloud.google.com/healthcare-api)
 - [Azure Health Data Services](https://azure.microsoft.com/en-us/products/health-data-services/)
-- [FHIR Works on AWS](https://github.com/awslabs/fhir-works-on-aws-deployment)
+- [Amazon Healthlake](https://docs.aws.amazon.com/healthlake/latest/devguide/what-is-amazon-health-lake.html)
 
 
 ### Increased subset options 

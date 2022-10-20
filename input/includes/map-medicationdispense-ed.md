@@ -2,10 +2,11 @@ One MedicationDispense resource per dispense in the pyxis table (ED medication d
 
 |MIMIC-ED Table|MIMIC-ED Data Element|FHIR Data Element|FHIR Profile|Notes| 
 |---|---|---|---|---|
+|pyxis|stay_id, med_rn, gsn_rn|MedicationDispense.id|[MimicMedicationDispenseED]|Concat MIMIC columns and convert to UUID5|
+|pyxis|subject_id|MedicationDispense.subject|[MimicMedicationDispenseED]|Convert to UUID5|
+|pyxis|stay_id|MedicationDispense.context|[MimicMedicationDispenseED]|Convert to UUID5|
 |pyxis|gsn|MedicationDispense.medicationCodeableConcept.coding|[MimicMedicationDispenseED]|MIMIC code system|
 |pyxis|name|MedicationDispense.medicationCodeableConcept.text|[MimicMedicationDispenseED]||
-|pyxis|subject_id|MedicationDispense.subject|[MimicMedicationDispenseED]|Links to a MimicPatient with corresponding identifier|
-|pyxis|stay_id|MedicationDispense.context|[MimicMedicationDispenseED]|Links to a MimicEncounter with corresponding identifier|
 |pyxis|charttime|MedicationDispense.whenHandedOver|[MimicMedicationDispenseED]||
 {: .grid #grid}
 
