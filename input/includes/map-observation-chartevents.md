@@ -15,8 +15,6 @@
 |d_items|category|Observation.category|[MimicObservationChartevents]||
 |d_items|itemid|Observation.code.coding.code|[MimicObservationChartevents]||
 |d_items|label|Observation.code.coding.display|[MimicObservationChartevents]||
-
-
 {: .grid #grid}
 
 * Observation.status is fixed to 'final'

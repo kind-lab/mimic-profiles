@@ -21,7 +21,6 @@
 |labevents|priority|Observation.extension:lab-priority|[MimicObservationLabevents]|Set value to a custom extension [LabPriority]|
 |d_labitems|itemid|Observation.code.coding.code|[MimicObservationLabevents]||
 |d_labitems|label|Observation.code.coding.display|[MimicObservationLabevents]||
-
 {: .grid #grid}
 
 * Observation.category is set to code 'laboratory'

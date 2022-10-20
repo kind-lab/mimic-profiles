@@ -16,8 +16,6 @@
 |prescriptions|one_hr_max|MedicationRequest.dosageInstruction.maxDosePerPeriod|[MimicMedicationRequest]||
 |prescriptions|starttime|MedicationRequest.dispenseRequest.validityPeriod.start|[MimicMedicationRequest]||
 |prescriptions|stoptime|MedicationRequest.dispenseRequest.validityPeriod.end|[MimicMedicationRequest]||
-
-
 {: .grid #grid}
 
 * MedicationRequest.intent is fixed to 'order'

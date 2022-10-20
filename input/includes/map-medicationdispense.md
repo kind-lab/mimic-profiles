@@ -11,7 +11,6 @@
 |pharmacy|frequency|MedicationDispense.dosageInstruction.timing.code|[MimicMedicationDispense]||
 |pharmacy|duration|MedicationDispense.dosageInstruction.timing.duration|[MimicMedicationDispense]||
 |pharmacy|one_hr_max|MedicationDispense.dosageInstruction.maxDosePerPeriod|[MimicMedicationDispense]||
-
 {: .grid #grid}
 
 * MedicationDispense.status is fixed to 'completed'

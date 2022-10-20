@@ -7,7 +7,6 @@
 |procedures_icd|icd_code|Procedure.code.coding.code|[MimicProcedure]||
 |procedures_icd|icd_version|Procedure.code.coding.system|[MimicProcedure]|ICD Version used to select FHIR ICD codesystem|
 |d_icd_procedures|long_title|Procedure.code.coding.display|[MimicProcedure]||
-
 {: .grid #grid}
 
 * Procedure.status is fixed to 'completed' (Completed) for all procedures.

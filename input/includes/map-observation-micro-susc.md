@@ -10,7 +10,6 @@
 |microbiologyevents|comments|Observation.note.text|[MimicObservationMicroSusc]||
 |microbiologyevents|dilution_value|Observation.extension:dilution_details|[MimicObservationMicroSusc]|Set dilution value to custom extension dilution_details|
 |microbiologyevents|micro_specimen_id, test_itemid, org_itemid|Observation.derivedFrom|[MimicObservationMicroSusc]|Reference back to parent Observation. Concat elements and convert to UUID5|
-
 {: .grid #grid}
 
 * Observation.status is fixed to 'final'

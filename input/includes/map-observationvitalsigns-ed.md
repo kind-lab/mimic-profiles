@@ -23,7 +23,6 @@ One Observation resource per single measurement from a row of the triage and vit
 |vitalsign|subject_id|Observation.subject|[MimicObservationVitalSigns]|Convert to UUID5|
 |vitalsign|stay_id|Observation.encounter|[MimicObservationVitalSigns]|Convert to UUID5|
 |vitalsign|stay_id, charttime|Observation.procedure|[MimicObservationVitalSigns]|Concat elements and convert to UUID5|
-
 {: .grid #grid}
 
 * Observation.status is fixed to 'final' (Final) for all MIMIC observations.

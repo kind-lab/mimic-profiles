@@ -10,7 +10,6 @@
 |procedureevents|ordercategoryname|Procedure.category|[MimicProcedureICU]||
 |procedureevents|itemid|Procedure.code.coding.code|[MimicProcedureICU]||
 |d_items|label|Procedure.code.coding.display|[MimicProcedureICU]||
-
 {: .grid #grid}
 
 {% include link-list.md %}

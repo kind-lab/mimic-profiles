@@ -10,7 +10,6 @@
 |admissions|ethnicity|Patient.extension:ethnicity|[MimicPatient]|Map MIMIC ethnicity to the FHIR ethnicity groups|
 |admissions|marital_status|Patient.maritalStatus|[MimicPatient]||
 |admissions|language|Patient.communication.language|[MimicPatient]||
-
 {: .grid #grid}
 
 * Patient.name is created with a combination of "Patient_" and subject_id being concatenated

@@ -10,8 +10,6 @@
 |d_items|category|Observation.category|[MimicObservationOutputevents]||
 |d_items|itemid|Observation.code.coding.code|[MimicObservationOutputevents]||
 |d_items|label|Observation.code.coding.display|[MimicObservationOutputevents]||
-
-
 {: .grid #grid}
 
 * Observation.status is fixed to 'final'

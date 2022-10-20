@@ -13,6 +13,6 @@ MIMIC Table|MIMIC Data Element|FHIR Data Element|FHIR Profile|Notes|
 |microbiologyevents|charttime|Specimen.collection.collectedDateTime|[MimicSpecimen]||
 |microbiologyevents|spec_itemid|Specimen.type.coding.code|[MimicSpecimen]||
 |microbiologyevents|spec_type_desc|Specimen.type.coding.code|[MimicSpecimen]||
-
 {: .grid #grid}
+
 {% include link-list.md %}

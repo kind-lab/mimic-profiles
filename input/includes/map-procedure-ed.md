@@ -10,8 +10,6 @@ One Procedure resource per row in the triage / vitalsign tables (= collection of
 |vitalsign|subject_id|Procedure.subject|[MimicProcedureED]|Convert to UUID5|
 |vitalsign|stay_id|Procedure.encounter|[MimicProcedureED]|Convert to UUID5|
 |vitalsign|charttime|Procedure.performedDateTime|[MimicProcedureED]||
-
-
 {: .grid #grid}
 
 * Procedure.status is fixed to 'completed' (Completed) for all MIMIC-ED procedures.

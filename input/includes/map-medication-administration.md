@@ -14,7 +14,6 @@
 |emar_detail|product_code|MedicationAdministration.medicationCodeableConcept|[MimicMedicationAdministration]|product code used if present|
 |emar|medication|MedicationAdministration.medicationCodeableConcept|[MimicMedicationAdministration]|medication used if product code not present|
 |poe|order_type|MedicationAdministration.medicationCodeableConcept|[MimicMedicationAdministration]|Used for IV and TPN medication|
-
 {: .grid #grid}
 
 * MedicationAdministration.status is fixed to 'completed'

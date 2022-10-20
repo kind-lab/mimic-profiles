@@ -9,7 +9,6 @@
 |microbiologyevents|micro_specimen_id, test_itemid|Observation.derivedFrom|[MimicObservationMicroOrg]|Point to the parent microbiology test|
 |microbiologyevents|microevent_id|Observation.hasMember|[MimicObservationMicroOrg]|Group all the references to microevent_id associated with an org_itemid and test_itemid|
 |microbiologyevents|org_itemid|Observation.valueString|[MimicObservationMicroOrg]||
-
 {: .grid #grid}
 
 * Observation.status is fixed to 'final'

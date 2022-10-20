@@ -8,7 +8,6 @@ One MedicationDispense resource per dispense in the pyxis table (ED medication d
 |pyxis|gsn|MedicationDispense.medicationCodeableConcept.coding|[MimicMedicationDispenseED]|MIMIC code system|
 |pyxis|name|MedicationDispense.medicationCodeableConcept.text|[MimicMedicationDispenseED]||
 |pyxis|charttime|MedicationDispense.whenHandedOver|[MimicMedicationDispenseED]||
-
 {: .grid #grid}
 
 * MedicationDispense.status is fixed to 'unknown' (Unknown)

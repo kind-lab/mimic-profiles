@@ -9,8 +9,6 @@
 |d_items|category|Observation.category|[MimicObservationDatetimeevents]||
 |d_items|itemid|Observation.code.coding.code|[MimicObservationDatetimeevents]||
 |d_items|label|Observation.code.coding.display|[MimicObservationDatetimeevents]||
-
-
 {: .grid #grid}
 
 * Observation.status is fixed to 'final'

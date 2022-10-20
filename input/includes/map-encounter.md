@@ -16,7 +16,6 @@
 |transfers|careunit|Encounter.location.reference|[MimicEncounter]||
 |transfers|intime|Encounter.location.period.start|[MimicEncounter]||
 |transfers|outtime|Encounter.location.period.end|[MimicEncounter]||
-
 {: .grid #grid}
 
 * Encounter.status is fixed to 'finished' for all MIMIC encounters

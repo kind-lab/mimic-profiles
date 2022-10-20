@@ -13,8 +13,6 @@
 |inputevents|rateuom|MedicationAdministration.dosage.rateQuantity.unit|[MimicMedicationAdministrationICU]|ised for rateQuantity unit and code|
 |d_items|itemid|MedicationAdministration.medicationCodeableConcept.coding.code|[MimicMedicationAdministrationICU]||
 |d_items|label|MedicationAdministration.medicationCodeableConcept.coding.display|[MimicMedicationAdministrationICU]||
-
-
 {: .grid #grid}
 
 * MedicationAdministration.status is fixed to 'completed'

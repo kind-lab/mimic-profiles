@@ -9,7 +9,6 @@
 |microbiologyevents|charttime|Observation.effectiveDateTime|[MimicObservationMicroTest]||
 |microbiologyevents|org_itemid|Observation.hasMember|[MimicObservationMicroTest]|Group all the references to org_itemid associated with the test_itemid|
 |microbiologyevents|org_itemid|Observation.valueString|[MimicObservationMicroTest]||
-
 {: .grid #grid}
 
 * Observation.status is fixed to 'final'
