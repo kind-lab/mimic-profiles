@@ -59,3 +59,5 @@ For the generation of medication resources the CodeSystems were effectively tran
 - The intermixing of all the identifiers led to more medication resources being created to get full coverage.
 
 The other more complex medication was medication mixes. These were constructed from prescriptions with multiple drugs linked to one pharmacy_id. Thus once the base medication were created, the medication mixes were generated with references to the base medication in the *ingredients* element.
+
+{% include link-list.md %}

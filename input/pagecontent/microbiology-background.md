@@ -25,3 +25,5 @@ In FHIR the test->organism->susceptibility framework becomes ObservationMicroTes
 A typical microbiology event is a urine sample being tested for susceptability. The diagram below shows how this microbiology event would be represented in FHIR:
 
 {% include img.html img="microbiology-mapping.jpg" caption="Microbiology Mappings" %}
+
+{% include link-list.md %}
