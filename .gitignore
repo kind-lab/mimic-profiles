@@ -5,3 +5,7 @@ Thumbs.db
 /output
 /temp
 /template
+
+.idea
+/_*.bat
+.index.db
