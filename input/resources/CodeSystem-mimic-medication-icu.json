@@ -9,7 +9,7 @@
     "status": "draft",
     "date": "2022-09-21T13:59:43-04:00",
     "publisher": "KinD Lab",
-    "description": "All medication found in the ICU, derived from mimic_icu.d_items",
+    "description": "All medication found in the ICU, derived from mimiciv_icu.d_items",
     "valueSet": "http://mimic.mit.edu/fhir/mimic/ValueSet/mimic-medication-icu",
     "content": "complete",
     "concept": [
@@ -140,10 +140,6 @@
         {
             "code": "220977",
             "display": "Pentastarch 10% (HAES, Hemohes)"
-        },
-        {
-            "code": "221203",
-            "display": "Nutrini"
         },
         {
             "code": "220979",
@@ -344,6 +340,10 @@
         {
             "code": "221202",
             "display": "Infatrini"
+        },
+        {
+            "code": "221203",
+            "display": "Nutrini"
         },
         {
             "code": "221204",
@@ -1422,10 +1422,6 @@
             "display": "Peptamen VHP (1/2)"
         },
         {
-            "code": "227691",
-            "display": "Keflex"
-        },
-        {
             "code": "227518",
             "display": "Nutren 2.0 (3/4)"
         },
@@ -1496,6 +1492,10 @@
         {
             "code": "227690",
             "display": "Fosphenytoin"
+        },
+        {
+            "code": "227691",
+            "display": "Keflex"
         },
         {
             "code": "227692",

@@ -95,10 +95,10 @@
             "code": "R Wrist Lateral"
         },
         {
-            "code": "Left Femoral"
+            "code": "R Antecube"
         },
         {
-            "code": "R Antecube"
+            "code": "Left Femoral"
         },
         {
             "code": "R Ventricular"
@@ -137,10 +137,10 @@
             "code": "LL Ant Forearm"
         },
         {
-            "code": "Right IJ."
+            "code": "Right above Antecubital"
         },
         {
-            "code": "Right above Antecubital"
+            "code": "Right IJ."
         },
         {
             "code": "RU Ant Forearm Medial"
@@ -302,13 +302,13 @@
             "code": "Right Median Cubital"
         },
         {
+            "code": "L Antecube"
+        },
+        {
             "code": "L Wrist"
         },
         {
             "code": "Left Subclavian"
-        },
-        {
-            "code": "L Antecube"
         },
         {
             "code": "Right Upper Arm"

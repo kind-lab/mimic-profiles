@@ -10,6 +10,7 @@
     "date": "2022-09-21T13:59:43-04:00",
     "publisher": "KinD Lab",
     "description": "The admission type for MIMIC",
+    "valueSet": "http://mimic.mit.edu/fhir/mimic/ValueSet/mimic-admission-type",
     "content": "complete",
     "concept": [
         {

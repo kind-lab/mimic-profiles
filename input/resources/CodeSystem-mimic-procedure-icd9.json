@@ -602,10 +602,6 @@
             "display": "Revision of spinal thecal shunt"
         },
         {
-            "code": "0398",
-            "display": "Removal of spinal thecal shunt"
-        },
-        {
             "code": "0399",
             "display": "Other operations on spinal cord and spinal canal structures"
         },
@@ -696,10 +692,6 @@
         {
             "code": "0493",
             "display": "Removal of peripheral neurostimulator lead(s)"
-        },
-        {
-            "code": "0499",
-            "display": "Other operations on cranial and peripheral nerves"
         },
         {
             "code": "050",
@@ -1242,12 +1234,12 @@
             "display": "Laparoscopic bilateral repair of indirect inguinal hernia with graft or prosthesis"
         },
         {
-            "code": "2631",
-            "display": "Partial sialoadenectomy"
-        },
-        {
             "code": "1723",
             "display": "Laparoscopic bilateral repair of inguinal hernia, one direct and one indirect, with graft or prosthesis"
+        },
+        {
+            "code": "2691",
+            "display": "Probing of salivary duct"
         },
         {
             "code": "1731",
@@ -1448,10 +1440,6 @@
         {
             "code": "2122",
             "display": "Biopsy of nose"
-        },
-        {
-            "code": "2130",
-            "display": "Excision or destruction of lesion of nose, not otherwise specified"
         },
         {
             "code": "2131",
@@ -1702,16 +1690,16 @@
             "display": "Sialoadenectomy, not otherwise specified"
         },
         {
+            "code": "2631",
+            "display": "Partial sialoadenectomy"
+        },
+        {
             "code": "2632",
             "display": "Complete sialoadenectomy"
         },
         {
             "code": "2649",
             "display": "Other repair and plastic operations on salivary gland or duct"
-        },
-        {
-            "code": "2691",
-            "display": "Probing of salivary duct"
         },
         {
             "code": "2699",
@@ -2142,10 +2130,6 @@
             "display": "Endoscopic insertion or replacement of bronchial valve(s), multiple lobes"
         },
         {
-            "code": "4198",
-            "display": "Other operations on bone marrow"
-        },
-        {
             "code": "3378",
             "display": "Endoscopic removal of bronchial device(s) or substances"
         },
@@ -2570,10 +2554,6 @@
             "display": "Excision or destruction of other lesion or tissue of heart, endovascular approach"
         },
         {
-            "code": "4199",
-            "display": "Other operations on spleen"
-        },
-        {
             "code": "3736",
             "display": "Excision, destruction, or exclusion of left atrial appendage (LAA)"
         },
@@ -2586,8 +2566,8 @@
             "display": "Other repair of heart and pericardium"
         },
         {
-            "code": "3752",
-            "display": "Implantation of total internal biventricular heart replacement system"
+            "code": "3891",
+            "display": "Arterial catheterization"
         },
         {
             "code": "3760",
@@ -2934,10 +2914,6 @@
             "display": "Other surgical occlusion of vessels, aorta, abdominal"
         },
         {
-            "code": "4922",
-            "display": "Biopsy of perianal tissue"
-        },
-        {
             "code": "3885",
             "display": "Other surgical occlusion of vessels, thoracic vessels"
         },
@@ -2956,10 +2932,6 @@
         {
             "code": "3889",
             "display": "Other surgical occlusion of vessels, lower limb veins"
-        },
-        {
-            "code": "3891",
-            "display": "Arterial catheterization"
         },
         {
             "code": "3892",
@@ -3358,6 +3330,14 @@
             "display": "Repair and plastic operations on spleen"
         },
         {
+            "code": "4198",
+            "display": "Other operations on bone marrow"
+        },
+        {
+            "code": "4199",
+            "display": "Other operations on spleen"
+        },
+        {
             "code": "4210",
             "display": "Esophagostomy, not otherwise specified"
         },
@@ -3376,6 +3356,10 @@
         {
             "code": "4224",
             "display": "Closed [endoscopic] biopsy of esophagus"
+        },
+        {
+            "code": "4572",
+            "display": "Open and other cecectomy"
         },
         {
             "code": "4231",
@@ -3806,10 +3790,6 @@
             "display": "Open and other multiple segmental resection of large intestine"
         },
         {
-            "code": "4572",
-            "display": "Open and other cecectomy"
-        },
-        {
             "code": "4573",
             "display": "Open and other right hemicolectomy"
         },
@@ -4094,10 +4074,6 @@
             "display": "Destruction of rectal lesion or tissue by laser"
         },
         {
-            "code": "4834",
-            "display": "Destruction of rectal lesion or tissue by cryosurgery"
-        },
-        {
             "code": "4835",
             "display": "Local excision of rectal lesion or tissue"
         },
@@ -4232,6 +4208,10 @@
         {
             "code": "4921",
             "display": "Anoscopy"
+        },
+        {
+            "code": "4922",
+            "display": "Biopsy of perianal tissue"
         },
         {
             "code": "4923",
@@ -4698,6 +4678,10 @@
             "display": "Other and open repair of indirect inguinal hernia"
         },
         {
+            "code": "5682",
+            "display": "Suture of laceration of ureter"
+        },
+        {
             "code": "5303",
             "display": "Other and open repair of direct inguinal hernia with graft or prosthesis"
         },
@@ -5122,10 +5106,6 @@
             "display": "Transureteroureterostomy"
         },
         {
-            "code": "5682",
-            "display": "Suture of laceration of ureter"
-        },
-        {
             "code": "5683",
             "display": "Closure of ureterostomy"
         },
@@ -5546,10 +5526,6 @@
             "display": "Excision of cyst of epididymis"
         },
         {
-            "code": "8097",
-            "display": "Other excision of joint, ankle"
-        },
-        {
             "code": "633",
             "display": "Excision of other lesion or tissue of spermatic cord and epididymis"
         },
@@ -5746,20 +5722,12 @@
             "display": "Salpingostomy"
         },
         {
-            "code": "6611",
-            "display": "Biopsy of fallopian tube"
-        },
-        {
             "code": "6622",
             "display": "Bilateral endoscopic ligation and division of fallopian tubes"
         },
         {
             "code": "6629",
             "display": "Other bilateral endoscopic destruction or occlusion of fallopian tubes"
-        },
-        {
-            "code": "6631",
-            "display": "Other bilateral ligation and crushing of fallopian tubes"
         },
         {
             "code": "6632",
@@ -5968,10 +5936,6 @@
         {
             "code": "6941",
             "display": "Suture of laceration of uterus"
-        },
-        {
-            "code": "6942",
-            "display": "Closure of fistula of uterus"
         },
         {
             "code": "6951",
@@ -6430,10 +6394,6 @@
             "display": "Other facial bone repair"
         },
         {
-            "code": "8289",
-            "display": "Other plastic operations on hand"
-        },
-        {
             "code": "7670",
             "display": "Reduction of facial fracture, not otherwise specified"
         },
@@ -6832,10 +6792,6 @@
         {
             "code": "7814",
             "display": "Application of external fixator device, carpals and metacarpals"
-        },
-        {
-            "code": "8291",
-            "display": "Lysis of adhesions of hand"
         },
         {
             "code": "7815",
@@ -7570,6 +7526,10 @@
             "display": "Other excision of joint, knee"
         },
         {
+            "code": "8097",
+            "display": "Other excision of joint, ankle"
+        },
+        {
             "code": "8098",
             "display": "Other excision of joint, foot and toe"
         },
@@ -7994,6 +7954,14 @@
             "display": "Other tenoplasty of hand"
         },
         {
+            "code": "8289",
+            "display": "Other plastic operations on hand"
+        },
+        {
+            "code": "8291",
+            "display": "Lysis of adhesions of hand"
+        },
+        {
             "code": "8292",
             "display": "Aspiration of bursa of hand"
         },
@@ -8112,10 +8080,6 @@
         {
             "code": "8372",
             "display": "Recession of tendon"
-        },
-        {
-            "code": "8373",
-            "display": "Reattachment of tendon"
         },
         {
             "code": "8374",
@@ -9766,10 +9730,6 @@
             "display": "Replacement of wound packing or drain"
         },
         {
-            "code": "9721",
-            "display": "Replacement of nasal packing"
-        },
-        {
             "code": "9722",
             "display": "Replacement of dental packing"
         },
@@ -10008,10 +9968,6 @@
         {
             "code": "9851",
             "display": "Extracorporeal shockwave lithotripsy [ESWL] of the kidney, ureter and/or bladder"
-        },
-        {
-            "code": "9852",
-            "display": "Extracorporeal shockwave lithotripsy [ESWL] of the gallbladder and/or bile duct"
         },
         {
             "code": "9859",

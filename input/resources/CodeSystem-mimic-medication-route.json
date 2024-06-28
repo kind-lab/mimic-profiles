@@ -17,10 +17,10 @@
             "code": "AD"
         },
         {
-            "code": "IH"
+            "code": "G TUBE"
         },
         {
-            "code": "G TUBE"
+            "code": "IH"
         },
         {
             "code": "NG"
@@ -41,10 +41,10 @@
             "code": "DWELL"
         },
         {
-            "code": "RIGHT EAR"
+            "code": "IU"
         },
         {
-            "code": "IU"
+            "code": "RIGHT EAR"
         },
         {
             "code": "LEFT EAR"
@@ -68,10 +68,10 @@
             "code": "IV"
         },
         {
-            "code": "REPLACE"
+            "code": "IA"
         },
         {
-            "code": "IA"
+            "code": "REPLACE"
         },
         {
             "code": "LEFT EYE"
@@ -83,10 +83,10 @@
             "code": "IP"
         },
         {
-            "code": "ED"
+            "code": "AS"
         },
         {
-            "code": "AS"
+            "code": "ED"
         },
         {
             "code": "INTRA-ARTERIALLY"
@@ -110,10 +110,10 @@
             "code": "PO/IV"
         },
         {
-            "code": "IVPCA"
+            "code": "INHALATION"
         },
         {
-            "code": "INHALATION"
+            "code": "IVPCA"
         },
         {
             "code": "OD"
@@ -125,31 +125,31 @@
             "code": "ND"
         },
         {
-            "code": "PO/OG"
+            "code": "EDPCA"
         },
         {
-            "code": "EDPCA"
+            "code": "PO/OG"
         },
         {
             "code": "PEG"
         },
         {
-            "code": "SL"
-        },
-        {
             "code": "BOTH EARS"
         },
         {
+            "code": "SL"
+        },
+        {
             "code": "IVS"
+        },
+        {
+            "code": "AU"
         },
         {
             "code": "IR"
         },
         {
             "code": "NS"
-        },
-        {
-            "code": "AU"
         },
         {
             "code": "OU"
@@ -179,10 +179,10 @@
             "code": "Po"
         },
         {
-            "code": "IMPELLA"
+            "code": "ET"
         },
         {
-            "code": "ET"
+            "code": "IMPELLA"
         },
         {
             "code": "EX-VIVO"
@@ -203,13 +203,13 @@
             "code": "ITPCA"
         },
         {
-            "code": "LOCK"
-        },
-        {
             "code": "IJ"
         },
         {
             "code": "IO"
+        },
+        {
+            "code": "LOCK"
         },
         {
             "code": "OG"
@@ -230,10 +230,10 @@
             "code": "SCPCA"
         },
         {
-            "code": "IVCI"
+            "code": "IV FLUSH*"
         },
         {
-            "code": "IV FLUSH*"
+            "code": "IVCI"
         },
         {
             "code": "INTRAPLEURAL"
@@ -281,16 +281,16 @@
             "code": "SUBCUT"
         },
         {
-            "code": "BUCCAL"
-        },
-        {
             "code": "AC"
         },
         {
-            "code": "TP"
+            "code": "BUCCAL"
         },
         {
             "code": "INTRAPERICARDIAL"
+        },
+        {
+            "code": "TP"
         },
         {
             "code": "AXILLARY"

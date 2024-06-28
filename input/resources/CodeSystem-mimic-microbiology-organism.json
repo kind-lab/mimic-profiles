@@ -250,10 +250,6 @@
             "display": "STREPTOCOCCUS SALIVARIUS SSP. SALIVARIUS"
         },
         {
-            "code": "90360",
-            "display": "STREPTOCOCCUS UBERIS"
-        },
-        {
             "code": "80236",
             "display": "PRESUMPTIVE CLOSTRIDIUM PERFRINGENS"
         },
@@ -1834,16 +1830,8 @@
             "display": "ALTERNARIA SP."
         },
         {
-            "code": "90281",
-            "display": "EDWARDSIELLA TARDA"
-        },
-        {
             "code": "90398",
             "display": "ACTINOMYCES ISRAELII"
-        },
-        {
-            "code": "80226",
-            "display": "PROBABLE LACTOBACILLUS SPECIES"
         },
         {
             "code": "90552",
@@ -1952,10 +1940,6 @@
         {
             "code": "90791",
             "display": "GORDONIA SPUTI"
-        },
-        {
-            "code": "80077",
-            "display": "CRYPTOCOCCUS SPECIES"
         },
         {
             "code": "90888",
@@ -2456,10 +2440,6 @@
         {
             "code": "80084",
             "display": "PROTEUS SPECIES"
-        },
-        {
-            "code": "90541",
-            "display": "COMAMONAS TESTOSTERONI"
         },
         {
             "code": "90858",

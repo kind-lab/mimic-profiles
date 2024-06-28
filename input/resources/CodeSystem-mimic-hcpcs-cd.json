@@ -394,10 +394,6 @@
             "display": "Musculoskeletal system"
         },
         {
-            "code": "S2079",
-            "display": "Lap esophagomyotomy"
-        },
-        {
             "code": "28445",
             "display": "Musculoskeletal system"
         },
@@ -512,10 +508,6 @@
         {
             "code": "38510",
             "display": "Hemic and lymphatic systems"
-        },
-        {
-            "code": "50949",
-            "display": "Urinary system"
         },
         {
             "code": "21235",
@@ -1058,10 +1050,6 @@
             "display": "Musculoskeletal system"
         },
         {
-            "code": "27238",
-            "display": "Musculoskeletal system"
-        },
-        {
             "code": "31238",
             "display": "Respiratory system"
         },
@@ -1152,10 +1140,6 @@
         {
             "code": "62351",
             "display": "Nervous system"
-        },
-        {
-            "code": "25000",
-            "display": "Musculoskeletal system"
         },
         {
             "code": "20102",
@@ -1850,10 +1834,6 @@
             "display": "Cardiovascular system"
         },
         {
-            "code": "61070",
-            "display": "Nervous system"
-        },
-        {
             "code": "50433",
             "display": "Urinary system"
         },
@@ -1971,10 +1951,6 @@
         },
         {
             "code": "44369",
-            "display": "Digestive system"
-        },
-        {
-            "code": "44346",
             "display": "Digestive system"
         },
         {
@@ -2240,10 +2216,6 @@
         {
             "code": "27339",
             "display": "Musculoskeletal system"
-        },
-        {
-            "code": "64861",
-            "display": "Nervous system"
         },
         {
             "code": "28234",
@@ -3346,10 +3318,6 @@
             "display": "Integumentary system"
         },
         {
-            "code": "26542",
-            "display": "Musculoskeletal system"
-        },
-        {
             "code": "59120",
             "display": "Maternity care and delivery"
         },
@@ -3498,10 +3466,6 @@
             "display": "Musculoskeletal system"
         },
         {
-            "code": "27372",
-            "display": "Musculoskeletal system"
-        },
-        {
             "code": "57155",
             "display": "Female genital system"
         },
@@ -3536,10 +3500,6 @@
         {
             "code": "15732",
             "display": "Integumentary system"
-        },
-        {
-            "code": "28289",
-            "display": "Musculoskeletal system"
         },
         {
             "code": "57720",
@@ -3655,10 +3615,6 @@
         },
         {
             "code": "21365",
-            "display": "Musculoskeletal system"
-        },
-        {
-            "code": "29883",
             "display": "Musculoskeletal system"
         },
         {
@@ -3876,10 +3832,6 @@
         {
             "code": "24116",
             "display": "Musculoskeletal system"
-        },
-        {
-            "code": "43620",
-            "display": "Digestive system"
         },
         {
             "code": "21462",
@@ -4388,10 +4340,6 @@
         {
             "code": "45339",
             "display": "Digestive system"
-        },
-        {
-            "code": "36221",
-            "display": "Cardiovascular system"
         },
         {
             "code": "45389",
@@ -5026,10 +4974,6 @@
             "display": "Maternity care and delivery"
         },
         {
-            "code": "64795",
-            "display": "Nervous system"
-        },
-        {
             "code": "96365",
             "display": "Hydration,therapeutic,prophylactic,diagnostic injections and infusions,and chemotherapy and other highly complex drug or highly complex biologic agent administration"
         },
@@ -5186,10 +5130,6 @@
             "display": "Musculoskeletal system"
         },
         {
-            "code": "91112",
-            "display": "Gastroenterology"
-        },
-        {
             "code": "76942",
             "display": "Diagnostic ultrasound"
         },
@@ -5228,10 +5168,6 @@
         {
             "code": "15100",
             "display": "Integumentary system"
-        },
-        {
-            "code": "35371",
-            "display": "Cardiovascular system"
         },
         {
             "code": "22845",
@@ -5552,6 +5488,10 @@
         {
             "code": "50386",
             "display": "Urinary system"
+        },
+        {
+            "code": "64795",
+            "display": "Nervous system"
         },
         {
             "code": "11641",
@@ -6018,10 +5958,6 @@
             "display": "Musculoskeletal system"
         },
         {
-            "code": "32657",
-            "display": "Respiratory system"
-        },
-        {
             "code": "49002",
             "display": "Digestive system"
         },
@@ -6060,10 +5996,6 @@
         {
             "code": "C9601",
             "display": "Perc drug-el cor stent bran"
-        },
-        {
-            "code": "63076",
-            "display": "Nervous system"
         },
         {
             "code": "27570",
@@ -6346,10 +6278,6 @@
             "display": "Hemic and lymphatic systems"
         },
         {
-            "code": "63075",
-            "display": "Nervous system"
-        },
-        {
             "code": "42145",
             "display": "Digestive system"
         },
@@ -6388,10 +6316,6 @@
         {
             "code": "19300",
             "display": "Integumentary system"
-        },
-        {
-            "code": "28002",
-            "display": "Musculoskeletal system"
         },
         {
             "code": "28238",
@@ -6738,14 +6662,6 @@
             "display": "Integumentary system"
         },
         {
-            "code": "45190",
-            "display": "Digestive system"
-        },
-        {
-            "code": "67110",
-            "display": "Eye and ocular adnexa"
-        },
-        {
             "code": "13152",
             "display": "Integumentary system"
         },
@@ -6796,10 +6712,6 @@
         {
             "code": "91010",
             "display": "Gastroenterology"
-        },
-        {
-            "code": "26841",
-            "display": "Musculoskeletal system"
         },
         {
             "code": "11982",
@@ -7066,10 +6978,6 @@
             "display": "Respiratory system"
         },
         {
-            "code": "11424",
-            "display": "Integumentary system"
-        },
-        {
             "code": "61751",
             "display": "Nervous system"
         },
@@ -7330,10 +7238,6 @@
             "display": "Digestive system"
         },
         {
-            "code": "45386",
-            "display": "Digestive system"
-        },
-        {
             "code": "28545",
             "display": "Musculoskeletal system"
         },
@@ -7343,10 +7247,6 @@
         },
         {
             "code": "26356",
-            "display": "Musculoskeletal system"
-        },
-        {
-            "code": "22850",
             "display": "Musculoskeletal system"
         },
         {
@@ -8334,10 +8234,6 @@
             "display": "Respiratory system"
         },
         {
-            "code": "14061",
-            "display": "Integumentary system"
-        },
-        {
             "code": "31830",
             "display": "Respiratory system"
         },
@@ -8386,10 +8282,6 @@
             "display": "Digestive system"
         },
         {
-            "code": "48102",
-            "display": "Digestive system"
-        },
-        {
             "code": "23630",
             "display": "Musculoskeletal system"
         },
@@ -8407,10 +8299,6 @@
         },
         {
             "code": "24577",
-            "display": "Musculoskeletal system"
-        },
-        {
-            "code": "20220",
             "display": "Musculoskeletal system"
         },
         {
@@ -8816,10 +8704,6 @@
         {
             "code": "52001",
             "display": "Urinary system"
-        },
-        {
-            "code": "19126",
-            "display": "Integumentary system"
         }
     ]
 }
