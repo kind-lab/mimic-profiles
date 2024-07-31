@@ -12,7 +12,7 @@ FHIR profiles for MIMIC-IV. The MIMIC-IV and MIMIC-IV-ED databases have been mod
 
 
 3. Set up the IG Publisher
-- [Install Jekyll)(https://jekyllrb.com/docs/installation/) (need for the IG html output)
+- [Install Jekyll](https://jekyllrb.com/docs/installation/) (need for the IG html output)
 - Run `./_updatePublisher.sh` from the top of the repository to get the latest IG Publisher
   - If _updatePublisher.sh does not work you can manually download the [IG publisher](https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar.)
 
