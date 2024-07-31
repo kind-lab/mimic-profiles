@@ -582,10 +582,6 @@
             "display": "Hepatitis C Virus Antibody"
         },
         {
-            "code": "50944",
-            "display": "HIV Antibody"
-        },
-        {
             "code": "50945",
             "display": "Homocysteine"
         },
@@ -3292,10 +3288,6 @@
         {
             "code": "51696",
             "display": "Neural Tube Defect Risk"
-        },
-        {
-            "code": "51697",
-            "display": "Neutrophils"
         },
         {
             "code": "51698",
@@ -6307,10 +6299,6 @@
             "display": "COV13"
         },
         {
-            "code": "53104",
-            "display": "COVID-19, RAPID ANTIGEN"
-        },
-        {
             "code": "53105",
             "display": "E GENE CT"
         },
@@ -6501,6 +6489,14 @@
         {
             "code": "53152",
             "display": "HIV FINAL"
+        },
+        {
+            "code": "53153",
+            "display": "HIV Screen"
+        },
+        {
+            "code": "53154",
+            "display": "Lactate"
         }
     ]
 }

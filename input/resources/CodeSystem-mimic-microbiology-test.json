@@ -482,10 +482,6 @@
             "display": "R/O GROUP B BETA STREP"
         },
         {
-            "code": "90200",
-            "display": "STAT OR Gram Stain"
-        },
-        {
             "code": "90067",
             "display": "TISSUE CULTURE-AMNIOTIC FLUID"
         },

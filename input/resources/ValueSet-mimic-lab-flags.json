@@ -1,0 +1,20 @@
+{
+    "resourceType": "ValueSet",
+    "id": "mimic-lab-flags",
+    "language": "en",
+    "url": "http://mimic.mit.edu/fhir/mimic/ValueSet/mimic-lab-flags",
+    "version": "2.0",
+    "name": "MimicLabFlags",
+    "title": "MimicLabFlags",
+    "status": "draft",
+    "date": "2022-09-21T13:59:43-04:00",
+    "publisher": "KinD Lab",
+    "description": "The lab alarm flags for abnormal lab events in MIMIC",
+    "compose": {
+        "include": [
+            {
+                "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-lab-flags"
+            }
+        ]
+    }
+}

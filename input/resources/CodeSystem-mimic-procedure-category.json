@@ -14,25 +14,37 @@
     "content": "complete",
     "concept": [
         {
+            "code": "17 - Inhaled Meds"
+        },
+        {
             "code": "CRRT Filter Change"
-        },
-        {
-            "code": "Ventilation"
-        },
-        {
-            "code": "Peripheral Lines"
-        },
-        {
-            "code": "Procedures"
         },
         {
             "code": "Communication"
         },
         {
+            "code": "Continuous Procedures"
+        },
+        {
+            "code": "Dialysis"
+        },
+        {
+            "code": "Imaging"
+        },
+        {
+            "code": "Intubation/Extubation"
+        },
+        {
+            "code": "Invasive Lines"
+        },
+        {
+            "code": "Peripheral Lines"
+        },
+        {
             "code": "Peritoneal Dialysis"
         },
         {
-            "code": "Continuous Procedures"
+            "code": "Procedures"
         },
         {
             "code": "Significant Events"
@@ -41,19 +53,7 @@
             "code": "Tubes"
         },
         {
-            "code": "Intubation/Extubation"
-        },
-        {
-            "code": "Dialysis"
-        },
-        {
-            "code": "17 - Inhaled Meds"
-        },
-        {
-            "code": "Imaging"
-        },
-        {
-            "code": "Invasive Lines"
+            "code": "Ventilation"
         }
     ]
 }

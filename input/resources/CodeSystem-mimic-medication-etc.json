@@ -262,14 +262,6 @@
             "display": "Medical Supply, FDB Superset"
         },
         {
-            "code": "00006647",
-            "display": "Analgesic Opioid Dihydrocodeine, Non-Salicylate Analgesic,Xanthine"
-        },
-        {
-            "code": "00001180",
-            "display": "Medical Supplies and DME - Male Condoms"
-        },
-        {
             "code": "00002729",
             "display": "Non-Cardiac Selective Beta Blocker-Thiazide Diuretic and Related Comb."
         },
@@ -394,12 +386,12 @@
             "display": "Contraceptive Intrauterine - Progesterone IUD"
         },
         {
-            "code": "00006020",
-            "display": "Dermatological - Antifungal Hydroxypyridinone"
-        },
-        {
             "code": "00003649",
             "display": "Salicylate Analgesic Combinations"
+        },
+        {
+            "code": "00006020",
+            "display": "Dermatological - Antifungal Hydroxypyridinone"
         },
         {
             "code": "00006525",
@@ -1130,10 +1122,6 @@
             "display": "Antiretroviral Combinations - Protease Inhibitors"
         },
         {
-            "code": "00000666",
-            "display": "Vitamins - PABA"
-        },
-        {
             "code": "00000321",
             "display": "Expectorants - Single Agents, General"
         },
@@ -1399,7 +1387,7 @@
         },
         {
             "code": "00006377",
-            "display": "Antiretroviral- Nucleoside and Nucleotide Analogs,Integrase Inhibitors"
+            "display": "Antiretroviral-Integrase Inhibitor,Nucleoside and Nucleotide RTIs Comb"
         },
         {
             "code": "00005808",
@@ -1918,12 +1906,12 @@
             "display": "Irrigation Solutions"
         },
         {
-            "code": "00002869",
-            "display": "Urinary Tract Protective Agents used in conjunction with Chemotherapy"
-        },
-        {
             "code": "00003424",
             "display": "Dermatological - Astringent Combinations"
+        },
+        {
+            "code": "00002869",
+            "display": "Urinary Tract Protective Agents used in conjunction with Chemotherapy"
         },
         {
             "code": "00000367",
@@ -2694,12 +2682,12 @@
             "display": "Pulmonary Fibrosis Treatment Agents - Multikinase Inhibitors"
         },
         {
-            "code": "00006492",
-            "display": "Sedative-Hypnotic - Orexin Receptor Antagonist"
-        },
-        {
             "code": "00000131",
             "display": "Estrogen-Androgen"
+        },
+        {
+            "code": "00006492",
+            "display": "Sedative-Hypnotic - Orexin Receptor Antagonist"
         },
         {
             "code": "00005675",
@@ -2768,10 +2756,6 @@
         {
             "code": "00000922",
             "display": "Mouth and Throat - Artificial Saliva"
-        },
-        {
-            "code": "00000103",
-            "display": "Antineoplastic - Antiadrenals"
         },
         {
             "code": "00002864",
@@ -3032,6 +3016,10 @@
         {
             "code": "00000954",
             "display": "Dermatological - Antipruritics Combinations"
+        },
+        {
+            "code": "00000134",
+            "display": "Estrogen-Progestin"
         },
         {
             "code": "00006589",
@@ -3362,10 +3350,6 @@
             "display": "Dermatological - Topical Local Anesthetic Others"
         },
         {
-            "code": "00000588",
-            "display": "Analgesic Opioid Dihydrocodeine Combinations"
-        },
-        {
             "code": "00006487",
             "display": "DMARD - Antimalarials"
         },
@@ -3422,16 +3406,8 @@
             "display": "Antiparkinson Therapy - Monoamine Oxidase Inhibitor(MAO-B)"
         },
         {
-            "code": "00003746",
-            "display": "Ophthalmic - Surgical Aids Other"
-        },
-        {
             "code": "00000903",
             "display": "Mouth and Throat - Glucocorticoids"
-        },
-        {
-            "code": "00000134",
-            "display": "Estrogen-Progestin"
         },
         {
             "code": "00002848",
@@ -3994,12 +3970,12 @@
             "display": "Antifungal - Allylamines"
         },
         {
-            "code": "00001164",
-            "display": "Medical Supplies and DME - Gauze Bandages"
-        },
-        {
             "code": "00000882",
             "display": "Contact Lens Preparation - Soft Lens Products"
+        },
+        {
+            "code": "00001164",
+            "display": "Medical Supplies and DME - Gauze Bandages"
         },
         {
             "code": "00006466",
@@ -4780,10 +4756,6 @@
         {
             "code": "00006696",
             "display": "Sodium Chloride Flushes"
-        },
-        {
-            "code": "00004540",
-            "display": "Antiemetic - Other"
         },
         {
             "code": "00001228",
